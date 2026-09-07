@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gokhan Mergen</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1f2937;
+      --text-muted: #4b5563;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --card-bg: #f9fafb;
+      --border: #e5e7eb;
+      --chip-bg: #f3f4f6;
+      --chip-hover: #e5e7eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --text: #f9fafb;
+        --text-muted: #9ca3af;
+        --primary: #60a5fa;
+        --primary-hover: #93c5fd;
+        --card-bg: #1f2937;
+        --border: #374151;
+        --chip-bg: #1f2937;
+        --chip-hover: #374151;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-bottom: 36px;
+    }
+    @media (max-width: 580px) {
+      .hero {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+      }
+    }
+    .avatar-wrapper {
+      flex-shrink: 0;
+    }
+    .avatar {
+      width: 144px;
+      height: 185px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      border: 1px solid var(--border);
+      display: block;
+      transition: transform 0.2s ease;
+    }
+    .avatar:hover {
+      transform: scale(1.02);
+    }
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex-grow: 1;
+    }
+    .nav-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: all 0.15s ease;
+      width: fit-content;
+    }
+    .nav-item:hover {
+      background: var(--chip-hover);
+      color: var(--primary);
+      border-color: var(--primary);
+      transform: translateX(3px);
+    }
+    .nav-icon {
+      font-size: 1.1rem;
+    }
+    section {
+      margin-bottom: 36px;
+    }
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .bio-text {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Gokhan Mergen</h1>
+    </header>
+
+    <div class="hero">
+      <div class="avatar-wrapper">
+        <a href="gokhan2.jpg">
+          <img src="gokhan.jpg" alt="Gokhan Mergen" class="avatar">
+        </a>
+      </div>
+      <nav class="nav-links">
+        <a href="pubs.html" class="nav-item">
+          <span class="nav-icon">📄</span>
+          <span>Publications &amp; Patents</span>
+        </a>
+        <a href="quantBibliography.html" class="nav-item">
+          <span class="nav-icon">📊</span>
+          <span>Quantitative Finance</span>
+        </a>
+        <a href="https://github.com/gokhanmergen/" target="_blank" class="nav-item">
+          <span class="nav-icon">💻</span>
+          <span>GitHub</span>
+        </a>
+        <a href="https://scholar.google.com/citations?user=YxQMlKYAAAAJ&amp;hl=en" target="_blank" class="nav-item">
+          <span class="nav-icon">🎓</span>
+          <span>Google Scholar</span>
+        </a>
+        <a href="http://www.flickr.com/photos/starchild3001/sets/72157594559577777/" target="_blank" class="nav-item">
+          <span class="nav-icon">📷</span>
+          <span>Photography</span>
+        </a>
+      </nav>
+    </div>
+
+    <section>
+      <h2>Biography</h2>
+      <p class="bio-text">
+        Gokhan Mergen received the MS &amp; PhD degrees in Electrical and Computer Engineering from Cornell University (the latter in Jan. 2005). His interests include statistical signal processing, machine learning and applying these technologies to solve real-world problems.
+      </p>
+    </section>
+
+    <footer>
+      &copy; Gokhan Mergen &bull; <a href="https://www.gokhanmergen.com/" style="color: inherit; text-decoration: none;">gokhanmergen.com</a>
+    </footer>
+  </div>
+</body>
+</html>
