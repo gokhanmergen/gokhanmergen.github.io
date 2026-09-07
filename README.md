@@ -6,6 +6,7 @@ Personal website for Gokhan Mergen, featuring his biography, publications, quant
 
 - `index.html` — responsive homepage and biography
 - `pubs.html` — publications, patents, and related paper links
+- `research.html` — research spotlight for four machine learning and AI works
 - `quantBibliography.html` — quantitative finance bibliography and research notes
 - `styles.css` — homepage layout and responsive styling
 - `pubs/` — downloadable papers and presentation slides
