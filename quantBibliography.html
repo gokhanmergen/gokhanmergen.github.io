@@ -1,169 +1,230 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head>
-<meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Gokhan Mergen Quantitative Financetitle&gt;</title></head>
-<body alink="#cc66cc" link="#800080" vlink="#cc0000">
-<table style="text-align: left; width: 915px; font-family: Arial;" border="0" cellpadding="2" cellspacing="2">
-<tbody>
-<tr>
-<td style="width: 63px;" align="undefined" valign="undefined"></td>
-<td style="width: 835px;" align="undefined" valign="undefined">
-<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"><b><span style="font-size: 18pt; color: rgb(51, 102, 255);">Gökhan
-Mergen - Quantitative Finance</span></b><span style="font-size: 10pt;"></span><span style="font-size: 12pt;"><o:p></o:p></span></p>
-<div class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center; line-height: normal;" align="center"><span style="font-size: 12pt;">
-<hr align="center" size="3" width="100%"></span></div><span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"></span><span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"><div style="border-style: solid; border-color: rgb(204, 204, 204) rgb(187, 187, 187) rgb(187, 187, 187) rgb(204, 204, 204); border-width: 1px 2px 2px 1px; margin: 15px auto 25px; padding: 40px 50px; font-family: Arial; font-size: 12pt; background-color: rgb(255, 255, 255); min-height: 1100px; line-height: normal; width: 648px ! important;"><div style="margin-top: 0px; margin-bottom: 0px; color: rgb(153, 51, 153);"><font class="Apple-style-span"><font size="5"><b>Bibliography</b></font></font></div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div>Quantitative
-finance is a fascinating area for anyone who has the mathematical
-background to understand quant theory and has funds to invest. I
-decided to share some interesting papers, books and web sites here.
-These references cover a wide range of areas including machine
-learning, trading, portfolio optimization and market microstructure.
-Most references are freely available on the web if you do a search.<br><br>It
-needs to be emphasized this is a personal survey from the point of
-someone who has a good understanding of probability theory, statistics,
-signal processing etc. The emphasis is on estimating future returns of
-financial instruments based on past price information, relative value
-strategies and other signals that are combined via state of the art
-machine learning methods.&nbsp;<br><br><i>[1] The Elements of Statistical Learning, T. Hastie, R. Tibshirani, J. H. Friedman, July 2003.<span class="Apple-converted-space">&nbsp;</span></i><br><br>This
-book can be considered as the bible of quantitative finance for anyone
-who's looking for predictable patterns in financial markets. Key
-notions of overlearning, overfitting and generalization ability of
-learners are discussed. Lots (and, I mean lots) of practical algorithms
-are presented. Very valuable reference and a good starting point.<br><br>What's
-the catch? The area of machine learning &amp; pattern recognition is
-huge. This book is just a starting point. You need to read the original
-papers to understand what's going on at a deeper level.<br><br><i>[2]&nbsp; ECE 901: Statistical Learning Theory, lecture notes by Rob Nowak.<span class="Apple-converted-space">&nbsp;</span></i><br><br>I
-would recommend this if you want to understand the theory of
-statistical learning. Theory and practice tend to differ a lot&nbsp;
-when it comes to machine learning (as is true for many disciplines).
-Theory gives a lot of insight when it comes to design of algorithms,
-yet performance of most algorithms are demonstrated via simulations. In
-heart, I tend to agree with Vladimir N. Vapnik, who said "there's
-nothing more practical than a good theory." ;)<br><br><i>[3] News and trading rules, J.D. Thomas, PhD Thesis, Carnegie Mellon Univ., Pittsburgh, 2003.<br></i><br>I
-believe that financial markets are by and large efficient, and any
-single signal has little predictive power. What's the consequence?
-Statistical learners tend to operate in the low SNR regime. In other
-words, your signals will be weakly correlated with future returns and
-misclassification errors will be large.<br><br>This thesis gave me the
-valuable perspective that the goal of learning algorithm design should
-be robustness to noise. You particularly appreciate this point of view
-when working with daily or weekly data sets (small sample size).
-Noisiness of data suggests a different way of looking at the problem:
-The goal is not to find the best single (and, potentially complex)
-predictor, but to find lots of simple predictors each marginally
-powerful, yet when combined, provide significant predictive power &amp;
-robustness. My experience has been that an optimized neural network
-(i.e. a complex learner) can have much worse generalization ability
-than an ensemble of equal-weight combined linear predictors (searched
-randomly and filtered based on performance in training set).<br><br>The
-thesis also teaches a good lesson on how to do quant research: You
-should have a null hypothesis (H0) and compute p-value and z-scores
-based on H0 to test predictive power. I tend to use heteroschedastic
-random walk as H0 in my tests. If you have a large enough data set, you
-may not use H0 and rely solely on cross-validation.&nbsp;<br><br><i>[4] L. Breiman, "Stacked regressions," Machine Learning, Springer, 1996.<br></i><br>Ensemble
-methods are the name of the game in statistical learning. You should
-definitely check out papers on bagging, boosting &amp; variants. This
-paper proposes combining multiple predictors linearly with non-negative
-weights. The weights are chosen via leave-one-out cross validation. The
-method is very intuitive and relatively easy to implement.<br><br><i>[5]
-&nbsp;A. W. Lo and C. MacKinlay, "Stock Market Prices Do Not Follow
-Random Walks: Evidence from a Simple Specification Test," Review of
-Financial Studies, vol. 1, pp. 41-66, 1988</i><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">This
-paper introduced the Variance Ratio (VR) test. What's VR test? Suppose
-you have a time-series and you want to understand its "character". The
-question you want to answer is: i) Is the time-series "trending" (i.e.
-positive returns tend to be followed by positive returns, and negatives
-followed by negative); ii) is it "mean reverting"? (i.e. sigs of
-consecutive returns tend to be opposite---negative serial correlation);
-or, iii) is there no correlation between consecutive returns (i.e.
-random walk). VR test gives an answer to this question. The paper also
-finds an asymptotic formula for the statistical significance of the
-result (z-score). When applied to stocks, I find it pretty remarkable
-that VR test can reveal this information, whereas observing the
-auto-correlation function directly barely shows any temporal
-correlation. See reference [8] below for an excellent introduction to
-VR with examples.&nbsp;</div><div style="margin-top: 0px; margin-bottom: 0px;"><br><i>[6] Marketsci Blog (marketsci.wordpress.com)<br></i><br>I
-love this blog. Suppose you ran a VR test on S&amp;P 500 index
-time-series, and found that it's strongly mean-reverting over 5-15 days
-(from year 2000 and onwards, this is true!). How are you going to
-exploit this seeming inefficiency? This blog finds &amp; back-tests a
-multitude of indicators that can help you. The strategies presented
-tend to be contrarian (i.e. they bet on mean-reversion one way or
-another). What are the indicators? Some are very simple: i) Daily
-follow through (bet that S&amp;P will go up [down] tomorrow if it went
-down [up] today); ii) Various forms of moving average (interpreted in
-contrarian manner); iii) RSI(2) etc. The remarkable thing is that these
-indicators gave good &amp; statistically-significant performance in the
-last 10 years accross all time periods. My back-testing shows that
-combining some of these indictators using ensemble techniques gives
-decent out-of-sample performance. The author's own trading performance,
-audited independently, can also be found on marketsci web site.<br><br>I
-want&nbsp; to add a brief note on the usefulness of technical
-indicators. While academic papers debunk the utility of technical
-indicators, I find it pretty staggering that the strategies outlined in
-this blog are working. Based on my estimates, the demonstrated
-performance is statistically significant and can be much improved by
-ensemble techniques out-of-sample. My own take on technical indicators
-is that a good technical indicator should rather be based on short-term
-price information relative to sample size. Market rules tend to change
-over time and ensuring statistical significance in the recent past is
-the key. "Ensemble of technical indicators" is a much larger class of
-learners than individual technical indicators. If a price series is
-predictable from its past, it's likely to be predictable via an
-ensemble of technical indicators.<br><br><i>[7] Pairs Trading: Quantitative Methods and Analysis, G. Vidyamurthy, Wiley Finance, 2004.&nbsp;</i><span class="Apple-converted-space">&nbsp;</span> <span class="Apple-converted-space">&nbsp;</span><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">One
-of the best quant/trading books I've read. The author gives an
-excellent overview of pairs trading methodology. Written in a simple
-language for a reader with signal processing background. Has a nice
-section on Arbitrage Pricing Theory. This book inspired me to try
-principal component analysis on stock-price time series (or,
-stock-returns) to decompose them into uncorrelated components.&nbsp;</div></div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;"><i>[8]
-A Computational Methodology for Modelling the Dynamics of Statistical
-Arbitrage, Andrew Neil Burgess, PhD Thesis, London Business School,
-1999.&nbsp;<br></i><br></div><div style="margin-top: 0px; margin-bottom: 0px;">This
-not-so-well-known thesis is an excellent reference on cointegration
-(i.e. relative value) strategies for stocks. It also introduces the
-Variance Ratio test with excellent visuals &amp; examples.</div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">What's
-cointegration? Two or more time-series is called cointegrated if a
-linear combination of the series is stationary, while the series
-themselves are not. This means that profit is possible by betting on
-the direction of linear combinations of stock prices. In this sense,
-cointegration is a generalization of pairs trading. While pairs trading
-bets on the relative moves of two time-series (it's usually a
-convergence bet), cointegration bets on linear combinations of two or
-more time-series.&nbsp;</div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">It
-should be noted that a cointegration bet doesn't always have to be for
-convergence. As long as the statistics of the stationary time-series is
-known, one can bet in either direction (convergence or divergence)
-depending on price history &amp; statistics of the series. I would
-recommend you to check Principal Component Analysis (PCA) and other
-blind source separation techniques for finding linear combining weights
-that yield stationarity.&nbsp;</div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;"><i>[9]
-E. O. Thorp, "The Kelly Criterion in Blackjack, Sports Betting, and the
-Stock Market," The 10th International Conference on Gambling and Risk
-Taking Montreal, June 1997.</i></div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">As
-you must have noticed from the order of references, the most basic
-prediction problem deals with estimating future returns for a single
-time-series. The next step is to bet on relationships between two
-time-series (pairs trading) and then to several (cointegration).&nbsp;</div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">Assuming
-you estimated the mean and covariance of future returns of multiple
-instruments, how do allocate your funds? Kelly criterion addresses this
-question with the criterion that the goal is to maximize the growth
-rate of your capital. You need to know (or, have an estimate of) joint
-distribution of future returns. Knowing the mean and covariance of
-future returns suffices up to a 2nd order approximation.&nbsp;</div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">A
-not-so-well-known property of Kelly criterion is that it maximizes the
-Sharp ratio under an L2-norm constraint on portfolio weights. I
-mathematically proved this myself and haven't seen it mentioned
-anywhere. Ping me if you want to learn more.&nbsp;</div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;"><i>[10]
-Quantitative Equity Portfolio Management: An Active Approach to
-Portfolio Construction and Management, L. B Chincarini and Daehwan Kim,
-McGraw-Hill Library of Investment and Finance, 2006.&nbsp;</i></div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">Excellent
-introduction to factor models. Particularly liked the sections on market anomalies and popular
-fundamental factors. Much more readible than a standard reference in
-this area (Grinold and Kahn). The presented approach is not very useful
-if you lack quantitative fundamental data.</div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;"><i>[11] How markets slowly digest changes in supply and demand, J.P. Bouchaud, J.D. Farmer, F. Lillo.</i></div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">Market
-microstructure survey. A must read if you want to understand the price
-formation process in stock markets. The first author has lots of
-interesting articles.&nbsp;</div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;"><i>[12]&nbsp;</i><a href="http://arxiv.org/archive/q-fin" style="color: rgb(85, 26, 139);"><i>http://arxiv.org/archive/q-fin</i></a></div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">The best place to find new and interesting finance articles.&nbsp;</div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;"><div style="margin-top: 0px; margin-bottom: 0px; color: rgb(153, 51, 153);"><b><font class="Apple-style-span"><font size="5">Research projects</font></font></b></div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;">These
-are some research projects I've worked on. Pointers to my approach are
-outlined above. &nbsp;</div><div style="margin-top: 0px; margin-bottom: 0px;"><br></div><div style="margin-top: 0px; margin-bottom: 0px;"><ul style="margin-top: 0px; margin-bottom: 0px;"><li style="margin-top: 0px; margin-bottom: 0px;">&nbsp;S&amp;P 500 index daily return estimation from past prices</li><ul style="margin-top: 0px; margin-bottom: 0px;"><li style="margin-top: 0px; margin-bottom: 0px;">Find price-based and seasonal signals that are correlated with tomorrow&#8217;s return (linear base learner).</li><li style="margin-top: 0px; margin-bottom: 0px;">Distinguish
-&#8220;fake patterns&#8221; from real ones by computing p-values and z-scores with
-respect to heteroschedastic random walk.&nbsp;</li><li style="margin-top: 0px; margin-bottom: 0px;">Combine multiple estimators via ensemble methods. </li></ul><li style="margin-top: 0px; margin-bottom: 0px;">Trading<span class="Apple-converted-space">&nbsp;</span><a id="s4lp" href="http://finance.yahoo.com/echarts?s=SPY#chart3:symbol=spy;range=1y;compare=ivw+iwb+iwd+iwf+iwv+ive+qqqq+spy+dia;charttype=line;crosshair=on;ohlcvalues=0;logscale=on;source=undefined" target="_blank" title="cointegrated large-cap ETFs" style="color: rgb(85, 26, 139);">cointegrated large-cap ETFs</a></li><ul style="margin-top: 0px; margin-bottom: 0px;"><li style="margin-top: 0px; margin-bottom: 0px;">Principal component analysis to decompose daily returns.</li><li style="margin-top: 0px; margin-bottom: 0px;">Optimal linear estimation of return for each component.</li><li style="margin-top: 0px; margin-bottom: 0px;">Kelly betting based on estimated mean and covariance of returns.&nbsp;</li></ul><li style="margin-top: 0px; margin-bottom: 0px;">K Nearest-Neighbor (kNN) classifier from daily bars.</li><ul><li style="margin-top: 0px; margin-bottom: 0px;">Branch-and-bound based optimized C++ implementation for kNN classifier.</li><li style="margin-top: 0px; margin-bottom: 0px;">Daily bars seem to have statistically-significant predictive power for Russell 2000 (small-cap) stocks but not for large caps.</li><li style="margin-top: 0px; margin-bottom: 0px;">Predictive power is strongest in 2000-2004 and diminishes in time. </li></ul></ul></div><div style="margin-top: 0px; margin-bottom: 0px;"><br>This page was made before I took a full time job in an algorithmic trading company in Dec 2009. Good luck! <br></div></div></div></span><br class="Apple-interchange-newline"></td></tr></tbody></table></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gokhan Mergen's personal reading list and notes on quantitative finance, statistical learning, trading, portfolio optimization, and market microstructure.">
+  <title>Quantitative Finance | Gokhan Mergen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="finance-page">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gokhan Mergen home">Gokhan <span>Mergen</span></a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html#about">About</a>
+        <a class="nav-link" href="pubs.html">Publications</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/gokhanmergen/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="nav-link" href="quantBibliography.html" aria-current="page">Quant finance</a>
+        <a class="nav-link" href="https://github.com/gokhanmergen/" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <header class="finance-intro">
+        <p class="eyebrow">Notes · markets · learning from data</p>
+        <h1 id="page-title">Quantitative finance</h1>
+        <p class="page-lede">A personal reading list and research notebook on statistical learning, trading, portfolio construction, and market microstructure.</p>
+        <div class="page-actions">
+          <a class="button button-secondary" href="index.html">← Back home</a>
+          <a class="button button-primary" href="#research-projects">Research projects <span aria-hidden="true">↓</span></a>
+        </div>
+      </header>
+
+      <div class="finance-content">
+        <section class="finance-overview" aria-labelledby="overview-title">
+          <div class="overview-mark" aria-hidden="true">01</div>
+          <div>
+            <p class="section-kicker">A personal survey</p>
+            <h2 id="overview-title">Ideas for finding signal in noisy markets.</h2>
+            <p>Quantitative finance is a fascinating area for anyone who has the mathematical background to understand quant theory and has funds to invest. I decided to share some interesting papers, books, and websites here. These references cover a wide range of areas including machine learning, trading, portfolio optimization, and market microstructure. Most references are freely available on the web.</p>
+            <p>This is a personal survey from the point of someone with a good understanding of probability theory, statistics, signal processing, and related fields. The emphasis is on estimating future returns of financial instruments based on past price information, relative-value strategies, and other signals that are combined via state-of-the-art machine learning methods.</p>
+          </div>
+        </section>
+
+        <section class="finance-section" id="reading-list" aria-labelledby="reading-list-title">
+          <div class="section-bar">
+            <div>
+              <p class="section-kicker">02 / Reading list</p>
+              <h2 id="reading-list-title">Books, papers, and resources</h2>
+            </div>
+            <span class="section-count">12 references</span>
+          </div>
+
+          <div class="reference-list">
+            <article class="finance-reference">
+              <div class="reference-number">01</div>
+              <div class="reference-content">
+                <h3>The Elements of Statistical Learning</h3>
+                <p class="reference-meta">T. Hastie, R. Tibshirani, J. H. Friedman · July 2003</p>
+                <p>This book can be considered the bible of quantitative finance for anyone looking for predictable patterns in financial markets. Key notions of overlearning, overfitting, and generalization ability are discussed, alongside a large collection of practical algorithms. It is a valuable reference and a good starting point.</p>
+                <p>What’s the catch? The area of machine learning and pattern recognition is huge. This book is just a starting point; you need to read the original papers to understand what’s happening at a deeper level.</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">02</div>
+              <div class="reference-content">
+                <h3>ECE 901: Statistical Learning Theory</h3>
+                <p class="reference-meta">Lecture notes by Rob Nowak</p>
+                <p>I would recommend this if you want to understand the theory of statistical learning. Theory and practice tend to differ when it comes to machine learning, as they do in many disciplines. Theory gives insight into algorithm design, yet the performance of most algorithms is demonstrated via simulations. In spirit, I tend to agree with Vladimir N. Vapnik: “There’s nothing more practical than a good theory.”</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">03</div>
+              <div class="reference-content">
+                <h3>News and Trading Rules</h3>
+                <p class="reference-meta">J. D. Thomas · PhD thesis, Carnegie Mellon University · 2003</p>
+                <p>I believe that financial markets are by and large efficient, and any single signal has little predictive power. Statistical learners tend to operate in the low-SNR regime: signals are weakly correlated with future returns and misclassification errors are large.</p>
+                <p>This thesis gave me the valuable perspective that learning algorithms should be robust to noise. With daily or weekly data sets, the goal is not to find the best single, potentially complex predictor, but to find many simple predictors that are marginally powerful and, when combined, provide predictive power and robustness. My experience has been that an optimized neural network can have much worse generalization ability than an ensemble of equally weighted linear predictors.</p>
+                <p>The thesis also offers a good lesson in quant research: have a null hypothesis (H<sub>0</sub>) and compute p-values and z-scores against it to test predictive power. I tend to use a heteroscedastic random walk as H<sub>0</sub> in my tests. With a large enough data set, cross-validation may be sufficient.</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">04</div>
+              <div class="reference-content">
+                <h3>Stacked Regressions</h3>
+                <p class="reference-meta">L. Breiman · Machine Learning, Springer · 1996</p>
+                <p>Ensemble methods are the name of the game in statistical learning. You should check out papers on bagging, boosting, and related variants. This paper proposes combining multiple predictors linearly with non-negative weights, chosen via leave-one-out cross-validation. The method is intuitive and relatively easy to implement.</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">05</div>
+              <div class="reference-content">
+                <h3>Stock Market Prices Do Not Follow Random Walks</h3>
+                <p class="reference-meta">A. W. Lo and C. MacKinlay · Review of Financial Studies, vol. 1, pp. 41–66 · 1988</p>
+                <p>This paper introduced the Variance Ratio (VR) test. Suppose you have a time series and want to understand its character: is it trending, mean-reverting, or uncorrelated like a random walk? The VR test gives an answer and an asymptotic formula for statistical significance.</p>
+                <p>When applied to stocks, I find it remarkable that the VR test can reveal this information, whereas observing the autocorrelation function directly barely shows any temporal correlation. See reference 8 below for an excellent introduction to VR with examples.</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">06</div>
+              <div class="reference-content">
+                <h3>Marketsci Blog</h3>
+                <p class="reference-meta">marketsci.wordpress.com</p>
+                <p>I love this blog. Suppose you ran a VR test on the S&amp;P 500 index time series and found that it was strongly mean-reverting over 5–15 days. How are you going to exploit this seeming inefficiency? The blog finds and back-tests a multitude of indicators that can help. The strategies tend to be contrarian, betting on mean reversion one way or another.</p>
+                <p>The indicators include daily follow-through, various forms of moving average interpreted in a contrarian manner, and RSI(2). The remarkable thing is that these indicators gave good and statistically significant performance across all time periods in the last decade examined. My back-testing shows that combining some of these indicators using ensemble techniques gives decent out-of-sample performance.</p>
+                <p>While academic papers debunk the utility of technical indicators, I find it staggering that the strategies outlined in this blog work. My take is that a good technical indicator should be based on short-term price information relative to sample size. Market rules change over time, so ensuring statistical significance in the recent past is key.</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">07</div>
+              <div class="reference-content">
+                <h3>Pairs Trading: Quantitative Methods and Analysis</h3>
+                <p class="reference-meta">G. Vidyamurthy · Wiley Finance · 2004</p>
+                <p>One of the best quant and trading books I’ve read. The author gives an excellent overview of pairs-trading methodology in simple language for a reader with a signal-processing background, with a useful section on Arbitrage Pricing Theory.</p>
+                <p>This book inspired me to try principal component analysis on stock-price time series, or stock returns, to decompose them into uncorrelated components.</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">08</div>
+              <div class="reference-content">
+                <h3>A Computational Methodology for Modelling the Dynamics of Statistical Arbitrage</h3>
+                <p class="reference-meta">Andrew Neil Burgess · PhD thesis, London Business School · 1999</p>
+                <p>This not-so-well-known thesis is an excellent reference on cointegration, or relative-value strategies, for stocks. It also introduces the Variance Ratio test with excellent visuals and examples.</p>
+                <p>Two or more time series are cointegrated if a linear combination of them is stationary while the series themselves are not. This means profit may be possible by betting on the direction of linear combinations of stock prices. Cointegration is a generalization of pairs trading: pairs trading bets on the relative moves of two time series, while cointegration bets on linear combinations of two or more.</p>
+                <p>A cointegration bet does not always have to be for convergence. As long as the statistics of the stationary time series are known, one can bet in either direction. I recommend checking Principal Component Analysis (PCA) and other blind source-separation techniques for finding linear combinations that yield stationarity.</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">09</div>
+              <div class="reference-content">
+                <h3>The Kelly Criterion in Blackjack, Sports Betting, and the Stock Market</h3>
+                <p class="reference-meta">E. O. Thorp · The 10th International Conference on Gambling and Risk Taking · Montreal · 1997</p>
+                <p>The most basic prediction problem deals with estimating future returns for a single time series. The next step is to bet on relationships between two time series, through pairs trading, and then on several series, through cointegration.</p>
+                <p>Assuming you estimated the mean and covariance of future returns for multiple instruments, how do you allocate your funds? The Kelly criterion addresses this by maximizing the growth rate of capital. You need to know, or estimate, the joint distribution of future returns; the mean and covariance suffice up to a second-order approximation.</p>
+                <p>A not-so-well-known property of the Kelly criterion is that it maximizes the Sharpe ratio under an L2-norm constraint on portfolio weights. I mathematically proved this myself and haven’t seen it mentioned anywhere. Ping me if you want to learn more.</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">10</div>
+              <div class="reference-content">
+                <h3>Quantitative Equity Portfolio Management</h3>
+                <p class="reference-meta">L. B. Chincarini and Daehwan Kim · McGraw-Hill Library of Investment and Finance · 2006</p>
+                <p>Excellent introduction to factor models. I particularly liked the sections on market anomalies and popular fundamental factors. It is much more readable than a standard reference in this area, such as Grinold and Kahn. The approach is not very useful if you lack quantitative fundamental data.</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">11</div>
+              <div class="reference-content">
+                <h3>How Markets Slowly Digest Changes in Supply and Demand</h3>
+                <p class="reference-meta">J. P. Bouchaud, J. D. Farmer, F. Lillo</p>
+                <p>Market microstructure survey. A must-read if you want to understand the price-formation process in stock markets. The first author has many interesting articles.</p>
+              </div>
+            </article>
+
+            <article class="finance-reference">
+              <div class="reference-number">12</div>
+              <div class="reference-content">
+                <h3><a class="reference-title-link" href="https://arxiv.org/archive/q-fin" target="_blank" rel="noopener noreferrer">Quantitative Finance on arXiv</a></h3>
+                <p class="reference-meta">arxiv.org/archive/q-fin</p>
+                <p>The best place to find new and interesting finance articles.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="finance-section" id="research-projects" aria-labelledby="research-projects-title">
+          <div class="section-bar">
+            <div>
+              <p class="section-kicker">03 / Applied work</p>
+              <h2 id="research-projects-title">Research projects</h2>
+            </div>
+            <span class="section-count">3 projects</span>
+          </div>
+          <p class="section-lede">Some research projects I’ve worked on, with pointers to the approach outlined in the reading list above.</p>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <span class="project-number">01</span>
+              <h3>S&amp;P 500 index daily return estimation from past prices</h3>
+              <ul>
+                <li>Find price-based and seasonal signals correlated with tomorrow’s return using a linear base learner.</li>
+                <li>Distinguish “fake patterns” from real ones by computing p-values and z-scores against a heteroscedastic random walk.</li>
+                <li>Combine multiple estimators via ensemble methods.</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <span class="project-number">02</span>
+              <h3>Trading <a href="https://finance.yahoo.com/echarts?s=SPY#chart3:symbol=spy;range=1y;compare=ivw+iwb+iwd+iwf+iwv+ive+qqqq+spy+dia;charttype=line;crosshair=on;ohlcvalues=0;logscale=on;source=undefined" target="_blank" rel="noopener noreferrer">cointegrated large-cap ETFs</a></h3>
+              <ul>
+                <li>Use principal component analysis to decompose daily returns.</li>
+                <li>Estimate the return of each component optimally with a linear model.</li>
+                <li>Apply Kelly betting based on estimated return means and covariances.</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <span class="project-number">03</span>
+              <h3>K Nearest-Neighbor (kNN) classifier from daily bars</h3>
+              <ul>
+                <li>Branch-and-bound-based optimized C++ implementation for a kNN classifier.</li>
+                <li>Daily bars seem to have statistically significant predictive power for Russell 2000 small-cap stocks but not for large caps.</li>
+                <li>Predictive power is strongest in 2000–2004 and diminishes over time.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <p class="historical-note">This page was written before I took a full-time job at an algorithmic trading company in Dec. 2009.</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <span>Gokhan Mergen</span>
+      <a href="#page-title">Back to top ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
