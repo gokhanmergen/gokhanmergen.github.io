@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A self-hosted photography archive by Gökhan Mergen.">
+  <title>Photography | Gökhan Mergen</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="photography-data.js" defer></script>
+  <script src="photography.js" defer></script>
+</head>
+<body class="photography-page">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gökhan Mergen home">Gökhan <span>Mergen</span></a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html#about">About</a>
+        <a class="nav-link" href="research.html">Research Spotlight</a>
+        <a class="nav-link" href="pubs.html">Publications</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/gokhanmergen/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="nav-link" href="quantBibliography.html">Quant finance</a>
+        <a class="nav-link" href="photography.html" aria-current="page">Photography</a>
+        <a class="nav-link" href="https://github.com/gokhanmergen/" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="photo-album-intro" aria-labelledby="page-title">
+        <div class="photo-album-copy">
+          <p class="eyebrow">Outside work · personal archive</p>
+          <h1 id="page-title">Photography</h1>
+          <div class="album-name-row">
+            <h2>Faves</h2>
+            <span>by Gökhan Mergen</span>
+          </div>
+          <p class="album-description">Some of the favourite photos I have taken.</p>
+        </div>
+
+        <div class="album-stats" aria-label="Archive details">
+          <div class="album-stat album-stat-primary"><strong id="photo-count">84</strong><span>photographs</span></div>
+          <div class="album-stat"><strong id="year-range">2007—2011</strong><span>years in the archive</span></div>
+        </div>
+      </section>
+
+      <section class="photo-library" aria-label="Photography archive">
+        <div class="photo-grid view-masonry" id="photo-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="photo-closing" aria-labelledby="photo-closing-title">
+        <div class="photo-closing-mark" aria-hidden="true"><span>∞</span></div>
+        <div>
+          <p class="section-kicker">A life outside the models</p>
+          <h2 id="photo-closing-title">A technical life still needs room for wonder.</h2>
+          <p>There is another kind of attention in photography: slowing down, looking closely, and finding pleasure in life's moments.</p>
+          <a class="button button-secondary" href="#page-title">Back to the top <span aria-hidden="true">↑</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Gökhan Mergen (c) 2026</span>
+      <a href="index.html">Back to the homepage ↑</a>
+    </footer>
+  </div>
+
+  <div class="photo-lightbox" id="photo-lightbox" hidden>
+    <div class="lightbox-backdrop" data-lightbox-close></div>
+    <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+      <div class="lightbox-toolbar">
+        <p class="lightbox-counter" id="lightbox-counter">01 / 84</p>
+        <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close photo viewer">×</button>
+      </div>
+      <button class="lightbox-nav lightbox-prev" id="lightbox-prev" type="button" aria-label="Previous photograph">←</button>
+      <figure class="lightbox-figure">
+        <img id="lightbox-image" src="" alt="">
+        <figcaption>
+          <div>
+            <h2 id="lightbox-title">Photograph</h2>
+            <p id="lightbox-meta"></p>
+          </div>
+          <div class="lightbox-actions">
+            <button class="lightbox-action" id="lightbox-favorite" type="button" aria-pressed="false"><span aria-hidden="true">☆</span> Favorite</button>
+            <a class="lightbox-action" id="lightbox-download" href="" download>Download <span aria-hidden="true">↓</span></a>
+          </div>
+        </figcaption>
+      </figure>
+      <button class="lightbox-nav lightbox-next" id="lightbox-next" type="button" aria-label="Next photograph">→</button>
+    </div>
+  </div>
+</body>
+</html>
