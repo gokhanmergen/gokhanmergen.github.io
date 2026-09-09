@@ -7,6 +7,13 @@ Personal website for Gokhan Mergen, featuring his biography, publications, quant
 - `index.html` — responsive homepage and biography
 - `pubs.html` — publications, patents, and related paper links
 - `research.html` — research spotlight for four machine learning and AI works
+- `blog.html` — “My Blog: Post AGI,” a notes archive for AI, systems, and useful automation
+- `blog-autonomous-ai.html` — first post: “Biggest AI Risk: Autonomous AI”
+- `blog-ai-job-apocalypse.html` — second post: “Why the Upcoming AI Job-Apocalypse Predictions Will Be Proven Wrong”
+- `blog-machine-economy.html` — third post: “The Rise of the Machine Economy”
+- `blog-ai-music-production.html` — fourth post: “Artificial Intelligence and Music Production”
+- `blog-ai-awakening.html` — fifth post: “The Awakening of Artificial Intelligence”
+- `blog-singularity-big-nothing.html` — sixth post: “Why the Technological Singularity May Be a Big Nothing”
 - `photography.html` — self-hosted photography archive and viewer
 - `quantBibliography.html` — quantitative finance bibliography and research notes
 - `styles.css` — homepage layout and responsive styling
