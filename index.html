@@ -6,6 +6,7 @@
   <meta name="description" content="The personal website of Gökhan Mergen, featuring his biography, publications, quantitative finance notes, code, and photography.">
   <title>Gökhan Mergen</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="timeline.js" defer></script>
 </head>
 <body>
   <div class="page-shell">
@@ -51,16 +52,153 @@
       </section>
 
       <section class="about-section" id="about" aria-labelledby="about-title">
-        <div class="section-heading">
+        <div class="section-heading about-heading">
           <p class="section-kicker">About</p>
           <h2 id="about-title">Biography</h2>
+          <p class="about-hint">Hover over or tap a milestone to read about it.</p>
         </div>
-        <div class="about-copy">
-          <p>I received my BS in Electrical Engineering and Mathematics (double major) from Middle East Technical University, and my MS and PhD in Electrical and Computer Engineering from Cornell University in 2005, with a minor in applied mathematics. My doctoral work was on signal processing and communications theory for wireless networks.</p>
 
-          <p>I spent five years at Qualcomm developing signal processing algorithms for mobile internet—work that produced 12 US patents and shipped in the company's 3.5G chipsets. I then moved to quantitative finance, spending nearly six years at RGM Advisors as a researcher and later partner, responsible for the P&amp;L of a portfolio trading low-to-mid single digit market share across world equity and futures markets, and building the ML models behind it. After a year at Apple building machine learning features for Apple Watch and a stint leading quants and developers at a hedge fund startup, I joined Google in 2017, where I now lead teams working on AI-driven personalization and intent modeling in Search Ads.</p>
+        <div class="timeline" data-timeline>
+          <ol class="timeline-track" aria-label="Career timeline">
+            <li class="timeline-item timeline-item-education">
+              <button class="timeline-node" type="button" aria-controls="timeline-panel" aria-expanded="false">
+                <span class="timeline-node-period">2000</span>
+                <span class="timeline-node-marker" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 10 12 5l10 5-10 5-10-5z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+                </span>
+                <span class="timeline-node-org">METU</span>
+                <span class="timeline-node-role">EE + Math</span>
+              </button>
+              <div class="timeline-item-body">
+                <p class="timeline-body-kicker">Education · Middle East Technical University · 2000</p>
+                <h3>BS in Electrical Engineering and Mathematics</h3>
+                <p>A double major in Electrical Engineering and Mathematics at Middle East Technical University in Ankara.</p>
+                <ul class="timeline-facts">
+                  <li>Double major</li>
+                </ul>
+              </div>
+            </li>
 
-          <p>I've served on the Electrical Engineering advisory committee at San José State University since 2019.</p>
+            <li class="timeline-item timeline-item-education">
+              <button class="timeline-node" type="button" aria-controls="timeline-panel" aria-expanded="false">
+                <span class="timeline-node-period">2005</span>
+                <span class="timeline-node-marker" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 10 12 5l10 5-10 5-10-5z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/><path d="M22 10v6"/></svg>
+                </span>
+                <span class="timeline-node-org">Cornell</span>
+                <span class="timeline-node-role">MS + PhD</span>
+              </button>
+              <div class="timeline-item-body">
+                <p class="timeline-body-kicker">Education · Cornell University · 2005</p>
+                <h3>MS and PhD in Electrical and Computer Engineering</h3>
+                <p>Doctoral work on signal processing and communications theory for wireless networks, with a minor in applied mathematics.</p>
+                <ul class="timeline-facts">
+                  <li>Wireless networks</li>
+                  <li>Applied math minor</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline-item timeline-item-industry">
+              <button class="timeline-node" type="button" aria-controls="timeline-panel" aria-expanded="false">
+                <span class="timeline-node-period">2005–10</span>
+                <span class="timeline-node-marker" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M8.5 15.5a5 5 0 0 1 0-7"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M5.6 18.4a9 9 0 0 1 0-12.8"/><path d="M18.4 5.6a9 9 0 0 1 0 12.8"/></svg>
+                </span>
+                <span class="timeline-node-org">Qualcomm</span>
+                <span class="timeline-node-role">Signal processing</span>
+              </button>
+              <div class="timeline-item-body">
+                <p class="timeline-body-kicker">Industry · Qualcomm · five years</p>
+                <h3>Signal processing algorithms for mobile internet</h3>
+                <p>Developed algorithms that shipped in the company's 3.5G chipsets. The work produced 12 US patents.</p>
+                <ul class="timeline-facts">
+                  <li>12 US patents</li>
+                  <li>3.5G chipsets</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline-item timeline-item-finance">
+              <button class="timeline-node" type="button" aria-controls="timeline-panel" aria-expanded="false">
+                <span class="timeline-node-period">2010–16</span>
+                <span class="timeline-node-marker" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M4 16l5-6 4 3 7-8"/><path d="M16 5h4v4"/></svg>
+                </span>
+                <span class="timeline-node-org">RGM Advisors</span>
+                <span class="timeline-node-role">High frequency trading</span>
+              </button>
+              <div class="timeline-item-body">
+                <p class="timeline-body-kicker">Quantitative finance · RGM Advisors · nearly six years</p>
+                <h3>RGM Advisors · Researcher → Partner</h3>
+                <p>Responsible for the P&amp;L of a portfolio trading low-to-mid single digit market share across world equity and futures markets, and for building the ML models behind it.</p>
+                <ul class="timeline-facts">
+                  <li>Global equities and futures</li>
+                  <li>ML-driven trading</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline-item timeline-item-industry">
+              <button class="timeline-node" type="button" aria-controls="timeline-panel" aria-expanded="false">
+                <span class="timeline-node-period">2016</span>
+                <span class="timeline-node-marker" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="3"/><path d="M9 2h6l.5 4h-7z"/><path d="M9 22h6l.5-4h-7z"/><path d="M12 10v2.5l1.5 1"/></svg>
+                </span>
+                <span class="timeline-node-org">Apple</span>
+                <span class="timeline-node-role">Apple Watch ML</span>
+              </button>
+              <div class="timeline-item-body">
+                <p class="timeline-body-kicker">Industry · Apple · one year</p>
+                <h3>Machine learning features for Apple Watch</h3>
+                <p>A year building on-device machine learning features for Apple Watch.</p>
+                <ul class="timeline-facts">
+                  <li>Wearables</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline-item timeline-item-finance">
+              <button class="timeline-node" type="button" aria-controls="timeline-panel" aria-expanded="false">
+                <span class="timeline-node-period">2016–17</span>
+                <span class="timeline-node-marker" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 14.5A5 5 0 0 1 22 19"/></svg>
+                </span>
+                <span class="timeline-node-org">Hedge fund startup</span>
+                <span class="timeline-node-role">Led quants and devs</span>
+              </button>
+              <div class="timeline-item-body">
+                <p class="timeline-body-kicker">Quantitative finance · Hedge fund startup</p>
+                <h3>Leading quants and developers</h3>
+                <p>A stint leading the quantitative researchers and developers at a hedge fund startup.</p>
+                <ul class="timeline-facts">
+                  <li>Team leadership</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline-item timeline-item-industry" data-default>
+              <button class="timeline-node" type="button" aria-controls="timeline-panel" aria-expanded="false">
+                <span class="timeline-node-period">2017–now</span>
+                <span class="timeline-node-marker" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/><path d="M8.5 11a2.5 2.5 0 0 1 2.5-2.5"/></svg>
+                </span>
+                <span class="timeline-node-org">Google</span>
+                <span class="timeline-node-role">AI in Search Ads</span>
+              </button>
+              <div class="timeline-item-body">
+                <p class="timeline-body-kicker">Industry · Google · 2017 to present</p>
+                <h3>Leading teams on AI-driven personalization and intent modeling</h3>
+                <p>Since 2017, leading teams working on AI-driven personalization and intent modeling in Search Ads.</p>
+                <ul class="timeline-facts">
+                  <li>Personalization</li>
+                  <li>Intent modeling</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+
+          <div class="timeline-panel" id="timeline-panel" aria-live="polite"></div>
         </div>
       </section>
 
