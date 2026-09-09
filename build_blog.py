@@ -234,13 +234,13 @@ def render_markdown(markdown: str) -> str:
 def navigation() -> str:
     return """      <nav class="site-nav" aria-label="Primary navigation">
         <a class="nav-link" href="index.html#about">About</a>
+        <a class="nav-link" href="blog.html" aria-current="page">My Blog</a>
         <a class="nav-link" href="research.html">Research Spotlight</a>
         <a class="nav-link" href="pubs.html">Publications</a>
         <a class="nav-link" href="https://www.linkedin.com/in/gokhanmergen/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a class="nav-link" href="quantBibliography.html">Quant finance</a>
         <a class="nav-link" href="https://github.com/gokhanmergen/" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a class="nav-link" href="photography.html">Photography</a>
-        <a class="nav-link" href="blog.html" aria-current="page">My Blog: Post AGI</a>
       </nav>"""
 
 
