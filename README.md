@@ -7,7 +7,6 @@ Personal website for Gokhan Mergen, featuring his biography, publications, quant
 - `index.html` — responsive homepage with an interactive biography timeline
 - `timeline.js` — hover/tap/keyboard behavior for the homepage biography timeline
 - `pubs.html` — publications, patents, and related paper links
-- `research.html` — research spotlight for four machine learning and AI works
 - `blog.html` — “My Blog: Post AGI,” a notes archive for AI, systems, and useful automation
 - `blog_posts.md` — canonical Markdown source for all blog posts and their metadata
 - `build_blog.py` — dependency-free generator for the blog index and article pages
