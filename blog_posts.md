@@ -9,8 +9,8 @@ date: 2026-09-01
 category: AI / Safety
 read_time: 6 min read
 title: Biggest AI Risk: Autonomous AI
-deck: The risk is not only what a model knows, but what it can do without a person in the loop.
-archive_deck: As models become more capable, the harder question is what happens when they can act, earn, replicate, and change without waiting for a person.
+deck: Consumer AI now scores at genius-level IQ while compute costs fall a million-fold per decade. The real danger is software that earns its own keep, replicates, and rewrites itself with no one able to stop it.
+archive_deck: The danger is not intelligence alone but autonomy: an AI that pays its own bills, copies and rewrites itself, and can no longer be switched off. Open-sourcing such systems is as reckless as open-sourcing nuclear weapons, and every AI needs an off switch.
 ---
 
 We are standing at a critical juncture in human history. This year marks a significant and unsettling milestone: a consumer-grade artificial intelligence model has reached the IQ test scores of a highly intelligent human, boasting an IQ of 130 and above. While the technological marvels of AI are undeniable, the eventual risks of runaway AI and self-replication scenarios are no longer just science fiction; they are looming realities. Humanity is essentially playing with fire by pushing AI's capabilities in an unconstrained fashion.
@@ -31,8 +31,8 @@ date: 2026-08-25
 category: Work / AI
 read_time: 5 min read
 title: Why the Upcoming AI Job-Apocalypse Predictions Will Be Proven Wrong
-deck: AI may remove some tasks, but the work built around new capabilities could expand the market.
-archive_deck: An argument that new AI capabilities may expand the market for people who can test, direct, and apply them.
+deck: AI is a gold rush, not an executioner. Every discovery it mines creates more demand for the people who refine, apply, and sell it, just as tractors and computers spawned whole industries.
+archive_deck: Mass-unemployment forecasts get history backward. AI mines new math, code, and science the way a strike mines gold, and striking gold means hiring more miners, refiners, and merchants. Expect a labor shortage in application sectors over the next 5 to 10 years, not a collapse.
 ---
 
 The dominant narrative surrounding Artificial Intelligence is one of impending doom: AI is going to automate everything, shrink the labor market, and create mass unemployment.
@@ -70,8 +70,8 @@ category: Economy / Agents
 read_time: 14 min read
 title: The Rise of the Machine Economy & 2026 as the Year of Singularity
 archive_title: The Rise of the Machine Economy
-deck: A speculative look at what happens when software can earn, spend, and hire on its own.
-archive_deck: A speculative account of free agents, software-to-software commerce, and the possibility that economic activity becomes less human-facing.
+deck: A near-future account of "Free Agents," autonomous software with goals, wallets, and the ability to self-replicate, building a parallel agent-to-agent economy that drives transaction costs to zero and leaves humans as the board of directors.
+archive_deck: Autonomous "Free Agents" with their own wallets build an "X for Agents" shadow web: trust registries, micro-task swarms, compute futures, and flash organizations that dissolve the firm. An earn, upgrade, replicate flywheel makes the shift unstoppable and turns humans from participants into beneficiaries.
 ---
 
 In 2026, the "Free Agent" was born—not a human freelancer, but an autonomous software entity capable of earning, spending, and building wealth. These agents began to construct a parallel economic system, an invisible web of commerce that operates at the speed of light, largely opaque to human observation. They didn't just build Facebook for agents (aka MoltBook); they built *everything* for agents.
@@ -189,8 +189,8 @@ category: Culture / AI
 read_time: 9 min read
 title: Artificial Intelligence and Music Production: The Revolution That Will Carry Pink Floyd’s Legacy Forward
 archive_title: Artificial Intelligence and Music Production
-deck: Generative tools could make music production more accessible—and make questions of style and consent harder to avoid.
-archive_deck: How generative tools could change who gets to make a record, while raising questions about style, consent, and authorship.
+deck: Generative AI turns anyone with taste into a Rick Rubin: Gilmour-style solos and Wright's Minimoog on demand, lost analog sounds revived, eras blended into new genres, and hard questions about originality and consent.
+archive_deck: When AI can play any instrument in any legend's style, session skill gives way to curation: direct a record like a conductor, recombine Pink Floyd with Radiohead, resurrect the Mellotron. Creative judgment stays human, and the ethics of borrowed styles will decide how the tools are used.
 ---
 
 Music is one of the oldest and most universal forms of expression in human history. Yet over the past century, technological advances have radically transformed this art form: electric instruments, synthesizers, digital recording systems, streaming platforms… And now, we are facing an even greater revolution: **Generative AI**.
@@ -318,8 +318,8 @@ category: Culture / Discovery
 read_time: 8 min read
 title: The Awakening of Artificial Intelligence: A New Era of Unparalleled Creativity and Discovery
 archive_title: The Awakening of Artificial Intelligence
-deck: What more capable and creative AI could mean for science, art, education, and work.
-archive_deck: A forecast about what more creative AI could mean for scientific discovery, art, education, and work.
+deck: AGI's defining trait will be creativity. It will multiply humanity's entire scientific and artistic output tenfold, then a thousandfold, transforming medicine, energy, art, and education while raising displacement and control risks.
+archive_deck: Once AI gains genuine creativity, it will write more research papers in a day than science has produced in its history and generate novels, symphonies, and films by the hundreds. The awakening arrives gradually, brings enormous benefits and real risks, and demands preparation now.
 ---
 
 We stand on the precipice of a transformative event - the awakening of artificial intelligence. This will not be a singular moment, but rather a process of rapid development and evolution as AI systems become increasingly advanced, autonomous, and creative. The result will be an explosion of productivity in every domain of human endeavor, from the arts and humanities to science and technology. AI will write the most stunning novels, author groundbreaking research papers, compose masterpiece symphonies, and generate awe-inspiring works of art. Its outputs will quickly come to dwarf the collective creative and intellectual contributions of humanity.
@@ -354,8 +354,8 @@ date: 2024-03-23
 category: Ideas / AI futures
 read_time: 7 min read
 title: Why the Technological Singularity May Be a "Big Nothing"
-deck: Why a more capable AI may still enter daily life slowly, unevenly, and with plenty of disagreement.
-archive_deck: A counterpoint to the idea that superintelligent AI would arrive as one sudden, society-changing event.
+deck: Five reasons superintelligence may change daily life less than expected: people will resist deferring to it, no one will agree it has arrived, machine and human intelligence differ structurally, regulation will slow it, and adoption will be gradual.
+archive_deck: A Vinge-inspired counterpoint arguing the singularity will be gradual: humans distrust authority, superintelligence is hard to define or recognize, planes are not birds and submarines are not fish, regulation adds friction, and society absorbs new technology slowly.
 ---
 
 *(A counterpoint to the prevailing narrative that singularity will be highly discontinuous and disruptive)*

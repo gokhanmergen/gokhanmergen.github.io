@@ -315,7 +315,7 @@ def render_index(posts: List[Post]) -> str:
       <section class="blog-index-footer" aria-labelledby="blog-index-footer-title">
         <div>
           <p class="section-kicker">Elsewhere on the site</p>
-          <h2 id="blog-index-footer-title">More work on models, markets, and systems.</h2>
+          <h2 id="blog-index-footer-title">More work on models and systems.</h2>
         </div>
         <a class="blog-index-footer-link" href="research.html">Research spotlight <span aria-hidden="true">→</span></a>
       </section>
