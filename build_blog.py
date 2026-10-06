@@ -131,7 +131,7 @@ def render_inline(value: str) -> str:
             attributes = f' href="{escape(safe_target)}"'
             if external:
                 attributes += ' target="_blank" rel="noopener noreferrer"'
-            rendered.append(f"<a{attributes}>{escape(link_text)}</a>")
+            rendered.append(f"<a{attributes}>{render_inline(link_text)}</a>")
         elif bold is not None:
             rendered.append(f"<strong>{escape(bold)}</strong>")
         elif italic is not None:
@@ -143,6 +143,13 @@ def render_inline(value: str) -> str:
 
     rendered.append(escape(value[cursor:]))
     return "".join(rendered)
+
+
+IMAGE_LINE = re.compile(r"^!\[([^\]]*)\]\(([^)\s]+)\)$")
+
+
+def is_image(line: str) -> bool:
+    return IMAGE_LINE.match(line) is not None
 
 
 def is_unordered(line: str) -> bool:
@@ -159,6 +166,7 @@ def is_block_start(line: str) -> bool:
         or line.startswith("## ")
         or line.startswith("### ")
         or line.startswith("> ")
+        or is_image(line)
         or is_unordered(line)
         or is_ordered(line)
     )
@@ -197,6 +205,17 @@ def render_markdown(markdown: str) -> str:
                 cursor += 1
             quote = " ".join(quote_lines)
             output.append(f'<p class="blog-article-emphasis">{render_inline(quote)}</p>')
+            continue
+
+        image = IMAGE_LINE.match(line)
+        if image:
+            alt, src = image.groups()
+            if src.startswith(("javascript:", "data:")):
+                src = "#"
+            output.append(
+                f'<figure class="blog-article-figure"><img src="{escape(src)}" alt="{escape(alt)}" loading="lazy"></figure>'
+            )
+            cursor += 1
             continue
 
         if is_unordered(line):

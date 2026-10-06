@@ -2862,6 +2862,17 @@ body.lightbox-open {
   margin-top: 9px;
 }
 
+.blog-article-figure {
+  margin: 0 0 32px;
+}
+
+.blog-article-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
 .blog-article-content a {
   color: var(--brand-dark);
   font-weight: 700;
