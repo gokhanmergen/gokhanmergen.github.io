@@ -24,6 +24,40 @@ Manual changes will be overwritten.
 -->
 
 """
+TURKISH_MONTHS = (
+    "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
+    "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık",
+)
+UI_TEXT = {
+    "en": {
+        "back": f"← Back to {BRAND}",
+        "post": "Post",
+        "details": "Post details",
+        "portrait": f"Portrait of {AUTHOR}",
+        "kicker": f"More from {BRAND}",
+        "another": "Read another article.",
+        "browse": "Browse the archive or continue with the next older post.",
+        "all_posts": "All blog posts",
+        "next_older": "Next older post",
+        "publications": "Publications",
+        "footer": "Back to the blog ↑",
+        "read_in": "Read in English",
+    },
+    "tr": {
+        "back": "← Bloga dön",
+        "post": "Yazı",
+        "details": "Yazı bilgileri",
+        "portrait": f"{AUTHOR} portresi",
+        "kicker": "Blogdan daha fazlası",
+        "another": "Başka bir yazı okuyun.",
+        "browse": "Arşive göz atın ya da bir önceki yazıyla devam edin.",
+        "all_posts": "Tüm yazılar",
+        "next_older": "Bir önceki yazı",
+        "publications": "Yayınlar",
+        "footer": "Bloga dön ↑",
+        "read_in": "Türkçe oku",
+    },
+}
 
 
 @dataclass(frozen=True)
@@ -37,6 +71,8 @@ class Post:
     archive_deck: str
     archive_title: str
     body: str
+    lang: str = "en"
+    translation_of: Optional[str] = None
 
     @property
     def filename(self) -> str:
@@ -44,6 +80,8 @@ class Post:
 
     @property
     def display_date(self) -> str:
+        if self.lang == "tr":
+            return f"{self.published.day} {TURKISH_MONTHS[self.published.month - 1]} {self.published.year}"
         return self.published.strftime("%b %-d, %Y")
 
 
@@ -97,8 +135,12 @@ def parse_front_matter(source: str) -> List[Post]:
                 archive_deck=fields["archive_deck"],
                 archive_title=fields.get("archive_title", fields["title"]),
                 body=body,
+                lang=fields.get("lang", "en"),
+                translation_of=fields.get("translation_of"),
             )
         )
+        if posts[-1].lang not in UI_TEXT:
+            raise ValueError(f"Unsupported lang for {posts[-1].slug}: {posts[-1].lang}")
 
     if not posts:
         raise ValueError("No posts found in blog_posts.md")
@@ -268,15 +310,17 @@ def page_shell(
     main: str,
     footer_link: str = "Back to the homepage ↑",
     footer_href: str = "index.html",
+    lang: str = "en",
+    head_extra: str = "",
 ) -> str:
     return f'''{GENERATED_NOTICE}<!doctype html>
-<html lang="en">
+<html lang="{escape(lang)}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{escape(description)}">
   <title>{escape(title)}</title>
-  <link rel="stylesheet" href="styles.css">
+{head_extra}  <link rel="stylesheet" href="styles.css">
 </head>
 <body class="blog-page">
   <div class="page-shell">
@@ -298,10 +342,14 @@ def page_shell(
 '''
 
 
-def render_index(posts: List[Post]) -> str:
+def render_index(posts: List[Post], translations: Dict[str, List[Post]]) -> str:
     items: List[str] = []
     for number, post in enumerate(posts, start=1):
         number_text = f"{number:02d}"
+        translation_links = "".join(
+            f'\n              <a class="blog-list-read blog-list-translation" href="{escape(t.filename)}" hreflang="{t.lang}" lang="{t.lang}">{escape(UI_TEXT[t.lang]["read_in"])} <span aria-hidden="true">→</span></a>'
+            for t in translations.get(post.slug, [])
+        )
         items.append(
             f'''          <article class="blog-list-post" id="{escape(post.slug)}">
             <div class="blog-list-meta">
@@ -312,7 +360,7 @@ def render_index(posts: List[Post]) -> str:
             <div class="blog-list-body">
               <h3><a href="{escape(post.filename)}">{escape(post.archive_title)}</a></h3>
               <p>{escape(post.archive_deck)}</p>
-              <a class="blog-list-read" href="{escape(post.filename)}">Read article <span aria-hidden="true">→</span></a>
+              <a class="blog-list-read" href="{escape(post.filename)}">Read article <span aria-hidden="true">→</span></a>{translation_links}
             </div>
           </article>'''
         )
@@ -345,31 +393,42 @@ def render_index(posts: List[Post]) -> str:
     )
 
 
-def render_post(post: Post, number: int, next_post: Optional[Post]) -> str:
+def render_post(post: Post, number: int, next_post: Optional[Post], versions: List[Post]) -> str:
+    text = UI_TEXT[post.lang]
     if next_post is None:
         next_href = "pubs.html"
-        next_label = "Publications"
+        next_label = text["publications"]
     else:
         next_href = next_post.filename
-        next_label = "Next older post"
+        next_label = text["next_older"]
+
+    alternates = [version for version in versions if version is not post]
+    lang_links = "".join(
+        f'\n            <a class="blog-article-lang" href="{escape(v.filename)}" hreflang="{v.lang}" lang="{v.lang}">{escape(UI_TEXT[v.lang]["read_in"])}</a>'
+        for v in alternates
+    )
+    head_extra = "".join(
+        f'  <link rel="alternate" hreflang="{v.lang}" href="{escape(v.filename)}">\n'
+        for v in versions
+    ) if alternates else ""
 
     main = f'''    <main>
       <header class="blog-article-intro" aria-labelledby="page-title">
-        <a class="blog-article-back" href="blog.html">← Back to {escape(BRAND)}</a>
-        <p class="eyebrow">{escape(BRAND)} · Post {number:02d}</p>
+        <a class="blog-article-back" href="blog.html">{escape(text["back"])}</a>
+        <p class="eyebrow">{escape(BRAND)} · {escape(text["post"])} {number:02d}</p>
         <h1 id="page-title">{escape(post.title)}</h1>
         <p class="blog-article-dek">{escape(post.deck)}</p>
 
         <div class="blog-author-row">
           <div class="blog-author">
-            <img src="gokhan2.jpg" alt="Portrait of Gökhan Mergen">
+            <img src="gokhan2.jpg" alt="{escape(text["portrait"])}">
             <div>
               <strong>{escape(AUTHOR)}</strong>
               <span>{escape(BRAND)}</span>
             </div>
           </div>
-          <div class="blog-article-meta" aria-label="Post details">
-            <span>{escape(post.display_date)} · {escape(post.read_time)}</span>
+          <div class="blog-article-meta" aria-label="{escape(text["details"])}">
+            <span>{escape(post.display_date)} · {escape(post.read_time)}</span>{lang_links}
           </div>
         </div>
       </header>
@@ -382,13 +441,13 @@ def render_post(post: Post, number: int, next_post: Optional[Post]) -> str:
 
       <section class="blog-article-footer" aria-labelledby="next-reading-title">
         <div>
-          <p class="section-kicker">More from {escape(BRAND)}</p>
-          <h2 id="next-reading-title">Read another article.</h2>
+          <p class="section-kicker">{escape(text["kicker"])}</p>
+          <h2 id="next-reading-title">{escape(text["another"])}</h2>
         </div>
         <div class="blog-closing-copy">
-          <p>Browse the archive or continue with the next older post.</p>
+          <p>{escape(text["browse"])}</p>
           <div class="page-actions">
-            <a class="button button-primary" href="blog.html">All blog posts <span aria-hidden="true">↗</span></a>
+            <a class="button button-primary" href="blog.html">{escape(text["all_posts"])} <span aria-hidden="true">↗</span></a>
             <a class="button button-secondary" href="{escape(next_href)}">{escape(next_label)} <span aria-hidden="true">↗</span></a>
           </div>
         </div>
@@ -399,20 +458,37 @@ def render_post(post: Post, number: int, next_post: Optional[Post]) -> str:
         f"{post.title} | {BRAND}",
         f"{post.title} — {post.deck}",
         main,
-        footer_link="Back to the blog ↑",
+        footer_link=text["footer"],
         footer_href="blog.html",
+        lang=post.lang,
+        head_extra=head_extra,
     ).replace('<body class="blog-page">', '<body class="blog-page blog-post-page">')
 
 
 def build() -> None:
-    posts = parse_front_matter(SOURCE_PATH.read_text(encoding="utf-8"))
-    (ROOT / "blog.html").write_text(render_index(posts), encoding="utf-8")
+    all_posts = parse_front_matter(SOURCE_PATH.read_text(encoding="utf-8"))
+    posts = [post for post in all_posts if post.translation_of is None]
+    original_slugs = {post.slug for post in posts}
+    translations: Dict[str, List[Post]] = {}
+    for post in all_posts:
+        if post.translation_of is None:
+            continue
+        if post.translation_of not in original_slugs:
+            raise ValueError(f"{post.slug} is a translation of unknown post {post.translation_of}")
+        translations.setdefault(post.translation_of, []).append(post)
+
+    (ROOT / "blog.html").write_text(render_index(posts, translations), encoding="utf-8")
 
     for number, post in enumerate(posts, start=1):
         next_post = posts[number] if number < len(posts) else None
-        (ROOT / post.filename).write_text(render_post(post, number, next_post), encoding="utf-8")
+        versions = [post] + translations.get(post.slug, [])
+        for version in versions:
+            (ROOT / version.filename).write_text(
+                render_post(version, number, next_post, versions), encoding="utf-8"
+            )
 
-    print(f"Built {len(posts)} posts from {SOURCE_PATH.name}")
+    translation_count = sum(len(items) for items in translations.values())
+    print(f"Built {len(posts)} posts and {translation_count} translations from {SOURCE_PATH.name}")
 
 
 if __name__ == "__main__":

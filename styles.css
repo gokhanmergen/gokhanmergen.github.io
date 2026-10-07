@@ -3157,6 +3157,10 @@ body.lightbox-open {
   transition: transform 160ms ease;
 }
 
+.blog-list-translation {
+  margin-left: 18px;
+}
+
 .blog-list-read:hover,
 .blog-index-footer-link:hover {
   color: var(--accent);
@@ -3279,6 +3283,17 @@ body.lightbox-open {
   color: var(--muted);
   font-size: 0.82rem;
   font-weight: 650;
+}
+
+.blog-article-lang {
+  margin-left: 14px;
+  color: var(--brand-dark);
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
+.blog-article-lang:hover {
+  color: var(--accent);
 }
 
 .blog-article-layout {

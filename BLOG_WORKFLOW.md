@@ -77,6 +77,34 @@ lists, blockquotes, inline code, and Markdown links. A standalone `---` line
 marks the boundary between posts, so do not use a standalone horizontal rule
 inside an article body.
 
+To add an image, put it in the repository root and write a line containing
+only `![Alt text](image.jpg)`. It renders as a full-width figure. Remember to
+commit the image file itself.
+
+## Adding a translation
+
+A translation is its own record with two extra fields:
+
+```markdown
+---
+slug: example-post-tr
+translation_of: example-post
+lang: tr
+date: 2026-09-08
+category: Fikirler / Yapay zekâ
+read_time: 6 dk okuma
+title: Makalenin Başlığı
+deck: Makale sayfasında görünen kısa açıklama.
+archive_deck: Required, but not shown in the index.
+---
+```
+
+Translations are not listed or numbered separately in the index. The original
+post's index entry gets a “Türkçe oku” link, both article pages link to each
+other, and the translated page uses the original post's number and its
+localized interface text. Supported languages are the keys of `UI_TEXT` in
+`build_blog.py` (currently `en` and `tr`).
+
 ## Exact-copy requests
 
 When a user supplies replacement article text, preserve the supplied wording,
