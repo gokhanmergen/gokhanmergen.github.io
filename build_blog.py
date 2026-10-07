@@ -64,6 +64,7 @@ UI_TEXT = {
         "subscribe_rss": "Or follow the",
         "email_label": "Email address",
         "subscribe_button": "Subscribe",
+        "subscribe_sending": "Subscribing…",
         "subscribe_sent": "Almost done: check your inbox for a confirmation link.",
         "subscribe_failed": "Something went wrong. Please try again later.",
     },
@@ -88,6 +89,7 @@ UI_TEXT = {
         "subscribe_rss": "Ya da takip edin:",
         "email_label": "E-posta adresi",
         "subscribe_button": "Abone ol",
+        "subscribe_sending": "Abone olunuyor…",
         "subscribe_sent": "Neredeyse bitti: onay bağlantısı için gelen kutunuza bakın.",
         "subscribe_failed": "Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.",
     },
@@ -386,7 +388,7 @@ def subscribe_section(lang: str) -> str:
     form = ""
     if SUBSCRIBE_URL:
         form = f'''
-        <form class="blog-subscribe-form" action="{escape(SUBSCRIBE_URL)}" method="post" data-sent="{escape(text["subscribe_sent"])}" data-failed="{escape(text["subscribe_failed"])}">
+        <form class="blog-subscribe-form" action="{escape(SUBSCRIBE_URL)}" method="post" data-sending="{escape(text["subscribe_sending"])}" data-sent="{escape(text["subscribe_sent"])}" data-failed="{escape(text["subscribe_failed"])}">
           <label class="visually-hidden" for="subscribe-email">{escape(text["email_label"])}</label>
           <input id="subscribe-email" type="email" name="email" required maxlength="254" autocomplete="email" placeholder="you@example.com">
           <input class="blog-subscribe-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -399,6 +401,7 @@ def subscribe_section(lang: str) -> str:
             const form = event.currentTarget;
             const status = form.querySelector(".blog-subscribe-status");
             form.querySelector("button").disabled = true;
+            status.textContent = form.dataset.sending;
             try {{
               await fetch(form.action, {{ method: "POST", mode: "no-cors", body: new URLSearchParams(new FormData(form)) }});
               form.reset();

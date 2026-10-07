@@ -135,7 +135,7 @@ Manual changes will be overwritten.
           <h2 id="subscribe-title">Get new posts by email.</h2>
           <p>One email when a new post is published. Unsubscribe anytime. Or follow the <a href="feed.xml">RSS feed</a>.</p>
         </div>
-        <form class="blog-subscribe-form" action="https://script.google.com/macros/s/AKfycbyMgkWyLDugpKs2FhQ5tvIEUmPvQk8MXuIIiCxF0XAPpWb6Ice00VOj39yuu2wRJv6WTA/exec" method="post" data-sent="Almost done: check your inbox for a confirmation link." data-failed="Something went wrong. Please try again later.">
+        <form class="blog-subscribe-form" action="https://script.google.com/macros/s/AKfycbyMgkWyLDugpKs2FhQ5tvIEUmPvQk8MXuIIiCxF0XAPpWb6Ice00VOj39yuu2wRJv6WTA/exec" method="post" data-sending="Subscribing…" data-sent="Almost done: check your inbox for a confirmation link." data-failed="Something went wrong. Please try again later.">
           <label class="visually-hidden" for="subscribe-email">Email address</label>
           <input id="subscribe-email" type="email" name="email" required maxlength="254" autocomplete="email" placeholder="you@example.com">
           <input class="blog-subscribe-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -148,6 +148,7 @@ Manual changes will be overwritten.
             const form = event.currentTarget;
             const status = form.querySelector(".blog-subscribe-status");
             form.querySelector("button").disabled = true;
+            status.textContent = form.dataset.sending;
             try {
               await fetch(form.action, { method: "POST", mode: "no-cors", body: new URLSearchParams(new FormData(form)) });
               form.reset();
