@@ -6,7 +6,8 @@ from __future__ import annotations
 import html
 import re
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime, timezone
+from email.utils import format_datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -15,6 +16,19 @@ ROOT = Path(__file__).resolve().parent
 SOURCE_PATH = ROOT / "blog_posts.md"
 BRAND = "My Blog: Post AGI"
 AUTHOR = "Gökhan Mergen"
+SITE_URL = "https://www.gokhanmergen.com"
+FEED_FILENAME = "feed.xml"
+# Comments are GitHub Discussions on this repository, rendered by giscus.
+# Translations share the original post's thread.
+GISCUS = {
+    "repo": "gokhanmergen/gokhanmergen.github.io",
+    "repo_id": "R_kgDOUQjsYw",
+    "category": "Announcements",
+    "category_id": "DIC_kwDOUQjsY84DHS59",
+}
+# The /exec URL of the newsletter/Code.gs Apps Script web app. The email
+# sign-up form is only rendered once this is set.
+SUBSCRIBE_URL = ""
 GENERATED_NOTICE = """<!--
 GENERATED FILE — DO NOT EDIT DIRECTLY.
 Source: blog_posts.md
@@ -42,6 +56,16 @@ UI_TEXT = {
         "publications": "Publications",
         "footer": "Back to the blog ↑",
         "read_in": "Read in English",
+        "comments": "Comments",
+        "subscribe_kicker": "Subscribe",
+        "subscribe_title": "Get new posts by email.",
+        "follow_title": "Follow new posts.",
+        "subscribe_copy": "One email when a new post is published. Unsubscribe anytime.",
+        "subscribe_rss": "Or follow the",
+        "email_label": "Email address",
+        "subscribe_button": "Subscribe",
+        "subscribe_sent": "Almost done: check your inbox for a confirmation link.",
+        "subscribe_failed": "Something went wrong. Please try again later.",
     },
     "tr": {
         "back": "← Bloga dön",
@@ -56,6 +80,16 @@ UI_TEXT = {
         "publications": "Yayınlar",
         "footer": "Bloga dön ↑",
         "read_in": "Türkçe oku",
+        "comments": "Yorumlar",
+        "subscribe_kicker": "Abone ol",
+        "subscribe_title": "Yeni yazıları e-postayla alın.",
+        "follow_title": "Yeni yazıları takip edin.",
+        "subscribe_copy": "Yeni bir yazı yayımlandığında tek bir e-posta. İstediğiniz zaman abonelikten çıkabilirsiniz. E-postalar İngilizcedir.",
+        "subscribe_rss": "Ya da takip edin:",
+        "email_label": "E-posta adresi",
+        "subscribe_button": "Abone ol",
+        "subscribe_sent": "Neredeyse bitti: onay bağlantısı için gelen kutunuza bakın.",
+        "subscribe_failed": "Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.",
     },
 }
 
@@ -77,6 +111,10 @@ class Post:
     @property
     def filename(self) -> str:
         return f"blog-{self.slug}.html"
+
+    @property
+    def url(self) -> str:
+        return f"{SITE_URL}/{self.filename}"
 
     @property
     def display_date(self) -> str:
@@ -320,6 +358,7 @@ def page_shell(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{escape(description)}">
   <title>{escape(title)}</title>
+  <link rel="alternate" type="application/rss+xml" title="{escape(BRAND)}" href="{FEED_FILENAME}">
 {head_extra}  <link rel="stylesheet" href="styles.css">
 </head>
 <body class="blog-page">
@@ -339,6 +378,95 @@ def page_shell(
   </div>
 </body>
 </html>
+'''
+
+
+def subscribe_section(lang: str) -> str:
+    text = UI_TEXT[lang]
+    form = ""
+    if SUBSCRIBE_URL:
+        form = f'''
+        <form class="blog-subscribe-form" action="{escape(SUBSCRIBE_URL)}" method="post" data-sent="{escape(text["subscribe_sent"])}" data-failed="{escape(text["subscribe_failed"])}">
+          <label class="visually-hidden" for="subscribe-email">{escape(text["email_label"])}</label>
+          <input id="subscribe-email" type="email" name="email" required maxlength="254" autocomplete="email" placeholder="you@example.com">
+          <input class="blog-subscribe-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="button button-primary" type="submit">{escape(text["subscribe_button"])}</button>
+          <p class="blog-subscribe-status" role="status" aria-live="polite"></p>
+        </form>
+        <script>
+          document.querySelector(".blog-subscribe-form").addEventListener("submit", async (event) => {{
+            event.preventDefault();
+            const form = event.currentTarget;
+            const status = form.querySelector(".blog-subscribe-status");
+            form.querySelector("button").disabled = true;
+            try {{
+              await fetch(form.action, {{ method: "POST", mode: "no-cors", body: new URLSearchParams(new FormData(form)) }});
+              form.reset();
+              status.textContent = form.dataset.sent;
+            }} catch (error) {{
+              status.textContent = form.dataset.failed;
+            }}
+            form.querySelector("button").disabled = false;
+          }});
+        </script>'''
+    return f'''      <section class="blog-subscribe" aria-labelledby="subscribe-title">
+        <div>
+          <p class="section-kicker">{escape(text["subscribe_kicker"])}</p>
+          <h2 id="subscribe-title">{escape(text["subscribe_title" if SUBSCRIBE_URL else "follow_title"])}</h2>
+          <p>{escape(text["subscribe_copy"]) + " " if SUBSCRIBE_URL else ""}{escape(text["subscribe_rss"])} <a href="{FEED_FILENAME}">RSS feed</a>.</p>
+        </div>{form}
+      </section>'''
+
+
+def comments_section(post: Post) -> str:
+    attributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": GISCUS["repo"],
+        "data-repo-id": GISCUS["repo_id"],
+        "data-category": GISCUS["category"],
+        "data-category-id": GISCUS["category_id"],
+        "data-mapping": "specific",
+        "data-term": post.translation_of or post.slug,
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "top",
+        "data-theme": "light",
+        "data-lang": post.lang,
+        "data-loading": "lazy",
+        "crossorigin": "anonymous",
+    }
+    script_attributes = " ".join(f'{name}="{escape(value)}"' for name, value in attributes.items())
+    return f'''      <section class="blog-comments" aria-labelledby="comments-title">
+        <h2 id="comments-title">{escape(UI_TEXT[post.lang]["comments"])}</h2>
+        <script {script_attributes} async></script>
+      </section>'''
+
+
+def render_feed(posts: List[Post]) -> str:
+    items = "".join(
+        f'''
+    <item>
+      <title>{escape(post.title)}</title>
+      <link>{escape(post.url)}</link>
+      <guid isPermaLink="true">{escape(post.url)}</guid>
+      <pubDate>{format_datetime(datetime(post.published.year, post.published.month, post.published.day, tzinfo=timezone.utc))}</pubDate>
+      <category>{escape(post.category)}</category>
+      <description>{escape(post.deck)}</description>
+    </item>'''
+        for post in posts
+    )
+    return f'''<?xml version="1.0" encoding="utf-8"?>
+{GENERATED_NOTICE.strip()}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{escape(BRAND)}</title>
+    <link>{SITE_URL}/blog.html</link>
+    <atom:link href="{SITE_URL}/{FEED_FILENAME}" rel="self" type="application/rss+xml"/>
+    <description>Essays by {escape(AUTHOR)} on artificial intelligence, work, creativity, and the systems built around them.</description>
+    <language>en</language>{items}
+  </channel>
+</rss>
 '''
 
 
@@ -385,6 +513,8 @@ def render_index(posts: List[Post], translations: Dict[str, List[Post]]) -> str:
         </div>
         <a class="blog-index-footer-link" href="pubs.html">Publications <span aria-hidden="true">→</span></a>
       </section>
+
+{subscribe_section("en")}
     </main>'''
     return page_shell(
         f"{BRAND} | Gökhan Mergen",
@@ -439,6 +569,10 @@ def render_post(post: Post, number: int, next_post: Optional[Post], versions: Li
         </article>
       </div>
 
+{subscribe_section(post.lang)}
+
+{comments_section(post)}
+
       <section class="blog-article-footer" aria-labelledby="next-reading-title">
         <div>
           <p class="section-kicker">{escape(text["kicker"])}</p>
@@ -478,6 +612,7 @@ def build() -> None:
         translations.setdefault(post.translation_of, []).append(post)
 
     (ROOT / "blog.html").write_text(render_index(posts, translations), encoding="utf-8")
+    (ROOT / FEED_FILENAME).write_text(render_feed(posts), encoding="utf-8")
 
     for number, post in enumerate(posts, start=1):
         next_post = posts[number] if number < len(posts) else None

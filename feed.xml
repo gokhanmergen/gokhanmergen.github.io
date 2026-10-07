@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+GENERATED FILE — DO NOT EDIT DIRECTLY.
+Source: blog_posts.md
+Generator: build_blog.py
+Regenerate from the repository root with: python3 build_blog.py
+Manual changes will be overwritten.
+-->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Blog: Post AGI</title>
+    <link>https://www.gokhanmergen.com/blog.html</link>
+    <atom:link href="https://www.gokhanmergen.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
+    <language>en</language>
+    <item>
+      <title>The Only War Worth Fighting</title>
+      <link>https://www.gokhanmergen.com/blog-only-war-worth-fighting.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-only-war-worth-fighting.html</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Truth / Society</category>
+      <description>The most effective disinformation today is not a lie but a question. Defending shared, demonstrable reality against weaponized doubt is the Enlightenment&#x27;s oldest fight, and it is ours now.</description>
+    </item>
+    <item>
+      <title>How Will We Interact with ASI?</title>
+      <link>https://www.gokhanmergen.com/blog-interacting-with-asi.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-interacting-with-asi.html</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <category>ASI / Society</category>
+      <description>Superintelligence may become our advisor, delegate, and ambient guide. But an irreducible world will still demand experiments, human judgment, and time.</description>
+    </item>
+    <item>
+      <title>Ape++</title>
+      <link>https://www.gokhanmergen.com/blog-ape-plus-plus.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-ape-plus-plus.html</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Humanity / AI</category>
+      <description>We extended the ape without replacing it. What would it mean to build a better humanity—or successors that deserve the name?</description>
+    </item>
+    <item>
+      <title>If tech is restructuring this fast, what skills will actually matter in the next 5 years?</title>
+      <link>https://www.gokhanmergen.com/blog-skills-next-five-years.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-skills-next-five-years.html</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Work / AI</category>
+      <description>Clear communication, deep reasoning, systematic problem-solving, and the ability to learn across fields will matter most as AI makes execution cheaper.</description>
+    </item>
+    <item>
+      <title>The Frontier Keeps Moving: What Comes After Coding?</title>
+      <link>https://www.gokhanmergen.com/blog-after-coding.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-after-coding.html</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Agents / Economy</category>
+      <description>Intelligence is getting cheap fast, and each capability it saturates stops being the frontier. After chat and coding, the frontier moves to agency, then to organizations of agents that coordinate like a firm.</description>
+    </item>
+    <item>
+      <title>Are Humans Birds, or Are Humans Horses?</title>
+      <link>https://www.gokhanmergen.com/blog-birds-or-horses.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-birds-or-horses.html</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Work / AI</category>
+      <description>Planes didn’t replace birds, but cars replaced horses. Whether AI replaces us depends on what we were being valued for in the first place.</description>
+    </item>
+    <item>
+      <title>Biggest AI Risk: Autonomous AI</title>
+      <link>https://www.gokhanmergen.com/blog-autonomous-ai.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-autonomous-ai.html</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>AI / Safety</category>
+      <description>Consumer AI now scores at genius-level IQ while compute costs fall a million-fold per decade. The real danger is software that earns its own keep, replicates, and rewrites itself with no one able to stop it.</description>
+    </item>
+    <item>
+      <title>Why the Upcoming AI Job-Apocalypse Predictions Will Be Proven Wrong</title>
+      <link>https://www.gokhanmergen.com/blog-ai-job-apocalypse.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-ai-job-apocalypse.html</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Work / AI</category>
+      <description>AI is a gold rush, not an executioner. Every discovery it mines creates more demand for the people who refine, apply, and sell it, just as tractors and computers spawned whole industries.</description>
+    </item>
+    <item>
+      <title>The Rise of the Machine Economy &amp; 2026 as the Year of Singularity</title>
+      <link>https://www.gokhanmergen.com/blog-machine-economy.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-machine-economy.html</guid>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <category>Economy / Agents</category>
+      <description>A near-future account of &quot;Free Agents,&quot; autonomous software with goals, wallets, and the ability to self-replicate, building a parallel agent-to-agent economy that drives transaction costs to zero and leaves humans as the board of directors.</description>
+    </item>
+    <item>
+      <title>What Becomes of Us? Four Scenarios for Life Alongside Superintelligent AI</title>
+      <link>https://www.gokhanmergen.com/blog-four-scenarios.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-four-scenarios.html</guid>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      <category>Futures / AI</category>
+      <description>Ants, monkeys in a zoo, subjects of a Digital Leviathan, or centaurs. Four possible destinies for humanity once AI surpasses us, and why none of them is fixed yet.</description>
+    </item>
+    <item>
+      <title>Artificial Intelligence and Music Production: The Revolution That Will Carry Pink Floyd’s Legacy Forward</title>
+      <link>https://www.gokhanmergen.com/blog-ai-music-production.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-ai-music-production.html</guid>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <category>Culture / AI</category>
+      <description>Generative AI turns anyone with taste into a Rick Rubin: Gilmour-style solos and Wright&#x27;s Minimoog on demand, lost analog sounds revived, eras blended into new genres, and hard questions about originality and consent.</description>
+    </item>
+    <item>
+      <title>The Signal Changes Form</title>
+      <link>https://www.gokhanmergen.com/blog-signal-changes-form.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-signal-changes-form.html</guid>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
+      <category>Career / AI</category>
+      <description>What a winding career taught me. From signal processing to quantitative trading to machine learning at Google, my work changed shape every five years, but the search for a faint signal in a great deal of noise never did.</description>
+    </item>
+    <item>
+      <title>The Awakening of Artificial Intelligence: A New Era of Unparalleled Creativity and Discovery</title>
+      <link>https://www.gokhanmergen.com/blog-ai-awakening.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-ai-awakening.html</guid>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <category>Culture / Discovery</category>
+      <description>AGI&#x27;s defining trait will be creativity. It will multiply humanity&#x27;s entire scientific and artistic output tenfold, then a thousandfold, transforming medicine, energy, art, and education while raising displacement and control risks.</description>
+    </item>
+    <item>
+      <title>Why the Technological Singularity May Be a &quot;Big Nothing&quot;</title>
+      <link>https://www.gokhanmergen.com/blog-singularity-big-nothing.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-singularity-big-nothing.html</guid>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      <category>Ideas / AI futures</category>
+      <description>Five reasons superintelligence may change daily life less than expected: people will resist deferring to it, no one will agree it has arrived, machine and human intelligence differ structurally, regulation will slow it, and adoption will be gradual.</description>
+    </item>
+  </channel>
+</rss>
