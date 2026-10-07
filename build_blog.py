@@ -175,9 +175,9 @@ def render_inline(value: str) -> str:
                 attributes += ' target="_blank" rel="noopener noreferrer"'
             rendered.append(f"<a{attributes}>{render_inline(link_text)}</a>")
         elif bold is not None:
-            rendered.append(f"<strong>{escape(bold)}</strong>")
+            rendered.append(f"<strong>{render_inline(bold)}</strong>")
         elif italic is not None:
-            rendered.append(f"<em>{escape(italic)}</em>")
+            rendered.append(f"<em>{render_inline(italic)}</em>")
         else:
             rendered.append(f"<code>{escape(code or '')}</code>")
 
