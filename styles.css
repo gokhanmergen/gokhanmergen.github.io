@@ -3585,13 +3585,13 @@ body.lightbox-open {
 
 .blog-subscribe-form {
   display: flex;
-  flex: 0 1 380px;
+  flex: 0 0 360px;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .blog-subscribe-form input[type="email"] {
-  flex: 1 1 200px;
+  flex: 1 1 180px;
   min-width: 0;
   padding: 11px 16px;
   border: 1px solid var(--line);

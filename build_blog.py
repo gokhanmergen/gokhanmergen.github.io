@@ -28,7 +28,7 @@ GISCUS = {
 }
 # The /exec URL of the newsletter/Code.gs Apps Script web app. The email
 # sign-up form is only rendered once this is set.
-SUBSCRIBE_URL = ""
+SUBSCRIBE_URL = "https://script.google.com/macros/s/AKfycbyMgkWyLDugpKs2FhQ5tvIEUmPvQk8MXuIIiCxF0XAPpWb6Ice00VOj39yuu2wRJv6WTA/exec"
 GENERATED_NOTICE = """<!--
 GENERATED FILE — DO NOT EDIT DIRECTLY.
 Source: blog_posts.md
