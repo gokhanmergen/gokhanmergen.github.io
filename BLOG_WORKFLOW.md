@@ -121,9 +121,15 @@ localized interface text. Supported languages are the keys of `UI_TEXT` in
   confirmed subscribers, so publishing needs no extra step. A personal Gmail
   account can send about 100 emails a day this way; an unfinished send
   resumes the next day. The sign-up form appears once `SUBSCRIBE_URL` in
-  `build_blog.py` holds the web app's `/exec` URL. After editing
-  `Code.gs`, paste it into the Apps Script project and use **Deploy → Manage
-  deployments → Edit → New version** so the URL stays the same.
+  `build_blog.py` holds the web app's `/exec` URL.
+- **Changing the email script:** edit `newsletter/Code.gs`, paste it into the
+  "Blog subscriptions" Apps Script project, and save. The hourly sender and
+  `sendTestEmail` use the saved code right away. Changes to `doPost` or
+  `doGet` (sign-up, confirm, unsubscribe) only go live after **Deploy →
+  Manage deployments → Edit → New version**, which keeps the same URL.
+- **Previewing the email:** run `sendTestEmail` in the Apps Script editor. It
+  sends the newest post's email, marked "[Test]", to `OWNER_EMAIL` only, and
+  doesn't affect subscribers or the record of sent posts.
 
 
 
