@@ -131,7 +131,7 @@ localized interface text. Supported languages are the keys of `UI_TEXT` in
   sends the newest post's email, marked "[Test]", to `OWNER_EMAIL` only, and
   doesn't affect subscribers or the record of sent posts.
 
-
+## Exact-copy requests
 
 When a user supplies replacement article text, preserve the supplied wording,
 punctuation, paragraph order, headings, and attribution. Do not summarize,
