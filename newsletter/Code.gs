@@ -155,34 +155,50 @@ function sendPost_(item) {
     if (rows[i][COL.STATUS - 1] === 'confirmed') {
       if (MailApp.getRemainingDailyQuota() < 1) return false;
       const unsubscribeUrl = baseUrl + '?action=unsubscribe&token=' + rows[i][COL.TOKEN - 1];
-      MailApp.sendEmail({
-        to: rows[i][COL.EMAIL - 1],
-        name: AUTHOR,
-        subject: item.title,
-        body: [
-          'A new post on ' + BLOG_NAME + ':',
-          '',
-          item.title,
-          item.description,
-          '',
-          'Read it: ' + item.link,
-          '',
-          'Unsubscribe: ' + unsubscribeUrl,
-        ].join('\n'),
-        htmlBody: emailHtml_(
-          '<p style="margin:0 0 12px;color:#667085;font-size:13px">A new post on ' + escape_(BLOG_NAME) + '</p>' +
-          '<h1 style="margin:0 0 12px;font-size:24px;line-height:1.2"><a href="' + escape_(item.link) + '" style="color:#172033;text-decoration:none">' + escape_(item.title) + '</a></h1>' +
-          '<p style="margin:0 0 20px;font-size:16px;line-height:1.6;color:#4c5360">' + escape_(item.description) + '</p>' +
-          '<p style="margin:0"><a href="' + escape_(item.link) + '" style="color:#2447b5;font-weight:bold">Read the post &rarr;</a></p>',
-          'You subscribed to new posts at ' + SITE_URL.replace('https://', '') + '. ' +
-          '<a href="' + escape_(unsubscribeUrl) + '" style="color:#667085">Unsubscribe</a>'
-        ),
-      });
+      MailApp.sendEmail(postEmail_(item, rows[i][COL.EMAIL - 1], unsubscribeUrl));
     }
     props.setProperty(progressKey, String(i + 1));
   }
   props.deleteProperty(progressKey);
   return true;
+}
+
+// Run from the editor to preview the newest post's email. It goes only to
+// the account running the script, its unsubscribe link is inert, and
+// subscribers and the record of sent posts are left untouched.
+function sendTestEmail() {
+  const item = fetchFeed_()[0];
+  const unsubscribeUrl = (props.getProperty('WEB_APP_URL') || SITE_URL) + '?action=unsubscribe&token=test';
+  const message = postEmail_(item, Session.getEffectiveUser().getEmail(), unsubscribeUrl);
+  message.subject = '[Test] ' + message.subject;
+  MailApp.sendEmail(message);
+  Logger.log('Sent a test email for "%s" to %s', item.title, message.to);
+}
+
+function postEmail_(item, to, unsubscribeUrl) {
+  return {
+    to: to,
+    name: AUTHOR,
+    subject: item.title,
+    body: [
+      'A new post on ' + BLOG_NAME + ':',
+      '',
+      item.title,
+      item.description,
+      '',
+      'Read it: ' + item.link,
+      '',
+      'Unsubscribe: ' + unsubscribeUrl,
+    ].join('\n'),
+    htmlBody: emailHtml_(
+      '<p style="margin:0 0 12px;color:#667085;font-size:13px">A new post on ' + escape_(BLOG_NAME) + '</p>' +
+      '<h1 style="margin:0 0 12px;font-size:24px;line-height:1.2"><a href="' + escape_(item.link) + '" style="color:#172033;text-decoration:none">' + escape_(item.title) + '</a></h1>' +
+      '<p style="margin:0 0 20px;font-size:16px;line-height:1.6;color:#4c5360">' + escape_(item.description) + '</p>' +
+      '<p style="margin:0"><a href="' + escape_(item.link) + '" style="color:#2447b5;font-weight:bold">Read the post &rarr;</a></p>',
+      'You subscribed to new posts at ' + SITE_URL.replace('https://', '') + '. ' +
+      '<a href="' + escape_(unsubscribeUrl) + '" style="color:#667085">Unsubscribe</a>'
+    ),
+  };
 }
 
 function sendConfirmation_(email, token) {
