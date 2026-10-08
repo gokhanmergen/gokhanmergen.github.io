@@ -39,7 +39,20 @@ const TOKEN_PATTERN = /^[0-9a-f-]{36}$/;
 const BLOG_NS = XmlService.getNamespace('blog', SITE_URL + '/feed');
 const AVATAR_URL = SITE_URL + '/gokhan2-square.jpg';
 const CONTENT_NS = XmlService.getNamespace('content', 'http://purl.org/rss/1.0/modules/content/');
-const PARAGRAPH_STYLE = 'margin:0 0 16px;font-family:Georgia,serif;font-size:17px;line-height:1.7;color:#4c5360';
+// Inline styles mirroring the article page in styles.css, since email
+// clients ignore stylesheets.
+const FONT_SANS = 'Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif';
+const STYLE = {
+  eyebrow: 'margin:0 0 16px;color:#3563e9;font-size:12px;font-weight:800;letter-spacing:0.13em;line-height:1.3;text-transform:uppercase',
+  title: 'margin:0 0 18px;color:#172033;font-size:38px;font-weight:800;letter-spacing:-0.06em;line-height:0.98',
+  deck: 'margin:0 0 28px;color:#667085;font-size:19px;letter-spacing:-0.015em;line-height:1.5',
+  name: 'display:block;color:#172033;font-size:13.5px;font-weight:700;letter-spacing:-0.02em',
+  blogName: 'display:block;margin-top:2px;color:#667085;font-size:12px',
+  meta: 'color:#667085;font-size:13px;font-weight:600',
+  // The article's first paragraph is larger and darker than the rest.
+  lead: 'margin:0 0 25px;font-family:Georgia,Times New Roman,serif;font-size:19px;line-height:1.68;color:#172033',
+  paragraph: 'margin:0 0 25px;font-family:Georgia,Times New Roman,serif;font-size:17.5px;line-height:1.82;color:#4c5360',
+};
 
 const props = PropertiesService.getScriptProperties();
 
@@ -181,25 +194,27 @@ function sendTestEmail() {
 }
 
 function postEmail_(item, to, unsubscribeUrl) {
+  let paragraphIndex = 0;
   const excerptHtml = item.excerpt
-    .replace(/<p>/g, '<p style="' + PARAGRAPH_STYLE + '">')
+    .replace(/<p>/g, () => '<p style="' + (paragraphIndex++ ? STYLE.paragraph : STYLE.lead) + '">')
     .replace(/<a /g, '<a style="color:#2447b5" ');
   const excerptText = item.excerpt
     .split('</p>')
     .map(paragraph => decodeEntities_(paragraph.replace(/<[^>]+>/g, '')).trim())
     .filter(Boolean);
-  const byline = [AUTHOR, item.readTime].filter(Boolean).join(' · ');
+  const published = item.pubDate ? Utilities.formatDate(new Date(item.pubDate), 'UTC', 'MMM d, yyyy') : '';
+  const meta = [published, item.readTime].filter(Boolean).join(' · ');
   return {
     to: to,
     name: AUTHOR,
     subject: item.title,
     body: [
-      'A new post on ' + BLOG_NAME + ':',
+      BLOG_NAME + ' · New post',
       '',
       item.title,
-      'By ' + byline,
-      '',
       item.description,
+      '',
+      [AUTHOR, meta].filter(Boolean).join(' · '),
       '',
       ...excerptText.flatMap(paragraph => [paragraph, '']),
       'Continue reading: ' + item.link,
@@ -207,16 +222,20 @@ function postEmail_(item, to, unsubscribeUrl) {
       'Unsubscribe: ' + unsubscribeUrl,
     ].join('\n'),
     htmlBody: emailHtml_(
-      '<p style="margin:0 0 12px;color:#667085;font-size:13px">A new post on ' + escape_(BLOG_NAME) + '</p>' +
-      '<h1 style="margin:0 0 12px;font-size:26px;line-height:1.2"><a href="' + escape_(item.link) + '" style="color:#172033;text-decoration:none">' + escape_(item.title) + '</a></h1>' +
-      '<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 18px"><tr>' +
-      '<td style="padding-right:10px;vertical-align:middle"><img src="' + AVATAR_URL + '" width="36" height="36" alt="" style="display:block;width:36px;height:36px;border-radius:50%"></td>' +
-      '<td style="vertical-align:middle;font-size:14px;color:#667085"><strong style="color:#172033">' + escape_(AUTHOR) + '</strong>' +
-      (item.readTime ? ' &middot; ' + escape_(item.readTime) : '') + '</td>' +
+      '<p style="' + STYLE.eyebrow + '">' + escape_(BLOG_NAME) + ' &middot; New post</p>' +
+      '<h1 style="' + STYLE.title + '"><a href="' + escape_(item.link) + '" style="color:#172033;text-decoration:none">' + escape_(item.title) + '</a></h1>' +
+      '<p style="' + STYLE.deck + '">' + escape_(item.description) + '</p>' +
+      '<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin:0 0 30px;border-top:1px solid #dfe5ee"><tr><td style="padding-top:17px">' +
+      '<table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>' +
+      '<td style="padding-right:10px;vertical-align:middle"><img src="' + AVATAR_URL + '" width="38" height="38" alt="" style="display:block;width:38px;height:38px;border-radius:50%"></td>' +
+      '<td style="padding-right:28px;vertical-align:middle;font-family:' + FONT_SANS + '">' +
+      '<span style="' + STYLE.name + '">' + escape_(AUTHOR) + '</span>' +
+      '<span style="' + STYLE.blogName + '">' + escape_(BLOG_NAME) + '</span></td>' +
+      (meta ? '<td style="vertical-align:middle;font-family:' + FONT_SANS + ';' + STYLE.meta + '">' + escape_(meta) + '</td>' : '') +
       '</tr></table>' +
-      '<p style="margin:0 0 24px;padding-bottom:20px;border-bottom:1px solid #dfe5ee;font-size:16px;line-height:1.6;color:#667085">' + escape_(item.description) + '</p>' +
+      '</td></tr></table>' +
       excerptHtml +
-      '<p style="margin:8px 0 0"><a href="' + escape_(item.link) + '" style="display:inline-block;padding:11px 18px;border-radius:999px;background:#3563e9;color:#ffffff;font-weight:bold;text-decoration:none">Continue reading &rarr;</a></p>',
+      '<p style="margin:8px 0 0"><a href="' + escape_(item.link) + '" style="display:inline-block;padding:12px 18px;border-radius:999px;background:#3563e9;color:#ffffff;font-size:15px;font-weight:750;text-decoration:none">Continue reading &rarr;</a></p>',
       'You subscribed to new posts at ' + SITE_URL.replace('https://', '') + '. ' +
       '<a href="' + escape_(unsubscribeUrl) + '" style="color:#667085">Unsubscribe</a>'
     ),
@@ -255,6 +274,7 @@ function fetchFeed_() {
     title: item.getChildText('title'),
     link: item.getChildText('link'),
     description: item.getChildText('description'),
+    pubDate: item.getChildText('pubDate'),
     readTime: item.getChildText('readTime', BLOG_NS) || '',
     // HTML of the post's opening paragraphs, generated by build_blog.py.
     excerpt: item.getChildText('encoded', CONTENT_NS) || '',
@@ -283,7 +303,7 @@ function findRow_(sheet, column, value) {
 }
 
 function emailHtml_(content, footer) {
-  return '<div style="max-width:560px;margin:0 auto;padding:24px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#172033">' +
+  return '<div style="max-width:560px;margin:0 auto;padding:24px;font-family:' + FONT_SANS + ';color:#172033">' +
     content +
     '<p style="margin:32px 0 0;padding-top:16px;border-top:1px solid #dfe5ee;color:#667085;font-size:12px;line-height:1.5">' + footer + '</p>' +
     '</div>';
