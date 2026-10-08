@@ -21,6 +21,7 @@
 
 const BLOG_NAME = 'My Blog: Post AGI';
 const AUTHOR = 'Gökhan Mergen';
+const OWNER_EMAIL = 'gokhanmergen@gmail.com';  // receives sendTestEmail()
 const SITE_URL = 'https://www.gokhanmergen.com';
 const FEED_URL = SITE_URL + '/feed.xml';
 const SHEET_NAME = 'Subscribers';
@@ -164,12 +165,12 @@ function sendPost_(item) {
 }
 
 // Run from the editor to preview the newest post's email. It goes only to
-// the account running the script, its unsubscribe link is inert, and
+// OWNER_EMAIL, its unsubscribe link is inert, and
 // subscribers and the record of sent posts are left untouched.
 function sendTestEmail() {
   const item = fetchFeed_()[0];
   const unsubscribeUrl = (props.getProperty('WEB_APP_URL') || SITE_URL) + '?action=unsubscribe&token=test';
-  const message = postEmail_(item, Session.getEffectiveUser().getEmail(), unsubscribeUrl);
+  const message = postEmail_(item, OWNER_EMAIL, unsubscribeUrl);
   message.subject = '[Test] ' + message.subject;
   MailApp.sendEmail(message);
   Logger.log('Sent a test email for "%s" to %s', item.title, message.to);
