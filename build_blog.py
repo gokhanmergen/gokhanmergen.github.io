@@ -18,6 +18,8 @@ BRAND = "My Blog: Post AGI"
 AUTHOR = "Gökhan Mergen"
 SITE_URL = "https://www.gokhanmergen.com"
 FEED_FILENAME = "feed.xml"
+# Namespace for feed fields RSS has no element for, read by newsletter/Code.gs.
+FEED_NAMESPACE = f"{SITE_URL}/feed"
 # Comments are GitHub Discussions on this repository, rendered by giscus.
 # Translations share the original post's thread.
 GISCUS = {
@@ -473,13 +475,14 @@ def render_feed(posts: List[Post]) -> str:
       <pubDate>{format_datetime(datetime(post.published.year, post.published.month, post.published.day, tzinfo=timezone.utc))}</pubDate>
       <category>{escape(post.category)}</category>
       <description>{escape(post.deck)}</description>
+      <blog:readTime>{escape(post.read_time)}</blog:readTime>
       <content:encoded>{escape(render_excerpt(post))}</content:encoded>
     </item>'''
         for post in posts
     )
     return f'''<?xml version="1.0" encoding="utf-8"?>
 {GENERATED_NOTICE.strip()}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:blog="{FEED_NAMESPACE}">
   <channel>
     <title>{escape(BRAND)}</title>
     <link>{SITE_URL}/blog.html</link>
