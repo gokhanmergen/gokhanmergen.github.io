@@ -28,6 +28,9 @@ GISCUS = {
 }
 # The /exec URL of the newsletter/Code.gs Apps Script web app. The email
 # sign-up form is only rendered once this is set.
+# Opening paragraphs included in feed.xml (and so in subscriber emails) as a
+# preview: whole paragraphs until at least this many words.
+EXCERPT_WORDS = 150
 SUBSCRIBE_URL = "https://script.google.com/macros/s/AKfycbyMgkWyLDugpKs2FhQ5tvIEUmPvQk8MXuIIiCxF0XAPpWb6Ice00VOj39yuu2wRJv6WTA/exec"
 GENERATED_NOTICE = """<!--
 GENERATED FILE — DO NOT EDIT DIRECTLY.
@@ -446,6 +449,20 @@ def comments_section(post: Post) -> str:
       </section>'''
 
 
+def render_excerpt(post: Post) -> str:
+    """Return the post's opening paragraphs as HTML, skipping headings and images."""
+    paragraphs: List[str] = []
+    words = 0
+    for block in render_markdown(post.body).split("\n\n"):
+        if not block.startswith("<p>"):
+            continue
+        paragraphs.append(block)
+        words += len(re.sub(r"<[^>]+>", " ", block).split())
+        if words >= EXCERPT_WORDS:
+            break
+    return "\n".join(paragraphs)
+
+
 def render_feed(posts: List[Post]) -> str:
     items = "".join(
         f'''
@@ -456,12 +473,13 @@ def render_feed(posts: List[Post]) -> str:
       <pubDate>{format_datetime(datetime(post.published.year, post.published.month, post.published.day, tzinfo=timezone.utc))}</pubDate>
       <category>{escape(post.category)}</category>
       <description>{escape(post.deck)}</description>
+      <content:encoded>{escape(render_excerpt(post))}</content:encoded>
     </item>'''
         for post in posts
     )
     return f'''<?xml version="1.0" encoding="utf-8"?>
 {GENERATED_NOTICE.strip()}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{escape(BRAND)}</title>
     <link>{SITE_URL}/blog.html</link>

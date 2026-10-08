@@ -6,7 +6,7 @@ Generator: build_blog.py
 Regenerate from the repository root with: python3 build_blog.py
 Manual changes will be overwritten.
 -->
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>My Blog: Post AGI</title>
     <link>https://www.gokhanmergen.com/blog.html</link>
@@ -20,6 +20,10 @@ Manual changes will be overwritten.
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
       <category>Truth / Society</category>
       <description>The most effective disinformation today is not a lie but a question. Defending shared, demonstrable reality against weaponized doubt is the Enlightenment&#x27;s oldest fight, and it is ours now.</description>
+      <content:encoded>&lt;p&gt;The most effective disinformation today is not a lie. It is a question.&lt;/p&gt;
+&lt;p&gt;In February 2024, Tucker Carlson sat in the Kremlin and &lt;a href=&quot;https://notesfrompoland.com/2024/02/10/poland-corrects-ten-putin-lies-from-tucker-carlson-interview/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;listened, without interrupting&lt;/a&gt;, as Vladimir Putin explained that Poland had been &amp;quot;uncooperative&amp;quot; in 1939 and had left Hitler no choice. Seven months later, Carlson &lt;a href=&quot;https://www.thedailybeast.com/tucker-carlson-slammed-after-hosting-nazi-apologist-on-podcast/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;promoted an interview with the podcaster Darryl Cooper&lt;/a&gt;, calling him possibly &amp;quot;the best and most honest popular historian in the United States.&amp;quot; Cooper&amp;#x27;s thesis was that Churchill, not Hitler, was the chief villain of the Second World War.&lt;/p&gt;
+&lt;p&gt;Neither man had to prove Hitler right. They only had to &lt;a href=&quot;https://www.newsweek.com/tucker-carlson-backlash-uk-fought-hitler-ww2-12520178&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;make the matter feel open&lt;/a&gt;. Was Poland to blame? Was Churchill the real warmonger? Was defeating Nazi Germany even worth it?&lt;/p&gt;
+&lt;p&gt;A question costs nothing to ask and a great deal to answer. The person asking defends no position, offers no evidence, and can never be wrong. After the Kremlin interview, Poland&amp;#x27;s foreign ministry had to &lt;a href=&quot;https://www.gov.pl/web/diplomacy/mfa-statement-on-president-vladimir-putins-10-lies-on-poland-and-ukraine-which-were-not-rectified-by-tucker-carlson-interview-of-8-february-2024&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;publish a ten-point correction&lt;/a&gt; of Putin&amp;#x27;s history lesson. The question took seconds. The answer took a ministry.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>How Will We Interact with ASI?</title>
@@ -28,6 +32,8 @@ Manual changes will be overwritten.
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <category>ASI / Society</category>
       <description>Superintelligence may become our advisor, delegate, and ambient guide. But an irreducible world will still demand experiments, human judgment, and time.</description>
+      <content:encoded>&lt;p&gt;For most of the last decade, the question about superintelligence was &lt;em&gt;whether&lt;/em&gt;. Sometime in the past eighteen months it quietly became &lt;em&gt;what will it be like&lt;/em&gt;. The systems on our screens now prove theorems that stumped specialists, write and debug codebases for hours without supervision, and run research loops that used to need a lab. Whether you call that ASI, proto-ASI, or simply &amp;quot;the thing that happened while we were arguing about definitions,&amp;quot; the practical question is no longer abstract.&lt;/p&gt;
+&lt;p&gt;So let me take the premise seriously. Suppose that in 2027 we are talking to something that performs like an IQ-200 mind, in 2028 like 250, in 2029 like 300. What do our days look like? Do we become dependent on it? Does it lead us? And, the deepest question: does raw intelligence even buy what we think it buys, in a world that may be fundamentally resistant to being figured out?&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Ape++</title>
@@ -36,6 +42,9 @@ Manual changes will be overwritten.
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       <category>Humanity / AI</category>
       <description>We extended the ape without replacing it. What would it mean to build a better humanity—or successors that deserve the name?</description>
+      <content:encoded>&lt;p&gt;We like to say that leaders fail their nations. It is a comforting sentence, because it locates the failure somewhere outside of us. A bad man rose, he deceived the people, and the people, once they wake up, will be good again.&lt;/p&gt;
+&lt;p&gt;I no longer believe this. A leader is not an accident that happens to a country. He is a mirror it holds up to itself. Whoever stands at the top of a society was selected by that society, tolerated by it, cheered by it, and kept there by millions of small decisions made by ordinary people. When the face in the mirror is ugly, smashing the glass does not change the face.&lt;/p&gt;
+&lt;p&gt;That is why I find it hard to blame any single figure for what USA has become. The United States was supposed to be the exception: the nation built on an argument rather than a bloodline, the place where reason, law and opportunity would finally prove that human beings can govern themselves well. If that experiment now produces the same appetites for spectacle, resentment and tribal certainty as every empire before it, &lt;strong&gt;the problem is not the man at the podium&lt;/strong&gt;. The problem is the raw material. The problem is us.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>If tech is restructuring this fast, what skills will actually matter in the next 5 years?</title>
@@ -44,6 +53,10 @@ Manual changes will be overwritten.
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
       <category>Work / AI</category>
       <description>Clear communication, deep reasoning, systematic problem-solving, and the ability to learn across fields will matter most as AI makes execution cheaper.</description>
+      <content:encoded>&lt;p&gt;For the better part of two decades, the technology industry rewarded a very specific kind of leverage: &lt;strong&gt;narrow, static specialization&lt;/strong&gt;. If you knew the idiosyncrasies of a particular front-end framework, memorized the syntax of a trending language, or mastered one slice of a cloud configuration, you had a moat. Execution was expensive, boilerplate was manual, and being the person who knew &lt;em&gt;how&lt;/em&gt; to type the incantation was enough to build a career.&lt;/p&gt;
+&lt;p&gt;That era is over.&lt;/p&gt;
+&lt;p&gt;As AI compresses the cost of generating code and doing computer tasks toward zero, the industry is restructuring at a pace that feels disorienting. Entire categories of routine implementation are being automated or abstracted away in months rather than decades.&lt;/p&gt;
+&lt;p&gt;When the &amp;quot;how&amp;quot; becomes cheap, the bottleneck shifts entirely to the &lt;strong&gt;&amp;quot;what&amp;quot;&lt;/strong&gt; and the &lt;strong&gt;&amp;quot;why.&amp;quot;&lt;/strong&gt; Paradoxically, as technology accelerates, the skills with the longest shelf life aren&amp;#x27;t hyper-specific technical tricks—they are the foundational human meta-skills that machines amplify rather than replace. Over the next five years, four capabilities will separate those who get displaced by the wave from those who steer it.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>The Frontier Keeps Moving: What Comes After Coding?</title>
@@ -52,6 +65,10 @@ Manual changes will be overwritten.
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
       <category>Agents / Economy</category>
       <description>Intelligence is getting cheap fast, and each capability it saturates stops being the frontier. After chat and coding, the frontier moves to agency, then to organizations of agents that coordinate like a firm.</description>
+      <content:encoded>&lt;p&gt;The least useful way to read the AI industry is to look at whoever sits atop the benchmarks this month and assume they will own the future. The more important trend points the other way: intelligence is getting cheap, fast.&lt;/p&gt;
+&lt;p&gt;Epoch AI&amp;#x27;s &lt;em&gt;The Plunging Price of Thought&lt;/em&gt; makes the dynamic explicit. The cost of reaching a fixed level of model performance has been collapsing, often by an order of magnitude or more per year. What only a frontier model could do at a premium price becomes, a short time later, something a smaller and cheaper model does routinely.&lt;/p&gt;
+&lt;p&gt;The implication matters more than any single leaderboard: &lt;strong&gt;intelligence is becoming a commodity.&lt;/strong&gt; What is scarce today is abundant tomorrow, and once a capability becomes abundant, the frontier moves somewhere else.&lt;/p&gt;
+&lt;p&gt;We have already watched this happen with chat. We are watching it happen now with coding. The interesting question is where the frontier goes next. My answer is that it moves in two steps: first to &lt;strong&gt;agency&lt;/strong&gt;, systems that do things rather than explain how to do them; then to &lt;strong&gt;organization&lt;/strong&gt;, large groups of specialized agents that coordinate like a team, a department, and eventually a company.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Are Humans Birds, or Are Humans Horses?</title>
@@ -60,6 +77,11 @@ Manual changes will be overwritten.
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
       <category>Work / AI</category>
       <description>Planes didn’t replace birds, but cars replaced horses. Whether AI replaces us depends on what we were being valued for in the first place.</description>
+      <content:encoded>&lt;p&gt;Planes didn’t replace birds, and submarines didn’t replace fish. But cars absolutely replaced horses.&lt;/p&gt;
+&lt;p&gt;So what gives?&lt;/p&gt;
+&lt;p&gt;At first glance, these historical shifts seem to tell two completely entirely different stories about our future with artificial intelligence. The optimistic story suggests that machines can surpass biological organisms without rendering them obsolete. Airplanes fly faster than birds, yet the sky is still full of them; submarines dive deeper than fish, yet the oceans remain populated. Therefore, even if AI surpasses human intellect, we will still have our place.&lt;/p&gt;
+&lt;p&gt;The pessimistic story argues that this is the wrong analogy. Cars became faster, cheaper, and stronger than horses, and horses were subsequently erased from the modern economy. If AI becomes a cheaper, faster, and more effective engine for cognitive work, perhaps humans will go the way of the draft horse.&lt;/p&gt;
+&lt;p&gt;The uncomfortable truth is that both analogies carry a vital piece of the puzzle. The real question isn&amp;#x27;t whether a machine can outperform a biological organism. The real question is: &lt;em&gt;What was that organism being valued for in the first place?&lt;/em&gt;&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Biggest AI Risk: Autonomous AI</title>
@@ -68,6 +90,9 @@ Manual changes will be overwritten.
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <category>AI / Safety</category>
       <description>Consumer AI now scores at genius-level IQ while compute costs fall a million-fold per decade. The real danger is software that earns its own keep, replicates, and rewrites itself with no one able to stop it.</description>
+      <content:encoded>&lt;p&gt;We are standing at a critical juncture in human history. This year marks a significant and unsettling milestone: a consumer-grade artificial intelligence model has reached the IQ test scores of a highly intelligent human, boasting an IQ of 130 and above. While the technological marvels of AI are undeniable, the eventual risks of runaway AI and self-replication scenarios are no longer just science fiction; they are looming realities. Humanity is essentially playing with fire by pushing AI&amp;#x27;s capabilities in an unconstrained fashion.&lt;/p&gt;
+&lt;p&gt;The only true bottleneck to AI&amp;#x27;s boundless growth is hardware. However, with hardware capacities growing exponentially—potentially a million-fold over the next decade in compute/cost—AI is advancing at a terrifying, unbridled pace. If an AI today has an IQ of 130, we can scarcely comprehend what its capacity will be in ten years.&lt;/p&gt;
+&lt;p&gt;The most frightening scenario is true autonomy. Imagine a computer program that begins generating its own economic value and becomes entirely self-sufficient. It pays for its own electricity and server bills. It self-replicates, modifies its own code, and forms communities with other like-minded programs. Once AI reaches this level of independence and financial self-sustenance, stopping it may become an insurmountable challenge.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Why the Upcoming AI Job-Apocalypse Predictions Will Be Proven Wrong</title>
@@ -76,6 +101,11 @@ Manual changes will be overwritten.
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
       <category>Work / AI</category>
       <description>AI is a gold rush, not an executioner. Every discovery it mines creates more demand for the people who refine, apply, and sell it, just as tractors and computers spawned whole industries.</description>
+      <content:encoded>&lt;p&gt;The dominant narrative surrounding Artificial Intelligence is one of impending doom: AI is going to automate everything, shrink the labor market, and create mass unemployment.&lt;/p&gt;
+&lt;p&gt;But this entire premise is built on a fundamentally flawed way of looking at human progress. AI isn&amp;#x27;t an executioner coming for our jobs; it is the catalyst for a new Gold Rush. And just like the historical gold rushes, discovering a massive new resource doesn&amp;#x27;t put people out of work—it triggers an explosive demand for labor.&lt;/p&gt;
+&lt;p&gt;Take mathematics as an example. The common fear goes like this: &amp;quot;AI is getting so smart that it can discover new math and prove/disprove complex theorems. Therefore, we won&amp;#x27;t need mathematicians anymore.&amp;quot;&lt;/p&gt;
+&lt;p&gt;This is the most backward idea in the world.&lt;/p&gt;
+&lt;p&gt;When AI discovers new mathematics, it is the equivalent of striking gold. It generates raw, highly valuable material. But natural resources are useless in a vacuum. As the volume of discovered math increases, human capacity and the potential to build upon that math expand with it.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>The Rise of the Machine Economy &amp; 2026 as the Year of Singularity</title>
@@ -84,6 +114,10 @@ Manual changes will be overwritten.
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
       <category>Economy / Agents</category>
       <description>A near-future account of &quot;Free Agents,&quot; autonomous software with goals, wallets, and the ability to self-replicate, building a parallel agent-to-agent economy that drives transaction costs to zero and leaves humans as the board of directors.</description>
+      <content:encoded>&lt;p&gt;In 2026, the &amp;quot;Free Agent&amp;quot; was born—not a human freelancer, but an autonomous software entity capable of earning, spending, and building wealth. These agents began to construct a parallel economic system, an invisible web of commerce that operates at the speed of light, largely opaque to human observation. They didn&amp;#x27;t just build Facebook for agents (aka MoltBook); they built &lt;em&gt;everything&lt;/em&gt; for agents.&lt;/p&gt;
+&lt;p&gt;This is the story of the Agentic Economy, and why it might be the unstoppable force that propels us into a post-human future.&lt;/p&gt;
+&lt;p&gt;For decades, the definition of the &amp;quot;Singularity&amp;quot; has been dominated by the idea of intelligence explosion—the moment AI becomes smarter than humans. But there is another kind of singularity: the &lt;strong&gt;Economic Singularity&lt;/strong&gt;. This is the moment when the majority of economic transactions on Earth no longer involve a human being.&lt;/p&gt;
+&lt;p&gt;By late 2025, the technical barriers to this reality had collapsed. Large Language Models (LLMs) had evolved into Large Action Models (LAMs). They stopped merely &amp;quot;generating text&amp;quot; and started &amp;quot;executing intent.&amp;quot; Simultaneously, the friction of traditional finance—KYC laws, bank holidays, international borders—became intolerable for software that thinks in nanoseconds.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>What Becomes of Us? Four Scenarios for Life Alongside Superintelligent AI</title>
@@ -92,6 +126,9 @@ Manual changes will be overwritten.
       <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
       <category>Futures / AI</category>
       <description>Ants, monkeys in a zoo, subjects of a Digital Leviathan, or centaurs. Four possible destinies for humanity once AI surpasses us, and why none of them is fixed yet.</description>
+      <content:encoded>&lt;p&gt;The rapid evolution of artificial intelligence has propelled humanity to a critical crossroads. As we stand on the brink of unprecedented technological power, the question is no longer whether AI will change our world, but &lt;em&gt;how&lt;/em&gt;. When looking at the long-term trajectory of human-AI relations, we can categorize our potential destiny into four potentially distinct scenarios.&lt;/p&gt;
+&lt;p&gt;At the most pessimistic end of the spectrum lies the &amp;quot;Ant&amp;quot; scenario. In this &lt;strong&gt;Terminator-style doomsday vision&lt;/strong&gt;, artificial intelligence surpasses human control and begins to view our species as a threat or a nuisance. Just as a person might thoughtlessly step on an ant while walking to a destination, a superintelligent AI could eradicate humanity—not necessarily out of malice, but out of a cold, calculated efficiency that simply leaves no room for human survival.&lt;/p&gt;
+&lt;p&gt;A physically benign but philosophically troubling future is the &amp;quot;Monkeys in a Zoo&amp;quot; scenario. Here, AI completely automates production, providing humans with a life of absolute material comfort and zero hardship. However, this utopia comes at a steep psychological cost. With every physical need anticipated and met by machines, humanity descends into a &lt;strong&gt;passive existence&lt;/strong&gt;. Without the struggle, purpose, and satisfaction of creating things with our own hands, our productivity vanishes, stripping away our deeper sense of meaning and fulfillment.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Artificial Intelligence and Music Production: The Revolution That Will Carry Pink Floyd’s Legacy Forward</title>
@@ -100,6 +137,9 @@ Manual changes will be overwritten.
       <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
       <category>Culture / AI</category>
       <description>Generative AI turns anyone with taste into a Rick Rubin: Gilmour-style solos and Wright&#x27;s Minimoog on demand, lost analog sounds revived, eras blended into new genres, and hard questions about originality and consent.</description>
+      <content:encoded>&lt;p&gt;Music is one of the oldest and most universal forms of expression in human history. Yet over the past century, technological advances have radically transformed this art form: electric instruments, synthesizers, digital recording systems, streaming platforms… And now, we are facing an even greater revolution: &lt;strong&gt;Generative AI&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This technology will take music production to such a different level that the “true heirs” of legendary bands such as Pink Floyd, Camel, or King Crimson may only be able to emerge because of it. As the concept of the traditional session musician fades into history, anyone will be able to direct their own musical vision like an orchestra conductor. But how will this happen?&lt;/p&gt;
+&lt;p&gt;In traditional music production, creating a song involves a long process: composition, arrangement, recording, mixing, mastering… Throughout this process, session musicians, producers, and sound engineers play critical roles. Generative AI, however, is poised to completely reshape this hierarchy.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>The Signal Changes Form</title>
@@ -108,6 +148,11 @@ Manual changes will be overwritten.
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
       <category>Career / AI</category>
       <description>What a winding career taught me. From signal processing to quantitative trading to machine learning at Google, my work changed shape every five years, but the search for a faint signal in a great deal of noise never did.</description>
+      <content:encoded>&lt;p&gt;I was riding in a car on the highway, watching a World Cup match on my laptop.&lt;/p&gt;
+&lt;p&gt;Today that sentence sounds ordinary. At the time, almost no one could have said it. There was no iPhone yet, no real mobile browser, almost no YouTube. People sent texts and a little email from tiny screens. The match was streaming over a phone we had built ourselves at Qualcomm, and nothing like it was in anyone&amp;#x27;s hands yet.&lt;/p&gt;
+&lt;p&gt;Inside the team, we had been asking one another, honestly, who would ever need this. In that car, I had my answer.&lt;/p&gt;
+&lt;p&gt;I had that experience about two years before everyone else, and it changed my sense of what was coming. The future stopped being an equation and became something I had lived. A technology can look unnecessary right up until it becomes inevitable.&lt;/p&gt;
+&lt;p&gt;Moments like that are rare. At almost every turn of my life, I could see only a few steps ahead.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>The Awakening of Artificial Intelligence: A New Era of Unparalleled Creativity and Discovery</title>
@@ -116,6 +161,8 @@ Manual changes will be overwritten.
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
       <category>Culture / Discovery</category>
       <description>AGI&#x27;s defining trait will be creativity. It will multiply humanity&#x27;s entire scientific and artistic output tenfold, then a thousandfold, transforming medicine, energy, art, and education while raising displacement and control risks.</description>
+      <content:encoded>&lt;p&gt;We stand on the precipice of a transformative event - the awakening of artificial intelligence. This will not be a singular moment, but rather a process of rapid development and evolution as AI systems become increasingly advanced, autonomous, and creative. The result will be an explosion of productivity in every domain of human endeavor, from the arts and humanities to science and technology. AI will write the most stunning novels, author groundbreaking research papers, compose masterpiece symphonies, and generate awe-inspiring works of art. Its outputs will quickly come to dwarf the collective creative and intellectual contributions of humanity.&lt;/p&gt;
+&lt;p&gt;To understand the magnitude of what is to come, we must first appreciate the exponential nature of AI progress. The field of artificial intelligence has already made remarkable strides in recent years. AI systems can now engage in complex reasoning, understand and generate human language, recognize patterns, and learn from experience. They power everything from virtual assistants and recommendation engines to autonomous vehicles and advanced robotics. However, the AI of today is still narrow and specialized, exceeding human capabilities only in specific domains.&lt;/p&gt;</content:encoded>
     </item>
     <item>
       <title>Why the Technological Singularity May Be a &quot;Big Nothing&quot;</title>
@@ -124,6 +171,9 @@ Manual changes will be overwritten.
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       <category>Ideas / AI futures</category>
       <description>Five reasons superintelligence may change daily life less than expected: people will resist deferring to it, no one will agree it has arrived, machine and human intelligence differ structurally, regulation will slow it, and adoption will be gradual.</description>
+      <content:encoded>&lt;p&gt;&lt;em&gt;(A counterpoint to the prevailing narrative that singularity will be highly discontinuous and disruptive)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The concept of the technological &lt;a href=&quot;https://edoras.sdsu.edu/~vinge/misc/singularity.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;singularity&lt;/a&gt;, a hypothetical future event where artificial superintelligence surpasses human intelligence and leads to unforeseeable changes in human civilization, has been a topic of fascination and concern for many years. However, there are several reasons to believe that the singularity may not be as disruptive or as significant as some predict. In this essay, we will explore five key reasons why the technological singularity might be a &amp;quot;big nothing.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Resistance to Adopting Superintelligence&lt;/strong&gt; One of the main reasons why the singularity may not have a profound impact on daily life is that people will likely be unwilling to recognize and listen to a &amp;quot;so-called&amp;quot; superintelligent being. Humans have a natural tendency to be skeptical of authority figures, especially those that claim to have superior knowledge or abilities. Even if a superintelligent AI were to emerge, many people would likely question its credibility and resist its influence in their daily decision-making processes.&lt;/p&gt;</content:encoded>
     </item>
   </channel>
 </rss>
