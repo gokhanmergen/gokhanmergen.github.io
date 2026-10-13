@@ -53,7 +53,7 @@ $$
 \%\Delta L \approx s_{AI}\,(\varepsilon - \sigma)
 $$
 
-While AI is a small share of costs, a modest fall in its price moves employment only a little, whichever way the inequality points. Appendix A sketches the math; my companion academic paper has the full derivations.
+While AI is a small share of costs, a modest fall in its price moves employment only a little, whichever way the inequality points. Appendix A sketches the math; my [companion academic paper](/pubs/cheaper-intelligence/cheaper-intelligence.pdf) has the full derivations.
 
 **Two routes to a Gold Rush.** The inequality covers one route to more human work: in today's jobs, demand must outrun substitution. But it takes the list of tasks as given. The second route runs through new work: even if substitution wins in today's jobs, the economy may create new tasks for people faster than AI takes over old ones. Hinton's six words challenge both. AI can meet the new demand, and it may do the new work too.
 
@@ -123,7 +123,7 @@ Nearly four years after ChatGPT, what does the evidence say? AI shows no detecta
 
 Firms tell the same story: [more than 90 percent of executives](https://www.nber.org/system/files/working_papers/w34836/w34836.pdf) in four countries say AI has not changed their employment over the past three years. The heaviest AI spenders are growing: in [Ramp's data](https://ramp.com/data/ai-jobs-impact), they added about 10 percent to headcount, and 12 percent to entry-level headcount, relative to later adopters. And software, the profession AI was supposed to hit first, is hiring again. US software postings on Indeed have [risen almost 15 percent since February 2025](https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/), while postings overall fell about 7 percent, even as AI agents write ever more code. They remain about 27.5 percent below their February 2020 level, though.
 
-**The case for the AI pessimists.** The quiet data settle little. Both forces in the inequality scale with AI's share of costs, and that share is still small. Only [17 to 20 percent of US businesses](https://census.gov/library/stories/2026/05/ai-use-businesses.html) told the Census Bureau they had used AI in the previous two weeks, and by mid-2026 generative AI was saving about [2 percent of all US work hours](https://fredblog.stlouisfed.org/2026/08/does-generative-ai-save-time-at-work/). Even at a cost share of 5 percent, the top of the range these indicators suggest, most of the combinations of ε and σ examined in the companion paper imply employment changes of about 6 percent or less in either direction, spread over the years it takes the share to rise. So a flat aggregate is what both sides predict for now. It rules out a sudden collapse, but says little about which way things will go as AI's share grows. That the share is still small after steep price cuts is itself a clue: using AI well, including integrating it and checking its work, may cost far more than its sticker price; adoption takes time; or today's AI is not yet a close substitute for people.
+**The case for the AI pessimists.** The quiet data settle little. Both forces in the inequality scale with AI's share of costs, and that share is still small. Only [17 to 20 percent of US businesses](https://census.gov/library/stories/2026/05/ai-use-businesses.html) told the Census Bureau they had used AI in the previous two weeks, and by mid-2026 generative AI was saving about [2 percent of all US work hours](https://fredblog.stlouisfed.org/2026/08/does-generative-ai-save-time-at-work/). Even at a cost share of 5 percent, the top of the range these indicators suggest, most of the combinations of ε and σ examined in the [companion paper](/pubs/cheaper-intelligence/cheaper-intelligence.pdf) imply employment changes of about 6 percent or less in either direction, spread over the years it takes the share to rise. So a flat aggregate is what both sides predict for now. It rules out a sudden collapse, but says little about which way things will go as AI's share grows. That the share is still small after steep price cuts is itself a clue: using AI well, including integrating it and checking its work, may cost far more than its sticker price; adoption takes time; or today's AI is not yet a close substitute for people.
 
 The booming adopters are weaker evidence than they look, too, because a firm can grow by taking business from its rivals: French firms that adopted robots expanded [while employment in their industries fell](https://www.aeaweb.org/articles?id=10.1257/pandp.20201003).
 
@@ -199,7 +199,7 @@ The forecast will show first in junior hiring, where the data already hint at it
 
 ## **What to watch for**
 
-This is an open question, so the most useful thing I can offer is a way to check it. Here are two forecasts, written down in October 2026, before the data exist. First, I expect the share of Americans aged 25 to 54 with a job, averaged over 2031, to be at least its 2025 average. That would rule out mass disruption, though it would not settle which force is stronger. Second, with less confidence, about 60 percent, I expect the most AI-exposed occupations, which together held a fifth of US jobs in May 2025, to employ more people in May 2031 than they did then. A recession could upset either forecast for reasons that have nothing to do with AI.
+This is an open question, so the most useful thing I can offer is a way to check it. Here are two forecasts, written down in October 2026, before the data exist. First, with about 70 percent confidence, I expect the share of Americans aged 25 to 54 with a job, averaged over 2031, to be at least its 2025 average. That would rule out mass disruption, though it would not settle which force is stronger. Second, with less confidence, about 60 percent, I expect the most AI-exposed occupations, which together held a fifth of US jobs in May 2025, to employ more people in May 2031 than they did then. A recession could upset either forecast for reasons that have nothing to do with AI.
 
 Earlier signals should arrive well before 2031. The signposts below can be checked against data through the end of 2028. Most compare more- and less-exposed workers, so a downturn should muddy them less; labor share and new work are the exceptions.
 
@@ -226,7 +226,7 @@ In 1849, the surest fortunes went to the people who sold the shovels. This time 
 
 ## **Appendix A: The math behind the inequality**
 
-The results behind the inequality are standard in labor economics (Hicks 1932; Hamermesh 1993). The companion paper derives them, writing M where this appendix writes AI (\(s_M\) for \(s_{AI}\), and so on).
+The results behind the inequality are standard in labor economics (Hicks 1932; Hamermesh 1993). The [companion paper](/pubs/cheaper-intelligence/cheaper-intelligence.pdf) derives them, writing M where this appendix writes AI (\(s_M\) for \(s_{AI}\), and so on).
 
 ### **AI as a copilot**
 
