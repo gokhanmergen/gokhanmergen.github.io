@@ -21,7 +21,7 @@ The popular story about AI and work runs in three steps. Machines learn to do hu
 
 Second, change is speeding up, and a faster-changing world needs more workers, not fewer. Every change has to be absorbed by someone: products redesigned, systems rebuilt, people retrained.
 
-My guess is that the next decade will look more like a Gold Rush than a jobs apocalypse (see also [Horses or Birds?](https://www.gokhanmergen.com/blog-birds-or-horses.html))
+My guess is that the next decade will look more like a Gold Rush than a jobs apocalypse (see also [Are Humans Birds, or Are Humans Horses?](https://www.gokhanmergen.com/blog-birds-or-horses.html)).
 
 When I emailed this argument to Geoffrey Hinton, he replied in six words:
 
@@ -79,7 +79,7 @@ The same could happen in the services whose costs have risen fastest. Health car
 
 Demand also cools as markets mature. The economist [James Bessen](https://doi.org/10.1093/epolic/eiaa001) shows that US textiles, steel and cars followed the same arc: employment grew for decades alongside fast productivity growth, then fell. Demand was elastic while people had little of the product and turned inelastic as they neared having enough. Software in 1970 was at the start of that arc; many cognitive services today may be much further along.
 
-And need is not the same as demand. The legal gap counts problems, not what people would pay to solve them. In health care, the famous [RAND experiment](https://www.rand.org/pubs/research_briefs/RB9174.html) found that when patients paid more, they cut their medical spending only slightly. So if AI brings a health-care boom, it will come from easing waiting lists and doctor shortages, not from lower prices.
+And need is not the same as demand. The legal gap counts problems, not what people would pay to solve them. In health care, the famous [RAND experiment](https://www.rand.org/pubs/research_briefs/RB9174.html) found that demand for medical care is inelastic: patients who paid a larger share of their bills used less care, but far less than in proportion to the price. So if AI brings a health-care boom, it will come from easing waiting lists and doctor shortages, not from lower prices.
 
 **Score: Gold Rush, on points.** Demand for cognitive work is far from fixed. Software shows it can explode when the work gets cheaper, and law, health and education hold huge pools of need priced or rationed out of reach. But need is not demand, no one has yet measured how demand responds to AI-driven price cuts, and history says demand cools as markets mature. And even bottomless demand is only half the story. Exploding demand guarantees more work, not more workers, because machines can meet it too: more mathematics, yes; more mathematicians, not necessarily. That depends on σ, the subject of the next three rounds.
 
@@ -91,7 +91,7 @@ Now σ, starting with history: have machines worked alongside people or replaced
 
 Bank tellers in the ATM era tell the same story. ATMs cut the tellers needed per urban branch from about 20 to 13. That made branches cheaper to run, so [banks opened many more of them](https://knowablemagazine.org/article/technology/2018/future-work-will-robots-take-my-job), 43 percent more in cities, offsetting most of the cut, and national teller employment rose modestly, from about 500,000 in 1980 to about 550,000 in 2010. The job shifted from counting cash to selling and advising.
 
-Radiology is the most famous test. In 2016 Hinton said that "people should stop training radiologists now," because deep learning would beat them within about five years. A decade later the profession is short of people, and [average pay reached about $571,000 in 2025](https://www.fortune.com/2026/05/04/godfather-of-ai-geoffrey-hinton-radiologists-future-of-work-tech-ai-job-anxiety/). At the Mayo Clinic, the number of radiologists grew 55 percent from 2016, to more than 400. Radiologists also consult, monitor patients and perform procedures, and the volume of scans kept growing. Hinton has since said [he spoke too broadly](https://the-decoder.com/geoffrey-hintons-wildly-overconfident-ai-prediction-failed-now-its-a-lesson-in-humility/): he meant image analysis, and he was wrong about timing but not about direction.
+Radiology is the most famous test. In 2016 Hinton said that "people should stop training radiologists now," because deep learning would beat them within about five years. A decade later the profession is short of people, and [average pay reached about $571,000 in 2025](https://fortune.com/article/ai-godfather-radiologists-obsolete-salaries-up-to-571k-demand-growing/). At the Mayo Clinic, the number of radiologists grew 55 percent from 2016, to more than 400. Radiologists also consult, monitor patients and perform procedures, and the volume of scans kept growing. Hinton has since said [he spoke too broadly](https://the-decoder.com/geoffrey-hintons-wildly-overconfident-ai-prediction-failed-now-its-a-lesson-in-humility/): he meant image analysis, and he was wrong about timing but not about direction.
 
 Outright elimination is rare, too. Of about 270 occupations in the 1950 census, James Bessen finds only one, elevator operator, that automation had wiped out by 2010.
 
@@ -131,7 +131,7 @@ The real signal is in hiring, where Hinton's six words point. Labor-saving techn
 
 On that margin, the US data do show a decline. In payroll data, employment of 22- to 25-year-olds in the most exposed jobs [stood 19 percent below](https://digitaleconomy.stanford.edu/project/indicators/canaries-dashboard/) where it would be had it kept pace with less-exposed peers, as of June 2026, up from 15 percent a year earlier, though the gap roughly halves once you allow for differences in education across occupations. Census records covering nearly all private employers show [a similar early-career drop](https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-27.html) in the most exposed industries. In résumé data, junior employment at AI-adopting firms [fell 8 to 10 percent](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555) within two years, mostly through slower hiring, while senior employment kept rising. Even the software rebound is mostly senior: senior roles account for 71 percent of the rise, and entry-level roles made up just [4.5 percent of software postings](https://hiringlab.indeed.com/2026/07/23/the-labor-market-is-tilting-toward-seniority/) in early 2026, the lowest share of any sector.
 
-Where hiring is quick and contracts are short, substitution shows up fast. After ChatGPT's release, freelancers in exposed occupations on a large online platform lost about 2 percent of their monthly jobs and 5 percent of their monthly earnings; on another platform, posts for writing and coding gigs fell 21 percent relative to manual work within eight months. Gig markets are where substitution should be easiest, so treat these as upper bounds. But firms building AI into their own systems point the same way: about three-quarters of business traffic through [Anthropic's API](https://arxiv.org/abs/2511.15080) is automation, handing the model whole tasks, rather than assistance. Delegating a task is not the same as cutting a job, but it is the channel the pessimists worry about.
+Where hiring is quick and contracts are short, substitution shows up fast. After ChatGPT's release, freelancers in exposed occupations on a large online platform [lost about 2 percent](https://doi.org/10.1287/orsc.2023.18441) of their monthly jobs and 5 percent of their monthly earnings; on another platform, posts for writing and coding gigs [fell 21 percent](https://doi.org/10.1287/mnsc.2024.05420) relative to manual work within eight months. Gig markets are where substitution should be easiest, so treat these as upper bounds. But firms building AI into their own systems point the same way: about three-quarters of business traffic through [Anthropic's API](https://arxiv.org/abs/2511.15080) is automation, handing the model whole tasks, rather than assistance. Delegating a task is not the same as cutting a job, but it is the channel the pessimists worry about.
 
 **Is it AI?** That is the weak link. Junior hiring in exposed jobs [began slipping before ChatGPT](https://arxiv.org/abs/2601.02554), as interest rates rose, and one estimate that rules out interest rates proved sensitive to later data revisions. Remote work explains much of the decline in some datasets but not in others. And the US pattern mostly fails to appear in Denmark, Finland and Norway, though a gap for young Norwegians opens from spring 2025.
 
@@ -298,11 +298,11 @@ The work itself moved up. BLS projects the narrow occupation of computer program
 
 ### **Photography: a new occupation got the new jobs**
 
-Photography did not make portrait painters more productive; it replaced them at recording a likeness. In the 1840s a daguerreotype portrait cost [$2 to $5 in most American towns](http://www.daguerre.org/resource/history/history.html), within reach of buyers who could never afford a painted miniature, and it [took minutes instead of hours](https://cartermuseum.org/collection/elizabeth-fay-whitney-198923). By the 1860s, a carte de visite cost [about 25 cents](https://luminous-lint.com/phoenix/virtual_exhibits/single/_THEME_Carte_de_visite_01/introduction/).
+Photography did not make portrait painters more productive; it replaced them at recording a likeness. In the 1840s a daguerreotype portrait cost [$2 to $5 in most American towns](https://web.archive.org/web/20130116103552/http://daguerre.org/resource/history/history.html), within reach of buyers who could never afford a painted miniature, and it [took minutes instead of hours](https://cartermuseum.org/collection/elizabeth-fay-whitney-198923). By the 1860s, a carte de visite cost [about 25 cents](https://luminous-lint.com/phoenix/virtual_exhibits/single/_THEME_Carte_de_visite_01/introduction/).
 
 Demand grew far faster. By one estimate, [300 to 400 million cartes de visite were sold each year](https://ohiomemory.ohiohistory.org/?p=5996) in England in the early 1860s. Britain counted [51 professional photographers in 1851](https://www.thegenealogist.co.uk/featuredarticles/discover-your-ancestors/periodical/5/light-industry-4146/); ten years later, 2,366 people worked in photography in England and Wales alone.
 
-Miniature painters did not share in that boom. Their craft [declined from about 1840](https://old.lasalle.edu/magazine/?p=719) and [became a lost art](https://www.metmuseum.org/essays/american-portrait-miniatures-of-the-nineteenth-century), though a few [crossed over into photography](https://eapoe.org/PAPERS/misc1921/deas105a.htm).
+Miniature painters did not share in that boom. Their craft [declined from about 1840](https://web.archive.org/web/20170913224040/http://www.lasalle.edu/magazine/story/miniature-portraits-join-permanent-display-at-art-museum/) and [became a lost art](https://www.metmuseum.org/essays/american-portrait-miniatures-of-the-nineteenth-century), though a few [crossed over into photography](https://eapoe.org/PAPERS/misc1921/deas105a.htm).
 
 One technology thus produced a Gold Rush for image-making and a "boom without hires" for miniaturists. The difference from today is that the new demand of the 1850s still needed a person behind the camera. The pessimists' warning is that this time the new hires may not be people at all.
 
@@ -345,7 +345,7 @@ History suggests the hiring margin usually moves first, though not always.
 | --- | --- | --- |
 | [Dauth, Findeisen, Suedekum and Woessner](https://minneapolisfed.org/research/institute-working-papers/adjusting-to-robots-worker-level-evidence) (2021) | German workers, 1994–2014 | Robots did not raise incumbents' risk of job loss; the fall in manufacturing jobs came from fewer young entrants, and service jobs fully offset it |
 | [Feigenbaum and Gross](https://scholars.duke.edu/publication/1629699) (2024) | US census records, 1920–1940 | Automating telephone switching hit incumbent operators hardest; later cohorts of young women found clerical and service work |
-| Bessen, Goos, Salomons and van den Berge (2025) | Dutch firm and worker records | Incumbents at automating firms lose a cumulative 9% of one year's earnings over five years |
+| [Bessen, Goos, Salomons and van den Berge](https://doi.org/10.1162/rest_a_01284) (2025) | Dutch firm and worker records | Incumbents at automating firms lose a cumulative 9% of one year's earnings over five years |
 
 ### **Entry-level workers**
 
@@ -362,6 +362,15 @@ US data show a junior gap in exposed jobs; Nordic data mostly do not.
 | [Kauhanen and Rouvinen](https://www.etla.fi/wp-content/uploads/ETLA-Working-Papers-135.pdf) (2026) | Finnish administrative data, 2019–2025 | No displacement of young workers linked to AI exposure |
 | [Facius and Iacono](https://www.ifo.de/DocDL/cesifo1_wp12752.pdf) (2026) | Norwegian register data to March 2025 | No robust displacement of young workers; declines in exposed jobs partly reflect trends that predate ChatGPT |
 | [Hernæs and Kostøl](https://www.rfberlin.com/wp-content/uploads/2026/07/26179.pdf) (2026) | Norwegian private employment to February 2026 | No overall gap, but one opens for 22- to 25-year-olds from spring 2025; software developers aged 21–30 fell about 18% per capita (descriptive) |
+
+### **Freelance markets**
+
+Where hiring is quick and contracts are short, the effects show up fastest.
+
+| Study | Data | What it finds |
+| --- | --- | --- |
+| [Hui, Reshef and Zhou](https://doi.org/10.1287/orsc.2023.18441) (2024) | A large online freelancing platform, before and after ChatGPT | Freelancers in the most exposed occupations lost about 2% of their monthly jobs and 5% of their monthly earnings; image generators cut image freelancers' jobs about 4% and earnings about 9%; a strong track record did not protect freelancers |
+| [Demirci, Hannane and Zhu](https://doi.org/10.1287/mnsc.2024.05420) (2025) | Job posts on a large online freelancing platform | Posts for writing and coding jobs fell 21% relative to manual-intensive jobs within eight months of ChatGPT, and image-creation posts fell 17% after image generators; the exposed jobs that remained were more complex and paid more |
 
 ### **Is AI the cause?**
 
