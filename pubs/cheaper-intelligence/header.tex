@@ -1,0 +1,7 @@
+% Layout tweaks for the PDF build (pandoc + xelatex).
+\usepackage{xurl}
+\usepackage{etoolbox}
+\definecolor{linkblue}{HTML}{1F4E79}
+\AtBeginEnvironment{longtable}{\footnotesize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.2}}
+\setlength{\emergencystretch}{3em}
+\usepackage{enumitem}
