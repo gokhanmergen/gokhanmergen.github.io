@@ -14,6 +14,20 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>A Gold Rush Without Miners?</title>
+      <link>https://www.gokhanmergen.com/blog-gold-rush-without-miners.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-gold-rush-without-miners.html</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Work / AI</category>
+      <description>Cheap machine intelligence will set off a gold rush. Geoffrey Hinton&#x27;s six-word reply asks whether it will need human miners. A debate with the AI pessimists in five rounds, scored with one inequality from labor economics.</description>
+      <blog:readTime>25 min read</blog:readTime>
+      <content:encoded>&lt;p&gt;The popular story about AI and work runs in three steps. Machines learn to do human tasks. So we are needed less. So jobs disappear.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gokhanmergen.com/blog-ai-job-apocalypse.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;I have argued&lt;/a&gt; that this story is close to backwards, for two reasons. First, AI is a new resource, like a gold rush, and the uses for it are exploding. Every discovery AI mines needs people to refine, apply and sell it, and every new use makes more businesses viable. More resource and more uses mean more work, and so more people.&lt;/p&gt;
+&lt;p&gt;Second, change is speeding up, and a faster-changing world needs more workers, not fewer. Every change has to be absorbed by someone: products redesigned, systems rebuilt, people retrained.&lt;/p&gt;
+&lt;p&gt;My guess is that the next decade will look more like a Gold Rush than a jobs apocalypse (see also &lt;a href=&quot;https://www.gokhanmergen.com/blog-birds-or-horses.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Horses or Birds?&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;When I emailed this argument to Geoffrey Hinton, he replied in six words:&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>The Only War Worth Fighting</title>
       <link>https://www.gokhanmergen.com/blog-only-war-worth-fighting.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-only-war-worth-fighting.html</guid>
