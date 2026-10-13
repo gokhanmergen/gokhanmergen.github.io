@@ -81,6 +81,14 @@ To add an image, put it in the repository root and write a line containing
 only `![Alt text](image.jpg)`. It renders as a full-width figure. Remember to
 commit the image file itself.
 
+Tables use standard pipe syntax: a header row, a separator row such as
+`| --- | --- |`, then one row per line. Cells may contain links and emphasis.
+
+Math is rendered with KaTeX, which loads only on posts that contain math.
+Write a display equation between two lines containing only `$$`, and inline
+math as `\(s_{AI}\)`. Do not use single `$` delimiters; dollar amounts in the
+text stay plain.
+
 ## Adding a translation
 
 A translation is its own record with two extra fields:

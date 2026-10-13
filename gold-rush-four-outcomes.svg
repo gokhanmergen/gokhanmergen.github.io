@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 456" width="760" height="456" role="img" aria-labelledby="fig-title fig-desc" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+  <title id="fig-title">Four outcomes of automation</title>
+  <desc id="fig-desc">Past episodes of automation sorted by how much of the job the machine took (part or whole) and whether demand lagged or outgrew productivity. Gold Rush (part of the job, high demand): accountants, software developers, bank tellers 1988 to 2004; incumbent jobs grew. Productivity outruns demand (part, low demand): farm workers; incumbent jobs shrank. Straight replacement (whole job, low demand): elevator operators; occupation eliminated. Boom without hires (whole job, high demand): horses and mules, human computers, miniature portrait painters, bookkeeping clerks, bank tellers after about 2010; output rose while incumbent jobs fell. An arrow shows bank tellers sliding from Gold Rush to boom without hires as the technology's scope broadened.</desc>
+  <defs>
+    <marker id="box-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#98a2b3"/>
+    </marker>
+  </defs>
+  <rect width="760" height="456" fill="#ffffff"/>
+
+  <text x="24" y="30" font-size="15" font-weight="600" fill="#172033">Incumbent jobs grew only when machines took part of the job and demand grew</text>
+  <text x="24" y="50" font-size="11.5" fill="#667085">Past episodes of automation, by how much of the job the machine took and how demand responded</text>
+
+  <text x="152" y="84" text-anchor="end" font-size="11.5" fill="#667085">Machine took</text>
+  <text x="306" y="84" text-anchor="middle" font-size="11.5" fill="#667085">Demand lagged productivity (low ε)</text>
+  <text x="598" y="84" text-anchor="middle" font-size="11.5" fill="#667085">Demand outgrew productivity (high ε)</text>
+
+  <text x="152" y="166" text-anchor="end" font-weight="600" fill="#172033">Part of the job</text>
+  <text x="152" y="184" text-anchor="end" font-size="11.5" fill="#667085">low σ</text>
+  <text x="152" y="342" text-anchor="end" font-weight="600" fill="#172033">The whole job</text>
+  <text x="152" y="360" text-anchor="end" font-size="11.5" fill="#667085">high σ</text>
+
+  <!-- Part of the job, low demand -->
+  <rect x="168" y="96" width="276" height="140" rx="8" fill="none" stroke="#98a2b3" stroke-width="1.25"/>
+  <text x="184" y="124" font-weight="600" fill="#172033">Productivity outruns demand</text>
+  <text x="184" y="142" font-size="11.5" fill="#667085">Incumbent jobs shrank</text>
+  <circle cx="188" cy="166" r="3" fill="#98a2b3"/>
+  <text x="198" y="170" fill="#172033">Farm workers</text>
+
+  <!-- Part of the job, high demand: Gold Rush -->
+  <rect x="460" y="96" width="276" height="140" rx="8" fill="#3563e9" fill-opacity="0.12" stroke="#3563e9" stroke-width="2"/>
+  <text x="476" y="124" font-weight="600" fill="#172033">Gold Rush</text>
+  <text x="476" y="142" font-size="11.5" fill="#667085">Incumbent jobs grew</text>
+  <circle cx="480" cy="166" r="3" fill="#98a2b3"/>
+  <text x="490" y="170" fill="#172033">Accountants</text>
+  <circle cx="480" cy="186" r="3" fill="#98a2b3"/>
+  <text x="490" y="190" fill="#172033">Software developers</text>
+  <circle cx="480" cy="206" r="3" fill="#98a2b3"/>
+  <text x="490" y="210" fill="#172033">Bank tellers, 1988–2004</text>
+
+  <!-- Whole job, low demand -->
+  <rect x="168" y="252" width="276" height="180" rx="8" fill="none" stroke="#98a2b3" stroke-width="1.25"/>
+  <text x="184" y="280" font-weight="600" fill="#172033">Straight replacement</text>
+  <text x="184" y="298" font-size="11.5" fill="#667085">Occupation eliminated</text>
+  <circle cx="188" cy="322" r="3" fill="#98a2b3"/>
+  <text x="198" y="326" fill="#172033">Elevator operators</text>
+
+  <!-- Whole job, high demand: boom without hires -->
+  <rect x="460" y="252" width="276" height="180" rx="8" fill="none" stroke="#98a2b3" stroke-width="1.25"/>
+  <text x="476" y="280" font-weight="600" fill="#172033">Boom without hires</text>
+  <text x="476" y="298" font-size="11.5" fill="#667085">Output rose; incumbent jobs fell</text>
+  <circle cx="480" cy="322" r="3" fill="#98a2b3"/>
+  <text x="490" y="326" fill="#172033">Horses and mules</text>
+  <circle cx="480" cy="342" r="3" fill="#98a2b3"/>
+  <text x="490" y="346" fill="#172033">Human computers</text>
+  <circle cx="480" cy="362" r="3" fill="#98a2b3"/>
+  <text x="490" y="366" fill="#172033">Miniature portrait painters</text>
+  <circle cx="480" cy="382" r="3" fill="#98a2b3"/>
+  <text x="490" y="386" fill="#172033">Bookkeeping clerks</text>
+  <circle cx="480" cy="402" r="3" fill="#98a2b3"/>
+  <text x="490" y="406" fill="#172033">Bank tellers, after c. 2010</text>
+
+  <!-- Tellers slide down as the technology's scope broadens -->
+  <path d="M660 206H712V402H688" fill="none" stroke="#98a2b3" stroke-width="1.25" marker-end="url(#box-arrow)"/>
+  <text x="704" y="248" text-anchor="end" font-size="11.5" fill="#667085">scope broadened</text>
+</svg>

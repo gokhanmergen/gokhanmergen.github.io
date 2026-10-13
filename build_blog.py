@@ -34,6 +34,14 @@ GISCUS = {
 # preview: whole paragraphs until at least this many words.
 EXCERPT_WORDS = 150
 SUBSCRIBE_URL = "https://script.google.com/macros/s/AKfycbyMgkWyLDugpKs2FhQ5tvIEUmPvQk8MXuIIiCxF0XAPpWb6Ice00VOj39yuu2wRJv6WTA/exec"
+# KaTeX renders LaTeX math on posts that contain it: display blocks fenced by
+# $$ lines, and inline math written as \( ... \). Other pages don't load it.
+KATEX_VERSION = "0.16.11"
+KATEX_CDN = f"https://cdn.jsdelivr.net/npm/katex@{KATEX_VERSION}/dist"
+KATEX_HEAD = f'''  <link rel="stylesheet" href="{KATEX_CDN}/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+  <script defer src="{KATEX_CDN}/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+  <script defer src="{KATEX_CDN}/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous" onload="renderMathInElement(document.querySelector('.blog-article-content'), {{delimiters: [{{left: '\\\\[', right: '\\\\]', display: true}}, {{left: '\\\\(', right: '\\\\)', display: false}}], throwOnError: false}})"></script>
+'''
 GENERATED_NOTICE = """<!--
 GENERATED FILE — DO NOT EDIT DIRECTLY.
 Source: blog_posts.md
@@ -247,12 +255,39 @@ def is_ordered(line: str) -> bool:
     return re.match(r"^\d+\.\s+", line) is not None
 
 
+TABLE_SEPARATOR = re.compile(r"^\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)*\|?$")
+
+
+def is_table_row(line: str) -> bool:
+    return line.startswith("|")
+
+
+def table_cells(line: str) -> List[str]:
+    return [cell.strip() for cell in line.strip().strip("|").split("|")]
+
+
+def render_table(rows: List[str]) -> str:
+    header, body = table_cells(rows[0]), [table_cells(row) for row in rows[2:]]
+    head_html = "".join(f"<th>{render_inline(cell)}</th>" for cell in header)
+    body_html = "".join(
+        "<tr>" + "".join(f"<td>{render_inline(cell)}</td>" for cell in row) + "</tr>"
+        for row in body
+    )
+    return f'<div class="blog-table"><table><thead><tr>{head_html}</tr></thead><tbody>{body_html}</tbody></table></div>'
+
+
+def has_math(markdown: str) -> bool:
+    return re.search(r"^\$\$|\\\(", markdown, flags=re.MULTILINE) is not None
+
+
 def is_block_start(line: str) -> bool:
     return (
         line.startswith("# ")
         or line.startswith("## ")
         or line.startswith("### ")
         or line.startswith("> ")
+        or line.startswith("$$")
+        or is_table_row(line)
         or is_image(line)
         or is_unordered(line)
         or is_ordered(line)
@@ -292,6 +327,24 @@ def render_markdown(markdown: str) -> str:
                 cursor += 1
             quote = " ".join(quote_lines)
             output.append(f'<p class="blog-article-emphasis">{render_inline(quote)}</p>')
+            continue
+
+        if line.startswith("$$"):
+            math_lines = [line[2:]]
+            cursor += 1
+            while not math_lines[-1].rstrip().endswith("$$") and cursor < len(lines):
+                math_lines.append(lines[cursor].strip())
+                cursor += 1
+            math = "\n".join(math_lines).rstrip()[:-2].strip()
+            output.append(f'<div class="blog-math">\\[{escape(math)}\\]</div>')
+            continue
+
+        if is_table_row(line) and cursor + 1 < len(lines) and TABLE_SEPARATOR.match(lines[cursor + 1].strip()):
+            rows: List[str] = []
+            while cursor < len(lines) and is_table_row(lines[cursor].strip()):
+                rows.append(lines[cursor].strip())
+                cursor += 1
+            output.append(render_table(rows))
             continue
 
         image = IMAGE_LINE.match(line)
@@ -565,6 +618,8 @@ def render_post(post: Post, number: int, next_post: Optional[Post], versions: Li
         f'  <link rel="alternate" hreflang="{v.lang}" href="{escape(v.filename)}">\n'
         for v in versions
     ) if alternates else ""
+    if has_math(post.body):
+        head_extra += KATEX_HEAD
 
     main = f'''    <main>
       <header class="blog-article-intro" aria-labelledby="page-title">

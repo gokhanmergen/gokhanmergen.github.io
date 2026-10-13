@@ -3651,3 +3651,56 @@ body.lightbox-open {
     flex-basis: auto;
   }
 }
+
+/* Tables and math in blog articles (pipe tables and $$ blocks in blog_posts.md). */
+.blog-table {
+  margin: 0 0 30px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.blog-table table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  color: #4c5360;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.blog-table th {
+  padding: 0 14px 10px 0;
+  border-bottom: 2px solid var(--ink);
+  color: var(--ink);
+  font-weight: 700;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.blog-table td {
+  padding: 11px 14px 11px 0;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.blog-table a {
+  font-weight: 600;
+}
+
+.blog-math {
+  margin: 0 0 26px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  color: var(--ink);
+  font-size: 1.05rem;
+}
+
+.blog-math .katex-display {
+  margin: 0.4em 0;
+}
+
+.blog-article-content p .katex,
+.blog-article-content li .katex {
+  font-size: 1.05em;
+}
