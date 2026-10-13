@@ -1,6 +1,6 @@
 # Will Cheaper Machine Intelligence Raise Employment?
 
-*Demand Expansion, Substitution, and the Early Evidence.* Gokhan Mergen, working paper, October 2026.
+*Demand Expansion, Substitution, and the Early Evidence.* Gökhan Mergen, working paper, October 2026.
 
 This folder holds the companion paper to the blog post
 [A Gold Rush Without Miners?](../../blog-gold-rush-without-miners.html).
@@ -19,7 +19,10 @@ This folder holds the companion paper to the blog post
 After editing either Markdown file, run `make` in this folder. It needs:
 
 - pandoc 3.x and a TeX distribution with `xelatex`;
-- the TeX Gyre Pagella and Latin Modern Math fonts (both ship with TeX Live);
+- the TeX Gyre Pagella and Latin Modern Math fonts (both ship with TeX Live).
+  On macOS, XeTeX finds fonts by name only if they are installed in the
+  system, so copy `texgyrepagella-*.otf` and `latinmodern-math.otf` from the
+  TeX tree's `fonts/opentype/public` folder into `~/Library/Fonts`;
 - Python 3 with `numpy` and `matplotlib`, only if `figures/figure2.py` changes.
 
 Keep the PDF's file name unchanged so that links to it keep working; git

@@ -207,7 +207,7 @@ James, Mary Page, and Ryan Pendell. 2026. "U.S. Workers Continue to Report Downs
 
 Moran, Leslie J. 2018. "A Previously Unexplored Encounter: The English Judiciary, Carte de Visite and Photography as a Form of Mass Media." *International Journal of Law in Context* 14 (4): 539–58.
 
-Nelson, Kenneth E. 1996. "A Thumbnail History of the Daguerreotype." The Daguerreian Society. http://www.daguerre.org/resource/history/history.html.
+Nelson, Kenneth E. 1996. "A Thumbnail History of the Daguerreotype." The Daguerreian Society. Archived January 16, 2013. https://web.archive.org/web/20130116103552/http://daguerre.org/resource/history/history.html.
 
 Peng, Sida, Eirini Kalliamvakou, Peter Cihon, and Mert Demirer. 2023. "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot." arXiv:2302.06590.
 
