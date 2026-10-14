@@ -4,7 +4,7 @@ date: 2026-09-30
 category: Work / AI
 read_time: 6 min read
 title: If tech is restructuring this fast, what skills will actually matter in the next 5 years?
-deck: Clear communication, deep reasoning, systematic problem-solving, and the ability to learn across fields will matter most as AI makes execution cheaper.
+deck: As AI compresses the cost of implementation, the bottleneck shifts to deciding what matters and why. Four durable skills will help people direct the tools and adapt as technology reshapes work.
 archive_deck: As AI compresses the cost of implementation, the bottleneck shifts to deciding what matters and why. Four durable skills will help people direct the tools and adapt as technology reshapes work.
 ---
 

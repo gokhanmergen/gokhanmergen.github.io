@@ -4,7 +4,7 @@ date: 2026-10-12
 category: Work / AI
 read_time: 25 min read
 title: A Gold Rush Without Miners?
-deck: Cheap machine intelligence will set off a gold rush. Geoffrey Hinton's six-word reply asks whether it will need human miners. A debate with the AI pessimists in five rounds, scored with one inequality from labor economics.
+deck: Will demand for cognitive work outrun AI's ability to replace people, and will new work make up the difference? A five-round debate with the AI pessimists, from spreadsheets and ATMs to the 2026 junior-hiring data.
 archive_deck: Will demand for cognitive work outrun AI's ability to replace people, and will new work make up the difference? A five-round debate with the AI pessimists, from spreadsheets and ATMs to the 2026 junior-hiring data.
 ---
 

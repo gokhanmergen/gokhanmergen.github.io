@@ -4,7 +4,7 @@ date: 2026-10-01
 category: Humanity / AI
 read_time: 8 min read
 title: Ape++
-deck: We extended the ape without replacing it. What would it mean to build a better humanity—or successors that deserve the name?
+deck: From war and famine to Mars and AI successors, humanity’s repeated failures raise an engineering question: are we fixing bugs, or confronting the architecture?
 archive_deck: From war and famine to Mars and AI successors, humanity’s repeated failures raise an engineering question: are we fixing bugs, or confronting the architecture?
 ---
 

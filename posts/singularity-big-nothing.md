@@ -5,7 +5,7 @@ category: Ideas / AI futures
 read_time: 7 min read
 title: Why the Technological Singularity May Be a "Big Nothing"
 deck: Five reasons superintelligence may change daily life less than expected: people will resist deferring to it, no one will agree it has arrived, machine and human intelligence differ structurally, regulation will slow it, and adoption will be gradual.
-archive_deck: A Vinge-inspired counterpoint arguing the singularity will be gradual: humans distrust authority, superintelligence is hard to define or recognize, planes are not birds and submarines are not fish, regulation adds friction, and society absorbs new technology slowly.
+archive_deck: Five reasons superintelligence may change daily life less than expected: people will resist deferring to it, no one will agree it has arrived, machine and human intelligence differ structurally, regulation will slow it, and adoption will be gradual.
 ---
 
 *(A counterpoint to the prevailing narrative that singularity will be highly discontinuous and disruptive)*

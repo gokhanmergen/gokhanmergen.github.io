@@ -4,7 +4,7 @@ date: 2026-08-25
 category: Work / AI
 read_time: 5 min read
 title: Why the Upcoming AI Job-Apocalypse Predictions Will Be Proven Wrong
-deck: AI is a gold rush, not an executioner. Every discovery it mines creates more demand for the people who refine, apply, and sell it, just as tractors and computers spawned whole industries.
+deck: Mass-unemployment forecasts get history backward. AI mines new math, code, and science the way a strike mines gold, and striking gold means hiring more miners, refiners, and merchants. Expect a labor shortage in application sectors over the next 5 to 10 years, not a collapse.
 archive_deck: Mass-unemployment forecasts get history backward. AI mines new math, code, and science the way a strike mines gold, and striking gold means hiring more miners, refiners, and merchants. Expect a labor shortage in application sectors over the next 5 to 10 years, not a collapse.
 ---
 

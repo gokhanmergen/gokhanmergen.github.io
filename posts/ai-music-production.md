@@ -6,7 +6,7 @@ read_time: 9 min read
 title: Artificial Intelligence and Music Production: The Revolution That Will Carry Pink Floyd’s Legacy Forward
 archive_title: Artificial Intelligence and Music Production
 deck: Generative AI turns anyone with taste into a Rick Rubin: Gilmour-style solos and Wright's Minimoog on demand, lost analog sounds revived, eras blended into new genres, and hard questions about originality and consent.
-archive_deck: When AI can play any instrument in any legend's style, session skill gives way to curation: direct a record like a conductor, recombine Pink Floyd with Radiohead, resurrect the Mellotron. Creative judgment stays human, and the ethics of borrowed styles will decide how the tools are used.
+archive_deck: Generative AI turns anyone with taste into a Rick Rubin: Gilmour-style solos and Wright's Minimoog on demand, lost analog sounds revived, eras blended into new genres, and hard questions about originality and consent.
 ---
 
 Music is one of the oldest and most universal forms of expression in human history. Yet over the past century, technological advances have radically transformed this art form: electric instruments, synthesizers, digital recording systems, streaming platforms… And now, we are facing an even greater revolution: **Generative AI**.

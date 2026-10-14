@@ -5,8 +5,8 @@ category: Futures / AI
 read_time: 4 min read
 title: What Becomes of Us? Four Scenarios for Life Alongside Superintelligent AI
 archive_title: Four Scenarios for Life Alongside Superintelligent AI
-deck: Ants, monkeys in a zoo, subjects of a Digital Leviathan, or centaurs. Four possible destinies for humanity once AI surpasses us, and why none of them is fixed yet.
-archive_deck: Superintelligent AI could eradicate us like ants, pamper us into passivity like zoo animals, arm a tyranny that surveils everyone, or merge with us into a bio-mechanical centaur. These are possibilities, not predictions, and the choices being made now decide which one arrives.
+deck: Superintelligent AI could eradicate us like ants, pamper us into passivity like zoo animals, arm a tyranny that surveils everyone, or merge with us into a bio-mechanical centaur.
+archive_deck: Superintelligent AI could eradicate us like ants, pamper us into passivity like zoo animals, arm a tyranny that surveils everyone, or merge with us into a bio-mechanical centaur.
 ---
 
 The rapid evolution of artificial intelligence has propelled humanity to a critical crossroads. As we stand on the brink of unprecedented technological power, the question is no longer whether AI will change our world, but *how*. When looking at the long-term trajectory of human-AI relations, we can categorize our potential destiny into four potentially distinct scenarios.

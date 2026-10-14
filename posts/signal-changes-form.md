@@ -4,7 +4,7 @@ date: 2025-01-21
 category: Career / AI
 read_time: 19 min read
 title: The Signal Changes Form
-deck: What a winding career taught me. From signal processing to quantitative trading to machine learning at Google, my work changed shape every five years, but the search for a faint signal in a great deal of noise never did.
+deck: A record for my sons and for any young person unsure which door to open: METU, Cornell, Qualcomm, a trading firm, Apple and Google, the evenings of study behind every turn, the mistakes, and the few principles that persisted.
 archive_deck: A record for my sons and for any young person unsure which door to open: METU, Cornell, Qualcomm, a trading firm, Apple and Google, the evenings of study behind every turn, the mistakes, and the few principles that persisted.
 ---
 

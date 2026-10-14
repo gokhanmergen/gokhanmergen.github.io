@@ -6,7 +6,7 @@ read_time: 9 min read
 title: The Frontier Keeps Moving: What Comes After Coding?
 archive_title: What Comes After Coding?
 deck: Intelligence is getting cheap fast, and each capability it saturates stops being the frontier. After chat and coding, the frontier moves to agency, then to organizations of agents that coordinate like a firm.
-archive_deck: As the price of thought collapses, chat and now coding become commodities. The next frontiers are agents that complete work and swarms of agents organized like companies, where architecture may beat raw model IQ and value migrates to distribution, context, trust, and access.
+archive_deck: Intelligence is getting cheap fast, and each capability it saturates stops being the frontier. After chat and coding, the frontier moves to agency, then to organizations of agents that coordinate like a firm.
 ---
 
 The least useful way to read the AI industry is to look at whoever sits atop the benchmarks this month and assume they will own the future. The more important trend points the other way: intelligence is getting cheap, fast.

@@ -6,7 +6,7 @@ date: 2026-10-06
 category: Hakikat / Toplum
 read_time: 9 dk okuma
 title: Verilmeye Değer Tek Savaş
-deck: Günümüzün en etkili dezenformasyonu bir yalan değil, bir soru. Ortak ve kanıtlanabilir gerçekliği silaha dönüştürülmüş şüpheye karşı savunmak, Aydınlanma'nın en eski mücadelesi ve artık bizim mücadelemiz.
+deck: Bir soruyu sormak saniyeler sürer, cevaplamak bir bakanlığı seferber eder. Putin'in tarih dersinden KGB'nin AIDS uydurmasına, sahte şüphe özgür toplumları nasıl aşındırıyor ve savunmaya değer Batı neden bir bayrak değil, bir ilkeler bütünüdür.
 archive_deck: Bir soruyu sormak saniyeler sürer, cevaplamak bir bakanlığı seferber eder. Putin'in tarih dersinden KGB'nin AIDS uydurmasına, sahte şüphe özgür toplumları nasıl aşındırıyor ve savunmaya değer Batı neden bir bayrak değil, bir ilkeler bütünüdür.
 ---
 

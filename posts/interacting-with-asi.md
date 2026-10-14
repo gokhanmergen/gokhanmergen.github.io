@@ -5,7 +5,7 @@ category: ASI / Society
 read_time: 14 min read
 title: How Will We Interact with ASI?
 deck: Superintelligence may become our advisor, delegate, and ambient guide. But an irreducible world will still demand experiments, human judgment, and time.
-archive_deck: As AI moves from answering to anticipating and acting, our relationship shifts from delegation toward deference. The limits of prediction, the value of experimentation, and the danger of correlated decisions may matter more than any IQ number.
+archive_deck: Superintelligence may become our advisor, delegate, and ambient guide. But an irreducible world will still demand experiments, human judgment, and time.
 ---
 
 ## **The question has changed**

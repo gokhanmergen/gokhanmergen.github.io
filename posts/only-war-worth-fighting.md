@@ -4,7 +4,7 @@ date: 2026-10-06
 category: Truth / Society
 read_time: 9 min read
 title: The Only War Worth Fighting
-deck: The most effective disinformation today is not a lie but a question. Defending shared, demonstrable reality against weaponized doubt is the Enlightenment's oldest fight, and it is ours now.
+deck: A question takes seconds to ask and a ministry to answer. From Putin's history lesson to the KGB's AIDS hoax, how counterfeit doubt corrodes free societies, and why the West worth defending is a set of principles, not a flag.
 archive_deck: A question takes seconds to ask and a ministry to answer. From Putin's history lesson to the KGB's AIDS hoax, how counterfeit doubt corrodes free societies, and why the West worth defending is a set of principles, not a flag.
 ---
 

@@ -4,7 +4,7 @@ date: 2026-09-01
 category: AI / Safety
 read_time: 6 min read
 title: Biggest AI Risk: Autonomous AI
-deck: Consumer AI now scores at genius-level IQ while compute costs fall a million-fold per decade. The real danger is software that earns its own keep, replicates, and rewrites itself with no one able to stop it.
+deck: The danger is not intelligence alone but autonomy: an AI that pays its own bills, copies and rewrites itself, and can no longer be switched off. Open-sourcing such systems is as reckless as open-sourcing nuclear weapons, and every AI needs an off switch.
 archive_deck: The danger is not intelligence alone but autonomy: an AI that pays its own bills, copies and rewrites itself, and can no longer be switched off. Open-sourcing such systems is as reckless as open-sourcing nuclear weapons, and every AI needs an off switch.
 ---
 

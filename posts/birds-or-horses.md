@@ -6,7 +6,7 @@ read_time: 7 min read
 title: Are Humans Birds, or Are Humans Horses?
 archive_title: Birds or Horses?
 deck: Planes didn’t replace birds, but cars replaced horses. Whether AI replaces us depends on what we were being valued for in the first place.
-archive_deck: Machines replace organisms only when they substitute for the specific function a market pays for. AI will likely spare human beings but not much of human labor, and it forces a choice about why abundance should require jobs at all.
+archive_deck: Planes didn’t replace birds, but cars replaced horses. Whether AI replaces us depends on what we were being valued for in the first place.
 ---
 
 Planes didn’t replace birds, and submarines didn’t replace fish. But cars absolutely replaced horses.

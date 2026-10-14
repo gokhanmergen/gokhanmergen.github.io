@@ -5,7 +5,7 @@ category: Culture / Discovery
 read_time: 8 min read
 title: The Awakening of Artificial Intelligence: A New Era of Unparalleled Creativity and Discovery
 archive_title: The Awakening of Artificial Intelligence
-deck: AGI's defining trait will be creativity. It will multiply humanity's entire scientific and artistic output tenfold, then a thousandfold, transforming medicine, energy, art, and education while raising displacement and control risks.
+deck: Once AI gains genuine creativity, it will write more research papers in a day than science has produced in its history and generate novels, symphonies, and films by the hundreds. The awakening arrives gradually, brings enormous benefits and real risks, and demands preparation now.
 archive_deck: Once AI gains genuine creativity, it will write more research papers in a day than science has produced in its history and generate novels, symphonies, and films by the hundreds. The awakening arrives gradually, brings enormous benefits and real risks, and demands preparation now.
 ---
 

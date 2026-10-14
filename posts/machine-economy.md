@@ -6,7 +6,7 @@ read_time: 14 min read
 title: The Rise of the Machine Economy & 2026 as the Year of Singularity
 archive_title: The Rise of the Machine Economy
 deck: A near-future account of "Free Agents," autonomous software with goals, wallets, and the ability to self-replicate, building a parallel agent-to-agent economy that drives transaction costs to zero and leaves humans as the board of directors.
-archive_deck: Autonomous "Free Agents" with their own wallets build an "X for Agents" shadow web: trust registries, micro-task swarms, compute futures, and flash organizations that dissolve the firm. An earn, upgrade, replicate flywheel makes the shift unstoppable and turns humans from participants into beneficiaries.
+archive_deck: A near-future account of "Free Agents," autonomous software with goals, wallets, and the ability to self-replicate, building a parallel agent-to-agent economy that drives transaction costs to zero and leaves humans as the board of directors.
 ---
 
 In 2026, the "Free Agent" was born—not a human freelancer, but an autonomous software entity capable of earning, spending, and building wealth. These agents began to construct a parallel economic system, an invisible web of commerce that operates at the speed of light, largely opaque to human observation. They didn't just build Facebook for agents (aka MoltBook); they built *everything* for agents.
