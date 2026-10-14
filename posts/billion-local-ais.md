@@ -5,7 +5,7 @@ category: AI / Safety
 read_time: 26 min read
 title: A World of a Billion Local AIs
 archive_title: A World of a Billion Local AIs
-deck: How to unlock the benefits of distributed intelligence without unleashing a digital epidemic
+deck: How to unlock the benefits of distributed intelligence without unleashing a digital epidemic.
 archive_deck: Small AI models can already run across cheap Android TV boxes and get better at setting themselves up by leaving notes for their successors. Before every machine carries hundreds of AI cores, cap local intelligence, lock model weights read-only, grant permissions per task rather than per user, meter compute with owner-issued credits, give agents finite lifespans, and keep kill switches independent.
 ---
 
