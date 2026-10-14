@@ -8,7 +8,7 @@ Personal website for Gokhan Mergen, featuring his biography, publications, quant
 - `timeline.js` — hover/tap/keyboard behavior for the homepage biography timeline
 - `pubs.html` — publications, patents, and related paper links
 - `blog.html` — “My Blog: Post AGI,” a notes archive for AI, systems, and useful automation
-- `blog_posts.md` — canonical Markdown source for all blog posts and their metadata
+- `posts/` — canonical Markdown source, one file per blog post with its metadata
 - `build_blog.py` — dependency-free generator for the blog index and article pages
 - `BLOG_WORKFLOW.md` — maintenance protocol for future agents adding or updating posts
 - `blog-autonomous-ai.html` — first post: “Biggest AI Risk: Autonomous AI”
@@ -27,7 +27,7 @@ Personal website for Gokhan Mergen, featuring his biography, publications, quant
 
 ## Run locally
 
-This is a static site with no runtime dependencies. The blog pages are generated from `blog_posts.md`. After editing that file, regenerate the index and article pages from the repository root:
+This is a static site with no runtime dependencies. The blog pages are generated from the Markdown files in `posts/`. After editing a post, regenerate the index and article pages from the repository root:
 
 ```bash
 python3 build_blog.py

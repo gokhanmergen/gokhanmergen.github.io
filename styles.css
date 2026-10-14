@@ -3652,7 +3652,7 @@ body.lightbox-open {
   }
 }
 
-/* Tables and math in blog articles (pipe tables and $$ blocks in blog_posts.md). */
+/* Tables and math in blog articles (pipe tables and $$ blocks in posts/*.md). */
 .blog-table {
   margin: 0 0 30px;
   overflow-x: auto;

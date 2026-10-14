@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the static blog pages from blog_posts.md."""
+"""Build the static blog pages from the Markdown posts in posts/."""
 
 from __future__ import annotations
 
@@ -13,7 +13,8 @@ from typing import Dict, List, Optional
 
 
 ROOT = Path(__file__).resolve().parent
-SOURCE_PATH = ROOT / "blog_posts.md"
+# One Markdown file per post, named <slug>.md.
+POSTS_DIR = ROOT / "posts"
 BRAND = "My Blog: Post AGI"
 AUTHOR = "Gökhan Mergen"
 SITE_URL = "https://www.gokhanmergen.com"
@@ -44,7 +45,7 @@ KATEX_HEAD = f'''  <link rel="stylesheet" href="{KATEX_CDN}/katex.min.css" integ
 '''
 GENERATED_NOTICE = """<!--
 GENERATED FILE — DO NOT EDIT DIRECTLY.
-Source: blog_posts.md
+Source: {source}
 Generator: build_blog.py
 Regenerate from the repository root with: python3 build_blog.py
 Manual changes will be overwritten.
@@ -142,66 +143,58 @@ def escape(value: str) -> str:
     return html.escape(value, quote=True)
 
 
-def parse_front_matter(source: str) -> List[Post]:
-    sections = re.split(r"^---\s*$", source, flags=re.MULTILINE)
-    posts: List[Post] = []
+def parse_post(path: Path) -> Post:
+    sections = re.split(r"^---\s*$", path.read_text(encoding="utf-8"), maxsplit=2, flags=re.MULTILINE)
+    if len(sections) < 3 or sections[0].strip():
+        raise ValueError(f"{path.name} must begin with a ---delimited front matter block")
+    front_matter, body = sections[1].strip(), sections[2].strip()
 
-    if len(sections) < 3:
-        raise ValueError("blog_posts.md does not contain a post front matter block")
-
-    for index in range(1, len(sections) - 1, 2):
-        front_matter = sections[index].strip()
-        body = sections[index + 1].strip()
-        if not front_matter:
+    fields: Dict[str, str] = {}
+    for line in front_matter.splitlines():
+        if not line.strip():
             continue
+        if ":" not in line:
+            raise ValueError(f"Invalid front matter line in {path.name}: {line}")
+        key, value = line.split(":", 1)
+        fields[key.strip()] = value.strip()
 
-        fields: Dict[str, str] = {}
-        for line in front_matter.splitlines():
-            if not line.strip():
-                continue
-            if ":" not in line:
-                raise ValueError(f"Invalid front matter line: {line}")
-            key, value = line.split(":", 1)
-            fields[key.strip()] = value.strip()
+    required = (
+        "slug",
+        "date",
+        "category",
+        "read_time",
+        "title",
+        "deck",
+        "archive_deck",
+    )
+    missing = [key for key in required if not fields.get(key)]
+    if missing:
+        raise ValueError(f"Missing front matter fields in {path.name}: {', '.join(missing)}")
+    if fields["slug"] != path.stem:
+        raise ValueError(f"{path.name} has slug {fields['slug']}; rename the file or fix the slug")
 
-        required = (
-            "slug",
-            "date",
-            "category",
-            "read_time",
-            "title",
-            "deck",
-            "archive_deck",
-        )
-        missing = [key for key in required if not fields.get(key)]
-        if missing:
-            raise ValueError(f"Missing front matter fields for {fields.get('slug', 'post')}: {', '.join(missing)}")
+    post = Post(
+        slug=fields["slug"],
+        published=date.fromisoformat(fields["date"]),
+        category=fields["category"],
+        read_time=fields["read_time"],
+        title=fields["title"],
+        deck=fields["deck"],
+        archive_deck=fields["archive_deck"],
+        archive_title=fields.get("archive_title", fields["title"]),
+        body=body,
+        lang=fields.get("lang", "en"),
+        translation_of=fields.get("translation_of"),
+    )
+    if post.lang not in UI_TEXT:
+        raise ValueError(f"Unsupported lang for {post.slug}: {post.lang}")
+    return post
 
-        posts.append(
-            Post(
-                slug=fields["slug"],
-                published=date.fromisoformat(fields["date"]),
-                category=fields["category"],
-                read_time=fields["read_time"],
-                title=fields["title"],
-                deck=fields["deck"],
-                archive_deck=fields["archive_deck"],
-                archive_title=fields.get("archive_title", fields["title"]),
-                body=body,
-                lang=fields.get("lang", "en"),
-                translation_of=fields.get("translation_of"),
-            )
-        )
-        if posts[-1].lang not in UI_TEXT:
-            raise ValueError(f"Unsupported lang for {posts[-1].slug}: {posts[-1].lang}")
 
+def load_posts() -> List[Post]:
+    posts = [parse_post(path) for path in sorted(POSTS_DIR.glob("*.md"))]
     if not posts:
-        raise ValueError("No posts found in blog_posts.md")
-
-    slugs = [post.slug for post in posts]
-    if len(set(slugs)) != len(slugs):
-        raise ValueError("Post slugs must be unique")
-
+        raise ValueError(f"No posts found in {POSTS_DIR.name}/")
     return sorted(posts, key=lambda post: post.published, reverse=True)
 
 
@@ -410,8 +403,9 @@ def page_shell(
     footer_href: str = "index.html",
     lang: str = "en",
     head_extra: str = "",
+    source: str = f"{POSTS_DIR.name}/*.md",
 ) -> str:
-    return f'''{GENERATED_NOTICE}<!doctype html>
+    return f'''{GENERATED_NOTICE.format(source=source)}<!doctype html>
 <html lang="{escape(lang)}">
 <head>
   <meta charset="utf-8">
@@ -534,7 +528,7 @@ def render_feed(posts: List[Post]) -> str:
         for post in posts
     )
     return f'''<?xml version="1.0" encoding="utf-8"?>
-{GENERATED_NOTICE.strip()}
+{GENERATED_NOTICE.format(source=f"{POSTS_DIR.name}/*.md").strip()}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:blog="{FEED_NAMESPACE}">
   <channel>
     <title>{escape(BRAND)}</title>
@@ -675,11 +669,12 @@ def render_post(post: Post, number: int, next_post: Optional[Post], versions: Li
         footer_href="blog.html",
         lang=post.lang,
         head_extra=head_extra,
+        source=f"{POSTS_DIR.name}/{post.slug}.md",
     ).replace('<body class="blog-page">', '<body class="blog-page blog-post-page">')
 
 
 def build() -> None:
-    all_posts = parse_front_matter(SOURCE_PATH.read_text(encoding="utf-8"))
+    all_posts = load_posts()
     posts = [post for post in all_posts if post.translation_of is None]
     original_slugs = {post.slug for post in posts}
     translations: Dict[str, List[Post]] = {}
@@ -702,7 +697,7 @@ def build() -> None:
             )
 
     translation_count = sum(len(items) for items in translations.values())
-    print(f"Built {len(posts)} posts and {translation_count} translations from {SOURCE_PATH.name}")
+    print(f"Built {len(posts)} posts and {translation_count} translations from {POSTS_DIR.name}/")
 
 
 if __name__ == "__main__":

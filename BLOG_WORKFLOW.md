@@ -1,12 +1,14 @@
 # Blog maintenance workflow
 
 This repository uses a source-first workflow for **My Blog: Post AGI**. The
-Markdown source is the authority; the HTML files are build output.
+Markdown sources in `posts/` are the authority; the HTML files are build
+output.
 
 ## Files and responsibilities
 
-- `blog_posts.md` is the canonical source for every post and its metadata.
-- `build_blog.py` parses that file and generates `blog.html` plus one
+- `posts/` holds the canonical source: one Markdown file per post, named
+  `<slug>.md`, with the post's metadata in front matter at the top.
+- `build_blog.py` parses those files and generates `blog.html` plus one
   `blog-<slug>.html` page for each post.
 - `blog.html` and `blog-*.html` are generated files. Do not hand-edit them;
   regeneration will overwrite manual changes.
@@ -19,8 +21,8 @@ Markdown source is the authority; the HTML files are build output.
 
 For every blog change, follow this sequence:
 
-1. Read the relevant post in `blog_posts.md` before editing it.
-2. Make the content change in `blog_posts.md`, not in generated HTML.
+1. Read the relevant post in `posts/<slug>.md` before editing it.
+2. Make the content change in `posts/<slug>.md`, not in generated HTML.
 3. Run this command from the repository root:
 
    ```bash
@@ -48,8 +50,10 @@ Do not stage unrelated files such as `.DS_Store` or `__pycache__/`.
 
 ## Adding a post
 
-Add a new `---`-delimited record to `blog_posts.md`. Use a unique URL-safe
-`slug`, an ISO publication date, and the required metadata fields:
+Create `posts/<slug>.md`, where `<slug>` is a unique URL-safe name. The file
+starts with a `---`-delimited front matter block holding the same `slug`, an
+ISO publication date, and the required metadata fields. The build stops if
+the file name and `slug` disagree.
 
 ```markdown
 ---
@@ -73,9 +77,8 @@ posts. Use the actual calendar date rather than relative labels such as “one
 week ago.”
 
 The parser supports headings, bold and italic text, ordered and unordered
-lists, blockquotes, inline code, and Markdown links. A standalone `---` line
-marks the boundary between posts, so do not use a standalone horizontal rule
-inside an article body.
+lists, blockquotes, inline code, and Markdown links. Horizontal rules are not
+supported; a standalone `---` line in the body renders as plain text.
 
 To add an image, put it in the repository root and write a line containing
 only `![Alt text](image.jpg)`. It renders as a full-width figure. Remember to
@@ -91,7 +94,8 @@ text stay plain.
 
 ## Adding a translation
 
-A translation is its own record with two extra fields:
+A translation is its own file, named after its own slug (for example
+`posts/example-post-tr.md`), with two extra fields:
 
 ```markdown
 ---
@@ -157,7 +161,7 @@ to change them. If the supplied title is different, update `title` and use
 Before uploading or deploying, confirm:
 
 - `python3 build_blog.py` completed successfully.
-- The updated source is in `blog_posts.md`.
+- The updated source is in `posts/<slug>.md`.
 - The generated article shows the requested title and copy.
 - The index still shows the correct newest-to-oldest order and post number.
 - “Next older post” and “Back to the blog” links work.
