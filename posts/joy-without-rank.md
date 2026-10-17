@@ -3,7 +3,7 @@ slug: joy-without-rank
 date: 2026-10-16
 category: Mathematics / AI
 read_time: 10 min read
-title: Joy Without Rank
+title: When the Machine Solves It First
 deck: On mathematics, artificial intelligence, and the ego's fear of becoming second best.
 archive_deck: On mathematics, artificial intelligence, and the ego's fear of becoming second best.
 ---
@@ -157,33 +157,3 @@ And even if a machine has already solved a problem, nothing prevents me from sit
 The insight still happens in my mind.
 
 The beauty is still there for me to see.
-
-## The freedom of not needing to be the best
-
-Perhaps artificial intelligence is forcing us to confront something uncomfortable about our relationship with achievement.
-
-For a long time, we could take comfort in the idea that human intelligence occupied a special place in the world. We were the creatures that reasoned, discovered, created, and understood. Even when one human surpassed another, humanity as a whole remained at the top of the hierarchy.
-
-Now that assumption is beginning to break down.
-
-And with it comes a choice.
-
-We can continue measuring the significance of our intellectual lives by our position in that hierarchy, in which case the emergence of superior machine intelligence may indeed feel devastating.
-
-Or we can recognize that the most rewarding aspects of intellectual life never depended on that hierarchy in the first place.
-
-I don't need to be the greatest mathematician in the world to love mathematics. I don't need to discover a theorem before anyone else to appreciate its beauty. And I don't need humanity to remain the most intelligent species, or the most capable mathematical intelligence, for understanding the universe to remain a worthwhile pursuit.
-
-None of this means we should be indifferent to the dangers of artificial intelligence, or careless about the future of human intellectual life.
-
-It simply means that our reasons for loving something should be deeper than our ability to dominate it.
-
-If machines eventually become the greatest mathematicians the world has ever known, I hope they will show us mathematics more beautiful than anything we have imagined.
-
-I want to see those ideas. I want to struggle with them, understand them, and experience the pleasure of having something extraordinary finally make sense.
-
-Because, in the end, I was never doing mathematics to prove that I was better than another mind.
-
-**I was doing it for the joy of what my own mind could see.**
-
-And that is something no superior intelligence can take away.
