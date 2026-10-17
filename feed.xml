@@ -14,6 +14,21 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>Will AGI Bring Infinite Human Lifespans?</title>
+      <link>https://www.gokhanmergen.com/blog-infinite-lifespans.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-infinite-lifespans.html</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Longevity / AI</category>
+      <description>Longevity Escape Velocity hypothesis is refuted by data</description>
+      <blog:readTime>10 min read</blog:readTime>
+      <content:encoded>&lt;p&gt;One of the boldest predictions about artificial intelligence is that it will eventually make us immortal.&lt;/p&gt;
+&lt;p&gt;The idea is called &lt;strong&gt;Longevity Escape Velocity (LEV)&lt;/strong&gt;: a point at which medical advances add more than one year to our remaining life expectancy for every year that passes. Once we cross that threshold, we could theoretically stay ahead of aging indefinitely.&lt;/p&gt;
+&lt;p&gt;Ray Kurzweil has predicted that humanity could reach this point by 2029. And with artificial general intelligence (AGI) potentially accelerating scientific discovery, the argument sounds increasingly plausible: if AI becomes exponentially smarter, shouldn’t medicine advance exponentially too?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I don’t think so. And nearly 200 years of human longevity data suggest why.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The fundamental problem is that exponential technological progress does not necessarily produce exponential gains in lifespan.&lt;/p&gt;
+&lt;p&gt;We may be getting exponentially better at solving biological problems. But those problems may also become exponentially harder as we try to extend life further.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>Joy Without Rank</title>
       <link>https://www.gokhanmergen.com/blog-joy-without-rank.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-joy-without-rank.html</guid>
