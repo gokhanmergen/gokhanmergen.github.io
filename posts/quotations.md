@@ -3,7 +3,7 @@ slug: quotations
 date: 2016-03-15
 category: Ideas / Quotations
 read_time: 3 min read
-title: An Overfit Machine
+title: Quotes That Make Me Think
 deck: Quotations I keep coming back to, on machines and minds, thinking, failing and learning, being, and markets and power.
 archive_deck: Quotations I keep coming back to, on machines and minds, thinking, failing and learning, being, and markets and power.
 ---
