@@ -14,6 +14,18 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>Joy Without Rank</title>
+      <link>https://www.gokhanmergen.com/blog-joy-without-rank.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-joy-without-rank.html</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Mathematics / AI</category>
+      <description>On mathematics, artificial intelligence, and the ego&#x27;s fear of becoming second best.</description>
+      <blog:readTime>10 min read</blog:readTime>
+      <content:encoded>&lt;p&gt;Steven Strogatz is one of the mathematicians I most enjoy following on X. He has a remarkable ability to communicate the beauty of mathematics, to make even difficult ideas feel accessible and deeply human. Which is why his increasingly somber reflections on artificial intelligence have caught my attention.&lt;/p&gt;
+&lt;p&gt;In September, OpenAI announced that a system of roughly 10,000 AI agents had produced a solution to the Navier–Stokes Millennium Problem in just 88 hours. The claim is still being scrutinized, but the broader transformation is undeniable. Machines are beginning to solve mathematical problems that have resisted some of the brightest human minds for decades.&lt;/p&gt;
+&lt;p&gt;For Strogatz, this has been an emotionally difficult development. In a recent interview with &lt;em&gt;The Daily&lt;/em&gt;, he described the prevailing mood among mathematicians as grief. At times, he admitted, he had been moved to tears. And then he said something that, to me, captured the heart of the matter: &amp;quot;We like to think of ourselves as heroes, and maybe that&amp;#x27;s over.&amp;quot;&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>A World of a Billion Local AIs</title>
       <link>https://www.gokhanmergen.com/blog-billion-local-ais.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-billion-local-ais.html</guid>
