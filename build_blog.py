@@ -318,8 +318,15 @@ def render_markdown(markdown: str) -> str:
             while cursor < len(lines) and lines[cursor].strip().startswith("> "):
                 quote_lines.append(lines[cursor].strip()[2:].strip())
                 cursor += 1
-            quote = " ".join(quote_lines)
-            output.append(f'<p class="blog-article-emphasis">{render_inline(quote)}</p>')
+            # Lines after the first (a source or a translation) go on their own lines.
+            quote = "<br>".join(
+                [render_inline(quote_lines[0])]
+                + [
+                    f'<span class="blog-article-quote-source">{render_inline(quote_line)}</span>'
+                    for quote_line in quote_lines[1:]
+                ]
+            )
+            output.append(f'<p class="blog-article-emphasis">{quote}</p>')
             continue
 
         if line.startswith("$$"):
@@ -637,7 +644,7 @@ def render_post(post: Post, number: int, next_post: Optional[Post], versions: Li
       </header>
 
       <div class="blog-article-layout">
-        <article class="blog-article-content">
+        <article class="blog-article-content" data-slug="{escape(post.slug)}">
 {render_markdown(post.body)}
         </article>
       </div>

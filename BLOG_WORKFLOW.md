@@ -80,6 +80,15 @@ The parser supports headings, bold and italic text, ordered and unordered
 lists, blockquotes, inline code, and Markdown links. Horizontal rules are not
 supported; a standalone `---` line in the body renders as plain text.
 
+A blockquote renders as a pull quote. Each further `> ` line in the same
+quote goes on its own line in smaller, lighter type, for a source or a
+translation:
+
+```markdown
+> “The morning breeze has things to tell you. Do not go back to sleep.”
+> — **Rumi**
+```
+
 To add an image, put it in the repository root and write a line containing
 only `![Alt text](image.jpg)`. It renders as a full-width figure. Remember to
 commit the image file itself.

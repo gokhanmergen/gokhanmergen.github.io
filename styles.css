@@ -3388,6 +3388,21 @@ body.lightbox-open {
   line-height: 1.5 !important;
 }
 
+.blog-article-quote-source {
+  color: var(--muted);
+  font-size: 0.82em;
+  font-weight: 400;
+}
+
+/* The quotations post is all quotes, so they read as plain text, not pull quotes. */
+.blog-article-content[data-slug="quotations"] .blog-article-emphasis {
+  font-weight: 400;
+}
+
+.blog-article-quote-source strong {
+  color: var(--ink);
+}
+
 .blog-article-note {
   font-family: var(--font-sans);
   font-size: 0.86rem !important;
