@@ -173,7 +173,7 @@ function sendPost_(item) {
     if (rows[i][COL.STATUS - 1] === 'confirmed') {
       if (MailApp.getRemainingDailyQuota() < 1) return false;
       const unsubscribeUrl = baseUrl + '?action=unsubscribe&token=' + rows[i][COL.TOKEN - 1];
-      MailApp.sendEmail(postEmail_(item, rows[i][COL.EMAIL - 1], unsubscribeUrl));
+      MailApp.sendEmail(postEmail_(item, String(rows[i][COL.EMAIL - 1]).trim(), unsubscribeUrl));
     }
     props.setProperty(progressKey, String(i + 1));
   }
@@ -191,6 +191,37 @@ function sendTestEmail() {
   message.subject = '[Test] ' + message.subject;
   MailApp.sendEmail(message);
   Logger.log('Sent a test email for "%s" to %s', item.title, message.to);
+}
+
+// Addresses for resendLatestPost(). Fill them in only in the Apps Script
+// editor, never here, since this repository is public, and empty the list
+// again after the run.
+const RESEND_TO = [];
+
+// Run from the editor to send the newest post's email to the confirmed
+// subscribers in RESEND_TO, for example people added after it went out.
+// Each gets their own unsubscribe link. The record of sent posts is left
+// untouched.
+function resendLatestPost() {
+  const item = fetchFeed_()[0];
+  const baseUrl = props.getProperty('WEB_APP_URL');
+  const wanted = new Set(RESEND_TO.map(email => email.trim().toLowerCase()));
+  const rows = sheet_().getDataRange().getValues().slice(1);
+  let sent = 0;
+  for (const row of rows) {
+    const email = String(row[COL.EMAIL - 1]).trim().toLowerCase();
+    if (!wanted.has(email) || row[COL.STATUS - 1] !== 'confirmed') continue;
+    if (MailApp.getRemainingDailyQuota() < 1) {
+      Logger.log('Out of email quota after %s messages; not sent: %s', sent, [...wanted].join(', '));
+      return;
+    }
+    const unsubscribeUrl = baseUrl + '?action=unsubscribe&token=' + row[COL.TOKEN - 1];
+    MailApp.sendEmail(postEmail_(item, email, unsubscribeUrl));
+    wanted.delete(email);
+    sent++;
+  }
+  Logger.log('Sent "%s" to %s subscribers.', item.title, sent);
+  if (wanted.size) Logger.log('Not confirmed subscribers, so not sent: %s', [...wanted].join(', '));
 }
 
 function postEmail_(item, to, unsubscribeUrl) {

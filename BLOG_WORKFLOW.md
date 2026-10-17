@@ -151,6 +151,11 @@ localized interface text. Supported languages are the keys of `UI_TEXT` in
 - **Previewing the email:** run `sendTestEmail` in the Apps Script editor. It
   sends the newest post's email, marked "[Test]", to `OWNER_EMAIL` only, and
   doesn't affect subscribers or the record of sent posts.
+- **Resending to a few subscribers:** in the Apps Script editor, put their
+  addresses in `RESEND_TO` and run `resendLatestPost`. It sends the newest
+  post's email to those of them who are confirmed subscribers, each with
+  their own unsubscribe link. Empty the list again afterwards, and never fill
+  it in the repository copy, since this repository is public.
 
 ## Exact-copy requests
 
