@@ -140,6 +140,15 @@ It holds the translation principles, the house conventions (categories,
 terminology, spelling, numbers) and the process, including the structure check
 `check_translation.py` in the same folder.
 
+## Cross-posting to Substack
+
+English posts are mirrored on gokhanmergen.substack.com once they are live
+on the site. To add, publish or update a post there, follow
+[`.claude/skills/substack-crosspost/SKILL.md`](.claude/skills/substack-crosspost/SKILL.md).
+It covers the approved conventions (dateline, three subscribe widgets, tables
+as lists), the step-by-step editor procedure, the helper script beside it,
+and how to verify the result.
+
 ## Comments, feed, and email subscriptions
 
 - **Comments** are GitHub Discussions in this repository's "Announcements"
