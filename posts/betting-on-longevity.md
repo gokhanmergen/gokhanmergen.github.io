@@ -231,7 +231,7 @@ These interventions extended lifespan in mice and have some supporting human evi
 
 | # | Intervention | Lifespan evidence | Quality of life |
 | :---- | :---- | :---- | :---- |
-| 1 | Rapamycin | +24.5% in mice (ITP); no human lifespan data | Fewer infections and better well-being in early trials |
+| 1 | Rapamycin | +24.5% in mice (ITP); no human lifespan data | Better well-being in early trials |
 | 2 | Calorie restriction | Longer life in mice; slowed one aging clock in CALERIE | Hard to sustain |
 | 3 | Acarbose | +22% in male mice (ITP) | Modest weight loss |
 | 4 | Creatine | +9% healthy lifespan in mice | More muscle and strength |
@@ -253,7 +253,7 @@ These interventions extended lifespan in mice and have some supporting human evi
 
 Rapamycin is the ITP's most reliable performer, with a [24.5% increase in average lifespan](https://pubmed.ncbi.nlm.nih.gov/24341993/), and it extends healthspan by [delaying aging in several organ systems](https://pubmed.ncbi.nlm.nih.gov/22587563/). Human data are early but encouraging. In a small trial, a rapamycin skin cream showed an [anti-aging effect on human skin](https://pubmed.ncbi.nlm.nih.gov/31761958/). In a trial in dogs, it [improved age-related measures of heart function](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5411365/), both diastolic and systolic (E/A ratio, fractional shortening and ejection fraction). And everolimus, a rapamycin analog, [boosted the immune response to flu vaccination by about 20%](https://doi.org/10.1126/scitranslmed.3009892) after six weeks.
 
-The first placebo-controlled trial in healthy older adults was more sobering. In [PEARL](https://aging-us.com/article/206235), 48 weeks of weekly low-dose rapamycin (5 or 10 mg) did not change visceral fat, its primary endpoint. The gains were in secondary measures, such as lean mass and pain in women on 10 mg and self-rated well-being, and side effects matched placebo apart from more stomach upset. In a [larger trial of adults 65 and older](https://pubmed.ncbi.nlm.nih.gov/29997249/), six weeks of low-dose everolimus combined with a second mTOR-pathway drug cut reported infections over the following year by about 38%. The key test in a longer-lived mammal, the Dog Aging Project's [TRIAD trial](https://vetmed.tamu.edu/news/press-releases/dog-aging-project-triad/) of weekly rapamycin in older dogs, is still enrolling.
+The first placebo-controlled trial in healthy older adults was more sobering. In [PEARL](https://aging-us.com/article/206235), 48 weeks of weekly low-dose rapamycin (5 or 10 mg) did not change visceral fat, its primary endpoint. The gains were in secondary measures, such as lean mass and pain in women on 10 mg and self-rated well-being, and side effects matched placebo apart from more stomach upset. The key test in a longer-lived mammal, the Dog Aging Project's [TRIAD trial](https://vetmed.tamu.edu/news/press-releases/dog-aging-project-triad/) of weekly rapamycin in older dogs, is still enrolling.
 
 ### 2. Calorie restriction and one meal a day (OMAD)
 
