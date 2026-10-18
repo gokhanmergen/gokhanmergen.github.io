@@ -95,7 +95,9 @@ translation:
 
 To add an image, put it in the repository root and write a line containing
 only `![Alt text](image.jpg)`. It renders as a full-width figure. Remember to
-commit the image file itself.
+commit the image file itself. Keep a chart's source files, such as SVG
+originals and full-size exports, in `posts/images/<slug>/`. The page shows
+only the copy in the root.
 
 Tables use standard pipe syntax: a header row, a separator row such as
 `| --- | --- |`, then one row per line. Cells may contain links and emphasis.
