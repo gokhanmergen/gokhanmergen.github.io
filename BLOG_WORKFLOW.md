@@ -116,7 +116,7 @@ slug: example-post-tr
 translation_of: example-post
 lang: tr
 date: 2026-09-08
-category: Fikirler / Yapay zekâ
+category: Fikirler / Yapay Zekâ
 read_time: 6 dk okuma
 title: Makalenin Başlığı
 deck: Makale sayfasında görünen kısa açıklama.
@@ -131,6 +131,12 @@ localized interface text. A translated page's “next older post” button goes 
 the next older post's translation in the same language, or to the original if
 there is none. Supported languages are the keys of `UI_TEXT` in
 `build_blog.py` (currently `en` and `tr`).
+
+Before writing or revising a Turkish translation, read
+[`.claude/skills/turkish-translation/SKILL.md`](.claude/skills/turkish-translation/SKILL.md).
+It holds the translation principles, the house conventions (categories,
+terminology, spelling, numbers) and the process, including the structure check
+`check_translation.py` in the same folder.
 
 ## Comments, feed, and email subscriptions
 
