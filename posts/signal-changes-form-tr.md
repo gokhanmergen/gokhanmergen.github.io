@@ -6,29 +6,29 @@ date: 2025-01-21
 category: Kariyer / Yapay Zekâ
 read_time: 19 dk okuma
 title: Sinyal Biçim Değiştirir
-deck: Oğullarım ve hangi kapıyı açacağından emin olamayan her genç için bir kayıt: ODTÜ, Cornell, Qualcomm, bir trading firması, Apple ve Google; her dönemecin ardındaki akşam çalışmaları, hatalar ve değişmeden kalan birkaç ilke.
-archive_deck: Oğullarım ve hangi kapıyı açacağından emin olamayan her genç için bir kayıt: ODTÜ, Cornell, Qualcomm, bir trading firması, Apple ve Google; her dönemecin ardındaki akşam çalışmaları, hatalar ve değişmeden kalan birkaç ilke.
+deck: Oğullarım ve hangi kapıyı açacağını bilemeyen her genç için bir yol defteri: ODTÜ, Cornell, Qualcomm, bir trading firması, Apple ve Google; her dönemecin ardındaki akşam çalışmaları, yaptığım hatalar ve yol boyunca değişmeyen birkaç ilke.
+archive_deck: Oğullarım ve hangi kapıyı açacağını bilemeyen her genç için bir yol defteri: ODTÜ, Cornell, Qualcomm, bir trading firması, Apple ve Google; her dönemecin ardındaki akşam çalışmaları, yaptığım hatalar ve yol boyunca değişmeyen birkaç ilke.
 ---
 
-## **Giriş: İki Yıl Erken**
+## **Giriş: Herkesten İki Yıl Önce**
 
-Otobanda giden bir arabada, dizüstü bilgisayarımdan bir Dünya Kupası maçı izliyordum.
+Otobanda giden bir arabada, dizüstü bilgisayarımdan Dünya Kupası maçı izliyordum.
 
-Bugün bu cümle sıradan geliyor. O zamanlar ise bunu neredeyse hiç kimse söyleyemezdi. Henüz iPhone yoktu, doğru dürüst bir mobil tarayıcı yoktu, YouTube da neredeyse yoktu. İnsanlar minicik ekranlardan kısa mesaj ve biraz da e-posta gönderiyordu. Maç, Qualcomm'da kendi ellerimizle yaptığımız bir telefon üzerinden canlı olarak geliyordu ve henüz kimsenin elinde onun gibisi yoktu.
+Bugün bu cümle kulağa sıradan geliyor. O günlerde ise bunu söyleyebilecek kimse yok gibiydi. Ortada ne iPhone vardı ne de doğru dürüst bir mobil tarayıcı; YouTube da yok sayılırdı. İnsanlar minicik ekranlardan kısa mesaj, arada bir de e-posta atıyordu. Yayın, Qualcomm'da kendi ellerimizle yaptığımız bir telefon üzerinden geliyordu. Benzeri henüz kimsenin elinde yoktu.
 
-Açıkçası ekip içinde birbirimize, buna kimin ihtiyacı olacak ki diye soruyorduk. O arabada cevabımı buldum.
+Açıkçası ekipte birbirimize şunu soruyorduk: Bunu kim ne yapsın? O arabada cevabımı buldum.
 
-Bu deneyimi herkesten yaklaşık iki yıl önce yaşadım ve neyin geldiğine dair sezgim değişti. Gelecek bir denklem olmaktan çıktı, yaşadığım bir şeye dönüştü. Bir teknoloji, kaçınılmaz hale geldiği ana kadar gereksiz görünebilir.
+Bunu herkesten aşağı yukarı iki yıl önce yaşamak, önümüzdeki yıllara dair sezgimi değiştirdi. Gelecek bir denklem olmaktan çıkıp yaşadığım bir şeye dönüştü. Bir teknoloji, kaçınılmaz olduğu ana kadar gereksiz görünebilir.
 
-Böyle anlar nadirdir. Hayatımın neredeyse her dönemecinde ancak birkaç adım ötesini görebildim.
+Böyle anlar seyrek yaşanır. Hayatımın hemen her dönemecinde önümü ancak birkaç adım görebildim.
 
-Geçimimi sağladığım iş kabaca her beş yılda bir şekil değiştirdi. Akademik araştırmacı olarak başladım; sonra sinyal işleme mühendisi, ardından kantitatif trader, ardından da veri bilimci oldum. Bugün Google'da bir makine öğrenmesi ekibini yönetiyorum.
+Ekmeğimi kazandığım iş, kabaca her beş yılda bir şekil değiştirdi. Akademide araştırmacı olarak başladım; sonra sinyal işleme mühendisi, ardından kantitatif trader, daha sonra da veri bilimci oldum. Bugün Google'da bir makine öğrenmesi ekibinin başındayım.
 
-Dışarıdan bakınca yol planlıymış gibi görünüyor: ODTÜ, Cornell, Qualcomm, bir trading firması, Apple, Google; her isim bayrağı düzgünce bir sonrakine devrediyor. İçeriden bakınca ise hiç öyle gelmedi. Beni taşıyan şey bir plan değil; merak, akşamları ders çalışma alışkanlığı, benden daha çok şey bilen insanlar ve beş yıl önceki ben olmaktan vazgeçmeye razı olmamdı.
+Dışarıdan bakan biri bu yolun önceden planlandığını düşünebilir: ODTÜ, Cornell, Qualcomm, bir trading firması, Apple, Google; her isim bayrağı sorunsuzca bir sonrakine devrediyor. Ama içeriden bakınca hiç de öyle değildi. Beni ileri taşıyan şey bir plan değildi. Merakımdı, akşamları oturup çalışma alışkanlığımdı, benden fazlasını bilen insanlardı ve beş yıl önceki kendimden vazgeçmeye hazır oluşumdu.
 
-Bunların ayrı kariyerler olmadığını ancak geriye dönüp bakınca görüyorum. Hepsini tek bir iplik birbirine bağlıyordu. Her işte aynı şeyi arıyordum: koca bir gürültü yığınının içine gömülmüş, zayıf ama anlamlı bir örüntü. Sinyal hiç kaybolmadı. Yalnızca biçim değiştirdi.
+Bunların ayrı ayrı kariyerler olmadığını ancak dönüp geriye bakınca görebiliyorum. Hepsi aynı ipliğe dizilmişti. Her işte aynı şeyi arıyordum: koca bir gürültü yığınının altına gömülmüş, cılız ama anlamlı bir örüntü. Sinyal hiç kaybolmadı. Yalnızca biçim değiştirdi.
 
-Annemle babam benim yolumu öngöremezdi; ben de sizinkini öngöremem. Bu yüzden bir harita yerine bir kayıt bırakmak istiyorum: ne yaptığımı, her dönemeçte neden o yöne saptığımı, nerede yanıldığımı ve değişmeden kalan birkaç ilkeyi. Bunu oğullarım için ve bir zamanlar benim durduğum yerde duran, hangi kapıyı açacağından emin olamayan her genç için yazıyorum.
+Annemle babam benim yolumu öngöremezdi, ben de sizinkini öngöremem. O yüzden size bir harita değil, bir yol defteri bırakmak istiyorum: neler yaptığımı, her dönemeçte neden o yöne saptığımı, nerede yanıldığımı ve bunca değişimin ortasında sabit kalan birkaç ilkeyi. Bu yazıyı oğullarım için yazıyorum; bir de bir zamanlar benim durduğum yerde durup hangi kapıyı açacağını bilemeyen her genç için.
 
 ## **Tavan**
 
@@ -36,214 +36,214 @@ Annemle babam benim yolumu öngöremezdi; ben de sizinkini öngöremem. Bu yüzd
 
 Mühendisliğin ilk yılı beni sıktı.
 
-1996'da Atatürk Anadolu Lisesi'ni bitirmiş, elektrik-elektronik mühendisliği okumak için ODTÜ'ye, yani Orta Doğu Teknik Üniversitesi'ne girmiştim. O ilk yılın büyük bölümü lisede gördüklerimizin tekrarıydı. Biraz da saflıkla, mühendisliği bu kadar rahat götürebiliyorsam yanında matematik de okuyabileceğim sonucuna vardım.
+1996'da Atatürk Anadolu Lisesi'ni bitirip ODTÜ'de elektrik-elektronik mühendisliği okumaya başlamıştım. İlk yılın büyük kısmı lisede gördüklerimizin tekrarıydı. Biraz da saflıkla şöyle düşündüm: Mühendislik bu kadar rahat gidiyorsa, yanında matematik de okuyabilirim.
 
-Ben de çift anadal programına girdim. Beklediğimden çok daha zordu. 2000'de iki bölümü de en üst sıralara yakın bir dereceyle bitirdim; ama asıl ders notlar değildi. Asıl ders zorluğun kendisiydi.
+Böylece çift anadala başladım. İş, sandığımdan çok daha zor çıktı. 2000'de iki bölümü de en üst sıralara yakın bir dereceyle bitirdim, ama asıl dersi notlardan değil, o zorluğun kendisinden aldım.
 
-Çıtayı yükseltmeye devam ederseniz er geç sınırınızı bulursunuz. Bir Einstein mıydım? Hayır. Sağlam bir bilim insanı mı? Belki. **Herkesin bir tavanı vardır ve sizinkinin nerede olduğunu öğrenmenin tek yolu, ona dokunana kadar zorlamaktır.**
+Çıtayı yükseltip durursanız er geç sınırınıza dayanırsınız. Einstein mıydım? Hayır. Sağlam bir bilim insanı mı? Belki. **Herkesin bir tavanı vardır; sizinkinin nerede olduğunu öğrenmenin tek yolu, başınız ona değene kadar kendinizi zorlamaktır.**
 
-Sinyal işleme beni orada yakaladı, çünkü mühendislik ile matematiğin en çok örtüştüğü alan oydu. Boş zamanlarımda, sırf zevk için sinyal işleme ders kitapları okurdum. Kimsenin ödev olarak vermediği şeyleri okuma alışkanlığım, sonradan gelen neredeyse her dönemecin bedelini ödeyecekti.
+Sinyal işleme beni tam orada yakaladı, çünkü mühendislikle matematiğin en çok iç içe geçtiği alan oydu. Boş vakitlerimde, sırf keyif için sinyal işleme kitapları okurdum. Kimsenin ödev vermediği şeyleri okuma alışkanlığım, sonraki dönemeçlerin neredeyse hepsinde bana kapı açacaktı.
 
-Üçüncü sınıfla dördüncü sınıf arasındaki yazı Boston'da, Northeastern Üniversitesi'nde geçirdim. Hayalim nehrin hemen karşı yakasındaki MIT'ydi, ama orada kimseyi tanımıyordum. Gerçekten açık olan kapı Northeastern'dı, ben de o kapıdan geçtim.
+Üçüncü sınıfı bitirdiğim yaz Boston'a, Northeastern Üniversitesi'ne gittim. Asıl hayalim nehrin hemen karşı yakasındaki MIT'ydi, ama orada tanıdığım kimse yoktu. Bana gerçekten açık olan kapı Northeastern'dı; ben de o kapıdan girdim.
 
-Bu, son kez olmayacaktı.
+Bu, ilk ve son olmayacaktı.
 
-## **Manhattan'a Beş Saat**
+## **Manhattan'a Beş Saat Uzakta**
 
 *Ithaca, 2000–2004*
 
 New York şehrine taşındığımı sanıyordum.
 
-ODTÜ'deki sınıfımın büyük bölümü Amerika'daki lisansüstü programlara birlikte başvurdu; niyet mektuplarımızı laboratuvarda yan yana oturup yazdığımızı hatırlıyorum. Stanford beni burssuz kabul etti, bu da benim için ret anlamına geliyordu. Tam burs teklif eden en iyi okul Cornell'di; onu Georgia Tech'e ve diğerlerine tercih ettim.
+ODTÜ'deki sınıfımın büyük kısmı Amerika'daki lisansüstü programlara hep birlikte başvurmuştu; laboratuvarda yan yana oturup niyet mektuplarımızı yazdığımızı hatırlıyorum. Stanford beni kabul etti ama burs vermedi; bu da benim için ret demekti. Tam burs veren okulların en iyisi Cornell'di. Onu Georgia Tech'e ve ötekilere tercih ettim.
 
-Cornell New York'taydı ve benim için New York şehir demekti. New York'un aynı zamanda bir eyalet olduğunu da, Ithaca'nın Manhattan'a beş saat uzaklıkta olduğunu da bilmiyordum; bunu kontrol edecek doğru dürüst bir internet de yoktu.
+Cornell New York'taydı; benim için de New York demek, şehir demekti. Aynı adı taşıyan bir eyalet olduğunu da, Ithaca'nın Manhattan'a beş saat uzakta olduğunu da bilmiyordum. Açıp bakabileceğim doğru dürüst bir internet de yoktu.
 
-Ithaca güzel bir yer çıktı: Kampüsün içinden iki nehir akıyor, tepelerin eteğinde Cayuga Gölü uzanıyordu. Kendinizi tamamen bilime vermek için harika bir yer; büyük şehirleri seviyorsanız ise zor.
+Ithaca çok güzel bir yer çıktı. Kampüsün içinden iki nehir akıyor, tepelerin eteğinde Cayuga Gölü uzanıyordu. Kendinizi bütünüyle bilime vermek için harika bir yer; büyük şehir seven biri içinse zor.
 
-Orada telekomünikasyon ve sinyal işleme alanında yüksek lisans ve doktora yaparak dört buçuk yıl geçirdim. Yaptığımız işi "verisiz büyük veri" diye tarif ediyorum. Bugün devasa veri kümeleri toplar, gerisini bir modelin bu verilerden öğrenmesine bırakırsınız. Biz aynı hedeflerin peşinden olasılık teorisi, stokastik süreçler ve istatistiksel modellerle, çoğunlukla kâğıt üzerinde koşuyorduk. Danışmanımın beni öğrenciliğe kabul etmesinin başlıca nedeni matematik diplomamdı; Ankara'daki ilk yılım beni sıktığı için eklediğim o diploma.
+Telekomünikasyon ve sinyal işleme üzerine yüksek lisans ve doktora yaptığım dört buçuk yıl orada geçti. Yaptığımız işi "verisiz büyük veri" diye özetliyorum. Bugün devasa veri setleri toplayıp öğrenme işini modele bırakıyorsunuz. Biz aynı hedeflerin peşine olasılık teorisi, stokastik süreçler ve istatistiksel modellerle, çoğu zaman kâğıt kalemle düşüyorduk. Danışmanımın beni yanına almasında en büyük pay matematik diplomamındı: Ankara'da ilk yıl canım sıkıldığı için eklediğim o diplomanın.
 
-Fonlarımızın büyük kısmı ABD Ordusu'nun araştırma laboratuvarlarından geliyordu. 2000 ile 2004 arasında, yani çoğu insanın bir drone görmesinden yıllar önce, insansız hava araçlarının nasıl iletişim ağları oluşturabileceğini çözdük. Bize fon sağlayanlar, her şeyin on ya da yirmi yıl içinde bu yöne gideceğini söylüyordu.
+Fonlarımızın çoğu ABD Ordusu'nun araştırma laboratuvarlarından geliyordu. 2000 ile 2004 arasında, çoğu insanın drone diye bir şey görmesine daha yıllar varken, insansız hava araçlarının nasıl iletişim ağı kurabileceğini çözdük. Bizi destekleyenler, on yirmi yıl içinde her şeyin bu yöne gideceğini söylüyordu.
 
 Haklıydılar.
 
-Başarılıydım ama profesör olmak istemiyordum. Araştırma zordu; mükemmel bir makale bile ancak birkaç yüz okura ulaşabiliyordu. ODTÜ'de pratik sistemler kurmuş ve onların çalıştığını görmeyi çok sevmiştim. Gerçek dünyada işe yarayıp yaramadığını hiç öğrenmeden teori yazmak beni tatmin etmiyordu. Yine bir şeyler inşa etmek ve çalıştıklarını görmek istiyordum.
+İyi gidiyordum ama profesör olmak istemiyordum. Araştırma zor işti; çok iyi bir makale bile ancak birkaç yüz kişiye ulaşabiliyordu. ODTÜ'de uygulamaya dönük sistemler kurmuş, onları çalışırken görmeyi çok sevmiştim. Gerçek dünyada tutup tutmadığını hiç öğrenemeyeceğim teoriler yazmak beni tatmin etmiyordu. Yeniden bir şeyler kurup çalıştıklarını görmek istiyordum.
 
 ## **Bir Buçuk Milyar Cep**
 
 *Qualcomm, 2004–2009*
 
-*Bir sonraki 1,5 milyar insana ulaşacak modem için şu alıcı bloğunu tasarla.*
+*Sıradaki 1,5 milyar insana ulaşacak modemin şu alıcı bloğunu tasarla.*
 
-Aralık 2004'te Qualcomm'a adımımı atmamla neredeyse aynı anda elime tutuşturulan görev buydu. Doktoramı resmen bir ay sonra aldım. Yirmili yaşlarımın ortasındaydım. Akademide birkaç yüz okur iyi bir sonuçtur. Burada ise bir buçuk milyar insan yaptığım işi cebinde taşıyacaktı. Endüstriyi seçmemin nedeni bu farktı.
+Aralık 2004'te Qualcomm'a başlar başlamaz önüme konan görev buydu. Doktora diplomamı resmen bir ay sonra aldım. Yirmili yaşlarımın ortasındaydım. Akademide birkaç yüz okur iyi sayılır. Burada ise yaptığım işi bir buçuk milyar insan cebinde taşıyacaktı. Sektörü seçmemin nedeni de tam bu farktı.
 
-Tuhaf bir dönemde gelmiştim. Dot-com balonu patlamış, 3G herkesi hayal kırıklığına uğratmıştı. Biz 3.5G'yi inşa ediyorduk.
+Tuhaf bir zamanlamaydı. Dot-com balonu patlamış, 3G herkesi hayal kırıklığına uğratmıştı. Biz ise 3.5G'yi geliştiriyorduk.
 
-Bir telefon her iletimi defalarca duyar: Sinyal, binalardan ve tepelerden seken yankılar olarak gelir ve diğer herkesin görüşmelerinin gürültüsüne dolanır. Biz bu yankıları toplayıp üst üste ekleyen rake alıcılarının (rake receiver) yerine, bu düğümün kendisini çözmeye çalışan denkleştiricileri (equalizer) ve girişim giderme (interference cancellation) yöntemlerini koyuyorduk. Kariyerimin geri kalanında şu ya da bu biçimde karşıma çıkıp duracak problem buydu: koca bir gürültü yığınının içinden zayıf bir sinyali çekip çıkarmak. En yüksek veri hızı, ben katıldığımda saniyede 3,6 megabitti; ayrıldığımda 21 megabite çıkmıştı.
+Telefon kendisine gönderilen her şeyi defalarca duyar: Sinyal binalara ve tepelere çarpıp yankılar halinde gelir, başkalarının görüşmelerinin gürültüsüne karışır. Biz bu yankıları toplayıp üst üste ekleyen rake alıcılarını bırakıyor, karmaşanın kendisini çözmeye çalışan denkleştiricilere ve girişim giderme tekniklerine geçiyorduk. Kariyerimin geri kalanında şu ya da bu kılıkta karşıma çıkacak problem buydu: koca bir gürültünün içinden cılız bir sinyali çekip çıkarmak. Ben girdiğimde en yüksek veri hızı saniyede 3,6 megabitti; ayrılırken 21 megabite çıkmıştı.
 
-Rakamlar tırmandıkça birbirimize, buna kimin ihtiyacı olacak ki diye soruyorduk. Cevabımı nerede bulduğumu zaten biliyorsunuz: otobanda giden bir arabada, herkesten iki yıl önce.
+Rakamlar tırmandıkça birbirimize aynı soruyu soruyorduk: Bunu kim ne yapsın? Cevabı nerede bulduğumu biliyorsunuz: otobanda giden bir arabada, herkesten iki yıl önce.
 
-Qualcomm'un liderleri üç ila beş yıl ilerisini görüyordu. Çoğu zaman yaptıkları, bir eğilim çizgisini cetvelle uzatmaktan, ardından da o çizginin gerektirdiğini inşa edecek cesareti bulmaktan ibaretti. Benim gibi mühendisler bunun nedenini her zaman göremiyordu.
+Qualcomm'un yöneticileri üç ila beş yıl ilerisini görüyordu. Çoğu zaman yaptıkları şey basitti: bir trend çizgisini cetvelle uzatmak, sonra da o çizginin gerektirdiğini inşa edecek cesareti bulmak. Benim gibi mühendisler bunun nedenini her zaman kavrayamıyordu.
 
-O günden beri o cetveli hep aklımda tutmaya çalıştım. Yıllar sonra onu kendi firmamın kârlarını gösteren bir grafiğin üzerine koyacaktım.
+O günden bu yana o cetveli hiç unutmamaya çalıştım. Yıllar sonra onu kendi firmamın kâr grafiğinin üzerine yatıracaktım.
 
 ## **Akşamlar**
 
 *2004–2009*
 
-2004 civarında bir fikir aklımı ele geçirdi: Beyni anlayabilen, geri kalan neredeyse her şeyi çözebilirdi. Bir gün araştırmaya dönersem, üzerinde çalışmak istediğim şey buydu.
+2004 civarında kafama bir fikir yerleşti: Beyni anlarsanız geri kalan hemen her şeyi çözebilirsiniz. Bir gün araştırmaya dönersem, uğraşmak istediğim konu buydu.
 
-2006 ya da 2007'de [The Elements of Statistical Learning](https://books.google.com/books/about/The_Elements_of_Statistical_Learning.html?id=eBSgoAEACAAJ) adlı bir makine öğrenmesi kitabını elime aldım ve sırf zevk için çalıştım. Şaşkına döndüm. Sinyal işlemede boğuştuğumuz ya da kendi beceriksiz yollarımızla çözdüğümüz problemlerin orada daha temiz cevapları vardı.
+2006 ya da 2007'de makine öğrenmesi üzerine [The Elements of Statistical Learning](https://books.google.com/books/about/The_Elements_of_Statistical_Learning.html?id=eBSgoAEACAAJ) adlı kitabı alıp sırf keyif için çalıştım. Ağzım açık kaldı. Sinyal işlemede boğuştuğumuz ya da kendi acemice yöntemlerimizle çözdüğümüz problemlerin orada daha derli toplu çözümleri vardı.
 
-Şuna inanmaya başladım: Sevdiğim alanın, yani sinyal işlemenin temel teorisi 1970'lere gelindiğinde büyük ölçüde oturmuştu; 1990'lardan beri ise en ileri cephe makine öğrenmesine kaymıştı.
+Zamanla şu kanaate vardım: Sevdiğim alanın, sinyal işlemenin temel teorisi 1970'lere gelindiğinde büyük ölçüde oturmuştu; 1990'lardan bu yana ise keşiflerin ön cephesi makine öğrenmesine kaymıştı.
 
-Derken üç güç beni aynı anda finansa doğru çekti.
+Derken üç ayrı güç beni aynı anda finansa doğru çekti.
 
-Birincisi paraydı; aksini iddia edecek değilim. Daha 1999'da, Bilkent'i de ODTÜ'yü de burslu kazanmış ve ikisi arasında seçim yapmaya çalışan bir arkadaşa dobra bir tavsiye verilmişti: Hangisi daha çok veriyorsa onu seç. Bu söz aklıma kazındı. Yıllar sonra aynı diplomalara sahip sınıf arkadaşlarımın aynı iş için bir buçuk ila iki kat fazla kazandığını fark ettim ve kendime neden onlardan biri olmadığımı sordum.
+Birincisi paraydı, bunu saklayacak değilim. Daha 1999'da, hem Bilkent'i hem ODTÜ'yü burslu kazanıp ikisi arasında kararsız kalan bir arkadaşa dobra bir öğüt verilmişti: Hangisi daha çok para veriyorsa onu seç. Bu söz aklıma kazındı. Yıllar sonra baktım ki benimle aynı diplomayı almış sınıf arkadaşlarım aynı işi yapıp bir buçuk iki kat fazla kazanıyor. Kendime sordum: Ben neden onlardan biri değilim?
 
-İkincisi, finansın çarklarının makine öğrenmesiyle dönmesiydi. Üçüncüsü, finansın saf araştırmacıları işe almasıydı: dağınık, pratik bir problemi alıp matematik diliyle ifade edebilen ve gerçek dünyada bir sonuç üretebilen insanları. Benim en güçlü yönüm de tam buydu.
+İkincisi, finansın çarkları makine öğrenmesiyle dönüyordu. Üçüncüsü, finans saf araştırmacıları işe alıyordu: dağınık, pratik bir problemi alıp matematiğe dökebilen ve gerçek dünyada sonuç çıkarabilen insanları. En güçlü yanım da tam buydu.
 
-Böylece iki üç yıl boyunca gündüzlerim ve akşamlarım farklı kariyerlere ait oldu. Gündüzleri modemler üzerinde çalışıyordum. Akşamları, işten çıktıktan sonra, bir sonraki kariyerime hazırlanmak için ders çalışıyordum.
+Böylece iki üç yıl boyunca gündüzlerim bir kariyere, akşamlarım bir başkasına ait oldu. Gündüzleri modemlerle uğraşıyor, akşamları işten çıkınca bir sonraki mesleğim için ders çalışıyordum.
 
-2007'de bir iş teklifi almama ramak kalmıştı. Sonra finansal kriz patlak verdi. Bankalar çöktü, kimse eleman almıyordu.
+2007'de bir iş teklifi almama ramak kalmıştı. Sonra finans krizi patlak verdi. Bankalar çöktü, kimse eleman almıyordu.
 
-Belki de o işi kaçırdığım için şanslıydım. Gidilmeyen yolun ihtimallerini hiçbir zaman öğrenemezsiniz.
+Belki de o işi kaçırmak benim şansımdı. Seçmediğiniz yolun size neler getireceğini asla bilemezsiniz.
 
-2009'a gelindiğinde yüksek frekanslı işlem (high-frequency trading) firmaları krizi sağlam atlatmıştı ve matematiksel model kurabilen insanları işe alıyorlardı. O zaman bile kolay değildi. Bu firmalar olimpiyat madalyalılarını ve ödüllü fizikçileri kadrolarına katıyordu; kâğıt üzerinde ben onlardan bir kademe aşağıdaydım. Yıllar sonra Uluslararası Matematik Olimpiyatı'nda altın madalya kazanmış birini yönetecektim. Ama önce o kapıdan girmem gerekiyordu ve beni oraya sabır taşıdı.
+2009'a gelindiğinde yüksek frekanslı işlem yapan firmalar krizi sağlam atlatmıştı ve matematiksel model kurabilen insanları işe alıyordu. Yine de kolay değildi. Bu firmalar olimpiyat madalyalılarını, ödüllü fizikçileri topluyordu; kâğıt üzerinde ben onlardan bir gömlek aşağıdaydım. Yıllar sonra Uluslararası Matematik Olimpiyatı'nda altın madalya almış birinin yöneticisi olacaktım. Ama önce o kapıdan girmem gerekiyordu; beni içeri sokan da sabır oldu.
 
-İnsanlar birinin yeni bir şirkete katıldığı ya da yeni bir alana girdiği günü fark eder. Ondan önce gelen, henüz kimsenin kendisinden beklemediği bir şeyi çalışarak geçen akşamları ise nadiren görürler. **Yaptığım neredeyse her kariyer değişikliği, iş değişikliğinin kendisinden yıllar önce başladı.**
+İnsanlar birinin yeni bir şirkete ya da yeni bir alana geçtiği günü görür. O günden önceki akşamları, henüz kimsenin ondan beklemediği bir şeyi çalışarak geçen akşamları ise pek görmezler. **Hayatımdaki kariyer değişikliklerinin neredeyse hepsi, işimi değiştirmemden yıllar önce başladı.**
 
 ## **Birkaç Fırın Ekmek**
 
 *Austin, 2009–2015*
 
-Yıllar sonra Google'da bir yönetici bana finansta ne yaptığımı sordu. Şöyle dedim: rekabetçi model geliştirme.
+Yıllar sonra Google'da bir yönetici, finansta ne yaptığımı sordu. "Rekabetçi model geliştirme," dedim.
 
-Siz bir model kurarsınız, yanınızdaki kişi de bir model kurar; sizinki daha iyi değilse oyun dışı kalırsınız. Kendinizi kanıtlamak için acımasız ama her şeyi berraklaştıran bir yerdir.
+Siz bir model kurarsınız, yanınızdaki de bir model kurar; sizinki daha iyi değilse oyun dışısınız. Kendinizi kanıtlamak için acımasız bir yer; ama nerede durduğunuzu da apaçık gösteriyor.
 
-2009'da bir yüksek frekanslı işlem firmasına katılmak için Austin'e taşındım. Her yeni veri türü kendine özgü bir uzmanlık ister; bizde dendiği gibi, önce birkaç fırın ekmek yemek gerekir. Gerçekten iyi olmam bir iki yılımı, ortak olmam ise yaklaşık dört yılımı aldı.
+2009'da bir yüksek frekanslı işlem firmasında çalışmak üzere Austin'e taşındım. Her yeni veri türü kendine has bir uzmanlık ister; derler ya, önce birkaç fırın ekmek yemek lazım. İşimde gerçekten iyi olmam bir iki yılımı, ortak olmamsa yaklaşık dört yılımı aldı.
 
-Oradaki en büyük dersim yöntemle ilgiliydi. Doktoram beni bir şeyleri sıfırdan yaratmaya alıştırmıştı; başta ben de öyle yaptım. Bu içgüdü beni yüzüstü bıraktı. İşe yarayan, var olan en iyi stratejileri alıp dikkatle uyarlamaktı: buradan bir sinyal, oradan bir teknik; sağduyuyla bir araya getirilmiş beş on iyi fikir. Bu değişikliği yaptığım anda modellerim kazanmaya başladı.
+Orada aldığım en büyük ders yöntemle ilgiliydi. Doktora beni her şeyi sıfırdan kurmaya alıştırmıştı; başta ben de öyle yaptım. Bu içgüdü beni yüzüstü bıraktı. İşe yarayan, eldeki en iyi stratejileri alıp dikkatle uyarlamaktı: buradan bir sinyal, oradan bir teknik; beş on iyi fikri sağduyuyla harmanlamak. Bu yola girdiğim anda modellerim kazanmaya başladı.
 
-**Özgünlüğü değerle karıştırmayın.** Dünyanın zaten bildiği bir şeyi yeniden keşfettiğiniz için kimse size fazladan puan vermez. İşe yarayandan öğrenin, sonra onun üzerine inşa edin.
+**Özgünlüğü değerle karıştırmayın.** Dünyanın zaten bildiğini yeniden keşfettiniz diye kimse size fazladan puan vermez. İşe yarayandan öğrenin, sonra onun üstüne kat çıkın.
 
-Altı yıl sonra ayrıldığımda firma, NASDAQ'taki toplam işlem hacminin kabaca %5'ini gerçekleştiriyordu ve bunun arkasındaki modellerin yaklaşık yarısını başka bir araştırmacıyla birlikte ben kurmuştum. Neredeyse her şeyin alım satımını yapıyorduk: hisse senetleri, portakal suyu, şeker, petrol.
+Altı yıl sonra ayrıldığımda NASDAQ'taki tüm işlem hacminin kabaca %5'i bu firmadan geçiyordu; bunun arkasındaki modellerin yarısına yakınını da bir başka araştırmacıyla birlikte kurmuştuk. Hemen her şeyin alım satımını yapıyorduk: hisse senedi, portakal suyu, şeker, petrol.
 
-İnsanlar bunun nasıl bir değer yarattığını sorardı. Cevabım şu: Biz piyasa yapıcıydık. Bir hisseyi satmak istediğinizde birinin onu hemen o anda alması gerekir. Piyasa yapıcılar olmasaydı bir komisyoncuyu arayıp yarım gün beklerdiniz ya da havalimanındaki döviz bürolarında olduğu gibi bir aracıya geniş bir alış-satış makası öderdiniz. Yüz dolarlık bir hissede yaklaşık bir sent kazanır, pozisyonları dakikalarca tutardık. Warren Buffett aynı rolü zaman ölçeğinin öbür ucunda oynuyor. 2008'de herkes satarken o aldı ve yıllarca elinde tuttu.
+Bunun ne gibi bir değer yarattığını soranlar olurdu. Cevabım şu: Piyasayı biz yapıyorduk. Bir hisseyi satmak istediğinizde, birinin onu tam o anda alması gerekir. Piyasa yapıcılar olmasa bir komisyoncuyu arayıp yarım gün beklerdiniz ya da havalimanındaki döviz bürolarında olduğu gibi bir aracıya geniş bir alış-satış makası öderdiniz. Biz yüz dolarlık bir hissede bir sent kadar kazanır, pozisyonları birkaç dakika tutardık. Warren Buffett da aynı rolü zaman ölçeğinin öbür ucunda oynuyor: 2008'de herkes satarken o aldı ve yıllarca elinde tuttu.
 
-Bulutla da ilk kez Austin'de tanıştım: 5.000 hisse için paralel olarak model eğiten binlerce sanal makine. Ama firma geride kalıyordu. Alım satım mantığını doğrudan donanımda çalıştırmak üzere yeniden yapılandırılabilen çiplere, yani FPGA'lere ve genel olarak daha hızlı donanıma geçişte çok geç kaldı. Liderleri eğilimleri bir ila üç yıl geç görüyordu; Qualcomm'un tam ayna görüntüsü.
+Bulut bilişimle de ilk kez Austin'de tanıştım: 5.000 hisse için aynı anda model eğiten binlerce sanal makine. Ama firma geride kalıyordu. Alım satım mantığını doğrudan donanım üzerinde çalıştırmak için yeniden yapılandırılabilen FPGA çiplerine de, genel olarak daha hızlı donanıma da çok geç geçti. Yöneticileri trendleri bir ila üç yıl geriden görüyordu: Qualcomm'un tam tersi.
 
 Sonunda firmanın yıllık kârını bir grafiğe döktüm.
 
-En iyi yıl, yaklaşık 30 milyon dolarlık maliyete karşılık 130 milyon dolardı. Sonra 60 geldi. Sonra 50. Sonra 40.
+En iyi yılda kâr 130 milyon dolardı, maliyet ise 30 milyon dolar civarındaydı. Ardından 60 geldi. Sonra 50. Sonra 40.
 
-Qualcomm cetvelini elime aldım ve bu noktalardan düz bir çizgi geçirdim. Çizgi sıfıra uzanıyordu.
+Qualcomm cetvelini aldım, bu noktaların üzerinden düz bir çizgi çektim. Çizgi sıfıra iniyordu.
 
-Firma iyi yıllarda bile neredeyse hiç prim ödememişti. Bu arada eşimin işi nedeniyle Silikon Vadisi'ne geri taşınmıştık ve teknoloji şirketleri artık finanstan daha fazla ödüyordu. Ben de 1999'daki o eski tavsiyeye bir kez daha uyup ayrıldım: Daha çok kazanacağın yere git.
+Firma iyi yıllarda bile neredeyse hiç prim dağıtmamıştı. Bu arada eşimin işi için Silikon Vadisi'ne geri dönmüştük ve teknoloji şirketleri artık finanstan daha iyi para veriyordu. Ben de 1999'daki o eski öğüde bir kez daha kulak verip ayrıldım: Nerede daha çok kazanıyorsan oraya git.
 
-Yaklaşık iki yıl sonra, ortağı olduğum firma neredeyse yok pahasına satıldı.
+Aşağı yukarı iki yıl sonra, ortağı olduğum firma yok pahasına satıldı.
 
 ## **Bilekte Bir Kalp Atışı**
 
 *Apple, 2015–2016*
 
-Bir kol saati için yapay zekâ geliştirsin diye finanstan birini işe almak cesaret gerektiriyordu ve Apple'daki yöneticilerim bu riski göze aldığı için minnettarım. Biri, bir bakıma, şunu söylemişti: Bence bunu yapabilirsin, haydi. Kariyerlerde bu tür anlar, insanların kabul ettiğinden daha fazladır.
+Bir kol saati için yapay zekâ geliştirsin diye finanstan birini işe almak cesaret isterdi; Apple'daki yöneticilerim bu riski göze aldı, onlara minnettarım. Biri bana aşağı yukarı şunu demişti: Bence sen bunu yaparsın, hadi bakalım. Kariyerlerde böyle anlar, insanların kabul etmeye yanaştığından fazladır.
 
-Teknolojiye dönmeden önce kendimi bir kez daha baştan kurmuştum. Finans bana, güçlü programcıların fikirleri benden çok daha hızlı sonuca dönüştürdüğünü göstermişti; bu yüzden 2015'te neredeyse her mülakat sorusunu cevaplayabilecek hale gelene kadar yazılım mühendisliği, veri yapıları ve algoritmalar ile veri bilimi çalıştım. Hayatımdaki her iş değişikliği, işin yanında altı ay ila iki yıllık bir hazırlık gerektirdi. Kendinizi yenilemezseniz soruları cevaplayamazsınız.
+Teknolojiye dönmeden önce kendimi bir kez daha baştan kurmuştum. Finansta görmüştüm ki iyi programcılar fikirleri benden çok daha hızlı sonuca dönüştürüyor. Bu yüzden 2015'te yazılım mühendisliği, veri yapıları, algoritmalar ve veri bilimi çalıştım; o kadar ki sonunda neredeyse her mülakat sorusunu cevaplayabiliyordum. Hayatımdaki her iş değişikliği, işin yanı sıra altı ay ile iki yıl arası bir hazırlık istedi. Kendinizi yenilemezseniz o soruların cevabını veremezsiniz.
 
-Apple Watch'taki görev tanımı basitti: Kimsenin yapmadığı şeyleri hayal et, sonra onları yap. İnsanların egzersiz alışkanlıklarını modelledim; örneğin öğleden sonra dörtle akşam sekiz arasında kaç kalori yakacağınızı tahmin ediyordum. Böylece saat sizi nazikçe dürtebilirdi: On dakikalık bir yürüyüş bugünkü hedefinizi tamamlar; yarın saat üçte yüzmeye ne dersiniz?
+Apple Watch'ta görev tanımı basitti: Kimsenin yapmadığı şeyleri hayal et, sonra da yap. İnsanların egzersiz alışkanlıklarını modelliyordum; örneğin öğleden sonra dörtle akşam sekiz arasında kaç kalori yakacağınızı tahmin ediyordum. Saat de buna göre sizi hafifçe dürtebilirdi: On dakikalık bir yürüyüş bugünkü hedefinizi tamamlıyor; yarın saat üçte yüzmeye ne dersiniz?
 
-Aynı yıl Ilya Sutskever'in diziden diziye (sequence-to-sequence) makalesini okudum ve az kalsın sandalyeden düşecektim. Bir sinir ağı, bir kelime dizisini okuyup başka bir dizi yazabiliyordu. Saat için tam olarak bunu yapmak istiyordum: bir sonraki kelimeyi tahmin etmek ve gelen bir mesaja üç cevap taslağı hazırlamak. Makale daha sonra NeurIPS'te zamana dayanıklılık ödülünü (test-of-time award) kazandı; Ilya'nın çalışmaları o yıllarda en büyük ilham kaynağımdı.
+Aynı yıl Ilya Sutskever'in sequence-to-sequence makalesini okudum ve az kalsın sandalyeden düşüyordum. Bir sinir ağı, bir kelime dizisini okuyup başka bir dizi yazabiliyordu. Saatte yapmak istediğim de tam buydu: bir sonraki kelimeyi tahmin etmek, gelen bir mesaja üç cevap taslağı hazırlamak. Makale sonradan NeurIPS'in Test of Time ödülünü aldı. O yıllarda en büyük ilham kaynağım Ilya'nın çalışmalarıydı.
 
-Egzersiz projesinde altı sekiz ay çalıştıktan sonra projeyi bir direktöre sunduk.
+Egzersiz projesi üzerinde altı sekiz ay çalıştıktan sonra işi bir direktöre sunduk.
 
-Kendisi olsa bizim yaptığımız gibi yapmayacağını söyledi.
+Kendisi olsa bu işi bizim gibi yapmayacağını söyledi.
 
-Bu bir şoktu. Belki henüz yeterince olgun değildim; belki de o kavgaya girmek istemedim. Apple, otuz kişinin tek bir simgenin rengini tartışabildiği bir tasarım şirketi ve yapay zekâ orada hiçbir zaman ön planda olmadı. Ciddi yapay zekânın cihazlarda değil sunucularda çalışacağı ve Google'ın bu noktaya Apple'dan çok önce ulaşacağı sonucuna vardım.
+Şok oldum. Belki henüz yeterince olgun değildim, belki de o kavgaya girmek istemedim. Apple bir tasarım şirketi; tek bir ikonun rengini otuz kişinin tartışabildiği bir yer. Yapay zekâ orada hiçbir zaman ön planda olmadı. Şu sonuca vardım: Ciddi yapay zekâ cihazlarda değil sunucularda çalışacaktı ve Google oraya Apple'dan çok önce varacaktı.
 
-## **Et Restoranı**
+## **Yüz Dolarlık Biftek**
 
 *San Francisco, 2016–2017*
 
-San Francisco'da bir hedge fon sahibi beni, bir bifteğin en az 100 dolar olduğu bir et restoranına götürdü. Yemekte bana, insanlara ilk yıllarında paraya alışsınlar diye bir milyon dolar ödemeye bayıldığını anlattı.
+San Francisco'da bir hedge fon sahibi beni, bifteğin en az 100 dolar olduğu bir et restoranına götürdü. Yemekte, çalışanlarına daha ilk yıldan bir milyon dolar ödemeye bayıldığını anlattı; paraya alışsınlar diye.
 
-Doğru değildi. Sözleşmelerinin gereğini yerine getirmemek için kadrosunu altı sekiz ayda bir baştan değiştiriyordu. Orada bir yıldan kısa bir süre araştırma başkanlığı yaptım.
+Söylediği doğru değildi. Sözleşmelerin gereğini yerine getirmemek için kadroyu altı sekiz ayda bir değiştiriyordu. Orada araştırma başkanı olarak bir yıldan az kaldım.
 
-Normalde bir karar vermeden önce birçok faktörü tartarım. O sefer, tatlı dilli bir adamın ve güzel bir akşam yemeğinin de yardımıyla, bu faktörlerden birinin, yani paranın benim yerime karar vermesine izin verdim. Tekrarlamaya değil, ders çıkarmaya değer bir yan yoldu.
+Normalde bir karar vermeden önce pek çok etkeni tartarım. O sefer, ağzı laf yapan bir adamın ve güzel bir akşam yemeğinin de katkısıyla, bunlardan yalnızca birinin, paranın, benim yerime karar vermesine izin verdim. Tekrarlanacak değil, ders çıkarılacak bir yan yoldu.
 
-Yine de bu yan yol bana bir armağan bıraktı, ama onun vaat ettiği armağan değil. Hakkımdaki övgü dolu değerlendirmesi, Google'ın beni aksi halde başlayabileceğim seviyenin bir üstünden işe almasına yardımcı oldu.
+Yine de bu yan yolun bana bir armağanı oldu, ama adamın vaat ettiği armağan değil. Hakkımda yazdığı övgü dolu değerlendirme, Google'ın beni normalde başlayabileceğimden bir seviye yukarıdan işe almasına yardım etti.
 
-## **Bir Hayatın Uzun Projeleri**
+## **Hayatın Uzun Soluklu Projeleri**
 
 *Google, 2017'den beri*
 
-Bir düğün bir yüzükle başlar. Sonra bir mekân gelir, ardından davetiyeler, sonra da elbiseler. Ev almak, tatil planlamak ve yemek yapmayı öğrenmek de aynı şekilde ilerler: tek seferlik aramalar olarak değil, adım adım yürütülen, bir hayatın uzun projeleri olarak. Herhangi bir anda her birimizin elinde bunlardan on ile yüz arasında proje vardır. Hangi aşamada olduğunuzu anlarsak, size gerçekten işe yarayanı gösterebiliriz.
+Düğün bir yüzükle başlar. Sonra mekân gelir, ardından davetiyeler, en sonunda da kıyafetler. Ev almak, tatil planlamak, yemek yapmayı öğrenmek de böyle ilerler. Bunlar tek bir aramayla biten işler değil; adım adım yürüyen, hayatın uzun soluklu projeleridir. Herhangi bir anda her birimizin elinde böyle on ila yüz proje vardır. Hangi aşamada olduğunuzu anlayabilirsek, size gerçekten yardımcı olacak şeyi gösterebiliriz.
 
-Google'da bunlara görev (task) diyoruz. Ekim 2017'de katıldığım iş de bunları modellemek.
+Google'da bunlara task, yani görev diyoruz. Ekim 2017'den beri yaptığım iş de bunları modellemek.
 
-Apple'daki seviyemin bir basamak üstünde, 6. seviyede teknik lider (tech lead) olarak işe başladım. Apple, Facebook ve Google'dan teklif almıştım; yapay zekânın geleceğinin sunucularda çalışacağına ve Google'da inşa edileceğine inandığım için Google'ı seçtim. O zamana gelindiğinde programlama sorularını, bir zamanlar üniversite sınavına hazırlanırken ÖSS sorularını çözdüğümüz gibi, neredeyse hiç düşünmeden çözebiliyordum.
+Google'a, Apple'daki seviyemin bir basamak üstünden, 6. seviyede teknik lider olarak girdim. Apple, Facebook ve Google'dan teklif almıştım. Yapay zekânın geleceğinin sunucularda çalışacağına ve Google'da inşa edileceğine inanıyordum; bu yüzden tercihimi Google'dan yana yaptım. O sıralar programlama sorularını, bir zamanlar ÖSS sorularını çözdüğümüz gibi, neredeyse düşünmeden çözüyordum.
 
-Bir kez daha yeni bir alanda, bilgi erişiminde (information retrieval) ustalaşmam gerekti; bunun için işin yanında iki yıl daha çalıştım. Ölçeği gözünüzde canlandırmak zor. Yaklaşık 30 milyar arama sorgusunu kümeleyip yüz milyonlarca grup oluşturuyor, sonra bu grupları da yeniden kümeliyoruz. Problemlerden biri, 30 milyar düğümü ve trilyonlarca kenarı olan bir grafı kümelemekti. Araştırmacılarımızın elindekinden daha iyi bir algoritma geliştirmem bir yılımı aldı. Algoritma altı akademik kıyaslama testinin (benchmark) beşinde en iyisiydi ve 2021'de KDD'de yayımlandı. Bu sefer uygulayıcı bendim, teoriyi araştırmacılar yazdı; Cornell yıllarımın tam tersi.
+Yine yeni bir alanda, bilgi erişiminde ustalaşmam gerekiyordu; bunun için işin yanında iki yıl daha ders çalıştım. Ölçeği hayal etmek zor. Yaklaşık 30 milyar arama sorgusunu yüz milyonlarca gruba kümeliyor, sonra bu grupları da yeniden kümeliyoruz. Problemlerden biri, 30 milyar düğümlü ve trilyonlarca kenarlı bir grafı kümelemekti. Araştırmacılarımızın elindeki algoritmadan daha iyisini geliştirmem bir yılımı aldı. Yeni algoritma altı akademik benchmark'ın beşinde en iyi sonucu verdi ve 2021'de KDD'de yayımlandı. Bu kez uygulayıcı bendim, teoriyi araştırmacılar yazdı: Cornell yıllarımın tam tersi.
 
-Oğullarıma şöyle derim: Google'da kötü bir reklam görürseniz sebebi ben olabilirim; iyi bir reklam görürseniz de. Bu işin internetin büyük bölümünü ücretsiz tuttuğuna inanıyorum. Okuduğunuz her ücretsiz makalenin ve web sitesinin parasını birisi öder; bunu sağlayan da seyrek ve doğru anda gösterilen iyi reklamlardır.
+Oğullarıma şunu söylerim: Google'da kötü bir reklam görürseniz, sebebi ben olabilirim. İyi bir reklam görürseniz de. Bu işin internetin büyük kısmını ücretsiz tuttuğuna inanıyorum. Okuduğunuz her ücretsiz yazının, girdiğiniz her sitenin parasını birileri ödüyor; bunu sağlayan da seyrek ve tam yerinde gösterilen iyi reklamlar.
 
-Yaklaşık üç buçuk yıl teknik liderlik yaptıktan sonra yöneticiliği de üstlendim. Sekiz kişilik bir ekibi yönetiyorum ve kendimi bir patrondan çok bir profesör gibi görüyorum. Ithaca'da profesör olmamaya karar vermiştim; ama bu iş yine de beni buldu. Her hafta ekipteki herkesle tek tek görüşüyor, projelerini şekillendirmelerine yardım ediyorum. Her yıl, tıpkı hibe başvurusu yapan bir profesör gibi bir plan yazıyoruz. Bazen hedef gelirin %0,5'i oluyor; bu da Google'da kabaca bir milyar dolar demek.
+Üç buçuk yıl kadar teknik liderlik yaptıktan sonra yöneticiliği de üstlendim. Sekiz kişilik bir ekibim var ve kendimi patrondan çok bir profesör gibi görüyorum. Ithaca'da profesör olmamaya karar vermiştim; meslek yine de gelip beni buldu. Her hafta ekipteki herkesle ayrı ayrı görüşüyor, projelerine şekil vermelerine yardım ediyorum. Her yıl, hibe başvurusu hazırlayan bir profesör gibi bir plan yazıyoruz. Bazen hedef gelirin %0,5'i oluyor; Google'da bu, kabaca bir milyar dolar demek.
 
-Değerini geç öğrendiğim iki şey var: doğrulama ve yıkım. Qualcomm'da her bloğu tek tek kontrol etmeyi sıkıcı bulurdum; finansta kimse kontrol etmeyince neler olduğunu gördüm. Ayrıca her yıl geçen yılın modellerini emekliye ayırıp yerlerine daha iyilerini koymaya çalışıyoruz. Beş modelin yerine tek bir model koymak, yeni bir şey inşa etmek kadar değerlidir. Hiç yıkmazsanız inşa edemezsiniz.
+Değerini geç anladığım iki şey var: doğrulamak ve yıkmak. Qualcomm'da her bloğu tek tek doğrulamak bana sıkıcı gelirdi; finansta kimse doğrulamayınca neler olduğunu gördüm. Her yıl da geçen yılın modellerini emekliye ayırıp yerlerine daha iyilerini koymaya çalışıyoruz. Beş modeli tek bir modelle değiştirmek, yeni bir şey yapmak kadar değerli. Hiç yıkmazsanız yenisini de kuramazsınız.
 
-Şu anda 7. seviyedeyim ve insanlar 8. seviyeyi soruyor. Peşinden koşmuyorum. Amacım her zaman faydalı olmak oldu. Bu bir terfi getirirse güzel. Getirmezse, o da güzel.
+Şu an 7. seviyedeyim; insanlar 8. seviyeyi soruyor. Peşinden koşmuyorum. Amacım hep işe yarar olmaktı. Bu bir terfi getirirse güzel. Getirmezse, o da güzel.
 
-## **Bir Sonraki Kelime**
+## **Sıradaki Kelime**
 
 *Yapay zekâya dair inandıklarım*
 
-2016'da AlphaGo Seul'de Lee Sedol'la oynarken her maçı izlemek için geceleri sabaha kadar uyumadım. İkinci maçta makinenin oynadığı otuz yedinci hamleyi yorumcular önce bir hata sandı. Hata değildi. AlphaGo, bugünün en iyi modellerinin ardındaki temel tarifi zaten içeriyordu: Önce insanları taklit et, sonra kendi seçeneklerin arasında arama yaparak herhangi bir insanın sana öğrettiklerinden daha iyi hamleler bul.
+2016'da AlphaGo Seul'de Lee Sedol'la karşılaştığında, her maçı izlemek için geceleri uyumadım. İkinci maçta makine, yorumcuların önce hata sandığı bir hamle yaptı: otuz yedinci hamle. Hata değildi. Bugünün en iyi modellerinin temel tarifi AlphaGo'da zaten vardı: Önce insanları taklit et, sonra kendi seçeneklerin içinde arama yaparak insanlardan öğrendiklerinden daha iyi hamleler bul.
 
-Birçok insan dil modellerini "yalnızca bir sonraki kelimeyi tahmin ediyorlar" diyerek küçümsüyor. Ben hiç küçümsemedim. Saat için yapmak istediğim şey tam da bir sonraki kelimeyi tahmin etmekti. Ondan önce de yıllarımı bir piyasanın bir sonraki dakikada ne yapacağını tahmin ederek geçirmiştim ve iyi yapılan tahminin anlamak demek olduğunu öğrenmiştim. Tahmin etmeniz gereken bir sonraki kelime zor bir matematik probleminin cevabıysa, onu tahmin etmek problemi çözmek demektir. Bu modeller, tıpkı bizim finansta bir, on ve otuz dakika sonrasını tahmin etmemiz gibi, aynı anda birçok ufukta, bir sonraki kelimeden bir sonraki kavrama geçecek.
+Pek çok kişi dil modellerini "sadece bir sonraki kelimeyi tahmin ediyorlar" diye küçümsüyor. Ben hiçbir zaman küçümsemedim. Apple Watch'ta yapmak istediğim de zaten bir sonraki kelimeyi tahmin etmekti. Ondan önce yıllarca bir piyasanın bir sonraki dakikada ne yapacağını tahmin etmeye uğraşmıştım ve şunu öğrenmiştim: İyi yapılan tahmin, anlamak demektir. Tahmin etmeniz gereken kelime zor bir matematik probleminin cevabıysa, onu tahmin etmek problemi çözmek demektir. Bu modeller sıradaki kelimeden sıradaki kavrama geçecek, hem de aynı anda birçok zaman ufkunda; tıpkı finansta bir, on ve otuz dakika sonrasını tahmin ettiğimiz gibi.
 
-Yapay genel zekâ (AGI) bir bitiş çizgisi değil, bir yelpaze. Bana göre GPT-4, insanın genel zekâsına yaklaşan ilk modeldi; aşağı yukarı 50 ya da 60 IQ düzeyinde bir şey. Bu düzey 100'e, sonra 130'a, sonra 150'ye tırmanacak. Ayrıca girintili çıkıntılı (jagged) olacak: bazı işlerde parlak, bazılarında tuhaf biçimde zayıf. Uçak kuştan hızlı uçar ama kuş değildir; denizaltı da balık değildir. Üstelik yapay zekâ şimdiden daha iyi yapay zekâ inşa etmek için kullanılıyor.
+Yapay genel zekâ (AGI) bir bitiş çizgisi değil, bir yelpaze. Bana göre GPT-4, insan genel zekâsına yaklaşan ilk modeldi; IQ'su 50-60 civarında bir şey. Bu sayı 100'e, sonra 130'a, sonra 150'ye çıkacak. Yetenekleri de girintili çıkıntılı olacak: bazı işlerde parlak, bazılarında tuhaf biçimde zayıf. Uçak kuştan hızlı uçar ama kuş değildir; denizaltı da balık değildir. Üstelik yapay zekâ, daha iyi yapay zekâ geliştirmek için şimdiden kullanılıyor.
 
-Yine de son birkaç yüzdelik dilim uzun sürüyor. 2015'te hepimiz sürücüsüz arabaların bir yıl uzakta olduğunu düşünüyorduk; on yıl sonra ancak şimdi gelmeye başlıyorlar. İnsanın her yeteneğine yetişmek bir on yıl daha alabilir; bu yolda sağlanacak yardım ise muazzam olacak.
+Yine de işin son birkaç yüzdesi uzun sürer. 2015'te hepimiz sürücüsüz arabaların bir yıl sonra yollarda olacağını sanıyorduk; aradan on yıl geçti, ancak şimdi gelmeye başladılar. İnsanın bütün yeteneklerine yetişmek bir on yıl daha sürebilir; ama bu yolda alacağımız yardım muazzam olacak.
 
-Bunun nereye gittiğini görmek için hâlâ Qualcomm cetveline uzanıyorum. Yapay zekânın token başına maliyeti yılda yaklaşık dört kat düşüyor: iki yılda on altı kat, üç yılda altmış dört kat. Bugün imkânsız olan, iki üç yıl içinde çocuk oyuncağına dönüşüyor. Modeller gören, duyan ve anında karşılık veren bir robotun içinde gerçek zamanlı yanıt verdiğinde, bu sihir gibi gelecek ve henüz hayal bile edemediğimiz kullanım alanlarının kapısını açacak.
+İşin nereye gittiğini kestirmek için hâlâ Qualcomm cetveline uzanıyorum. Yapay zekânın token başına maliyeti her yıl dört kat kadar düşüyor: iki yılda on altı, üç yılda altmış dört kat. Bugün imkânsız olan, iki üç yıl içinde çocuk oyuncağı oluyor. Gören, duyan ve anında karşılık veren bir robotun içindeki modeller gerçek zamanlı yanıt vermeye başladığında, bu bize sihir gibi gelecek ve bugün hayal bile edemediğimiz kullanım alanlarının kapısını açacak.
 
-İstihdama gelince: Yapay zekâyla birlikte çalışanlar öne geçecek, uyum sağlayamayanlar geride kalacak. Ama üretim ve tüketim birlikte artıyor, hayat da hızlanıyor; bu yüzden kitlesel bir işsizlik beklemiyorum. Güvenlik konusunda ise en yetenekli modellerin açık ağırlıklı olarak yayımlanmaması gerektiğine inanıyorum. Fişi her zaman hesap verebilir birinin çekebilmesi gerekir: tek bir tekel değil, birkaç sorumlu şirket; herhangi biri ise kesinlikle değil.
+Peki ya istihdam? Yapay zekâyla birlikte çalışanlar öne geçecek, uyum sağlayamayanlar geride kalacak. Ama üretimle tüketim birlikte artıyor, hayat hızlanıyor; bu yüzden kitlesel bir işsizlik beklemiyorum. Güvenlik konusundaki görüşüm ise şu: En yetenekli modeller açık ağırlıklı olarak yayımlanmamalı. Fişi çekebilecek, hesap verebilir biri her zaman olmalı: tek bir tekel değil, birkaç sorumlu şirket; önüne gelen herkes ise asla.
 
-Bu yüzden size belirli bir iş unvanına hazırlanmanızı söylemem. Bugünün unvanlarının çoğu ortadan kalkacak, henüz adını koyamadığımız yenileri ortaya çıkacak. Onun yerine, kolay kolay eskitilemeyecek biri olmaya hazırlanın. Bunun nasıl yapılacağını aşağıda elimden geldiğince anlatmaya çalıştım.
+O yüzden size belli bir unvana hazırlanın demem. Bugünkü unvanların çoğu kaybolacak, yerlerine henüz adını koyamadığımız yenileri gelecek. Siz kolay kolay eskimeyecek biri olmaya hazırlanın. Nasıl mı? Aşağıda elimden geldiğince anlatmaya çalıştım.
 
-## **Yanınıza Almanızı Umduklarım**
+## **Heybenizde Olsun Diye**
 
-Tek bir şey aklınızda kalacaksa, o da öğrenmeyi öğrenmek olsun. Okul, öğrenmenin yalnızca bir simülasyonudur. Gerçek öğrenme onun dışında, bilgiyi kitaplardan, makalelerden ve videolardan kendi başınıza söküp aldığınızda gerçekleşir. Bu hikâyedeki her dönemecin bedeli böyle, akşamları ödendi ve aşağıdaki her şey de bundan doğuyor.
+Aklınızda tek bir şey kalacaksa, o da öğrenmeyi öğrenmek olsun. Okul, öğrenmenin bir simülasyonundan ibarettir. Asıl öğrenme okulun dışında, bilgiyi kitaplardan, makalelerden, videolardan kendi başınıza söküp aldığınızda olur. Bu hikâyedeki her dönemecin bedeli böyle, akşamları ödendi. Aşağıda yazdığım her şey de buradan doğuyor.
 
-**Sağlam temeller atın.** Matematik, programlama, açık ve net yazı, derli toplu konuşma, sağlam düşünme ve artık akıllı makinelerle birlikte çalışabilme becerisi. Cornell'deki danışmanımın beni öğrenciliğe kabul etmesinin başlıca nedeni, mühendislikteki ilk yılım beni sıktığı için eklediğim matematik diplomasıydı. Bu tür temeller girdiğim her alana benimle birlikte geldi; henüz var olmayan alanlara da taşınacaklar.
+**Temeli sağlam atın.** Matematik, programlama, açık seçik yazmak, derli toplu konuşmak, sağlıklı düşünmek ve artık bir de akıllı makinelerle birlikte çalışabilmek. Mühendislikte ilk yılım sıkıcı geçtiği için eklediğim matematik diploması, Cornell'deki danışmanımın beni yanına almasının başlıca nedeniydi. Bu tür temeller girdiğim her alanda işime yaradı; henüz var olmayan alanlarda da yarayacak.
 
-**Meraklı kalın.** Yapay zekâya geçişim, akşamları zevk için okuduğum bir kitapla başladı. Kendi alanınızın çok ötesinde okuyun; bir sonraki kapı genellikle oradadır.
+**Merakınızı diri tutun.** Yapay zekâya geçişim, akşamları keyif için okuduğum bir kitapla başladı. Kendi alanınızın çok dışında da okuyun; bir sonraki kapı çoğu zaman oradadır.
 
-**Esnek olun.** Yaptığınız iş büyük olasılıkla her beş yılda bir değişecek. "Mühendis", "matematikçi", "trader": Bu etiketlerin her biri bir zamanlar beni doğru tanımlıyordu, on yıl sonra ise artık yanlıştı. Kimliğinizin bir hapishaneye dönüşmesine izin vermeyin.
+**Esnek olun.** Yaptığınız iş büyük ihtimalle her beş yılda bir değişecek. "Mühendis", "matematikçi", "trader": Bu etiketlerin her biri bir dönem bana uyuyordu, on yıl sonra ise artık uymuyordu. Kimliğiniz size hapishane olmasın.
 
-**Devlerin omuzlarında durun.** Austin'deki modellerim ancak sıfırdan inşa etmeyi bıraktığımda kazanmaya başladı. Etrafınızdaki en iyi beş on fikri toplayın ve onları iyi bir şekilde bir araya getirin.
+**Devlerin omuzlarında yükselin.** Austin'deki modellerim ancak her şeyi sıfırdan kurmayı bıraktığımda kazanmaya başladı. Çevrenizdeki en iyi beş on fikri toplayın ve onları ustaca birleştirin.
 
-**Harika insanlarla çalışın.** Benden önde giden mentorlar yolumu şekillendirdi ve hâlâ öyle insanlar arıyorum. Kendine güvenen insanlar bildiklerini paylaşır; kendine güvenmeyenler ise bildiklerini kendilerine saklar. Birinci türden insanların arasında çalışın.
+**Harika insanlarla çalışın.** Benden önde yürüyen mentorlar yolumu şekillendirdi; hâlâ da öyle insanlar arıyorum. Kendine güvenen insanlar bildiğini paylaşır, güvenmeyenler saklar. Siz ilk gruptakilerin arasında çalışın.
 
-**Ücreti bir sinyal olarak görün.** Paranın peşinden gitmekten hiç çekinmedim; 1999'daki o dobra tavsiye aklıma kazınmıştı. Deneyimime göre ücret, değeri kusursuz olmasa da yakından izler. Sizinle aynı becerilere sahip insanlar başka yerlerde daha çok kazanıyorsa, onların yapıp sizin yapmadığınız şeyin ne olduğunu sorun. İşinizin kaç kişiye dokunduğunu ve ne kadar önemli bir sorunu çözdüğünü sorun.
+**Maaşı bir sinyal olarak okuyun.** Paranın peşinden gitmekten hiç çekinmedim; 1999'daki o dobra öğüt aklıma kazınmıştı. Tecrübeme göre ücret, değeri kusursuz olmasa da yakından takip eder. Aynı becerilere sahip insanlar başka yerde daha çok kazanıyorsa kendinize sorun: Onlar ne yapıyor da siz yapmıyorsunuz? İşinizin kaç kişiye dokunduğunu, ne kadar önemli bir sorunu çözdüğünü de sorun.
 
-**İşinizi sevin.** En şanslı insanlar, hobi olarak seve seve yapacakları şey için para alanlardır. Ben de kimse bana bunun için para ödemeden çok önce sinyal işleme ders kitaplarını zevk için okuyordum.
+**İşinizi sevin.** En şanslı insanlar, hobi olarak seve seve yapacakları bir iş için para alanlardır. Kimse bana bunun için para vermeden çok önce, sinyal işleme kitaplarını keyif için okuyordum.
 
-**Birden fazla faktörü tartın.** Et restoranını hatırlayın; tek bir faktör karar verdiğinde olan budur. Kriz patlak verdiğinde kaybettiğim iş teklifi de belki başıma gelen en iyi şeydi. Her kararda bunun bir basamak olup olmadığını sorun ve onu birden fazla ölçüte göre değerlendirin.
+**Birden çok etkeni tartın.** Yüz dolarlık bifteği hatırlayın; tek bir etken karar verince olan budur. Kriz patlak verince elimden kaçan iş teklifi ise belki de başıma gelen en iyi şeydi. Her kararda kendinize sorun: Bu beni bir sonraki adıma taşıyacak bir basamak mı? Ve kararınızı tek bir şeye bakarak vermeyin.
 
-**Daha iyi seçenekler aramayı bırakmayın.** Bazı sınıf arkadaşlarım ODTÜ'yü kazanınca artık hayatları garantiye girmiş gibi davrandı. Kazanmak yalnızca başlangıçtır. 2004'te Google'a girebilirdim; 2017'de geldim. Bu yan yollar beni ben yaptı, ama siz gözünüzü açık tutun.
+**Daha iyisini aramaktan vazgeçmeyin.** Bazı sınıf arkadaşlarım ODTÜ'yü kazanınca kendilerini kurtarmış saydı. Oysa kazanmak sadece başlangıçtır. 2004'te Google'a girebilirdim; ancak 2017'de girdim. Bu dolambaçlı yollar beni ben yaptı, ama siz yine de gözünüzü açık tutun.
 
-**Hayat arkadaşınızı akıllıca seçin.** Hayatınızın kalitesini ve başarısını hayat arkadaşınız kadar belirleyen pek az şey vardır. Eşim de aynı mühendisliği ve aynı matematik çift anadalını okudu; hem işimi hem de kaygılarımı anlıyor. Sizi yukarı taşıyan birini seçin.
+**Hayat arkadaşınızı dikkatle seçin.** Hayatınızın kalitesini ve başarısını, yanınızdaki insan kadar belirleyen pek az şey vardır. Eşim de benimle aynı mühendisliği okudu, aynı matematik çift anadalını yaptı; hem işimi hem de kaygılarımı anlıyor. Sizi yukarı çeken birini seçin.
 
-## **Sinyal, Sizin İçin**
+## **Sizin Sinyaliniz**
 
-Benim için sinyal önce bir radyo dalgasıydı, sonra bir hisse fiyatı, sonra bilekte bir kalp atışı, sonra da bir arama sorgusu. Sizin için ne olacağını bilmiyorum. Ama şunu biliyorum: Onun peşinden gidecek merak ve birkaç yılda bir yeniden acemi olmaya razı olmak, herhangi bir diplomadan daha önemli olacak.
+Benim için sinyal önce bir radyo dalgasıydı, sonra bir hisse fiyatı, sonra bilekte bir kalp atışı, en sonunda da bir arama sorgusu. Sizin için ne olacağını bilmiyorum. Ama şunu biliyorum: Onun peşine düşecek merak ve birkaç yılda bir yeniden acemi olmayı göze alabilmek, her türlü diplomadan daha önemli olacak.
 
-Bu mektuptaki şirketler ve unvanlar bir gün birer dipnota dönüşürse, bu yalnızca söylediğimi kanıtlamış olur. Qualcomm, Apple ve Google bu hikâyenin önemli kısmı değil; hiçbir unvan, maaş ya da terfi de değil. Bunlar birer koordinat: Size yalnızca benim o sırada nerede durduğumu söylerler. Önemli olan, aralarında nasıl hareket ettiğim.
+Bu mektupta adı geçen şirketler ve unvanlar bir gün birer dipnota dönüşürse, bu ancak söylediklerimi doğrular. Bu hikâyenin önemli kısmı Qualcomm, Apple ya da Google değil; herhangi bir unvan, maaş ya da terfi de değil. Bunlar yalnızca birer koordinat: O sırada nerede bulunduğumu gösteriyorlar, o kadar. Önemli olan, bu noktalar arasında nasıl yol aldığım.
 
-Gençken asıl meselenin ne kadar ileri gidebileceğimi keşfetmek olduğunu düşünürdüm. Şimdiyse daha iyi sorunun şu olduğunu düşünüyorum: Daha ileriye gidebilecek birine kaç kez dönüşebilirsiniz? Yolun tamamını görmeniz gerekmiyor; yalnızca bir sonraki etabın ne gerektirdiğini görmeniz ve her zaman daha iyisini bulmanız yeterli.
+Gençken asıl meselenin ne kadar ileri gidebileceğimi keşfetmek olduğunu sanırdım. Şimdiyse bence daha iyi bir soru var: Daha da ileri gidebilecek birine kaç kez dönüşebilirsiniz? Yolun tamamını görmeniz gerekmiyor. Bir sonraki etabın sizden ne istediğini görmeniz ve her seferinde daha iyisini bulmanız yeterli.
 
-Meraklı olun, esnek kalın ve dokunduğunuz her şeye değer katın. Sinyal değişecek. Onu duymayı öğrenin.
+Meraklı olun, esnek kalın, dokunduğunuz her şeye değer katın. Sinyal değişecek. Siz onu duymayı öğrenin.
 
 — Gokhan Mergen
 
-*Bu hikâyenin büyük bölümünü ilk kez, Ocak 2025'te eski ODTÜ sınıf arkadaşım Oğuz Ergin'le onun YouTube kanalında yaptığımız "Yapay Zekayı Arayan Adam" başlıklı [uzun bir sohbette](https://www.youtube.com/watch?v=8-f_Vjt7ZJc) sözlü olarak anlatmıştım. Bunu yazıya dökmek, hikâyenin bir videodan daha uzun yaşamasını sağlamanın benim yolum.*
+*Bu hikâyenin büyük kısmını ilk kez Ocak 2025'te, ODTÜ'den eski sınıf arkadaşım Oğuz Ergin'in YouTube kanalında yaptığımız "Yapay Zekayı Arayan Adam" başlıklı [uzun sohbette](https://www.youtube.com/watch?v=8-f_Vjt7ZJc) anlatmıştım. Onu yazıya dökmek de hikâyeyi bir videodan daha uzun yaşatmanın benim bulduğum yolu.*

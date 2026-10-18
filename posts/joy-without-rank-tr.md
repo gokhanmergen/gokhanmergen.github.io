@@ -5,157 +5,157 @@ lang: tr
 date: 2026-10-16
 category: Matematik / Yapay Zekâ
 read_time: 10 dk okuma
-title: Makine Önce Çözdüğünde
-deck: Matematik, yapay zekâ ve egonun ikinciliğe düşme korkusu üzerine.
-archive_deck: Matematik, yapay zekâ ve egonun ikinciliğe düşme korkusu üzerine.
+title: Problemi Önce Makine Çözünce
+deck: Matematik, yapay zekâ ve egonun ikinci sıraya düşme korkusu üzerine.
+archive_deck: Matematik, yapay zekâ ve egonun ikinci sıraya düşme korkusu üzerine.
 ---
 
-Steven Strogatz, X'te takip etmekten en çok keyif aldığım matematikçilerden biri. Matematiğin güzelliğini aktarmakta, zor fikirleri bile erişilebilir ve derinden insani kılmakta olağanüstü bir yeteneği var. Yapay zekâ üzerine giderek kasvetli bir hal alan düşünceleri de bu yüzden dikkatimi çekti.
+X'te takip etmekten en çok keyif aldığım matematikçilerden biri Steven Strogatz. Matematiğin güzelliğini anlatmakta müthiş bir yeteneği var; zor fikirleri bile hem anlaşılır hem de son derece insani kılıyor. Yapay zekâ hakkında giderek kederli bir tona bürünen düşünceleri de bu yüzden dikkatimi çekti.
 
-Eylül'de OpenAI, yaklaşık 10.000 yapay zekâ ajanından oluşan bir sistemin Navier–Stokes Milenyum Problemi'ne yalnızca 88 saatte bir çözüm ürettiğini duyurdu. İddia hâlâ inceleniyor, ama daha geniş çaplı dönüşüm inkâr edilemez. Makineler, insanlığın en parlak zihinlerinden bazılarına onlarca yıldır direnen matematik problemlerini çözmeye başlıyor.
+OpenAI eylülde, yaklaşık 10.000 yapay zekâ ajanından oluşan bir sistemin Navier–Stokes Milenyum Problemi için yalnızca 88 saatte bir çözüm ürettiğini duyurdu. İddia hâlâ inceleniyor, ama daha büyük bir dönüşümün yaşandığı inkâr edilemez: Makineler, insanlığın en parlak zihinlerinden bazılarının onlarca yıldır içinden çıkamadığı matematik problemlerini çözmeye başladı.
 
-Strogatz için bu, duygusal açıdan zor bir gelişme oldu. Kısa süre önce *The Daily*'ye verdiği bir röportajda, matematikçiler arasında hâkim olan ruh halini yas olarak tarif etti. Zaman zaman gözyaşlarını tutamadığını itiraf etti. Ardından, bana göre meselenin özünü yakalayan bir şey söyledi: "Kendimizi kahraman olarak görmeyi seviyoruz ve belki de o devir kapandı."
+Strogatz için bu gelişme duygusal açıdan hiç kolay olmadı. Geçenlerde *The Daily*'ye verdiği röportajda matematik camiasına hâkim olan ruh halinin adını koydu: yas. Zaman zaman gözlerinin yaşardığını da itiraf etti. Ardından, bence meselenin özünü yakalayan bir cümle kurdu: "Kendimizi kahraman olarak görmeyi seviyoruz ve belki de o devir kapandı."
 
-Bu söz bana hem dokunaklı geldi hem de çok şey anlattı.
+Bu söz beni hem duygulandırdı hem de bana çok şey anlattı.
 
-Bu duyguyu anlayabiliyorum. Anlamakta zorlandığım şey ise matematiğe ya da insan olmaya dair temel bir şeyin yitip gittiği sonucu.
+Duyguyu anlayabiliyorum. Anlamakta zorlandığım şey, matematiğin ya da insan olmanın özünden bir şeyin kaybolup gittiği sonucu.
 
-Bir makine, hiçbir insanın bulamayacağı güzel bir matematiksel hakikati keşfederse, bu neden beni üzsün? Neden içimi hayranlıkla doldurmasın?
+Bir makine hiçbir insanın bulamayacağı güzel bir matematiksel gerçeği keşfederse, bu neden beni üzsün? Neden içimi hayranlık kaplamasın?
 
-Sanırım cevap, matematikten ziyade çok daha eski bir insanlık sorununda yatıyor: **bir deneyimin değerini, bize kazandırdığı statüyle karıştırma eğilimimiz.**
+Sanırım cevabı matematikten ziyade çok daha eski bir insanlık sorununda aramak gerekiyor: **bir deneyimin değerini, bize kazandırdığı statüyle karıştırma eğilimimiz.**
 
-## Şeylere yüklediğimiz anlam
+## Anlamı kim verir?
 
-Hayatın, keşfedilmeyi bekleyen içkin ve evrensel bir anlamı olduğuna inanmıyorum. Anlamı biz yaratırız: dünyayı deneyimleme biçimimizle, önemsediğimiz şeylerle ve onlarla kurduğumuz ilişkilerle.
+Hayatın, bir yerlerde keşfedilmeyi bekleyen içkin ve evrensel bir anlamı olduğuna inanmıyorum. Anlamı biz yaratırız: dünyayı nasıl deneyimlediğimizle, neyi önemsediğimizle ve önemsediğimiz şeylerle kurduğumuz ilişkiyle.
 
-Bu, varoluşa dair karamsar bir bakış değil. Tam tersine. Yaptıklarımızın öneminin, onları önemli ilan edecek dışsal bir otoriteye bağlı olmadığı anlamına gelir.
+Bu, karamsar bir varoluş anlayışı değil. Tam tersine: Yaptıklarımızın önemi, dışarıdan bir otoritenin gelip onları önemli ilan etmesine bağlı değil.
 
-Ve o işi herkesten daha iyi yapmamıza kesinlikle bağlı değildir.
+O işi herkesten iyi yapıp yapmadığımıza ise hiç bağlı değil.
 
-Aksinin ne kadar tuhaf olacağını bir düşünün. Bir etkinliğin anlamı, onu başkalarına kıyasla ne kadar iyi yapabildiğimize bağlı olsaydı, keyif aldığımız neredeyse her şey anlamsızlaşırdı. Her zaman bizden daha iyi piyano çalan, fiziği daha derinden kavrayan ya da daha güzel yazan biri olacaktır. Yine de bunu bilmek, müzikten keyif almamıza, fizik üzerine düşünmemize ya da bir roman okumamıza nadiren engel olur.
+Aksi ne kadar tuhaf olurdu, bir düşünün. Bir uğraşın anlamı onu başkalarına göre ne kadar iyi yaptığımıza bağlı olsaydı, keyif aldığımız neredeyse her şey anlamını yitirirdi. Bizden daha iyi piyano çalan, fiziği daha derinden kavrayan ya da daha güzel yazan biri mutlaka çıkacaktır. Yine de bunu bilmek, müzikten keyif almamıza, fizik üzerine kafa yormamıza ya da roman okumamıza nadiren engel olur.
 
 Matematik neden farklı olsun?
 
-Başka bir zekânın bir şeyi benden daha iyi yapabilmesi, o etkinliğin benim için taşıdığı anlamı tek başına azaltmaz.
+Başka bir zekânın bir işi benden iyi yapabilmesi, o işin benim için taşıdığı anlamı kendi başına azaltmaz.
 
-Ancak üstünlüğü o anlamın bir parçası haline getirmişsem azaltır.
+Ancak üstünlüğü o anlamın bir parçası yapmışsam azaltır.
 
-## Estetik bir deneyim olarak matematik
+## Matematiğin estetiği
 
-Benim için matematik sanata, rekabetten çok daha yakındır.
+Benim için matematik, rekabetten çok sanata yakındır.
 
-Güzel bir ispata bakmaktan aldığım keyif, bir müzik parçası dinlerken, bir tabloyu incelerken ya da muhteşem bir manzaranın karşısında dururken aldığım keyfe çok benzer. İlk başta gizemli görünen bir şeyi anlamanın kendine özgü bir hazzı vardır.
+Güzel bir ispata bakarken aldığım keyif, bir müzik parçasını dinlerken, bir tabloyu incelerken ya da muhteşem bir manzaranın karşısında dururken duyduğumdan pek farklı değil. İlk bakışta gizemli görünen bir şeyi anlamanın kendine has bir tadı vardır.
 
-Bir problemle boğuşursunuz. Önce bir yaklaşımı denersiniz, sonra bir başkasını. Daha önce göze çarpmayan bir bağlantıyı fark edersiniz. Birden taşlar yerine oturur. Karmaşık görünen şey artık neredeyse kaçınılmaz hale gelir ve bunu nasıl olup da gözden kaçırdığınıza şaşarsınız.
+Bir problemle boğuşursunuz. Bir yolu denersiniz, sonra bir başkasını. Daha önce gözünüze çarpmamış bir bağlantı fark edersiniz. Derken taşlar birden yerine oturur. Az önce karmaşık görünen şey artık neredeyse başka türlü olamazmış gibi gelir ve bunu nasıl gözden kaçırdığınıza şaşıp kalırsınız.
 
-Anlamanın o anı insana derin bir doyum verir.
+İnsanı derinden tatmin eden bir andır bu.
 
-Ve o anın güzelliğinin, onu yaşayan ilk kişinin ben olup olmamamla hiçbir ilgisi yoktur.
+O anın güzelliğinin, onu ilk yaşayanın ben olup olmamamla hiçbir ilgisi yoktur.
 
-Bir öğleden sonrasını üç yüz yıldır bilinen bir teoremi ispatlamaya ayıran bir öğrenciyi düşünün. Bu öğrenci, insanlığın ortak matematik bilgisine yeni hiçbir şey katmamıştır. İspat zaten mevcuttur. Daha önce binlerce kişi onu anlamış olabilir.
+Bir öğleden sonrasını üç yüz yıldır bilinen bir teoremi ispatlamaya veren bir öğrenci düşünün. İnsanlığın ortak matematik birikimine yeni hiçbir şey katmamıştır. İspat zaten ortadadır; daha önce binlerce kişi bu ispatı anlamış olabilir.
 
-Ama keşif deneyimi, o öğrenci için tamamen gerçektir.
+Yine de o öğrencinin yaşadığı keşif bütünüyle gerçektir.
 
-Kavrayış anı, başka zihinlerde de yaşanmış olduğu için ödünç alınmış ya da değerinden bir şey yitirmiş olmaz. Bu kavrayış, onu yaşayan kişi için yenidir ve bu yeterlidir.
+Aynı aydınlanma başka zihinlerde de yaşanmış diye o an ödünç alınmış olmaz, değerinden de bir şey kaybetmez. Onu yaşayan kişi için bu kavrayış yenidir; bu da yeter.
 
-Bazen bir dağa tırmanan birini düşünürüm. Zirveye dakikalar içinde ulaşabilen bir helikopterin varlığı, tırmanışın verdiği hazzı geçersiz kılmaz. Amaç hiçbir zaman yalnızca belirli bir yüksekliğe ulaşmak değildi. Amaç, tırmanışın kendisini yaşamaktı.
+Aklıma bazen dağa tırmanan biri gelir. Zirveye birkaç dakikada çıkabilen bir helikopter var diye tırmanışın verdiği haz anlamsızlaşmaz. Amaç hiçbir zaman yalnızca belli bir yüksekliğe varmak değildi; tırmanışın kendisini yaşamaktı.
 
-Matematik benim için böyle bir şey. Onu bu işte olağanüstü iyi olduğum için sevmiyorum; hele en iyisi olduğum için hiç değil. Bir şeyleri çözüp anlama deneyimini seviyorum.
+Matematik de benim için böyle. Onu bu işte olağanüstü iyi olduğum için sevmiyorum; hele en iyisi olduğum için hiç değil. Sevdiğim şey, kafa yorup bir şeyleri çözmek, anlamak.
 
-**Anlamanın verdiği haz, üstün olmanın ödülü değildir. Anlamanın ödülüdür.**
+**Anlamanın hazzı, üstün olmanın ödülü değildir. Anlamanın ödülüdür.**
 
-## Odadaki ego
+## İşin içine ego girince
 
-Elbette herkesin matematikle, daha genel olarak da entelektüel çalışmayla ilişkisi tam olarak böyle değildir.
+Elbette herkes matematikle, daha genel olarak da entelektüel uğraşlarla tam olarak böyle bir ilişki kurmaz.
 
-Bazı insanlar için matematikçi olmak yalnızca matematikten keyif almak demek değildir. Aynı zamanda başkalarının yapamadığını yapabilen biri olarak tanınmak demektir.
+Kimileri için matematikçi olmak, matematikten keyif almaktan ibaret değildir; başkalarının yapamadığını yapabilen biri olarak tanınmak da işin parçasıdır.
 
-Sıra dışı olmanın güçlü bir psikolojik ödülü vardır. Zekâmız, özgünlüğümüz, başkalarını şaşkına çeviren problemleri çözebilme yeteneğimiz için takdir edilmekten hoşlanırız. Bir şeyde yeterince iyi hale geldiğimizde de bu yetenek kimliğimizin merkezine yerleşebilir.
+Sıra dışı olmanın psikolojik ödülü büyüktür. Zekâmızla, özgünlüğümüzle, başkalarının nereden başlayacağını bilemediği problemleri çözebilmemizle takdir toplamaktan hoşlanırız. Bir işte yeterince ustalaştığımızda da bu yetenek kimliğimizin merkezine oturabilir.
 
-Artık yaptığımız şeyden yalnızca keyif almakla yetinmeyiz. Kendimizi, onu başkalarına kıyasla ne kadar iyi yaptığımızla tanımlamaya başlarız.
+Yaptığımız işten keyif almakla yetinmeyi bırakırız; kendimizi o işi başkalarına kıyasla ne kadar iyi yaptığımızla tanımlamaya başlarız.
 
-Tanınmak istemenin özünde yanlış bir şey olduğunu düşünmüyorum. Toplumsal varlıklarız ve başkalarının saygısı bizim için önemlidir. Özgün bir keşif yapma arzusu da mutlaka kibrin bir dışavurumu değildir. Daha önce kimsenin görmediği bir şeyi gören ilk kişi olmanın gerçekten özel bir yanı vardır.
+Takdir görmek istemenin kendi başına yanlış olduğunu düşünmüyorum. Toplumsal varlıklarız, başkalarının saygısını önemseriz. Özgün bir keşif yapma arzusu da mutlaka kibirden doğmaz. Daha önce kimsenin görmediği bir şeyi ilk gören olmanın gerçekten özel bir yanı var.
 
-Ama işimizin değeri, bize kazandırdığı hayranlıktan ayrılamaz hale geldiğinde bir sorun ortaya çıkar.
+Sorun, işimizin değerini bize getirdiği hayranlıktan ayıramaz olduğumuzda ortaya çıkar.
 
-O zaman arka planda bir yerde, sözde sevdiğimiz şeylerle ilişkimizi farklı bir soru biçimlendirmeye başlar:
+O noktada, arka planda bir yerde, sevdiğimizi söylediğimiz şeylerle ilişkimize bambaşka bir soru yön vermeye başlar:
 
-*Bundan benim çıkarım ne?*
+*Benim bundan çıkarım ne?*
 
-Bu işte iyi olmak bana ne kazandırıyor? Bana nasıl bir statü sağlıyor? Beni herkesten nasıl ayırıyor?
+Bu işte iyi olmak bana ne kazandırıyor? Nasıl bir statü sağlıyor? Beni herkesten nasıl ayırıyor?
 
-Matematikten aldığım haz kısmen entelektüel bir hiyerarşide ayrıcalıklı bir konumda bulunmaktan kaynaklanıyorsa, yapay zekâ gerçekten de bir tehdittir. Benim çözemediğim problemleri çözebilen bir makine, kendime biçtiğim değerin bir kısmının belki de dayandığı o ayrımın ta kendisini sarsar.
+Matematikten aldığım haz kısmen entelektüel hiyerarşide ayrıcalıklı bir yerde durmaktan geliyorsa, yapay zekâ gerçekten de bir tehdittir. Benim çözemediğim problemleri çözebilen bir makine, beni ötekilerden ayıran o farkın altını oyar. Kendime biçtiğim değerin bir kısmı da belki tam bu farka dayanıyordur.
 
-Dün kendimi dünyanın en yetenekli matematik zihinleri arasında hayal edebiliyordum. Yarın bir makine beni fersah fersah geride bırakabilir.
+Dün kendimi dünyanın en yetenekli matematikçileri arasında hayal edebiliyordum. Yarın bir makine beni fersah fersah geride bırakabilir.
 
-Bu, insana kişisel bir rütbe indirimi gibi gelebilir.
+İnsan kendini rütbesi indirilmiş gibi hissedebilir.
 
-Ama gerçekte neyin değiştiğine dikkat edin.
+Oysa gerçekte neyin değiştiğine bir bakın.
 
-Matematiksel nesnelerin ilginçliğinden hiçbir şey eksilmedi. Teoremler güzelliklerinden hiçbir şey kaybetmedi. Zarif bir akıl yürütmeyi adım adım izlemenin verdiği doyum da azalmadı.
+Matematiksel nesneler hâlâ eskisi kadar ilginç. Teoremlerin güzelliğinden bir şey eksilmedi. Zarif bir akıl yürütmeyi adım adım izlemenin verdiği tat da azalmadı.
 
 Değişen, benim hiyerarşideki yerim.
 
-Strogatz'ın kahramanlarla ilgili sözünün bu kadar çok şey anlatmasının nedeni de bence bu. Bu bakışa göre kahraman, başkalarının başaramadığını başaran kişidir. Kahramanlık, diğerlerinden ayrışmayı gerektirir. Özel olmayı gerektirir.
+Strogatz'ın kahramanlarla ilgili sözü de bence bu yüzden bu kadar çok şey anlatıyor. Bu anlayışta kahraman, başkalarının başaramadığını başaran kişidir. Kahramanlık sivrilmeyi gerektirir, özel olmayı gerektirir.
 
-Ve bir makine benim yapabildiğim her şeyi, üstelik daha iyi yapabiliyorsa, kendime dair o imajı ayakta tutmak zorlaşır.
+Bir makine benim yapabildiğim her şeyi benden daha iyi yapabiliyorsa, kendimi o gözle görmeyi sürdürmem zorlaşır.
 
-Ama belki de kaybolan şey matematiğin anlamı değildir.
+Ama belki de yitip giden, matematiğin anlamı değil.
 
-Belki de kaybolan, matematikteki yerimize dair kendimize anlatıp durduğumuz, gururumuzu okşayan bir hikâyedir.
+Belki yitip giden, matematikteki yerimize dair kendimize anlatıp durduğumuz, gururumuzu okşayan bir hikâyedir.
 
-## Gerçekten tehlikede olan şey
+## Asıl tehlikede olan ne?
 
-Ne var ki bu kayıp duygusunu sorgulamak ile yapay zekânın matematik üzerindeki etkisine dair her kaygıyı bir kenara atmak arasında önemli bir ayrım vardır.
+Ne var ki bu kayıp duygusunu sorgulamak başka, yapay zekânın matematiğe etkisiyle ilgili her kaygıyı bir kalemde silip atmak bambaşka.
 
-Kaygılar gerçek.
+Bu kaygılar gerçek.
 
-Matematik araştırması, üretilmeyi bekleyen cevapların toplamından ibaret değildir. Merak, sohbetler, boşa çıkan girişimler, sezgi, öğretim ve ortak bir anlayışın yavaş yavaş gelişmesi etrafında şekillenen insani bir pratiktir. Bir makinenin ürettiği ispat, kendiliğinden insanların anladığı bir şeye dönüşmez.
+Matematik araştırması, üretilmeyi bekleyen cevaplardan ibaret değildir. Merak, sohbet, boşa çıkan denemeler, sezgi, öğretme ve ortak bir kavrayışın yavaş yavaş olgunlaşması üzerine kurulu insani bir pratiktir. Bir makine ispat üretti diye insanlar onu kendiliğinden anlamış olmaz.
 
-Bunun bir de kurumsal yansımaları var. Makineler büyük matematiksel sonuçları olağanüstü bir hızla üretebiliyorsa, lisansüstü öğrencilerin hali ne olacak? Genç matematikçiler nasıl kariyer yapacak? Başarı kimin hanesine yazılacak, araştırma fonlarını kim alacak, takdiri kim toplayacak? Birlikte keşfetme kültürüne ne olacak?
+Bir de işin kurumsal boyutu var. Makineler büyük matematiksel sonuçları olağanüstü bir hızla üretebiliyorsa, lisansüstü öğrencilerin hali ne olacak? Genç matematikçiler kariyerlerini nasıl kuracak? Başarı kimin hanesine yazılacak; araştırma fonları ve takdir kime gidecek? Birlikte keşfetme kültürünün akıbeti ne olacak?
 
-Bunlar ciddi sorular ve ciddi cevapları hak ediyorlar.
+Bunlar ciddi sorular ve ciddi cevapları hak ediyor.
 
-Bazı şeyleri artık ilk keşfeden olamamak da gerçek bir kayıp. Aksini iddia edecek değilim. Özgün bir keşfin heyecanı, zaten bilinen bir şeyi öğrenmenin verdiği hazdan farklıdır ve birinin diğerinin yerini kusursuzca tuttuğunda ısrar etmek aptallık olur.
+Bazı şeyleri artık ilk keşfeden olamamak da gerçek bir kayıp; aksini iddia edecek değilim. Özgün bir keşfin heyecanı, zaten bilinen bir şeyi öğrenmenin hazzından farklıdır ve birinin ötekinin yerini eksiksiz tuttuğu konusunda diretmek akıl kârı olmaz.
 
-Ama bunların hiçbiri matematiğin kendisinin daha az anlamlı hale geldiğini kanıtlamaz.
+Ama bunların hiçbiri, matematiğin kendisinin anlamından bir şey yitirdiğini göstermez.
 
-Bunların kanıtladığı şey, matematiğin etrafında inşa ettiğimiz kurumların ve hırsların değişmesi gerekebileceğidir.
+Gösterdikleri şu: Matematiğin etrafına kurduğumuz kurumların ve beslediğimiz hırsların değişmesi gerekebilir.
 
-Yalnızca insana ait bir ayrıcalığın kaybını, etkinliğin kendi değerinin kaybıyla karıştırmamalıyız.
+İnsanın tekelindeki bir ayrıcalığın elden gitmesini, işin kendisinin değer yitirmesiyle karıştırmamalıyız.
 
-Ve özellikle **matematik yapmanın hazzını, önemli bir matematikçi olmanın hazzıyla** karıştırmamaya dikkat etmeliyiz.
+Özellikle de **matematik yapmanın hazzını önemli bir matematikçi olmanın hazzıyla** karıştırmamaya dikkat etmeliyiz.
 
-Bunlar, çoğu zaman aynı kişide bir arada bulunsalar da iki farklı şeydir.
+Bu ikisi çoğu zaman aynı insanda bir arada bulunsa da ayrı şeylerdir.
 
-## Daha az değil, daha çok güzellik
+## Güzellik azalmıyor, çoğalıyor
 
-İçinde bulunduğumuz anda neredeyse paradoksal bir şey var.
+Yaşadığımız dönemin neredeyse paradoksal bir yanı var.
 
-Mayıs'ta bir OpenAI modeli, Paul Erdős'ün birim uzaklık problemiyle ilişkili, uzun süredir açık kalan bir sanıyı çürüttü. Argüman, ayrık geometri ile cebirsel sayılar teorisi arasındaki şaşırtıcı bir bağlantıya dayanıyordu. Matematikçiler argümanı inceledi, sonucu doğruladı ve yaklaşımda gerçek bir matematiksel zarafet buldu.
+Mayısta bir OpenAI modeli, Paul Erdős'ün birim uzaklık problemiyle ilişkili, uzun zamandır açık duran bir sanıyı çürüttü. İspat, ayrık geometri ile cebirsel sayılar teorisi arasındaki şaşırtıcı bir bağlantıya dayanıyordu. Matematikçiler çalışmayı inceleyip sonucu doğruladı ve yaklaşımda gerçek bir matematiksel zarafet buldu.
 
-Strogatz'ın kendisi de ispatın güzelliğinden ve ustalığından hayranlıkla söz etti.
+Bizzat Strogatz da ispatın güzelliğinden ve ustalığından hayranlıkla söz etti.
 
-Bana göre hikâyenin daha ilginç kısmı bu.
+Bence hikâyenin daha ilginç yanı bu.
 
-Dünyaya yeni ve güzel bir matematik parçası katılmıştı. Beklenmedik bir bağlantı gün yüzüne çıkmıştı. Karanlıkta kalmış bir şey artık insanların incelemesine, anlamasına ve takdir etmesine açıktı.
+Dünya yeni ve güzel bir matematik sonucu kazanmıştı. Beklenmedik bir bağlantı gün ışığına çıkmıştı. Karanlıkta kalan bir şey artık insanların önündeydi; incelenmeye, anlaşılmaya, takdir edilmeye açıktı.
 
-Onu bir makinenin keşfetmiş olması, sonucu neden daha az harika kılsın?
+Onu bir makinenin bulmuş olması, sonucun büyüsünden neden bir şey eksiltsin?
 
-Muhteşem bir müzik eseri dinlediğimde, bestecinin yeteneği karşısında küçüldüğümü hissetmem. Güzel bir tablo gördüğümde, benim yaratamayacağım bir şeyi yarattı diye ressama içerlemem.
+Görkemli bir müzik eseri dinlerken bestecinin yeteneği karşısında kendimi küçülmüş hissetmem. Güzel bir tablo gördüğümde, benim yapamayacağım bir şeyi yaptı diye ressama içerlemem.
 
-Eserin var olmasına minnettar olurum.
+O eser var olduğu için minnettar olurum.
 
-Aynısı matematik için de geçerli.
+Matematikte de durum aynı.
 
-Yapay zekâ, hiçbir insan matematikçinin asla bulamayacağı yapıları, ilişkileri ve fikirleri keşfedebiliyorsa, ben bunu anlamamız için önümüze serilen alanın olağanüstü bir genişlemesi olarak görüyorum.
+Yapay zekâ hiçbir insan matematikçinin asla bulamayacağı yapılar, ilişkiler ve fikirler keşfedebiliyorsa, ben bunda, anlamamızı bekleyen dünyanın olağanüstü ölçüde genişlediğini görüyorum.
 
-Belki bu keşiflerin bazıları başlangıçta kavrayışımızın ötesinde olacak. Bu da yeni bir entelektüel meydan okuma demek: onları kavrayabileceğimiz fikirlere çevirmek, neden doğru olduklarını anlamak ve içlerinde gizli daha derin ilkeleri bulmak.
+Belki bu keşiflerin bir kısmı ilk başta kavrayışımızı aşacak. Bu da önümüze yeni bir entelektüel sınav çıkarıyor: onları kavrayabileceğimiz fikirlere tercüme etmek, neden doğru olduklarını anlamak ve içlerinde saklı daha derin ilkeleri bulup çıkarmak.
 
-Tıpkı hesap makinelerinin aritmetikte insanlardan daha iyi olması gibi, makinelerin teorem ispatlamakta insanlardan çok daha iyi olduğu bir zaman gelebilir. Ama geride bırakılmak, anlamaktan dışlanmak anlamına gelmez.
+Tıpkı hesap makinelerinin aritmetikte bizden iyi olması gibi, makinelerin teorem ispatlamakta da bizden kat kat iyi olduğu bir gün gelebilir. Ama geride kalmak, anlamanın dışında kalmak demek değildir.
 
-Kaldı ki bir makine bir problemi çoktan çözmüş olsa bile, kâğıdı kalemi alıp oturmamı ve onu kendi başıma çözmenin hazzını yaşamamı hiçbir şey engelleyemez.
+Kaldı ki bir problemi makine çoktan çözmüş olsa bile, kâğıdı kalemi alıp oturmama ve onu kendim çözmenin tadına varmama hiçbir şey engel olamaz.
 
-Kavrayış yine de benim zihnimde gerçekleşir.
+Kavrayış yine benim zihnimde doğar.
 
 Güzellik de hâlâ orada, görmemi bekliyor.

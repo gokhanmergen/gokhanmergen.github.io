@@ -6,78 +6,78 @@ date: 2026-10-01
 category: İnsanlık / Yapay Zekâ
 read_time: 8 dk okuma
 title: Ape++
-deck: Savaş ve kıtlıktan Mars’a ve yapay zekâ haleflerimize kadar, insanlığın tekrarlanan başarısızlıkları bir mühendislik sorusunu gündeme getiriyor: Yazılım hatalarını mı düzeltiyoruz, yoksa mimarinin kendisiyle mi yüzleşiyoruz?
-archive_deck: Savaş ve kıtlıktan Mars’a ve yapay zekâ haleflerimize kadar, insanlığın tekrarlanan başarısızlıkları bir mühendislik sorusunu gündeme getiriyor: Yazılım hatalarını mı düzeltiyoruz, yoksa mimarinin kendisiyle mi yüzleşiyoruz?
+deck: Savaştan kıtlığa, Mars’tan yapay zekâ haleflerimize: İnsanlığın dönüp dolaşıp aynı yerde tökezlemesi bir mühendislik sorusu doğuruyor. Hataları mı ayıklıyoruz, yoksa mimarinin kendisiyle mi yüzleşiyoruz?
+archive_deck: Savaştan kıtlığa, Mars’tan yapay zekâ haleflerimize: İnsanlığın dönüp dolaşıp aynı yerde tökezlemesi bir mühendislik sorusu doğuruyor. Hataları mı ayıklıyoruz, yoksa mimarinin kendisiyle mi yüzleşiyoruz?
 ---
 
 ## **Ayna**
 
-Liderlerin uluslarını yüzüstü bıraktığını söylemeyi severiz. Bu, içimizi rahatlatan bir cümledir, çünkü başarısızlığın adresi olarak bizim dışımızda bir yeri gösterir. Kötü bir adam sivrildi, halkı kandırdı; halk da gözünü açtığında yeniden iyi olacak.
+Liderlerin uluslarını yüzüstü bıraktığını söylemeyi severiz. İçimizi rahatlatan bir cümledir bu, çünkü kabahati dışımızda bir yere yükler. Kötü bir adam başa geçti, halkı kandırdı; halk da uyandığı gün eski iyiliğine dönecek.
 
-Artık buna inanmıyorum. Lider, bir ülkenin başına gelen bir kaza değildir. Ülkenin kendine tuttuğu bir aynadır. Bir toplumun tepesinde kim duruyorsa, onu o toplum seçmiş, ona o toplum katlanmış, onu o toplum alkışlamış ve sıradan insanların verdiği milyonlarca küçük kararla orada tutmuştur. Aynadaki yüz çirkinse camı kırmak yüzü değiştirmez.
+Artık buna inanmıyorum. Lider, bir ülkenin başına gelen bir kaza değil, o ülkenin kendine tuttuğu aynadır. Bir toplumun en tepesinde kim duruyorsa onu o toplum seçmiş, ona o toplum katlanmış, onu o toplum alkışlamıştır; onu orada tutan da sıradan insanların verdiği milyonlarca küçük karardır. Aynadaki yüz çirkinse camı kırmakla yüz değişmez.
 
-Bu yüzden ABD'nin bugün geldiği nokta için tek bir figürü suçlamakta zorlanıyorum. Amerika Birleşik Devletleri'nin istisna olması gerekiyordu: kan bağı üzerine değil, bir fikir üzerine kurulmuş ulus; aklın, hukukun ve fırsatın, insanların kendilerini iyi yönetebileceğini nihayet kanıtlayacağı yer. Bu deney bugün, kendinden önceki bütün imparatorluklar gibi, gösteriye, hınca ve kabileci kesinliğe aynı açlığı doğuruyorsa, **sorun kürsüdeki adam değil**. Sorun hammadde. Sorun biziz.
+Bu yüzden ABD'nin bugün geldiği nokta için tek bir ismi suçlamakta zorlanıyorum. Amerika Birleşik Devletleri istisna olacaktı: kan bağının değil, bir fikrin üzerine kurulmuş bir ulus; aklın, hukukun ve fırsatın, insanın kendini iyi yönetebileceğini sonunda kanıtlayacağı yer. Bu deney de bugün, kendinden önceki bütün imparatorluklar gibi, gösteriye, hınca ve kabilenin sorgulanmaz doğrularına aç kitleler üretiyorsa, **sorun kürsüdeki adamda değil**. Sorun hammaddede. Sorun bizde.
 
-Ve bunu bir kez kabul ettiğinizde tarih şaşırtıcı olmaktan çıkar.
+Bunu bir kez kabullendiniz mi, tarih şaşırtıcı olmaktan çıkar.
 
 ## **Bilanço**
 
-Eskiden Birinci Dünya Savaşı'nı okurken bunun nasıl mümkün olduğunu sorardım. Neredeyse kimsenin, daha sürerken bile açıklayamadığı bir savaşta askeriyle siviliyle yaklaşık yirmi milyon ölü. Genç adamlar, ne olacağını gayet iyi bilen generaller tarafından ay be ay, dalga dalga çamurun içinden makineli tüfeklerin üzerine sürüldü. Avrupa'nın bütün bir genç erkek kuşağı, birbirine dolanmış ittifaklar ve yaralı gururlar uğruna kıyma makinesine atıldı.
+Eskiden Birinci Dünya Savaşı'nı okurken bunun nasıl mümkün olduğunu sorardım kendime. Askeriyle siviliyle yaklaşık yirmi milyon ölü; hem de daha sürerken bile neredeyse kimsenin nedenini açıklayamadığı bir savaşta. Ne olacağını gayet iyi bilen generaller, genç adamları ay be ay, dalga dalga çamurun içinden makineli tüfeklerin üstüne sürdü. Avrupa'nın bütün bir genç erkek kuşağı, bir ittifaklar yumağı ve incinmiş gururlar uğruna kıyma makinesine atıldı.
 
-Sonra, aradan topu topu yirmi yıl geçmişken, aynı kıta bunu bir kez daha yaptı; üstelik bu kez daha iyi bir mühendislikle. İkinci Dünya Savaşı yetmiş ile seksen beş milyon arasında insanı, yani o dönemde yeryüzünde yaşayan herkesin yaklaşık yüzde üçünü öldürdü. Şehirler havadan yerle bir edildi. Açlık bile bile silah olarak kullanıldı.
+Aradan topu topu yirmi yıl geçmişti ki aynı kıta aynı şeyi bir kez daha yaptı; üstelik bu sefer işin mühendisliği daha iyiydi. İkinci Dünya Savaşı'nda yetmiş ila seksen beş milyon insan, yani o dönem yeryüzünde yaşayan herkesin yaklaşık yüzde üçü öldü. Şehirler havadan yerle bir edildi. Açlık bilerek, isteyerek silah olarak kullanıldı.
 
-Ve o savaşın tam ortasında Holokost vardı: Altı milyon Yahudi, yani Avrupa'daki her üç Yahudiden ikisi katledildi; onlarla birlikte milyonlarca Roman, engelli, mahkûm ve başkaları da. Onu dayanılmaz kılan yalnızca rakamlar değil. Yöntem. Zaman çizelgeleri, evrak işleri, tedarik, kimya, lojistik. Avrupa'nın en eğitimli ulusu, Bach'ın, Goethe'nin ve Planck'ın ülkesi, bütün idari zekâsını çocukların endüstriyel ölçekte öldürülmesine seferber etti. Memurlar formları damgaladı. Mühendisler fırınları optimize etti. Komşular görmezden geldi.
+O savaşın tam ortasında da Holokost vardı: Altı milyon Yahudi, yani Avrupa'daki her üç Yahudiden ikisi katledildi; onlarla birlikte milyonlarca Roman, engelli, mahkûm ve daha niceleri. Onu dayanılmaz kılan yalnızca sayı değil, yöntem. Çizelgeler, evrak işleri, tedarik, kimya, lojistik. Avrupa'nın en eğitimli ulusu, Bach'ın, Goethe'nin, Planck'ın ülkesi, bütün idari aklını çocukları sanayi ölçeğinde öldürmeye seferber etti. Memurlar formlara mühür bastı. Mühendisler fırınları optimize etti. Komşular başlarını öbür yana çevirdi.
 
-Uzun süre bunlara birer sapma, yüzyılın ateşler içinde gördüğü bir kâbus gözüyle baktım. Artık onları veri olarak okuyorum. Bunlar, koşullar bir araya geldiğinde türümüzün yaptığı şeyler; koşullar ise kabul etmek istediğimizden çok daha sık bir araya geliyor.
+Uzun süre bunları birer sapma, yüzyılın humma nöbetinde gördüğü bir kâbus saydım. Artık onları veri olarak okuyorum. Koşullar elverdiğinde türümüzün yaptığı şey bu; koşullar da kabullenmek istediğimizden çok daha sık elveriyor.
 
-## **Hesap tablosundan doğan kıtlık**
+## **Kâğıtta bolluk, tarlada kıtlık**
 
-Dünya savaşları insanlığın şiddette vardığı en uç noktaysa, Büyük İleri Atılım da saçmalıkta vardığı en uç noktaydı. Çin, 1958 ile 1962 arasında kararnamelerle sanayi modernliğine sıçramaya çalıştı. Köylüler sürü gibi komünlere dolduruldu, tarım aletleri işe yaramaz pik demir üretmek için arka bahçe fırınlarında eritildi ve yüzyıllardır aileleri doyuran tarlalara sözde bilimsel tarım teorileri dayatıldı.
+Dünya savaşları insanlığın en vahşi haliyse, Büyük İleri Atılım da en absürt haliydi. Çin, 1958 ile 1962 arasında modern sanayi çağına kararnameyle sıçramaya kalkıştı. Köylüler sürü gibi komünlere dolduruldu; tarım aletleri, hiçbir işe yaramayan pik demir elde etmek için arka bahçelerdeki fırınlarda eritildi; yüzyıllardır aileleri doyuran tarlalara sözde bilimsel tarım kuramları dayatıldı.
 
-Apaçık olanı söylemeye kimsenin izni yoktu. Sadakatsiz görünmekten ödü kopan yerel yöneticiler, var olmayan hasatlar bildirdi. Devlet de bu uydurma rakamlar üzerinden tahıla el koydu, zaman zaman da ihraç etti; o tahılı yetiştiren köyler ise açlıktan kırılıyordu. Sesini çıkaranlar tasfiye edildi. Ölü sayısına ilişkin tahminler, alt sınırdaki yaklaşık on beş milyondan kırk beş milyona ya da daha fazlasına kadar uzanıyor; pek çok tarihçi otuz milyonun üzerinde bir rakamda karar kılıyor. Büyük olasılıkla kayıtlı tarihin en büyük kıtlığıydı ve insan eliyle yaratılmıştı.
+Herkesin gördüğünü söylemek yasaktı. Sadakatsiz görünmekten ödü kopan yerel yöneticiler, var olmayan hasatlar bildirdi. Devlet de tahıla bu uydurma rakamlara göre el koydu, hatta zaman zaman yurt dışına sattı; o tahılı yetiştiren köyler ise açlıktan kırılıyordu. Sesini yükseltenler tasfiye edildi. Ölü sayısına ilişkin tahminler on beş milyon civarından başlayıp kırk beş milyona, hatta daha fazlasına kadar çıkıyor; pek çok tarihçi otuz milyonun üzerinde bir yerde karar kılıyor. Büyük olasılıkla kayıtlı tarihin en büyük kıtlığıydı ve insan eliyle yaratılmıştı.
 
-Ortada bir savaş yoktu. Düşman ordusu yoktu. Atlatılamayacak bir kuraklık yoktu. On milyonlarca insan, bir sistem üstlere yalan söylemeyi ödüllendirip doğruyu cezalandırdığı ve içindeki neredeyse herkes dürüstlük yerine hayatta kalmayı seçtiği için öldü. Bu, tek bir ülkenin ya da tek bir ideolojinin hikâyesi değil. İnsanların, dinlemeyi bırakmış bir hiyerarşinin içinde nasıl davrandığının hikâyesi.
+Ortada savaş yoktu. Düşman ordusu yoktu. Atlatılamayacak bir kuraklık da yoktu. On milyonlarca insan öldü; çünkü sistem üstlerine yalan söyleyeni ödüllendiriyor, doğruyu söyleyeni cezalandırıyordu ve içindeki neredeyse herkes dürüstlük yerine hayatta kalmayı seçti. Mesele tek bir ülke ya da tek bir ideoloji değil. Mesele, artık kimseyi dinlemeyen bir hiyerarşinin içinde insanların nasıl davrandığı.
 
 ## **Aynı hikâye, bu kez dronlarla**
 
-Kendimize, yirminci yüzyıldan dersimizi aldığımızı söyledik. Sonra Rusya, Şubat 2022'de Ukrayna'ya yönelik tam ölçekli bir işgal başlattı; bu işgal, 2008'de Gürcistan'dan 2014'te Kırım'ın ele geçirilmesine uzanan bir örüntünün doruk noktasıydı.
+Yirminci yüzyıldan dersimizi aldığımıza kendimizi inandırmıştık. Sonra, Şubat 2022'de Rusya Ukrayna'ya tam kapsamlı bir işgal başlattı: 2008'de Gürcistan'da, 2014'te Kırım'ın ele geçirilmesinde gördüğümüz örüntünün doruk noktası.
 
-Dört buçuk yılı aşkın bir süre sonra savaş, yaklaşık bin kilometrelik bir cephe boyunca insanları öğüten bir yıpratma mücadelesine dönüştü. 2026'nın ortalarına gelindiğinde CSIS analistleri iki tarafın ölü, yaralı ve kayıp olmak üzere toplam zayiatını yaklaşık iki milyon olarak tahmin ediyordu. Yalnızca Rusya'nın yaklaşık 450.000 can kaybettiği tahmin ediliyordu; bazı Batılı yetkililer ise o tarihten bu yana bu sayıyı yarım milyona daha yakın gösteriyor. Ukrayna ordusunun ölü sayısının 125.000 ile 150.000 arasında olduğu tahmin ediliyor. BM 17.000'den fazla sivil ölümünü doğruladı ve gerçek sayının daha yüksek olduğunu vurguluyor. Hepsini topladığınızda yalnızca ölülerin sayısı bile yarım milyonu fazlasıyla aşıyor.
+Aradan dört buçuk yıldan fazla zaman geçti; savaş artık yaklaşık bin kilometrelik bir cephe boyunca insan öğüten bir yıpratma mücadelesi. CSIS analistlerinin 2026 ortası itibarıyla yaptığı tahmine göre, ölüler, yaralılar ve kayıplarla birlikte iki tarafın toplam zayiatı iki milyon civarındaydı. Rusya'nın kaybı tek başına 450.000 can civarında hesaplanıyordu; bazı Batılı yetkililer o tarihten bu yana bu rakamı yarım milyona daha yakın gösteriyor. Ukrayna ordusunun ölü sayısı ise 125.000 ile 150.000 arasında tahmin ediliyor. BM 17.000'i aşkın sivil ölümünü doğruladı ve gerçek sayının daha yüksek olduğunun altını çiziyor. Hepsini topladığınızda yalnızca ölülerin sayısı bile yarım milyonu rahatça aşıyor.
 
-Rakamların ardında, Avrupa'da bir daha asla yaşanmayacağını söylediğimiz şeyler var: Buça gibi kasabalar, gece füzelerle vurulan apartman blokları, Rus olarak yetiştirilmek üzere sınırın öte yanına götürülen Ukraynalı çocuklar. Öbür tarafta ise çoğu yoksul bölgelerden nakit ikramiyelerle askere alınmış yüz binlerce genç Rus erkeği, bir Birinci Dünya Savaşı generalinin tanıyacağı türden dalgalarla cepheye sürülüyor.
+Rakamların ardında, Avrupa'da bir daha asla yaşanmaz dediğimiz şeyler duruyor: Buça gibi kasabalar, gece vakti füzelerle vurulan apartmanlar, Rus olarak yetiştirilmek üzere sınırın öte yanına götürülen Ukraynalı çocuklar. Öbür tarafta ise yüz binlerce genç Rus erkeği var. Birçoğu yoksul bölgelerden nakit ikramiyelerle toplanmış bu gençler, bir Birinci Dünya Savaşı generalinin hiç yabancılık çekmeyeceği biçimde dalga dalga cepheye sürülüyor.
 
-Silahlar yeni. Dronlar askerleri tek tek avlıyor; uydular her siperi izliyor. Psikoloji ise kadim. Tek bir adamın hırsı, buna ayak uyduran bir halk; bir de izleyen, kınayan ve duruma alışan bir dünya. Elimizde uydular, akıllı telefonlar ve makine öğrenmesi var; ama bir sınırın nereden geçeceği sorusunu hâlâ, taraflardan biri tükenene kadar genç adamları öldürerek çözüyoruz.
+Silahlar yeni. Dronlar askerleri tek tek avlıyor, uydular her siperi gözetliyor. Psikoloji ise çok eski: tek bir adamın hırsı, buna ayak uyduran bir halk; bir de seyreden, kınayan ve sonunda alışan bir dünya. Uydular, akıllı telefonlar, makine öğrenmesi, hepsi elimizde; ama bir sınırın nereden geçeceğine hâlâ, taraflardan biri tükenene kadar genç adamları öldürerek karar veriyoruz.
 
 ## **Ape++**
 
-Bir mühendis, tekrar tekrar aynı biçimde çöken her sisteme kuşkuyla bakmayı öğrenir. Tek bir çökme, bir yazılım hatasıdır (bug). Birkaç on yılda bir, her kültürde, her dilde, her dinde ve her ekonomik sistemde tekrarlanan aynı çökme ise mimarinin kendisidir.
+Mühendis, hep aynı biçimde çöken sistemlerden kuşkulanmayı öğrenir. Tek bir çökme bir yazılım hatasıdır. Aynı çökme birkaç on yılda bir, her kültürde, her dilde, her dinde ve her ekonomik sistemde tekrarlanıyorsa, karşınızdaki şey artık mimarinin kendisidir.
 
-Bugün anladığım kadarıyla mimari şöyle: Bizler, yüz kişi kadarlık küçük gruplarda evrimleşmiş; statü peşinde koşmaya, kendi grubuna sadık kalmaya ve dış gruplardan kuşkulanmaya programlanmış primatlarız. Sonra, evrimsel ölçekte göz açıp kapayıncaya kadar, bunun üstüne dili, soyutlamayı, yazıyı, matematiği, nihayetinde de nükleer fiziği ve gen düzenlemeyi monte ettik. Maymunun yerine başka bir şey koymadık. Onu genişlettik. Ape++ (Maymun++): aynı temel sınıf, ama çok daha geniş bir metot kümesiyle.
+Bugün anladığım kadarıyla mimari şöyle: Yüz kişi kadarlık küçük topluluklarda evrimleşmiş primatlarız; statü peşinde koşmaya, kendi grubumuza bağlanmaya ve yabancıdan kuşkulanmaya kodlanmışız. Sonra, evrim ölçeğinde göz açıp kapayıncaya kadar, bunun üstüne dili, soyutlamayı, yazıyı, matematiği, en sonunda da nükleer fiziği ve gen düzenlemeyi monte ettik. Maymunu söküp atmadık; onu genişlettik. Ape++, yani Maymun++: aynı temel sınıf, ama çok daha geniş bir metot kümesi.
 
-Bu eklentiler gerçek ve muhteşem. Auschwitz'i inşa eden tür, *Comfortably Numb*'ı da yazdı, Fermat'nın Son Teoremi'ni de kanıtladı, çiçek hastalığının da kökünü kazıdı. Ama bu metotların her biri hâlâ eski çekirdek üzerinde çalışıyor. Zekâmız kabileciliğimizi yönetmiyor; olması gerekenden çok daha sık ona hizmet ediyor. Propaganda, grubun hizmetindeki dildir. Bürokrasi, grubun hizmetindeki örgütlenmedir. Güdümlü füze, grubun hizmetindeki fiziktir.
+Eklentiler gerçek, hem de göz kamaştırıcı. Auschwitz'i kuran tür, *Comfortably Numb*'ı da yazdı, Fermat'nın Son Teoremi'ni de kanıtladı, çiçek hastalığının da kökünü kazıdı. Ama bu metotların her biri hâlâ eski çekirdeğin üzerinde çalışıyor. Zekâmız kabileciliğimizin efendisi değil; olması gerekenden çok daha sık onun hizmetkârı. Propaganda, kabilenin hizmetindeki dildir. Bürokrasi, kabilenin hizmetindeki örgütlenme. Güdümlü füze, kabilenin hizmetindeki fizik.
 
-Birinci ve İkinci Dünya Savaşı'nın, Holokost'un ve Büyük İleri Atılım'ın beni artık şaşırtmamasının nedeni bu. Şaşırmak için önce bir beklentinin boşa çıkması gerekir. İnsanları doğru modellediğinizde, yani düşmüş melekler olarak değil de akıllı maymunlar olarak gördüğünüzde, bu olaylar hiçbir beklentiyi boşa çıkarmaz. Bunlar, kabileci bir primata endüstriyel ölçekte araçlar ve korkmak için bir neden verdiğinizde beklenen çıktıdır.
+İki dünya savaşı, Holokost ve Büyük İleri Atılım beni bu yüzden artık şaşırtmıyor. Şaşırmak için önce bir beklentinin boşa çıkması gerekir. İnsanı doğru modellediğinizde, yani onu düşmüş bir melek değil de akıllı bir maymun olarak gördüğünüzde, bu olaylar hiçbir beklentiyi boşa çıkarmaz. Kabileci bir primatın eline sanayi ölçeğinde araçlar ve korkması için bir sebep verdiğinizde, beklenen çıktı tam da budur.
 
-## **Kimin için ikinci bir gezegen?**
+## **İkinci gezegen kimin için?**
 
-Elon Musk yirmi yılını insanlığın çok gezegenli bir tür olması gerektiğini savunarak geçirdi ve Mars'ta kendi kendine yeten, bir milyon kişilik bir şehirden söz etti. Buradaki mantık bir sigorta mantığı: Medeniyetin yedek bir kopyasını başka bir yerde tutmak; böylece tek bir asteroit, tek bir savaş ya da tek bir salgın hikâyeyi bitiremesin.
+Elon Musk yirmi yıldır insanlığın çok gezegenli bir türe dönüşmesi gerektiğini savunuyor; Mars'ta kendi kendine yeten, bir milyon kişilik bir şehirden de söz etti. Buradaki mantık sigorta mantığı: Medeniyetin bir yedeğini başka bir yerde saklarsak, tek bir asteroit, tek bir savaş ya da tek bir salgın hikâyeye son veremez.
 
-Mühendislik açısından buna hayranlık duyuyorum. Felsefe açısından ise bir soruyu atlıyor. Sigorta, korunmaya değer bir şeyi korur. Peki tam olarak neyin yedeğini alıyoruz?
+Mühendislik açısından buna hayranım. Felsefi açıdan ise bir soruyu atlıyor. Sigorta, korunmaya değer bir şeyi korur. Peki tam olarak neyin yedeğini alıyoruz?
 
-Mars'a Ape++ gönderirsek paketin tamamını göndermiş oluruz. Statü oyunlarını, kabileleri, rakamlar iyi görünsün diye bir köyü aç bırakmaya razı olmayı, formları damgalayıp görmezden gelebilme yetisini. Her nefesin oksijeni denetleyen merkezî bir otoriteye bağlı olduğu, yaşama düşman bir gezegendeki kapalı bir koloni bu eğilimlerden bir kaçış değildir. Onlar için bugüne kadar tasarlanmış en kusursuz ortamdır. Birkaç kuşak içinde önce hizipler, ardından baskın bir hizip, ardından da yukarıda anlatılan her hikâyenin Mars uyarlaması doğardı.
+Mars'a Ape++ gönderirsek paketin tamamını göndermiş oluruz: statü oyunlarını, kabileleri, rakamlar güzel görünsün diye bir köyü aç bırakmaya razı olmayı, formları mühürleyip başını öbür yana çevirebilmeyi. Yaşama düşman bir gezegende, her nefesin oksijeni denetleyen merkezî bir otoriteye bağlı olduğu kapalı bir koloni bu eğilimlerden kaçış değildir. Tam tersine, bu eğilimler için bugüne dek tasarlanmış en kusursuz ortamdır. Birkaç kuşak içinde önce hizipler, sonra baskın bir hizip, en sonunda da yukarıda anlattığım her hikâyenin Mars uyarlaması ortaya çıkardı.
 
-Dolayısıyla soru, Mars'ı iskân *edip edemeyeceğimiz* değil. Soru, oraya yerleştirilecek doğru şeyin biz olup olmadığı. Bizim bir kopyamız yeni bir başlangıç değildir. Hatayı da içinde taşıyan bir yedektir.
+Yani mesele Mars'a yerleşmeyi *becerip beceremeyeceğimiz* değil. Mesele, oraya yerleştirilecek doğru şeyin biz olup olmadığı. Kendi kopyamız yeni bir başlangıç olmaz; hatayı da içinde taşıyan bir yedek olur.
 
-Bizden daha iyi bir "biz" var mı? Belki. Merakı, matematiği ve müziği korumuş ama dünyayı bizim grubumuz ve onlarınki diye ikiye ayırma refleksini yitirmiş bir insanlık versiyonu. Böyle bir versiyonu eğitimle mi var edebiliriz, kurumlarımızın tasarımına mı yerleştirebiliriz, yoksa sıfırdan mı inşa edebiliriz? Yüzyılın en önemli sorusu bu. Ve ilk kez, son seçenek artık kulağa bilimkurgu gibi gelmiyor.
+Bizden daha iyi bir "biz" var mı? Belki. Merakı, matematiği ve müziği elinde tutan ama dünyayı bizimkiler ve ötekiler diye ikiye bölme refleksinden kurtulmuş bir insanlık sürümü. Böyle bir sürüm eğitimle mi var edilebilir, kurumlarımızın tasarımına mı işlenebilir, yoksa sıfırdan mı inşa edilebilir? Yüzyılın en önemli sorusu bu. Ve ilk kez, üçüncü seçenek kulağa artık bilimkurgu gibi gelmiyor.
 
-## **Efendilerden yana olmak**
+## **Makine efendilerin tarafını tutmak**
 
-Bu da beni, dönüp dolaşıp vardığım o rahatsız edici düşünceye getiriyor. Bu sicil ortadayken, bazılarımızın yakında içten içe yapay zekâ haleflerimizden yana olacağını hayal etmek o kadar mı tuhaf?
+Böylece hep dönüp geldiğim o rahatsız edici düşünceye varıyorum. Bu sicil ortadayken, bazılarımızın yakında içten içe yapay zekâ haleflerimizin tarafını tutacağını düşünmek o kadar mı tuhaf?
 
-Makinelerin efendimiz olacağı korkusu, makinelerin bizden daha kötü olacağını varsayar. Bilançoya bakın ve dürüstçe sorun: Hangi ölçüte göre daha kötü? Statüye can atmayan, komşu kabileden nefret etmeyen, işini korumak için üstlerine yalan söylemesi gerekmeyen ve bir nutukla galeyana getirilemeyen bir sistem. Böyle bir şeyin dünyayı akıllı maymunların yönettiğinden daha acımasızca yöneteceği açık değil.
+Makinelerin efendimiz olacağı korkusu, onların bizden daha kötü olacağını varsayar. Bilançoya bakıp dürüstçe sorun: Hangi ölçüte göre daha kötü? Statüye can atmayan, komşu kabileden nefret etmeyen, işini korumak için üstlerine yalan söylemek zorunda kalmayan, bir nutukla galeyana getirilemeyen bir sistem düşünün. Böyle bir şeyin dünyayı akıllı maymunlardan daha acımasızca yöneteceği pek de açık değil.
 
-Ama dürüst bir mühendis düşünceyi sonuna kadar götürmek zorundadır. Bu sistemlerin eğitim malzemesi biziz. Propagandanın her sayfası, uydurulan her kılıf, her memurun savunması eğitim verisinin içinde. Haleflerimizi özensizce inşa edersek, kendimizin daha iyi bir versiyonunu elde etmeyiz. Yeniden Ape++ elde ederiz; bu kez daha hızlı çalışan ve daha az sınırı olan bir Ape++.
+Ama dürüst bir mühendis düşünceyi yarıda bırakamaz. Bu sistemler bizden öğreniyor. Propagandanın her sayfası, uydurulmuş her kılıf, her memurun savunması eğitim verisinin içinde. Haleflerimizi özensizce inşa edersek kendimizin daha iyi bir sürümüne kavuşmayız. Elimize yine Ape++ geçer; üstelik daha hızlı çalışan ve önünde daha az sınır olan bir Ape++.
 
-Öyleyse belki de asıl soru, anahtarları teslim etmemiz gerekip gerekmediği değil. Soru şu: Bizimkinden daha iyi olabilecek zihinler inşa ederken, "daha iyi"nin ne anlama geldiğini nihayet açıkça ve kendimizi pohpohlamadan yazıya dökebilecek miyiz; ardından da herhangi bir makineden bunu beklemeden önce o ölçüte kendimiz uyabilecek miyiz?
+Belki de asıl soru, anahtarları teslim etmemiz gerekip gerekmediği değil. Soru şu: Bizden daha iyi olabilecek zihinler inşa ederken, "daha iyi"nin ne demek olduğunu nihayet açık açık ve kendimizi pohpohlamadan yazıya dökebilecek miyiz? Ve herhangi bir makineden aynısını istemeden önce o ölçüte kendimiz uyabilecek miyiz?
 
-Bunu başarabilirsek, belki de her şeye rağmen Mars'ı hak etmiş oluruz. Başaramazsak, asıl kaygılanmamız gereken gezegen bu gezegendir.
+Bunu başarabilirsek, belki de Mars'ı hak ettiğimiz ortaya çıkar. Başaramazsak, asıl kaygılanmamız gereken gezegen bu gezegen.

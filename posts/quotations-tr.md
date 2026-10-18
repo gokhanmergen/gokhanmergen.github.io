@@ -6,67 +6,67 @@ date: 2016-03-15
 category: Fikirler / Alıntılar
 read_time: 3 dk okuma
 title: Beni Düşündüren Sözler
-deck: Makineler ve zihinler, düşünmek, başarısız olmak ve öğrenmek, var olmak, piyasalar ve güç üzerine dönüp dönüp okuduğum sözler.
-archive_deck: Makineler ve zihinler, düşünmek, başarısız olmak ve öğrenmek, var olmak, piyasalar ve güç üzerine dönüp dönüp okuduğum sözler.
+deck: Dönüp dönüp okuduğum sözler: makineler ve zihinler, düşünce, başarısızlık ve öğrenme, varoluş, piyasalar ve güç üzerine.
+archive_deck: Dönüp dönüp okuduğum sözler: makineler ve zihinler, düşünce, başarısızlık ve öğrenme, varoluş, piyasalar ve güç üzerine.
 ---
 
 ## Makineler ve Zihinler
 
-> “Makinelerin düşünüp düşünemeyeceği sorusu, aşağı yukarı denizaltıların yüzüp yüzemeyeceği sorusu kadar anlamlıdır.”
+> “Makineler düşünebilir mi sorusu, aşağı yukarı denizaltılar yüzebilir mi sorusu kadar anlamlıdır.”
 > — **Edsger W. Dijkstra**
 
-> “Üstün bir uzaylı uygarlığı bize ‘Birkaç on yıl içinde geleceğiz’ diye bir mesaj gönderse, ‘Tamam, gelince bizi arayın — ışıkları açık bırakırız’ deyip geçer miydik? Muhtemelen hayır — ama yapay zekâ konusunda olan da aşağı yukarı bu. İnsanlık tarihinin belki de en iyi ya da en kötü gelişmesiyle karşı karşıya olmamıza rağmen, bu meselelere pek az ciddi araştırma ayrılıyor.”
+> “Bizden üstün bir uzaylı uygarlığı ‘Birkaç on yıl sonra geliyoruz’ diye mesaj gönderse, ‘Tamam, gelince bir arayın — ışıkları açık bırakırız’ deyip geçer miydik? Herhalde hayır. Ama yapay zekâda olan biten de aşağı yukarı bu. Belki de insanlık tarihinin en iyi ya da en kötü gelişmesiyle yüz yüzeyiz; yine de bu meselelere pek az ciddi araştırma ayrılıyor.”
 > — **Stephen Hawking**, *The Independent*, 2014
 
-> “Robotlar geleceğimizi daha iyi kılacak. Tabii bizi öldürmezlerse.”
+> “Robotlar geleceğimizi güzelleştirecek. Bizi öldürmezlerse tabii.”
 
-> “Ben şahsen yeni bilgisayar efendilerimize hoş geldiniz diyorum.”
-> — **Ken Jennings**, IBM’in Watson’ına karşı Final Jeopardy! turunda verdiği cevap, 2011
+> “Kendi adıma, yeni bilgisayar efendilerimize hoş geldiniz diyorum.”
+> — **Ken Jennings**, IBM’in Watson’ına karşı Final Jeopardy! turundaki cevabı, 2011
 
-## Düşünmek Üzerine
+## Düşünce Üzerine
 
-> “Bir problemi çözmek, onu çözüm apaçık görünecek biçimde temsil etmekten ibarettir.”
+> “Bir problemi çözmek, onu çözümün apaçık görüneceği biçimde temsil etmekten ibarettir.”
 > — **Herbert A. Simon**, *The Sciences of the Artificial*
 
-> “Yalnızca cevabını bulabilecek durumda olduğumuz soruları duyarız.”
+> “Yalnızca cevabını bulabileceğimiz soruları duyarız.”
 > — **Friedrich Nietzsche**, *Şen Bilim*
 
 > *“Cevabını bilmediğin sorular sormaktan çekinme.”*
 
-> “Gerçeklik, hayal gücünden yoksun insanlar içindir.”
+> “Gerçeklik, hayal gücü olmayanlar içindir.”
 
-> “Entelektüel karşıtlığı, demokrasinin ‘benim cehaletim de senin bilgin kadar değerlidir’ anlamına geldiği yanılgısıyla beslenerek, siyasi ve kültürel hayatımızın içinden kıvrıla kıvrıla geçen, hiç kopmayan bir iplik olageldi.”
+> “Anti-entelektüalizm, siyasi ve kültürel hayatımızın içinden kıvrıla kıvrıla geçen, hiç kopmayan bir iplik olageldi. Onu besleyen de demokrasinin ‘benim cehaletim de senin bilgin kadar değerlidir’ demek olduğu yanılgısıdır.”
 > — **Isaac Asimov**, “A Cult of Ignorance”, *Newsweek*, 1980
 
-## Başarısız Olmak ve Öğrenmek Üzerine
+## Başarısızlık ve Öğrenme Üzerine
 
 > “Başarı oranını artırmak istiyorsan, başarısızlık oranını ikiye katla.”
 > — **Thomas J. Watson**
 
-> “Yalnızca bir aptal kendi hatalarından ders alır. Bilge insan ise başkalarının hatalarından ders alır.”
+> “Kendi hatalarından ancak aptallar ders çıkarır. Bilgeler ise başkalarının hatalarından öğrenir.”
 > — **Otto von Bismarck**
 
-> “Hayattaki her şeyin üzerine olağanüstü bir deha ile naif bir beceriksizliğin karışımıyla giderdi ve hangisinin hangisi olduğunu kestirmek çoğu zaman zordu.”
+> “Hayatta her şeye olağanüstü bir dehayla naif bir beceriksizliğin karışımıyla girişirdi; hangisinin hangisi olduğunu kestirmek de çoğu zaman zordu.”
 > — **Douglas Adams**
 
-## Var Olmak Üzerine
+## Varoluş Üzerine
 
-> “Başka biri olmak istemek, olduğun kişiyi boşa harcamaktır.”
+> “Başka biri olmak istemek, olduğun kişiyi heba etmektir.”
 > — **Kurt Cobain**
 
-> “Sabah melteminin sana söyleyecekleri var. Yeniden uykuya dalma.”
+> “Seher yelinin sana söyleyecekleri var. Yeniden uykuya dalma.”
 > — **Rumi**
 
 ## Piyasalar ve Güç Üzerine
 
-> “Bir balon gördüğümde onu satın alırım, çünkü ben parayı böyle kazanırım.”
+> “Balon gördüğümde alırım, çünkü parayı böyle kazanırım.”
 > — **George Soros**
 
 > *“Devlet boktan bir tekeldir.”*
 
-> "Barışa bir fiyat biçebilir misin?"
-> — **Dave Mustaine** (Peace Sells...but Who's Buying? albümünde)
+> "Barışa fiyat biçebilir misin?"
+> — **Dave Mustaine** (Peace Sells...but Who's Buying? albümünden)
 
-## Ve Son Olarak
+## Son Söz
 
-> “Alıntılar, aşırı öğrenmiş (overfit) bir makinedir.”
+> “Alıntılar aşırı öğrenmiş (overfit) bir makinedir.”
