@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 436" width="760" height="436" role="img" aria-labelledby="fig-title fig-desc" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+  <title id="fig-title">The longevity evidence pyramid</title>
+  <desc id="fig-desc">Four levels of evidence, widest at the base. Level 1, lower mortality in randomized trials: not smoking, blood pressure and LDL lowering, weight loss, GLP-1 drugs, menopausal HRT, vaccines, salt substitutes, SGLT2 drugs and cancer screening. Level 2, linked to longer human life: exercise, Mediterranean diet, sleep, social ties, hearing, TRT and fish oil; mostly observational. Level 3, longer mouse lifespan with early human data: rapamycin, calorie restriction, acarbose, creatine and GlyNAC; real upside, real uncertainty. Level 4, the speculative frontier: gene therapy, reprogramming, VEGF and plasma; mouse, cell or pilot data only.</desc>
+  <rect width="760" height="436" fill="#ffffff"/>
+
+  <text x="24" y="30" font-size="15" font-weight="600" fill="#172033">Bet heaviest on the base: evidence weakens toward the peak</text>
+  <text x="24" y="50" font-size="11.5" fill="#667085">Four levels of evidence, from randomized mortality trials to mouse-only ideas</text>
+
+  <!-- Level 4 -->
+  <rect x="210" y="72" width="340" height="76" rx="8" fill="none" stroke="#98a2b3" stroke-width="1.25"/>
+  <text x="380" y="98" text-anchor="middle" font-weight="600" fill="#172033">Level 4 · The speculative frontier</text>
+  <text x="380" y="118" text-anchor="middle" font-size="12" fill="#172033">Gene therapy, reprogramming, VEGF, plasma</text>
+  <text x="380" y="136" text-anchor="middle" font-size="11.5" fill="#667085">Mouse, cell or pilot data only</text>
+
+  <!-- Level 3 -->
+  <rect x="147" y="160" width="466" height="76" rx="8" fill="none" stroke="#98a2b3" stroke-width="1.25"/>
+  <text x="380" y="186" text-anchor="middle" font-weight="600" fill="#172033">Level 3 · Longer mouse lifespan, early human data</text>
+  <text x="380" y="206" text-anchor="middle" font-size="12" fill="#172033">Rapamycin, calorie restriction, acarbose, creatine, GlyNAC</text>
+  <text x="380" y="224" text-anchor="middle" font-size="11.5" fill="#667085">Real upside, real uncertainty: add one at a time</text>
+
+  <!-- Level 2 -->
+  <rect x="84" y="248" width="592" height="76" rx="8" fill="none" stroke="#98a2b3" stroke-width="1.25"/>
+  <text x="380" y="274" text-anchor="middle" font-weight="600" fill="#172033">Level 2 · Linked to longer human life</text>
+  <text x="380" y="294" text-anchor="middle" font-size="12" fill="#172033">Exercise, Mediterranean diet, sleep, social ties, hearing, TRT, fish oil</text>
+  <text x="380" y="312" text-anchor="middle" font-size="11.5" fill="#667085">Mostly observational: read the numbers with caution</text>
+
+  <!-- Level 1: the base -->
+  <rect x="24" y="336" width="712" height="76" rx="8" fill="#3563e9" fill-opacity="0.12" stroke="#3563e9" stroke-width="2"/>
+  <text x="380" y="362" text-anchor="middle" font-weight="600" fill="#172033">Level 1 · Lower mortality in randomized trials</text>
+  <text x="380" y="382" text-anchor="middle" font-size="12" fill="#172033">Not smoking, blood pressure and LDL lowering, weight loss, GLP-1 drugs</text>
+  <text x="380" y="400" text-anchor="middle" font-size="12" fill="#172033">Menopausal HRT, vaccines, salt substitutes, SGLT2 drugs, cancer screening</text>
+</svg>

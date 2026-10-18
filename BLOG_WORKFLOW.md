@@ -71,8 +71,12 @@ The article body goes here.
 ```
 
 `archive_title` is optional; if omitted, the full `title` is used in the
-index. The generator sorts posts by `date` from newest to oldest and assigns
-the visible post numbers automatically. Do not hard-code or manually renumber
+index. `time` is also optional: a 24-hour `HH:MM` such as `time: 20:20`. It
+is not shown anywhere and only orders posts that share a date, with the later
+time first. Posts without one count as `00:00`, and ties keep file-name order.
+
+The generator sorts posts by `date` from newest to oldest and assigns the
+visible post numbers automatically. Do not hard-code or manually renumber
 posts. Use the actual calendar date rather than relative labels such as “one
 week ago.”
 

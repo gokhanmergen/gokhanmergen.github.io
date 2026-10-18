@@ -6,7 +6,7 @@ from __future__ import annotations
 import html
 import re
 from dataclasses import dataclass
-from datetime import date, datetime, timezone
+from datetime import date, datetime, time, timezone
 from email.utils import format_datetime
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -123,6 +123,8 @@ class Post:
     body: str
     lang: str = "en"
     translation_of: Optional[str] = None
+    # Orders posts that share a date; it is not shown anywhere.
+    published_time: time = time(0)
 
     @property
     def filename(self) -> str:
@@ -185,6 +187,7 @@ def parse_post(path: Path) -> Post:
         body=body,
         lang=fields.get("lang", "en"),
         translation_of=fields.get("translation_of"),
+        published_time=time.fromisoformat(fields.get("time", "00:00")),
     )
     if post.lang not in UI_TEXT:
         raise ValueError(f"Unsupported lang for {post.slug}: {post.lang}")
@@ -195,7 +198,7 @@ def load_posts() -> List[Post]:
     posts = [parse_post(path) for path in sorted(POSTS_DIR.glob("*.md"))]
     if not posts:
         raise ValueError(f"No posts found in {POSTS_DIR.name}/")
-    return sorted(posts, key=lambda post: post.published, reverse=True)
+    return sorted(posts, key=lambda post: (post.published, post.published_time), reverse=True)
 
 
 INLINE_TOKEN = re.compile(
