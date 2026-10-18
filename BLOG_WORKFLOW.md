@@ -127,7 +127,9 @@ archive_deck: Required, but not shown in the index.
 Translations are not listed or numbered separately in the index. The original
 post's index entry gets a “Türkçe oku” link, both article pages link to each
 other, and the translated page uses the original post's number and its
-localized interface text. Supported languages are the keys of `UI_TEXT` in
+localized interface text. A translated page's “next older post” button goes to
+the next older post's translation in the same language, or to the original if
+there is none. Supported languages are the keys of `UI_TEXT` in
 `build_blog.py` (currently `en` and `tr`).
 
 ## Comments, feed, and email subscriptions

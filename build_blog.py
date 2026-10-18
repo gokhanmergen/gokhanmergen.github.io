@@ -701,9 +701,12 @@ def build() -> None:
     for number, post in enumerate(posts, start=1):
         next_post = posts[number] if number < len(posts) else None
         versions = [post] + translations.get(post.slug, [])
+        next_versions = [next_post] + translations.get(next_post.slug, []) if next_post else []
         for version in versions:
+            # Link to the next older post in the reader's language when it exists.
+            next_version = next((v for v in next_versions if v.lang == version.lang), next_post)
             (ROOT / version.filename).write_text(
-                render_post(version, number, next_post, versions), encoding="utf-8"
+                render_post(version, number, next_version, versions), encoding="utf-8"
             )
 
     translation_count = sum(len(items) for items in translations.values())
