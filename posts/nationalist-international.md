@@ -3,20 +3,20 @@ slug: nationalist-international
 date: 2026-10-19
 category: Geopolitics / Europe
 read_time: 10 min read
-title: The Nationalist International: An Alliance Built to Fracture
-deck: Why the transatlantic alliance of nationalists is less durable than it appears, and what Vladimir Putin stands to gain from it.
-archive_deck: Why the transatlantic alliance of nationalists is less durable than it appears, and what Vladimir Putin stands to gain from it.
+title: Nationalists of the World, Unite?
+deck: Why Nationalist International is an oxymoron, and what Vladimir Putin stands to gain from it.
+archive_deck: Why Nationalist International is an oxymoron, and what Vladimir Putin stands to gain from it.
 ---
 
 Across Europe and the United States, a new political international is taking shape around a curious proposition: that every nation should put itself first. From Budapest to Washington, nationalist leaders celebrate one another’s electoral victories, borrow one another’s rhetoric, and unite against the institutions they denounce as “globalist.” Promising to restore sovereignty, defend borders, and reclaim power from international bureaucracies, they project the image of a coherent political movement capable of reshaping the West.
 
 Yet a coalition built around national primacy contains a contradiction that no amount of ideological solidarity can resolve. National interests are not interchangeable. What strengthens one country may weaken another, and the institutions nationalists seek to dismantle are often the very mechanisms that allow competing national interests to coexist peacefully.
 
-Nationalists make tactical allies, never durable friends. Their coalitions hold while grievances align and fracture the moment solidarity carries a price.
+In short, nationalists make tactical allies, never durable friends. Their coalitions hold while grievances align and fracture the moment solidarity carries a cost.
 
 The stakes are not small. The most powerful nationalist government now sits in Washington, and the alliance it is testing most severely—the American security commitment to Europe—has underpinned the continent’s stability for eight decades. For Vladimir Putin, the nationalist movement need not succeed to serve Russia’s interests. In fact, it may prove more useful if it fails, provided it first weakens the institutions that hold the West together.
 
-## Allies of Convenience
+## 1. Nationalists Make Allies of Convenience, Never Friends
 
 Europe’s nationalist parties have found common cause in their opposition to Brussels, objecting to supranational authority, liberal immigration policies, and political elites they portray as detached from ordinary citizens. Yet their unity becomes far less impressive when the conversation shifts from what they oppose to what they actually want.
 
@@ -24,9 +24,9 @@ Italy demands greater European solidarity in managing migration, while Poland an
 
 ![Figure 1: Europe's nationalist parties and the Trump White House all oppose Brussels' power, but split on migration, Russia, Greenland, the Iran war and the Russian diesel deal; two European partnerships broke in 2022 and 2024](nationalist-alliance-splits.png)
 
-**Europe’s nationalist right is neither a disciplined bloc nor a harmless rabble. It is a negative coalition: united on the institutions it wishes to dismantle, divided on what should replace them.**
+Europe’s nationalist right is neither a disciplined bloc nor a harmless rabble. It is a negative coalition: united on the institutions it wishes to dismantle, divided on what should replace them.
 
-## Washington's Courtship, Then Collision
+## 2. “America First” Collides With Everyone Else’s “First”
 
 Since 2025, the movement’s center of gravity has shifted to Washington (Figure 2). Vice President JD Vance told the Munich Security Conference that Europe’s gravest threat came "from within." The December 2025 National Security Strategy warned of Europe’s "civilizational erasure" and declined to name Russia a threat. By April 2026, Vance was campaigning for Viktor Orbán in Budapest.
 
@@ -36,9 +36,9 @@ Then came Greenland. In January 2026, Trump threatened escalating tariffs on eig
 
 None of this is an accident of personalities. "America First," "France First," and "Hungary First" are competing claims on finite markets, energy, territory, and security. Movements built on those slogans cannot sustain an alliance that requires one nation to bear risks for another, which is the only kind of alliance that matters in a crisis.
 
-## Moscow’s Dividend from Division
+## 3. Moscow Needs Only a Divided, Unpredictable West
 
-**Russia’s courtship of the Western right follows a simple calculus. Acting together, the EU, NATO, and the United States dwarf Russia’s economy and military. Moscow cannot defeat that coalition head-on, so it corrodes it from within.**
+Russia’s courtship of the Western right follows a simple calculus. Acting together, the EU, NATO, and the United States dwarf Russia’s economy and military. Moscow cannot defeat that coalition head-on, so it corrodes it from within.
 
 The Kremlin has invested accordingly, from a €9.4 million loan to Le Pen’s party in 2014 to nearly $10 million that RT employees routed to American commentators who never knew the source. Yet the nationalist surge is not a Russian operation. Voters are rebelling over stagnant wages, unaffordable housing, and elites who met their anxiety with condescension. Moscow did not create these fractures; it exploits them.
 
@@ -46,56 +46,47 @@ The bigger prize, though, is in Washington. The Kremlin does not need an America
 
 ![Figure 3: A ledger listing four U.S. moves that eased pressure on Russia against nothing from Moscow for the diesel deal, with U.S. pressure in the other direction noted below](nationalist-diesel-ledger.png)
 
-Washington has also pushed the other way, authorizing secondary tariffs on buyers of Russian energy and pressing allies into a 5 percent NATO spending pledge. This is not a Washington controlled by Moscow, but one for which sanctions, weapons, and even the credibility of Article 5 are bargaining chips. **For a revisionist Kremlin, a superpower whose guarantees can be haggled over in an election season is the next best thing to an ally.**
+Washington has also pushed the other way, authorizing secondary tariffs on buyers of Russian energy and pressing allies into a 5 percent NATO spending pledge. This is not a Washington controlled by Moscow, but one for which sanctions, weapons, and even the credibility of Article 5 are bargaining chips. For a revisionist Kremlin, a superpower whose guarantees can be haggled over in an election season is the next best thing to an ally.
 
-## The Power of a Single Holdout
+## 4. A Single Holdout Can Hold an Alliance Hostage
 
 Europe’s institutions magnify the power of a single holdout. EU decisions on foreign policy, sanctions, and enlargement still require all 27 member states to agree, so one government can turn obstruction into bargaining power. Orbán showed how (Figure 4): in February 2026 he blocked a €90 billion loan meant to keep Ukraine solvent, demanding that Kyiv first restore the flow of Russian oil through the Druzhba pipeline. The loan passed only after he lost the April 12 election.
 
 ![Figure 4: Institutional leverage under unanimity. A single holdout can delay certain collective decisions; Hungary blocked the €90 billion Ukraine package in February 2026 until approval on April 23, 2026](nationalist-unanimity-veto.png)
 
-His successor shows the alternative. Péter Magyar refuses to arm Ukraine and champions the ethnic Hungarians living there, but he bargains within the system rather than blackmailing it: once Kyiv amended its minority-language law, Budapest lifted its veto on Ukraine’s accession talks.
-
 The West’s most consequential veto, though, belongs to Washington, and it is exercised not by voting no but by casting doubt. The Pentagon is pulling troops from Germany and Romania and reviewing its posture across Europe. Deterrence weakens the moment Moscow begins to doubt Washington’s willingness to act.
 
-## What the 1930s Actually Teach
+## 5. The 1930s Show Nationalist Alliances Follow Interests, Not Principles
 
-The 1930s offer a warning not about ideological equivalence but about institutional fragility: tactical bargains among nationalist powers can dismantle collective restraints far more easily than they can replace them (Figure 5). Hitler and Mussolini were ideological kin, yet in July 1934, when Austrian Nazis murdered Chancellor Engelbert Dollfuss, Mussolini rushed four divisions to the Brenner Pass to keep Austria independent, and Hitler backed down. Then League sanctions over Ethiopia drove Mussolini into Hitler’s orbit, and in 1938 German troops marched into Vienna with Mussolini’s blessing. A year later, Hitler, who had built his career on uniting all Germans, handed German-speaking South Tyrol to Italy, sacrificing the very people he claimed to champion.
+The lesson of the 1930s is that alliances among nationalist and far-right regimes were never fixed. Even the most ideologically kindred governments of the era switched between partner and adversary again and again, and much of that switching happened in peacetime, years before Europe went to war. What held each partnership together was territory, resources, and timing, not shared principle (Figure 5).
 
 ![Figure 5: From 1934 to 1945, Italy and Germany, Germany and Japan, and Hungary and Romania each shift between allied and hostile, while the United States stays out of the war until Pearl Harbor](nationalist-1930s-alliances.png)
 
-America had its own chapter. Neutrality laws and an America First Committee claiming 800,000 members promised safety through detachment, and Berlin paid an agent to mail propaganda into American homes under a congressman’s frank. That promise ended at Pearl Harbor. Nazi imperialism ignited the war, but the erosion of collective deterrence cleared its path.
+## 6. Eighty Calm Years Can Hide a Fragile Peace
 
-## Wars Are the Norm, Peace Is the Exception
-
-Could a fraying alliance really lead to a major war? The comforting answer assumes the long peace is permanent. Analyzing every interstate war since 1823, the computer scientist Aaron Clauset found that the post-1945 lull is not yet statistically distinguishable from chance; it would need to hold for roughly another 100 to 140 years to count as a structural change (Figure 6). His finding does not explain what has kept the peace; it shows only that the peace is not yet proof of a new era.
+Could a fraying alliance really lead to a major war? Start with the record (Figure 6). Interstate wars never stopped: 95 broke out between 1823 and 2003, 38 of them after 1945, including three, in Korea, Vietnam, and between Iran and Iraq, that each killed around a million soldiers. What stopped was the escalation of such conflicts into world wars. That is a real achievement, but not yet a proven one. One statistical analysis of the full record finds the post-1945 lull still indistinguishable from chance; it would need to hold another 100 to 140 years to count as a structural change.
 
 ![Figure 6: All 95 interstate wars from 1823 to 2003 by total battle deaths on a log scale; the two world wars tower above the rest, and no war since 1945 has exceeded about 1.25 million battle deaths](nationalist-long-peace.png)
 
-Nor is Europe’s peace self-sustaining. The nuclear umbrella over Warsaw and the Baltics is American, and NATO relies on American satellites, airlift, and logistics that Europe cannot replace for years. Great wars rarely begin by design; they grow from local crises a divided coalition fails to deter. If the Kremlin concludes that Washington will trade European security for diesel relief, a limited probe in the Baltics could set off a cascade no one intended.
+## 7. Going It Alone Makes Nations Weaker, Not Freer
 
-**Few of today’s nationalist leaders want a great war; neither did most of Europe’s ministers in July 1914. The danger is not their intentions but their carelessness with the alliances that have made the past eighty years an exception to history.**
-
-## The Paradox of Sovereignty
-
-At the heart of the nationalist project lies a self-deception: that reclaiming authority from Brussels or NATO restores national control. Europe’s postwar institutions were built not by starry-eyed cosmopolitans but by realists who had learned through ruin that, on a continent of mid-sized nations, standing alone means being dictated to by the largest bullies on the map. **By pooling sovereignty, Europeans traded theoretical autonomy for real leverage** (Figure 7).
+Which brings me to the con at the heart of the nationalist pitch: the claim that walking away from Brussels or NATO makes mid-sized nations masters of their own destiny. This gets the economics exactly backwards. In a world of continental-scale powers, bargaining power comes from size. Germany, Europe’s largest economy, is about a sixth the size of the United States; the EU as a whole is bigger than China. The realists who built Europe’s postwar institutions, having just crawled out of the rubble of the Second World War, understood that mid-sized countries that stand alone don’t become sovereign. They become lunch for the biggest bully on the map. Pooling sovereignty traded the vanity of going it alone for real power (Figure 7).
 
 ![Figure 7: Projected 2026 GDP in trillions of dollars: United States 32.4, China 20.9, Russia 2.7; the European Union pooled 23.0; Germany 5.5, France 3.6, Italy 2.7, Poland 1.1, Denmark 0.50, Hungary 0.27](nationalist-gdp-pooled.png)
 
-Denmark kept Greenland not through Danish might but through its allies’ solidarity, and when Jordan Bardella faced American tariffs, he reached for Brussels’ anti-coercion instrument. Sovereignty-first rhetoric confuses the *freedom to act alone* with the *power to shape outcomes*. An America that treats its allies as paying customers will find that, in a real crisis, they behave like customers, not comrades.
+Denmark kept Greenland not through Danish might but through its allies’ solidarity, and when Jordan Bardella faced American tariffs, he reached for Brussels’ anti-coercion instrument. Sovereignty-first rhetoric confuses the *freedom to act alone* with the *power to shape outcomes*.
 
-## The Real Warning of 1934
+## 8. Only Durable Barriers Keep the Wolves Out
 
-The lesson of the Brenner Pass is not that nationalism must vanish for peace to survive, but that peace requires credible restraints on the ambitions of revisionist powers. In 1934, a firm barrier altered Hitler's calculus; in 1938, the collapse of that barrier invited annexation. The institutions of the postwar West serve a comparable deterrent function, establishing predictable commitments, reducing mistrust among allies, and raising the prospective cost of aggression.
+A barrier that depends on one leader’s convenience lasts only as long as that convenience. NATO, the EU, and America’s security guarantee were built to outlast any leader’s mood: they keep allies from turning on one another and promise any aggressor the combined weight of the richest bloc on earth.
 
-Today, those commitments are being frayed from within the very coalition they were built to protect. Europe is scrambling to adapt: NATO's European members and Canada boosted defense spending by roughly 20 percent in 2025, and continental capitals are accelerating efforts to build autonomous military capacity. Whether Europe can replace American capabilities quickly enough to prevent a deterrence gap, however, remains an open question.
+That barrier is now being weakened from inside, by the nationalist governments it was built to protect. Europe is rearming: NATO’s European members and Canada raised defense spending by roughly 20 percent in 2025. Whether Europe can replace American capabilities before a deterrence gap opens remains an open question.
 
-The nationalist international will not resolve the contradictions among its members. Clashes over trade, Russia, energy, migration, territory, and defense burdens will persist because the competing national interests beneath them are real. For Moscow, that incoherence is not a flaw in the movement; it is the entire point. Russia does not need Europe's nationalists to agree with one another; it only needs them to distrust the institutions that make collective action possible. Nor does the Kremlin need Washington to become a formal ally; it only needs American security guarantees to grow ambiguous enough that Moscow can contemplate risks it would otherwise avoid.
+The nationalist international will never resolve its contradictions, because its members’ interests genuinely conflict. For Moscow, that is the point. Russia does not need Europe’s nationalists to agree with one another, only to distrust the institutions that let Europe act together. It does not need Washington as an ally, only American guarantees vague enough that risks it would once have avoided start to look worth taking.
 
-The ultimate danger, then, is not that the nationalist international will construct a durable new global order. It is that, before fracturing under the weight of its own contradictions, it will dismantle an existing order that took generations to build and that may prove far harder to restore.
+The danger, then, is not that the nationalists will build a lasting new order. They won’t. It is that, before they turn on one another, they will tear down the fence that has kept the wolves out for eighty years, an order that took two world wars to build and may prove far harder to restore.
 
 ## References
-
 
 **The 1930s**
 
