@@ -103,6 +103,20 @@ commit the image file itself. Keep a chart's source files, such as SVG
 originals and full-size exports, in `posts/images/<slug>/`. The page shows
 only the copy in the root.
 
+To embed an interactive page, such as a quiz, put its HTML file in the
+repository root and write a line containing only
+`!embed[Title for screen readers](page.html)`. It renders as a full-width
+iframe. The page should be self-contained, and it should post its height to
+the article so the frame fits it without scrolling:
+
+```js
+parent.postMessage({ type: 'embed-height', height: Math.ceil(document.body.getBoundingClientRect().height) }, '/');
+```
+
+`blue-or-red.html` does this from a `ResizeObserver`. Inside the iframe it
+also switches to the site's light theme and hides its own title, deck and
+privacy note, since the post shows them.
+
 Tables use standard pipe syntax: a header row, a separator row such as
 `| --- | --- |`, then one row per line. Cells may contain links and emphasis.
 

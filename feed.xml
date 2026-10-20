@@ -14,6 +14,16 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>Blue or Red?</title>
+      <link>https://www.gokhanmergen.com/blog-blue-or-red.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-blue-or-red.html</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Politics / Data</category>
+      <description>Sixteen questions taken from the American National Election Studies. A weighted bag-of-answers model, trained on how 2020 Biden and Trump voters answered them, predicts which way you vote.</description>
+      <blog:readTime>3 min quiz</blog:readTime>
+      <content:encoded>&lt;p&gt;The quiz runs entirely in your browser: no data is collected, saved, or shared with anyone, and your answers are gone when you close the page.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>Nationalists of the World, Unite?</title>
       <link>https://www.gokhanmergen.com/blog-nationalist-international.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-nationalist-international.html</guid>

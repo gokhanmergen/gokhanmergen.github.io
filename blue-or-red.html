@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blue or Red?</title>
+<script>
+/* Inside the blog post's iframe, match the site's light theme; the post shows the title. */
+if (window.parent !== window) {
+  document.documentElement.dataset.theme = 'light';
+  document.documentElement.dataset.embed = '';
+}
+</script>
+<style>
+/* Layout: one 680px column — masthead, live tug-of-war meter, then a ballot sheet that becomes the results sheet */
+:root {
+  --paper: #EEF1F5;
+  --sheet: #FFFFFF;
+  --ink: #161A21;
+  --muted: #586172;
+  --rule: #D2D8E1;
+  --blue: #1D5BC4;
+  --red: #C1302B;
+  --blue-soft: #DCE6F8;
+  --red-soft: #F7DEDB;
+  /* The blog's own fonts: the page loads nothing from other sites. */
+  --display: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  --mono: ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0E1116; --sheet: #161A21; --ink: #E5E8EE; --muted: #98A1B0; --rule: #2A303B;
+    --blue: #6E9FF7; --red: #F0786C; --blue-soft: #1B2944; --red-soft: #42201D; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0E1116; --sheet: #161A21; --ink: #E5E8EE; --muted: #98A1B0; --rule: #2A303B;
+  --blue: #6E9FF7; --red: #F0786C; --blue-soft: #1B2944; --red-soft: #42201D; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink);
+  font-family: var(--display); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px 56px;
+}
+.wrap { max-width: 680px; margin: 0 auto; display: grid; gap: 22px; }
+/* In the blog post's iframe, the post supplies the title, deck, privacy note and background. */
+[data-embed] body { background: transparent; padding: 0; }
+[data-embed] .wrap { max-width: none; }
+[data-embed] h1, [data-embed] .dek, [data-embed] .privacy { display: none; }
+
+/* masthead */
+.eyebrow { font-family: var(--mono); font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-weight: 800; font-size: clamp(38px, 8vw, 56px); line-height: 1; letter-spacing: -.02em; margin: 6px 0 10px; text-wrap: balance; }
+h1 .b { color: var(--blue); } h1 .r { color: var(--red); }
+.dek { font-family: var(--serif); font-size: 17px; line-height: 1.5; max-width: 60ch; margin: 0; color: var(--ink); }
+.privacy { font-size: 13.5px; color: var(--muted); max-width: 60ch; margin: 10px 0 0; }
+
+/* live meter */
+.meter { display: grid; gap: 6px; }
+.meter-row { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 12.5px; font-variant-numeric: tabular-nums; }
+.meter-row .lb { color: var(--blue); } .meter-row .lr { color: var(--red); }
+.track { position: relative; height: 12px; background: var(--red); border-radius: 2px; overflow: hidden; }
+.track .fill { position: absolute; inset: 0 auto 0 0; background: var(--blue); transition: width .45s cubic-bezier(.3,.7,.2,1); }
+.track .mid { position: absolute; left: 50%; top: -3px; bottom: -3px; width: 2px; margin-left: -1px; background: var(--sheet); }
+.meter-cap { font-size: 12.5px; color: var(--muted); }
+
+/* the sheet */
+.sheet { background: var(--sheet); border: 1px solid var(--rule); border-radius: 3px; }
+.sheet-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 12px 20px; border-bottom: 1px solid var(--rule); font-family: var(--mono); font-size: 12px; color: var(--muted); letter-spacing: .03em; }
+.sheet-head b { color: var(--ink); font-weight: 500; }
+.ticks { display: grid; grid-template-columns: repeat(16, 1fr); gap: 3px; padding: 10px 20px 0; }
+.tick { height: 5px; border-radius: 1px; background: var(--rule); transition: background .3s; }
+.tick.cur { background: var(--ink); }
+.sheet-body { padding: 18px 20px 20px; display: grid; gap: 16px; }
+.topic { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.prompt { font-family: var(--serif); font-size: clamp(19px, 3.6vw, 22px); line-height: 1.35; margin: 0; text-wrap: pretty; }
+.sub { font-size: 13.5px; color: var(--muted); margin-top: -6px; }
+
+.opts { display: grid; gap: 6px; }
+.opt { display: grid; grid-template-columns: 30px 1fr auto; align-items: center; gap: 10px;
+  width: 100%; text-align: left; padding: 11px 12px; font: 500 15px/1.35 var(--display); color: var(--ink);
+  background: transparent; border: 1px solid var(--rule); border-radius: 3px; cursor: pointer; transition: border-color .15s, background .15s; }
+.opt:hover { border-color: var(--muted); }
+.opt:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.bubble { width: 26px; height: 15px; border: 1.5px solid var(--ink); border-radius: 50%; justify-self: start; transition: background .15s; }
+.opt[aria-pressed="true"] { border-color: var(--ink); }
+.opt[aria-pressed="true"] .bubble { background: var(--ink); }
+.key { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+
+.nav { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.btn { font: 600 14px var(--display); padding: 9px 14px; border-radius: 3px; cursor: pointer;
+  border: 1px solid var(--rule); background: transparent; color: var(--ink); }
+.btn:hover { border-color: var(--muted); }
+.btn:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.btn:disabled { opacity: .4; cursor: default; }
+.btn.solid { background: var(--ink); color: var(--sheet); border-color: var(--ink); }
+
+/* results */
+.verdict { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.verdict .word { font-weight: 800; font-size: clamp(54px, 13vw, 84px); line-height: .9; letter-spacing: -.03em; }
+.verdict .pct { font-family: var(--mono); font-size: 20px; font-variant-numeric: tabular-nums; }
+.is-blue { color: var(--blue); } .is-red { color: var(--red); }
+.explain { font-family: var(--serif); font-size: 17px; margin: 0; max-width: 60ch; }
+
+h2 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 6px 0 0; }
+.legend { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+.legend .lr { color: var(--red); } .legend .lb { color: var(--blue); }
+.rows { display: grid; gap: 2px; }
+.row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 4px 16px; align-items: center;
+  padding: 9px 0; border-top: 1px solid var(--rule); }
+.rl { min-width: 0; }
+.rl .t { font-family: var(--mono); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+.rl .a { font-size: 14.5px; font-weight: 500; }
+.rl .s { font-family: var(--mono); font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.bar { position: relative; height: 18px; }
+.bar::before { content: ""; position: absolute; left: 50%; top: -4px; bottom: -4px; width: 1px; background: var(--rule); }
+.bar .seg { position: absolute; top: 3px; height: 12px; border-radius: 1px; }
+.bar .seg.blue { left: 50%; background: var(--blue); }
+.bar .seg.red { right: 50%; background: var(--red); }
+.bar .v { position: absolute; top: 0; font-family: var(--mono); font-size: 11.5px; line-height: 18px; font-variant-numeric: tabular-nums; color: var(--muted); }
+.row.base .a { color: var(--muted); }
+.row.skip .a { color: var(--muted); font-style: italic; }
+
+.about { font-family: var(--serif); font-size: 15.5px; line-height: 1.55; display: grid; gap: 10px; }
+.about p { margin: 0; max-width: 64ch; }
+.about a { color: var(--blue); }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+.fact { border-top: 2px solid var(--ink); padding-top: 6px; }
+.fact .n { font-family: var(--mono); font-size: 22px; font-variant-numeric: tabular-nums; }
+.fact .l { font-family: var(--display); font-size: 12.5px; color: var(--muted); }
+
+details { border-top: 1px solid var(--rule); padding-top: 10px; }
+summary { cursor: pointer; font-weight: 600; font-size: 14px; }
+summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.tablewrap { overflow-x: auto; margin-top: 10px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 5px 8px 5px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+td.q { font-weight: 600; padding-top: 12px; }
+.pos { color: var(--blue); } .neg { color: var(--red); }
+
+@media (max-width: 520px) {
+  .row { grid-template-columns: minmax(0, 1fr); }
+  .sheet-body { padding: 16px 14px 18px; }
+  .sheet-head, .ticks { padding-left: 14px; padding-right: 14px; }
+  .key { display: none; }
+  .opt { grid-template-columns: 30px 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+<style>body{margin:0} [hidden]{display:none!important}</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">ANES 2020 · <span id="nVoters">6,075</span> voters · 16 questions</div>
+    <h1><span class="b">Blue</span> or <span class="r">Red</span>?</h1>
+    <p class="dek">Sixteen questions taken from the American National Election Studies. A weighted bag-of-answers model, trained on how 2020 Biden and Trump voters answered them, predicts which way you vote.</p>
+    <p class="privacy">No data is collected, saved, or shared with anyone. The quiz runs entirely in your browser.</p>
+  </header>
+
+  <section class="meter" aria-label="Live estimate">
+    <div class="meter-row"><span class="lb" id="mBlue">BLUE 58%</span><span class="lr" id="mRed">RED 42%</span></div>
+    <div class="track"><div class="fill" id="mFill" style="width:58%"></div><div class="mid"></div></div>
+    <div class="meter-cap" id="mCap">Starting point: the 2020 split among voters in the survey.</div>
+  </section>
+
+  <section class="sheet" id="sheet" aria-live="polite"></section>
+
+  <section class="about" id="about">
+    <h2>How the model works</h2>
+    <p>Every answer is a token, like a word in a bag-of-words classifier. Each token carries one weight, positive for blue and negative for red. Your score is a baseline plus the weights of the answers you gave, passed through a logistic function to get a probability. Skipped questions add nothing.</p>
+    <p>The weights come from a logistic regression fitted to <span id="nVoters2">6,075</span> respondents in the <a href="https://electionstudies.org/data-center/2020-time-series-study/" target="_blank" rel="noopener">ANES 2020 Time Series</a> who reported voting for Biden or Trump, using the survey’s post-election weights. Two constraints keep it readable: weights move in one direction along each answer scale, and training randomly hides answers so that the live estimate stays calibrated when only a few questions are answered.</p>
+    <div class="facts">
+      <div class="fact"><div class="n" id="fAcc">91.8%</div><div class="l">correct on held-out voters, 5-fold cross-validation</div></div>
+      <div class="fact"><div class="n" id="fAuc">0.975</div><div class="l">ROC AUC</div></div>
+      <div class="fact"><div class="n" id="fTok">62</div><div class="l">answer tokens across 16 questions</div></div>
+    </div>
+    <p>Limits: the model only knows the 2020 two-party electorate. Non-voters and third-party voters are not in the data, and party coalitions have shifted since. It predicts from statistical association, so read the result as a description of who tended to answer this way, not as a judgment of anyone. No data is collected, saved, or shared with anyone: your answers stay in your browser and are gone when you close the page.</p>
+    <details>
+      <summary>Show all model weights</summary>
+      <div class="tablewrap"><table id="wtable"><thead><tr><th>Answer</th><th>Weight</th><th>Biden voters</th><th>Trump voters</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </section>
+</div>
+
+<script>
+const MODEL = {"bias": 0.3275, "metrics": {"n": 6075, "n_test": 1215, "acc": 0.918, "auc": 0.975, "blue_share": 0.581}, "questions": [{"id": "more_gov", "topic": "Economy", "text": "Which is closer to your view: “the less government, the better” or “there are more things government should be doing”?", "options": [{"label": "Less government — strongly", "w": -0.6732, "blue": 0.16, "red": 0.691}, {"label": "Less government — mildly", "w": 0.2802, "blue": 0.039, "red": 0.027}, {"label": "More government — mildly", "w": 0.5245, "blue": 0.062, "red": 0.022}, {"label": "More government — strongly", "w": 0.6192, "blue": 0.739, "red": 0.259}], "short": "Size of government", "var": "V202255x"}, {"id": "health_ins", "topic": "Health care", "text": "Which comes closer to your view on health insurance: a government insurance plan covering everyone, or coverage mainly through private plans?", "options": [{"label": "Government plan for everyone", "w": 0.6239, "blue": 0.536, "red": 0.083}, {"label": "Lean government", "w": 0.5404, "blue": 0.153, "red": 0.052}, {"label": "In between", "w": -0.2232, "blue": 0.167, "red": 0.171}, {"label": "Lean private", "w": -0.691, "blue": 0.075, "red": 0.162}, {"label": "Private plans", "w": -0.691, "blue": 0.069, "red": 0.532}], "short": "Health insurance", "var": "V201252"}, {"id": "abortion", "topic": "Social issues", "text": "Which comes closest to your view on abortion?", "options": [{"label": "Never permitted by law", "w": -1.1272, "blue": 0.04, "red": 0.212}, {"label": "Only for rape, incest, or the woman’s life", "w": -0.5191, "blue": 0.125, "red": 0.429}, {"label": "Permitted for other reasons once need is established", "w": 0.3876, "blue": 0.103, "red": 0.148}, {"label": "Always available as a personal choice", "w": 0.4635, "blue": 0.732, "red": 0.211}], "short": "Abortion", "var": "V201336"}, {"id": "gun_own", "topic": "Guns", "text": "How many guns do you (or anyone in your household) own?", "options": [{"label": "None", "w": 0.3271, "blue": 0.731, "red": 0.438}, {"label": "One or two", "w": -0.1875, "blue": 0.152, "red": 0.255}, {"label": "Three or more", "w": -0.3426, "blue": 0.117, "red": 0.307}], "short": "Guns at home", "var": "V201628"}, {"id": "imm_levels", "topic": "Immigration", "text": "Should the number of immigrants allowed to come to the U.S. be increased, decreased, or kept the same?", "options": [{"label": "Increased a lot", "w": 0.9678, "blue": 0.181, "red": 0.02}, {"label": "Increased a little", "w": 0.7008, "blue": 0.291, "red": 0.062}, {"label": "Kept the same", "w": 0.0174, "blue": 0.395, "red": 0.437}, {"label": "Decreased a little", "w": -0.2138, "blue": 0.094, "red": 0.231}, {"label": "Decreased a lot", "w": -1.1245, "blue": 0.039, "red": 0.25}], "short": "Immigration levels", "var": "V202232"}, {"id": "climate_action", "topic": "Environment", "text": "Should the federal government be doing more, less, or about the same about rising temperatures?", "options": [{"label": "Doing more", "w": 0.6125, "blue": 0.867, "red": 0.215}, {"label": "Right amount now", "w": -0.7976, "blue": 0.104, "red": 0.605}, {"label": "Doing less", "w": -0.7976, "blue": 0.029, "red": 0.18}], "short": "Climate action", "var": "V201401"}, {"id": "millionaire_tax", "topic": "Economy", "text": "Do you favor or oppose raising income taxes on people making over $1 million a year?", "options": [{"label": "Favor", "w": 0.3251, "blue": 0.846, "red": 0.373}, {"label": "Neither", "w": -0.3495, "blue": 0.09, "red": 0.304}, {"label": "Oppose", "w": -0.8801, "blue": 0.064, "red": 0.323}], "short": "Tax on millionaires", "var": "V202325"}, {"id": "gay_marriage", "topic": "Social issues", "text": "Which comes closest to your view on same-sex couples?", "options": [{"label": "Should be allowed to legally marry", "w": 0.0508, "blue": 0.837, "red": 0.465}, {"label": "Civil unions, but not marriage", "w": -0.382, "blue": 0.095, "red": 0.304}, {"label": "No legal recognition", "w": -0.382, "blue": 0.068, "red": 0.231}], "short": "Same-sex couples", "var": "V201416"}, {"id": "gun_buy", "topic": "Guns", "text": "Should the federal government make it more difficult or easier to buy a gun?", "options": [{"label": "More difficult", "w": 0.6817, "blue": 0.763, "red": 0.19}, {"label": "Keep the rules about the same", "w": -0.692, "blue": 0.211, "red": 0.686}, {"label": "Easier", "w": -0.692, "blue": 0.025, "red": 0.124}], "short": "Buying a gun", "var": "V202337"}, {"id": "death_penalty", "topic": "Criminal justice", "text": "Do you favor or oppose the death penalty for persons convicted of murder?", "options": [{"label": "Favor strongly", "w": -0.0751, "blue": 0.261, "red": 0.596}, {"label": "Favor somewhat", "w": -0.0751, "blue": 0.192, "red": 0.23}, {"label": "Oppose somewhat", "w": 0.2173, "blue": 0.284, "red": 0.11}, {"label": "Oppose strongly", "w": 0.312, "blue": 0.264, "red": 0.064}], "short": "Death penalty", "var": "V201345x"}, {"id": "inequality", "topic": "Economy", "text": "Do you favor or oppose the government trying to reduce the gap between the incomes of the richest and poorest households?", "options": [{"label": "Strongly favor", "w": 0.7182, "blue": 0.416, "red": 0.069}, {"label": "Somewhat favor", "w": 0.4573, "blue": 0.251, "red": 0.097}, {"label": "Neither", "w": -0.1376, "blue": 0.224, "red": 0.278}, {"label": "Somewhat oppose", "w": -0.4372, "blue": 0.059, "red": 0.178}, {"label": "Strongly oppose", "w": -0.636, "blue": 0.05, "red": 0.377}], "short": "Income gap", "var": "V202259x"}, {"id": "wall", "topic": "Immigration", "text": "Do you favor or oppose building a wall on the U.S. border with Mexico?", "options": [{"label": "Strongly favor", "w": -1.6335, "blue": 0.037, "red": 0.595}, {"label": "Somewhat favor", "w": -1.1364, "blue": 0.031, "red": 0.191}, {"label": "Neither", "w": -0.1515, "blue": 0.166, "red": 0.152}, {"label": "Somewhat oppose", "w": 0.8803, "blue": 0.155, "red": 0.037}, {"label": "Strongly oppose", "w": 2.1071, "blue": 0.611, "red": 0.025}], "short": "Border wall", "var": "V201426x"}, {"id": "moral_adjust", "topic": "Values", "text": "“The world is always changing and we should adjust our view of moral behavior to those changes.”", "options": [{"label": "Agree strongly", "w": 0.6744, "blue": 0.271, "red": 0.054}, {"label": "Agree somewhat", "w": 0.4155, "blue": 0.36, "red": 0.188}, {"label": "Neither", "w": 0.1878, "blue": 0.175, "red": 0.178}, {"label": "Disagree somewhat", "w": -0.0289, "blue": 0.119, "red": 0.209}, {"label": "Disagree strongly", "w": -0.7335, "blue": 0.075, "red": 0.371}], "short": "Changing moral views", "var": "V202264"}, {"id": "voter_id", "topic": "Elections", "text": "Do you favor or oppose requiring voters to show a government-issued photo ID?", "options": [{"label": "Strongly favor", "w": -0.5718, "blue": 0.288, "red": 0.823}, {"label": "Somewhat favor", "w": 0.2652, "blue": 0.214, "red": 0.1}, {"label": "Neither", "w": 0.6681, "blue": 0.263, "red": 0.057}, {"label": "Somewhat oppose", "w": 0.9586, "blue": 0.117, "red": 0.011}, {"label": "Strongly oppose", "w": 0.9586, "blue": 0.119, "red": 0.009}], "short": "Voter ID", "var": "V201359x"}, {"id": "trans_military", "topic": "Social issues", "text": "Do you favor or oppose allowing transgender people to serve in the military?", "options": [{"label": "Strongly favor", "w": 0.4337, "blue": 0.43, "red": 0.078}, {"label": "Somewhat favor", "w": 0.1476, "blue": 0.235, "red": 0.11}, {"label": "Neither", "w": -0.1709, "blue": 0.275, "red": 0.484}, {"label": "Somewhat oppose", "w": -0.1709, "blue": 0.03, "red": 0.114}, {"label": "Strongly oppose", "w": -0.5589, "blue": 0.03, "red": 0.214}], "short": "Transgender service", "var": "V202390x"}, {"id": "slavery_legacy", "topic": "Race & equality", "text": "“Generations of slavery and discrimination have created conditions that make it difficult for Black Americans to work their way out of the lower class.”", "options": [{"label": "Agree strongly", "w": 1.2449, "blue": 0.434, "red": 0.037}, {"label": "Agree somewhat", "w": 0.1533, "blue": 0.331, "red": 0.194}, {"label": "Neither", "w": -0.006, "blue": 0.103, "red": 0.139}, {"label": "Disagree somewhat", "w": -0.4666, "blue": 0.081, "red": 0.254}, {"label": "Disagree strongly", "w": -1.044, "blue": 0.052, "red": 0.376}], "short": "Legacy of slavery", "var": "V202301"}]};
+
+/*SCORE*/
+function logit(answers) {
+  let z = MODEL.bias;
+  answers.forEach((a, i) => { if (a >= 0) z += MODEL.questions[i].options[a].w; });
+  return z;
+}
+function prob(answers) { return 1 / (1 + Math.exp(-logit(answers))); }
+/*END*/
+
+const N = MODEL.questions.length;
+const state = { answers: new Array(N).fill(-1), seen: new Array(N).fill(false), cur: 0, view: 'quiz' };
+const $ = id => document.getElementById(id);
+const pct = p => Math.round(p * 100);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function updateMeter() {
+  const p = prob(state.answers);
+  const n = state.answers.filter(a => a >= 0).length;
+  $('mFill').style.width = (p * 100).toFixed(1) + '%';
+  $('mBlue').textContent = 'BLUE ' + pct(p) + '%';
+  $('mRed').textContent = 'RED ' + (100 - pct(p)) + '%';
+  $('mCap').textContent = n === 0
+    ? 'Starting point: the 2020 split among voters in the survey.'
+    : 'Live estimate from ' + n + ' of ' + N + ' answers.';
+}
+
+function tickColor(i) {
+  const a = state.answers[i];
+  if (a < 0) return '';
+  const w = MODEL.questions[i].options[a].w;
+  const t = Math.min(1, Math.abs(w) / 1.2);
+  const c = w >= 0 ? 'var(--blue)' : 'var(--red)';
+  return `color-mix(in srgb, ${c} ${Math.round(25 + 75 * t)}%, var(--rule))`;
+}
+
+function renderQuiz() {
+  const i = state.cur, q = MODEL.questions[i];
+  const agree = q.text.startsWith('“');
+  const ticks = MODEL.questions.map((_, j) =>
+    `<div class="tick${j === i ? ' cur' : ''}" style="${j !== i && tickColor(j) ? 'background:' + tickColor(j) : ''}"></div>`).join('');
+  $('sheet').innerHTML = `
+    <div class="sheet-head"><span><b>Question ${i + 1}</b> of ${N}</span><span>ANES ${esc(q.var)}</span></div>
+    <div class="ticks" aria-hidden="true">${ticks}</div>
+    <div class="sheet-body">
+      <div class="topic">${esc(q.topic)}</div>
+      <p class="prompt" id="prompt">${esc(q.text)}</p>
+      ${agree ? '<div class="sub">Do you agree or disagree?</div>' : ''}
+      <div class="opts" role="group" aria-labelledby="prompt">
+        ${q.options.map((o, k) => `
+          <button class="opt" id="opt-${q.id}-${k}" data-k="${k}" aria-pressed="${state.answers[i] === k}">
+            <span class="bubble" aria-hidden="true"></span><span>${esc(o.label)}</span><span class="key" aria-hidden="true">${k + 1}</span>
+          </button>`).join('')}
+      </div>
+      <div class="nav">
+        <button class="btn" id="back" ${i === 0 ? 'disabled' : ''}>← Back</button>
+        <button class="btn" id="skip">${i === N - 1 ? 'Skip and see result' : 'Skip'}</button>
+      </div>
+    </div>`;
+  $('sheet').querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => choose(+b.dataset.k)));
+  $('back').addEventListener('click', () => go(i - 1));
+  $('skip').addEventListener('click', () => { state.answers[i] = -1; state.seen[i] = true; advance(); });
+}
+
+let advanceTimer = null;
+function choose(k) {
+  const i = state.cur;
+  state.answers[i] = k; state.seen[i] = true;
+  $('sheet').querySelectorAll('.opt').forEach(b => b.setAttribute('aria-pressed', +b.dataset.k === k));
+  updateMeter();
+  clearTimeout(advanceTimer);
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  advanceTimer = setTimeout(advance, reduce ? 0 : 260);
+}
+function advance() {
+  updateMeter();
+  if (state.cur < N - 1) go(state.cur + 1); else showResult();
+}
+function go(i) {
+  if (i < 0 || i >= N) return;
+  state.cur = i; state.view = 'quiz'; renderQuiz();
+  const first = $('sheet').querySelector('.opt[aria-pressed="true"]') || $('sheet').querySelector('.opt');
+  if (first && document.activeElement && document.activeElement.closest('#sheet')) first.focus();
+}
+
+function showResult() {
+  state.view = 'result';
+  const p = prob(state.answers);
+  const n = state.answers.filter(a => a >= 0).length;
+  let word, cls, line;
+  if (n === 0) {
+    word = 'No answers'; cls = '';
+    line = 'Every question was skipped, so the estimate is just the 2020 split among voters in the survey.';
+  } else if (p >= 0.6) {
+    word = 'Blue.'; cls = 'is-blue';
+    line = `The model gives a ${pct(p)}% chance that you vote blue (Democratic). Among 2020 voters, answers that scored like yours went to Biden about ${pct(p)} times in 100.`;
+  } else if (p <= 0.4) {
+    word = 'Red.'; cls = 'is-red';
+    line = `The model gives a ${100 - pct(p)}% chance that you vote red (Republican). Among 2020 voters, answers that scored like yours went to Trump about ${100 - pct(p)} times in 100.`;
+  } else {
+    word = 'Toss-up.'; cls = '';
+    line = `Your answers pull both ways: ${pct(p)}% blue, ${100 - pct(p)}% red. Voters who mix positions like this split between the parties.`;
+  }
+  if (n > 0 && n < N) line += ` Based on ${n} of ${N} answers.`;
+
+  const SCALE = 2.3; // half-width of the bar in logit units; the largest single weight is about 2.1
+  const bar = w => {
+    const width = Math.min(50, Math.abs(w) / SCALE * 50).toFixed(1);
+    const side = w >= 0 ? 'blue' : 'red';
+    const label = (w >= 0 ? '+' : '−') + Math.abs(w).toFixed(2);
+    const pos = w >= 0 ? `left:calc(50% + ${width}% + 6px)` : `right:calc(50% + ${width}% + 6px)`;
+    return `<div class="bar" role="img" aria-label="${w >= 0 ? 'toward blue' : 'toward red'} ${Math.abs(w).toFixed(2)}">
+      <div class="seg ${side}" style="width:${width}%"></div><span class="v" style="${pos}">${label}</span></div>`;
+  };
+  const items = MODEL.questions.map((q, i) => ({ q, i, a: state.answers[i] }))
+    .filter(r => r.a >= 0)
+    .map(r => ({ ...r, o: r.q.options[r.a] }))
+    .sort((x, y) => Math.abs(y.o.w) - Math.abs(x.o.w));
+  const skipped = MODEL.questions.filter((_, i) => state.answers[i] < 0);
+
+  const rows = [`<div class="row base"><div class="rl"><div class="t">Baseline</div><div class="a">2020 voters in the survey were ${pct(MODEL.metrics.blue_share)}% Biden</div></div>${bar(MODEL.bias)}</div>`]
+    .concat(items.map(r => `<div class="row"><div class="rl">
+        <div class="t">${esc(r.q.short)}</div><div class="a">${esc(r.o.label)}</div>
+        <div class="s">Gave this answer: Biden voters ${pct(r.o.blue)}% · Trump voters ${pct(r.o.red)}%</div>
+      </div>${bar(r.o.w)}</div>`))
+    .concat(skipped.length ? [`<div class="row skip"><div class="rl"><div class="t">Skipped</div><div class="a">${skipped.map(q => esc(q.short)).join(', ')}</div></div><div class="bar"></div></div>`] : []);
+
+  const ticks = MODEL.questions.map((_, j) => `<div class="tick" style="${tickColor(j) ? 'background:' + tickColor(j) : ''}"></div>`).join('');
+  $('sheet').innerHTML = `
+    <div class="sheet-head"><span><b>Result</b> · ${n} of ${N} answered</span><span>logit ${logit(state.answers).toFixed(2)}</span></div>
+    <div class="ticks" aria-hidden="true">${ticks}</div>
+    <div class="sheet-body">
+      <div class="verdict"><span class="word ${cls}">${word}</span><span class="pct"><span class="is-blue">${pct(p)}% blue</span> · <span class="is-red">${100 - pct(p)}% red</span></span></div>
+      <p class="explain">${line}</p>
+      <h2>What moved the needle</h2>
+      <div class="legend"><span class="lr">← toward red</span><span class="lb">toward blue →</span></div>
+      <div class="rows">${rows.join('')}</div>
+      <div class="nav">
+        <button class="btn" id="review">Change answers</button>
+        <button class="btn solid" id="restart">Start over</button>
+      </div>
+    </div>`;
+  $('review').addEventListener('click', () => go(0));
+  $('restart').addEventListener('click', () => {
+    state.answers.fill(-1); state.seen.fill(false); updateMeter(); go(0);
+  });
+  updateMeter();
+  $('sheet').scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+}
+
+document.addEventListener('keydown', e => {
+  if (state.view !== 'quiz' || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.target.closest && e.target.closest('summary, input, textarea')) return;
+  const k = parseInt(e.key, 10);
+  if (k >= 1 && k <= MODEL.questions[state.cur].options.length) { e.preventDefault(); choose(k - 1); }
+});
+
+function fillTable() {
+  const fmt = w => `<span class="${w >= 0 ? 'pos' : 'neg'}">${w >= 0 ? '+' : '−'}${Math.abs(w).toFixed(2)}</span>`;
+  let html = `<tr><td class="q" colspan="4">Baseline</td></tr><tr><td>Every respondent</td><td class="num">${fmt(MODEL.bias)}</td><td></td><td></td></tr>`;
+  MODEL.questions.forEach(q => {
+    html += `<tr><td class="q" colspan="4">${esc(q.short)} <span style="font-weight:400;color:var(--muted);font-family:var(--mono);font-size:11.5px">${esc(q.var)}</span></td></tr>`;
+    q.options.forEach(o => {
+      html += `<tr><td>${esc(o.label)}</td><td class="num">${fmt(o.w)}</td><td class="num">${pct(o.blue)}%</td><td class="num">${pct(o.red)}%</td></tr>`;
+    });
+  });
+  document.querySelector('#wtable tbody').innerHTML = html;
+}
+
+const nfmt = x => x.toLocaleString('en-US');
+$('nVoters').textContent = nfmt(MODEL.metrics.n);
+$('nVoters2').textContent = nfmt(MODEL.metrics.n);
+$('fAcc').textContent = (MODEL.metrics.acc * 100).toFixed(1) + '%';
+$('fAuc').textContent = MODEL.metrics.auc.toFixed(3);
+$('fTok').textContent = MODEL.questions.reduce((a, q) => a + q.options.length, 0);
+fillTable();
+updateMeter();
+renderQuiz();
+</script>
+<script>
+/* When embedded in a blog post's iframe, tell the post how tall the quiz is.
+   The body's height, unlike the document's scrollHeight, can shrink again. */
+(function () {
+  if (window.parent === window) return;
+  var send = function () {
+    parent.postMessage({ type: 'embed-height', height: Math.ceil(document.body.getBoundingClientRect().height) }, '/');
+  };
+  if ('ResizeObserver' in window) new ResizeObserver(send).observe(document.body);
+  window.addEventListener('load', send);
+})();
+</script>
+</body>
+</html>

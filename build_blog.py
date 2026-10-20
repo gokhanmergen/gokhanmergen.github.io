@@ -43,6 +43,19 @@ KATEX_HEAD = f'''  <link rel="stylesheet" href="{KATEX_CDN}/katex.min.css" integ
   <script defer src="{KATEX_CDN}/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
   <script defer src="{KATEX_CDN}/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous" onload="renderMathInElement(document.querySelector('.blog-article-content'), {{delimiters: [{{left: '\\\\[', right: '\\\\]', display: true}}, {{left: '\\\\(', right: '\\\\)', display: false}}], throwOnError: false}})"></script>
 '''
+# A line holding only !embed[Title](page.html) shows a page from the
+# repository root, such as an interactive quiz, in an iframe. The page posts
+# {type: "embed-height", height} to its parent, and this script fits the
+# iframe to it. Posts without an embed don't load it.
+EMBED_HEAD = '''  <script>
+    window.addEventListener("message", (event) => {
+      if (event.origin !== location.origin || event.data?.type !== "embed-height") return;
+      for (const frame of document.querySelectorAll(".blog-article-embed iframe")) {
+        if (frame.contentWindow === event.source) frame.style.height = `${Math.ceil(event.data.height)}px`;
+      }
+    });
+  </script>
+'''
 GENERATED_NOTICE = """<!--
 GENERATED FILE — DO NOT EDIT DIRECTLY.
 Source: {source}
@@ -248,6 +261,17 @@ def is_image(line: str) -> bool:
     return IMAGE_LINE.match(line) is not None
 
 
+EMBED_LINE = re.compile(r"^!embed\[([^\]]+)\]\(([^)\s]+)\)$")
+
+
+def is_embed(line: str) -> bool:
+    return EMBED_LINE.match(line) is not None
+
+
+def has_embed(markdown: str) -> bool:
+    return any(is_embed(line.strip()) for line in markdown.splitlines())
+
+
 def is_unordered(line: str) -> bool:
     return line.startswith("- ") or line.startswith("* ")
 
@@ -290,6 +314,7 @@ def is_block_start(line: str) -> bool:
         or line.startswith("$$")
         or is_table_row(line)
         or is_image(line)
+        or is_embed(line)
         or is_unordered(line)
         or is_ordered(line)
     )
@@ -362,6 +387,17 @@ def render_markdown(markdown: str) -> str:
                 src = "#"
             output.append(
                 f'<figure class="blog-article-figure"><img src="{escape(src)}" alt="{escape(alt)}" loading="lazy"></figure>'
+            )
+            cursor += 1
+            continue
+
+        embed = EMBED_LINE.match(line)
+        if embed:
+            title, src = embed.groups()
+            if not re.fullmatch(r"[\w-]+\.html", src):
+                raise ValueError(f"!embed takes a page in the repository root, such as quiz.html, not {src}")
+            output.append(
+                f'<figure class="blog-article-embed"><iframe src="{escape(src)}" title="{escape(title)}" loading="lazy"></iframe></figure>'
             )
             cursor += 1
             continue
@@ -638,6 +674,8 @@ def render_post(post: Post, number: int, next_post: Optional[Post], versions: Li
     ) if alternates else ""
     if has_math(post.body):
         head_extra += KATEX_HEAD
+    if has_embed(post.body):
+        head_extra += EMBED_HEAD
 
     main = f'''    <main>
       <header class="blog-article-intro" aria-labelledby="page-title">
