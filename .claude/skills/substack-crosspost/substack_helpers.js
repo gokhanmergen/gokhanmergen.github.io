@@ -15,6 +15,12 @@
 // SKILL.md for those.
 //
 //   await crosspost.audit()         // compares every published post with the blog
+//
+// To update a published post, open /publish/post/<id>, paste this file, then:
+//
+//   await crosspost.fixBody(<id>, '<slug>', { tables: true })  // or {} for widgets only
+//   await crosspost.waitSaved(<id>)  // until the server has the new body
+//   await crosspost.update()         // clicks Update, then Update now
 
 window.crosspost = {
   SITE: 'https://www.gokhanmergen.com',
@@ -134,15 +140,33 @@ window.crosspost = {
     };
   },
 
-  // Three widgets: after the dateline, before the h2 nearest the middle, at the end.
+  // Where the middle widget goes: before the h2 nearest the middle of the body.
+  // Without h2s, an h3; without headings, a paragraph opening with a bold lead
+  // ("**3. Limitations…**"); failing that, any paragraph.
+  mid(c) {
+    const nearest = (is) => {
+      const idx = c.map((n, i) => (i > 2 && is(n) ? i : -1)).filter((i) => i >= 0);
+      return idx.reduce((best, i) => (Math.abs(i - c.length / 2) < Math.abs(best - c.length / 2) ? i : best), idx[0]);
+    };
+    const lead = (n) => n.type === 'paragraph' && n.content && (n.content[0].marks || []).some((m) => m.type === 'bold');
+    const mid = [
+      (n) => n.type === 'heading' && n.attrs.level === 2,
+      (n) => n.type === 'heading' && n.attrs.level === 3,
+      lead,
+      (n) => n.type === 'paragraph',
+    ].reduce((found, is) => (found === undefined ? nearest(is) : found), undefined);
+    if (!(mid > 1)) throw new Error('No place for the middle widget');
+    return mid;
+  },
+
+  // Three widgets: after the dateline, mid-article (see mid), at the end.
   async addWidgets() {
     const editor = this.editor();
     const json = editor.getJSON();
     const c = json.content;
     if (c.some((n) => n.type === 'subscribeWidget')) throw new Error('Widgets already present');
-    const h2s = c.map((n, i) => (n.type === 'heading' && n.attrs.level === 2 && i > 2 ? i : -1)).filter((i) => i >= 0);
-    const mid = h2s.reduce((best, i) => (Math.abs(i - c.length / 2) < Math.abs(best - c.length / 2) ? i : best), h2s[0]);
-    const midHeading = (c[mid].content || []).map((x) => x.text).join('');
+    const mid = this.mid(c);
+    const midHeading = this.text(c[mid]);
     c.push(this.widget());
     c.splice(mid, 0, this.widget());
     c.splice(1, 0, this.widget());
@@ -178,6 +202,120 @@ window.crosspost = {
     };
   },
 
+  // A list made from a table before 2026-10-19: every item's second paragraph
+  // starts with an italic "Header:".
+  isTableList(n) {
+    return n.type === 'bulletList' && n.content.every((li) => {
+      const t = li.content[1]?.content?.[0];
+      return t && (t.marks || []).some((m) => m.type === 'italic') && /:\s*$/.test(t.text || '');
+    });
+  },
+
+  // Upload the live post's table images and return them as editor nodes. It
+  // parses them with the editor's own rules, which replaces the editor's
+  // content without saving; fixBody puts the whole body back.
+  async tableNodes(slug) {
+    const doc = await this.livePage(slug);
+    const n = this.tablesToImages(doc, slug);
+    const figs = [...doc.querySelectorAll('.blog-article-content figure')]
+      .filter((f) => f.querySelector('img').getAttribute('src').includes(`/posts/images/${slug}/table-`));
+    for (const f of figs) {
+      const img = f.querySelector('img');
+      const res = await fetch(img.getAttribute('src'), { cache: 'no-store' });
+      if (!res.ok) throw new Error(`${img.getAttribute('src')}: ${res.status}. Are the table images pushed?`);
+      const blob = await res.blob();
+      const dataUrl = await new Promise((r) => {
+        const fr = new FileReader();
+        fr.onload = () => r(fr.result);
+        fr.readAsDataURL(blob);
+      });
+      const up = await fetch('/api/v1/image', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ image: dataUrl }),
+      }).then((r) => r.json());
+      if (!up.url) throw new Error(`Upload failed: ${JSON.stringify(up)}`);
+      img.setAttribute('src', up.url);
+    }
+    this.editor().commands.setContent(figs.map((f) => f.outerHTML).join(''), false);
+    const nodes = this.editor().getJSON().content.filter((x) => x.type === 'captionedImage');
+    if (nodes.length !== n) throw new Error(`Parsed ${nodes.length} of ${n} tables`);
+    return nodes;
+  },
+
+  // Rework a published post's body in the editor: drop every subscribe widget,
+  // nested ones too (an end widget once landed inside a final list), optionally
+  // cut everything from the block whose text is `dropFrom` and swap table lists
+  // for table images, then add the three widgets. The old body is stashed in
+  // sessionStorage as orig-<id>.
+  async fixBody(postId, slug, { tables = false, dropFrom = null } = {}) {
+    const ed = this.editor();
+    const orig = ed.getJSON();
+    sessionStorage.setItem(`orig-${postId}`, JSON.stringify(orig));
+    const strip = (n) => (n.content ? { ...n, content: n.content.filter((x) => x.type !== 'subscribeWidget').map(strip) } : n);
+    let c = strip(orig).content;
+    const trim = () => {
+      while (c.length && c[c.length - 1].type === 'paragraph' && !c[c.length - 1].content) c.pop();
+    };
+    trim();
+    if (dropFrom) {
+      const at = c.findIndex((n) => this.text(n) === dropFrom);
+      if (at < 0) throw new Error(`"${dropFrom}" not found`);
+      c = c.slice(0, at);
+      trim();
+    }
+    let replaced = 0;
+    if (tables) {
+      const lists = c.filter((n) => this.isTableList(n));
+      const nodes = await this.tableNodes(slug);
+      if (lists.length !== nodes.length) {
+        ed.commands.setContent(orig, false);
+        throw new Error(`${lists.length} table lists but ${nodes.length} tables`);
+      }
+      c = c.map((n) => (lists.includes(n) ? nodes[replaced++] : n));
+    }
+    if (!/^Originally published on/.test(this.text(c[0]))) {
+      ed.commands.setContent(orig, false);
+      throw new Error('The body does not start with the dateline');
+    }
+    const mid = this.mid(c);
+    const midText = this.text(c[mid]).slice(0, 80);
+    c.push(this.widget());
+    c.splice(mid, 0, this.widget());
+    c.splice(1, 0, this.widget());
+    ed.commands.setContent({ type: 'doc', content: c }, true);
+    await new Promise((r) => setTimeout(r, 2500));
+    const after = ed.getJSON().content;
+    this.expectedWidgets = after.map((n, i) => (n.type === 'subscribeWidget' ? i : -1)).filter((i) => i >= 0).join(',');
+    return { replaced, midText, before: orig.content.length, after: after.length, widgets: this.expectedWidgets };
+  },
+
+  // Wait until the server's draft has the widgets where fixBody put them. The
+  // editor's "Saved" badge can be early, and Update publishes the server's copy.
+  async waitSaved(postId) {
+    let at = '';
+    for (let i = 0; i < 20; i++) {
+      await new Promise((r) => setTimeout(r, 1000));
+      const d = await fetch(`/api/v1/drafts/${postId}`, { cache: 'no-store' }).then((r) => r.json());
+      at = JSON.parse(d.draft_body).content.map((n, k) => (n.type === 'subscribeWidget' ? k : -1)).filter((k) => k >= 0).join(',');
+      if (at === this.expectedWidgets) return { saved: true, title: d.draft_title };
+    }
+    throw new Error(`Server has widgets at ${at}, expected ${this.expectedWidgets}`);
+  },
+
+  // Click the orange Update button, then Update now. Returns the checked radio
+  // labels (audience, comments), which should both be Everyone. The page then
+  // moves to the share center; check the post with GET /api/v1/drafts/<id>.
+  async update() {
+    const button = (t) => [...document.querySelectorAll('button')].find((b) => b.textContent.trim() === t);
+    button('Update').click();
+    for (let i = 0; i < 20 && !button('Update now'); i++) await new Promise((r) => setTimeout(r, 300));
+    const checked = [...document.querySelectorAll('input[type=radio]:checked')].map((r) => r.closest('label')?.innerText.trim() || r.value);
+    if (checked.some((t) => t !== 'Everyone')) throw new Error(`Dialog settings: ${checked}`);
+    button('Update now').click();
+    return { checked };
+  },
+
   // Compare every published post with its live blog page, and list blog posts
   // with no Substack copy. Read-only. Each row's `problems` is empty when the
   // post matches the conventions in SKILL.md.
@@ -207,6 +345,7 @@ window.crosspost = {
 
       if (!/^Originally published on/.test(walk(body.content.find((n) => n.type === 'paragraph') || {}))) row.problems.push('no dateline at the top');
       if (count('subscribeWidget') !== 3) row.problems.push(`${count('subscribeWidget')} subscribe widgets, not 3`);
+      if (body.content.filter((n) => n.type === 'subscribeWidget').length !== count('subscribeWidget')) row.problems.push('a subscribe widget is nested inside another block');
       if (norm(d.draft_title) !== norm(doc.querySelector('h1').textContent)) row.problems.push(`title differs: "${d.draft_title}" vs "${doc.querySelector('h1').textContent}"`);
       const deck = norm(doc.querySelector('.blog-article-dek')?.textContent || '');
       if (!deck.startsWith(norm(d.draft_subtitle || '').replace(/\.$/, ''))) row.problems.push(`subtitle differs from the deck: "${d.draft_subtitle}"`);

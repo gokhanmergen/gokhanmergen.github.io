@@ -33,8 +33,11 @@ The Substack copy is built from that live page.
 - **Three subscribe widgets,** always:
   - right after the dateline;
   - just before the `##` section heading nearest the middle of the post, by
-    block count;
-  - at the very end.
+    block count. Older posts without `##` use the nearest `###`; without
+    headings, the nearest paragraph that opens with a bold lead ("**3.
+    Limitations…**"); failing that, the nearest paragraph. Never put it
+    between a section title and its first paragraph;
+  - at the very end, as a top-level block (not inside a final list).
 
   Each uses the default caption: "Thanks for reading Gokhan's Substack!
   Subscribe for free to receive new posts and support my work."
@@ -141,17 +144,45 @@ The Substack copy is built from that live page.
 
 ## Updating a post that is already published
 
-1. Find the id with `GET /api/v1/posts?limit=50` and open
-   `/publish/post/<id>`.
-2. Stash the old `draft_body` (for example in `sessionStorage`) so you can
-   reuse its dateline, widget nodes and `inline_latex` ids. Rename the marks
-   from `em`/`strong` to `italic`/`bold`.
-3. `setContent` the new body and splice in the dateline and widgets.
-4. Click the orange **Update** button, then **Update now** in the dialog.
-   - This sends no email.
-   - `post_date` and `email_sent_at` stay the same.
-   - The page redirects to the share center, which kills any running
-     JavaScript call, so verify afterwards with `GET /api/v1/drafts/<id>`.
+Updating a published post changes public content, so do it only when the
+author asks. It sends no email, and `post_date` and `email_sent_at` stay the
+same. The Substack URL slug stays too, even when the title changes, so old
+links keep working.
+
+1. Find the id with `GET /api/v1/posts?limit=50` (or from `audit()`) and open
+   `/publish/post/<id>`. Wait about 3 seconds for the editor.
+2. Paste `substack_helpers.js`. To paste it once per session, store its text
+   in `sessionStorage` and run `(0, eval)(sessionStorage.getItem('cp'))` on
+   each editor page; the page allows it.
+3. Rework the body in the editor. `fixBody` works on the editor's JSON, so the
+   dateline, images, math nodes and their ids stay as they are:
+
+   ```js
+   await crosspost.fixBody(<id>, '<slug>', {})                    // widgets only
+   await crosspost.fixBody(<id>, '<slug>', { tables: true })      // also table lists -> images
+   await crosspost.fixBody(<id>, '<slug>', { dropFrom: '<text>' }) // also cut from that block on
+   ```
+
+   It always rebuilds the three widgets. It stashes the old body in
+   `sessionStorage` as `orig-<id>`. For other edits, change
+   `crosspost.editor().getJSON()` and `setContent` it; JSON copied from the
+   server needs its marks renamed (see "Editor JSON marks").
+4. A new title goes in the `textarea.page-title` field: click it, select all
+   with cmd+a, and type the title. The subtitle is `textarea.subtitle`.
+5. `await crosspost.waitSaved(<id>)` waits until the server's draft has the
+   new body. Don't rely on the "Saved" badge: a check made 4 seconds after
+   `setContent` once still found the old body.
+6. `await crosspost.update()` clicks **Update**, checks that audience and
+   comments are on Everyone, and clicks **Update now**. The page then moves to
+   `/publish/posts/detail/<id>/share-center`, which ends any running
+   JavaScript, so check the result in a new call: `GET /api/v1/posts/<slug>`
+   returns the public `body_html`.
+7. When you are done, run `audit()` again.
+
+Several posts can be updated in one `browser_batch`: navigate, run steps 2–6
+in one `javascript_tool` call, wait about 4 seconds, then check that the page
+reached the share center before navigating on. A check that throws stops the
+batch.
 
 ## Auditing the published posts
 
