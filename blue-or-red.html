@@ -58,7 +58,7 @@ body {
 h1 { font-weight: 800; font-size: clamp(38px, 8vw, 56px); line-height: 1; letter-spacing: -.02em; margin: 6px 0 10px; text-wrap: balance; }
 h1 .b { color: var(--blue); } h1 .r { color: var(--red); }
 .dek { font-family: var(--serif); font-size: 17px; line-height: 1.5; max-width: 60ch; margin: 0; color: var(--ink); }
-.privacy { font-size: 13.5px; color: var(--muted); max-width: 60ch; margin: 10px 0 0; }
+p.privacy { font-size: 13.5px; color: var(--muted); max-width: 60ch; margin: 10px 0 0; }
 
 /* live meter */
 .meter { display: grid; gap: 6px; }
@@ -183,7 +183,7 @@ td.q { font-weight: 600; padding-top: 12px; }
       <div class="fact"><div class="n" id="fAuc">0.975</div><div class="l">ROC AUC</div></div>
       <div class="fact"><div class="n" id="fTok">62</div><div class="l">answer tokens across 16 questions</div></div>
     </div>
-    <p>Limits: the model only knows the 2020 two-party electorate. Non-voters and third-party voters are not in the data, and party coalitions have shifted since. It predicts from statistical association, so read the result as a description of who tended to answer this way, not as a judgment of anyone. No data is collected, saved, or shared with anyone: your answers stay in your browser and are gone when you close the page.</p>
+    <p>Limits: the model only knows the 2020 two-party electorate. Non-voters and third-party voters are not in the data, and party coalitions have shifted since. It predicts from statistical association, so read the result as a description of who tended to answer this way, not as a judgment of anyone.<span class="privacy"> Your answers stay in this page and are not saved or sent anywhere.</span></p>
     <details>
       <summary>Show all model weights</summary>
       <div class="tablewrap"><table id="wtable"><thead><tr><th>Answer</th><th>Weight</th><th>Biden voters</th><th>Trump voters</th></tr></thead><tbody></tbody></table></div>

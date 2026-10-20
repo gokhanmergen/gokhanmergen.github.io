@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from datetime import date, datetime, time, timezone
 from email.utils import format_datetime
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 
 ROOT = Path(__file__).resolve().parent
@@ -44,7 +44,8 @@ KATEX_HEAD = f'''  <link rel="stylesheet" href="{KATEX_CDN}/katex.min.css" integ
   <script defer src="{KATEX_CDN}/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous" onload="renderMathInElement(document.querySelector('.blog-article-content'), {{delimiters: [{{left: '\\\\[', right: '\\\\]', display: true}}, {{left: '\\\\(', right: '\\\\)', display: false}}], throwOnError: false}})"></script>
 '''
 # A line holding only !embed[Title](page.html) shows a page from the
-# repository root, such as an interactive quiz, in an iframe. The page posts
+# repository root, such as an interactive quiz, in an iframe; with
+# !embed[Title](page.html "Caption") a small caption goes under it. The page posts
 # {type: "embed-height", height} to its parent, and this script fits the
 # iframe to it. Posts without an embed don't load it.
 EMBED_HEAD = '''  <script>
@@ -140,6 +141,9 @@ class Post:
     published_time: time = time(0)
     # Email subscribers get the post only once its front matter says "email: send".
     email: bool = False
+    # Words of the title shown in color on the article page, with their hex
+    # colors, from "title_colors: Blue #1D5BC4, Red #C1302B".
+    title_colors: Tuple[Tuple[str, str], ...] = ()
 
     @property
     def filename(self) -> str:
@@ -158,6 +162,16 @@ class Post:
 
 def escape(value: str) -> str:
     return html.escape(value, quote=True)
+
+
+def parse_title_colors(path: Path, fields: Dict[str, str]) -> Tuple[Tuple[str, str], ...]:
+    colors = []
+    for pair in filter(None, (item.strip() for item in fields.get("title_colors", "").split(","))):
+        word, _, color = pair.rpartition(" ")
+        if not word or not re.fullmatch(r"#[0-9A-Fa-f]{6}", color) or not re.search(rf"\b{re.escape(word)}\b", fields["title"]):
+            raise ValueError(f"{path.name}: title_colors wants a word of the title and a hex color, such as 'Blue #1D5BC4', not '{pair}'")
+        colors.append((word.strip(), color))
+    return tuple(colors)
 
 
 def parse_post(path: Path) -> Post:
@@ -204,6 +218,7 @@ def parse_post(path: Path) -> Post:
         translation_of=fields.get("translation_of"),
         published_time=time.fromisoformat(fields.get("time", "00:00")),
         email=fields.get("email") == "send",
+        title_colors=parse_title_colors(path, fields),
     )
     if fields.get("email", "send") != "send":
         raise ValueError(f"{path.name}: email must be 'send' or left out, not {fields['email']}")
@@ -261,7 +276,7 @@ def is_image(line: str) -> bool:
     return IMAGE_LINE.match(line) is not None
 
 
-EMBED_LINE = re.compile(r"^!embed\[([^\]]+)\]\(([^)\s]+)\)$")
+EMBED_LINE = re.compile(r'^!embed\[([^\]]+)\]\(([^)\s]+)(?:\s+"([^"]+)")?\)$')
 
 
 def is_embed(line: str) -> bool:
@@ -393,11 +408,12 @@ def render_markdown(markdown: str) -> str:
 
         embed = EMBED_LINE.match(line)
         if embed:
-            title, src = embed.groups()
+            title, src, caption = embed.groups()
             if not re.fullmatch(r"[\w-]+\.html", src):
                 raise ValueError(f"!embed takes a page in the repository root, such as quiz.html, not {src}")
+            figcaption = f"<figcaption>{render_inline(caption)}</figcaption>" if caption else ""
             output.append(
-                f'<figure class="blog-article-embed"><iframe src="{escape(src)}" title="{escape(title)}" loading="lazy"></iframe></figure>'
+                f'<figure class="blog-article-embed"><iframe src="{escape(src)}" title="{escape(title)}" loading="lazy"></iframe>{figcaption}</figure>'
             )
             cursor += 1
             continue
@@ -654,6 +670,20 @@ def render_index(posts: List[Post], translations: Dict[str, List[Post]]) -> str:
     )
 
 
+def render_title(post: Post) -> str:
+    """Return the article heading, with the words in title_colors colored."""
+    if not post.title_colors:
+        return escape(post.title)
+    colors = dict(post.title_colors)
+    words = "|".join(re.escape(word) for word in colors)
+    parts = re.split(rf"\b({words})\b", post.title)
+    # re.split puts the matched words at the odd indexes.
+    return "".join(
+        f'<span style="color: {colors[part]}">{escape(part)}</span>' if index % 2 else escape(part)
+        for index, part in enumerate(parts)
+    )
+
+
 def render_post(post: Post, number: int, next_post: Optional[Post], versions: List[Post]) -> str:
     text = UI_TEXT[post.lang]
     if next_post is None:
@@ -681,7 +711,7 @@ def render_post(post: Post, number: int, next_post: Optional[Post], versions: Li
       <header class="blog-article-intro" aria-labelledby="page-title">
         <a class="blog-article-back" href="blog.html">{escape(text["back"])}</a>
         <p class="eyebrow">{escape(BRAND)} · {escape(text["post"])} {number:02d}</p>
-        <h1 id="page-title">{escape(post.title)}</h1>
+        <h1 id="page-title">{render_title(post)}</h1>
         <p class="blog-article-dek">{escape(post.deck)}</p>
 
         <div class="blog-author-row">

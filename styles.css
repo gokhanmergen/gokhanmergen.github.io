@@ -2885,6 +2885,13 @@ body.lightbox-open {
   border: 0;
 }
 
+.blog-article-embed figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
 .blog-article-content a {
   color: var(--brand-dark);
   font-weight: 700;

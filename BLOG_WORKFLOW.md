@@ -79,6 +79,11 @@ time first. Posts without one count as `00:00`, and ties keep file-name order.
 subscribers get a post only once the author asks for it and this line is
 added (see "Comments, feed, and email subscriptions").
 
+`title_colors` colors words of the title on the article page, such as
+`title_colors: Blue #1D5BC4, Red #C1302B`: each word of the title followed by
+a hex color, separated by commas. The index, the browser tab and the feed
+keep the plain title.
+
 The generator sorts posts by `date` from newest to oldest and assigns the
 visible post numbers automatically. Do not hard-code or manually renumber
 posts. Use the actual calendar date rather than relative labels such as “one
@@ -106,8 +111,10 @@ only the copy in the root.
 To embed an interactive page, such as a quiz, put its HTML file in the
 repository root and write a line containing only
 `!embed[Title for screen readers](page.html)`. It renders as a full-width
-iframe. The page should be self-contained, and it should post its height to
-the article so the frame fits it without scrolling:
+iframe. To put a caption under it in small type, add it in quotes:
+`!embed[Title](page.html "Caption text")`. The page should be
+self-contained, and it should post its height to the article so the frame
+fits it without scrolling:
 
 ```js
 parent.postMessage({ type: 'embed-height', height: Math.ceil(document.body.getBoundingClientRect().height) }, '/');
@@ -115,7 +122,7 @@ parent.postMessage({ type: 'embed-height', height: Math.ceil(document.body.getBo
 
 `blue-or-red.html` does this from a `ResizeObserver`. Inside the iframe it
 also switches to the site's light theme and hides its own title, deck and
-privacy note, since the post shows them.
+privacy note, since the post shows them (the privacy note as the caption).
 
 Tables use standard pipe syntax: a header row, a separator row such as
 `| --- | --- |`, then one row per line. Cells may contain links and emphasis.
