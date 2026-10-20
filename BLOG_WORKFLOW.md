@@ -146,8 +146,9 @@ English posts are mirrored on gokhanmergen.substack.com once they are live
 on the site. To add, publish or update a post there, follow
 [`.claude/skills/substack-crosspost/SKILL.md`](.claude/skills/substack-crosspost/SKILL.md).
 It covers the approved conventions (dateline, three subscribe widgets, tables
-as lists), the step-by-step editor procedure, the helper script beside it,
-and how to verify the result.
+as images), the step-by-step editor procedure, the helper scripts beside it,
+how to verify the result, and how to audit the published posts. A post with
+tables needs its table images rendered and pushed before it is cross-posted.
 
 ## Comments, feed, and email subscriptions
 

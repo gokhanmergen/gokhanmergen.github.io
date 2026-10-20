@@ -1,6 +1,6 @@
 ---
 name: substack-crosspost
-description: Cross-post a blog post from gokhanmergen.com to gokhanmergen.substack.com (dateline, three subscribe widgets, tables as lists, images, math), publish or update it, and verify it. Use when asked to add, mirror, publish or update a post on Substack.
+description: Cross-post a blog post from gokhanmergen.com to gokhanmergen.substack.com (dateline, three subscribe widgets, tables as images, images, math), publish or update it, verify it, and audit the published posts against the blog. Use when asked to add, mirror, publish, update or check posts on Substack.
 ---
 
 # Cross-posting to Substack
@@ -11,9 +11,11 @@ The work happens in the Substack web editor, through Claude in Chrome, in the
 owner's logged-in browser.
 
 **Publish to the blog first:**
-1. Push the post.
-2. Wait for GitHub Pages to finish building.
-3. Confirm that `https://www.gokhanmergen.com/blog-<slug>.html` serves the new
+1. If the post has tables, render them as images (see "Tables" below) and
+   commit the images with the post.
+2. Push the post.
+3. Wait for GitHub Pages to finish building.
+4. Confirm that `https://www.gokhanmergen.com/blog-<slug>.html` serves the new
    version.
 
 The Substack copy is built from that live page.
@@ -36,12 +38,19 @@ The Substack copy is built from that live page.
 
   Each uses the default caption: "Thanks for reading Gokhan's Substack!
   Subscribe for free to receive new posts and support my work."
-- **Tables become bulleted lists.** Substack has no table node.
-  - Each row is one list item made of paragraphs.
-  - The first column comes first, in bold, keeping any link.
-  - Then each other column gets its own paragraph: "*Header:* value".
-  - A leading "#" column merges into the label ("**1. Not smoking**"), and a
-    "–" rank is dropped.
+- **Tables become images.** Substack has no table node. Until 2026-10-19
+  they became bulleted lists; the author then asked for images instead.
+  - `render_tables.py` draws each table as the blog does, on white, 728 CSS
+    pixels wide at 2x. It saves the tables in page order as
+    `posts/images/<slug>/table-<n>.png`.
+  - `buildBody` swaps each table for its image, fetched from the live site,
+    so the images must be pushed first.
+  - Alt text: "Table: " and the column headers.
+  - Links can't be clicked in an image, so the image's caption keeps them:
+    "Links: A · B · C". Each link is named after its row: the first column,
+    or the second when the first is a "#" rank. Its own text is added when it
+    is words ("Yale Budget Lab, earlier tracking"), not when it is a figure
+    such as a rating.
 - **Images** are uploaded to Substack's CDN. Their alt text is kept.
 - **The whole post is mirrored,** including appendices and references.
 - **Publishing:**
@@ -64,12 +73,23 @@ The Substack copy is built from that live page.
 2. **Title and subtitle.** Click the Title field and type the title. Take a
    screenshot: a long title wraps to two lines and pushes the subtitle field
    down. Then click the subtitle field and type the deck.
-3. **Body.** Read `substack_helpers.js` in this folder and run its full text
+3. **Tables.** If the post has tables, render them from the repository root,
+   after `python3 build_blog.py`:
+
+   ```bash
+   python3 -B .claude/skills/substack-crosspost/render_tables.py <slug>
+   ```
+
+   It uses headless Chrome and Pillow. Look at each image before you commit
+   and push them; this belongs in step 1 of "Publish to the blog first". After
+   a table changes on the blog, render it again and push it before updating
+   the Substack copy.
+4. **Body.** Read `substack_helpers.js` in this folder and run its full text
    with `javascript_tool` on the editor page. Then run each of these in its
    own call:
 
    ```js
-   await crosspost.buildBody('<slug>', 'October 18, 2026')  // tables -> lists, image uploads, dateline
+   await crosspost.buildBody('<slug>', 'October 18, 2026')  // tables -> images, image uploads, dateline
    await crosspost.fill()                                    // loads the body into the editor
    await crosspost.addWidgets()                              // returns the heading the middle widget precedes
    await crosspost.verify(<draft id>)                        // checks the server's copy
@@ -77,15 +97,16 @@ The Substack copy is built from that live page.
 
    `verify` must show:
    - 3 widgets;
-   - `images` equal to `liveImages`;
+   - `images` equal to `liveImages` (the blog's images plus its tables);
    - `links` equal to `liveLinksPlusDateline`;
    - an empty `missing` list.
 
    Don't trust the editor's "Saved" badge: drafts have come back empty from
    the server. Wait about 3 seconds after the editor loads before filling it.
-4. **Look at it.** Take screenshots of the top (dateline and first widget)
-   and of one converted table. Check for the truncation banner, using `find`.
-5. **Publish** (only when asked):
+5. **Look at it.** Take screenshots of the top (dateline and first widget)
+   and of one table image with its caption. Check for the truncation banner,
+   using `find`.
+6. **Publish** (only when asked):
    1. Click **Continue**, at the top right.
    2. In the dialog, confirm with `javascript_tool` that "Send via email and
       the Substack app" is checked, "Schedule time" is unchecked, and both
@@ -96,7 +117,7 @@ The Substack copy is built from that live page.
       `email_sent_at` is set. The dialog can resize between clicks, so
       always check `is_published` before clicking again.
    6. The public URL is `https://gokhanmergen.substack.com/p/<slug from the API>`.
-6. Close the browser tab you opened.
+7. Close the browser tab you opened.
 
 ## Special content
 
@@ -131,6 +152,31 @@ The Substack copy is built from that live page.
    - `post_date` and `email_sent_at` stay the same.
    - The page redirects to the share center, which kills any running
      JavaScript call, so verify afterwards with `GET /api/v1/drafts/<id>`.
+
+## Auditing the published posts
+
+To find Substack posts that need fixing, open any page under
+`https://gokhanmergen.substack.com/publish/`, run the full text of
+`substack_helpers.js`, then:
+
+```js
+await crosspost.audit()
+```
+
+It is read-only. For each published post, it compares the server's copy with
+the live blog page and lists problems:
+- no dateline;
+- not exactly 3 subscribe widgets;
+- title, or subtitle, different from the blog's title and deck;
+- image count different from the blog's images plus tables (a table still
+  shown as a list);
+- math node count different from the blog's;
+- links on one side only;
+- paragraphs on one side only, which means the blog post changed after it was
+  cross-posted.
+
+It also lists blog posts with no Substack copy (`notMirrored`). Fixing a post
+means updating it as below, which the author must approve.
 
 ## API endpoints used
 
