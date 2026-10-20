@@ -125,6 +125,8 @@ class Post:
     translation_of: Optional[str] = None
     # Orders posts that share a date; it is not shown anywhere.
     published_time: time = time(0)
+    # Email subscribers get the post only once its front matter says "email: send".
+    email: bool = False
 
     @property
     def filename(self) -> str:
@@ -188,7 +190,10 @@ def parse_post(path: Path) -> Post:
         lang=fields.get("lang", "en"),
         translation_of=fields.get("translation_of"),
         published_time=time.fromisoformat(fields.get("time", "00:00")),
+        email=fields.get("email") == "send",
     )
+    if fields.get("email", "send") != "send":
+        raise ValueError(f"{path.name}: email must be 'send' or left out, not {fields['email']}")
     if post.lang not in UI_TEXT:
         raise ValueError(f"Unsupported lang for {post.slug}: {post.lang}")
     return post
@@ -530,6 +535,8 @@ def render_excerpt(post: Post) -> str:
 
 
 def render_feed(posts: List[Post]) -> str:
+    # newsletter/Code.gs emails only the items marked <blog:email>send</blog:email>.
+    email_flag = "\n      <blog:email>send</blog:email>"
     items = "".join(
         f'''
     <item>
@@ -539,7 +546,7 @@ def render_feed(posts: List[Post]) -> str:
       <pubDate>{format_datetime(datetime(post.published.year, post.published.month, post.published.day, tzinfo=timezone.utc))}</pubDate>
       <category>{escape(post.category)}</category>
       <description>{escape(post.deck)}</description>
-      <blog:readTime>{escape(post.read_time)}</blog:readTime>
+      <blog:readTime>{escape(post.read_time)}</blog:readTime>{email_flag if post.email else ""}
       <content:encoded>{escape(render_excerpt(post))}</content:encoded>
     </item>'''
         for post in posts

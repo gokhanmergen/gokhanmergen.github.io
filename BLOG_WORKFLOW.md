@@ -75,6 +75,10 @@ index. `time` is also optional: a 24-hour `HH:MM` such as `time: 20:20`. It
 is not shown anywhere and only orders posts that share a date, with the later
 time first. Posts without one count as `00:00`, and ties keep file-name order.
 
+`email: send` is optional too, and a new post leaves it out. Email
+subscribers get a post only once the author asks for it and this line is
+added (see "Comments, feed, and email subscriptions").
+
 The generator sorts posts by `date` from newest to oldest and assigns the
 visible post numbers automatically. Do not hard-code or manually renumber
 posts. Use the actual calendar date rather than relative labels such as “one
@@ -162,10 +166,16 @@ tables needs its table images rendered and pushed before it is cross-posted.
 - **Email subscriptions** run on the Google Apps Script in
   `newsletter/Code.gs`, deployed as a web app from the owner's Google
   account. Subscribers are kept in a private "Blog subscribers" Google Sheet.
-  Every hour the script reads the live `feed.xml` and emails new posts to
-  confirmed subscribers, so publishing needs no extra step. A personal Gmail
-  account can send about 100 emails a day this way; an unfinished send
-  resumes the next day. The sign-up form appears once `SUBSCRIBE_URL` in
+  Every hour the script reads the live `feed.xml` and emails confirmed
+  subscribers each post marked `<blog:email>send</blog:email>` that it has
+  not sent before. A personal Gmail account can send about 100 emails a day
+  this way; an unfinished send resumes the next day.
+- **Sending a post by email** happens only when the author asks. Publishing
+  a post does not email anyone. To send one, add `email: send` to its front
+  matter, run `python3 build_blog.py`, commit and push. The hourly run
+  emails it within the hour; to send it at once, run `checkFeed` in the Apps
+  Script editor after GitHub Pages has published the feed. A post is emailed
+  only once, so removing the line afterwards changes nothing. The sign-up form appears once `SUBSCRIBE_URL` in
   `build_blog.py` holds the web app's `/exec` URL.
 - **Changing the email script:** edit `newsletter/Code.gs`, paste it into the
   "Blog subscriptions" Apps Script project, and save. The hourly sender and
