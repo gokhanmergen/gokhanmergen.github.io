@@ -6,6 +6,7 @@ read_time: 10 min read
 title: Nationalists of the World, Unite?
 deck: Why Nationalist International is an oxymoron, and what Vladimir Putin stands to gain from it.
 archive_deck: Why Nationalist International is an oxymoron, and what Vladimir Putin stands to gain from it.
+email: send
 ---
 
 Across Europe and the United States, a new political international is taking shape around a curious proposition: that every nation should put itself first. From Budapest to Washington, nationalist leaders celebrate one another’s electoral victories, borrow one another’s rhetoric, and unite against the institutions they denounce as “globalist.” Promising to restore sovereignty, defend borders, and reclaim power from international bureaucracies, they project the image of a coherent political movement capable of reshaping the West.
