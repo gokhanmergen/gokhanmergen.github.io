@@ -130,6 +130,7 @@ h2 { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: u
 .about { font-family: var(--serif); font-size: 15.5px; line-height: 1.55; display: grid; gap: 10px; }
 .about p { margin: 0; max-width: 64ch; }
 .about a { color: var(--blue); }
+.about-body { display: grid; gap: 10px; margin-top: 10px; }
 .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
 .fact { border-top: 2px solid var(--ink); padding-top: 6px; }
 .fact .n { font-family: var(--mono); font-size: 22px; font-variant-numeric: tabular-nums; }
@@ -175,15 +176,19 @@ td.q { font-weight: 600; padding-top: 12px; }
   <section class="sheet" id="sheet" aria-live="polite"></section>
 
   <section class="about" id="about">
-    <h2>How the model works</h2>
-    <p>Every answer is a token, like a word in a bag-of-words classifier. Each token carries one weight, positive for blue and negative for red. Your score is a baseline plus the weights of the answers you gave, passed through a logistic function to get a probability. Skipped questions add nothing.</p>
-    <p>The weights come from a logistic regression fitted to <span id="nVoters2">6,075</span> respondents in the <a href="https://electionstudies.org/data-center/2020-time-series-study/" target="_blank" rel="noopener">ANES 2020 Time Series</a> who reported voting for Biden or Trump, using the survey’s post-election weights. Two constraints keep it readable: weights move in one direction along each answer scale, and training randomly hides answers so that the live estimate stays calibrated when only a few questions are answered.</p>
-    <div class="facts">
-      <div class="fact"><div class="n" id="fAcc">91.8%</div><div class="l">correct on held-out voters, 5-fold cross-validation</div></div>
-      <div class="fact"><div class="n" id="fAuc">0.975</div><div class="l">ROC AUC</div></div>
-      <div class="fact"><div class="n" id="fTok">62</div><div class="l">answer tokens across 16 questions</div></div>
-    </div>
-    <p>Limits: the model only knows the 2020 two-party electorate. Non-voters and third-party voters are not in the data, and party coalitions have shifted since. It predicts from statistical association, so read the result as a description of who tended to answer this way, not as a judgment of anyone.<span class="privacy"> Your answers stay in this page and are not saved or sent anywhere.</span></p>
+    <details>
+      <summary>How the model works</summary>
+      <div class="about-body">
+        <p>Every answer is a token, like a word in a bag-of-words classifier. Each token carries one weight, positive for blue and negative for red. Your score is a baseline plus the weights of the answers you gave, passed through a logistic function to get a probability. Skipped questions add nothing.</p>
+        <p>The weights come from a logistic regression fitted to <span id="nVoters2">6,075</span> respondents in the <a href="https://electionstudies.org/data-center/2020-time-series-study/" target="_blank" rel="noopener">ANES 2020 Time Series</a> who reported voting for Biden or Trump, using the survey’s post-election weights. Two constraints keep it readable: weights move in one direction along each answer scale, and training randomly hides answers so that the live estimate stays calibrated when only a few questions are answered.</p>
+        <div class="facts">
+          <div class="fact"><div class="n" id="fAcc">91.8%</div><div class="l">correct on held-out voters, 5-fold cross-validation</div></div>
+          <div class="fact"><div class="n" id="fAuc">0.975</div><div class="l">ROC AUC</div></div>
+          <div class="fact"><div class="n" id="fTok">62</div><div class="l">answer tokens across 16 questions</div></div>
+        </div>
+        <p>Limits: the model only knows the 2020 two-party electorate. Non-voters and third-party voters are not in the data, and party coalitions have shifted since. It predicts from statistical association, so read the result as a description of who tended to answer this way, not as a judgment of anyone.<span class="privacy"> Your answers stay in this page and are not saved or sent anywhere.</span></p>
+      </div>
+    </details>
     <details>
       <summary>Show all model weights</summary>
       <div class="tablewrap"><table id="wtable"><thead><tr><th>Answer</th><th>Weight</th><th>Biden voters</th><th>Trump voters</th></tr></thead><tbody></tbody></table></div>
