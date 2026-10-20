@@ -20,6 +20,10 @@
 //
 //   await crosspost.fixBody(<id>, '<slug>', { tables: true })  // or {} for widgets only
 //   await crosspost.waitSaved(<id>)  // until the server has the new body
+//
+// or, for paragraphs or tables edited on the blog after cross-posting:
+//
+//   await crosspost.syncEdits(<id>, '<slug>', { paragraphs: [['<old opening>', '<new opening>']], tables: true })
 //   await crosspost.update()         // clicks Update, then Update now
 
 window.crosspost = {
@@ -285,22 +289,73 @@ window.crosspost = {
     c.splice(1, 0, this.widget());
     ed.commands.setContent({ type: 'doc', content: c }, true);
     await new Promise((r) => setTimeout(r, 2500));
-    const after = ed.getJSON().content;
-    this.expectedWidgets = after.map((n, i) => (n.type === 'subscribeWidget' ? i : -1)).filter((i) => i >= 0).join(',');
-    return { replaced, midText, before: orig.content.length, after: after.length, widgets: this.expectedWidgets };
+    const after = ed.getJSON();
+    this.expected = this.fingerprint(after);
+    return { replaced, midText, before: orig.content.length, after: after.content.length, widgets: this.expected.split('|')[0] };
   },
 
-  // Wait until the server's draft has the widgets where fixBody put them. The
-  // editor's "Saved" badge can be early, and Update publishes the server's copy.
+  // Bring a published post in line with edits made on the blog after it was
+  // cross-posted. Each pair in `paragraphs` gives the opening words of a
+  // paragraph on Substack and of its new version on the live page; that
+  // paragraph is replaced. With tables: true, every table image is uploaded
+  // again from the site, in order. The widgets stay where they are. The old
+  // body is stashed in sessionStorage as orig-<id>.
+  async syncEdits(postId, slug, { paragraphs = [], tables = false } = {}) {
+    const ed = this.editor();
+    const orig = ed.getJSON();
+    sessionStorage.setItem(`orig-${postId}`, JSON.stringify(orig));
+    const fail = (msg) => {
+      ed.commands.setContent(orig, false);
+      throw new Error(msg);
+    };
+    const c = JSON.parse(JSON.stringify(orig.content));
+    const postUrl = `${this.SITE}/blog-${slug}.html`;
+    const art = (await this.livePage(slug)).querySelector('.blog-article-content');
+    const replaced = [];
+    for (const [oldStart, newStart] of paragraphs) {
+      const at = c.findIndex((n) => n.type === 'paragraph' && this.text(n).startsWith(oldStart));
+      const p = [...art.querySelectorAll('p')].find((e) => e.textContent.trim().startsWith(newStart));
+      if (at < 0) fail(`No Substack paragraph starts "${oldStart}"`);
+      if (!p) fail(`No paragraph on the blog starts "${newStart}"`);
+      for (const a of p.querySelectorAll('a')) a.setAttribute('href', new URL(a.getAttribute('href'), postUrl).href);
+      ed.commands.setContent(p.outerHTML, false);
+      c[at] = ed.getJSON().content[0];
+      replaced.push(at);
+    }
+    let images = 0;
+    if (tables) {
+      const isTable = (n) => n.type === 'captionedImage' && JSON.stringify(n).includes('"alt":"Table: ');
+      const at = c.map((n, i) => (isTable(n) ? i : -1)).filter((i) => i >= 0);
+      const nodes = await this.tableNodes(slug);
+      if (at.length !== nodes.length) fail(`${at.length} table images but ${nodes.length} tables`);
+      at.forEach((i, k) => (c[i] = nodes[k]));
+      images = nodes.length;
+    }
+    ed.commands.setContent({ type: 'doc', content: c }, true);
+    await new Promise((r) => setTimeout(r, 2500));
+    this.expected = this.fingerprint(ed.getJSON());
+    return { replaced, images, nodes: c.length };
+  },
+
+  // What waitSaved compares: the widget positions, the image sources and the text.
+  fingerprint(body) {
+    const widgets = body.content.map((n, i) => (n.type === 'subscribeWidget' ? i : -1)).filter((i) => i >= 0).join(',');
+    const srcs = (JSON.stringify(body).match(/"src":"[^"]*"/g) || []).join(',');
+    return `${widgets}|${srcs}|${this.text(body).replace(/\s+/g, ' ').trim()}`;
+  },
+
+  // Wait until the server's draft matches the editor after fixBody or
+  // syncEdits. The editor's "Saved" badge can be early, and Update publishes
+  // the server's copy.
   async waitSaved(postId) {
-    let at = '';
+    let got = '';
     for (let i = 0; i < 20; i++) {
       await new Promise((r) => setTimeout(r, 1000));
       const d = await fetch(`/api/v1/drafts/${postId}`, { cache: 'no-store' }).then((r) => r.json());
-      at = JSON.parse(d.draft_body).content.map((n, k) => (n.type === 'subscribeWidget' ? k : -1)).filter((k) => k >= 0).join(',');
-      if (at === this.expectedWidgets) return { saved: true, title: d.draft_title };
+      got = this.fingerprint(JSON.parse(d.draft_body));
+      if (got === this.expected) return { saved: true, title: d.draft_title };
     }
-    throw new Error(`Server has widgets at ${at}, expected ${this.expectedWidgets}`);
+    throw new Error(`The server's draft still differs from the editor (widgets at ${got.split('|')[0]}, expected ${this.expected.split('|')[0]})`);
   },
 
   // Click the orange Update button, then Update now. Returns the checked radio

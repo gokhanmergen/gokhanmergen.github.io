@@ -164,12 +164,26 @@ links keep working.
    ```
 
    It always rebuilds the three widgets. It stashes the old body in
-   `sessionStorage` as `orig-<id>`. For other edits, change
+   `sessionStorage` as `orig-<id>`.
+
+   When paragraphs or tables were edited on the blog after cross-posting,
+   push the blog first (with any re-rendered table images), then:
+
+   ```js
+   await crosspost.syncEdits(<id>, '<slug>', {
+     paragraphs: [['<old opening words>', '<new opening words>']],  // Substack's, then the blog's
+     tables: true,                                                   // upload every table image again
+   })
+   ```
+
+   Each pair replaces the paragraph that starts with the old words by the
+   live page's paragraph that starts with the new ones, links included. The
+   widgets stay where they are. For other edits, change
    `crosspost.editor().getJSON()` and `setContent` it; JSON copied from the
    server needs its marks renamed (see "Editor JSON marks").
 4. A new title goes in the `textarea.page-title` field: click it, select all
    with cmd+a, and type the title. The subtitle is `textarea.subtitle`.
-5. `await crosspost.waitSaved(<id>)` waits until the server's draft has the
+5. `await crosspost.waitSaved(<id>)` waits until the server's draft matches the
    new body. Don't rely on the "Saved" badge: a check made 4 seconds after
    `setContent` once still found the old body.
 6. `await crosspost.update()` clicks **Update**, checks that audience and
