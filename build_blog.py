@@ -33,7 +33,7 @@ GISCUS = {
 # sign-up form is only rendered once this is set.
 # Opening paragraphs included in feed.xml (and so in subscriber emails) as a
 # preview: whole paragraphs until at least this many words.
-EXCERPT_WORDS = 150
+EXCERPT_WORDS = 300
 SUBSCRIBE_URL = "https://script.google.com/macros/s/AKfycbyMgkWyLDugpKs2FhQ5tvIEUmPvQk8MXuIIiCxF0XAPpWb6Ice00VOj39yuu2wRJv6WTA/exec"
 # KaTeX renders LaTeX math on posts that contain it: display blocks fenced by
 # $$ lines, and inline math written as \( ... \). Other pages don't load it.
@@ -509,11 +509,18 @@ def comments_section(post: Post) -> str:
 
 
 def render_excerpt(post: Post) -> str:
-    """Return the post's opening paragraphs as HTML, skipping headings and images."""
+    """Return the post's opening paragraphs as HTML.
+
+    Headings, lists, images and the caption paragraph right after an image
+    are skipped, since the caption makes no sense without its image.
+    """
     paragraphs: List[str] = []
     words = 0
+    after_image = False
     for block in render_markdown(post.body).split("\n\n"):
-        if not block.startswith("<p>"):
+        is_caption = after_image
+        after_image = block.startswith("<figure")
+        if not block.startswith("<p>") or is_caption:
             continue
         paragraphs.append(block)
         words += len(re.sub(r"<[^>]+>", " ", block).split())
