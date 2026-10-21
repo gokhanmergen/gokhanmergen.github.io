@@ -327,6 +327,7 @@ def is_block_start(line: str) -> bool:
         or line.startswith("### ")
         or line.startswith("> ")
         or line.startswith("$$")
+        or line.startswith(":::")
         or is_table_row(line)
         or is_image(line)
         or is_embed(line)
@@ -376,6 +377,22 @@ def render_markdown(markdown: str) -> str:
             )
             output.append(f'<p class="blog-article-emphasis">{quote}</p>')
             continue
+
+        # "::: fold" up to a ":::" line is a section that starts closed; its
+        # first line, a ## or ### heading, is what the reader clicks to open it.
+        if line == "::: fold":
+            end = next((i for i in range(cursor + 1, len(lines)) if lines[i].strip() == ":::"), None)
+            if end is None:
+                raise ValueError("A '::: fold' section has no closing ':::' line")
+            heading, _, rest = render_markdown("\n".join(lines[cursor + 1 : end])).partition("\n\n")
+            if not re.match(r"<h[23]>", heading):
+                raise ValueError("A '::: fold' section must start with a ## or ### heading")
+            output.append(f'<details class="blog-article-fold"><summary>{heading}</summary>\n\n{rest}\n\n</details>')
+            cursor = end + 1
+            continue
+
+        if line.startswith(":::"):
+            raise ValueError(f"Unexpected line {line!r}: a fold opens with '::: fold' and closes with ':::'")
 
         if line.startswith("$$"):
             math_lines = [line[2:]]
@@ -569,12 +586,15 @@ def render_excerpt(post: Post) -> str:
     """Return the post's opening paragraphs as HTML.
 
     Headings, lists, images and the caption paragraph right after an image
-    are skipped, since the caption makes no sense without its image.
+    are skipped, since the caption makes no sense without its image. Folded
+    sections end the excerpt.
     """
     paragraphs: List[str] = []
     words = 0
     after_image = False
     for block in render_markdown(post.body).split("\n\n"):
+        if block.startswith("<details"):
+            break
         is_caption = after_image
         after_image = block.startswith("<figure")
         if not block.startswith("<p>") or is_caption:

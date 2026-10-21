@@ -132,6 +132,21 @@ Write a display equation between two lines containing only `$$`, and inline
 math as `\(s_{AI}\)`. Do not use single `$` delimiters; dollar amounts in the
 text stay plain.
 
+To fold a section such as an appendix, so that it starts closed, put a line
+containing only `::: fold` before its `##` (or `###`) heading and a line
+containing only `:::` after its last line. The heading stays visible with an
+arrow, and clicking it opens the section. Folds can't be nested, and the feed
+excerpt stops at the first one. Count only the unfolded text for
+`read_time`.
+
+```markdown
+::: fold
+## Appendix A: Data
+
+The appendix text, tables and images.
+:::
+```
+
 ## Adding a translation
 
 A translation is its own file, named after its own slug (for example

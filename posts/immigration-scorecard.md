@@ -3,8 +3,8 @@ slug: immigration-scorecard
 date: 2026-10-20
 time: 18:09
 category: Immigration / Policy
-read_time: 17 min read
-title: Who Built the American Engine? An Immigration Policy Scorecard, 1965–2026
+read_time: 9 min read
+title: Who Built the American Engine?
 deck: Listen to cable news and immigration looks like a zero-sum drain on American workers. Count the businesses founded, the deficits reduced, and the medals won, then the track record strongly favors immigration.
 archive_deck: Listen to cable news and immigration looks like a zero-sum drain on American workers. Count the businesses founded, the deficits reduced, and the medals won, then the track record strongly favors immigration.
 ---
@@ -110,6 +110,7 @@ How has Washington managed the laws that bring this talent in? Appendix A scores
 
 **What Democrats own.** The Biden administration unwound border enforcement before building processing capacity, and net migration reached roughly 2.8 million a year in 2023–2024. CBO projected a $0.9 trillion federal fiscal gain, but the near-term costs fell on cities such as New York, Chicago, and Denver, eroding public support until Biden restricted asylum in June 2024. With full control of Congress in 2021–2022, Democrats also let green-card recapture and STEM Ph.D. exemptions drop out of the America COMPETES Act and Build Back Better, leaving more than 250,000 "Documented Dreamers," children raised here on their parents' visas, at risk of losing legal status at 21.
 
+::: fold
 ## Appendix A: The U.S. Immigration Policy Scorecard (1965–2026)
 
 | Year | Law or Executive Policy | Coalition / President | Core Policy Mechanism | GDP & Talent Score | Federal Fiscal & Backlog Impact (CBO / Empirical) |
@@ -125,7 +126,9 @@ How has Washington managed the laws that bring this talent in? Appendix A scores
 | **2017–2020** | **Trump I Executive Restrictions** ("Buy American, Hire American") | Executive Action / D. Trump (R) | Spiked H-1B denial rates from 6% to 24%; travel bans; suspended green cards & work visas in 2020 | **Negative:** Accelerated U.S. multinational offshoring to Canada and India (Glennon, 2024) | Reduced high-bracket payroll & income tax inflows during tight pre-COVID labor markets |
 | **2021–2024** | **Biden Border Surge & Parole Expansion** (plus CHIPS Act minus STEM green cards) | Executive Action / J. Biden (D) | Record 2.8M/yr net migration via asylum & humanitarian parole; failed to pass STEM green-card recapture in Congress | **CBO Score: +$8.9 Trillion nominal GDP (2024–2034)**; +5.2M workers by 2033 | **CBO Score: Cuts federal deficits by $0.9 Trillion ($900B) over 2024–2034**, but strained municipal shelter budgets (CBO, June 2025) |
 | **2025–2026** | **Trump II Skilled-Visa & University Crackdown** (H-1B fee hikes, J-1 probes, **Oct 2026 PERM Ban**) | Executive Action / D. Trump (R) | $100k H-1B fee (Sept 2025 proclamation; vacated June 2026) and proposed $103,265 cap-petition fee (Aug 2026); J-1 probes into 9 top universities; **suspended Microsoft, Adobe & 6 IT firms from PERM green cards** | **Severely Negative:** Directly targets the F-1/H-1B/PERM pipeline that produced 5 of 6 Oct 2026 Presidential Medalists | **Negative long-run fiscal score:** Shrinks top-decile taxpayer growth and drives frontier AI/STEM Ph.D. talent abroad |
+:::
 
+::: fold
 ## Appendix B: The Talent & Fiscal Evidence
 
 ### B.1: U.S. Nobel Prizes in Physics, Chemistry, and Medicine (2000–2025)
@@ -143,7 +146,9 @@ The pattern holds year to year: in 2025, 3 of 6 U.S. science laureates were immi
 *Source: Congressional Budget Office, “Effects of the Immigration Surge on the Federal Budget and the Economy,” Pub. 60165 (July 23, 2024); labor force from CBO, “The Budget and Economic Outlook: 2024 to 2034” (Feb 2024)*
 
 New revenue outweighs new spending about 4 to 1. Taxes come mainly from individual income and payroll taxes; spending comes from premium tax credits, other refundable credits, and Medicaid, plus higher interest costs because the surge nudges interest rates up through 2034. CBO also projects that the surge adds $8.9 trillion to nominal GDP over the decade and raises real GDP 2.9% by 2034, and its February 2024 outlook adds 5.2 million people to the labor force by 2033, mostly of prime working age. The estimate excludes discretionary spending, which would rise by roughly $0.2 trillion if scaled to the larger population.
+:::
 
+::: fold
 ## Appendix C: Methodology and Full References
 
 ### Methodology Notes
@@ -182,3 +187,4 @@ New revenue outweighs new spending about 4 to 1. Taxes come mainly from individu
 26. **U.S. Department of Homeland Security (2026).** *"Fee for Certain H-1B Petitions"* (proposed rule). *Federal Register*, August 25, 2026.
 27. **Mathematical Association of America (2024–2026).** Team USA results at the 65th, 66th, and 67th International Mathematical Olympiads (1st place 2024; 2nd place 2025 and 2026).
 28. **Center for Excellence in Education (2026).** *"U.S. Students Earn Four Gold Medals at 2026 International Biology Olympiad in Vilnius, Lithuania."* July 23, 2026.
+:::

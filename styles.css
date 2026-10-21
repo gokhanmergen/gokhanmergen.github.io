@@ -2892,6 +2892,42 @@ body.lightbox-open {
   line-height: 1.6;
 }
 
+/* A "::: fold" section: closed by default; its heading opens it. */
+.blog-article-fold > summary {
+  display: block;
+  cursor: pointer;
+  list-style: none;
+}
+
+.blog-article-fold > summary::-webkit-details-marker {
+  display: none;
+}
+
+.blog-article-fold > summary > :is(h2, h3) {
+  display: flex;
+  gap: 0.4em;
+}
+
+.blog-article-fold > summary > :is(h2, h3)::before {
+  content: "▸";
+  flex: none;
+  color: var(--muted);
+  transition: transform 0.15s;
+}
+
+.blog-article-fold[open] > summary > :is(h2, h3)::before {
+  transform: rotate(90deg);
+}
+
+.blog-article-fold + .blog-article-fold > summary > :is(h2, h3) {
+  margin-top: 22px;
+}
+
+.blog-article-fold > summary:focus-visible {
+  outline: 3px solid rgba(53, 99, 233, 0.35);
+  outline-offset: 4px;
+}
+
 .blog-article-content a {
   color: var(--brand-dark);
   font-weight: 700;
