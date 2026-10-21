@@ -6,8 +6,8 @@ date: 2026-10-06
 category: Hakikat / Toplum
 read_time: 9 dk okuma
 title: Verilmeye Değer Tek Savaş
-deck: Bir soruyu sormak saniyeler sürer, cevaplamak için bir bakanlık gerekir. Putin'in tarih dersinden KGB'nin AIDS uydurmasına, sahte şüphe özgür toplumları nasıl aşındırıyor? Savunmaya değer Batı neden bir bayrak değil, bir ilkeler bütünüdür?
-archive_deck: Bir soruyu sormak saniyeler sürer, cevaplamak için bir bakanlık gerekir. Putin'in tarih dersinden KGB'nin AIDS uydurmasına, sahte şüphe özgür toplumları nasıl aşındırıyor? Savunmaya değer Batı neden bir bayrak değil, bir ilkeler bütünüdür?
+deck: Bir soruyu sormak saniyeler sürer, cevaplamak için bir bakanlık gerekir. Rus propagandası özgür toplumları nasıl aşındırıyor? Savunmaya değer Batı neden bir bayrak değil, bir ilkeler bütünüdür?
+archive_deck: Bir soruyu sormak saniyeler sürer, cevaplamak için bir bakanlık gerekir. Rus propagandası özgür toplumları nasıl aşındırıyor? Savunmaya değer Batı neden bir bayrak değil, bir ilkeler bütünüdür?
 ---
 
 ![Hiciv amaçlı bir internet görseli: Vladimir Putin ile Tucker Carlson yatakta sırt sırta uzanmış, Carlson ise Adolf Hitler'i hayal ediyor](Carlson.jpg)

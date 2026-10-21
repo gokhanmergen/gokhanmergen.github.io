@@ -6,8 +6,8 @@ date: 2026-10-12
 category: Çalışma Hayatı / Yapay Zekâ
 read_time: 20 dk okuma
 title: Madencisiz Altına Hücum mu?
-deck: Bilişsel işe talep, yapay zekânın insanların yerini almasından hızlı mı büyüyecek? Büyümezse aradaki farkı yeni işler kapatır mı? Elektronik tablolardan ATM'lere, oradan 2026'nın giriş seviyesi işe alım verilerine uzanan, yapay zekâ karamsarlarıyla beş rauntluk bir tartışma.
-archive_deck: Bilişsel işe talep, yapay zekânın insanların yerini almasından hızlı mı büyüyecek? Büyümezse aradaki farkı yeni işler kapatır mı? Elektronik tablolardan ATM'lere, oradan 2026'nın giriş seviyesi işe alım verilerine uzanan, yapay zekâ karamsarlarıyla beş rauntluk bir tartışma.
+deck: Bilişsel işe talep, yapay zekânın insanların yerini almasından hızlı mı büyüyecek? Büyümezse aradaki farkı yeni işler kapatır mı? Yapay zekâ iyimserleri ve karamsarlarıyla beş rauntluk bir tartışma.
+archive_deck: Bilişsel işe talep, yapay zekânın insanların yerini almasından hızlı mı büyüyecek? Büyümezse aradaki farkı yeni işler kapatır mı? Yapay zekâ iyimserleri ve karamsarlarıyla beş rauntluk bir tartışma.
 ---
 
 ## **Yaygın tahmin ve altı kelimelik yanıt**

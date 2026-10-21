@@ -7,8 +7,8 @@ category: Ajanlar / Ekonomi
 read_time: 9 dk okuma
 title: Cephe Hattı Durmadan Kayıyor: Kodlamadan Sonra Sırada Ne Var?
 archive_title: Kodlamadan Sonra Sırada Ne Var?
-deck: Zekâ hızla ucuzluyor ve doygunluğa ulaşan her yetenek, rekabetin ön cephesi olmaktan çıkıyor. Sohbetten ve kodlamadan sonra cephe önce eyleme geçen sistemlere, ardından bir firma gibi eşgüdümle çalışan ajan organizasyonlarına kayıyor.
-archive_deck: Zekâ hızla ucuzluyor ve doygunluğa ulaşan her yetenek, rekabetin ön cephesi olmaktan çıkıyor. Sohbetten ve kodlamadan sonra cephe önce eyleme geçen sistemlere, ardından bir firma gibi eşgüdümle çalışan ajan organizasyonlarına kayıyor.
+deck: Zekâ hızla ucuzluyor ve doygunluğa ulaşan her yetenek, rekabetin ön cephesi olmaktan çıkıyor. Sohbetten ve kodlamadan sonra sırada ne var?
+archive_deck: Zekâ hızla ucuzluyor ve doygunluğa ulaşan her yetenek, rekabetin ön cephesi olmaktan çıkıyor. Sohbetten ve kodlamadan sonra sırada ne var?
 ---
 
 Yapay zekâ sektörünü okumanın en az işe yarayan yolu, bu ay benchmark sıralamalarının tepesinde kim oturuyorsa geleceğin de onun olacağını varsaymaktır. Oysa daha önemli eğilim tam tersini söylüyor: Zekâ hızla ucuzluyor.

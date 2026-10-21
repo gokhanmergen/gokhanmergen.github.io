@@ -7,8 +7,8 @@ time: 20:20
 category: Uzun Ömür / Tıp
 read_time: 40 dk okuma
 title: Uzun Ömre Bahis Oynamak: Kanıta Dayalı Bir Rehber
-deck: Uzun ömür için oynanabilecek her bahsi kanıtının gücüne göre sıralayın: Tabanda ölüm oranını ölçen randomize çalışmalar, tepede yalnızca farelerde denenmiş fikirler var. En çok da tabana oynayın.
-archive_deck: Uzun ömür için oynanabilecek her bahsi kanıtının gücüne göre sıralayın: Tabanda ölüm oranını ölçen randomize çalışmalar, tepede yalnızca farelerde denenmiş fikirler var. En çok da tabana oynayın.
+deck: Uzun ömür için yapılabilecek her müdahaleyi kanıtının gücüne göre sıralayın: Tabanda randomize klinik çalışmalar, tepede yalnızca farelerde denenmiş fikirler var.
+archive_deck: Uzun ömür için yapılabilecek her müdahaleyi kanıtının gücüne göre sıralayın: Tabanda randomize klinik çalışmalar, tepede yalnızca farelerde denenmiş fikirler var.
 ---
 
 ## Bahisler nasıl seçilir

@@ -4,8 +4,8 @@ date: 2026-10-01
 category: Humanity / AI
 read_time: 8 min read
 title: Ape++
-deck: From war and famine to Mars and AI successors, humanity’s repeated failures raise an engineering question: are we fixing bugs, or confronting the architecture?
-archive_deck: From war and famine to Mars and AI successors, humanity’s repeated failures raise an engineering question: are we fixing bugs, or confronting the architecture?
+deck: From war and famine to Mars and AI successors, humanity’s repeated failures raise a question: are we fixing the bugs, or confronting the architecture?
+archive_deck: From war and famine to Mars and AI successors, humanity’s repeated failures raise a question: are we fixing the bugs, or confronting the architecture?
 ---
 
 ## **The mirror**

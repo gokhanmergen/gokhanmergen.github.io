@@ -6,8 +6,8 @@ date: 2026-10-01
 category: İnsanlık / Yapay Zekâ
 read_time: 8 dk okuma
 title: Ape++
-deck: Savaştan kıtlığa, Mars’tan yapay zekâ haleflerimize: İnsanlığın dönüp dolaşıp aynı yerde tökezlemesi bir mühendislik sorusu doğuruyor. Hataları mı ayıklıyoruz, yoksa mimarinin kendisiyle mi yüzleşiyoruz?
-archive_deck: Savaştan kıtlığa, Mars’tan yapay zekâ haleflerimize: İnsanlığın dönüp dolaşıp aynı yerde tökezlemesi bir mühendislik sorusu doğuruyor. Hataları mı ayıklıyoruz, yoksa mimarinin kendisiyle mi yüzleşiyoruz?
+deck: Savaştan kıtlığa, Mars’tan yapay zekâ haleflerimize: İnsanlığın dönüp dolaşıp aynı yerde tökezlemesi bir soru doğuruyor. Hataları mı ayıklıyoruz, yoksa mimarinin kendisiyle mi yüzleşiyoruz?
+archive_deck: Savaştan kıtlığa, Mars’tan yapay zekâ haleflerimize: İnsanlığın dönüp dolaşıp aynı yerde tökezlemesi bir soru doğuruyor. Hataları mı ayıklıyoruz, yoksa mimarinin kendisiyle mi yüzleşiyoruz?
 ---
 
 ## **Ayna**

@@ -4,8 +4,8 @@ date: 2026-10-12
 category: Work / AI
 read_time: 20 min read
 title: A Gold Rush Without Miners?
-deck: Will demand for cognitive work outrun AI's ability to replace people, and will new work make up the difference? A five-round debate with the AI pessimists, from spreadsheets and ATMs to the 2026 junior-hiring data.
-archive_deck: Will demand for cognitive work outrun AI's ability to replace people, and will new work make up the difference? A five-round debate with the AI pessimists, from spreadsheets and ATMs to the 2026 junior-hiring data.
+deck: Will demand for cognitive work outrun AI's ability to replace people, and will new work make up the difference? A five-round debate with the AI optimists and AI pessimists.
+archive_deck: Will demand for cognitive work outrun AI's ability to replace people, and will new work make up the difference? A five-round debate with the AI optimists and AI pessimists.
 ---
 
 ## **The prediction, and a six-word reply**

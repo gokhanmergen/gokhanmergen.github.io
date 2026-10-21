@@ -6,8 +6,8 @@ date: 2026-10-02
 category: Süper Zekâ / Toplum
 read_time: 14 dk okuma
 title: Yapay Süper Zekâyla Nasıl Bir İlişki Kuracağız?
-deck: Süper zekâ danışmanımız, vekilimiz, arka planda bize yol gösteren rehberimiz olabilir. Ama dünya indirgenemez; deney, insan muhakemesi ve zaman yine de şart olacak.
-archive_deck: Süper zekâ danışmanımız, vekilimiz, arka planda bize yol gösteren rehberimiz olabilir. Ama dünya indirgenemez; deney, insan muhakemesi ve zaman yine de şart olacak.
+deck: Süper zekâ danışmanımız, vekilimiz, arka planda bize yol gösteren rehberimiz olabilir. Ama dünya indirgenemez; deney ve zaman yine de şart olacak.
+archive_deck: Süper zekâ danışmanımız, vekilimiz, arka planda bize yol gösteren rehberimiz olabilir. Ama dünya indirgenemez; deney ve zaman yine de şart olacak.
 ---
 
 ## **Soru değişti**

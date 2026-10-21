@@ -5,8 +5,8 @@ time: 20:20
 category: Longevity / Medicine
 read_time: 40 min read
 title: Betting on Longevity: An Evidence-First Guide
-deck: Rank every longevity bet by the strength of its evidence, from randomized mortality trials at the base to mouse-only ideas at the peak, and bet heaviest on the base.
-archive_deck: Rank every longevity bet by the strength of its evidence, from randomized mortality trials at the base to mouse-only ideas at the peak, and bet heaviest on the base.
+deck: Rank every longevity intervention by the strength of its evidence, from randomized clinical trials at the base to mouse-only ideas at the peak.
+archive_deck: Rank every longevity intervention by the strength of its evidence, from randomized clinical trials at the base to mouse-only ideas at the peak.
 ---
 
 ## How to choose what to bet on

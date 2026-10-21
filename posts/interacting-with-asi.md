@@ -4,8 +4,8 @@ date: 2026-10-02
 category: ASI / Society
 read_time: 14 min read
 title: How Will We Interact with ASI?
-deck: Superintelligence may become our advisor, delegate, and ambient guide. But an irreducible world will still demand experiments, human judgment, and time.
-archive_deck: Superintelligence may become our advisor, delegate, and ambient guide. But an irreducible world will still demand experiments, human judgment, and time.
+deck: Superintelligence may become our advisor, delegate, and ambient guide. But an irreducible world will still demand experiments and time.
+archive_deck: Superintelligence may become our advisor, delegate, and ambient guide. But an irreducible world will still demand experiments and time.
 ---
 
 ## **The question has changed**
