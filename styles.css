@@ -2908,15 +2908,16 @@ body.lightbox-open {
   gap: 0.4em;
 }
 
+/* Swapped rather than rotated: a rotated arrow drifts off the first line. */
 .blog-article-fold > summary > :is(h2, h3)::before {
   content: "▸";
   flex: none;
+  width: 0.8em;
   color: var(--muted);
-  transition: transform 0.15s;
 }
 
 .blog-article-fold[open] > summary > :is(h2, h3)::before {
-  transform: rotate(90deg);
+  content: "▾";
 }
 
 .blog-article-fold + .blog-article-fold > summary > :is(h2, h3) {
