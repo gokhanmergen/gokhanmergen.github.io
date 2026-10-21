@@ -2,7 +2,7 @@
 slug: who-broke-the-budget
 date: 2026-10-18
 category: Economy / Politics
-read_time: 20 min read
+read_time: 9 min read
 title: Who Broke the USA's Budget? A Fiscal Scorecard, 2000–2026
 deck: A law-by-law scorecard of U.S. federal borrowing since 2000. Count who sat in the White House and the two parties look roughly even. Count the laws they chose to pass, and the record is lopsided.
 archive_deck: A law-by-law scorecard of U.S. federal borrowing since 2000. Count who sat in the White House and the two parties look roughly even. Count the laws they chose to pass, and the record is lopsided.
@@ -115,6 +115,7 @@ Since 2000, the party that campaigns on fiscal discipline has been the main auth
 
 Democrats share the blame for locking in most of the Bush cuts and for borrowing too much in 2021. But the fair headline is not that both parties did it. It is that one party dug most of the hole, and the other did too little to fill it.
 
+::: fold
 ## Appendix A: The law-by-law scorecard
 
 Outside emergencies, major laws passed mainly on Republican votes added about $6.9 trillion of ten-year borrowing at enactment. Democratic-led laws outside emergencies were scored as cutting deficits by about $0.4 trillion, and bipartisan laws added a net $3.8 trillion after the 2011 and 2023 deficit deals. Scaled to the GDP of the year each passed, that is roughly 38%, −2% and 25% of a year's output.
@@ -160,7 +161,9 @@ Four judgment calls move the totals, and a reader should see each one.
 4. **Costs at enactment exclude interest and later re-estimates,** which cut both ways. The 2017 and 2025 tax laws cost more once interest is counted, while later estimates put the IRA's clean-energy credits far above their original score.
 
 CRFB's independent tally points the same way. It counts [$8.4 trillion](https://www.crfb.org/papers/trump-and-biden-national-debt) of new ten-year borrowing approved by Trump in his first term ($4.8 trillion excluding COVID relief), against $4.3 trillion by Biden through mid-2024 ($2.2 trillion excluding the American Rescue Plan). Its figures run higher than the table's because they include interest and score the caps deals as if the higher spending levels continue. By its count, [77% of Trump's total](https://crfb.org/blogs/trump-and-biden-partisan-breakdown-new-debt) came through bipartisan bills, against 29% of Biden's.
+:::
 
+::: fold
 ## Appendix B: The rest of the ledger
 
 Not every large law since 2000 fits the tax-cut pattern, and the rest of the record cuts both ways.
@@ -182,7 +185,9 @@ Not every large law since 2000 fits the tax-cut pattern, and the rest of the rec
 - **COVID relief (2020).** Four laws totaling [$3.4 trillion](https://www.crfb.org/blogs/breaking-down-34-trillion-covid-relief), led by the CARES Act at $1.9 trillion, which passed the Senate 96–0.
 - **Infrastructure (2021) and veterans' care (2022).** The infrastructure law added [$256 billion](https://abcnews4.com/news/nation-world/cbo-bipartisan-infrastructure-deal-would-add-256b-to-deficit-over-10-years) and the PACT Act about $280 billion of direct spending, both signed by Biden with sizable Republican support. Counting related discretionary spending and interest, CRFB puts PACT at [$520 billion](https://www.axios.com/2024/06/24/trump-vs-biden-debt-math-macro).
 - **Fiscal Responsibility Act (2023).** About [$1.5 trillion](https://www.opb.org/article/2023/05/31/house-approves-the-biden-mccarthy-debt-ceiling-bill/) of deficit reduction, extracted by House Republicans in another debt-ceiling standoff. It passed the House 314–117.
+:::
 
+::: fold
 ## Appendix C: Evidence notes
 
 ### Opening figures
@@ -232,6 +237,7 @@ Not every large law since 2000 fits the tax-cut pattern, and the rest of the rec
 - Real median household income was a record [$87,460 in 2025](https://www.census.gov/library/stories/2026/09/median-household-income.html), up 2.6%. Income at the 10th percentile was flat, while the 90th percentile rose for a third straight year.
 - CBO's distributional analysis of the 2025 law: the bottom tenth of households [loses about $1,200 a year](https://tax.thomsonreuters.com/news/cbo-analyzes-distributional-effects-of-budget-act/) (3.1% of income); the top tenth gains $13,600 (2.7%).
 - On the 2013 tax deal, 172 House Democrats and 85 Republicans voted yes; [151 Republicans voted no](https://whyy.org/articles/cliff-notes-is-george-w-bush-smiling).
+:::
 
 ## References
 

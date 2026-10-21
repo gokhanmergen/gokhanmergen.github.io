@@ -4,7 +4,7 @@ translation_of: gold-rush-without-miners
 lang: tr
 date: 2026-10-12
 category: Çalışma Hayatı / Yapay Zekâ
-read_time: 25 dk okuma
+read_time: 20 dk okuma
 title: Madencisiz Altına Hücum mu?
 deck: Bilişsel işe talep, yapay zekânın insanların yerini almasından hızlı mı büyüyecek? Büyümezse aradaki farkı yeni işler kapatır mı? Elektronik tablolardan ATM'lere, oradan 2026'nın giriş seviyesi işe alım verilerine uzanan, yapay zekâ karamsarlarıyla beş rauntluk bir tartışma.
 archive_deck: Bilişsel işe talep, yapay zekânın insanların yerini almasından hızlı mı büyüyecek? Büyümezse aradaki farkı yeni işler kapatır mı? Elektronik tablolardan ATM'lere, oradan 2026'nın giriş seviyesi işe alım verilerine uzanan, yapay zekâ karamsarlarıyla beş rauntluk bir tartışma.
@@ -201,6 +201,7 @@ Birey olarak yapılabilecek en iyi şey, bu sistemlerle yarışan değil, onlar�
 
 1849'da en garantili serveti kürek satanlar yaptı. Bu kez küreklerin kendisi kazabiliyor. Eskiden toprağı insanlar kazıyordu; onlara hâlâ iş kalıp kalmayacağı iki açık soruya bağlı: Yapay zekâ insanların yaptığı görevlere ne kadar uzanabilecek, yeni işler ne hızla ortaya çıkacak?
 
+::: fold
 ## **Ek A: Eşitsizliğin arkasındaki matematik**
 
 Eşitsizliğin dayandığı sonuçlar emek iktisadında standarttır (Hicks 1932; Hamermesh 1993). [Akademik makalem](/pubs/cheaper-intelligence/cheaper-intelligence.pdf) bunları ayrıntılı olarak türetiyor; yalnız makalede, bu ekteki AI yerine M kullanılıyor (\(s_{AI}\) yerine \(s_M\) gibi).
@@ -258,7 +259,9 @@ $$
 ### **Modelin dışarıda bıraktıkları**
 
 Bu sonuçlar, rekabetçi fiyatlamanın ve ölçeğe göre sabit getirinin hâkim olduğu tek bir sektörü anlatır. Çalışanların sektörler arasında geçişini, çalışanlar arasındaki farkları, firmaların rakiplerinden pazar kapmasını ve yapay zekâ geliştikçe σ'nın değişmesini hesaba katmaz. Rauntlar bu konuları ele alıyor.
+:::
 
+::: fold
 ## **Ek B: İki tarihsel örnek daha**
 
 Yazılım da fotoğrafçılık da talepte muazzam bir patlamayı tetikledi. Ayrıldıkları nokta, yeni işi kimin yaptığı; bu yüzden ikisini yan yana koymak öğretici.
@@ -282,7 +285,9 @@ Talep çok daha hızlı büyüdü. Bir tahmine göre 1860'ların başında İngi
 Minyatür ressamları bu patlamadan nasibini alamadı. Zanaatları [1840 dolaylarından itibaren geriledi](https://web.archive.org/web/20170913224040/http://www.lasalle.edu/magazine/story/miniature-portraits-join-permanent-display-at-art-museum/) ve [unutulmuş bir sanata dönüştü](https://www.metmuseum.org/essays/american-portrait-miniatures-of-the-nineteenth-century); gerçi içlerinden birkaçı [fotoğrafçılığa geçti](https://eapoe.org/PAPERS/misc1921/deas105a.htm).
 
 Böylece tek bir teknoloji, görüntü üretiminde bir Altına Hücum'a, minyatürcüler içinse bir "istihdamsız patlama"ya yol açtı. Bugünden farkı şu: 1850'lerin yeni talebi, fotoğraf makinesinin arkasında hâlâ bir insan istiyordu. Karamsarlarsa uyarıyor: Bu kez yeni işe alınanlar hiç insan olmayabilir.
+:::
 
+::: fold
 ## **Ek C: 3. Rauntun dayandığı kanıtlar**
 
 Üçüncü raunt, hızla gelişen bir literatürü birkaç paragrafa sığdırıyor. Aşağıdaki tablolar başlıca çalışmaları yanıtladıkları soruya göre grupluyor ve ana metne girmeyen ayrıntıları da veriyor. Çoğu henüz çalışma tebliği aşamasında, dolayısıyla değişebilir. [Alex Imas ve Jacob Schaal](https://aleximas.substack.com/p/has-ai-impacted-the-labor-market), yeni çalışmalar çıktıkça güncellenen daha kapsamlı bir derleme yayımlıyor.
@@ -358,3 +363,4 @@ Bazı verilerde giriş seviyesindeki düşüş ChatGPT'den önce başlıyor; ba�
 | [Frank vd.](https://arxiv.org/abs/2601.02554) (2026) | ABD işsizlik sigortası kayıtları, LinkedIn profilleri, ders izlenceleri | Maruz kalan işlerde işsizlik riski ChatGPT'den önce, 2022 başında yükselmeye başladı; işe girişler 2021 mezunlarından itibaren azaldı |
 | [Brynjolfsson, Chandar ve Chen](https://digitaleconomy.stanford.edu/news/canaries-interest-rates-and-timinga-more-on-recent-drivers-of-employment-changes-for-young-workers/) (2026) | Firma-dönem kontrolleri içeren ABD bordro kayıtları | Göreli düşüş ancak 2024'te anlamlılık kazanıyor ve faiz duyarlılığıyla açıklanamıyor; ne var ki bu tahminler Ağustos 2026 revizyonundaki veri değişikliklerine karşı hassas çıktı |
 | [Lambert ve Schindler](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6787638) (2026) | 243 milyon yeni işe alım ve 407 milyon iş ilanı, dört ülke, 2017–2025 | Uzaktan çalışma kontrol edildiğinde yapay zekânın giriş seviyesi işe alımlara etkisi belirgin biçimde zayıflıyor, çoğu zaman anlamlılığını yitiriyor; ABD bordro verilerinde ise aynı kontrol etkiyi neredeyse hiç değiştirmiyor |
+:::

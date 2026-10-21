@@ -2,7 +2,7 @@
 slug: gold-rush-without-miners
 date: 2026-10-12
 category: Work / AI
-read_time: 25 min read
+read_time: 20 min read
 title: A Gold Rush Without Miners?
 deck: Will demand for cognitive work outrun AI's ability to replace people, and will new work make up the difference? A five-round debate with the AI pessimists, from spreadsheets and ATMs to the 2026 junior-hiring data.
 archive_deck: Will demand for cognitive work outrun AI's ability to replace people, and will new work make up the difference? A five-round debate with the AI pessimists, from spreadsheets and ATMs to the 2026 junior-hiring data.
@@ -199,6 +199,7 @@ And directors are grown from juniors. That may be the risk to watch most closely
 
 In 1849, the surest fortunes went to the people who sold the shovels. This time the shovels can dig. Whether there is still work for the people who used to do the digging turns on two open questions: how far AI can reach into the tasks people do, and how fast new work appears.
 
+::: fold
 ## **Appendix A: The math behind the inequality**
 
 The results behind the inequality are standard in labor economics (Hicks 1932; Hamermesh 1993). The [companion paper](/pubs/cheaper-intelligence/cheaper-intelligence.pdf) derives them, writing M where this appendix writes AI (\(s_M\) for \(s_{AI}\), and so on).
@@ -256,7 +257,9 @@ $$
 ### **What the model leaves out**
 
 The results describe one industry, with competitive pricing and constant returns to scale. They leave out workers moving between industries, differences among workers, firms taking business from rivals, and changes in σ as AI improves. The rounds take these up.
+:::
 
+::: fold
 ## **Appendix B: Two more historical cases**
 
 Software and photography both set off huge expansions in demand. They differ in who did the new work, which makes them a useful pair.
@@ -280,7 +283,9 @@ Demand grew far faster. By one estimate, [300 to 400 million cartes de visite we
 Miniature painters did not share in that boom. Their craft [declined from about 1840](https://web.archive.org/web/20170913224040/http://www.lasalle.edu/magazine/story/miniature-portraits-join-permanent-display-at-art-museum/) and [became a lost art](https://www.metmuseum.org/essays/american-portrait-miniatures-of-the-nineteenth-century), though a few [crossed over into photography](https://eapoe.org/PAPERS/misc1921/deas105a.htm).
 
 One technology thus produced a Gold Rush for image-making and a "boom without hires" for miniaturists. The difference from today is that the new demand of the 1850s still needed a person behind the camera. The pessimists' warning is that this time the new hires may not be people at all.
+:::
 
+::: fold
 ## **Appendix C: The evidence behind Round 3**
 
 Round 3 condenses a fast-moving literature. The tables below give the main studies, grouped by the question each answers, with details the main text leaves out. Most are working papers and may change; [Alex Imas and Jacob Schaal](https://aleximas.substack.com/p/has-ai-impacted-the-labor-market) keep a fuller review that is updated as new work appears.
@@ -356,3 +361,4 @@ The junior decline predates ChatGPT in some data, and interest rates and remote 
 | [Frank et al.](https://arxiv.org/abs/2601.02554) (2026) | US unemployment insurance, LinkedIn profiles, course syllabi | Unemployment risk in exposed jobs began rising in early 2022, before ChatGPT; entry fell from the 2021 graduating cohort onward |
 | [Brynjolfsson, Chandar and Chen](https://digitaleconomy.stanford.edu/news/canaries-interest-rates-and-timinga-more-on-recent-drivers-of-employment-changes-for-young-workers/) (2026) | US payroll records with firm-by-time controls | The relative decline becomes significant only in 2024 and is not explained by interest-rate sensitivity, though these estimates proved sensitive to data changes in the August 2026 revision |
 | [Lambert and Schindler](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6787638) (2026) | 243 million new hires and 407 million job postings, four countries, 2017–2025 | Controlling for remote work sharply weakens the AI effect on junior hiring, often to insignificance; in US payroll data the same control barely changes it |
+:::
