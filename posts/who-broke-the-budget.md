@@ -239,6 +239,7 @@ Not every large law since 2000 fits the tax-cut pattern, and the rest of the rec
 - On the 2013 tax deal, 172 House Democrats and 85 Republicans voted yes; [151 Republicans voted no](https://whyy.org/articles/cliff-notes-is-george-w-bush-smiling).
 :::
 
+::: fold
 ## References
 
 ### Government and official sources
@@ -300,3 +301,4 @@ Not every large law since 2000 fits the tax-cut pattern, and the rest of the rec
 - WHYY, [Cliff Notes: Is George W. Bush Smiling?](https://whyy.org/articles/cliff-notes-is-george-w-bush-smiling)
 - Wikipedia, [American Recovery and Reinvestment Act of 2009](https://en.wikipedia.org/wiki/American_Recovery_and_Reinvestment_Act_of_2009)
 - Wikipedia, [Authorization for Use of Military Force Against Iraq Resolution of 2002](https://en.wikipedia.org/wiki/Authorization_for_Use_of_Military_Force_Against_Iraq_Resolution_of_2002)
+:::

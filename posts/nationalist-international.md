@@ -2,7 +2,7 @@
 slug: nationalist-international
 date: 2026-10-19
 category: Geopolitics / Europe
-read_time: 10 min read
+read_time: 8 min read
 title: Nationalists of the World, Unite?
 deck: Why Nationalist International is an oxymoron, and what Vladimir Putin stands to gain from it.
 archive_deck: Why Nationalist International is an oxymoron, and what Vladimir Putin stands to gain from it.
@@ -87,6 +87,7 @@ The nationalist international will never resolve its contradictions, because its
 
 The danger, then, is not that the nationalists will build a lasting new order. They won’t. It is that, before they turn on one another, they will tear down the fence that has kept the wolves out for eighty years, an order that took two world wars to build and may prove far harder to restore.
 
+::: fold
 ## References
 
 **The 1930s**
@@ -163,3 +164,4 @@ The danger, then, is not that the nationalists will build a lasting new order. T
 - [Bear F. Braumoeller, *Only the Dead: The Persistence of War in the Modern Age* (Oxford University Press, 2019)](https://search.worldcat.org/oclc/1060600154)
 - [Correlates of War Project: COW War Data, 1816–2007 (v4.0)](https://correlatesofwar.org/?p=347) (Inter-State War Data behind Figure 6)
 - [Wikipedia: List of countries by GDP (nominal)](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_%28nominal%29) (IMF World Economic Outlook, April 2026 projections, behind Figure 7)
+:::

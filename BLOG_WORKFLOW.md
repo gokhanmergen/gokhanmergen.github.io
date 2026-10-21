@@ -132,7 +132,9 @@ Write a display equation between two lines containing only `$$`, and inline
 math as `\(s_{AI}\)`. Do not use single `$` delimiters; dollar amounts in the
 text stay plain.
 
-To fold a section such as an appendix, so that it starts closed, put a line
+Appendices and References sections are always folded, each in its own
+fold, as the author asked on 2026-10-20. To fold a section, so that it
+starts closed, put a line
 containing only `::: fold` before its `##` (or `###`) heading and a line
 containing only `:::` after its last line. The heading stays visible with an
 arrow, and clicking it opens the section. Folds can't be nested, and the feed
