@@ -141,6 +141,24 @@ The Substack copy is built from that live page.
   `bold`. The server's stored JSON (`/api/v1/drafts`) calls them `em` and
   `strong`. JSON copied from the server must have its marks renamed before
   `setContent`, or it fails with "Invalid JSON content".
+- **Interactive pages** (`!embed`, such as the blue-or-red quiz). Substack
+  can't run them, so the Substack post is a short teaser. The author
+  approved this layout on 2026-10-20:
+  1. the dateline, then a widget;
+  2. "Substack doesn't allow interactive quizzes, so here is a picture of
+     it. To take the quiz, open the original on [my blog](<blog post>).";
+  3. an image of the page's opening screen. It is rendered with headless
+     Chrome at 728 CSS pixels and 2x, light theme, with the page's
+     `#about` section hidden. It is saved as `posts/images/<slug>/quiz.png`
+     and pushed. Set its `image2` node's `href` to the blog post, so a
+     click opens the quiz;
+  4. a `button` node: `{url: <blog post>, text: 'Take the quiz', action:
+     null, class: null}`;
+  5. the post's caption text, then a widget at the end.
+
+  That is two widgets in all; the post is too short for a middle one.
+  `audit()` flags such a post (2 widgets, an image and paragraphs the blog
+  lacks). That is expected.
 
 ## Updating a post that is already published
 
