@@ -215,6 +215,11 @@ links keep working.
    server needs its marks renamed (see "Editor JSON marks").
 4. A new title goes in the `textarea.page-title` field: click it, select all
    with cmd+a, and type the title. The subtitle is `textarea.subtitle`.
+   Setting it from JavaScript also works: call the native
+   `HTMLTextAreaElement` value setter, then dispatch a bubbling `input`
+   event. That is how six subtitles were changed on 2026-10-21, with no body
+   edits. Before clicking Update, poll `GET /api/v1/drafts/<id>` until
+   `draft_subtitle` holds the new text.
 5. `await crosspost.waitSaved(<id>)` waits until the server's draft matches the
    new body. Don't rely on the "Saved" badge: a check made 4 seconds after
    `setContent` once still found the old body.
