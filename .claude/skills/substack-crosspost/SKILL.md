@@ -141,6 +141,20 @@ The Substack copy is built from that live page.
   `bold`. The server's stored JSON (`/api/v1/drafts`) calls them `em` and
   `strong`. JSON copied from the server must have its marks renamed before
   `setContent`, or it fails with "Invalid JSON content".
+- **Folded sections.** The blog folds appendices and references (`::: fold`).
+  On Substack they go in its collapsible block, `collapsedContent` (attrs
+  `expandLabel`, `collapseLabel`; content any blocks):
+  - The heading stays visible, and a "Show appendix" or "Show references"
+    button opens the block under it.
+  - Run `await crosspost.foldSections(<id>, ['Appendix A', 'Appendix B',
+    'References'])` on the editor page, then `waitSaved` and `update`. For a
+    new post, run it after `addWidgets`.
+  - It also gives every image its width and height. Without them, an image
+    inside a block that starts closed shows at 300px.
+
+  First done on who-broke-the-budget on 2026-10-20. How these blocks look in
+  emails hasn't been checked; check an email preview before relying on them
+  in a new post.
 - **Interactive pages** (`!embed`, such as the blue-or-red quiz). Substack
   can't run them, so the Substack post is a short teaser. The author
   approved this layout on 2026-10-20:

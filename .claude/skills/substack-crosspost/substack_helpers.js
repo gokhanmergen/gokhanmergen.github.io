@@ -25,6 +25,10 @@
 //
 //   await crosspost.syncEdits(<id>, '<slug>', { paragraphs: [['<old opening>', '<new opening>']], tables: true })
 //   await crosspost.update()         // clicks Update, then Update now
+//
+// or, to fold appendices and references as the blog does:
+//
+//   await crosspost.foldSections(<id>, ['Appendix A', 'Appendix B', 'References'])
 
 window.crosspost = {
   SITE: 'https://www.gokhanmergen.com',
@@ -335,6 +339,51 @@ window.crosspost = {
     await new Promise((r) => setTimeout(r, 2500));
     this.expected = this.fingerprint(ed.getJSON());
     return { replaced, images, nodes: c.length };
+  },
+
+  // Fold the sections the blog folds (appendices, references) into Substack's
+  // collapsible block. Each `## <prefix>...` heading stays visible; what follows
+  // it, up to the next folded heading or the end widget, goes into a
+  // collapsedContent block that opens with "Show appendix" (or "Show
+  // references"). Every image gets its width and height from its file name:
+  // without them, an image in a block that starts closed shrinks to 300px.
+  // The old body is stashed in sessionStorage as orig-<id>.
+  async foldSections(postId, prefixes) {
+    const ed = this.editor();
+    const orig = ed.getJSON();
+    sessionStorage.setItem(`orig-${postId}`, JSON.stringify(orig));
+    const c = JSON.parse(JSON.stringify(orig.content));
+    if (c.some((n) => n.type === 'collapsedContent')) throw new Error('Already folded');
+    const heads = prefixes.map((p) => c.findIndex((n) => n.type === 'heading' && n.attrs.level === 2 && this.text(n).startsWith(p)));
+    if (heads.some((i) => i < 0)) throw new Error(`Headings not found: ${prefixes.filter((_, k) => heads[k] < 0)}`);
+    if (heads.some((h, k) => k && h <= heads[k - 1])) throw new Error('Headings out of order');
+    const bounds = heads.concat([c[c.length - 1].type === 'subscribeWidget' ? c.length - 1 : c.length]);
+    for (let k = heads.length - 1; k >= 0; k--) {
+      const h = heads[k];
+      const what = /^Reference/.test(this.text(c[h])) ? 'references' : 'appendix';
+      const body = c.slice(h + 1, bounds[k + 1]);
+      c.splice(h + 1, body.length, { type: 'collapsedContent', attrs: { expandLabel: `Show ${what}`, collapseLabel: `Hide ${what}` }, content: body });
+    }
+    let sized = 0;
+    const size = (n) => {
+      const m = n.type === 'image2' && !n.attrs.width && (n.attrs.src || '').match(/_(\d+)x(\d+)\.\w+$/);
+      if (m) {
+        n.attrs.width = +m[1];
+        n.attrs.height = +m[2];
+        sized++;
+      }
+      (n.content || []).forEach(size);
+    };
+    c.forEach(size);
+    ed.commands.setContent({ type: 'doc', content: c }, true);
+    await new Promise((r) => setTimeout(r, 2500));
+    const after = ed.getJSON();
+    if (this.text(after).replace(/\s+/g, ' ') !== this.text(orig).replace(/\s+/g, ' ')) {
+      ed.commands.setContent(orig, false);
+      throw new Error('The text changed; restored the old body');
+    }
+    this.expected = this.fingerprint(after);
+    return { folded: heads.length, sized, nodes: after.content.length };
   },
 
   // What waitSaved compares: the widget positions, the image sources and the text.
