@@ -26,6 +26,10 @@
 //   await crosspost.syncEdits(<id>, '<slug>', { paragraphs: [['<old opening>', '<new opening>']], tables: true })
 //   await crosspost.update()         // clicks Update, then Update now
 //
+// or, when edits split, merge or rewrite many paragraphs, lists or headings:
+//
+//   await crosspost.resync(<id>, '<slug>')  // then waitSaved and update
+//
 // or, to fold appendices and references as the blog does:
 //
 //   await crosspost.foldSections(<id>, ['Appendix A', 'Appendix B', 'References'])
@@ -339,6 +343,130 @@ window.crosspost = {
     await new Promise((r) => setTimeout(r, 2500));
     this.expected = this.fingerprint(ed.getJSON());
     return { replaced, images, nodes: c.length };
+  },
+
+  // Bring a published post's main text in line with the live page after
+  // edits that split, merge or rewrite paragraphs, lists or headings, where
+  // syncEdits' one-for-one swap is not enough. It lines up Substack's
+  // top-level blocks with the page's by their text, keeps every block that
+  // still matches as it is (images, math, table images), replaces each run of
+  // changed text blocks with the page's version, and puts the three widgets
+  // back by the usual rule. Only the main text is compared: the first folded
+  // section and everything after it stay as they are. Inline math in a new
+  // paragraph becomes inline_latex nodes. It refuses to drop or add anything
+  // but text. The old body is stashed in sessionStorage as orig-<id>.
+  async resync(postId, slug) {
+    const ed = this.editor();
+    const orig = ed.getJSON();
+    sessionStorage.setItem(`orig-${postId}`, JSON.stringify(orig));
+    const fail = (msg) => {
+      ed.commands.setContent(orig, false);
+      throw new Error(msg);
+    };
+    const norm = (t) => t.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, ' ').trim();
+    const postUrl = `${this.SITE}/blog-${slug}.html`;
+    const art = (await this.livePage(slug)).querySelector('.blog-article-content');
+    for (const a of art.querySelectorAll('a')) a.setAttribute('href', new URL(a.getAttribute('href'), postUrl).href);
+
+    const strip = (n) => (n.content ? { ...n, content: n.content.filter((x) => x.type !== 'subscribeWidget').map(strip) } : n);
+    const c = strip(orig).content;
+    while (c.length && c[c.length - 1].type === 'paragraph' && !c[c.length - 1].content) c.pop();
+    if (!/^Originally published on/.test(this.text(c[0]))) fail('The body does not start with the dateline');
+    let end = c.findIndex((n) => n.type === 'collapsedContent');
+    if (end < 0) end = c.length;
+    else if (c[end - 1].type === 'heading') end -= 1; // the folded section's visible heading
+    const live = [...art.children];
+    let liveEnd = live.findIndex((e) => e.tagName === 'DETAILS');
+    if (liveEnd < 0) liveEnd = live.length;
+
+    // Lists and quotes read as their items joined by spaces on both sides.
+    const liveText = (e) => {
+      const kids = [...e.children].filter((k) => ['P', 'LI', 'UL', 'OL'].includes(k.tagName));
+      return kids.length ? kids.map(liveText).join(' ') : e.textContent;
+    };
+    const TEXT = ['paragraph', 'heading', 'bulletList', 'orderedList', 'blockquote'];
+    const sKey = (n) => (TEXT.includes(n.type) ? 'T' + norm(this.text(n)) : n.type === 'captionedImage' ? 'I' : n.type === 'latex_block' ? 'M' : 'X' + n.type);
+    const lKey = (e) => {
+      if (['P', 'H2', 'H3', 'H4', 'UL', 'OL', 'BLOCKQUOTE'].includes(e.tagName)) return 'T' + norm(liveText(e));
+      if (e.tagName === 'FIGURE' || e.classList.contains('blog-table')) return 'I';
+      if (e.classList.contains('blog-math')) return 'M';
+      return 'X' + e.tagName;
+    };
+    const letters = () => Array.from({ length: 10 }, () => String.fromCharCode(65 + Math.floor(Math.random() * 26))).join('');
+    const mathify = (node) => {
+      if (!node.content) return node;
+      const content = [];
+      for (const ch of node.content) {
+        if (ch.type !== 'text' || !/\\\(/.test(ch.text)) {
+          content.push(mathify(ch));
+          continue;
+        }
+        for (const part of ch.text.split(/(\\\(.+?\\\))/)) {
+          const m = part.match(/^\\\((.+)\\\)$/);
+          if (m) content.push({ type: 'inline_latex', attrs: { persistentExpression: m[1], id: letters() } });
+          else if (part) content.push({ ...ch, text: part });
+        }
+      }
+      return { ...node, content };
+    };
+    const convert = (e) => {
+      ed.commands.setContent(e.outerHTML, false);
+      const nodes = ed.getJSON().content.map(mathify);
+      if (!nodes.length) fail(`Could not convert "${e.textContent.slice(0, 60)}"`);
+      return nodes;
+    };
+
+    // Longest common subsequence of block keys; what is left over are the edits.
+    const S = c.slice(1, end);
+    const L = live.slice(0, liveEnd);
+    const sk = S.map(sKey);
+    const lk = L.map(lKey);
+    const dp = Array.from({ length: sk.length + 1 }, () => new Int32Array(lk.length + 1));
+    for (let i = sk.length - 1; i >= 0; i--) {
+      for (let j = lk.length - 1; j >= 0; j--) dp[i][j] = sk[i] === lk[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+    }
+    const out = [c[0]];
+    const hunks = [];
+    let cur = null;
+    let i = 0;
+    let j = 0;
+    while (i < sk.length || j < lk.length) {
+      if (i < sk.length && j < lk.length && sk[i] === lk[j]) {
+        out.push(S[i++]);
+        j++;
+        cur = null;
+        continue;
+      }
+      if (!cur) hunks.push((cur = { removed: 0, added: 0, first: '' }));
+      if (i < sk.length && (j >= lk.length || dp[i + 1][j] >= dp[i][j + 1])) {
+        if (sk[i][0] !== 'T') fail(`Only on Substack, and not text: ${sk[i].slice(0, 40)}`);
+        cur.removed++;
+        i++;
+      } else {
+        if (lk[j][0] !== 'T') fail(`Only on the blog, and not text: ${lk[j].slice(0, 40)}`);
+        out.push(...convert(L[j]));
+        cur.first ||= lk[j].slice(1, 70);
+        cur.added++;
+        j++;
+      }
+    }
+    out.push(...c.slice(end));
+
+    const mid = this.mid(out);
+    const midText = this.text(out[mid]).slice(0, 80);
+    out.push(this.widget());
+    out.splice(mid, 0, this.widget());
+    out.splice(1, 0, this.widget());
+    ed.commands.setContent({ type: 'doc', content: out }, true);
+    await new Promise((r) => setTimeout(r, 2500));
+    const after = ed.getJSON();
+    this.expected = this.fingerprint(after);
+    const draftText = norm(this.text(after));
+    const missing = [...art.querySelectorAll('p, li, h2, h3')]
+      .filter((e) => !e.closest('table') && !e.closest('details'))
+      .map((e) => norm(e.textContent))
+      .filter((t) => t.length > 20 && !draftText.includes(t));
+    return { hunks: hunks.length, removed: hunks.reduce((s, h) => s + h.removed, 0), added: hunks.reduce((s, h) => s + h.added, 0), midText, missing: missing.map((t) => t.slice(0, 80)), nodes: after.content.length };
   },
 
   // Fold the sections the blog folds (appendices, references) into Substack's

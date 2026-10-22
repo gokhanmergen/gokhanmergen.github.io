@@ -210,7 +210,23 @@ links keep working.
 
    Each pair replaces the paragraph that starts with the old words by the
    live page's paragraph that starts with the new ones, links included. The
-   widgets stay where they are. For other edits, change
+   widgets stay where they are.
+
+   When edits split, merge or rewrite many paragraphs, lists or headings, as
+   the readability pass of 2026-10-21 did across 23 posts, use instead:
+
+   ```js
+   await crosspost.resync(<id>, '<slug>')
+   ```
+
+   It lines up the Substack blocks with the live page's by their text. It
+   keeps every block that still matches, images and math included, and
+   replaces each run of changed text blocks with the page's version. Then it
+   puts the three widgets back by the usual rule. It compares only the main
+   text, stops at the first folded section, and refuses to drop or add
+   anything but text. Check that its `missing` list is empty.
+
+   For other edits, change
    `crosspost.editor().getJSON()` and `setContent` it; JSON copied from the
    server needs its marks renamed (see "Editor JSON marks").
 4. A new title goes in the `textarea.page-title` field: click it, select all
