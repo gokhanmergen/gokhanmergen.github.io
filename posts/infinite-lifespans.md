@@ -50,7 +50,7 @@ We transformed medicine from a relatively primitive practice into a sophisticate
 
 Yet the record life expectancy frontier kept advancing at roughly the same linear pace.
 
-Global life expectancy also rose enormously, from around 32 years in 1900 to more than 70 years today, although its trajectory differs from the record-country trend. Much of the early improvement came from preventing deaths in infancy and childhood, rather than radically extending the limits of old age. The [global historical data](https://ourworldindata.org/life-expectancy) makes that distinction important.
+Global life expectancy also rose enormously, from around 32 years in 1900 to more than 70 years today. But it followed a different path from the record-country trend. Much of the early improvement came from preventing deaths in infancy and childhood, rather than radically extending the limits of old age. The [global historical data](https://ourworldindata.org/life-expectancy) shows that difference.
 
 More troubling for the escape velocity thesis, recent progress in the longest-lived populations appears to be slowing rather than accelerating. A [2024 study in *Nature Aging*](https://www.nature.com/articles/s43587-024-00702-3) found that improvements in life expectancy have decelerated since 1990 in several of the world’s longest-lived populations.
 
@@ -78,11 +78,11 @@ Suppose a medical breakthrough cuts mortality risk in half across adult ages. In
 
 That’s a tremendous achievement.
 
-But to gain another equivalent shift, we would need to cut mortality risk in half *again*.
+But to gain another eight years, we would need to cut mortality risk in half *again*.
 
 And then again.
 
-Each additional increment of life requires another multiplicative improvement in survival.
+Each additional eight years requires halving whatever risk is left.
 
 Mathematically, if mortality increases with age approximately as:
 
@@ -92,11 +92,11 @@ $$
 
 where \(b\) is roughly 0.085 per year, then reducing mortality by a factor of two corresponds to shifting the age-related mortality curve by approximately eight years.
 
-This gives us an important intuition: **a constant percentage reduction in mortality produces an approximately constant shift in the age-related mortality curve.**
+This gives us an important intuition: **cutting mortality by the same percentage shifts the age-related mortality curve by roughly the same number of years, each time.**
 
-Even if our interventions become exponentially more effective at reducing mortality, the resulting gains in life expectancy can remain roughly linear.
+Exponential progress could keep halving mortality at a steady pace. Each halving still buys only about eight years. So even if our interventions become exponentially more effective at reducing mortality, the resulting gains in life expectancy can remain roughly linear.
 
-Under this simplified model, achieving longevity escape velocity would require sustained mortality reductions of roughly 8% or more per year across adult ages, equivalent to repeatedly halving mortality risk about every eight years.
+Under this simplified model, achieving longevity escape velocity, a year of life expectancy gained for every year that passes, would require sustained mortality reductions of roughly 8% or more per year across adult ages. That is equivalent to repeatedly halving mortality risk about every eight years.
 
 And it would need to keep happening.
 
@@ -168,11 +168,11 @@ What if, instead of curing heart disease, cancer, Alzheimer’s, and hundreds of
 
 That could change everything.
 
-Researchers have already identified numerous interconnected mechanisms associated with aging: genomic instability, cellular senescence, mitochondrial dysfunction, loss of proteostasis, altered nutrient sensing, and others.
+Researchers have already identified numerous interconnected mechanisms associated with aging. They include genomic instability (accumulating damage to DNA), cellular senescence (worn-out cells that stop dividing but linger), mitochondrial dysfunction (failing energy production inside cells), loss of proteostasis (proteins no longer kept in working order), altered nutrient sensing (changes in how cells respond to nutrients), and others.
 
 Some experimental interventions have produced remarkable results in animals.
 
-Certain genetic mutations can double the lifespan of worms. Rapamycin has extended lifespan in mice by 25% or more, with results varying considerably by sex, dose, and experimental conditions, as documented in [published mouse research](https://pmc.ncbi.nlm.nih.gov/articles/PMC4032600/).
+Certain genetic mutations can double the lifespan of worms. The drug rapamycin has extended lifespan in mice by 25% or more. Results vary considerably by sex, dose, and experimental conditions, as documented in [published mouse research](https://pmc.ncbi.nlm.nih.gov/articles/PMC4032600/).
 
 These experiments demonstrate something important: biological aging is not necessarily an immutable clock. It can be manipulated.
 
@@ -208,11 +208,11 @@ If you want to demonstrate that an intervention extends human lifespan, the most
 
 That can take decades.
 
-Biological markers, including epigenetic clocks, may dramatically shorten research cycles. But measuring a biomarker associated with aging is not yet equivalent to proving that a person will live substantially longer.
+Biological markers of aging may dramatically shorten research cycles. One example is epigenetic clocks, which estimate a person’s biological age from chemical marks on their DNA. But measuring a biomarker associated with aging is not yet equivalent to proving that a person will live substantially longer.
 
 Even if AGI compresses years of theoretical research into days, it cannot automatically compress every biological experiment into the same timeframe.
 
-There are also reasons to be cautious when extrapolating animal results – **effect sizes shrink as organisms get more complex.** Worm lifespans double, mice gain 10 to 25%, and the evidence in primates is mixed. That is the exponential-complexity thesis again. A more complex body has more parallel ways to fail, so a lever that controls a worm's aging moves only one of many in a mammal.
+There are also reasons to be cautious when extrapolating animal results – **lifespan gains shrink as organisms get more complex.** Worm lifespans double, mice gain 10 to 25%, and the evidence in primates is mixed. That is the same exponential rise in difficulty I described earlier. A more complex body has more parallel ways to fail. So a lever that controls aging in a worm is only one of many levers in a mammal.
 
 Interventions that dramatically extend lifespan in relatively simple organisms have not yet delivered comparable results in humans.
 
@@ -226,7 +226,7 @@ If we were approaching a revolutionary inflection point, we might expect at leas
 
 Instead, the recent data offers reasons for caution.
 
-The [2024 *Nature Aging* analysis](https://www.nature.com/articles/s43587-024-00702-3) found that improvements in life expectancy in the longest-lived populations have slowed, with the authors questioning the plausibility of radical life extension this century unless biological aging can be substantially slowed.
+As I noted above, the [2024 *Nature Aging* analysis](https://www.nature.com/articles/s43587-024-00702-3) found that life expectancy gains in the longest-lived populations have slowed. Its authors go further. They question whether radical life extension is plausible this century unless biological aging itself can be substantially slowed.
 
 Meanwhile, Jeanne Calment’s verified human longevity record of 122 years, set in 1997, remains unbeaten.
 
@@ -242,7 +242,7 @@ Kurzweil’s prediction of longevity escape velocity by 2029 would require an ex
 
 We aren’t talking about another incremental medical advance.
 
-We are talking about a fundamental transformation of the relationship between human age and mortality, achieved on a timeline dramatically shorter than the time normally required to establish the long-term effects of medical interventions.
+We are talking about fundamentally changing how the risk of death rises with age. And doing it in far less time than it normally takes to establish the long-term effects of a medical intervention.
 
 Could it happen?
 

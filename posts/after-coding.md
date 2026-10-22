@@ -15,7 +15,7 @@ Epoch AI's *The Plunging Price of Thought* makes the dynamic explicit. The cost 
 
 The implication matters more than any single leaderboard: **intelligence is becoming a commodity.** What is scarce today is abundant tomorrow, and once a capability becomes abundant, the frontier moves somewhere else.
 
-We have already watched this happen with chat. We are watching it happen now with coding. The interesting question is where the frontier goes next. My answer is that it moves in two steps: first to **agency**, systems that do things rather than explain how to do them; then to **organization**, large groups of specialized agents that coordinate like a team, a department, and eventually a company.
+We have already watched this happen with chat. We are watching it happen now with coding. The interesting question is where the frontier goes next. My answer is that it moves in two steps. First to **agency**: systems that do things rather than explain how to do them. Then to **organization**: large groups of specialized agents that coordinate like a team, a department, and eventually a company.
 
 ## What saturation looks like
 
@@ -35,7 +35,7 @@ Coding matters for a second reason, too. Code is how software gains leverage ove
 
 ## Frontier one: from intelligence to agency
 
-The primitive of the chatbot era was *prompt → answer*. Coding agents moved us to *task → work → result*. The next step is *intent → action → outcome*.
+The basic pattern of the chatbot era was *prompt → answer*. Coding agents moved us to *task → work → result*. The next step is *intent → action → outcome*.
 
 You no longer ask how to plan a trip; you ask for the trip to be planned and booked. You no longer ask which laptop to buy; you state a budget and preferences and approve the purchase at the end. You no longer ask for a draft reply to a customer; the system reads the account history, resolves the issue, updates the records, responds, and follows up.
 
@@ -51,13 +51,13 @@ Autonomous agents may themselves be an intermediate step. The more consequential
 
 A single agent has the limits any individual has: finite context, finite attention, finite specialization. Human organizations exist to get around exactly those limits. No company runs on one infinitely capable employee. It runs on specialists in engineering, sales, finance, legal, and operations, coordinated by managers and directed by executives who allocate resources and decide what matters.
 
-Nothing requires AI to stay organized around the metaphor of a single assistant. It can be organized around the metaphor of a firm.
+AI does not have to stay organized as a single assistant. It can be organized like a firm.
 
 Ask such a system to *launch a product for this customer segment*. One agent researches the market. Another analyzes customer data and tests positioning against simulated buyers. Engineering agents build prototypes while adversarial agents try to break them and a security agent audits the design. A finance agent models unit economics, a marketing agent drafts campaigns, a legal agent reviews regulatory exposure. Manager agents reconcile conflicting outputs, reassign work, and escalate uncertain decisions. At the top, something keeps asking whether the project is still worth doing.
 
 That is not one agent with many tools. It is an organization.
 
-There is a useful economic lens here. Ronald Coase argued that firms exist because coordinating through a hierarchy is sometimes cheaper than contracting through the market, and that the size of a firm is set by where those costs balance. Agent swarms change both sides of that equation at once. If the cost of an additional "employee" falls toward the cost of inference, and coordination itself can be automated, the natural size and shape of the firm could change in ways we have barely begun to think about.
+There is a useful economic lens here. The economist Ronald Coase argued that firms exist because coordinating through a hierarchy is sometimes cheaper than contracting through the market. In his view, the size of a firm is set by where those two costs balance. Swarms of agents change both costs at once. If the cost of an additional "employee" falls toward the cost of inference (running the model), and coordination itself can be automated, the natural size and shape of the firm could change in ways we have barely begun to think about.
 
 This is also where the two halves of the argument connect. The plunging price of thought is what makes swarms viable. When intelligence is expensive, you ration it into a single assistant. When it is cheap, you can afford to run five hundred agents, have them check each other's work, and throw away most of what they produce.
 
@@ -69,7 +69,7 @@ The human economy works this way. The most productive companies are not the ones
 
 If AI follows the same pattern, the relevant unit of intelligence shifts: first from the model to the agent, then from the agent to the **organization of agents**. Today's benchmark culture would then look like measuring the IQ of individual employees while the real competition is between companies.
 
-The benchmark of the future might look less like a leaderboard and more like a P&L. Can a group of agents run an e-commerce business for a month? Grow revenue without destroying margin? Acquire customers, handle support, negotiate with suppliers, catch fraud, stay within budget, and notice when its own strategy is failing? The ultimate test may not be whether a system can answer a hard question, but whether it can run a business.
+The benchmark of the future might look less like a leaderboard and more like a profit-and-loss statement. Can a group of agents run an e-commerce business for a month? Grow revenue without destroying margin? Acquire customers, handle support, negotiate with suppliers, catch fraud, stay within budget, and notice when its own strategy is failing? The ultimate test may not be whether a system can answer a hard question, but whether it can run a business.
 
 ## Why picking winners is so hard
 
@@ -77,7 +77,7 @@ The AI market today resembles the internet of the mid-1990s more than a mature i
 
 Knowing that AI matters is not the same as knowing who will capture it. If intelligence keeps getting cheaper, model quality may be a surprisingly weak moat.
 
-The recent history of AI search is instructive. For a while, an LLM combined with web retrieval, synthesis, and citations felt like its own product category, and Perplexity rose on exactly that difference. The broader lesson is that **successful AI features tend to become platform features.** Once a capability proves valuable, every major platform absorbs it. It happened with chat, it is happening with coding, and it will likely happen with agents.
+The recent history of AI search is instructive. For a while, a language model that searched the web, pulled together what it found, and cited its sources felt like its own product category. The startup Perplexity rose on exactly that difference. The broader lesson is that **successful AI features tend to become platform features.** Once a capability proves valuable, every major platform absorbs it. It happened with chat, it is happening with coding, and it will likely happen with agents.
 
 ## If intelligence is abundant, what stays scarce?
 
@@ -86,10 +86,10 @@ This is the central economic question. If the price of thought keeps falling, va
 - **Distribution and attention**: being where users already are.
 - **Context and memory**: knowing enough about a person or organization to act well on their behalf.
 - **Permission and trust**: the right to spend money, sign in, send messages, and make commitments for someone.
-- **Access**: to proprietary data, tools, customers, capital, and payment rails.
+- **Access**: to proprietary data, tools, customers, capital, and payment systems.
 - **Verification and coordination**: the ability to run many agents and confirm their work is correct.
 
-Seen this way, the incumbents look different. Google has Search, Android, Chrome, Workspace, YouTube, Maps, payments, and deep user context. Meta has social graphs, messaging, creators, and advertisers at the scale of billions. Microsoft has enterprise identity, Office, GitHub, Azure, and corporate workflows. Apple controls one of the most valuable personal computing surfaces in existence.
+Seen this way, the incumbents look different: they already hold much of what stays scarce. Google has Search, Android, Chrome, Workspace, YouTube, Maps, payments, and deep user context. Meta has social graphs, messaging, creators, and advertisers at the scale of billions. Microsoft has enterprise identity, Office, GitHub, Azure, and corporate workflows. Apple controls one of the most valuable personal computing surfaces in existence.
 
 Agents need somewhere to act, and on someone's authority. The model may become replaceable. The system around it may not.
 

@@ -14,9 +14,9 @@ The usual explanation is that both parties did this together. It is a comfortabl
 
 ## The short version
 
-- **Three unpaid tax cuts did the most damage.** The Bush cuts of 2001–03, Trump's 2017 cut and Trump's 2025 law, plus the unfunded Medicare drug benefit, added about $6.9 trillion of ten-year borrowing at enactment, equal to 38% of a year's GDP at the time. All passed mainly on Republican votes. Each time, growth failed to pay the bill.
-- **Tail-risk failures came on Republican watches.** The 2008 collapse happened under Bush's regulators. The COVID response faltered under Trump. Through the 2008 crisis, debt rose from 35% of GDP to 61% (2007–10); through COVID, from 78% to 98% in 2020 alone. That is about 46 points of GDP across the two crises.
-- **Republican presidents started three unfunded wars.** Bush launched Afghanistan in 2001 and Iraq in 2003 while cutting taxes, the first major American wars fought alongside tax cuts rather than tax increases. Congress spent about $1.6 trillion on them through 2014, roughly 11% of a year's GDP, none of it paid for; with veterans' care and interest, the bill runs near $8 trillion. Trump launched the third, against Iran, in 2026 without authorization from Congress. It has cost about $38 billion so far and is rising by about $3 billion a month.
+- **Three unpaid tax cuts did the most damage.** The three are the Bush cuts of 2001–03, Trump's 2017 cut and Trump's 2025 law. With the unfunded Medicare drug benefit, they added about $6.9 trillion of borrowing over ten years, as estimated when they passed. That equals 38% of a year's GDP at the time. All passed mainly on Republican votes. Each time, growth failed to pay the bill.
+- **Two rare, catastrophic failures came on Republican watches.** The 2008 collapse happened under Bush's regulators. The COVID response faltered under Trump. Through the 2008 crisis (2007–10), debt rose from 35% of GDP to 61%. Through COVID, it rose from 78% to 98% in 2020 alone. That is about 46 points of GDP across the two crises.
+- **Republican presidents started three unfunded wars.** Bush launched Afghanistan in 2001 and Iraq in 2003 while cutting taxes. They were the first major American wars fought alongside tax cuts rather than tax increases. Congress spent about $1.6 trillion on them through 2014, roughly 11% of a year's GDP, and none of it was paid for. With veterans' care and interest, the bill runs near $8 trillion. Trump launched the third, against Iran, in 2026 without authorization from Congress. It has cost about $38 billion so far and is rising by about $3 billion a month.
 - **Republicans spent recklessly in good times.** They cut taxes at very-low unemployment in 2017 and with deficits near 6% of GDP in 2025, so every crisis hit a more indebted country.
 - **Democrats' signature laws were paid for.** Outside emergencies, laws passed mainly on Democratic votes were scored as slightly cutting deficits. Obamacare and Biden's Inflation Reduction Act both reduced deficits on paper.
 - **Democrats are not blameless.** They made most of the Bush cuts permanent in 2013, ran an unpaid $1.9 trillion stimulus into a recovery (2021), and added $1.2 trillion by executive action. They failed to fill the hole. They did not dig most of it.
@@ -29,23 +29,27 @@ Every figure in the main text is documented, with sources, in the appendices.
 
 *Source: FRED series FYGFGDQ188S (OMB and St. Louis Fed), quarterly, Q4 2000 to Q1 2026.*
 
-Measured inauguration to inauguration, the debt ratio rose about 35 points under Republican presidents and 31 under Democrats. **Start the clock at each president's first full budget year and the gap widens to 40.5 against 26.7.**
+Measured inauguration to inauguration, the debt-to-GDP ratio rose about 35 points under Republican presidents and 31 under Democrats. **Start the clock at each president's first full budget year, the first year that runs on his own budget, and the gap widens to 40.5 points against 26.7.**
 
 ## By laws, it isn't close
 
-To compare a 2001 law with a 2025 law, measure each one by its ten-year cost as scored at enactment, then scale it to the size of the economy in the year it passed. A score of 10% means borrowing equal to a tenth of that year's GDP. Then assign each law to the party whose votes passed it.
+To compare a 2001 law with a 2025 law, measure each one by its ten-year cost as estimated when it passed, then scale it to the size of the economy that year. A score of 10% means borrowing equal to a tenth of that year's GDP. Because each score uses a different year's GDP, adding them up shows the laws' relative size, not the rise in the debt ratio.
+
+Then assign each law to the party whose votes passed it, or call it bipartisan when both parties gave it substantial support. Responses to the 2008 crisis and to COVID count separately as emergencies.
 
 ![Outside emergencies, Republican-led laws added 38% of a year's GDP](budget-borrowing-by-coalition.png)
 
 *Source: Appendix A scorecard: CBO and JCT ten-year scores at enactment, divided by nominal GDP in each law's year.*
 
-Outside emergencies, laws passed mainly on Republican votes added 38% of a year's GDP. Laws passed mainly on Democratic votes cut deficits slightly. Most of the bipartisan total comes from extending the Bush tax cuts and from the wars Bush launched, and the crisis borrowing of 2008 and 2020 was bipartisan too.
+Outside emergencies, laws passed mainly on Republican votes added 38% of a year's GDP. Laws passed mainly on Democratic votes cut deficits slightly. Most of the bipartisan total comes from extending the Bush tax cuts and from the wars Bush launched. The crisis borrowing of 2008 and 2020, counted separately, was bipartisan too.
 
 ![Tax cuts and the deals extending them dominate non-emergency borrowing](budget-law-by-law.png)
 
 *Source: Appendix A scorecard: CBO and JCT ten-year scores at enactment, divided by nominal GDP in each law's year.*
 
-Read the bars top to bottom and the pattern is plain. The red block at the top is almost all tax cuts. The purple middle holds the deals that extended those cuts, the wars, the crisis responses and the two debt-ceiling deals that cut deficits. The blue block at the bottom is small, and half its laws cut deficits. Every major law that cut deficits passed under a Democratic president, and two of the four were forced on that president by a Republican House. Among major laws, Republicans cut deficits only when a Democrat held the White House.
+Read the bars top to bottom and the pattern is plain. The red Republican-led block at the top is almost all tax cuts. The purple bipartisan middle holds the deals that extended those cuts, the wars, the crisis responses and the two debt-ceiling deals that cut deficits. The blue Democratic-led block at the bottom is small, and half its laws cut deficits.
+
+Four major laws cut deficits. All four passed under a Democratic president, and two of them, the debt-ceiling deals, were forced on that president by a Republican House. Among major laws, Republicans cut deficits only when a Democrat held the White House.
 
 ## Three tax cuts, three broken promises
 
@@ -55,7 +59,7 @@ George W. Bush inherited a surplus and cut taxes twice, in 2001 and 2003. Then h
 
 Donald Trump inherited a steady expansion and cut taxes again in 2017, with unemployment near 4%. Even counting the growth it produced, CBO found the law added nearly $1.9 trillion over a decade; growth recovered only a fifth of the cost. In 2025, with deficits already near 6% of GDP, Republicans did it again, with a law CBO scored at $4.1 trillion including interest. Tariffs were sold as the offset, until the Supreme Court struck most of them down.
 
-Neither version of the theory held. The cuts did not pay for themselves, and the deficits they created did not "starve the beast" either. Spending kept rising while revenue fell. By the Center for American Progress's count, the Bush and Trump tax cuts explain 57% of the rise in the debt ratio since 2001, and more than 90% once the two crisis responses are set aside.
+Neither version of the theory held. The cuts did not pay for themselves. Nor did the deficits they created "starve the beast," the idea that lost revenue would force Congress to cut spending. Spending kept rising while revenue fell. By the Center for American Progress's count, the Bush and Trump tax cuts explain 57% of the rise in the debt ratio since 2001. Set aside the two crisis responses, and they explain more than 90%.
 
 ![Revenue dropped after the Bush and Trump tax cuts and never regained its 2000 level](budget-revenue-vs-spending.png)
 
@@ -73,17 +77,17 @@ The third war is Trump's alone. He launched it against Iran in February 2026 wit
 
 The Affordable Care Act shows the difference in fiscal character most clearly. Democrats paid for their largest new program with taxes on high earners, fees on insurers and device makers, and Medicare savings. CBO scored it as cutting deficits by $143 billion in its first decade. Not one Republican voted for it.
 
-Republicans then spent years trying to strip out its financing. Their 2017 repeal bill would have scrapped the high-earner taxes; it died in the Senate. In 2019 they did repeal $373 billion of the law's taxes, in a year-end deal where Democrats traded away the "Cadillac" tax that unions hated. In 2025 they cut Medicaid.
+Republicans then spent years trying to strip out its financing. Their 2017 repeal bill would have scrapped the high-earner taxes; it died in the Senate. In 2019 they did repeal $373 billion of the law's taxes. In that year-end deal, Democrats traded away the "Cadillac" tax on high-cost employer health plans, which unions hated. In 2025 they cut Medicaid.
 
-Compare Part D, the Republicans' own health entitlement from 2003. It had no financing at all.
+Compare the Republicans' own health entitlement from 2003, the Medicare drug benefit known as Part D. It had no financing at all.
 
 ## Two massive tail-risk failures on Republican watches
 
-The federal government's first job is to protect the public from catastrophic tail risks. It failed that test twice in twenty years, and both failures came on Republican watches.
+The federal government's first job is to protect the public from catastrophic tail risks: rare events that do enormous damage. It failed that test twice in twenty years, and both failures came on Republican watches.
 
 The financial crisis grew under Bush's regulators. The bipartisan inquiry commission found it avoidable and put the main blame on regulators who failed to stop toxic mortgage lending. The deregulation that set the stage passed under Clinton with votes from both parties. But the bubble inflated, and the warnings were ignored, in the Bush years.
 
-COVID arrived on Trump's watch. In 2018 his national security adviser folded the White House pandemic office that Obama had created after Ebola into a broader directorate, and left its top post unfilled. When the virus came, the federal response faltered. The U.S. went on to suffer the highest excess death rate among large, wealthy countries over 2020–21, a failure that outlasted his term.
+COVID arrived on Trump's watch. Obama had created a White House pandemic office after Ebola. In 2018 Trump's national security adviser folded it into a broader directorate and left its top post unfilled. When the virus came, the federal response faltered. The U.S. went on to suffer the highest excess death rate among large, wealthy countries over 2020–21, a failure that outlasted his term.
 
 The borrowing that followed each crisis was bipartisan, and much of it was unavoidable. What was avoidable was the starting point -- and perhaps the crisis itself. Republicans had already spent the country's fiscal room in good times, so each crisis piled new debt on top of debt that need not have been there.
 
@@ -111,7 +115,7 @@ Republicans have three serious answers. None changes the verdict.
 
 ## Verdict
 
-Since 2000, the party that campaigns on fiscal discipline has been the main author of America's structural deficit. Three times it cut taxes without paying for them, each time promising growth would cover the cost, and each time CBO, and then the debt, proved otherwise. It fought two wars on borrowed money and started a third without asking Congress. It was in charge when both great tail-risk failures arrived, and it had already spent the fiscal room needed to absorb them.
+Since 2000, the party that campaigns on fiscal discipline has been the main author of America's structural deficit, the gap between spending and revenue that persists even in good times. Three times it cut taxes without paying for them, each time promising growth would cover the cost, and each time CBO, and then the debt, proved otherwise. It fought two wars on borrowed money and started a third without asking Congress. It was in charge when both great tail-risk failures arrived, and it had already spent the fiscal room needed to absorb them.
 
 Democrats share the blame for locking in most of the Bush cuts and for borrowing too much in 2021. But the fair headline is not that both parties did it. It is that one party dug most of the hole, and the other did too little to fill it.
 

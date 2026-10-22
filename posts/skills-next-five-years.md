@@ -8,7 +8,7 @@ deck: As AI compresses the cost of implementation, the bottleneck shifts to deci
 archive_deck: As AI compresses the cost of implementation, the bottleneck shifts to deciding what matters and why. Four durable skills will help people direct the tools and adapt as technology reshapes work.
 ---
 
-For the better part of two decades, the technology industry rewarded a very specific kind of leverage: **narrow, static specialization**. If you knew the idiosyncrasies of a particular front-end framework, memorized the syntax of a trending language, or mastered one slice of a cloud configuration, you had a moat. Execution was expensive, boilerplate was manual, and being the person who knew *how* to type the incantation was enough to build a career.
+For the better part of two decades, the technology industry rewarded a very specific kind of leverage: **narrow, static specialization**. If you knew the idiosyncrasies of a particular front-end framework, memorized the syntax of a trending language, or mastered one slice of a cloud configuration, you had a moat. Execution was expensive, routine code was written by hand, and being the person who knew *how* to type the incantation was enough to build a career.
 
 That era is over.
 
@@ -32,7 +32,7 @@ In an environment where you are orchestrating both cross-functional humans and h
 
 When anyone can summon a passable answer to a standard question in three seconds, surface-level knowledge loses all market value. Information retrieval is a solved problem. **Synthesis is the new scarcity.**
 
-Shallow work—pattern-matching against obvious templates—is the easiest cognitive labor to automate. What remains stubbornly, irreplaceably valuable is the ability to sit with a messy, high-dimensional problem and reason through it from first principles.
+Shallow work—pattern-matching against obvious templates—is the easiest cognitive labor to automate. What remains stubbornly, irreplaceably valuable is the ability to sit with a messy problem with many interacting parts and reason through it from first principles.
 
 Deep thinking in the next five years looks like **second- and third-order reasoning**. Anyone can see what happens immediately when you ship a feature or change an architecture; very few people pause to trace the ripple effects six months out—how a database trade-off alters product latency, which shifts user retention, which reshapes the unit economics of the business.
 

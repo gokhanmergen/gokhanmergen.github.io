@@ -22,7 +22,7 @@ A question costs nothing to ask and a great deal to answer. The person asking de
 
 ## **When nothing is true**
 
-Real history is complicated, and honest historians say so. Poland's interwar governments made serious mistakes. Britain and France appeased Hitler for years. Versailles left a bitter legacy. And the Soviet Union, whose successor now lectures the world about 1939, signed a pact with Hitler that August, [complete with a secret protocol dividing Poland between them](https://avalon.law.yale.edu/20th_century/addsepro.asp), then invaded from the east sixteen days after Germany invaded from the west. Putin left that part out.
+Real history is complicated, and honest historians say so. Poland's interwar governments made serious mistakes. Britain and France appeased Hitler for years. Versailles left a bitter legacy. And the Soviet Union signed a pact with Hitler that August, [complete with a secret protocol dividing Poland between them](https://avalon.law.yale.edu/20th_century/addsepro.asp). Sixteen days after Germany invaded from the west, the Soviet Union invaded from the east. Its successor now lectures the world about 1939. Putin left that part out.
 
 None of this changes the core. Nazi Germany invaded Poland to erase it as a state. It planned the extermination of Poland's Jews and the subjugation of its Slavs, and it built a genocidal empire across a continent. Complexity at the edges does not make the center negotiable.
 
@@ -46,7 +46,7 @@ The New York Times Opinion series [*Operation InfeKtion*](https://www.nytimes.co
 
 Today the playbook barely needs the big lie. The question does the work, social media distributes it, and the useful idiot arrives with an audience of millions. After the Moscow interview, the speaker of Poland's parliament [applied exactly that phrase to Carlson](https://notesfrompoland.com/2024/02/10/poland-corrects-ten-putin-lies-from-tucker-carlson-interview/).
 
-Some messengers are paid. In 2024 the Justice Department [charged two employees of RT](https://www.npr.org/2024/09/05/nx-s1-5100829/russia-election-influencers-youtube), Russia's state broadcaster, with secretly routing nearly $10 million to a Tennessee company that hired popular American commentators, who say they never knew where the money came from. Most messengers are not paid at all, and their sincerity makes them more useful, not less.
+Some messengers are paid. In 2024 the Justice Department [charged two employees of RT](https://www.npr.org/2024/09/05/nx-s1-5100829/russia-election-influencers-youtube), Russia's state broadcaster, with secretly routing nearly $10 million to a Tennessee company. The company hired popular American commentators, who say they never knew where the money came from. Most messengers are not paid at all, and their sincerity makes them more useful, not less.
 
 **Russia does not need to conquer America, or even to be admired by it. It needs only for Americans to believe that their science, elections, press and medicine are all frauds, and that no institution deserves more trust than a Telegram channel. The aim is not to make people believe one lie. It is to make them incapable of believing anything.**
 

@@ -10,7 +10,7 @@ archive_deck: Mass-unemployment forecasts get history backward. AI mines new mat
 
 The dominant narrative surrounding Artificial Intelligence is one of impending doom: AI is going to automate everything, shrink the labor market, and create mass unemployment.
 
-But this entire premise is built on a fundamentally flawed way of looking at human progress. AI isn't an executioner coming for our jobs; it is the catalyst for a new Gold Rush. And just like the historical gold rushes, discovering a massive new resource doesn't put people out of work—it triggers an explosive demand for labor.
+But this premise rests on a fundamentally flawed view of human progress. AI isn't an executioner coming for our jobs; it is the catalyst for a new Gold Rush. And just like the historical gold rushes, discovering a massive new resource doesn't put people out of work—it triggers an explosive demand for labor.
 
 ## The Mathematician's Fallacy
 
@@ -18,9 +18,9 @@ Take mathematics as an example. The common fear goes like this: "AI is getting s
 
 This is the most backward idea in the world.
 
-When AI discovers new mathematics, it is the equivalent of striking gold. It generates raw, highly valuable material. But natural resources are useless in a vacuum. As the volume of discovered math increases, human capacity and the potential to build upon that math expand with it.
+When AI discovers new mathematics, it is the equivalent of striking gold. It generates raw, highly valuable material. But natural resources are useless on their own. As AI discovers more math, there is more for people to build on, and our capacity to build expands with it.
 
-When you find a massive gold deposit, you don't fire the miners. You hire more miners, more engineers to build extraction tools, more refiners, and more merchants to sell the gold. As AI pushes the boundaries of math, code, and science, the transaction volume of human knowledge increases. We will need vastly more mathematicians and specialists to translate, apply, and transform these high-level AI discoveries into practical applications for the public.
+When you find a massive gold deposit, you don't fire the miners. You hire more miners, more engineers to build extraction tools, more refiners, and more merchants to sell the gold. As AI pushes the boundaries of math, code, and science, there is more knowledge for people to trade and use. We will need vastly more mathematicians and specialists to translate, apply, and transform these high-level AI discoveries into practical applications for the public.
 
 ## The Digital Gold Rush
 
@@ -30,8 +30,8 @@ Because one human equipped with AI can now produce a significantly higher volume
 
 ## The Next 5 to 10 Years
 
-The idea that technological leverage leads to fewer jobs ignores all of human history. When tractors were invented, mechanical agriculture expanded into a massive global industry. When computers were invented, the tech sector was born.
+The idea that labor-saving technology leads to fewer jobs ignores all of human history. When tractors were invented, mechanical agriculture expanded into a massive global industry. When computers were invented, the tech sector was born.
 
-In the next 5 to 10 years, we are not going to see jobs disappear; we are going to see employment in the broader technology and application sectors trend toward infinity. The sheer volume of new businesses, services, and scientific endeavors that AI will make economically viable will create a labor vacuum. The world will be desperate for people who can wield these tools to mine the digital gold.
+In the next 5 to 10 years, we are not going to see jobs disappear. We are going to see employment in the broader technology sector, and in the sectors that apply AI, trend toward infinity. AI will make so many new businesses, services, and scientific endeavors economically viable that it will create a labor shortage. The world will be desperate for people who can wield these tools to mine the digital gold.
 
 Humanity is currently looking at this equation completely backward. The AI job-apocalypse is a myth; the AI Gold Rush has just begun.

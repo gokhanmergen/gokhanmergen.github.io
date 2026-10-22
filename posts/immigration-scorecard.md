@@ -9,19 +9,19 @@ deck: Listen to cable news and immigration looks like a zero-sum drain on Americ
 archive_deck: Listen to cable news and immigration looks like a zero-sum drain on American workers. Count the businesses founded, the deficits reduced, and the medals won, then the track record strongly favors immigration.
 ---
 
-On October 8, 2026, President Donald Trump awarded the nation's highest science and technology honors—the National Medal of Science and the National Medal of Technology and Innovation—to six technology leaders: Elon Musk, Sergey Brin, Jensen Huang, Lisa Su, Satya Nadella, and Michael Dell. Five were born abroad, and the companies they founded or lead are worth more than 25% of the S&P 500. That same day, the Department of Labor suspended Microsoft and seven other employers from the PERM green-card program and opened J-1 visa-fraud investigations into nine top research universities—six weeks after the Department of Homeland Security proposed a $103,265 fee on H-1B petitions.
+On October 8, 2026, President Donald Trump awarded the nation's highest science and technology honors—the National Medal of Science and the National Medal of Technology and Innovation—to six technology leaders: Elon Musk, Sergey Brin, Jensen Huang, Lisa Su, Satya Nadella, and Michael Dell. Five were born abroad, and the companies they founded or lead are worth more than 25% of the S&P 500. That same day, the Department of Labor suspended Microsoft and seven other employers from PERM, the program companies use to sponsor foreign workers for green cards. It also opened visa-fraud investigations into nine top research universities over J-1 visas, the exchange visas many foreign researchers hold. Six weeks earlier, the Department of Homeland Security had proposed a $103,265 fee on petitions for H-1B skilled-worker visas.
 
 ![President Trump applauds the six recipients of the 2026 National Medals of Science and of Technology and Innovation on stage](immigration-medal-ceremony-2026.jpg)
 
 *Photo: President Trump applauds the six medal recipients. Official White House Photo by Daniel Torok.*
 
-The usual political story is that immigration is zero-sum: every foreign-born worker takes a native-born worker's slot, drains the budget, and dilutes domestic talent. Judge immigration by an unmanaged border and both parties look negligent. Judge it by who starts America's companies, who pays down its deficits, who wins its Nobel and Presidential medals, and whose children sweep its Science Olympiads, and the verdict is clear: America's superpower status runs on an immigrant talent engine that Washington is actively trying to dismantle.
+The usual political story is that immigration is zero-sum: every foreign-born worker takes a native-born worker's slot, drains the budget, and dilutes domestic talent. Judge immigration by an unmanaged border and both parties look negligent. Judge it by who starts America's companies, who pays down its deficits, who wins its Nobel and Presidential medals, and whose children sweep its Science Olympiads. The verdict is clear: **America's superpower status runs on an immigrant talent engine that Washington is actively trying to dismantle.**
 
 ## The short version
 
-- **Immigrants are 15.4% of the population and nearly a fifth of the workforce.** Between 51.9 and 53.3 million immigrants (15.4%–15.8%, above the 1890 peak of 14.8%) make up about 19% of the labor force. About 73% are here legally.
+- **Immigrants are 15.4% of the population and nearly a fifth of the workforce.** The U.S. has 51.9 to 53.3 million immigrants: 15.4% to 15.8% of the population, above the 1890 peak of 14.8%. They make up about 19% of the labor force. About 73% are here legally.
 - **They create more jobs than they take.** Immigrants found firms at an **80% higher rate** than U.S.-born citizens, at every firm size. Immigrants or their children founded **46.2% of the 2025 Fortune 500**.
-- **Immigration cuts the federal deficit.** CBO scored the 2021–2026 surge as adding **$8.9 trillion** to GDP and cutting deficits by **$0.9 trillion** over 2024–2034. The 2013 Senate reform bill that House Republicans killed would have cut deficits by **$158 billion** in its first decade and about **$685 billion** in its second.
+- **Immigration cuts the federal deficit.** The Congressional Budget Office (CBO) estimated that the 2021–2026 immigration surge adds **$8.9 trillion** to GDP and cuts deficits by **$0.9 trillion** over 2024–2034. The 2013 Senate reform bill that House Republicans killed would have cut deficits by **$158 billion** in its first decade and about **$685 billion** in its second.
 - **The frontier is foreign-born because the talent pool is.** The U.S. has 4.1% of the world's people. Immigrants have won **40% of U.S. science Nobels since 2000** and **5 of the 6 October 2026 medals**.
 - **Their children dominate youth STEM.** All five 2025 U.S. Physics Olympiad gold medalists and **83% of the 2016 Science Talent Search finalists** had immigrant parents.
 - **Both parties broke the system.** Employment green-card and H-1B caps are essentially frozen at 1990 levels while GDP has quintupled. Republicans killed reform in 2007 and 2013 and now target legal skilled pipelines. Under the Biden administration, border crossings hit record highs in 2021–2023 before falling sharply in 2024, and Democrats never lifted the 7% per-country cap.
@@ -30,7 +30,7 @@ Every figure in the main text is documented, with sources and methodology, in th
 
 ## 1. Who we are by the numbers: The 15.4% share
 
-The foreign-born share peaked at **14.8%** in 1890, collapsed to **4.7%** in 1970 under the 1924 national-origins quotas, and rebuilt after the 1965 Hart-Celler Act abolished them: 7.9% in 1990, 12.9% in 2010, a record **15.8% (53.3 million)** in January 2025, and **15.4% (51.9 million)** by June 2025. Counting their U.S.-born children, first- and second-generation Americans are 28% of the country.
+The foreign-born share peaked at **14.8%** in 1890. Under the 1924 national-origins quotas, it collapsed to **4.7%** in 1970. The 1965 Hart-Celler Act abolished those quotas, and the share rebuilt: 7.9% in 1990, 12.9% in 2010, a record **15.8% (53.3 million)** in January 2025, and **15.4% (51.9 million)** by June 2025. Counting their U.S.-born children, first- and second-generation Americans are 28% of the country.
 
 ![Bar chart: immigrants are 15.4% of U.S. residents and 19.1% of the labor force, but 43% of doctorates in science and engineering jobs, 56% of engineering doctorates, and 58% of computer and math doctorates](immigration-immigrant-share-by-skill.png)
 
@@ -40,13 +40,13 @@ The higher the skill level, the larger the immigrant share: immigrants are overr
 
 Three facts stand out:
 
-1. **Immigrants are workers, not dependents.** They are 15.4% of residents but about 19% of the labor force (32.7 million workers in 2025, up from 12% in 1995), because most arrive at ages 18 to 45 with their schooling already paid for abroad.
+1. **Immigrants are workers, not dependents.** They are 15.4% of residents but about 19% of the labor force, because most arrive at ages 18 to 45 with their schooling already paid for abroad. Their share of the labor force was 12% in 1995; in 2025 it meant 32.7 million workers.
 2. **Most are here legally.** 46% are naturalized citizens, 23% green-card holders, and 4% temporary visa holders. Of the 27% who are unauthorized, more than 40% (about 6 million in 2023) had temporary protection from deportation through TPS, DACA, a pending asylum claim, or parole.
 3. **Skills form an hourglass.** Immigrants match natives in college degrees (36% each) but are far likelier to lack a high school diploma (24% vs. 7%), filling jobs at both ends of the economy.
 
 ## 2. Do immigrants take jobs—or create them?
 
-The **lump of labor fallacy** assumes a fixed number of jobs. If it held, 40 million women entering the workforce after 1960, and a population that has tripled since 1920, would have produced mass unemployment. Workers also consume, invest, and start companies; the real question is whether immigrants add more labor demand than labor supply. **Pierre Azoulay, Benjamin F. Jones, J. Daniel Kim, and Javier Miranda** (*AER: Insights*, 2022) answered it with Census records covering every U.S. employer firm.
+The **lump of labor fallacy** assumes a fixed number of jobs. If it held, 40 million women entering the workforce after 1960, and a population that has tripled since 1920, would have produced mass unemployment. Workers also consume, invest, and start companies. The real question is whether immigrants add more labor demand than labor supply, that is, whether they create more jobs than they take. **Pierre Azoulay, Benjamin F. Jones, J. Daniel Kim, and Javier Miranda** (*AER: Insights*, 2022) answered it with Census records covering every U.S. employer firm.
 
 ![Stacked bar chart: immigrants or their children founded 46% of Fortune 500 companies (2025), 64% of U.S. billion-dollar startups (2022), and 65% of top AI startups (2023)](immigration-immigrant-founders.png)
 
@@ -54,11 +54,11 @@ The **lump of labor fallacy** assumes a fixed number of jobs. If it held, 40 mil
 
 The dashed line marks immigrants' share of the population; at the top of American business, immigrant founders run three to four times that share.
 
-**Immigrants found more firms of every size.** Over 2005–2010, 0.83% of immigrant workers founded an employer firm, versus 0.46% of U.S.-born workers—an 80% premium that holds from 10-person startups to 10,000-person enterprises. Because immigrants are disproportionately employers, they shift labor demand outward more than labor supply, so on net they create more jobs than they take. Their firms are also 35% more likely to hold a patent and pay roughly the same wages as native-founded firms.
+**Immigrants found more firms of every size.** Over 2005–2010, 0.83% of immigrant workers founded an employer firm, versus 0.46% of U.S.-born workers—an 80% premium that holds from 10-person startups to 10,000-person enterprises. Because immigrants are disproportionately employers, they raise the demand for workers more than they add to the supply. On net, they create more jobs than they take. Their firms are also 35% more likely to hold a patent and pay roughly the same wages as native-founded firms.
 
 **They built much of corporate America.** The 231 "New American" Fortune 500 companies employ 15.4 million people and form a majority in professional services, manufacturing, and information. The pipeline runs through universities: 70% of full-time U.S. graduate students in AI-related fields are international.
 
-**Restriction exports jobs.** When the H-1B cap fell from 195,000 to 65,000 in 2004, U.S. multinationals did not hire more Americans; they expanded affiliates in Canada, India, and China (Glennon, 2024). Conversely, H-1B-driven inflows of foreign STEM workers may explain 30%–50% of U.S. productivity growth from 1990 to 2010, and each 1-point rise in a city's foreign-STEM employment share raised wage growth for college-educated natives by 7 to 8 points (Peri, Shih & Sparber, 2015).
+**Restriction exports jobs.** When the H-1B cap fell from 195,000 to 65,000 in 2004, U.S. multinationals did not hire more Americans; they expanded affiliates in Canada, India, and China (Glennon, 2024). Conversely, H-1B-driven inflows of foreign STEM workers may explain 30%–50% of U.S. productivity growth from 1990 to 2010 (Peri, Shih & Sparber, 2015). The same study found that each 1-point rise in foreign STEM workers' share of a city's jobs raised wage growth for college-educated natives by 7 to 8 points.
 
 **Less-educated natives are largely spared.** The National Academies (2017) found the long-run effect of immigration on native-born wages is very small. Immigrants and natives are imperfect substitutes: when immigrants take manual jobs, natives move into communication-intensive roles such as supervision and sales (Peri & Sparber, 2009). Where wage losses appear, they fall mainly on earlier immigrants, then on native-born high school dropouts.
 
@@ -78,11 +78,13 @@ Immigrants are 15.4% of Americans yet won 83% of these medals and 40% of U.S. No
 
 1. **The global tail.** If extraordinary talent is spread evenly across births, 96% of it is born outside the U.S., which has 4.1% of the world's people. A country that recruits from the top of the other 7.86 billion will see immigrants dominate its right tail.
 2. **The American multiplier.** Tracking International Mathematical Olympiad medalists, **Agarwal, Ganguli, Gaulé, and Smith** (2021; *Research Policy*, 2023) found that those who moved to the U.S. became **up to six times more productive** than equally talented medalists who moved elsewhere. American labs, capital, and markets turn talent into output.
-3. **Self-selection.** Crossing an ocean—as Brin's refugee family, Huang and Su as children, or Nadella on a student visa did—selects for the risk tolerance and ambition that frontier companies need.
+3. **Self-selection.** Crossing an ocean selects for the risk tolerance and ambition that frontier companies need. Brin's family made the crossing as refugees, Huang and Su as children, and Nadella on a student visa.
 
 ## 4. Why America's Olympiad medal winners come from immigrant families
 
-The children of immigrants dominate U.S. youth science even more. In July 2025, all five members of the U.S. Physics Olympiad team won gold in Paris—the only country to do so—and when President Trump hosted them in the Oval Office that September, every one came from an immigrant family, including **Agastya Goel**, son of Indian-born Stanford professor Ashish Goel. U.S. math teams, world champions in 2015, 2016, 2018, 2019, and 2024, show the same pattern, and the share of Science Talent Search finalists with an immigrant parent rose from 60% in 2004 to 83% in 2016, and 75% had a parent who had worked on an H-1B, even though former H-1B holders are under 1% of the population.
+The children of immigrants dominate U.S. youth science even more. In July 2025, all five members of the U.S. Physics Olympiad team won gold in Paris. The U.S. was the only country to do so. President Trump hosted them in the Oval Office that September. Every one came from an immigrant family, including **Agastya Goel**, son of Indian-born Stanford professor Ashish Goel. U.S. math teams, world champions in 2015, 2016, 2018, 2019, and 2024, show the same pattern.
+
+So do finalists in the Science Talent Search, a national high-school science competition. The share with an immigrant parent rose from 60% in 2004 to 83% in 2016. And 75% had a parent who had worked on an H-1B, even though former H-1B holders are under 1% of the population.
 
 ![Bar chart: share of top U.S. youth science teams with an immigrant parent ranges from 75% to 100%, versus 28% of all U.S. residents who are first or second generation](immigration-olympiad-immigrant-parents.png)
 
@@ -90,7 +92,7 @@ The children of immigrants dominate U.S. youth science even more. In July 2025, 
 
 Three filters compound:
 
-1. **Parental selection.** With employment green cards capped at 140,000 a year and 7% per country, Indian and Chinese parents typically cleared the JEE (roughly the top 1% win an IIT seat) or the Gaokao (the top 0.1% reach Tsinghua, Peking, or USTC), then U.S. Ph.D. admissions and tech hiring. Two such parents raise children in homes saturated with math.
+1. **Parental selection.** With employment green cards capped at 140,000 a year and 7% per country, Indian and Chinese parents typically cleared several hurdles. First came a university entrance exam: in India, roughly the top 1% on the JEE win a seat at an Indian Institute of Technology (IIT); in China, the top 0.1% on the Gaokao reach Tsinghua, Peking, or USTC. Then came U.S. Ph.D. admissions and tech hiring. Two such parents raise children in homes saturated with math.
 2. **Imported training.** Soviet, Chinese, and Indian mathematicians brought Olympiad culture with them, including the **Russian School of Mathematics**, founded in 1997 by immigrants Inessa Rifkin and Irina Khavinson and now serving more than 70,000 students. Where many native-born families invest childhood hours in travel sports, these families invest them in math, coding, and physics.
 3. **Objective scoring.** Outsiders without legacy networks steer children toward fields with indisputable scoring (Kao & Tienda, 1995; Louie, 2004). A correct Olympiad proof earns 7 of 7 points regardless of the student's last name.
 
@@ -102,13 +104,19 @@ How has Washington managed the laws that bring this talent in? Appendix A scores
 
 **The 36-year freeze.** Congress has never permanently raised the 140,000 cap, even as nominal GDP grew from $6 trillion to over $30 trillion. The cap counts spouses and children (leaving about 65,000 to 70,000 workers a year) and limits each country to 7%, so India, with 1.44 billion people, gets the same allotment as Cyprus. By 2023 the backlog had reached 1.8 million cases, 1.1 million of them Indian, with new Indian applicants facing waits of up to 134 years.
 
-**What Republicans broke.** A Bush-backed reform died in 2007 when a Senate cloture vote failed 46–53, with 37 Republicans (joined by 15 Democrats and one independent) voting no. In 2013 the Senate passed S. 744 by 68–32: it doubled the Border Patrol, mandated E-Verify, cleared the STEM backlog, and legalized unauthorized immigrants who paid fines and back taxes. CBO scored it as cutting deficits by $158 billion in its first decade and about $685 billion in its second, and raising GDP 5.4% by 2033. House leaders refused a vote. In February 2024, Senate Republicans killed their own bipartisan border deal at Donald Trump's instruction, keeping the issue alive for the election. Since 2025, the administration has turned on legal skilled pipelines:
+**What Republicans broke.** A Bush-backed reform died in 2007 when a Senate vote to end debate (a cloture vote) failed 46–53. The no votes came from 37 Republicans, joined by 15 Democrats and one independent.
+
+In 2013 the Senate passed S. 744 by 68–32: it doubled the Border Patrol, mandated E-Verify, cleared the STEM backlog, and legalized unauthorized immigrants who paid fines and back taxes. CBO scored it as cutting deficits by $158 billion in its first decade and about $685 billion in its second, and raising GDP 5.4% by 2033. House leaders refused a vote.
+
+In February 2024, Senate Republicans killed their own bipartisan border deal at Donald Trump's instruction, keeping the issue alive for the election.
+
+Since 2025, the administration has turned on legal skilled pipelines:
 
 - a $100,000 H-1B fee imposed in September 2025, days before Trump hosted the Physics Olympiad champions (a court vacated it in June 2026), followed by a proposed $103,265 replacement in August 2026;
 - J-1 visa-fraud probes of Harvard, Yale, Stanford, Brown, Pitt, UC Davis, Caltech, Arizona State, and MIT, which *Nature* reports could push international postdocs abroad;
 - the October 8, 2026 PERM suspension of Microsoft, Adobe, Infosys, TCS, Wipro, HCLTech, Cognizant, and Capgemini, cutting off the main green-card path for thousands of backlogged engineers.
 
-**What Democrats own.** The Biden administration unwound border enforcement before building processing capacity, and net migration reached roughly 2.8 million a year in 2023–2024. CBO projected a $0.9 trillion federal fiscal gain, but the near-term costs fell on cities such as New York, Chicago, and Denver, eroding public support until Biden restricted asylum in June 2024. With full control of Congress in 2021–2022, Democrats also let green-card recapture and STEM Ph.D. exemptions drop out of the America COMPETES Act and Build Back Better, leaving more than 250,000 "Documented Dreamers," children raised here on their parents' visas, at risk of losing legal status at 21.
+**What Democrats own.** The Biden administration unwound border enforcement before building processing capacity, and net migration reached roughly 2.8 million a year in 2023–2024. CBO projected a $0.9 trillion federal fiscal gain, but the near-term costs fell on cities such as New York, Chicago, and Denver, eroding public support until Biden restricted asylum in June 2024. With full control of Congress in 2021–2022, Democrats also let two measures drop out of the America COMPETES Act and Build Back Better: green-card recapture, which would have reclaimed green cards left unused in past years, and exemptions from the caps for STEM Ph.D.s. That left more than 250,000 "Documented Dreamers," children raised here on their parents' visas, at risk of losing legal status at 21.
 
 ::: fold
 ## Appendix A: The U.S. Immigration Policy Scorecard (1965–2026)

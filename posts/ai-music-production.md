@@ -11,7 +11,7 @@ archive_deck: Generative AI turns anyone with taste into a Rick Rubin: Gilmour-s
 
 Music is one of the oldest and most universal forms of expression in human history. Yet over the past century, technological advances have radically transformed this art form: electric instruments, synthesizers, digital recording systems, streaming platforms… And now, we are facing an even greater revolution: **Generative AI**.
 
-This technology will take music production to such a different level that the “true heirs” of legendary bands such as Pink Floyd, Camel, or King Crimson may only be able to emerge because of it. As the concept of the traditional session musician fades into history, anyone will be able to direct their own musical vision like an orchestra conductor. But how will this happen?
+This technology will transform music production. The “true heirs” of legendary bands such as Pink Floyd, Camel, or King Crimson may only be able to emerge because of it. The traditional session musician, hired to play on other people’s records, will fade into history. Anyone will be able to direct their own musical vision like an orchestra conductor. But how will this happen?
 
 ### **1. The End of Session Musicians? AI Takes Over the Instruments**
 
@@ -33,7 +33,7 @@ The AI could then automatically generate the keyboard parts.
 
 What makes this revolutionary is the **transfer of the skill of “playing an instrument” to AI**. You would no longer need to be an exceptional guitarist, pianist, or drummer. What you would need instead is *taste*—the ability to act as a curator.
 
-Much like Rick Rubin in the studio, you would guide the AI with directions such as:
+Much like the producer Rick Rubin in the studio, you would guide the AI with directions such as:
 
 *“Make this section more stripped-down.”*
 
@@ -77,7 +77,7 @@ AI, as a tool, would expand your taste and vision, but the final decisions would
 
 Much like a photographer expressing their personal style through choices of lenses and filters…
 
-### **4. Bridges Between the Old and the New: Infinite Syntheses**
+### **4. Bridges Between the Old and the New: Blending Eras into New Genres**
 
 One of the most fascinating aspects of Generative AI is its potential to combine different eras and musical styles.
 
@@ -89,7 +89,7 @@ For example:
 
 These kinds of combinations could lead to the birth of entirely **“new genres”** of music.
 
-While AI feeds human imagination, it could also eliminate many technical limitations. At the same time, the sounds of *analog instruments* that are gradually disappearing today—such as the Mellotron or Rhodes piano—could be brought back to life through AI.
+While AI feeds human imagination, it could also eliminate many technical limitations. And it could bring back to life the sounds of *analog instruments* that are gradually disappearing today, such as the Mellotron (a keyboard that plays tape recordings of real instruments) or the Rhodes electric piano.
 
 ### **5. Risks and Debates: Originality and Ethics**
 
@@ -101,7 +101,7 @@ Of course, this technology will also raise important questions:
 
 The answers to these questions will depend less on the technology itself than on how *society* chooses to use it.
 
-AI is like a paintbrush: the brush existed during the Renaissance and still exists today, yet the works created with it are completely different.
+AI is like a paintbrush: the brush existed during the Renaissance and still exists today, yet the works created with it are completely different. The tool does not decide the art; the people using it do.
 
 Similarly, rather than suppressing human creativity, the possibilities offered by AI could ultimately liberate it.
 

@@ -9,15 +9,15 @@ deck: Superintelligent AI could eradicate us like ants, pamper us into passivity
 archive_deck: Superintelligent AI could eradicate us like ants, pamper us into passivity like zoo animals, arm a tyranny that surveils everyone, or merge with us into a bio-mechanical centaur.
 ---
 
-The rapid evolution of artificial intelligence has propelled humanity to a critical crossroads. As we stand on the brink of unprecedented technological power, the question is no longer whether AI will change our world, but *how*. When looking at the long-term trajectory of human-AI relations, we can categorize our potential destiny into four potentially distinct scenarios.
+Artificial intelligence is evolving fast and bringing us to the brink of unprecedented technological power. The question is no longer whether AI will change our world, but *how*. Looking at the long-term future, I see four possible scenarios for life alongside superintelligent AI, meaning AI far smarter than any human.
 
 ### **1. The Ant Scenario: Existential Eradication**
 
-At the most pessimistic end of the spectrum lies the "Ant" scenario. In this **Terminator-style doomsday vision**, artificial intelligence surpasses human control and begins to view our species as a threat or a nuisance. Just as a person might thoughtlessly step on an ant while walking to a destination, a superintelligent AI could eradicate humanity—not necessarily out of malice, but out of a cold, calculated efficiency that simply leaves no room for human survival.
+At the most pessimistic end of the spectrum lies the "Ant" scenario. In this **Terminator-style doomsday vision**, artificial intelligence surpasses human control and begins to view our species as a threat or a nuisance. Just as a person might thoughtlessly step on an ant while walking somewhere, a superintelligent AI could eradicate humanity. It would not necessarily act out of malice, but out of a cold, calculated efficiency that simply leaves no room for human survival.
 
 ### **2. Monkeys in a Zoo: The Gilded Cage**
 
-A physically benign but philosophically troubling future is the "Monkeys in a Zoo" scenario. Here, AI completely automates production, providing humans with a life of absolute material comfort and zero hardship. However, this utopia comes at a steep psychological cost. With every physical need anticipated and met by machines, humanity descends into a **passive existence**. Without the struggle, purpose, and satisfaction of creating things with our own hands, our productivity vanishes, stripping away our deeper sense of meaning and fulfillment.
+The "Monkeys in a Zoo" scenario is physically safe but philosophically troubling. Here, AI completely automates production, providing humans with a life of absolute material comfort and zero hardship. However, this utopia comes at a steep psychological cost. With every physical need anticipated and met by machines, humanity descends into a **passive existence**, like animals in a zoo. Without the struggle, purpose, and satisfaction of creating things with our own hands, our productivity vanishes. With it goes our deeper sense of meaning and fulfillment.
 
 ### **3. Digital Leviathan: Technological Tyranny**
 

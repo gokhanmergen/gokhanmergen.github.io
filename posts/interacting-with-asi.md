@@ -10,7 +10,7 @@ archive_deck: Superintelligence may become our advisor, delegate, and ambient gu
 
 ## **The question has changed**
 
-For most of the last decade, the question about superintelligence was *whether*. Sometime in the past eighteen months it quietly became *what will it be like*. The systems on our screens now prove theorems that stumped specialists, write and debug codebases for hours without supervision, and run research loops that used to need a lab. Whether you call that ASI, proto-ASI, or simply "the thing that happened while we were arguing about definitions," the practical question is no longer abstract.
+For most of the last decade, the question about superintelligence was *whether*. Sometime in the past eighteen months it quietly became *what will it be like*. The systems on our screens now prove theorems that stumped specialists, write and debug codebases for hours without supervision, and run research loops that used to need a lab. Whether you call that artificial superintelligence (ASI), proto-ASI, or simply "the thing that happened while we were arguing about definitions," the practical question is no longer abstract.
 
 So let me take the premise seriously. Suppose that in 2027 we are talking to something that performs like an IQ-200 mind, in 2028 like 250, in 2029 like 300. What do our days look like? Do we become dependent on it? Does it lead us? And, the deepest question: does raw intelligence even buy what we think it buys, in a world that may be fundamentally resistant to being figured out?
 
@@ -26,13 +26,13 @@ In mathematics, code, formal logic, chip layout, protein folding, and games, the
 
 Outside those domains, the feedback loop breaks. Should this company enter that market? Will this policy reduce crime? Is this person a good co-founder? Should I take this job? Here the "answer" arrives years later, is contaminated by a thousand other causes, and can never be re-run. There is no test suite for a life.
 
-So the honest version of the question is not "how smart will it be?" It is: **how much of real-world competence is the kind that verification-trained intelligence transfers to?** That turns out to be the hinge of everything that follows.
+So the honest version of the question is not "how smart will it be?" It is: **how far does intelligence trained on checkable answers carry over to real-world competence?** That turns out to be the hinge of everything that follows.
 
 ## **Three mornings: 2026, 2027, 2028**
 
 Let me sketch the trajectory through one person. Call her Elif: a product leader at a mid-sized company, sharp, skeptical, busy.
 
-**2026 — the brilliant colleague.** Elif uses the system the way she used a very good chief of staff, only faster. She asks it to draft the strategy memo, stress-test the pricing model, and find the flaw in an engineer's design doc. It finds flaws she would have missed. She still decides what to ask. The relationship is *pull*: she initiates, it answers. Her main skill is knowing which questions matter. The most striking change is in her engineers. They no longer write most of their code; they write specifications and review diffs. The best of them have become something like editors of software.
+**2026 — the brilliant colleague.** Elif uses the system the way she used a very good chief of staff, only faster. She asks it to draft the strategy memo, stress-test the pricing model, and find the flaw in an engineer's design doc. It finds flaws she would have missed. She still decides what to ask. The relationship is *pull*: she initiates, it answers. Her main skill is knowing which questions matter. The most striking change is in her engineers. They no longer write most of their code; they write specifications and review the changes the system makes. The best of them have become something like editors of software.
 
 **2027 — the advisor that speaks first.** The system now has persistent context on Elif's work: her calendar, her documents, her team's metrics, the history of her decisions. It begins to *push*. Before her 10am meeting, it notes that the proposal on the table repeats an approach that failed two years ago, and why. It flags that a key customer's usage pattern resembles the twelve customers who churned last quarter. It suggests, gently, that she has three conflicting commitments for Thursday and proposes which to drop. She accepts about 70% of its suggestions without modification. She notices that her own judgment is now mostly exercised in the other 30%, and that those are the cases she finds hardest to articulate.
 
@@ -46,17 +46,21 @@ Here is the strongest case against the oracle, stated as forcefully as I can.
 
 Much of the world is **computationally irreducible**, to borrow Stephen Wolfram's phrase: for many systems, there is no shortcut to knowing the outcome except running the system itself. Weather beyond two weeks, markets, ecosystems, careers, companies, wars, marriages. These are not merely complicated. They are chaotic, reflexive, or both. Small differences in initial conditions amplify. Worse, in human systems the prediction changes the outcome: if everyone knows a stock will rise, it has already risen.
 
-Add Frank Knight's distinction between *risk* (unknown outcomes with known odds) and *uncertainty* (unknown outcomes with unknown odds, or unknown possible outcomes). Most consequential life decisions live in Knightian uncertainty. You cannot compute an expected value when you do not know the sample space.
+Add Frank Knight's distinction between *risk* (unknown outcomes with known odds) and *uncertainty* (unknown outcomes with unknown odds, or unknown possible outcomes). Most consequential life decisions live in Knightian uncertainty. You cannot compute an expected value when you do not know what the possible outcomes are.
 
 Add Hayek's knowledge problem. The information needed to make good decisions in an economy is dispersed, tacit, local, and fleeting. It lives in the shopkeeper's sense of her customers and the engineer's feel for a flaky system. It is not written down anywhere, and much of it cannot be.
 
-Put these together and the conclusion seems to follow. In verifiable domains, intelligence compounds. In irreducible domains, intelligence saturates. Beyond some point, a smarter model cannot predict a chaotic system much better than a merely smart one, because the information is not there to be extracted. The edge of a 300-IQ mind over a 140-IQ mind on "should I start this company?" might be small. Trial and error, not deduction, is how evolution, markets, science, and individual lives actually make progress. The superintelligence ends up producing *slightly better hypotheses*, and then has to wait, like everyone else, for reality to grade them.
+Put these together and the conclusion seems to follow. In verifiable domains, intelligence compounds. In irreducible domains, intelligence saturates. Beyond some point, a smarter model cannot predict a chaotic system much better than a merely smart one, because the information is not there to be extracted. The edge of a 300-IQ mind over a 140-IQ mind on "should I start this company?" might be small.
+
+Trial and error, not deduction, is how evolution, markets, science, and individual lives actually make progress. The superintelligence ends up producing *slightly better hypotheses*, and then has to wait, like everyone else, for reality to grade them.
 
 I think this objection is largely correct about the world. I think it is mostly wrong about what follows from it.
 
 ## **Why "slightly better" may be everything**
 
-The phrase "only slightly better hypotheses" carries a hidden assumption: that a small edge is a small advantage. Anyone who has worked in quantitative trading knows the opposite is true. A coin that lands heads 52% of the time is worthless if you can flip it once and a fortune if you can flip it a million times. Under optimal (Kelly) sizing, long-run growth scales roughly with the *square* of the edge. Double a small edge and you quadruple the compounding. Casinos, insurers, and the best quant funds are all built on edges that would look trivial in any single instance.
+The phrase "only slightly better hypotheses" carries a hidden assumption: that a small edge is a small advantage. Anyone who has worked in quantitative trading knows the opposite is true. A coin that lands heads 52% of the time is worthless if you can flip it once and a fortune if you can flip it a million times.
+
+If you bet the optimal fraction of your money each time (the Kelly criterion), long-run growth scales roughly with the *square* of the edge. Double a small edge and you quadruple the compounding. Casinos, insurers, and the best quant funds are all built on edges that would look trivial in any single instance.
 
 The irreducible world does not cap the value of intelligence. It changes its form. Intelligence stops looking like prophecy and starts looking like edge, applied at scale. Four mechanisms matter.
 
@@ -89,7 +93,7 @@ Will it proactively lead us through the day? Technically, almost certainly. Once
 
 Every interruption has a cost. A system that speaks up whenever it has a marginally useful idea would be unbearable, like a brilliant colleague who comments on everything. The well-designed version will behave like a great co-pilot: mostly silent, and speaking only when the expected value of interrupting clearly exceeds the cost of breaking your focus. "You're about to commit to something that conflicts with what you told me matters most this quarter" is worth an interruption. "Here are three slightly better ways to phrase this email" is not.
 
-The more consequential form of guidance will not be interruptions at all. It will be *curation*. Whoever decides what appears in your inbox, which meeting is on your calendar, which three options are presented and in what order, is shaping your decisions far more than any suggestion could. Behavioral economists call this choice architecture. An ambient AI will be the most powerful choice architect in history, working on every person at once, mostly invisibly. That can be wonderful, since a good default is a gift, or quietly corrosive, depending on whose goals the architecture serves.
+The more consequential form of guidance will not be interruptions at all. It will be *curation*. Curation means deciding what appears in your inbox, which meeting is on your calendar, and which three options you see, in what order. Whoever does that is shaping your decisions far more than any suggestion could. Behavioral economists call this choice architecture. An ambient AI will be the most powerful choice architect in history, working on every person at once, mostly invisibly. That can be wonderful (a good default is a gift) or quietly corrosive, depending on whose goals the architecture serves.
 
 I expect people to sort along a spectrum. For logistics, most will happily take turn-by-turn directions for their day, just as almost nobody navigates a new city from memory anymore. For meaning (whom to love, what to work on, what to believe), many will resist, and some will deliberately build unguided zones into their lives. It would not surprise me if, by 2030, the unassisted decision acquires the cultural status of the handmade object: less efficient, more prized, and a little bit of a luxury.
 
@@ -97,9 +101,9 @@ I expect people to sort along a spectrum. For logistics, most will happily take 
 
 Here the irreducibility argument returns with a twist, and I think it is the most important point in this essay.
 
-If progress in irreducible domains comes from trial and error, then the engine of progress is **variation**. Evolution needs mutations. Markets need people who disagree about prices. Science needs the stubborn researcher pursuing the unfashionable hypothesis. Most of those bets fail; the few that succeed carry everyone forward. Civilization runs a giant, decentralized explore-exploit algorithm, and it works because billions of people with different priors make different bets.
+If progress in irreducible domains comes from trial and error, then the engine of progress is **variation**. Evolution needs mutations. Markets need people who disagree about prices. Science needs the stubborn researcher pursuing the unfashionable hypothesis. Most of those bets fail; the few that succeed carry everyone forward. Civilization runs a giant, decentralized explore-exploit algorithm: trying new things while sticking with what has paid off. It works because billions of people with different starting beliefs make different bets.
 
-Now imagine a billion people consulting the same three or four models before every significant decision. Their bets become correlated. The same startup ideas get funded. The same career paths look optimal. The same trades get crowded. Quants have seen a small version of this: in August 2007, many funds running similar models tried to unwind similar positions at the same moment, and strategies that looked independent collapsed together. A world of oracle-guided decisions risks a civilizational version of that quant quake: everyone individually rational, collectively fragile.
+Now imagine a billion people consulting the same three or four models before every significant decision. Their bets become correlated. The same startup ideas get funded. The same career paths look optimal. The same trades get crowded. Quantitative traders ("quants") have seen a small version of this. In August 2007, many funds running similar models tried to get out of similar positions at the same moment, and strategies that looked independent collapsed together. A world of oracle-guided decisions risks a civilizational version of that "quant quake": everyone individually rational, collectively fragile.
 
 There is a deeper loss too. An advisor optimizing your expected outcome will usually steer you toward the best-known option. But society needs some people to take the long-shot, the weird path, the apparently suboptimal bet. That is where the unknown unknowns get discovered. The better the oracle, the stronger the pull toward the mean, and the less exploration the system as a whole does.
 
@@ -119,7 +123,7 @@ Everything above assumes a familiar shape: a person, a very smart advisor, a con
 
 ## **Closing: the oracle that has to wait**
 
-So will an IQ-300 machine guide our lives? In the verifiable world, it will do more than guide: it will solve, and we will mostly check its work with other machines. In the irreducible world, it will not be a prophet. It will be something more interesting: a tireless experimentalist and a calibrated advisor, turning small edges into large ones through sheer volume of well-chosen trials, and honest about which questions no amount of thought can settle.
+So will an IQ-300 machine guide our lives? In the verifiable world, it will do more than guide: it will solve, and we will mostly check its work with other machines. In the irreducible world, it will not be a prophet. It will be something more interesting: a tireless experimentalist and a calibrated advisor. It will turn small edges into large ones through sheer volume of well-chosen trials. And it will be honest about which questions no amount of thought can settle.
 
 We will depend on it, as we depend on every expert we cannot audit. The danger is not dependence itself. The danger is three quieter failures: deference where we needed delegation, atrophy of the judgment we still need for the hardest calls, and a monoculture of decisions that starves civilization of the variation it learns from.
 

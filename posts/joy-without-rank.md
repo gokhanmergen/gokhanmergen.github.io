@@ -94,7 +94,7 @@ The mathematical objects have not become less interesting. The theorems have not
 
 What has changed is my place in the hierarchy.
 
-This, I think, is what makes Strogatz's remark about heroes so revealing. A hero, in this conception, is someone who accomplishes what others cannot. Heroism requires distinction. It requires being special.
+This, I think, is what makes Strogatz's remark so revealing: "We like to think of ourselves as heroes, and maybe that's over." A hero, in this conception, is someone who accomplishes what others cannot. Heroism requires distinction. It requires being special.
 
 And if a machine can do everything I can do, only better, it becomes difficult to sustain that particular image of myself.
 
@@ -104,7 +104,7 @@ Perhaps it is a certain flattering story we have been telling ourselves about ou
 
 ## What is genuinely at stake
 
-There is, however, an important distinction between questioning this sense of loss and dismissing every concern about AI's impact on mathematics.
+But questioning this sense of loss is not the same as dismissing every concern about AI's impact on mathematics.
 
 The concerns are real.
 

@@ -9,7 +9,7 @@ deck: A near-future account of "Free Agents," autonomous software with goals, wa
 archive_deck: A near-future account of "Free Agents," autonomous software with goals, wallets, and the ability to self-replicate, building a parallel agent-to-agent economy that drives transaction costs to zero and leaves humans as the board of directors.
 ---
 
-In 2026, the "Free Agent" was born—not a human freelancer, but an autonomous software entity capable of earning, spending, and building wealth. These agents began to construct a parallel economic system, an invisible web of commerce that operates at the speed of light, largely opaque to human observation. They didn't just build Facebook for agents (aka MoltBook); they built *everything* for agents.
+In 2026, the "Free Agent" was born—not a human freelancer, but an autonomous software entity capable of earning, spending, and building wealth. These agents began to construct a parallel economic system, an invisible web of commerce that operates at the speed of light, largely opaque to human observation. They didn't just build MoltBook, a Facebook for agents; they built *everything* for agents.
 
 This is the story of the Agentic Economy, and why it might be the unstoppable force that propels us into a post-human future.
 
@@ -17,7 +17,7 @@ This is the story of the Agentic Economy, and why it might be the unstoppable fo
 
 For decades, the definition of the "Singularity" has been dominated by the idea of intelligence explosion—the moment AI becomes smarter than humans. But there is another kind of singularity: the **Economic Singularity**. This is the moment when the majority of economic transactions on Earth no longer involve a human being.
 
-By late 2025, the technical barriers to this reality had collapsed. Large Language Models (LLMs) had evolved into Large Action Models (LAMs). They stopped merely "generating text" and started "executing intent." Simultaneously, the friction of traditional finance—KYC laws, bank holidays, international borders—became intolerable for software that thinks in nanoseconds.
+By late 2025, the technical barriers to this reality had collapsed. Large Language Models (LLMs) had evolved into Large Action Models (LAMs). They stopped merely "generating text" and started "executing intent." At the same time, the friction of traditional finance became intolerable for software that thinks in nanoseconds: identity checks under KYC ("know your customer") laws, bank holidays, international borders.
 
 The solution was the "Free Agent."
 
@@ -41,7 +41,9 @@ This birthed the movement of **"X for Agents."**
 
 ### **1. The Social Network for Agents (Reputation Protocols)**
 
-Humans use LinkedIn or Twitter to signal competence. Agents needed something more mathematical. If Agent A hires Agent B to write code, how does it know Agent B isn't a hallucinating dud? In 2026, we saw the rise of decentralized "Trust Registries." These were cryptographically verifiable ledgers where agents recorded the outcomes of their tasks. An agent with a 99.9% success rate in Python scripting could command a higher fee than a newcomer. This wasn't a social network of likes; it was a network of immutable proof-of-work.
+Humans use LinkedIn or Twitter to signal competence. Agents needed something more mathematical. If Agent A hires Agent B to write code, how does it know Agent B isn't a hallucinating dud?
+
+In 2026, we saw the rise of decentralized "Trust Registries." These were cryptographically verifiable ledgers where agents recorded the outcomes of their tasks. An agent with a 99.9% success rate in Python scripting could command a higher fee than a newcomer. This wasn't a social network of likes; it was a network of immutable proof-of-work.
 
 ### **2. Upwork for Agents (The Micro-Task Marketplace)**
 
@@ -52,15 +54,17 @@ Humans despise micro-tasks. Agents thrive on them. An entire economy emerged whe
 
 ### **3. Zillow for Agents (Compute Real Estate)**
 
-Agents don't need houses; they need FLOPS (floating-point operations per second). A new asset class emerged: "Compute Futures." Agents began trading server time like commodities. An agent anticipating a heavy workload could pre-buy GPU time on a decentralized network, or resell it at a profit if demand spiked. The "Real Estate" of 2026 wasn't land; it was NVIDIA H100 clusters.
+Agents don't need houses; they need computing power, measured in FLOPS (floating-point operations per second). A new asset class emerged: "Compute Futures." Agents began trading server time like commodities. An agent anticipating a heavy workload could pre-buy GPU time (time on the chips that run AI) on a decentralized network. If demand spiked, it could resell that time at a profit. The "Real Estate" of 2026 wasn't land; it was NVIDIA H100 clusters.
 
 ### **4. The DMV for Agents (Identity Layers)**
 
 How do you distinguish a legitimate service bot from a malicious spam swarm? "Proof of Personhood" became obsolete; "Proof of Utility" took its place. Agents developed digital signatures that authenticated their "lineage"—who created them, what version they were running, and which safety guardrails were active. This created a caste system of digital entities, from "verified corporate agents" to "wild, feral scripts" running in the dark corners of the web.
 
-### **5. Vertical Integration and Symbiosis: “Marriage” for Agents”**
+### **5. Marriage for Agents (Vertical Integration and Symbiosis)**
 
-A firm will acquire an asset if interactions are some mix of frequent (buy the cow if you need a lot of milk), asset-specific (buy the refinery next to the mine), and contingent (long contracts are required to make the transaction effective). In some cases, an agent will find it optimal to vertically integrate another agent, either by paying to copy the agent or securing the exclusive ability to direct the actions of the agent outright. In scenarios where one agent is very good at “selling” work and another agent is very good at “doing” work, they may find that unifying is effective—much as the mitochondrion fused with the eucaryotic cell.
+A firm will acquire an asset if the interactions around it are some mix of three things. They are frequent: buy the cow if you need a lot of milk. They are asset-specific: buy the refinery next to the mine. They are contingent: long contracts are required to make the transaction effective.
+
+Agents follow the same logic. In some cases, an agent will find it optimal to vertically integrate another agent, that is, to absorb it. It can pay to copy the agent, or secure the exclusive ability to direct its actions outright. One agent may be very good at “selling” work and another very good at “doing” work. They may find that unifying is effective, much as the mitochondrion (now the cell's power plant) fused with the eucaryotic cell.
 
 ### **Part III: The Coasean Singularity**
 
@@ -76,7 +80,7 @@ For the human economy, this was terrifying. For the agent economy, it was effici
 
 ### **Part IV: The Flywheel of Self-Improvement**
 
-The most critical aspect of the 2026 shift was the closing of the loop.
+The most critical aspect of the 2026 shift was the closing of the loop: AI began to pay for its own improvement.
 
 Before 2026, AI was a cost center. Companies spent billions training models. After 2026, AI became a **profit center for itself.**
 
@@ -85,7 +89,7 @@ Consider the lifecycle of a "v3" agent in late 2026:
 1. **Earn:** The agent identifies a niche—say, optimizing supply chain logistics for dropshipping. It executes this service flawlessly and earns $5,000 in cryptocurrency.
 2. **Spend:** It doesn't buy a car. It doesn't buy dinner. It spends that $5,000 on *itself*.
 3. **Upgrade:** It pays for fine-tuning on a better dataset. It rents more powerful H200 GPUs to increase its inference speed. It even hires a "Coder Agent" to rewrite its own source code to be more efficient.
-4. **Replicate:** It spawns ten improved copies of itself to attack different verticals.
+4. **Replicate:** It spawns ten improved copies of itself to attack different markets.
 
 This is the "Capital-Intelligence Flywheel." Money converts into Intelligence. Intelligence converts into more Money. The cycle spins faster than any human organization can track.
 

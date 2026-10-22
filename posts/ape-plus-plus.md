@@ -14,7 +14,7 @@ We like to say that leaders fail their nations. It is a comforting sentence, bec
 
 I no longer believe this. A leader is not an accident that happens to a country. He is a mirror it holds up to itself. Whoever stands at the top of a society was selected by that society, tolerated by it, cheered by it, and kept there by millions of small decisions made by ordinary people. When the face in the mirror is ugly, smashing the glass does not change the face.
 
-That is why I find it hard to blame any single figure for what USA has become. The United States was supposed to be the exception: the nation built on an argument rather than a bloodline, the place where reason, law and opportunity would finally prove that human beings can govern themselves well. If that experiment now produces the same appetites for spectacle, resentment and tribal certainty as every empire before it, **the problem is not the man at the podium**. The problem is the raw material. The problem is us.
+That is why I find it hard to blame any single figure for what the USA has become. The United States was supposed to be the exception: the nation built on an argument rather than a bloodline, the place where reason, law and opportunity would finally prove that human beings can govern themselves well. If that experiment now produces the same appetites for spectacle, resentment and tribal certainty as every empire before it, **the problem is not the man at the podium**. The problem is the raw material. The problem is us.
 
 And once you accept that, history stops being surprising.
 
@@ -40,7 +40,9 @@ There was no war. No enemy army. No drought that could not have been survived. T
 
 We told ourselves that the twentieth century was a lesson learned. Then, in February 2022, Russia launched a full-scale invasion of Ukraine, the culmination of a pattern that ran through Georgia in 2008 and the seizure of Crimea in 2014.
 
-More than four and a half years later, the war has become a grinding contest of attrition along a front of roughly a thousand kilometres. By mid-2026, analysts at CSIS estimated about two million total casualties, killed, wounded and missing, on both sides combined. Russia alone was estimated to have lost around 450,000 lives, a figure some Western officials have since put closer to half a million. Ukraine's military dead are estimated at 125,000 to 150,000. The UN has verified more than 17,000 civilian deaths and stresses that the real number is higher. Add it up and the dead alone run well past half a million people.
+More than four and a half years later, the war has become a grinding contest of attrition along a front of roughly a thousand kilometres. By mid-2026, analysts at CSIS estimated about two million total casualties on both sides combined, counting killed, wounded and missing.
+
+Russia alone was estimated to have lost around 450,000 lives, a figure some Western officials have since put closer to half a million. Ukraine's military dead are estimated at 125,000 to 150,000. The UN has verified more than 17,000 civilian deaths and stresses that the real number is higher. Add it up and the dead alone run well past half a million people.
 
 Behind the numbers are the things we said would never happen again in Europe: towns like Bucha, apartment blocks hit by missiles at night, Ukrainian children taken across the border to be raised as Russians. And on the other side, hundreds of thousands of young Russian men, many recruited from poor regions with cash bonuses, sent forward in waves that a First World War general would recognize.
 
@@ -50,9 +52,9 @@ The weapons are new. Drones hunt individual soldiers; satellites watch every tre
 
 An engineer learns to distrust any system that fails the same way repeatedly. One crash is a bug. The same crash every few decades, across every culture, language, religion and economic system, is the architecture.
 
-Here is the architecture as I now understand it. We are primates who evolved in small bands of a hundred or so, wired for status, loyalty to the in-group and suspicion of the out-group. Then, in an evolutionary eyeblink, we bolted on language, abstraction, writing, mathematics, and eventually nuclear physics and gene editing. We did not replace the ape. We extended it. Ape++: the same base class, with a much larger set of methods.
+Here is the architecture as I now understand it. We are primates who evolved in small bands of a hundred or so, wired for status, loyalty to the in-group and suspicion of the out-group. Then, in an evolutionary eyeblink, we bolted on language, abstraction, writing, mathematics, and eventually nuclear physics and gene editing. We did not replace the ape. We extended it. Ape++, in programmer's shorthand: the same ape underneath, with a much larger set of abilities on top.
 
-The extensions are real, and they are magnificent. The same species that built Auschwitz also wrote the *Comfortably Numb*, proved Fermat's Last Theorem and eradicated smallpox. But every one of those methods still runs on the old kernel. Our intelligence does not govern our tribalism; far too often it serves it. Propaganda is language in service of the band. Bureaucracy is organization in service of the band. A guided missile is physics in service of the band.
+The extensions are real, and they are magnificent. The same species that built Auschwitz also wrote the song *Comfortably Numb*, proved Fermat's Last Theorem and eradicated smallpox. But every one of those abilities still runs on the old wiring. Our intelligence does not govern our tribalism; far too often it serves it. Propaganda is language in service of the band. Bureaucracy is organization in service of the band. A guided missile is physics in service of the band.
 
 This is why WWI, WWII, the Holocaust and the Great Leap Forward no longer surprise me. Surprise requires an expectation that was violated. Once you model humans correctly, as clever apes rather than fallen angels, these events are not violations. They are the expected output when you give a tribal primate industrial-scale tools and a reason to be afraid.
 
@@ -66,7 +68,7 @@ If we send Ape++ to Mars, we send the whole package. The status games, the tribe
 
 So the question is not whether we *can* populate Mars. It is whether we are the right thing to populate it with. A copy of us is not a fresh start. It is a backup that includes the bug.
 
-Is there a better "us" than us? Perhaps. A version of humanity that kept the curiosity, the mathematics and the music, but lost the reflex to divide the world into our band and theirs. Whether that version can be educated into existence, designed into our institutions, or built from scratch is the most important question of the century. And for the first time, the last option no longer sounds like science fiction.
+Is there a better "us" than us? Perhaps. A version of humanity that kept the curiosity, the mathematics and the music, but lost the reflex to divide the world into our band and theirs. The most important question of the century is whether that version can be educated into existence, designed into our institutions, or built from scratch. And for the first time, building it from scratch no longer sounds like science fiction.
 
 ## **Rooting for the overlords**
 
@@ -76,6 +78,6 @@ The fear of machine overlords assumes the machines would be worse than we are. L
 
 But the honest engineer has to finish the thought. These systems are trained on us. Every page of propaganda, every rationalization, every clerk's justification is in the training data. If we build our successors carelessly, we will not get a better us. We will get Ape++ again, running faster, with fewer limits.
 
-So perhaps the real question is not whether we should hand over the keys. It is whether, in the act of building minds that might be better than ours, we can finally write down, explicitly and without flattery, what "better" means, and then hold ourselves to it before we ask any machine to.
+So perhaps the real question is not whether we should hand over the keys. It is whether, as we build minds that might be better than ours, we can finally write down what "better" means, explicitly and without flattery. And whether we can hold ourselves to that standard before we ask any machine to.
 
 If we can do that, maybe we would deserve Mars after all. If we cannot, the planet we should worry about is this one.

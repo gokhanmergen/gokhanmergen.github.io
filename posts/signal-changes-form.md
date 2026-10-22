@@ -126,7 +126,7 @@ My biggest lesson there was about method. My PhD had trained me to create things
 
 When I left six years later, the firm traded roughly 5% of all NASDAQ volume, and another researcher and I had built about half of the models behind it. We traded nearly everything: stocks, orange juice, sugar, oil.
 
-People asked what value that creates. My answer: we made the market. When you want to sell a share, someone has to buy it right now. Without market makers you would phone a broker and wait half a day, or pay a dealer a wide spread, as at an airport currency booth. We earned about a cent on a hundred-dollar share and held positions for minutes. Warren Buffett plays the same role at the far end of the time scale. In 2008 he bought when everyone else was selling, and held for years.
+People asked what value that creates. My answer: we made the market. When you want to sell a share, someone has to buy it right now. Without market makers you would phone a broker and wait half a day, or pay a dealer a wide spread between buying and selling prices, as at an airport currency booth. We earned about a cent on a hundred-dollar share and held positions for minutes. Warren Buffett plays the same role at the far end of the time scale. In 2008 he bought when everyone else was selling, and held for years.
 
 Austin was also where I first met the cloud: thousands of virtual machines training models for 5,000 stocks in parallel. But the firm was falling behind. It moved too late to FPGAs, chips that can be rewired to run trading logic directly in hardware, and to faster hardware in general. Its leaders saw trends one to three years late, the mirror image of Qualcomm.
 
@@ -146,7 +146,7 @@ About two years later, the firm where I had made partner was sold for close to n
 
 It took courage to hire a finance person to build AI for a watch, and I am grateful my managers at Apple took the chance. Someone, in effect, said: I think you can do this, go. Careers hold more of those moments than people admit.
 
-Before going back to tech, I had rebuilt myself once more. Finance had shown me that strong programmers turn ideas into results far faster than I could, so in 2015 I studied software engineering, data structures and algorithms, and data science until I could answer almost any interview question. Every job change in my life has taken six months to two years of preparation on the side. If you don't renew yourself, you can't answer the questions.
+Before going back to tech, I had rebuilt myself once more. Finance had shown me that strong programmers turn ideas into results far faster than I could. So in 2015 I studied software engineering, data structures and algorithms, and data science until I could answer almost any interview question. Every job change in my life has taken six months to two years of preparation on the side. If you don't renew yourself, you can't answer the questions.
 
 The brief on the Apple Watch was simple: imagine things nobody has built, then build them. I modeled people's exercise habits, predicting, for example, how many calories you would burn between four and eight in the evening. The watch could then nudge you: a ten-minute walk would hit today's goal; would you like to swim tomorrow at three?
 
@@ -180,7 +180,9 @@ At Google we call these tasks. Modeling them is the work I joined in October 201
 
 I came in as a tech lead at level 6, a step above my Apple level. I had offers from Apple, Facebook and Google, and I chose Google because I believed the future of AI would run on servers and be built there. By then I could solve programming questions the way we once solved ÖSS questions for the Turkish university exam, almost without thinking.
 
-Once again I had to master a new field, information retrieval, with another two years of study on the side. The scale is hard to picture. We cluster some 30 billion search queries into hundreds of millions of groups, then cluster those again. One problem was clustering a graph with 30 billion nodes and trillions of edges. It took me a year to build an algorithm better than the one our researchers had. It was the best on five of six academic benchmarks, and it was published at KDD in 2021. This time I was the practitioner and the researchers wrote the theory, the reverse of my Cornell years.
+Once again I had to master a new field, information retrieval (the science behind search), with another two years of study on the side. The scale is hard to picture. We cluster some 30 billion search queries into hundreds of millions of groups, then cluster those again. One problem was clustering a graph, a network of 30 billion points joined by trillions of links.
+
+It took me a year to build an algorithm better than the one our researchers had. It was the best on five of six academic benchmarks, and it was published at KDD, a major data-mining conference, in 2021. This time I was the practitioner and the researchers wrote the theory, the reverse of my Cornell years.
 
 I tell my sons: if you see a bad ad on Google, or a good one, I may be the reason. I believe this work keeps much of the internet free. Every free article and website you read is paid for by someone, and good ads, shown rarely and at the right moment, are how.
 
@@ -198,13 +200,15 @@ In 2016, when AlphaGo played Lee Sedol in Seoul, I stayed up through the night t
 
 Many people dismiss language models as "just predicting the next word." I never did. On the watch, predicting the next word was exactly what I had wanted to do. Before that, I had spent years predicting what a market would do in the next minute, and I learned that prediction, done well, is understanding. If the next word you must predict is the answer to a hard math problem, predicting it means solving it. These models will move from the next word to the next concept, across many horizons at once, just as we predicted one, ten and thirty minutes ahead in finance.
 
-AGI is a spectrum, not a finish line. To me, GPT-4 was the first model close to human general intelligence, something like an IQ of 50 or 60. It will climb to 100, then 130, then 150. It will also be jagged, brilliant at some things and oddly weak at others. An airplane flies faster than a bird but is not a bird; a submarine is not a fish. And AI is already being used to build better AI.
+AGI, artificial general intelligence, is a spectrum, not a finish line. To me, GPT-4 was the first model close to human general intelligence, something like an IQ of 50 or 60. AI will climb to 100, then 130, then 150. It will also be jagged, brilliant at some things and oddly weak at others. An airplane flies faster than a bird but is not a bird; a submarine is not a fish. And AI is already being used to build better AI.
 
 Still, the last few percent take a long time. In 2015 we all thought self-driving cars were a year away; a decade later they are only now arriving. Matching every human ability may take another decade, and the help along the way will be enormous.
 
-To see where this goes, I still reach for the Qualcomm ruler. The cost of AI per token has been falling about fourfold a year: sixteen times in two years, sixty-four in three. What is impossible today becomes child's play in two or three years. When models respond in real time, inside a robot that sees, hears and answers instantly, it will feel like magic and open uses we can't yet imagine.
+To see where this goes, I still reach for the Qualcomm ruler. The cost of AI per token, a word or piece of a word, has been falling about fourfold a year: sixteen times in two years, sixty-four in three. What is impossible today becomes child's play in two or three years. When models respond in real time, inside a robot that sees, hears and answers instantly, it will feel like magic and open uses we can't yet imagine.
 
-On jobs: people who work with AI will move ahead, and those who cannot adapt will fall behind. But production and consumption rise together and life speeds up, so I don't expect mass unemployment. On safety, I believe the most capable models should not be released as open weights. Someone accountable must always be able to pull the plug: several responsible companies, not a single monopoly, and certainly not anyone at all.
+On jobs: people who work with AI will move ahead, and those who cannot adapt will fall behind. But production and consumption rise together and life speeds up, so I don't expect mass unemployment.
+
+On safety, I believe the most capable models should not be released as open weights, which anyone can download and run. Someone accountable must always be able to pull the plug: several responsible companies, not a single monopoly, and certainly not anyone at all.
 
 So I wouldn't tell you to prepare for a particular job title. Many of today's titles will disappear, and new ones we can't yet name will appear. Prepare instead to be hard to make obsolete. What follows is my best attempt at saying how.
 
@@ -238,7 +242,7 @@ For me the signal was a radio wave, then a stock price, then a heartbeat on a wr
 
 If the companies and job titles in this letter someday become footnotes, that will only prove the point. Qualcomm, Apple and Google are not the important part of this story, and neither is any title, salary or promotion. They are coordinates: they tell you where I happened to be standing. What matters is how I moved between them.
 
-When I was young, I thought the challenge was to discover how far I could go. Now I think the better question is how many times you can become someone capable of going further. You don't need to see the whole road, only what the next stretch of it requires, and always find something better.
+When I was young, I thought the challenge was to discover how far I could go. Now I think the better question is how many times you can become someone capable of going further. You don't need to see the whole road, only what the next stretch of it requires. And always find something better.
 
 Be curious, stay flexible, and add value to whatever you touch. The signal will change. Learn to hear it.
 
