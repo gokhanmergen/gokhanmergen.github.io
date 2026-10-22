@@ -416,8 +416,22 @@ window.crosspost = {
       return nodes;
     };
 
+    // Subscribe buttons added on Substack (signal-changes-form has one) have
+    // no counterpart on the blog. Each stays in front of the block it preceded.
+    const isButton = (n) => n.type === 'button' && n.attrs?.url === '%%checkout_url%%';
+    const S = [];
+    const before = [];
+    let pending = [];
+    for (const n of c.slice(1, end)) {
+      if (isButton(n)) pending.push(n);
+      else {
+        S.push(n);
+        before.push(pending);
+        pending = [];
+      }
+    }
+
     // Longest common subsequence of block keys; what is left over are the edits.
-    const S = c.slice(1, end);
     const L = live.slice(0, liveEnd);
     const sk = S.map(sKey);
     const lk = L.map(lKey);
@@ -432,7 +446,7 @@ window.crosspost = {
     let j = 0;
     while (i < sk.length || j < lk.length) {
       if (i < sk.length && j < lk.length && sk[i] === lk[j]) {
-        out.push(S[i++]);
+        out.push(...before[i], S[i++]);
         j++;
         cur = null;
         continue;
@@ -440,6 +454,7 @@ window.crosspost = {
       if (!cur) hunks.push((cur = { removed: 0, added: 0, first: '' }));
       if (i < sk.length && (j >= lk.length || dp[i + 1][j] >= dp[i][j + 1])) {
         if (sk[i][0] !== 'T') fail(`Only on Substack, and not text: ${sk[i].slice(0, 40)}`);
+        out.push(...before[i]);
         cur.removed++;
         i++;
       } else {
@@ -450,7 +465,7 @@ window.crosspost = {
         j++;
       }
     }
-    out.push(...c.slice(end));
+    out.push(...pending, ...c.slice(end));
 
     const mid = this.mid(out);
     const midText = this.text(out[mid]).slice(0, 80);
