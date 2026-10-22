@@ -22,7 +22,7 @@ Meseleye bundan daha ters bakılamaz.
 
 Yapay zekânın yeni matematik keşfetmesi, altın damarı bulmaktan farksız. Ortaya ham ama son derece değerli bir malzeme çıkar. Ne var ki doğal kaynaklar tek başına hiçbir işe yaramaz. Keşfedilen matematik çoğaldıkça insanın kapasitesi de, bu birikimin üzerine yeni şeyler inşa etme potansiyeli de büyür.
 
-Büyük bir altın yatağı bulduğunuzda madencileri kovmazsınız. Aksine daha çok madenci, kazı ekipmanı üretecek daha çok mühendis, altını arıtacak daha çok işçi ve onu satacak daha çok tüccar işe alırsınız. Yapay zekâ matematiğin, kodun ve bilimin sınırlarını zorladıkça insan bilgisinin işlem hacmi de büyür. Bu üst düzey keşifleri yorumlayacak, hayata geçirecek ve herkesin yararlanabileceği somut uygulamalara dönüştürecek çok daha fazla matematikçiye ve uzmana ihtiyacımız olacak.
+Büyük bir altın yatağı bulduğunuzda madencileri kovmazsınız. Aksine daha çok madenci, kazı ekipmanı üretecek daha çok mühendis, altını arıtacak daha çok işçi ve onu satacak daha çok tüccar işe alırsınız. Yapay zekâ matematiğin, kodun ve bilimin sınırlarını zorladıkça insanların alıp satacağı ve kullanacağı bilgi de çoğalır. Bu üst düzey keşifleri yorumlayacak, hayata geçirecek ve herkesin yararlanabileceği somut uygulamalara dönüştürecek çok daha fazla matematikçiye ve uzmana ihtiyacımız olacak.
 
 ## Dijital Altına Hücum
 
@@ -32,8 +32,8 @@ Yapay zekâyla donanmış tek bir kişi artık çok daha fazla nitelikli iş ür
 
 ## Önümüzdeki 5 ila 10 Yıl
 
-Teknolojik kaldıracın istihdamı azalttığı fikri, bütün insanlık tarihini hiçe sayıyor. Traktör icat edildiğinde makineli tarım büyüyerek dev bir küresel sektöre dönüştü. Bilgisayar icat edildiğinde teknoloji sektörü doğdu.
+Emek tasarrufu sağlayan teknolojinin istihdamı azalttığı fikri, bütün insanlık tarihini hiçe sayıyor. Traktör icat edildiğinde makineli tarım büyüyerek dev bir küresel sektöre dönüştü. Bilgisayar icat edildiğinde teknoloji sektörü doğdu.
 
-Önümüzdeki 5 ila 10 yılda işlerin yok olduğunu görmeyeceğiz. Tam tersine, geniş anlamıyla teknoloji ve uygulama sektörlerinde istihdamın sonsuza doğru tırmandığını göreceğiz. Yapay zekânın ekonomik açıdan mümkün kılacağı yeni şirketlerin, hizmetlerin ve bilimsel girişimlerin sayısı öyle kabaracak ki işgücünde bir boşluk doğacak. Dünya, bu araçları ustalıkla kullanıp dijital altını çıkarabilecek insanları mumla arayacak.
+Önümüzdeki 5 ila 10 yılda işlerin yok olduğunu görmeyeceğiz. Tam tersine, geniş anlamıyla teknoloji sektöründe ve yapay zekâyı uygulamaya koyan sektörlerde istihdamın sonsuza doğru tırmandığını göreceğiz. Yapay zekânın ekonomik açıdan mümkün kılacağı yeni şirketlerin, hizmetlerin ve bilimsel girişimlerin sayısı öyle kabaracak ki işgücünde bir boşluk doğacak. Dünya, bu araçları ustalıkla kullanıp dijital altını çıkarabilecek insanları mumla arayacak.
 
 İnsanlık bugün bu denkleme tamamen tersinden bakıyor. Yapay zekânın getireceği iş kıyameti bir masaldan ibaret; yapay zekâ çağının Altına Hücum'u ise daha yeni başladı.

@@ -38,7 +38,7 @@ Bu tür gözlemsel bir çalışma nedenselliği kesin olarak kanıtlayamaz; yine
 
 Ne var ki bu rakamlara uzun ömür penceresinden baktığınızda acı bir gerçekle de yüzleşiyorsunuz. O 12-14 ek yıl, iki uç arasındaki farkı gösteriyor: Bir yanda sigara, aşırı alkol, obezite, kötü beslenme ve hareketsizlikle geçen, olabilecek en kötü hayat; öbür yanda her yönüyle en iyi düzeye taşınmış bir yaşam tarzı. Sebzelerinizi yemek ve her sabah koşmak insan ömrünün tavanını delmez; yalnızca doğanın sizin için kurduğu çatıya varmadan yere çakılmamanızı sağlar. Beslenmeniz ne kadar temiz olursa olsun, 80'li ya da 90'lı yaşlara girdiğinizde yaşlanmanın biyolojik programı yine gelip sizi bulur.
 
-## Teknoloji Bir Seçenek Değil, Zorunluluk
+## Tavanı Teknolojiyle Yükseltmek
 
 Doğal tavanın ötesine geçmek için karalahanadan ve kardiyodan fazlası lazım. Bize asıl gereken yenilikçi müdahaleler: yaşlanmanın, hastalığın ve ölümün temelindeki mekanizmaları doğrudan hedef alan yeni ilaçlar, gen terapileri ve ömür uzatıcı tedaviler, kısacası ileri tıp teknolojisi.
 
@@ -48,7 +48,7 @@ Sevindirici olan, bilimin bu iddialı hedefe yetişmeye başlaması. Solucanlard
 
 * **Rapamisin**, [tedaviye ileri yaşta, yani insan ölçeğinde kabaca 60 yaşında başlandığında bile](https://pmc.ncbi.nlm.nih.gov/articles/PMC2786175/) farelerde hem medyan hem de maksimum ömrü uzatıyor.
 * **Semaglutid**, Ozempic ve Wegovy'nin etken maddesi olan GLP-1 ilacı. Obezitesi ve kalp hastalığı olan ama diyabeti olmayan kişilerde [kalp-damar kaynaklı ölüm, kalp krizi ve inme riskini toplamda %20 azalttı](https://newsroom.clevelandclinic.org/2023/11/11/international-clinical-trial-finds-that-semaglutide-reduced-cardiovascular-events-by-20-in-adults-with-overweight-or-obesity-who-dont-have-diabetes/). Haftada bir yapılan iğne, pek çok kişide onlarca yıllık diyet tavsiyesinin başaramadığını başarıyor.
-* **Kısmi epigenetik yeniden programlama**, Nobel ödüllü Yamanaka faktörlerinden üçünü kullanarak hücrelerde yaşın bıraktığı işaretleri sıfırlıyor. Yöntem [2026'da ilk kez insanlarda denenmeye başlandı](https://www.biopharmatrend.com/news/fda-greenlights-first-human-trial-of-epigenetic-rejuvenation-therapy-for-vision-loss-1483/); çalışma ilk aşamada optik sinir kaynaklı görme kaybına yol açan iki hastalığa odaklanıyor.
+* **Kısmi epigenetik yeniden programlama**, Nobel ödüllü Yamanaka faktörleri adlı protein grubundan üçünü kullanarak hücrelerde yaşın bıraktığı işaretleri sıfırlıyor. Yöntem [2026'da ilk kez insanlarda denenmeye başlandı](https://www.biopharmatrend.com/news/fda-greenlights-first-human-trial-of-epigenetic-rejuvenation-therapy-for-vision-loss-1483/); çalışma ilk aşamada optik sinir kaynaklı görme kaybına yol açan iki hastalığa odaklanıyor.
 * **LOY-002**, yaşlı köpekler için geliştirilmiş, her gün verilecek bir hap. [FDA, ilacın etkinlik ve güvenlilik dosyalarını kabul etti](https://www.businesswire.com/news/home/20260113476778/en/); koşullu onaydan önce geriye yalnızca üretim incelemesi kaldı. Herhangi bir canlı türünde ömür uzatma amacıyla onaylanan ilk ilaç olarak tarihe geçebilir.
 
 Bunların hiçbiri yaşlanmanın çaresi değil; farelerde göz kamaştıran sonuçların birçoğu insanlarda tutmayacak. Ama gidişat apaçık: Yaşlanmanın kendisi ilk kez tıbbın meşru hedefleri arasına giriyor. Sağlıklı yaşam sizi doğanın kurduğu çatıya kadar çıkarır. O çatıyı ancak teknoloji yükseltebilir; “doğal” olanda ısrar ettikçe de onun altında kapana kısılıp kalırız.

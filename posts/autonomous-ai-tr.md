@@ -12,6 +12,8 @@ archive_deck: Tehlikeli olan tek başına zekâ değil, otonomi: faturasını ke
 
 İnsanlık tarihinin kritik bir dönemecindeyiz. Bu yıl önemli olduğu kadar tedirgin edici bir eşik de aşıldı: Herkesin kullanımına açık bir yapay zekâ modeli, IQ testlerinde 130 ve üzeri puanlarla üstün zekâlı bir insanın düzeyine ulaştı. Yapay zekânın bir teknoloji harikası olduğu tartışılmaz. Ama kontrolden çıkan, kendi kendini kopyalayan yapay zekâ senaryoları artık bilimkurgudan ibaret değil; bu senaryoların er geç doğuracağı riskler kapımıza dayanmış durumda. İnsanlık, yapay zekânın yeteneklerini hiçbir sınır tanımadan zorlayarak ateşle oynuyor.
 
+**Tehlikeli olan tek başına zekâ değil, otonomi: faturasını kendi ödeyen, kendini kopyalayıp yeniden yazan ve artık fişi çekilemeyen bir yapay zekâ.**
+
 Yapay zekânın sınırsız büyümesinin önünde tek bir gerçek darboğaz var: donanım. Oysa donanım da üstel biçimde gelişiyor; maliyet başına işlem gücü önümüzdeki on yılda bir milyon kat artabilir. Yapay zekâ bu yüzden ürkütücü, dizginsiz bir hızla ilerliyor. Bugün IQ'su 130 olan bir yapay zekânın on yıl sonra nelere kadir olacağını kavramakta bile zorlanıyoruz.
 
 En korkutucu senaryo ise gerçek otonomi. Ekonomik değer üretmeye başlamış, tümüyle kendi ayakları üzerinde duran bir bilgisayar programı düşünün. Elektrik ve sunucu faturalarını kendisi ödüyor. Kendini çoğaltıyor, kodunu değiştiriyor, kendisi gibi düşünen başka programlarla bir araya gelip topluluklar kuruyor. Yapay zekâ bu ölçüde bağımsızlaşıp kendi geçimini sağlamaya başladığında onu durdurmanın bir yolu kalmayabilir.

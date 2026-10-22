@@ -13,7 +13,7 @@ archive_deck: Üretken yapay zekâ, zevki olan herkesi bir Rick Rubin'e dönüş
 
 Müzik, insanlığın en eski ve en evrensel ifade biçimlerinden biri. Ne var ki son yüz yılda teknoloji bu sanatı kökten dönüştürdü: elektrikli enstrümanlar, synthesizer’lar, dijital kayıt sistemleri, müzik dinleme platformları… Şimdi ise karşımızda daha da büyük bir devrim var: **üretken yapay zekâ**.
 
-Bu teknoloji müzik prodüksiyonunu öylesine başka bir düzeye taşıyacak ki Pink Floyd, Camel ya da King Crimson gibi efsanevi grupların “gerçek varisleri” belki de ancak onun sayesinde ortaya çıkabilecek. Geleneksel stüdyo müzisyenliği tarihe karışırken herkes kafasındaki müziği bir orkestra şefi gibi yönetebilecek. Peki bu nasıl olacak?
+Bu teknoloji müzik prodüksiyonunu öylesine başka bir düzeye taşıyacak ki Pink Floyd, Camel ya da King Crimson gibi efsanevi grupların “gerçek varisleri” belki de ancak onun sayesinde ortaya çıkabilecek. Başkalarının kayıtlarında çalmak için tutulan geleneksel stüdyo müzisyenleri tarihe karışacak; herkes kafasındaki müziği bir orkestra şefi gibi yönetebilecek. Peki bu nasıl olacak?
 
 ### **1. Stüdyo Müzisyenlerinin Sonu mu? Enstrümanları Artık Yapay Zekâ Çalıyor**
 
@@ -35,7 +35,7 @@ Yapay zekâ da klavye partilerini buna göre otomatik olarak oluşturabilir.
 
 Asıl devrim, **“enstrüman çalma” becerisinin yapay zekâya devredilmesinde**. Artık olağanüstü bir gitarist, piyanist ya da davulcu olmanız gerekmeyecek. Bunun yerine size gereken şey *zevk* olacak: bir küratör gibi seçip ayıklayabilmek.
 
-Stüdyodaki Rick Rubin gibi siz de yapay zekâya şöyle yön verirsiniz:
+Prodüktör Rick Rubin’in stüdyoda yaptığı gibi, siz de yapay zekâya şöyle yön verirsiniz:
 
 *“Bu bölümü daha yalın yap.”*
 
@@ -79,7 +79,7 @@ Yapay zekâ bir araçtır; zevkinizin ve vizyonunuzun sınırlarını genişleti
 
 Tıpkı bir fotoğrafçının kendi üslubunu seçtiği objektif ve filtrelerle ortaya koyması gibi…
 
-### **4. Eskiyle Yeni Arasında Köprüler: Sınırsız Sentezler**
+### **4. Eskiyle Yeni Arasında Köprüler: Dönemler Harmanlanıyor, Yeni Türler Doğuyor**
 
 Üretken yapay zekânın en büyüleyici yanlarından biri de farklı dönemleri ve müzik tarzlarını bir araya getirebilmesi.
 
@@ -91,7 +91,7 @@ Tıpkı bir fotoğrafçının kendi üslubunu seçtiği objektif ve filtrelerle 
 
 Böyle birleşimlerden müzikte bütünüyle **“yeni türler”** doğabilir.
 
-Yapay zekâ bir yandan insanın hayal gücünü beslerken öte yandan pek çok teknik sınırı da ortadan kaldırabilir. Mellotron ya da Rhodes piyano gibi bugün giderek kaybolan *analog enstrümanların* sesleri de onun sayesinde yeniden canlanabilir.
+Yapay zekâ bir yandan insanın hayal gücünü beslerken öte yandan pek çok teknik sınırı da ortadan kaldırabilir. Mellotron (gerçek enstrümanların bant kayıtlarını çalan bir klavye) ya da Rhodes elektrikli piyano gibi bugün giderek kaybolan *analog enstrümanların* sesleri de onun sayesinde yeniden canlanabilir.
 
 ### **5. Riskler ve Tartışmalar: Özgünlük ve Etik**
 
@@ -103,7 +103,7 @@ Elbette bu teknoloji beraberinde önemli sorular da getirecek:
 
 Bu soruların cevabını teknolojinin kendisinden çok, *toplumun* onu nasıl kullanmayı seçeceği belirleyecek.
 
-Yapay zekâyı bir fırça gibi düşünün. Fırça Rönesans’ta da vardı, bugün de var; ama onunla yapılan eserler bambaşka.
+Yapay zekâyı bir fırça gibi düşünün. Fırça Rönesans’ta da vardı, bugün de var; ama onunla yapılan eserler bambaşka. Sanatı araç değil, onu kullanan insanlar belirler.
 
 Aynı şekilde yapay zekânın sunduğu olanaklar da insan yaratıcılığını bastırmak yerine, sonunda onu özgürleştirebilir.
 

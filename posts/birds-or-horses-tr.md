@@ -65,7 +65,7 @@ Atlar yok olmadı. İnsanlar onlara biniyor, onları yetiştiriyor, seviyor, uğ
 
 Yine de insanla at arasındaki benzetme kritik bir noktada aksıyor: Atlar hiçbir zaman müşteri olmadı. Müşteri biziz.
 
-Bu da ilginç bir geri besleme döngüsü yaratıyor. Diyelim ki bir yapay zekâ, yaşayan en parlak dâhiden bile daha iyi beste yapıyor. İnsanlar bu yüzden insan müzisyenleri dinlemeyi bırakır mı? Pek sanmam. Motosikletler daha hızlı olduğu halde hâlâ kısa mesafe koşucularını izliyoruz. Fabrikalar ne kadar verimli olursa olsun el yapımı seramik alıyoruz. Göz alıcı CGI filmlerini dijital platformlarda izlemek daha ucuza gelirken canlı tiyatroya para veriyoruz.
+Dolayısıyla tercihlerimiz bazı işleri insanın elinde tutabilir. Diyelim ki bir yapay zekâ, yaşayan en parlak dâhiden bile daha iyi beste yapıyor. İnsanlar bu yüzden insan müzisyenleri dinlemeyi bırakır mı? Pek sanmam. Motosikletler daha hızlı olduğu halde hâlâ kısa mesafe koşucularını izliyoruz. Fabrikalar ne kadar verimli olursa olsun el yapımı seramik alıyoruz. Göz alıcı CGI filmlerini dijital platformlarda izlemek daha ucuza gelirken canlı tiyatroya para veriyoruz.
 
 Çünkü pek çok durumda insan çabası üründeki bir verimsizlik değil, ürünün *ta kendisi*. Restoranlar yemeğinizi gerçek insanların pişirdiğini reklamlarında öne çıkarabilir. Yayınevleri bir romanın %100 insan eliyle yazıldığına dair sertifika verebilir. Sentetik üretim sınırsızlaşıp fiilen bedavalaştıkça biyolojik üretim prim yapmaya, hatta lüks sayılmaya başlayabilir. Kıtlık değeri değiştirir.
 
@@ -77,9 +77,13 @@ Yapay zekânın önceki teknolojik devrimlerin hiçbirine benzemeyebileceğini d
 
 Yapay zekâ ise bu düzene meydan okuyor, çünkü hedefinde doğrudan genelliğin kendisi var. Yeni görevler öğrenebilir, sistemleri koordine edebilir, sonuçları değerlendirebilir ve kendi süreçlerini iyileştirebilirse insanın her zamanki kaçış yolu daralır. Traktörler tarım işçilerinin yerini alınca insanlar muhasebeciliğe geçti. Elektronik tablolar insan hesapçıların işini elinden alınca programcılığa yöneldiler. Ama otomasyonun sınırı genel bilişe doğru genişlemeyi sürdürürse bu iş nerede duracak?
 
+## Ekonomi Ne İçin Var?
+
 Ekonominin asıl amacının ne olduğuna karar veren biziz. Para, mülkiyet, piyasalar ve istihdam insan icadıdır. Verimlilik kavramı bile bizim hedeflerimizi yansıtır. Makineler bir gün ihtiyacımız olan her şeyi çok az insan emeğiyle üretmeye başlarsa derin bir felsefi seçimle yüz yüze geleceğiz. Bu bolluğu felaket boyutlarında bir işsizlik krizi olarak görebiliriz. Ya da nihayet geliri, onuru ve hayatta kalmayı emeğimizi satma zorunluluğuna bağlamaktan vazgeçebiliriz.
 
 On kişiyle bir milyar makine on milyar insanı geçindirebiliyorsa en acil soru *“On milyar iş nasıl yaratırız?”* olmayacak. Asıl soru şu olacak: *“Bolluk için neden illa on milyar iş gereksin ki?”*
+
+## Öyleyse Kuş muyuz, At mı?
 
 İnsan gerektiren işlerle makine gerektiren işler arasındaki sınır büyük bir kaymanın eşiğinde. Basketbol oynarken, resim yaparken ya da bir dostumuzu teselli ederken kuşuz: Bu işler, sırf onları bir insan yaptığı için değerlidir. 40.000 kurumsal belgeyi özetlerken ya da reklam metni yazarken ise atız: Bu işler, yalnızca ortaya bir sonuç çıkması gerektiği için değerlidir.
 

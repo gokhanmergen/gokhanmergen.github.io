@@ -11,7 +11,7 @@ archive_deck: Yapay süper zekâ bizi karınca gibi ezebilir, hayvanat bahçesin
 archive_title: Yapay Süper Zekâyla Yaşamaya Dair Dört Senaryo
 ---
 
-Baş döndürücü bir hızla gelişen yapay zekâ, insanlığı kritik bir yol ayrımına getirdi. Benzeri görülmemiş bir teknolojik gücün eşiğindeyiz. Artık soru, yapay zekânın dünyamızı değiştirip değiştirmeyeceği değil, *nasıl* değiştireceği. İnsanla yapay zekâ arasındaki ilişkinin uzun vadede nereye varabileceğine bakınca, olası kaderimizi birbirinden ayrışabilecek dört senaryoda toplayabiliriz.
+Baş döndürücü bir hızla gelişen yapay zekâ, insanlığı kritik bir yol ayrımına getirdi. Benzeri görülmemiş bir teknolojik gücün eşiğindeyiz. Artık soru, yapay zekânın dünyamızı değiştirip değiştirmeyeceği değil, *nasıl* değiştireceği. Uzun vadeye baktığımda, yapay süper zekâyla, yani en zeki insandan bile çok daha zeki bir yapay zekâyla yaşamaya dair dört olası senaryo görüyorum.
 
 ### **1. Karınca Senaryosu: Yeryüzünden Silinmek**
 
@@ -19,7 +19,7 @@ Yelpazenin en karamsar ucunda "Karınca" senaryosu duruyor. **Terminator'dan fı
 
 ### **2. Hayvanat Bahçesindeki Maymunlar: Altın Kafes**
 
-"Hayvanat Bahçesindeki Maymunlar" senaryosu kılımıza bile dokunmayan ama felsefi açıdan huzur kaçıran bir gelecek çiziyor. Yapay zekâ üretimi baştan sona otomatikleştirir; insanlar tam bir maddi konfor içinde, en ufak bir sıkıntı çekmeden yaşar. Ne var ki bu ütopyanın ruhsal bedeli ağırdır. Makineler her fiziksel ihtiyacımızı daha biz dile getirmeden sezip karşılayınca insanlık **edilgen bir varoluşa** sürüklenir. Kendi ellerimizle bir şey yaratmanın uğraşı, amacı ve verdiği tatmin ortadan kalkınca üretkenliğimiz söner. Böylece hayata anlam katan, bizi doyuran o derin duyguyu da yitiririz.
+"Hayvanat Bahçesindeki Maymunlar" senaryosu kılımıza bile dokunmayan ama felsefi açıdan huzur kaçıran bir gelecek çiziyor. Yapay zekâ üretimi baştan sona otomatikleştirir; insanlar tam bir maddi konfor içinde, en ufak bir sıkıntı çekmeden yaşar. Ne var ki bu ütopyanın ruhsal bedeli ağırdır. Makineler her fiziksel ihtiyacımızı daha biz dile getirmeden sezip karşılayınca insanlık, hayvanat bahçesindeki hayvanlar gibi **edilgen bir varoluşa** sürüklenir. Kendi ellerimizle bir şey yaratmanın uğraşı, amacı ve verdiği tatmin ortadan kalkınca üretkenliğimiz söner. Böylece hayata anlam katan, bizi doyuran o derin duyguyu da yitiririz.
 
 ### **3. Dijital Leviathan: Teknolojik Tiranlık**
 

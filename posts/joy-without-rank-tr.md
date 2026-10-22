@@ -96,7 +96,7 @@ Matematiksel nesneler hâlâ eskisi kadar ilginç. Teoremlerin güzelliğinden b
 
 Değişen, benim hiyerarşideki yerim.
 
-Strogatz'ın kahramanlarla ilgili sözü de bence bu yüzden bu kadar çok şey anlatıyor. Bu anlayışta kahraman, başkalarının başaramadığını başaran kişidir. Kahramanlık sivrilmeyi gerektirir, özel olmayı gerektirir.
+Strogatz'ın şu sözü de bence bu yüzden bu kadar çok şey anlatıyor: "Kendimizi kahraman olarak görmeyi seviyoruz ve belki de o devir kapandı." Bu anlayışta kahraman, başkalarının başaramadığını başaran kişidir. Kahramanlık sivrilmeyi gerektirir, özel olmayı gerektirir.
 
 Bir makine benim yapabildiğim her şeyi benden daha iyi yapabiliyorsa, kendimi o gözle görmeyi sürdürmem zorlaşır.
 

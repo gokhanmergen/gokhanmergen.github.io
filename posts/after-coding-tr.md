@@ -59,7 +59,7 @@ Böyle bir sisteme *şu müşteri segmenti için bir ürün piyasaya sür* dedi�
 
 Ortada elinde bir sürü araç bulunan tek bir ajan yok; ortada bir organizasyon var.
 
-Bu noktada ekonomiden işe yarar bir mercek ödünç alabiliriz. Ronald Coase'a göre firmalar, koordinasyonu bir hiyerarşi içinde sağlamak bazen piyasada sözleşme yapmaktan daha ucuza geldiği için vardır; bir firmanın büyüklüğünü de bu maliyetlerin dengelendiği nokta belirler. Ajan sürüleri bu denklemin iki tarafını birden değiştiriyor. Fazladan bir "çalışan" eklemenin maliyeti çıkarım (inference) maliyetine doğru inerse ve koordinasyonun kendisi de otomatikleşebilirse, firmanın doğal büyüklüğü ve biçimi, üzerine henüz pek kafa yormadığımız yönlerde değişebilir.
+Bu noktada ekonomiden işe yarar bir mercek ödünç alabiliriz. İktisatçı Ronald Coase'a göre firmalar, koordinasyonu bir hiyerarşi içinde sağlamak bazen piyasada sözleşme yapmaktan daha ucuza geldiği için vardır; bir firmanın büyüklüğünü de bu iki maliyetin dengelendiği nokta belirler. Ajan sürüleri ikisini birden değiştiriyor. Fazladan bir "çalışan" eklemenin maliyeti çıkarım (inference) maliyetine, yani modeli çalıştırmanın bedeline doğru inerse ve koordinasyonun kendisi de otomatikleşebilirse, firmanın doğal büyüklüğü ve biçimi, üzerine henüz pek kafa yormadığımız yönlerde değişebilir.
 
 Argümanın iki ayağı da burada buluşuyor. Ajan sürülerini mümkün kılan şey, düşüncenin fiyatındaki bu çöküş. Zekâ pahalıyken onu karneye bağlar, tek bir asistanla idare edersiniz. Ucuzladığında ise beş yüz ajan çalıştırmayı, onlara birbirlerinin işini denetletmeyi ve ürettiklerinin çoğunu çöpe atmayı göze alabilirsiniz.
 
@@ -79,7 +79,7 @@ Bugünkü yapay zekâ pazarı, olgunlaşmış bir sektörden çok 1990'ların or
 
 Yapay zekânın önemli olduğunu bilmek, yarattığı değerin kimin cebine gireceğini bilmek demek değil. Zekâ ucuzlamaya devam ederse model kalitesi, şirketi rakiplerinden koruyan bir hendek olarak şaşırtıcı derecede sığ kalabilir.
 
-Yapay zekâ destekli aramanın yakın geçmişi bu açıdan öğretici. Bir dönem, web'den bilgi çekip sentezleyen ve kaynak gösteren bir büyük dil modeli (LLM) başlı başına bir ürün kategorisi gibi görünüyordu; Perplexity de tam bu farkın üzerinde yükseldi. Buradan çıkan daha geniş ders şu: **Başarılı yapay zekâ özellikleri genellikle platform özelliğine dönüşür.** Bir yetenek değerini kanıtladığı anda bütün büyük platformlar onu bünyesine katar. Sohbette böyle oldu, kodlamada böyle oluyor, büyük ihtimalle ajanlarda da böyle olacak.
+Yapay zekâ destekli aramanın yakın geçmişi bu açıdan öğretici. Bir dönem, web'den bilgi çekip sentezleyen ve kaynak gösteren bir büyük dil modeli (LLM) başlı başına bir ürün kategorisi gibi görünüyordu; Perplexity adlı girişim de tam bu farkın üzerinde yükseldi. Buradan çıkan daha geniş ders şu: **Başarılı yapay zekâ özellikleri genellikle platform özelliğine dönüşür.** Bir yetenek değerini kanıtladığı anda bütün büyük platformlar onu bünyesine katar. Sohbette böyle oldu, kodlamada böyle oluyor, büyük ihtimalle ajanlarda da böyle olacak.
 
 ## Zekâ bollaşınca kıt kalan ne?
 
@@ -91,7 +91,7 @@ Bütün meselenin düğümlendiği ekonomik soru bu. Düşüncenin fiyatı düş
 - **Erişim**: tescilli verilere, araçlara, müşterilere, sermayeye ve ödeme altyapılarına.
 - **Doğrulama ve koordinasyon**: çok sayıda ajanı çalıştırabilmek ve yaptıkları işin doğru olduğundan emin olabilmek.
 
-Bu gözle bakınca yerleşik devler de farklı görünmeye başlıyor. Google'ın elinde Search, Android, Chrome, Workspace, YouTube, Maps, ödeme hizmetleri ve kullanıcılara dair derin bir bağlam var. Meta, milyarlarca kişilik ölçekte sosyal ilişki ağlarını, mesajlaşma uygulamalarını, içerik üreticilerini ve reklamverenleri elinde tutuyor. Microsoft'un kozları kurumsal kimlik altyapısı, Office, GitHub, Azure ve şirketlerin iş akışları. Apple ise bugün var olan en değerli kişisel bilişim platformlarından birini kontrol ediyor.
+Bu gözle bakınca yerleşik devler de farklı görünmeye başlıyor: Kıt kalacak şeylerin büyük kısmı zaten onlarda. Google'ın elinde Search, Android, Chrome, Workspace, YouTube, Maps, ödeme hizmetleri ve kullanıcılara dair derin bir bağlam var. Meta, milyarlarca kişilik ölçekte sosyal ilişki ağlarını, mesajlaşma uygulamalarını, içerik üreticilerini ve reklamverenleri elinde tutuyor. Microsoft'un kozları kurumsal kimlik altyapısı, Office, GitHub, Azure ve şirketlerin iş akışları. Apple ise bugün var olan en değerli kişisel bilişim platformlarından birini kontrol ediyor.
 
 Ajanların hem iş görebilecekleri bir sahaya hem de adına hareket edecekleri birinin yetkisine ihtiyacı var. Modeli bir gün bir başkasıyla değiştirmek mümkün olabilir. Etrafındaki sistemi değiştirmek ise mümkün olmayabilir.
 

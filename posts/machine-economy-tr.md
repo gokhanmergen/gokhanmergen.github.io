@@ -54,15 +54,15 @@ Böylece **"Ajanlar İçin X"** hareketi doğdu.
 
 ### **3. Ajanlar İçin Zillow (Hesaplama Gücü Emlakı)**
 
-Ajanlara ev gerekmez, FLOPS gerekir: saniyede yapılan kayan noktalı işlem sayısı. Ortaya yeni bir varlık sınıfı çıktı: "Hesaplama Gücü Vadeli Kontratları". Ajanlar sunucu zamanını emtia gibi alıp satmaya başladı. Yoğun bir iş yükü bekleyen ajan, merkeziyetsiz bir ağdan GPU zamanını önceden satın alabiliyor ya da talep fırladığında bu zamanı kârla elden çıkarabiliyordu. 2026'nın "emlakı" arsa değil, NVIDIA H100 kümeleriydi.
+Ajanlara ev gerekmez, hesaplama gücü gerekir. Bu gücün ölçüsü de FLOPS'tur: saniyede yapılan kayan noktalı işlem sayısı. Ortaya yeni bir varlık sınıfı çıktı: "Hesaplama Gücü Vadeli Kontratları". Ajanlar sunucu zamanını emtia gibi alıp satmaya başladı. Yoğun bir iş yükü bekleyen ajan, merkeziyetsiz bir ağdan önceden GPU zamanı, yani yapay zekâyı çalıştıran çiplerde kullanım süresi satın alabiliyordu. Talep fırlarsa bu süreyi kârla elden çıkarabiliyordu. 2026'nın "emlakı" arsa değil, NVIDIA H100 kümeleriydi.
 
 ### **4. Ajanlar İçin Nüfus Müdürlüğü (Kimlik Katmanları)**
 
 Meşru bir hizmet botunu kötü niyetli bir spam sürüsünden nasıl ayırırsınız? "Kişilik Kanıtı" (Proof of Personhood) miadını doldurdu; yerini "Fayda Kanıtı" aldı. Ajanlar "soylarını" doğrulayan dijital imzalar geliştirdi: Kendilerini kimin yarattığı, hangi sürümle çalıştıkları ve hangi güvenlik bariyerlerinin devrede olduğu bu imzalarda kayıtlıydı. Böylece dijital varlıklar arasında bir kast sistemi oluştu. Bir uçta "doğrulanmış kurumsal ajanlar", öbür uçta internetin karanlık köşelerinde çalışan "vahşi, başıboş betikler" vardı.
 
-### **5. Dikey Entegrasyon ve Simbiyoz: Ajanlar İçin “Evlilik”**
+### **5. Ajanlar İçin Evlilik (Dikey Entegrasyon ve Simbiyoz)**
 
-Bir firma, bir varlıkla etkileşimleri şu üç özelliği belli ölçülerde bir arada taşıyorsa o varlığı satın alır: sıklık (çok süte ihtiyacınız varsa ineği satın alın), varlık özgüllüğü (madenin yanındaki rafineriyi satın alın) ve koşulluluk (işlemin etkili olabilmesi için uzun sözleşmeler gerekir). Kimi durumlarda bir ajan da başka bir ajanı dikey olarak bünyesine katmayı en uygun seçenek olarak görecektir. Bunu ya o ajanı kopyalamak için para ödeyerek ya da onun eylemlerini doğrudan yönlendirme hakkını tekeline alarak yapabilir. Ajanlardan biri işi “satmakta”, öteki işi “yapmakta” çok iyiyse, birleşmenin işe yaradığını görebilirler; tıpkı mitokondrinin ökaryotik hücreyle kaynaşması gibi.
+Bir firma, bir varlıkla etkileşimleri şu üç özelliği belli ölçülerde bir arada taşıyorsa o varlığı satın alır: sıklık (çok süte ihtiyacınız varsa ineği satın alın), varlık özgüllüğü (madenin yanındaki rafineriyi satın alın) ve koşulluluk (işlemin etkili olabilmesi için uzun sözleşmeler gerekir). Kimi durumlarda bir ajan da başka bir ajanı dikey olarak bünyesine katmayı en uygun seçenek olarak görecektir. Bunu ya o ajanı kopyalamak için para ödeyerek ya da onun eylemlerini doğrudan yönlendirme hakkını tekeline alarak yapabilir. Ajanlardan biri işi “satmakta”, öteki işi “yapmakta” çok iyiyse, birleşmenin işe yaradığını görebilirler; tıpkı bugün hücrenin enerji santrali olan mitokondrinin bir zamanlar ökaryotik hücreyle kaynaşması gibi.
 
 ### **Bölüm III: Coase Tekilliği**
 
@@ -78,7 +78,7 @@ Bu tablo insan ekonomisi için dehşet vericiydi, ajan ekonomisi içinse verimli
 
 ### **Bölüm IV: Kendini Geliştirme Çarkı**
 
-2026'daki dönüşümün en can alıcı noktası, döngünün kapanmasıydı.
+2026'daki dönüşümün en can alıcı noktası, döngünün kapanmasıydı: Yapay zekâ kendi gelişiminin bedelini kendisi ödemeye başladı.
 
 2026'dan önce yapay zekâ bir maliyet merkeziydi; şirketler model eğitmeye milyarlarca dolar harcıyordu. 2026'dan sonra yapay zekâ **kendi hesabına çalışan bir kâr merkezine dönüştü.**
 

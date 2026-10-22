@@ -50,7 +50,7 @@ Tıbbı görece ilkel bir uğraştan teknolojiye dayalı, gelişmiş bir bilime 
 
 Yine de rekor beklenen yaşam süresi, aşağı yukarı aynı doğrusal hızla ilerlemeyi sürdürdü.
 
-Dünya genelinde beklenen yaşam süresi de muazzam ölçüde arttı: 1900’de 32 yıl civarındaydı, bugün 70 yılın üzerinde. Ne var ki bu eğrinin seyri rekortmen ülkelerinkinden farklı. İlk dönemdeki iyileşmenin büyük kısmı, yaşlılığın sınırlarını kökten genişletmekten değil, bebek ve çocuk ölümlerini önlemekten geldi. [Küresel tarihsel verilere](https://ourworldindata.org/life-expectancy) bakarken bu ayrımı akılda tutmak önemli.
+Dünya genelinde beklenen yaşam süresi de muazzam ölçüde arttı: 1900’de 32 yıl civarındaydı, bugün 70 yılın üzerinde. Ne var ki bu eğrinin seyri rekortmen ülkelerinkinden farklı. İlk dönemdeki iyileşmenin büyük kısmı, yaşlılığın sınırlarını kökten genişletmekten değil, bebek ve çocuk ölümlerini önlemekten geldi. [Küresel tarihsel veriler](https://ourworldindata.org/life-expectancy) de bu farkı gösteriyor.
 
 Kaçış hızı tezi için daha da can sıkıcı bir durum var: En uzun yaşayan toplumlarda son dönemdeki ilerleme hızlanmak bir yana, yavaşlıyor gibi görünüyor. [*Nature Aging*’de 2024’te yayımlanan bir çalışma](https://www.nature.com/articles/s43587-024-00702-3), dünyanın en uzun yaşayan toplumlarının birçoğunda beklenen yaşam süresindeki artışın 1990’dan bu yana hız kestiğini ortaya koydu.
 
@@ -78,11 +78,11 @@ Diyelim ki tıpta bir atılım, bütün yetişkin yaşlarda ölüm riskini yarı
 
 Muazzam bir başarı.
 
-Ama aynı büyüklükte bir kayma daha elde etmek için ölüm riskini *bir kez daha* yarıya indirmemiz gerekir.
+Ama sekiz yıl daha kazanmak için ölüm riskini *bir kez daha* yarıya indirmemiz gerekir.
 
 Sonra yine.
 
-Ömre eklenen her yeni dilim, hayatta kalmada çarpımsal bir iyileşme daha ister.
+Ömre eklenen her yeni sekiz yıl, geriye kalan riski yeniden yarıya indirmeyi gerektirir.
 
 Matematik diliyle söylersek, ölüm oranı yaşla birlikte yaklaşık olarak şöyle artıyorsa:
 
@@ -94,9 +94,9 @@ ve \(b\) değeri yılda kabaca 0,085 ise, ölüm oranını yarıya indirmek yaş
 
 Buradan önemli bir sezgi çıkıyor: **Ölüm oranındaki sabit yüzdelik bir düşüş, yaşa bağlı ölüm eğrisini aşağı yukarı sabit bir miktar kaydırır.**
 
-Müdahalelerimiz ölüm oranını düşürmede üstel hızla güçlense bile, beklenen yaşam süresine yansıyan kazanç kabaca doğrusal kalabilir.
+Üstel ilerleme sayesinde ölüm oranını düzenli aralıklarla yarıya indirmeyi sürdürebiliriz. Ama her yarılanma yine de ancak sekiz yıl kadar kazandırır. Bu yüzden müdahalelerimiz ölüm oranını düşürmede üstel hızla güçlense bile, beklenen yaşam süresine yansıyan kazanç kabaca doğrusal kalabilir.
 
-Bu basitleştirilmiş modelde uzun ömür kaçış hızına ulaşmak için bütün yetişkin yaşlarda ölüm oranını her yıl yaklaşık %8 ya da daha fazla düşürmek gerekirdi. Bu da ölüm riskini kabaca her sekiz yılda bir, tekrar tekrar yarıya indirmek demek.
+Bu basitleştirilmiş modelde uzun ömür kaçış hızına ulaşmak, yani geçen her yıl için bir yıllık beklenen yaşam süresi kazanmak, bütün yetişkin yaşlarda ölüm oranını her yıl yaklaşık %8 ya da daha fazla düşürmeyi gerektirirdi. Bu da ölüm riskini kabaca her sekiz yılda bir, tekrar tekrar yarıya indirmek demek.
 
 Ve bunun hiç durmadan sürmesi gerekirdi.
 
@@ -168,11 +168,11 @@ Ya kalp hastalığını, kanseri, Alzheimer’ı ve yaşa bağlı yüzlerce baş
 
 Bu, her şeyi değiştirebilir.
 
-Araştırmacılar yaşlanmayla ilişkili, birbirine bağlı pek çok mekanizmayı şimdiden saptadı: genomik istikrarsızlık, hücresel senesens, mitokondriyal işlev bozukluğu, proteostaz kaybı, besin algılamadaki değişiklikler ve başkaları.
+Araştırmacılar yaşlanmayla ilişkili, birbirine bağlı pek çok mekanizmayı şimdiden saptadı. Bunlar arasında genomik istikrarsızlık (DNA’da biriken hasar), hücresel senesens (bölünmeyi bıraktığı halde ortadan kalkmayan yıpranmış hücreler), mitokondriyal işlev bozukluğu (hücre içindeki enerji üretiminin aksaması), proteostaz kaybı (proteinlerin artık düzgün çalışır halde tutulamaması) ve besin algılamadaki değişiklikler (hücrelerin besinlere verdiği tepkinin değişmesi) var.
 
 Hayvanlar üzerinde denenen kimi müdahaleler dikkat çekici sonuçlar verdi.
 
-Belirli genetik mutasyonlar solucanların ömrünü ikiye katlayabiliyor. [Yayımlanmış fare araştırmalarında](https://pmc.ncbi.nlm.nih.gov/articles/PMC4032600/) belgelendiği gibi rapamisin de farelerde ömrü %25 ya da daha fazla uzattı; ama sonuçlar cinsiyete, doza ve deney koşullarına göre epey değişiyor.
+Belirli genetik mutasyonlar solucanların ömrünü ikiye katlayabiliyor. [Yayımlanmış fare araştırmalarında](https://pmc.ncbi.nlm.nih.gov/articles/PMC4032600/) belgelendiği gibi, rapamisin adlı ilaç da farelerde ömrü %25 ya da daha fazla uzattı; ama sonuçlar cinsiyete, doza ve deney koşullarına göre epey değişiyor.
 
 Bu deneyler önemli bir şey gösteriyor: Biyolojik yaşlanma, ayarına dokunulamayan bir saat olmak zorunda değil. Üzerinde oynamak mümkün.
 
@@ -208,11 +208,11 @@ Bir müdahalenin insan ömrünü uzattığını göstermek istiyorsanız en ikna
 
 Bu da onlarca yıl sürebilir.
 
-Epigenetik saatler gibi biyobelirteçler, araştırma döngülerini büyük ölçüde kısaltabilir. Ama yaşlanmayla ilişkili bir biyobelirteci ölçmek, bir insanın belirgin biçimde daha uzun yaşayacağını kanıtlamakla henüz eş değer değil.
+Yaşlanmanın biyobelirteçleri araştırma döngülerini büyük ölçüde kısaltabilir. Epigenetik saatler buna bir örnek: DNA üzerindeki kimyasal işaretlere bakarak bir insanın biyolojik yaşını tahmin ediyorlar. Ama yaşlanmayla ilişkili bir biyobelirteci ölçmek, bir insanın belirgin biçimde daha uzun yaşayacağını kanıtlamakla henüz eş değer değil.
 
 AGI yıllar sürecek kuramsal araştırmayı günlere sığdırsa bile, her biyolojik deneyi kendiliğinden aynı süreye sıkıştıramaz.
 
-Hayvanlardan elde edilen sonuçları genellerken temkinli olmak için de sebepler var: **Organizma karmaşıklaştıkça etki küçülüyor.** Solucanların ömrü ikiye katlanıyor, farelerinki %10 ila %25 uzuyor, primatlarda ise kanıtlar çelişkili. Karşımızda yine üstel karmaşıklık tezi var. Beden ne kadar karmaşıksa, aynı anda arıza verebileceği yol da o kadar çoktur. Bu yüzden solucanda yaşlanmayı kontrol eden bir kaldıraç, memelide pek çok kaldıraçtan yalnızca biridir.
+Hayvanlardan elde edilen sonuçları genellerken temkinli olmak için de sebepler var: **Organizma karmaşıklaştıkça ömürdeki kazanç küçülüyor.** Solucanların ömrü ikiye katlanıyor, farelerinki %10 ila %25 uzuyor, primatlarda ise kanıtlar çelişkili. Karşımızda yine, daha önce anlattığım o üstel zorlaşma var. Beden ne kadar karmaşıksa, aynı anda arıza verebileceği yol da o kadar çoktur. Bu yüzden solucanda yaşlanmayı kontrol eden bir kaldıraç, memelide pek çok kaldıraçtan yalnızca biridir.
 
 Görece basit canlılarda ömrü çarpıcı biçimde uzatan müdahaleler, insanda henüz benzer sonuçlar vermiş değil.
 
