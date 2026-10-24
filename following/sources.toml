@@ -1,0 +1,463 @@
+# People shown on following.html, in this order. Build with
+# python3 build_following.py; see BLOG_WORKFLOW.md, "The following page".
+#
+# Each person has an `id` (the card's anchor), `name`, `role`, `topics` (ids
+# from interests.toml, the main one first) and `why`, plus:
+#   [[person.channel]]  where they publish: label, url, optional note
+#   [[person.start]]    what to read first: title, url, optional note
+#   [[person.feed]]     what the page reads every day: url, label, and
+#                       optionally kind (post, paper, podcast, video, report;
+#                       default post), topics, match_topics, exclude,
+#                       max_items, summary
+
+[page]
+eyebrow = "Worth following · updated daily"
+title = "People worth following"
+lede = "The people I read on the subjects I write about: where each of them publishes, what to read first, and what they have published lately. The list of new work updates itself every day."
+
+
+# AI safety & the future
+
+[[person]]
+id = "scott-aaronson"
+name = "Scott Aaronson"
+role = "Quantum computing and complexity theorist, UT Austin"
+topics = ["ai-future", "math"]
+why = "He spent two years at OpenAI working on AI safety and watermarking, and writes on AI with a complexity theorist's precision. Nearly everything he publishes goes through his blog, and some of his sharpest arguments are in his replies in the comment threads."
+
+[[person.channel]]
+label = "Shtetl-Optimized"
+url = "https://scottaaronson.blog/"
+note = "blog"
+
+[[person.channel]]
+label = "Complexity posts only"
+url = "https://scottaaronson.blog/?cat=5&feed=rss2"
+note = "RSS"
+
+[[person.channel]]
+label = "Google Scholar"
+url = "https://scholar.google.com/citations?user=EYv2BNQAAAAJ"
+note = "email alerts for new papers"
+
+[[person.start]]
+title = "Quantum Computing Since Democritus"
+url = "https://en.wikipedia.org/wiki/Quantum_Computing_Since_Democritus"
+note = "book, 2013"
+
+[[person.start]]
+title = "Why Philosophers Should Care About Computational Complexity"
+url = "https://arxiv.org/abs/1108.1791"
+note = "essay, 2011"
+
+[[person.feed]]
+url = "https://scottaaronson.blog/?feed=rss2"
+label = "Shtetl-Optimized"
+
+[[person.feed]]
+url = "https://export.arxiv.org/api/query?search_query=au:Aaronson_Scott&sortBy=submittedDate&sortOrder=descending&max_results=10"
+label = "arXiv"
+kind = "paper"
+topics = ["math", "ai-future"]
+
+
+[[person]]
+id = "zvi-mowshowitz"
+name = "Zvi Mowshowitz"
+role = "Writer, Don't Worry About the Vase"
+topics = ["ai-future"]
+why = "Long weekly roundups of everything that happened in AI, read through the lens of AI risk. The most complete single source for keeping up, if you have the time."
+
+[[person.channel]]
+label = "Don't Worry About the Vase"
+url = "https://thezvi.substack.com/"
+note = "Substack"
+
+[[person.feed]]
+url = "https://thezvi.substack.com/feed"
+label = "Don't Worry About the Vase"
+
+
+[[person]]
+id = "jack-clark"
+name = "Jack Clark"
+role = "Co-founder of Anthropic"
+topics = ["ai-future", "ai-work"]
+why = "His weekly Import AI newsletter has summarized the notable AI research of each week since 2016, with notes on why each result matters."
+
+[[person.channel]]
+label = "Import AI"
+url = "https://importai.substack.com/"
+note = "weekly newsletter"
+
+[[person.feed]]
+url = "https://importai.substack.com/feed"
+label = "Import AI"
+
+
+[[person]]
+id = "metr"
+name = "METR"
+role = "Nonprofit that evaluates frontier AI models"
+topics = ["ai-future"]
+why = "It measures what frontier AI models can do on their own, including how long a task they can finish without help. Its numbers track how fast AI autonomy is growing."
+
+[[person.channel]]
+label = "metr.org"
+url = "https://metr.org/"
+
+[[person.start]]
+title = "Measuring AI Ability to Complete Long Software Tasks"
+url = "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/"
+note = "2025"
+
+[[person.feed]]
+url = "https://metr.org/feed.xml"
+label = "METR"
+kind = "report"
+
+
+# AI, work & economy
+
+[[person]]
+id = "epoch-ai"
+name = "Epoch AI"
+role = "Research institute on the trends behind AI"
+topics = ["ai-work", "ai-future"]
+why = "Data on compute, training costs, hardware and capabilities. The numbers behind any argument about how fast intelligence is getting cheaper."
+
+[[person.channel]]
+label = "epoch.ai"
+url = "https://epoch.ai/"
+
+[[person.channel]]
+label = "Newsletter"
+url = "https://epochai.substack.com/"
+note = "Substack"
+
+[[person.start]]
+title = "Can AI Scaling Continue Through 2030?"
+url = "https://epoch.ai/publications/can-ai-scaling-continue-through-2030"
+note = "2024"
+
+[[person.feed]]
+url = "https://epochai.substack.com/feed"
+label = "Epoch AI"
+
+
+[[person]]
+id = "tyler-cowen"
+name = "Tyler Cowen"
+role = "Economist, George Mason University"
+topics = ["ai-work"]
+why = "He writes Marginal Revolution with Alex Tabarrok, several posts a day on everything. This page keeps only the posts on AI, work and the economy."
+
+[[person.channel]]
+label = "Marginal Revolution"
+url = "https://marginalrevolution.com/"
+note = "blog, with Alex Tabarrok"
+
+[[person.start]]
+title = "Average Is Over"
+url = "https://en.wikipedia.org/wiki/Average_Is_Over"
+note = "book, 2013"
+
+[[person.feed]]
+url = "https://marginalrevolution.com/feed"
+label = "Marginal Revolution"
+match_topics = true
+
+
+[[person]]
+id = "noah-smith"
+name = "Noah Smith"
+role = "Economist and writer, Noahpinion"
+topics = ["ai-work", "geopolitics"]
+why = "One of the clearest arguments that AI need not end good jobs, through comparative advantage. Also writes on industrial policy and China."
+
+[[person.channel]]
+label = "Noahpinion"
+url = "https://www.noahpinion.blog/"
+note = "Substack"
+
+[[person.start]]
+title = "Plentiful, high-paying jobs in the age of AI"
+url = "https://www.noahpinion.blog/p/plentiful-high-paying-jobs-in-the"
+note = "2024"
+
+[[person.feed]]
+url = "https://www.noahpinion.blog/feed"
+label = "Noahpinion"
+
+
+[[person]]
+id = "dwarkesh-patel"
+name = "Dwarkesh Patel"
+role = "Host, Dwarkesh Podcast"
+topics = ["ai-work", "ai-future"]
+why = "Long, unusually well-prepared interviews with AI researchers, economists and historians."
+
+[[person.channel]]
+label = "Dwarkesh Podcast"
+url = "https://www.dwarkesh.com/"
+note = "podcast and essays"
+
+[[person.channel]]
+label = "YouTube"
+url = "https://www.youtube.com/@DwarkeshPatel"
+
+[[person.start]]
+title = "The Scaling Era: An Oral History of AI, 2019–2025"
+url = "https://press.stripe.com/scaling"
+note = "book with Gavin Leech, 2025"
+
+[[person.feed]]
+url = "https://www.dwarkesh.com/feed"
+label = "Dwarkesh Podcast"
+kind = "podcast"
+
+
+# Math, quantum & computing
+
+[[person]]
+id = "terence-tao"
+name = "Terence Tao"
+role = "Mathematician, UCLA"
+topics = ["math"]
+why = "A Fields medalist who has become a leading voice on AI-assisted and formally verified mathematics. His blog covers both the mathematics and the tools."
+
+[[person.channel]]
+label = "What's new"
+url = "https://terrytao.wordpress.com/"
+note = "blog"
+
+[[person.start]]
+title = "Machine-Assisted Proof"
+url = "https://doi.org/10.1090/noti3041"
+note = "essay, Notices of the AMS, 2025"
+
+[[person.feed]]
+url = "https://terrytao.wordpress.com/feed/"
+label = "What's new"
+
+
+[[person]]
+id = "quanta"
+name = "Quanta Magazine"
+role = "Science magazine of the Simons Foundation"
+topics = ["math"]
+why = "Plain-language reporting on new results in mathematics and computer science."
+
+[[person.channel]]
+label = "Mathematics"
+url = "https://www.quantamagazine.org/mathematics/"
+
+[[person.channel]]
+label = "Computer science"
+url = "https://www.quantamagazine.org/computer-science/"
+
+[[person.feed]]
+url = "https://www.quantamagazine.org/mathematics/feed/"
+label = "Mathematics"
+
+[[person.feed]]
+url = "https://www.quantamagazine.org/computer-science/feed/"
+label = "Computer science"
+
+
+# Longevity & medicine
+
+[[person]]
+id = "eric-topol"
+name = "Eric Topol"
+role = "Cardiologist; director, Scripps Research Translational Institute"
+topics = ["longevity"]
+why = "He reads the new medical literature faster than almost anyone and summarizes it on Ground Truths, much of it on healthy aging."
+
+[[person.channel]]
+label = "Ground Truths"
+url = "https://erictopol.substack.com/"
+note = "Substack"
+
+[[person.start]]
+title = "Super Agers: An Evidence-Based Approach to Longevity"
+url = "https://www.simonandschuster.net/books/Super-Agers/Eric-Topol/9781668067680"
+note = "book, 2025"
+
+[[person.feed]]
+url = "https://erictopol.substack.com/feed"
+label = "Ground Truths"
+
+
+[[person]]
+id = "matt-kaeberlein"
+name = "Matt Kaeberlein"
+role = "Biologist of aging, formerly at the University of Washington"
+topics = ["longevity"]
+why = "A researcher on the biology of aging who co-founded the Dog Aging Project, and is careful about which longevity claims the evidence supports."
+
+[[person.channel]]
+label = "Longevity Science"
+url = "https://podcasts.apple.com/us/podcast/longevity-science-with-matt-kaeberlein/id6813308766"
+note = "podcast"
+
+[[person.channel]]
+label = "YouTube"
+url = "https://www.youtube.com/@mkaeberlein"
+
+[[person.feed]]
+url = "https://anchor.fm/s/1119ecd40/podcast/rss"
+label = "Longevity Science"
+kind = "podcast"
+
+
+[[person]]
+id = "derek-lowe"
+name = "Derek Lowe"
+role = "Medicinal chemist in drug discovery"
+topics = ["longevity"]
+why = "He has blogged about drug discovery since 2002, and is the best antidote to hype about new drugs."
+
+[[person.channel]]
+label = "In the Pipeline"
+url = "https://www.science.org/blogs/pipeline"
+note = "blog, at Science"
+
+[[person.feed]]
+url = "https://www.science.org/blogs/pipeline/feed"
+label = "In the Pipeline"
+
+
+# Geopolitics & propaganda
+
+[[person]]
+id = "timothy-snyder"
+name = "Timothy Snyder"
+role = "Historian of Eastern Europe, University of Toronto"
+topics = ["geopolitics"]
+why = "On Russia, Ukraine, propaganda and how democracies fail."
+
+[[person.channel]]
+label = "Thinking about…"
+url = "https://snyder.substack.com/"
+note = "Substack"
+
+[[person.start]]
+title = "On Tyranny"
+url = "https://en.wikipedia.org/wiki/On_Tyranny"
+note = "book, 2017"
+
+[[person.start]]
+title = "The Road to Unfreedom"
+url = "https://en.wikipedia.org/wiki/The_Road_to_Unfreedom"
+note = "book, 2018"
+
+[[person.feed]]
+url = "https://snyder.substack.com/feed"
+label = "Thinking about…"
+
+
+[[person]]
+id = "anne-applebaum"
+name = "Anne Applebaum"
+role = "Historian and staff writer, The Atlantic"
+topics = ["geopolitics"]
+why = "On how autocracies cooperate with one another, and what that means for the democracies."
+
+[[person.channel]]
+label = "Substack"
+url = "https://anneapplebaum.substack.com/"
+
+[[person.start]]
+title = "Autocracy, Inc."
+url = "https://en.wikipedia.org/wiki/Autocracy,_Inc."
+note = "book, 2024"
+
+[[person.feed]]
+url = "https://anneapplebaum.substack.com/feed"
+label = "Substack"
+
+
+[[person]]
+id = "phillips-obrien"
+name = "Phillips P. O'Brien"
+role = "Professor of strategic studies, University of St Andrews"
+topics = ["geopolitics"]
+why = "Weekly analysis of the war in Ukraine, focused on what actually decides wars: production, logistics and air power."
+
+[[person.channel]]
+label = "Phillips's Newsletter"
+url = "https://phillipspobrien.substack.com/"
+note = "Substack"
+
+[[person.start]]
+title = "How the War Was Won"
+url = "https://doi.org/10.1017/CBO9781139045605"
+note = "book, 2015"
+
+[[person.feed]]
+url = "https://phillipspobrien.substack.com/feed"
+label = "Phillips's Newsletter"
+exclude = '^Live with'
+
+
+# US budget & immigration
+
+[[person]]
+id = "cbo"
+name = "Congressional Budget Office"
+role = "Nonpartisan budget scorekeeper for Congress"
+topics = ["policy"]
+why = "The baseline numbers for any argument about deficits and debt. This page skips its cost estimates for single bills and keeps its reports."
+
+[[person.channel]]
+label = "cbo.gov"
+url = "https://www.cbo.gov/"
+
+[[person.start]]
+title = "The Budget and Economic Outlook: 2026 to 2036"
+url = "https://www.cbo.gov/publication/61882"
+note = "February 2026"
+
+[[person.feed]]
+url = "https://www.cbo.gov/publications/all/rss.xml"
+label = "CBO"
+kind = "report"
+exclude = '^(H\.R\.|S\.|H\.J\.Res\.|S\.J\.Res\.|H\.Res\.|S\.Res\.) ?\d'
+
+
+[[person]]
+id = "jessica-riedl"
+name = "Jessica Riedl"
+role = "Budget and tax fellow, Brookings"
+topics = ["policy"]
+why = "Explains federal spending, taxes and debt in plain numbers, and holds both parties to them."
+
+[[person.channel]]
+label = "Substack"
+url = "https://www.jessicariedl.blog/"
+
+[[person.feed]]
+url = "https://www.jessicariedl.blog/feed"
+label = "Substack"
+
+
+[[person]]
+id = "alex-nowrasteh"
+name = "Alex Nowrasteh"
+role = "Immigration economist, Cato Institute"
+topics = ["policy"]
+why = "Works through the data on immigration and crime, wages, public finances and institutions."
+
+[[person.channel]]
+label = "Substack"
+url = "https://www.alexnowrasteh.com/"
+
+[[person.start]]
+title = "Wretched Refuse? The Political Economy of Immigration and Institutions"
+url = "https://doi.org/10.1017/9781108776899"
+note = "book with Benjamin Powell, 2020"
+
+[[person.feed]]
+url = "https://www.alexnowrasteh.com/feed"
+label = "Substack"

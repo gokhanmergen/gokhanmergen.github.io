@@ -1,0 +1,10 @@
+# Picks shown above the automatic stream on following.html: one piece of
+# work each, with a short note in my own words. The page shows the six
+# newest; older ones stay here as a record.
+#
+# [[pick]]
+# date = 2026-10-24
+# title = "The title of the piece"
+# url = "https://..."
+# person = "scott-aaronson"  # optional: an id from sources.toml
+# note = "Why it is worth the time."

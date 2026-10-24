@@ -1,0 +1,51 @@
+# Refreshes following.html every day from the feeds in following/sources.toml,
+# and again whenever its sources change, then commits the result to main.
+name: Update following page
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  push:
+    branches: [main]
+    paths:
+      - following/*.toml
+      - build_following.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: following
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch feeds and build the page
+        run: python3 build_following.py --fetch
+
+      - name: Commit and publish if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add following.html following.opml following/items.json
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update following page"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          # Pushes made with the workflow token may not start a Pages build.
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || true

@@ -19,6 +19,7 @@ Personal website for Gokhan Mergen, featuring his biography, publications, quant
 - `blog-singularity-big-nothing.html` — sixth post: “Why the Technological Singularity May Be a Big Nothing”
 - `photography.html` — self-hosted photography archive and viewer
 - `quantBibliography.html` — quantitative finance bibliography and research notes
+- `following.html` — unlinked page of people worth following, refreshed daily by `build_following.py` from `following/` (see BLOG_WORKFLOW.md)
 - `styles.css` — homepage layout and responsive styling
 - `pubs/` — downloadable papers and presentation slides
 - `gokhan.jpg`, `gokhan2.jpg` — homepage image assets

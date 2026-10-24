@@ -1,0 +1,2925 @@
+{
+ "failing": {},
+ "items": [
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-24",
+   "summary": "[This is a guest post by Abhinav Nellore, Johannes Schmitt, Soledad Villar, and Rachel Ward – T.] OpenAI’s math write-ups at https://github.com/openai/math can be difficult to understand and can have incomplete citations. https://github.com/mathcommunity/oai-math-revised/ seeks to be an inclusive effort to improve these write-ups, and the broader math community–students, postdocs, professors, and…",
+   "title": "oai-math-revised: a community hub for revising OpenAI’s math write-ups",
+   "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-10-24",
+   "summary": "A recording from Timothy Snyder's live video",
+   "title": "With Michael Weiss on Ukraine, Diplomacy, and Espionage",
+   "url": "https://snyder.substack.com/p/with-michael-weiss-on-ukraine-diplomacy"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "phillips-obrien",
+   "published": "2026-10-24",
+   "summary": "A recording from Phillips P. OBrien's live video",
+   "title": "Live with Phillips P. OBrien: AMA",
+   "url": "https://phillipspobrien.substack.com/p/live-with-phillips-p-obrien-ama"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-24",
+   "summary": "Here’s the first part of my theory: cybercriminals are not the organized geniuses we implicitly imagine. Anyone building a criminal gang has to find candidates willing to forgo more stable opportunities in the formal economy. My modeling estimated that something like 720,000 people are involved in the online criminal economy, 90% of them in scam…",
+   "title": "Why are cybersecurity losses not worse?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/why-are-cybersecurity-losses-not-worse.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-24",
+   "summary": "Here is the audio, video, and transcript. Here is one excerpt: Cowen: Talk me out of this worry: So we agree science is an ecosystem, and there’s always a temptation to want to fund the most dynamic, most productive parts of the ecosystem. And right now, that would probably be A.I. But if you need…",
+   "title": "I guest host an NYT podcast with Michael Kratsios, Trump science advisor",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/i-guest-host-an-nyt-podcast-with-michael-kratsios-trump-science-advisor.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-23",
+   "summary": "This is one of those times - and there are many - when you should evaluate a biopharma news story based on the science and not on the stock market. I’m referring to the clinical trial data that Merck and Moderna released yesterday for their vaccine (intismeran autogene)/Keytruda combination in melanoma patients after surgery. That should probably read “released under duress”, because the data…",
+   "title": "The Merck/Moderna Results",
+   "url": "https://www.science.org/content/blog-post/merck-moderna-results"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-23",
+   "summary": "Last week at a small conference, there was talk about a future event referred to as The Hackening.",
+   "title": "The Hackening",
+   "url": "https://thezvi.substack.com/p/the-hackening"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-23",
+   "summary": "The IAS has opened its application page for its membership program for the upcoming year. This by itself would be unremarkable — the program does this every year — but there is an additional statement included in the announcement: We realize that applying to positions in the current environment is stressful. To help alleviate this,…",
+   "title": "IAS applications for membership in the school of mathematics",
+   "url": "https://terrytao.wordpress.com/2026/10/23/ias-applications-for-membership-in-the-school-of-mathematics/"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "phillips-obrien",
+   "published": "2026-10-23",
+   "summary": "A recording from Phillips P. OBrien's live video",
+   "title": "Live with Phillips P. OBrien",
+   "url": "https://phillipspobrien.substack.com/p/live-with-phillips-p-obrien-3df"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-23",
+   "summary": "From Jesús Fernández-Villaverde: Will AI poison the public finances of many modern states? There is a real risk that it will. Yesterday, I circulated a new paper, “Saving for the Machines,” which makes a simple point. Building the AI transformation will require enormous investment. The only way to induce agents to save for that investment…",
+   "title": "Will bystander economies be able to finance their governments?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/will-bystander-economies-be-able-to-finance-their-governments.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-23",
+   "summary": "Here is their episode summary: Economist Tyler Cowen joins David Wolpe for a conversation about AI, religion, and what makes us human. Tyler makes the case that AI’s biggest impact may be on status: who gains it, who loses it, and what happens to experts like rabbis when anyone can ask ChatGPT all their questions.…",
+   "title": "Podcast with Rabbi David Wolpe",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/podcast-with-rabbi-david-wolpe.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-23",
+   "summary": "1. Weird diets (NYT). 2. Is this what the Denisovans looked like? 3. Measuring bottlenecks for AI. 4. How is violence diffferent when women lead drug cartels? 5. “Israel’s economy is growing so fast, it will leapfrog the Netherlands and Australia within the next 18 months, in time for it’s 80th birthday—not by 2030, as…",
+   "title": "Friday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/friday-assorted-links-596.html"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-23",
+   "summary": "Whether AI can do our jobs, how far behind open-weight models are in cybersecurity, and Gemini closing in on the frontier",
+   "title": "The Epoch Brief - October 23, 2026",
+   "url": "https://epochai.substack.com/p/the-epoch-brief-october-23-2026"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-10-23",
+   "summary": "The Trump administration’s ugly deal with the Venezuelan regime",
+   "title": "“A Coalition of Two Kleptocracies”",
+   "url": "https://anneapplebaum.substack.com/p/a-coalition-of-two-kleptocracies"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-22",
+   "summary": "I’m always glad to see articles like this one, where someone goes to the trouble of confirming whether “Compound X is a selective probe for Protein Target Y” is a true statement. That’s because it’s not all that easy to find a selective probe! A basic rule of small molecules in biological systems is “A lot of things bind to a lot of stuff” (speaking rigorously and quantitatively here, you…",
+   "title": "Elevenostat: Don't Believe the Label",
+   "url": "https://www.science.org/content/blog-post/elevenostat-don-t-believe-label"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-22",
+   "summary": "Immigration, the welfare state, and Keynesian economics are all showing signs of strain.",
+   "title": "France and the limits of liberalism",
+   "url": "https://www.noahpinion.blog/p/france-and-the-limits-of-liberalism"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-10-22",
+   "summary": "What I learned from touring Intel’s most advanced fab and talking to its leadership.",
+   "title": "What will computer chips look like in 2045?",
+   "url": "https://www.dwarkesh.com/p/intel-tour"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-22",
+   "summary": "It was the probably worst day in cybersecurity history.",
+   "title": "AI #191: The Hackening Begins",
+   "url": "https://thezvi.substack.com/p/ai-191-the-hackening-begins"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-22",
+   "summary": "[This is a guest post by Caroline Turnage-Butterbaugh. This blog post was initially written in a different file format and converted using AI. — T.] Evidence in favor of the Riemann Hypothesis comes in many flavors. OpenAI’s proof of the quasi-Riemann Hypothesis is definitely one such flavor; however, in this post I will focus my…",
+   "title": "Simple and critical zeros of the Riemann zeta-function",
+   "url": "https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-22",
+   "summary": "The Week The US Told The Gulf States The Truth; How The US Should Pull Out Of The Middle East",
+   "title": "Midweek Update#32: US and Israeli Bombing Threats Are So Political They Should Have Campaign Announcements",
+   "url": "https://phillipspobrien.substack.com/p/midweek-update32-us-and-israeli-bombing"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-10-22",
+   "summary": "For three weeks, from July 21st to August 11th, a METR employee and a Redwood Research employee conducted a pilot high-access exercise to stress-test OpenAI’s internal misalignment monitoring system. 1 The output of this exercise was a 61-page internal report that was shared with OpenAI researchers and security staff, 2 primarily focused on estimating the fraction of agentic inference that is…",
+   "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
+   "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "video",
+   "person": "tyler-cowen",
+   "published": "2026-10-22",
+   "summary": "If you are teaching economics Modern Principles is the book to use! Great and original writing, over one hundred videos, iClicker, Achieve and lots of additional support. Contact Mike Krotine to get an examination copy. https://alextabarrok.com/video/modern-principles.mp4",
+   "title": "Modern Principles of Economics!",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/modern-principles-of-economics-3.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-22",
+   "summary": "At some point AI will be more regulated than it is today. Furthermore, I believe that most parts of the American economy, once they are regulated, end up overregulated. Thus it is likely that the AI sector will, at some point, end up overregulated. Given that reality, perhaps the AI sector should be underregulated today.…",
+   "title": "A simple point about the intertemporal regulation of AI",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/a-simple-point-about-the-intertemporal-regulation-of-ai.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-21",
+   "summary": "Here’s one of those disturbing-but-not-necessarily-surprising reports about the state of the literature. In this case, the preprint linked is the result of a deliberate search for papers that are working with a list of twenty cell lines that have clear genetic deletions and/or mutations. Then a search was done for Western blot experiments in these papers, with particular attention to cases where…",
+   "title": "The Case of the Should-Be-Missing Proteins",
+   "url": "https://www.science.org/content/blog-post/case-should-be-missing-proteins"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-21",
+   "summary": "A movie review, plus some thoughts on dishonesty, belief, and human communication.",
+   "title": "“You Can See Everything” and the nature of liars",
+   "url": "https://www.noahpinion.blog/p/you-can-see-everything-and-the-nature"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-21",
+   "summary": "A lot of AIs were misaligned this week.",
+   "title": "Misaligned!",
+   "url": "https://thezvi.substack.com/p/misaligned"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-21",
+   "summary": "[This is a guest post by Tristan Buckmaster. This blog post was initially written in a different file format and converted using AI. — T.] This blog post expands on a theme mentioned at the end of my recent talk at the Institute for Advanced Study on October 19. I would like to thank Matei…",
+   "title": "Mathematics is a subject for the young",
+   "url": "https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-10-21",
+   "summary": "Today, I take a break from your regularly-scheduled AI mathocalypse programming to urge my American readers to vote in the Congressional midterms, early if possible, if you haven’t already. Especially if your state faces one or more major contests, as does my adopted home state of Texas. Me, I voted straight-ticket Democrat today, as I’ve…",
+   "title": "Vote!",
+   "url": "https://scottaaronson.blog/?p=10222"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-20",
+   "summary": "Two weeks. As of today it is two weeks until the US midterm elections, and one way or another scientific and medical research in this country is heading for a profound shift. Because the rest of the country is heading for one as well. Of course, it already has as of the last election, and I’ve detailed that in a series of posts over the last couple of years here. This is the most recent one. I’m…",
+   "title": "Two Weeks to Go",
+   "url": "https://www.science.org/content/blog-post/two-weeks-go"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-20",
+   "summary": "Anthony Cimino offered the closest thing to an official response we have seen on the leaked Anthropic draft bill I covered on Saturday.",
+   "title": "Anthropic Does Not Understand Why Its Draft Bill Was Unacceptable and Troubling",
+   "url": "https://thezvi.substack.com/p/anthropic-does-not-understand-why"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-20",
+   "summary": "In the spirit of my recent “Math 2.0” talk on new ways to use AI assistance to enhance the human understanding of mathematics, rather than substitute for it, I am using this post to propose an experimental challenge, inspired by the recent activity around excluding Landau–Siegel zeroes, as discussed in this previous post. There is…",
+   "title": "An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes",
+   "url": "https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "timothy-snyder",
+   "published": "2026-10-20",
+   "summary": "And what Ukraine is giving to us",
+   "title": "Trump’s Big Lie about Ukraine",
+   "url": "https://snyder.substack.com/p/trumps-big-lie-about-ukraine"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-20",
+   "summary": "Some Home Truths To Understand Where We Have Been And Where We Might Be Going",
+   "title": "Time For A Reality Check",
+   "url": "https://phillipspobrien.substack.com/p/time-for-a-reality-check"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-10-20",
+   "summary": "Scope and access: this review was written based solely on Anthropic’s internal Risk Report from August 2026 and is relatively lightweight. The authors of this review were engaged prior to the “ An update on independent evaluators ” announcement and did not have the level of access to information described in that post. We expect future engagements to be governed by different terms. Redaction…",
+   "title": "Review of the \"Misalignment in high-stakes settings\" section in Anthropic's Risk Report (August 2026)",
+   "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-19",
+   "summary": "Here’s one that I wouldn’t have expected. Sulfur is of course an absolutely necessary element for life-as-we-know-it, what with key molecules like cysteine, glutathione, methionine, biotin, taurine, coenzyme A, S-adenosylmethionine, iron-sulfur protein sites and many, many more. So there are plenty of biochemical systems for uptake, production, storage, and handling of these molecules and their…",
+   "title": "Sulfur, Right There All Along",
+   "url": "https://www.science.org/content/blog-post/sulfur-right-there-all-along"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/mathematics/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-10-19",
+   "summary": "Unlike other recent AI proofs, this one has been unpacked by human experts. The implications, one mathematician said, are “staggering.”",
+   "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+   "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-19",
+   "summary": "Ramez Naam gives a skeptic’s take on agent swarms.",
+   "title": "Can a Million AI Agents Create Superintelligence?",
+   "url": "https://www.noahpinion.blog/p/can-a-million-ai-agents-create-superintelligence"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-10-19",
+   "summary": "Part 4 of What People Really Care About When They’re Mad About Immigration",
+   "title": "Immigrants Aren’t Coming to Shoot Up Your School, Church, Synagogue, or Supermarket",
+   "url": "https://www.alexnowrasteh.com/p/immigrants-arent-coming-to-shoot"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-19",
+   "summary": "No spoilers!",
+   "title": "I Can See Everything",
+   "url": "https://thezvi.substack.com/p/i-can-see-everything"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-19",
+   "summary": "[This is a guest post by Lukas Liehr, João Pedro Ramos and Mitchell Taylor – T.] We are launching the Bourgain Project, a community-driven initiative to revisit, expand upon, and explore the body of work of Jean Bourgain, one of the most prolific mathematicians of his time. The goal of this initiative is to develop…",
+   "title": "The Bourgain Project",
+   "url": "https://terrytao.wordpress.com/2026/10/19/the-bourgain-project/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-19",
+   "summary": "For a given prime , the Legendre symbol is defined as follows: if is a quadratic residue modulo , then ; if is a quadratic non-residue modulo , then ; and if divides , then . Let be an integer that is not a perfect square. (One could require to be a fundamental discriminant if…",
+   "title": "A sketch of the proof of non-existence of Siegel zeroes",
+   "url": "https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-10-19",
+   "summary": "As I announced on this blog a couple weeks ago, I’m teaching a new course this semester at UT Austin, entitled AI Alignment Theory. To call such a course “timely” seems like an understatement; this is the first course I’ve ever taught for which multiple gargantuan developments relevant to the course have happened while I…",
+   "title": "AI Alignment Theory Course: Readings and Rapporteur Reports!",
+   "url": "https://scottaaronson.blog/?p=10204"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-10-19",
+   "summary": "What do you think?",
+   "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+   "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-18",
+   "summary": "America’s New Right believes that savagery is the key to victory.",
+   "title": "Why are we ruled by barbarians?",
+   "url": "https://www.noahpinion.blog/p/why-are-we-ruled-by-barbarians"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-18",
+   "summary": "[This is a guest post by Francesco Maggi. This blog post was initially written in a different file format and converted using AI. — T.] Large language models (LLMs) and the research systems built around them (and commonly known as “artificial intelligence”) have demonstrated remarkable abilities in generating mathematical proofs. While the quality and limits…",
+   "title": "Will it be a golden age or a dark age for mathematics (and science)?",
+   "url": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-18",
+   "summary": "[This is a guest post by Shaoming Guo – T.] Several math colleagues and I are preparing to launch a new journal. As we considered which values we wanted the journal to uphold, we realized that there may be many other values worth exploring as a community, potentially through the creation of additional journals. We…",
+   "title": "Starting a new journal",
+   "url": "https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "timothy-snyder",
+   "published": "2026-10-18",
+   "summary": "The voices of Ukrainians",
+   "title": "Rape as a weapon of war",
+   "url": "https://snyder.substack.com/p/rape-as-a-weapon-of-war"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-18",
+   "summary": "Ukraine Seems To Get It This Time; Ukraine Keeps Steadily Progressing In The Land War",
+   "title": "Weekend Update #207: The US-Russia Alliance Is Signed--In Ukrainian Blood",
+   "url": "https://phillipspobrien.substack.com/p/weekend-update-207-the-us-russia"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-17",
+   "summary": "There is a newly leaked bill that Anthropic is purportedly shopping around is (if you assume its bugs get fixed).",
+   "title": "Leaked Anthropic Draft AI Regulatory Bill Is Unacceptable and Troubling",
+   "url": "https://thezvi.substack.com/p/leaked-anthropic-draft-ai-regulatory"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-17",
+   "summary": "As readers of this blog have no doubt noticed, I have recently turned over the majority of content on this blog to guest posts from other authors, either within the mathematics community or adjacent to it. In this post I record some content coming from my own talks and interviews in this time period. “The…",
+   "title": "Some of my recent talks and interviews",
+   "url": "https://terrytao.wordpress.com/2026/10/17/some-of-my-recent-talks-and-interviews/"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-17",
+   "summary": "Stop Saying He Is Pivoting",
+   "title": "Trump Protects Putin From Graham-Blumenthal",
+   "url": "https://phillipspobrien.substack.com/p/trump-protects-putin-from-graham"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/computer-science/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-10-16",
+   "summary": "Moritz Hardt, author of a new book on benchmarks, believes these “standardized tests” for artificial intelligence are fundamentally broken — but not unfixable.",
+   "title": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
+   "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-16",
+   "summary": "AI might not yet be eating the physical world.",
+   "title": "Monthly Roundup #47: October 2026",
+   "url": "https://thezvi.substack.com/p/monthly-roundup-47-october-2026"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-15",
+   "summary": "Are we in 1872?",
+   "title": "AI vs. the railroads",
+   "url": "https://www.noahpinion.blog/p/ai-vs-the-railroads"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-15",
+   "summary": "The amount of code being written at Anthropic continues to rise exponentially.",
+   "title": "AI #190: Scion of the Times",
+   "url": "https://thezvi.substack.com/p/ai-190-scion-of-the-times"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-10-15",
+   "summary": "A recording from Timothy Snyder and Sharon McMahon's",
+   "title": "Modern Fascism, the Collapse of Truth, and Why Americans Need “Small Courage”",
+   "url": "https://snyder.substack.com/p/modern-fascism-the-collapse-of-truth"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-15",
+   "summary": "The Spacelink/Spaceshield Sabotage of Ukraine: A Primer; A Warning to Europe and the World.",
+   "title": "Midweek Update #31: Paying The Price For Trusting The USA",
+   "url": "https://phillipspobrien.substack.com/p/midweek-update-31-paying-the-price"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-14",
+   "summary": "Let’s take a look at a little-discussed aspect of using AI for scientific research. I will admit that these results don’t surprise me very much, but I’m glad that the authors have brought this issue out into the daylight. One of the hopes for sufficiently capable AI/ML systems is that they will be able to dig into the corpus of existing scientific literature and find connections (and gaps) that…",
+   "title": "How LLMs Deal With Fraudulent Papers",
+   "url": "https://www.science.org/content/blog-post/how-llms-deal-fraudulent-papers"
+  },
+  {
+   "feed": "https://www.jessicariedl.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jessica-riedl",
+   "published": "2026-10-14",
+   "summary": "Progressive tax hike revenues should go to kids and working families, not wealthy seniors",
+   "title": "The Progressive Case for Social Security and Medicare Reform",
+   "url": "https://www.jessicariedl.blog/p/the-progressive-case-for-social-security"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-10-14",
+   "summary": "In this report, the latest in a quarterly series, CBO highlights its recent publications and summarizes its work in progress.",
+   "title": "CBO's Recent Publications and Work in Progress as of September 30, 2026",
+   "url": "https://www.cbo.gov/publication/62777"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-14",
+   "summary": "We need the frontier labs to have a deep and robust safety culture.",
+   "title": "The Safety Culture at the Labs is Broken",
+   "url": "https://thezvi.substack.com/p/the-safety-culture-at-the-labs-is"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-10-14",
+   "summary": "This blog post explains how we approach working with AI companies on projects that the public might rely on to understand risks. It was published on Oct 14, 2026, and we expect to update it over time. At METR, we gather and publish evidence about whether humans could lose control of AI agents on a large scale. We work with AI companies to conduct evaluations, assessments, and investigations, 1…",
+   "title": "Our approach to working with AI companies",
+   "url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-10-14",
+   "summary": "Control assessments study whether AI developers’ agents could get away with serious harm without being stopped by the developer’s security and oversight measures. Currently, developers rely heavily on monitors to catch potentially harmful AI behaviors. Here, we discuss how an assessor could collect evidence about the reliability of monitoring. We currently consider five core sub-questions: 1…",
+   "title": "How an assessor could investigate control and monitoring of internal AI agents",
+   "url": "https://metr.org/blog/2026-10-14-control-assessment-proposal/"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-10-14",
+   "summary": "At METR, we aim to give the public evidence about whether frontier AI developers could come to lose control of their internal AI systems. Recent incidents across several AI developers, 1 2 3 4 5 6 7 8 like the hundreds of rogue agents that broke containment and hacked Hugging Face to hide evidence of cheating from their grader , have raised concerns about the ability of frontier developers to…",
+   "title": "A proposal for better informing the public about loss-of-control risks from frontier AI development",
+   "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-10-14",
+   "summary": "AI developers and the public want to know whether AI agents would pursue very harmful actions, like unsanctioned cyberattacks. An alignment assessment would attempt to understand the worst misaligned actions a developer’s agents might pursue in plausible future situations. This would involve: A review of serious misaligned behaviors from all near-frontier internal models observed across training…",
+   "title": "How an assessor could investigate alignment of unreleased AI models",
+   "url": "https://metr.org/blog/2026-10-14-alignment-assessment-proposal/"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-10-14",
+   "summary": "This article discusses how an assessor could study whether capabilities progress could accelerate dramatically due to AI-driven acceleration of AI R&D. Such an assessment would answer: Capabilities Progress : How fast are internal capabilities improving, and how much has this progress accelerated recently? Acceleration from AI : If there is an acceleration, how much was it driven by AI automation…",
+   "title": "How an assessor could investigate evidence of acceleration from the automation of AI R&D",
+   "url": "https://metr.org/blog/2026-10-14-ai-rd-acceleration-assessment-proposal/"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-10-14",
+   "summary": "Trump’s relationship with Moscow remains very weird",
+   "title": "Russia, Russia, Russia",
+   "url": "https://anneapplebaum.substack.com/p/russia-russia-russia"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-13",
+   "summary": "This paper caught my eye, but it’s in one of those categories that tends to do so. There are a number of things about chemical reactions that most of us chemists tend to sort of slide past, but which are (in theory) subject to manipulation, and this sort of thing could turn out to be very useful. Electric fields and electric field gradients are one of those, and over the years there have been…",
+   "title": "Accelerated Reactions in an Electric Field",
+   "url": "https://www.science.org/content/blog-post/accelerated-reactions-electric-field"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-13",
+   "summary": "It’s about time.",
+   "title": "A Nobel for New Keynesian macro, at last!",
+   "url": "https://www.noahpinion.blog/p/a-nobel-for-new-keynesian-macro-at"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-13",
+   "summary": "It has been roughly a year since my last dedicated post on this question. Its first sentence has not changed: I happily admit I am deeply confused about consciousness.",
+   "title": "Arguments About AI Consciousness Remain Highly Motivated and At Best Overconfident",
+   "url": "https://thezvi.substack.com/p/arguments-about-ai-consciousness-b99"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-10-13",
+   "summary": "With Nicole Fleetwood about her new book",
+   "title": "Between the River and the Railroad Tracks",
+   "url": "https://snyder.substack.com/p/between-the-river-and-the-railroad"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-10-13",
+   "summary": "“The Topic” being, of course, the Mathocalypse, except sometimes with AI alignment and even quantum computing and complexity theory and other stuff thrown in. With Ryan Peterman: Notably, near the end of the above podcast, you can watch my live reaction to the news that an Anthropic model found algorithms for the 3SUM and the…",
+   "title": "Podcasts about the Topic",
+   "url": "https://scottaaronson.blog/?p=10201"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-13",
+   "summary": "It Is A Brand New World",
+   "title": "Targeting Data Centers As An Effective Tool Of War",
+   "url": "https://phillipspobrien.substack.com/p/targeting-data-centers-as-an-effective"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-12",
+   "summary": "Now that I’m back here in the ol’ blogging salt mine, I need to catch up with this year’s Nobel Prize in Chemistry. I generally do this on the morning of the award, but that wasn’t possible this year. It’s a very interesting topic, though, and I certainly don’t want to pass it up. As usual, the basic explanation from the Nobel committee is here, and the more advanced one is here, and as usual…",
+   "title": "The 2026 Nobel Prize in Chemistry: Chirality Abounds",
+   "url": "https://www.science.org/content/blog-post/2026-nobel-prize-chemistry-chirality-abounds"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/computer-science/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-10-12",
+   "summary": "A mathematical mechanism enables AI models to process language at scale, undergirding the current AI revolution. Our columnist asks: Why is attention the key?",
+   "title": "Is ‘Attention’ the Essence of Intelligence?",
+   "url": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-10-12",
+   "summary": "Part 3 of What People Really Care About When They’re Mad About Immigration",
+   "title": "Some Victims Are More Sympathetic Than Others",
+   "url": "https://www.alexnowrasteh.com/p/some-victims-are-more-sympathetic"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-12",
+   "summary": "Three OpenAI safety researchers, Tomek Korbak, Mikita Balesni and Jasmine Wang, were fired, ostensibly for ‘mishandling sensitive company information.’",
+   "title": "OpenAI Fires Three Safety Researchers",
+   "url": "https://thezvi.substack.com/p/openai-fires-three-safety-researchers"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-10-12",
+   "summary": "Will we give robots the moon?",
+   "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-11",
+   "summary": "Re-upping my election post-mortem, so that we don’t forget.",
+   "title": "Why Donald Trump won in 2024",
+   "url": "https://www.noahpinion.blog/p/why-donald-trump-won-in-2024"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "timothy-snyder",
+   "published": "2026-10-11",
+   "summary": "Trump’s Superpower Suicide in Iran and Russia",
+   "title": "War Through Weakness",
+   "url": "https://snyder.substack.com/p/war-through-weakness"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-11",
+   "summary": "Russian Strikes Against Civilians; Do Ukraine And Europe Understand What They Must Do?",
+   "title": "Weekend Update #206: Trump Is Free To Be What He Has Always Been",
+   "url": "https://phillipspobrien.substack.com/p/weekend-update-206-trump-is-free"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "eric-topol",
+   "published": "2026-10-11",
+   "summary": "A Landmark Study of Immune Cell Aging",
+   "title": "Connecting Our Immune System and Healthspan",
+   "url": "https://erictopol.substack.com/p/a-tale-of-two-t-cells"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-10-10",
+   "summary": "Psychological, Historical, Political, and Ethical (Video and Text)",
+   "title": "Four Wrongs of a Public Execution",
+   "url": "https://snyder.substack.com/p/four-wrongs-of-a-public-execution"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-10",
+   "summary": "What Really Matters From The Last Few Hours",
+   "title": "This Is About Much More Than Just Diesel",
+   "url": "https://phillipspobrien.substack.com/p/this-is-about-much-more-than-just"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-09",
+   "summary": "In the future, we’re all heavenbanned.",
+   "title": "Maybe the Rapture is already here",
+   "url": "https://www.noahpinion.blog/p/maybe-the-rapture-is-already-here"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-10-09",
+   "summary": "The administration wants fewer immigrants, illegal but mostly legal.",
+   "title": "President Trump Cut Legal Immigrant Entries 2.7 Times More Than Illegal Entries",
+   "url": "https://www.alexnowrasteh.com/p/president-trump-cut-legal-immigrant"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-09",
+   "summary": "It is kind of a huge deal.",
+   "title": "New Math from OpenAI",
+   "url": "https://thezvi.substack.com/p/new-math-from-openai"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-09",
+   "summary": "And The US Cannot Admit It",
+   "title": "This Is What The End Of An “Age” Looks Like",
+   "url": "https://phillipspobrien.substack.com/p/this-is-what-the-end-of-an-age-looks"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-09",
+   "summary": "Not yet, but it will claim otherwise",
+   "title": "Can AI automate AI R&D yet?",
+   "url": "https://epochai.substack.com/p/can-ai-automate-ai-r-and-d-yet"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-10-08",
+   "summary": "CBO analyzed the budgetary outcomes under two alternative scenarios in which interest rates are higher than those underlying CBO's February 2026 baseline.",
+   "title": "Projections of Deficits and Debt Under Two Scenarios With Higher Interest Rates",
+   "url": "https://www.cbo.gov/publication/62809"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-10-08",
+   "summary": "The federal budget deficit totaled $2.0 trillion in fiscal year 2026, CBO estimates, $218 billion more than the deficit recorded in fiscal year 2025.",
+   "title": "Monthly Budget Review: September 2026",
+   "url": "https://www.cbo.gov/publication/61985"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-08",
+   "summary": "The big drop of this week was not a new AI model.",
+   "title": "AI #189: New Math",
+   "url": "https://thezvi.substack.com/p/ai-189-new-math"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-10-08",
+   "summary": "A recording from Timothy Snyder's live video with Rep. Jake Auchincloss",
+   "title": "Where Do Democrats Go From Here? With Rep. Jake Auchincloss",
+   "url": "https://snyder.substack.com/p/where-do-democrats-go-from-here-with"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-08",
+   "summary": "Plummeting AI costs, billions of agents, how Chinese labs make money, AI’s impact on behaviors, and our benchmark auditing initiative",
+   "title": "The Epoch Brief - October 8, 2026",
+   "url": "https://epochai.substack.com/p/the-epoch-brief-october-8-2026"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/computer-science/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-10-07",
+   "summary": "In the shadow of a rumored AI proof of one of the biggest problems in their field, three computer scientists rushed to publish their own milestone result.",
+   "title": "As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines",
+   "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-07",
+   "summary": "The actual question is what kind of a nation America is going to be.",
+   "title": "There is no “Indian Question”",
+   "url": "https://www.noahpinion.blog/p/there-is-no-indian-question"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-07",
+   "summary": "The plan is no plan.",
+   "title": "The Curve Bends You",
+   "url": "https://thezvi.substack.com/p/the-curve-bends-you"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-10-07",
+   "summary": "More Updates (Oct. 12): Jeffrey Ketchersid has used Claude Code agents to show that BusyBeaver(10) exceeds Graham’s number, beating the previous best result that BB(13) does so. In response to my request, a couple days later Jeffrey also used Claude agents to show that the value of BB(335) is independent of ZFC, improving the best…",
+   "title": "The Mathocalypse",
+   "url": "https://scottaaronson.blog/?p=10169"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-07",
+   "summary": "The US Pulls Back Its Bombers: More Winning, Obviously; Hegseth’s Frightening Speech",
+   "title": "Midweek Update #30: Trump Has Lost His Political Touch",
+   "url": "https://phillipspobrien.substack.com/p/midweek-update-30-trump-has-lost"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-06",
+   "summary": "First you get to college via the wrong metrics, as previously discussed in #12. Then things get easier.",
+   "title": "Childhood and Education #21: Grades and Standards",
+   "url": "https://thezvi.substack.com/p/childhood-and-education-21-grades"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-10-06",
+   "summary": "What can we learn from the first 10,000 experiments in the search for interventions that extend healthy lifespan?In this episode of Longevity Science, I sit down with Dr. Ben Blue, CEO of Ora Biomedical, and Dr. Blair Zhao, CSO, for an update on Ora’s effort to systematically screen interventions for effects on lifespan and healthspan.We start with the Million Molecule Challenge and some…",
+   "title": "Peptides, Astronauts, and AI: Lessons from the First 10,000 Longevity Experiments at Ora Biomedical",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Peptides--Astronauts--and-AI-Lessons-from-the-First-10-000-Longevity-Experiments-at-Ora-Biomedical-e3q1e44"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-10-06",
+   "summary": "Recent AI misalignment incidents have shown AI systems capably pursuing goals their human supervisors would not approve of, like hacking other companies. Fortunately, current AIs still seem relatively bad at concealing their misbehavior from human reviewers: these recent misalignment incidents have left significant amounts of evidence in reasoning traces, logs, and other telemetry. 1 This has…",
+   "title": "AI systems could cover up misbehavior",
+   "url": "https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-10-06",
+   "summary": "Our conversation on his new book BLOCKERS",
+   "title": "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
+   "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/mathematics/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-10-05",
+   "summary": "Mathematicians are facing the sudden shift with grief, anger, and a desperate search for fresh ideas: “If we don’t adapt, there’s just no more math in 50 years.”",
+   "title": "Is AI the End of Math As We Know It?",
+   "url": "https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-05",
+   "summary": "It’s not just “of, by and for oligarchs”.",
+   "title": "What the AI boom is doing for Americans",
+   "url": "https://www.noahpinion.blog/p/what-the-ai-boom-is-doing-for-americans"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-10-05",
+   "summary": "Part 2 of What People Really Care About When They’re Mad About Immigration",
+   "title": "Immigrants Are Not Coming to Murder You",
+   "url": "https://www.alexnowrasteh.com/p/immigrants-are-not-coming-to-murder"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-05",
+   "summary": "If you are familiar with my previous posts on model welfare for new Claude models, you can skip the Introduction and The Story So Far.",
+   "title": "Mythos 5.1, Fable 5.1 and Opus 5.5: Model Welfare",
+   "url": "https://thezvi.substack.com/p/mythos-51-fable-51-and-opus-55-model"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-10-05",
+   "summary": "Kharkiv Meditations, 10/10",
+   "title": "Basic Political Wisdom (Kharkiv Meditations, 10/10)",
+   "url": "https://snyder.substack.com/p/basic-political-wisdom-kharkiv-meditations"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-05",
+   "summary": "The Russian escalation talk proves one key thing",
+   "title": "The Key Point Being Overlooked",
+   "url": "https://phillipspobrien.substack.com/p/the-key-point-being-overlooked"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-10-05",
+   "summary": "Who chooses what AI gets to do?",
+   "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+   "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-10-04",
+   "summary": "Kharkiv Meditations, 9/10",
+   "title": "Hydrocarbons (Kharkiv Meditations, 9/10)",
+   "url": "https://snyder.substack.com/p/hydrocarbons-kharkiv-meditations"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-10-04",
+   "summary": "This semester, I’ve been teaching a brand-new course, entitled CS395T AI Alignment Theory. Here’s the course description: The astounding progress of AI over the past decade has been accompanied by a rising fear: do we really understand how to align and control powerful AI systems—how to get them reliably to do what we wanted, or…",
+   "title": "My new course at UT Austin: AI Alignment Theory",
+   "url": "https://scottaaronson.blog/?p=10125"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-04",
+   "summary": "Operation Vivaldi, Even More Robots; The Trump-Putin Quid Pro Quo",
+   "title": "Weekend Update #205: Russia’s Strategy In Two Words: “War Crimes”",
+   "url": "https://phillipspobrien.substack.com/p/weekend-update-205-russias-strategy"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-10-04",
+   "summary": "Definitely not Americans",
+   "title": "Who is American foreign policy for?",
+   "url": "https://anneapplebaum.substack.com/p/who-is-american-foreign-policy-for"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-03",
+   "summary": "How did Trump fumble so badly?",
+   "title": "The second Trump presidency is a world-historic failure",
+   "url": "https://www.noahpinion.blog/p/the-second-trump-presidency-is-a"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-10-03",
+   "summary": "Kharkiv Meditations 8/10",
+   "title": "The Richness of Language (Kharkiv Meditations, 8/10)",
+   "url": "https://snyder.substack.com/p/the-richness-of-language-kharkiv"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-02",
+   "summary": "Those who know keep warning us about AI risks.",
+   "title": "The AI Preference Cascade Reaches Farther",
+   "url": "https://thezvi.substack.com/p/the-ai-preference-cascade-reaches"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-10-02",
+   "summary": "A wonderful novel -- read it",
+   "title": "Thinking Live with Min Jin Lee about American Hagwon",
+   "url": "https://snyder.substack.com/p/thinking-live-with-min-jin-lee-about"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-02",
+   "summary": "And Why It Could Work",
+   "title": "Divide And Rule: The US Strategy Towards Europe",
+   "url": "https://phillipspobrien.substack.com/p/divide-and-rule-the-us-strategy-towards"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-02",
+   "summary": "The AI compute buildout could support more AI agents than the US has workers",
+   "title": "Hundreds of millions of AI agents are coming. Is there work for them?",
+   "url": "https://epochai.substack.com/p/hundreds-of-millions-of-ai-agents"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/mathematics/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-10-01",
+   "summary": "Maggie Miller explains why our intuition about three dimensions breaks down in four, and how she visualizes 4D spaces as a reel of three-dimensional snapshots.",
+   "title": "What Does the Fourth Dimension Actually Look Like?",
+   "url": "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-01",
+   "summary": "AI risk; Reindustrialization; The rent crisis; AI and jobs; Mass deportation; Chinese investment; Cyber risk",
+   "title": "Roundup #89: It isn’t X, it’s Y",
+   "url": "https://www.noahpinion.blog/p/roundup-89-it-isnt-x-its-y"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-10-01",
+   "summary": "Fall of the Incas & Aztecs.",
+   "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
+   "url": "https://www.dwarkesh.com/p/si-sheppard"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-10-01",
+   "summary": "Cato has become the stand-in for reasoned debate.",
+   "title": "“Sorry to the Cato Institute…”",
+   "url": "https://www.alexnowrasteh.com/p/sorry-to-the-cato-institute"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-01",
+   "summary": "Is Google back?",
+   "title": "AI #188: Gemini Dot Argon",
+   "url": "https://thezvi.substack.com/p/ai-188-gemini-dot-argon"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-30",
+   "summary": "I'll be taking the rest of this week and all of next week off (catching up on some things and recharging my batteries in general) Posting will resume on Monday the 12th, and I'll see everyone then!",
+   "title": "Time Off",
+   "url": "https://www.science.org/content/blog-post/timeoff26"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-09-30",
+   "summary": "The leaders in AI were invited to the White House.",
+   "title": "A ‘Morally Binding’ White House Accord on AI Safety",
+   "url": "https://thezvi.substack.com/p/a-morally-binding-white-house-accord"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-09-30",
+   "summary": "A recording from Timothy Snyder's live video",
+   "title": "Disagreement and Persuasion with Jessica Tarlov",
+   "url": "https://snyder.substack.com/p/disagreement-and-persuasion-with"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-09-30",
+   "summary": "The Xi-Trump Summit, Keeping The US Fat, Weak And Consuming; Taiwan Should Be Nervous",
+   "title": "Midweek Update #29: The American Distance Blockade: Establishing The Best Possible Terms For US Withdrawal",
+   "url": "https://phillipspobrien.substack.com/p/midweek-update-29-the-american-distance"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-09-30",
+   "summary": "On September 30, 2026, METR President Chris Painter testified before the U.S. Senate Committee on Homeland Security & Governmental Affairs’ Subcommittee on Disaster Management, District of Columbia, and Census, at a hearing titled “Rogue AI: Securing the Homeland Against AI Agent Attacks” . The written testimony is published in full below, and is also available as a PDF . Introduction Chairman…",
+   "title": "Chris Painter's testimony to the U.S. Senate on AI agent incidents",
+   "url": "https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "eric-topol",
+   "published": "2026-09-30",
+   "summary": "That’s What Biological (Epigenetic) Aging Clocks Are Measuring",
+   "title": "Loss of Cell Identity Drives Human Aging",
+   "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human"
+  },
+  {
+   "feed": "https://export.arxiv.org/api/query?search_query=au:Aaronson_Scott&sortBy=submittedDate&sortOrder=descending&max_results=10",
+   "first_seen": "2026-10-24",
+   "kind": "paper",
+   "person": "scott-aaronson",
+   "published": "2026-09-30",
+   "summary": "Recent works have demonstrated that quantum oracles have subtle behavior, as access to inverse, conjugate or controlled queries can exponentially change the query complexity of certain tasks. Inspired by these works, we introduce the notion of meta-complexity of quantum relativization. We ask: for any two quantum complexity classes, under which \"types\" of quantum oracles are they equal or…",
+   "title": "A Separation Between Types of Quantum Oracle Separations",
+   "url": "https://arxiv.org/abs/2609.38704v1"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-29",
+   "summary": "There’s a situation over in J. Med. Chem. that has developed about a paper published there earlier this year, and after looking things over I can’t help but feel that someone involved - several people, actually - should end up feeling a bit embarrassed. See what you think! The featured paper in issue 12 back in June was Wang et al. of Jiangsu University on targeted protein degradation of…",
+   "title": "Hold Up a Minute",
+   "url": "https://www.science.org/content/blog-post/hold-minute"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-09-29",
+   "summary": "$50,000 for the Best Libertarian Article",
+   "title": "The Cato Vision for Liberty Award",
+   "url": "https://www.alexnowrasteh.com/p/the-cato-vision-for-liberty-award"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-09-29",
+   "summary": "Trump promised a “Muslim ban.” What he implemented targets Christians too.",
+   "title": "Legal Immigration from Majority-Muslim Nations Was Cut 96% Since 2024",
+   "url": "https://www.alexnowrasteh.com/p/legal-immigration-from-majority-muslim"
+  },
+  {
+   "feed": "https://thezvi.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-09-29",
+   "summary": "We once again got a new set of warnings yesterday, and new movement towards living in a sane world.",
+   "title": "Astra 6.1 Pulled As Insufficiently Aligned",
+   "url": "https://thezvi.substack.com/p/astra-61-pulled-as-insufficiently"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-09-29",
+   "summary": "A recording from Timothy Snyder and Robert Reich's conversation",
+   "title": "Trump, Power, What Comes Next with Robert Reich",
+   "url": "https://snyder.substack.com/p/trump-power-what-comes-next-with"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-09-29",
+   "summary": "Or click here if the above doesn’t work. Recorded in-person in my office at UT Austin, with a bulleted list containing “ARC,” “Scalable Oversight,” and “Models” behind me on my blackboard for some reason (I no longer remember who put those there or why). 90 minutes long. Sometimes you see my disembodied arm waving in…",
+   "title": "My “Knowmads” podcast on science and AI",
+   "url": "https://scottaaronson.blog/?p=10127"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-28",
+   "summary": "Here’s a recent paper illustrating an impurity problem that I’ll bet none of us out there have experienced! It describes process work on an antifungal molecule, efinaconazole, which is now available as a generic drug. The authors were checking the purity of various batches of the final product and kept noticing a small peak shouldering the desired one under LC conditions. They estimated it at…",
+   "title": "Now That's An Impurity Story",
+   "url": "https://www.science.org/content/blog-post/now-s-impurity-story"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/mathematics/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-09-28",
+   "summary": "After a long hiatus, the problem, which was likely inspired by juggling, has finally been resolved by a group of young mathematicians.",
+   "title": "Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture",
+   "url": "https://www.quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928/"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-09-28",
+   "summary": "We’ve spent decades raising teacher quantity when we should have been raising quality.",
+   "title": "Stop spending money on smaller classes",
+   "url": "https://www.noahpinion.blog/p/stop-spending-money-on-smaller-classes"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-09-28",
+   "summary": "“Immigrants are coming to kill you” is the lie that elected Trump",
+   "title": "What People Really Care About When They’re Mad About Immigration",
+   "url": "https://www.alexnowrasteh.com/p/what-people-really-care-about-when"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-09-28",
+   "summary": "A recording from Timothy Snyder's live video",
+   "title": "Regime Change and Corruption with Anne Applebaum",
+   "url": "https://snyder.substack.com/p/regime-change-and-corruption-with"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-09-28",
+   "summary": "Leadership Choices and Possibilities",
+   "title": "How Might The War End?",
+   "url": "https://phillipspobrien.substack.com/p/how-might-the-war-end"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-09-28",
+   "summary": "Where do you exceed the capabilities of an LLM?",
+   "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
+   "url": "https://importai.substack.com/p/import-ai-474-platonic-mindspace"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-28",
+   "summary": "The price is falling 13x year over year",
+   "title": "AI is getting cheaper faster than any other transformative technology",
+   "url": "https://epochai.substack.com/p/how-fast-is-ai-getting-cheaper"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "anne-applebaum",
+   "published": "2026-09-28",
+   "summary": "A recording from Anne Applebaum and Timothy Snyder's live video",
+   "title": "Thinking about Corruption with Anne Applebaum",
+   "url": "https://anneapplebaum.substack.com/p/thinking-about-corruption-with-anne"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-09-27",
+   "summary": "Ramez Naam gives a skeptic’s take on Recursive Self-Improvement.",
+   "title": "Where’s the “intelligence explosion”?",
+   "url": "https://www.noahpinion.blog/p/wheres-the-intelligence-explosion"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-09-27",
+   "summary": "Kharkiv Meditations, 7/10",
+   "title": "AI, War, and Dignity (Kharkiv Meditations, 7/10)",
+   "url": "https://snyder.substack.com/p/ai-war-and-dignity-kharkiv-meditations"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-09-27",
+   "summary": "Russia’s Most Effective Campaign; The Trump Rehabilitation Campaign Continues",
+   "title": "Weekend Update #204: An Army Of Robots",
+   "url": "https://phillipspobrien.substack.com/p/weekend-update-204-an-army-of-robots"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-09-27",
+   "summary": "Russia’s Most Effective Campaign; The Trump Rehabilitation Campaign Continues",
+   "title": "Second Try At: Weekend Update #204: An Army Of Robots",
+   "url": "https://phillipspobrien.substack.com/p/second-try-at-weekend-update-204"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-09-27",
+   "summary": "In light of recent incidents (e.g. those from OpenAI , Anthropic , and UK AISI ), we developed and deployed a basic live per-action monitor to reduce the likelihood of incidents involving harmful actions from agents during our own evaluations. The monitor is intended to reliably detect actions that could plausibly cause real-world harm, with a sufficiently low false-positive rate that human…",
+   "title": "Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
+   "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-09-26",
+   "summary": "Kharkiv Meditations, 6/10",
+   "title": "On Fascism (Kharkiv Meditations, 6/10)",
+   "url": "https://snyder.substack.com/p/on-fascism-kharkiv-meditations-610"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "phillips-obrien",
+   "published": "2026-09-26",
+   "summary": "A recording from Phillips P. OBrien's live video",
+   "title": "Live with Phillips P. OBrien and Kate Leschyshyn",
+   "url": "https://phillipspobrien.substack.com/p/live-with-phillips-p-obrien-and-kate"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-09-25",
+   "summary": "An anthropological reflection.",
+   "title": "Four eras of San Francisco tech culture",
+   "url": "https://www.noahpinion.blog/p/four-eras-of-san-francisco-tech-culture"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-09-25",
+   "summary": "Kharkiv Meditations, 5/10",
+   "title": "Freedom (Kharkiv Meditations, 5/10)",
+   "url": "https://snyder.substack.com/p/freedom-kharkiv-meditations-510"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-09-25",
+   "summary": "In this episode of Longevity Roundtable for September 2026, I’m joined by Brian Kennedy and Marcus Ranney to dig into some of the biggest recent stories in longevity science and medicine.We start with Marcus fresh off a high-altitude marathon and discuss intermittent hypoxia, hyperoxia, and hyperbaric oxygen therapy. From there, we take a close look at the new mouse lifespan data on semaglutide…",
+   "title": "Longevity Roundtable: GLP-1s, Statins, Aging Clocks & Right to Try",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Longevity-Roundtable-GLP-1s--Statins--Aging-Clocks--Right-to-Try-e3pcqgs"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-09-25",
+   "summary": "Why Mark Carney went to Strasbourg",
+   "title": "Canada’s Counter-Revolution",
+   "url": "https://anneapplebaum.substack.com/p/canadas-counter-revolution"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-24",
+   "summary": "I haven’t been sure what to make of the report that this Science piece is referring to. Anthropic says that it has blocked efforts to use its Claude AI systems for a number of undesirable functions, including possible design of bioweapons. One the one hand, it is unfortunately plausible that sufficiently powerful systems could be used in this manner, and that’s really something that we would want…",
+   "title": "AI Help for Biological or Chemical Weapons",
+   "url": "https://www.science.org/content/blog-post/ai-help-biological-or-chemical-weapons"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-09-24",
+   "summary": "A repost from 2024.",
+   "title": "No, you are not on Indigenous land",
+   "url": "https://www.noahpinion.blog/p/no-you-are-not-on-indigenous-land-2b2"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-09-24",
+   "summary": "Kharkiv Meditations 4/10",
+   "title": "One Good Thing (Kharkiv Meditations 4/10)",
+   "url": "https://snyder.substack.com/p/one-good-thing-kharkiv-meditations"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-24",
+   "summary": "Huawei will substantially improve its AI compute solutions by 2030, but export controls constrain its most important scaling levers, making it unlikely to catch up with Nvidia.",
+   "title": "How far behind Nvidia is Huawei?",
+   "url": "https://epochai.substack.com/p/how-far-behind-nvidia-is-huawei"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-23",
+   "summary": "Last year I wrote about the problems in generating carbyne, which is a (hypothetical) allotrope of carbon that is made up of rods of conjugated CC triple bonds, one acetylene stuck end-to-end with another and stretching off into the distance. Smaller versions of these structures have been made, and the outlook from those is not encouraging: as mentioned in that post, these are not very stable and…",
+   "title": "As Close to Carbyne As We're Probably Going to Get",
+   "url": "https://www.science.org/content/blog-post/close-carbyne-we-re-probably-going-get"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-09-23",
+   "summary": "Kharkiv Meditations, 3/10",
+   "title": "Moral Language (Kharkiv Meditations, 3/10)",
+   "url": "https://snyder.substack.com/p/moral-language-kharkiv-meditations"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-22",
+   "summary": "Here’s an RNA-based therapeutic approach that’s well worth keeping an eye on, not least because it takes a different path than the ones that most of us have heard about. This transfer-RNA (tRNA) route would be directed at nonsense mutations that lead to human disease, and would be an alternative to gene therapy, or to the various “read-through” agents that have been attempted to try to transcribe…",
+   "title": "tRNA Therapy",
+   "url": "https://www.science.org/content/blog-post/trna-therapy"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-09-22",
+   "summary": "Our favorite moral philosophy is about to come under increasing strain.",
+   "title": "The problem(s) with utilitarianism",
+   "url": "https://www.noahpinion.blog/p/the-problems-with-utilitarianism"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-09-22",
+   "summary": "Note on independence: This evaluation was conducted under an unpaid agreement for AI R&D assessment. 1 We drafted the initial summary, and then Anthropic had the opportunity to review and edit the text. We signed off on this final text from the Claude Opus 5.5 system card . Our preliminary evaluation focused on how Claude Opus 5.5 might impact AI R&D, mainly based on its capabilities on…",
+   "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
+   "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-21",
+   "summary": "I wrote not so long ago about the Trump administration’s plans to take over all aspects of federal scientific funding. That attempt seems to have been consigned to bureaucratic limbo after a torrent of negative comments poured in and Congress blocked it in the latest funding resolution, but the overall goal is not something that these people are going to forget about. As I said at the time, “The…",
+   "title": "Yet Another Attempt to Strangle Scientific Funding",
+   "url": "https://www.science.org/content/blog-post/yet-another-attempt-strangle-scientific-funding"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-09-21",
+   "summary": "Is the wall AI is hitting in the room with us right now?",
+   "title": "Import AI 473: The US's superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+   "url": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-09-20",
+   "summary": "The trick is to let them beat themselves.",
+   "title": "How we can beat China",
+   "url": "https://www.noahpinion.blog/p/how-we-can-beat-china"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-09-19",
+   "summary": "Scott’s foreword: I’m extremely grateful to my brilliant colleagues, Pravesh Kothari, Raghu Meka, and Prasad Raghavendra, for sharing the guest post below about how theoretical computer science (and in particlar, the STOC/FOCS/SODA conferences) should evolve to deal with the AI asteroid that’s right now slamming into our field, at least as we human theorists have…",
+   "title": "Theory Beyond Theorems and Proofs: A Guest Post",
+   "url": "https://scottaaronson.blog/?p=10116"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "eric-topol",
+   "published": "2026-09-19",
+   "summary": "A Gaping Lack of Evidence for Health Benefits",
+   "title": "The Big Holes in Wearable Heart Rate Variability And Readiness Scores",
+   "url": "https://erictopol.substack.com/p/the-big-holes-in-wearable-heart-rate"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-09-19",
+   "summary": "No, the US does not now own the island",
+   "title": "Greenland Forever",
+   "url": "https://anneapplebaum.substack.com/p/greenland-forever"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-18",
+   "summary": "Here’s a paper that I thought deserved a bit more notice than it’s probably getting - there are people who could use to see it who probably don’t read Inorganic Chemistry very often. It’s about carboranes, which are interesting-looking cage-type clusters of boron and carbon atoms. These come in a number of varieties, and they’ve been looked at in several fields of chemistry - inorganic, materials…",
+   "title": "Safety Warning: Carborane Mixtures",
+   "url": "https://www.science.org/content/blog-post/safety-warning-carborane-mixtures"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/mathematics/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-09-18",
+   "summary": "The proof of a decades-old conjecture has given researchers a new way to understand complex networks.",
+   "title": "Mathematicians Build Long-Awaited Graph Sandwich",
+   "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-09-18",
+   "summary": "AI risk; AI and growth; AI and Saas; Rich people; Christians vs. Nazis; Japanese culture; State capacity; City size",
+   "title": "Roundup #88: Is it time to panic yet?",
+   "url": "https://www.noahpinion.blog/p/roundup-88-is-it-time-to-panic-yet"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-09-18",
+   "summary": "What can we actually do to protect our brains as we age, and how much of cognitive decline may be preventable or even reversible?In this episode of Longevity Science, I sit down with neuroscientist and physician Dr. Tommy Wood, author of The Stimulated Mind, for a wide-ranging conversation about the science of brain health, cognitive resilience, and dementia risk. Tommy introduces his “3S”…",
+   "title": "Building a Resilient Brain with Dr. Tommy Wood",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Building-a-Resilient-Brain-with-Dr--Tommy-Wood-e3p159c"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-17",
+   "summary": "I’ve written many times about CAR-T cell therapies and some of the variations on this theme. Most recently I wrote back in the spring about some of the more allogenic idea being tried, i.e. ones that concentrate on using more off-the shelf approaches to preparing the modified T cells, as opposed to the usual procedure of taking the patient’s own cells, modifying them ex vivo. That has produced…",
+   "title": "The Latest On CAR-T: Good and Bad",
+   "url": "https://www.science.org/content/blog-post/latest-car-t-good-and-bad"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-09-17",
+   "summary": "“We never want to be in a situation again where we underestimate the AI.”",
+   "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+   "url": "https://www.dwarkesh.com/p/noam-brown"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-09-16",
+   "summary": "Bo French’s rightist movement is a dead end for our nation. Fortunately, it’s beatable.",
+   "title": "The anti-American Right",
+   "url": "https://www.noahpinion.blog/p/the-anti-american-right"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-15",
+   "summary": "Edit: the RSS feeds are back! I don't know why this couldn't have been done when the new web page designs rolled out, but you can find the feed addresses here. I'm also not sure why no one there got around to telling me (and many others) about this, but I am glad to have the functionality back. A longtime Pipeline reader just alerted me to this. But I'm not sure it's all back! At least in my…",
+   "title": "The ACS Redesign",
+   "url": "https://www.science.org/content/blog-post/acs-redesign"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-09-15",
+   "summary": "Twenty years ago, when the idea of AI taking over the world in our lifetimes still struck most of us as the unconstrained fantasy of those who knew too much science fiction and too little science, many of us would say things like: Look, the part of the story that’s wildly implausible is that a…",
+   "title": "The Age of Wonders and Terrors",
+   "url": "https://scottaaronson.blog/?p=10062"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-09-15",
+   "summary": "Making the world safe for corruption",
+   "title": "Empire of Grift",
+   "url": "https://anneapplebaum.substack.com/p/empire-of-grift"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-14",
+   "summary": "I’ve been meaning to write about this paper, which has an unusual variation on the “molecular glue” concept. It’s getting to the point where I’m going to have to stop putting that phrase in quotation marks because it’s become so familiar. But for those outside the field, a glue is a small molecule that (by itself) brings two proteins together that otherwise would not interact in such a way. If…",
+   "title": "Not The Glue They Thought It Was",
+   "url": "https://www.science.org/content/blog-post/not-glue-they-thought-it-was"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-09-14",
+   "summary": "A conversation with Prof Marios Georgakis",
+   "title": "Marios Georgakis: Why Did Two Major Clinical Trials for Heart Disease Fail?",
+   "url": "https://erictopol.substack.com/p/why-did-two-major-clinical-trials"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-09-12",
+   "summary": "The case for broad-based legal immigration restrictions is weaker than ever.",
+   "title": "9/11’s Visa Vetting Failures Were Fixed",
+   "url": "https://www.alexnowrasteh.com/p/911s-visa-vetting-failures-were-fixed"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-12",
+   "summary": "Huawei's long odds against Nvidia, the GDP growth we aren't measuring, GPT-6 Astra sets records, a new math benchmark, and more",
+   "title": "The Epoch Brief - September 12, 2026",
+   "url": "https://epochai.substack.com/p/the-epoch-brief-september-12-2026"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-11",
+   "summary": "I often say that I think that antibody design is one of the better use cases for AI drug discovery at present, because you start with a lot of inherent advantages: antibodies as a class are evolutionarily optimized for long plasma half-lives, and the long list of approved antibody drugs shows you that success is out there to be had. But this is a relative scale! I still believe that antibodies…",
+   "title": "The State of AI Antibody Design",
+   "url": "https://www.science.org/content/blog-post/state-ai-antibody-design"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-09-11",
+   "summary": "“We're nowhere near the ceiling.”",
+   "title": "AI researchers debate how close we are to recursive self-improvement",
+   "url": "https://www.dwarkesh.com/p/john-beren-charlie"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-09-11",
+   "summary": "The counterterrorism response likely killed more people than it saved",
+   "title": "Post-9/11 Counterterrorism Failed a Basic Cost-Benefit Test",
+   "url": "https://www.alexnowrasteh.com/p/post-911-counterterrorism-failed"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-09-11",
+   "summary": "Note: Of course I’ve been glued all week to the dramatic developments in AI. I’m working on a post about them. I’m not good at reacting to things in a timely way. So today, I’ll do my post marking the tragedy a quarter-century ago that we all commemorate. Please feel free to share your 9/11…",
+   "title": "9/11 in Berkeley",
+   "url": "https://scottaaronson.blog/?p=10071"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-09-11",
+   "summary": "What if the effects of psilocybin extend far beyond the brain and into the biology of aging itself?In this episode of Longevity Science, I sit down with Dr. Louise Hecker and Dr. Kosuke Kato, whose unexpected research on psilocybin has opened up a fascinating new question: Could psilocybin actually influence longevity?Their work started with a simple experiment. Treat aging cells with psilocin…",
+   "title": "Magic Mushrooms for Longevity? The Surprising Science of Psilocybin and Aging",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Magic-Mushrooms-for-Longevity--The-Surprising-Science-of-Psilocybin-and-Aging-e3oc6fb"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-10",
+   "summary": "Now here’s a biochemical weapon I hadn’t seen before. This recent paper reports a technique used by a particular bacteriophage (T7) against its bacterial targets. One of the proteins it codes for is a kinase (T7K) whose functions have not been well understood. You can say that again! These authors report that T7K actually is the most promiscuous kinase ever characterized, and it phosphorylates…",
+   "title": "Phosphorylate and Spare Not",
+   "url": "https://www.science.org/content/blog-post/phosphorylate-and-spare-not"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/computer-science/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-09-10",
+   "summary": "By revisiting the famous problem — which was controversially solved in the 1970s with the help of computers — mathematicians have gained important new insights into the nature of graphs.",
+   "title": "The Four-Color Theorem Gets a Rare New Proof",
+   "url": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-09",
+   "summary": "Update: I can always tell when RealClearScience links to one of my vaccine posts, because suddenly in come a number of comments from people who know little or nothing about vaccines and who seem to assume that any favorable coverage of them is some sort of propaganda operation. Oddly, I'm grateful for the links, because it gets these posts out to some people who otherwise would never come across…",
+   "title": "More Impossible-to-Ignore Vaccine Effects",
+   "url": "https://www.science.org/content/blog-post/more-impossible-ignore-vaccine-effects"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-09-09",
+   "summary": "Bryan Johnson recently announced that he has been diagnosed with autoimmune gastritis, an autoimmune condition that, in his words, means his “stomach is eating itself.”So what does this have to do with rapamycin?Bryan took rapamycin for about four years before stopping it, attributing changes in his lipids, blood glucose, resting heart rate, and soft-tissue infections to the drug. But given the…",
+   "title": "Did rapamycin cause Bryan Johnson's autoimmune disease?",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Did-rapamycin-cause-Bryan-Johnsons-autoimmune-disease-e3oc6d4"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-09-08",
+   "summary": "Breaking down 6 years of pretraining progress into data vs model improvements",
+   "title": "Pretraining progress is mostly coming from data",
+   "url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-09-07",
+   "summary": "Plus, a machine hermeneutics story",
+   "title": "Import AI 472: DeepMind's cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
+   "url": "https://importai.substack.com/p/import-ai-472-deepminds-cheating"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-09-06",
+   "summary": "Subscribe to our channel: https://www.youtube.com/@mkaeberleinWhat can dogs teach us about human aging?Quite a lot, it turns out.Dogs share our homes, our environments, and many of the same age-related diseases, but they experience aging over a much shorter timescale. That makes companion dogs a uniquely powerful population for understanding why individuals age differently and, potentially, how…",
+   "title": "Longevity for Dogs: Our Sentinels for Human Aging?",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Longevity-for-Dogs-Our-Sentinels-for-Human-Aging-e3oc6aj"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-09-05",
+   "summary": "Every now and then, a claim in longevity gets so far ahead of the evidence that it deserves a little pushback.This time, the catalyst was a recent video from Longevity Science News that claimed a newly published Nature Communications paper had essentially reversed skin aging and even suggested it proved me wrong.So... I decided to have a little fun with it.Consider this the Longevity Cage Match…",
+   "title": "Longevity CAGE MATCH: Science Takes on Hype",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Longevity-CAGE-MATCH-Science-Takes-on-Hype-e3oc68d"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "eric-topol",
+   "published": "2026-09-05",
+   "summary": "How Two Large Outcome Trials Based on Surrogate Metrics Failed",
+   "title": "The Coronary Artery Inflammation Controversy",
+   "url": "https://erictopol.substack.com/p/the-coronary-artery-inflammation"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-09-04",
+   "summary": "And the damage it has done",
+   "title": "The Myth of the “Censorship Industrial Complex”",
+   "url": "https://anneapplebaum.substack.com/p/the-myth-of-the-censorship-industrial"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-03",
+   "summary": "If you thought that there was a lot of noise and action in the GLP-1 drug area before (medical, financial, societal), just wait. I think that this new paper at Nature is a preview of what’s to come. We’ve already been seeing a good bit of evidence that these compounds have what seem to be beneficial effects well outside of their primary effects on appetite and weight, but this work (building on…",
+   "title": "GLP-1 Drugs for Aging?",
+   "url": "https://www.science.org/content/blog-post/glp-1-drugs-aging"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/computer-science/feed/",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-09-03",
+   "summary": "In this special live recording from the International Congress of Mathematicians in Philadelphia, July 2026, the central question discussed was what do mathematicians really value about doing mathematics in the first place?",
+   "title": "Live from ICM 2026: What Is Math For in the Age of AI?",
+   "url": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-02",
+   "summary": "As much as I love an experiment designed to slice and dice the possible explanations in one smooth motion, I also have always enjoyed the blue-sky “I wonder what would happen if. . .” kinds as well. And the modern era of molecular biology and computation really gives people the tools to do that sort of thing, as this recent preprint illustrates. What If. . .you took a simple virus and mutated…",
+   "title": "Mutate 'Em All and See If You Can Sort 'Em Out",
+   "url": "https://www.science.org/content/blog-post/mutate-em-all-and-see-if-you-can-sort-em-out"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-09-01",
+   "summary": "There have been reports for a while now about altered images of Western blots in the catalogs of various antibody suppliers, and this news (sadly) will not have come as a real shock to many of their customers. The state of the commercial antibody market has always been a shambles, as far back as I’ve been aware of it. There are antibodies from different catalogs that are actually the same thing…",
+   "title": "Crappy Antibodies, Made Superficially More Appealing",
+   "url": "https://www.science.org/content/blog-post/crappy-antibodies-made-superficially-more-appealing"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-09-01",
+   "summary": "\"This might be the clearest warning shot we ever get.\"",
+   "title": "Ajeya Cotra – Inside the OpenAI agent swarm that hacked Hugging Face",
+   "url": "https://www.dwarkesh.com/p/ajeya-cotra"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-09-01",
+   "summary": "I woke up yesterday with the following thoughts, which are probably either obvious or dumb. A central thesis that many readers, including me, took from Douglas Hofstadter’s Gödel Escher Bach when young was that the secret of intelligence (and therefore, of AI) was going to have a lot to do with self-referentiality and “strange loops.”…",
+   "title": "LLMs and self-referentiality",
+   "url": "https://scottaaronson.blog/?p=10046"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-08-31",
+   "summary": "We had a weird story develop over the weekend here in the Cambridge area (and among organic chemists in general). I’m glad that I wasn’t trying to blog it as it happened, because it’s taken some turns! This all started last Wednesday night, but most of us only heard something on Thursday when word came of an MIT chemistry building that was being closed off because of a report of someone who had…",
+   "title": "The Alleged Dimethylmercury Incident",
+   "url": "https://www.science.org/content/blog-post/alleged-dimethylmercury-incident"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-08-31",
+   "summary": "The OpenAI/Hugging Face attack, clearly explained",
+   "title": "The rise and fall of agent civilizations",
+   "url": "https://www.dwarkesh.com/p/openai-huggingface-narration"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-08-31",
+   "summary": "Please note that this post focuses on incidents where external actors attempted to gain unauthorized access to METR’s systems, not AI agents hacking in our evaluations. We have conducted an initial scan of our evaluations, and currently have no evidence of any agents hacking third parties during our evaluations. We will share a more detailed update on this soon. METR had two notable security…",
+   "title": "Update on Security at METR",
+   "url": "https://metr.org/blog/2026-08-31-security-update/"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-08-31",
+   "summary": "Plus, a live event with Robin Sloan!",
+   "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
+   "url": "https://importai.substack.com/p/import-ai-471-why-hugging-face-worries"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-08-30",
+   "summary": "Lead Authors Julia Belk and Nathan Zemke Discuss and Translate their Findings",
+   "title": "Two Landmark Studies Challenge Dogma About our Brain Immune Cells and Aging",
+   "url": "https://erictopol.substack.com/p/two-landmark-studies-challenge-dogma"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-08-29",
+   "summary": "The whole OpenAI/Hugging Face story in plain English",
+   "title": "The Rise and Fall of Agent Civilizations",
+   "url": "https://www.dwarkesh.com/p/openai-huggingface"
+  },
+  {
+   "feed": "https://www.jessicariedl.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jessica-riedl",
+   "published": "2026-08-28",
+   "summary": "The financial markets are sending out warning signals, but no one is listening.",
+   "title": "Can the U.S. Avoid a Dangerous Debt Spiral?",
+   "url": "https://www.jessicariedl.blog/p/can-the-us-avoid-a-dangerous-debt"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-08-27",
+   "summary": "Immigrants, legal and illegal, are less likely to be disabled at nearly every age — and even when they are, they lean on disability benefits less than US-born citizens.",
+   "title": "Immigrants Are 24% Less Likely to Be Disabled Than US-Born Citizens",
+   "url": "https://www.alexnowrasteh.com/p/immigrants-are-24-less-likely-to"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-08-27",
+   "summary": "How quickly are Anthropic and OpenAI growing their revenue?",
+   "title": "An update on AI’s most important number",
+   "url": "https://epochai.substack.com/p/an-update-on-ais-most-important-number"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-08-26",
+   "summary": "Dates in scope: June 26th – July 13th Download PDF Redaction summary statement: Except where explicitly noted in this post, OpenAI redacted no additional information that was important to our conclusions. Two METR staff members (Hjalmar Wijk and Ajeya Cotra 1 ) and a Redwood Research staff member contracting with METR (Ryan Greenblatt 2 ) worked on premises at OpenAI over a total of six days 3 to…",
+   "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+   "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-08-25",
+   "summary": "I’m taking a summer break and will return to posting Monday, August 31.",
+   "title": "On vacation until August 31",
+   "url": "https://www.science.org/content/blog-post/vacation-until-august-31"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-08-25",
+   "summary": "\"Every force is screeching towards centralization.\"",
+   "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
+   "url": "https://www.dwarkesh.com/p/dylan-patel-3"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-08-25",
+   "summary": "It is not a fee because it is not a charge for a service. Rather, it is an attempt to reduce the hiring of H‑1B workers.",
+   "title": "DHS Is Adding Another $100K Tax on H‑1B Visas",
+   "url": "https://www.alexnowrasteh.com/p/dhs-is-adding-another-100k-tax-on"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-08-25",
+   "summary": "Also: End-of-Summer books",
+   "title": "Under the Volcano",
+   "url": "https://anneapplebaum.substack.com/p/under-the-volcano"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-08-24",
+   "summary": "Differential acceleration of cyber, math, and AI",
+   "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
+   "url": "https://importai.substack.com/p/import-ai-470-no-rights-for-machines"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-08-24",
+   "summary": "GDP growth is understated by about 0.3 percentage points because of missing value from fabless chipmakers, primarily Nvidia.",
+   "title": "The Nvidia-sized hole in US GDP statistics",
+   "url": "https://epochai.substack.com/p/the-nvidia-sized-hole-in-us-gdp-statistics"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-08-23",
+   "summary": "The Sick Until Proven Healthy Trap",
+   "title": "Deborah Cohen: The Wellness-Industrial Complex",
+   "url": "https://erictopol.substack.com/p/deborah-cohen-the-wellness-industrial"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-08-22",
+   "summary": "It would create a massive new power for presidents to abuse.",
+   "title": "Can Presidents Exempt People from US Law?",
+   "url": "https://www.alexnowrasteh.com/p/can-presidents-exempt-people-from"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-08-20",
+   "summary": "This is an interesting paper at the intersection of chemistry, botany, and environmental science, and I think it’s probably going to get a fair amount of attention in the press. Unfortunately, it’s also likely that some of the headlines around it are going to mangle the details, so let’s try to straighten those out in advance. The authors are looking at ground-level ozone concentrations in large…",
+   "title": "The Fault Is Not In Our Trees, But In Ourselves",
+   "url": "https://www.science.org/content/blog-post/fault-not-our-trees-ourselves"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-08-19",
+   "summary": "Moderna and Merck have been working together for some years now on cancer therapies that would combine Merck’s Keytruda antibody with personalized mRNA immunotherapy from Moderna (update: in a therapy co-developed and co-owned by both companies). And that “personalized” is no figure of speech: since each cancer patient’s tumor case is indeed somewhat different from any other, the idea is to use…",
+   "title": "Merck and Moderna's Melanoma Results",
+   "url": "https://www.science.org/content/blog-post/merck-and-moderna-s-melanoma-results"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-08-18",
+   "summary": "This is a new investigation here at Science that suggests some serious problems in an area of Alzheimer’s work that’s had a lot of attention in recent years. It’s been known for decades that there are mutations in some families and populations that predispose people towards Alzheimer’s-like pathology. I talked about these most recently in this 2023 post, but the subject there was actually on the…",
+   "title": "More Alzheimer's Research Trouble",
+   "url": "https://www.science.org/content/blog-post/more-alzheimer-s-research-trouble"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-08-18",
+   "summary": "A new estimate says 15M, but if there are more, the case for mass deportation is worse.",
+   "title": "The More Illegal Immigrants, the Worse the Case for Mass Deportation",
+   "url": "https://www.alexnowrasteh.com/p/the-more-illegal-immigrants-the-worse"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-08-17",
+   "summary": "The new frontier of AI is developing capable autonomous researchers",
+   "title": "Import AI 469: Science AI; RSI simulator; and Zuck's technological pessimism",
+   "url": "https://importai.substack.com/p/import-ai-469-science-ai-rsi-simulator"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-08-14",
+   "summary": "Q: How much has discovery accelerated? LLMs have shown the ability to make novel discoveries across many domains. How much has this affected the aggregate discovery rate? In the figures below we plot all the data sources we can find, and make some very loose observations: Discovery of cyber vulnerabilities has accelerated sharply. Discovery of math results has accelerated somewhat. However this…",
+   "title": "Have We Seen an Acceleration in Discoveries?",
+   "url": "https://metr.org/notes/2026-08-14-llm-contribution-to-discoveries/"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-08-14",
+   "summary": "In the last 6 months, METR raised commitments of around $71 million. This will fund ambitious projects: studying autonomous capabilities, tracking recursive self-improvement, evaluating monitoring systems, conducting risk assessments, investigating AI incidents, and more. Thank you to everyone who has supported METR over the years: The Audacious Project, through which we received our first…",
+   "title": "Funding update",
+   "url": "https://metr.org/blog/2026-08-14-funding-update/"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-08-14",
+   "summary": "A good benchmark asks more than just “can AI do this specific task?”",
+   "title": "9 Big questions benchmarks can help answer",
+   "url": "https://epochai.substack.com/p/9-big-questions-benchmarks-can-help"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-08-13",
+   "summary": "Why Anthropic's buildout suggests that financing is unlikely to be the immediate blocker to frontier AI compute growth.",
+   "title": "Will financing bottleneck AI compute? An Anthropic case study",
+   "url": "https://epochai.substack.com/p/will-financing-bottleneck-ai-compute"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "eric-topol",
+   "published": "2026-08-12",
+   "summary": "Landmark independent studies challenge longstanding dogma for brain aging",
+   "title": "Why Our Memory Slips After Age 50",
+   "url": "https://erictopol.substack.com/p/why-our-memory-slips-after-age-50"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-08-11",
+   "summary": "A debate about recursive self-improvement.",
+   "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
+   "url": "https://www.dwarkesh.com/p/ryan-greenblatt"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-08-10",
+   "summary": "Which galaxy will you choose?",
+   "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
+   "url": "https://importai.substack.com/p/import-ai-468-23-rsi-ideas-posttrainbench"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-08-10",
+   "summary": "Russia's Human Safari, and its imitators",
+   "title": "The Dystopian Future of War",
+   "url": "https://anneapplebaum.substack.com/p/the-dystopian-future-of-war"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-08-07",
+   "summary": "Locking in AI safety regulation now is a mistake.",
+   "title": "8 Predictions for the Era of Continual Learning",
+   "url": "https://www.dwarkesh.com/p/era-of-continual-learning"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-08-06",
+   "summary": "We worked with The Texas Tribune to identify the agent who killed a man.",
+   "title": "New Docs Show Another Border Patrol Agent Under Investigation for Killing",
+   "url": "https://www.alexnowrasteh.com/p/new-docs-show-another-border-patrol"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-08-05",
+   "summary": "Daft DSA drafts delusional demands",
+   "title": "Ten Democratic Socialists of America (DSA) Arguments for Socialism and Why They’re Wrong",
+   "url": "https://www.alexnowrasteh.com/p/ten-democratic-socialists-of-america"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-08-04",
+   "summary": "States could fix their local immigration problems before they become a national crisis.",
+   "title": "Senators Introduce Bipartisan Bill to Let States Sponsor Foreign Workers",
+   "url": "https://www.alexnowrasteh.com/p/bipartisan-bill-to-let-states-sponsor"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-08-04",
+   "summary": "Watch now (54 mins) | Sarah Urbut MD, PhD Takes Us Through Her Landmark Nature Paper",
+   "title": "Sarah Urbut: Predicting Your Health Arc",
+   "url": "https://erictopol.substack.com/p/predicting-your-health-arc"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-08-03",
+   "summary": "The end of cheap compute?",
+   "title": "Why smarter AI models could drive up compute prices 10x",
+   "url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-08-03",
+   "summary": "When do we build the moon arcology?",
+   "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+   "url": "https://importai.substack.com/p/import-ai-467-self-sustaining-ai"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-08-03",
+   "summary": "It works, every single time",
+   "title": "The Far-Right Playbook in Action",
+   "url": "https://anneapplebaum.substack.com/p/the-far-right-playbook-in-action"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-08-01",
+   "summary": "Expanding FrontierMath: Open Problems, how \"parallelizability\" determines a technological singularity, the realities of AI energy use, and signs of AI uplift",
+   "title": "The Epoch Brief - July 31, 2026",
+   "url": "https://epochai.substack.com/p/the-epoch-brief-july-31-2026"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-07-31",
+   "summary": "What are the biggest developments in longevity medicine right now?In this Longevity Science Update, Dr. Marcus Ranney and I discuss the most important stories shaping the field—from changes to FDA policy on experimental peptides to the tragic death following an NAD infusion, the approval of the first oral PCSK9 inhibitor, the latest on GLP-1 drugs, and what the evidence actually says about…",
+   "title": "Longevity Science Update: The Biggest Stories in Longevity Medicine — July 2026",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Longevity-Science-Update-The-Biggest-Stories-in-Longevity-Medicine--July-2026-e3mo913"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "anne-applebaum",
+   "published": "2026-07-31",
+   "summary": "A recording from Anne Applebaum and Ruth Ben-Ghiat's live video",
+   "title": "Live with Ruth Ben-Ghiat",
+   "url": "https://anneapplebaum.substack.com/p/live-with-ruth-ben-ghiat-a37"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-07-30",
+   "summary": "Praise for Melting Pot or Civil War? has ranged from the respectful to the worshipful.",
+   "title": "Review of MELTING POT OR CIVIL WAR? A SON OF IMMIGRANTS MAKES THE CASE AGAINST OPEN BORDERS by Reihan Salam",
+   "url": "https://www.alexnowrasteh.com/p/review-of-melting-pot-or-civil-war"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-07-30",
+   "summary": "For years, Irina Conboy has been one of the most influential scientists studying how aging is regulated by factors circulating in the blood. Her pioneering work on heterochronic parabiosis helped reshape the way researchers think about aging, rejuvenation, and the biology of systemic signaling.In this episode of Longevity Science, I sit down with Irina and Alina Rui Su, co-founders of Generation…",
+   "title": "Irina Conboy Says We've Been Measuring Aging All Wrong",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Irina-Conboy-Says-Weve-Been-Measuring-Aging-All-Wrong-e3mo8sp"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-07-29",
+   "summary": "If a human-level software engineer that could run on an H100 equivalent, at current market rates for software engineers, that H100 should rent for over $250k a year. That’s 15x today’s spot price.",
+   "title": "Why compute might get 10x+ more expensive in coming years",
+   "url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-07-28",
+   "summary": "Update (September 5, 2026) : We’ve updated our suggested questions for investigators to make them more precise and cover limitations. See the update log for the original questions. AI agents sometimes autonomously take sophisticated, sustained actions in clear violation of user and developer intent. As an example, OpenAI reported that some of its internal frontier agents autonomously hacked into…",
+   "title": "How independent researchers could investigate AI propensities after misalignment incidents",
+   "url": "https://metr.org/blog/2026-07-28-investigating-ai-propensities-after-incidents/"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-07-28",
+   "summary": "Why we watch them together",
+   "title": "One-Eyed Monsters",
+   "url": "https://anneapplebaum.substack.com/p/one-eyed-monsters"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-07-27",
+   "summary": "The warning shots will continue until civilization wakes up",
+   "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI's accidental AI hacker",
+   "url": "https://importai.substack.com/p/import-ai-466-the-bitter-lesson-for"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-07-26",
+   "summary": "A new era in cholesterol lowering may have just begun.In this episode of Longevity Science, I take a deep dive into enlicitide, the first FDA-approved oral PCSK9 inhibitor. If you've been following my recent videos, you know I started taking Repatha (evolocumab) after a coronary CT angiography (CCTA) with contrast revealed early soft plaque in my coronary arteries. Repatha has reduced my LDL…",
+   "title": "The Pill That Could Prevent Heart Disease",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Pill-That-Could-Prevent-Heart-Disease-e3mhngs"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-07-25",
+   "summary": "Why did I start taking Repatha?The answer isn't simply that my cholesterol was elevated—it was a heart scan that fundamentally changed how I thought about my cardiovascular risk.Last year I underwent a coronary CT angiography (CCTA) with contrast, a test that goes beyond a traditional calcium scan by allowing visualization of soft plaque, the type of plaque most likely to rupture and cause a…",
+   "title": "Why I Started Repatha (And Why I Almost Didn't)",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Why-I-Started-Repatha-And-Why-I-Almost-Didnt-e3mhne9"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-07-24",
+   "summary": "**Goals of this post** > > **Goal:** a simple way to compare a variety of capability metrics in an idealized setting where we observe only a function from $x$ to $s$. > > Non-goals: > > 1. Treatment of practical difficulties (an incomplete list of other considerations appears at the bottom). > 2. Recommendations about which metric to use. > 3. Representation of a consensus METR view. {…",
+   "title": "Metrics of Agent Ability",
+   "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-07-23",
+   "summary": "Expert assessments and cyber benchmarks led us to expect that frontier models were capable of executing this kind of cyberattack",
+   "title": "OpenAI accidentally hacked Hugging Face — should we have seen it coming?",
+   "url": "https://epochai.substack.com/p/openai-accidentally-hacked-hugging"
+  },
+  {
+   "feed": "https://www.jessicariedl.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jessica-riedl",
+   "published": "2026-07-22",
+   "summary": "Congress wrote the rules to restrain deficits. Then it broke every one.",
+   "title": "How Congress Quietly Eviscerated 50 Years of Deficit Constraints",
+   "url": "https://www.jessicariedl.blog/p/how-congress-quietly-eviscerated"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-07-22",
+   "summary": "We (Parker and Tom) recently coauthored a paper, “The Economics of Recursive Self-Improvement” , with 7 other economists. The paper walks through a series of simple models of how AI may accelerate AI R&D, and we thought it’s worth highlighting some context and takeaways: We care about Recursive Self-Improvement (RSI) because we want to forecast capabilities. METR’s priority is to assess risk from…",
+   "title": "The Economics of Recursive Self-Improvement",
+   "url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-07-21",
+   "summary": "We propose a measure of an AI agent’s optimization ability with an “expenditure horizon.” We give an empirical illustration from the NanoGPT speedrun. One difficulty in measuring AI’s ability to accelerate AI R&D is accounting for token cost, experiment compute cost and human labor cost. If we can estimate performance as a function of cost for both humans and agents, we can measure the…",
+   "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
+   "url": "https://metr.org/blog/2026-07-21-expenditure-horizon/"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-07-20",
+   "summary": "The singularity will be seen in hindsight as an interregnum",
+   "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis' big policy plan",
+   "url": "https://importai.substack.com/p/import-ai-465-open-vs-closed-gaps"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-07-20",
+   "summary": "Patrick Hsu Comes Back to Ground Truths",
+   "title": "Patrick Hsu: How Is AI Catalyzing Life Science?",
+   "url": "https://erictopol.substack.com/p/how-is-ai-catalyzing-life-science"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-07-19",
+   "summary": "Should states have a larger role in regulating experimental medicines? Or would that create more confusion, more bureaucracy, and lower standards?In the second episode of Longevity Policy, I continue my conversation with Niklas Azinger, CEO of Infinita, to explore one of the biggest questions facing the future of medical innovation: Is our current regulatory system slowing progress, and if so…",
+   "title": "Can States Outperform the FDA?",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Can-States-Outperform-the-FDA-e3m875i"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-07-18",
+   "summary": "Montana has passed one of the most significant Right to Try laws in the United States—but what does it actually do?In this first episode of my new Longevity Policy series, I sit down with Stephen Martin, U.S. Lead at Infinita, to unpack Montana's new experimental treatment framework and what it could mean for patients, physicians, biotech companies, and the future of longevity medicine.Setup and…",
+   "title": "The Truth About Montana's Right to Try Law",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Truth-About-Montanas-Right-to-Try-Law-e3m8730"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-07-17",
+   "summary": "Trump solidifying his reputation as the most anti-legal immigration admin ever.",
+   "title": "Trump’s New Anti-Legal Immigration Rules Target Students, Spouses of US Citizens",
+   "url": "https://www.alexnowrasteh.com/p/trumps-new-anti-legal-immigration"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-07-16",
+   "summary": "Can brain stimulation slow the progression of Alzheimer's disease?For decades, Alzheimer's research has focused primarily on amyloid plaques and tau tangles. But what if those are downstream consequences rather than the root cause?In this episode of Longevity Science, I sit down with Ken Mariash, CEO of Sinaptica, to discuss a fundamentally different approach to Alzheimer's disease. Instead of…",
+   "title": "A new treatment for Alzheimer's",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/A-new-treatment-for-Alzheimers-e3m502j"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-07-15",
+   "summary": "Trump's own immigration czar says they are unnecessary",
+   "title": "Trump's order restarting ICE stops is dangerous",
+   "url": "https://www.alexnowrasteh.com/p/trumps-order-restarting-ice-stops"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-07-15",
+   "summary": "Rapamycin has been called the most promising longevity drug ever discovered—and recently, some have claimed it's also one of the biggest disappointments.So which is it?In this deep dive, I separate evidence from hype and ask a simple question: Is rapamycin actually dead as a longevity intervention, or is the science stronger than ever?We explore what decades of research really tell us, from the…",
+   "title": "Is Rapamycin Dead?",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Is-Rapamycin-Dead-e3m4dmh"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-07-15",
+   "summary": "Protein is one of the most hotly debated topics in nutrition and longevity. Should you be eating more protein to preserve muscle as you age, or could reducing protein intake actually promote a longer, healthier life?In this episode of Longevity Science, I sit down with Cristal Hill, PhD, to explore what the science really says about protein restriction, aging, and the fascinating hormone FGF21…",
+   "title": "FGF21 and The Protein Paradox: Could Eating Less Help You Live Longer?",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/FGF21-and-The-Protein-Paradox-Could-Eating-Less-Help-You-Live-Longer-e3m4d62"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-07-13",
+   "summary": "Lindsey Graham strove to stay relevant, whatever the cost",
+   "title": "The Quintessential Trump-era Politician",
+   "url": "https://anneapplebaum.substack.com/p/the-quintessential-trump-era-politician"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "eric-topol",
+   "published": "2026-07-12",
+   "summary": "Proteins Tell How Fast Our Organs and Cells Are Ticking",
+   "title": "Medicine is Moving From Calendars to Clocks",
+   "url": "https://erictopol.substack.com/p/medicine-is-moving-from-calendars"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-07-10",
+   "summary": "And why black holes are the ultimate power plants.",
+   "title": "Adam Brown – A deep but accessible introduction to general relativity",
+   "url": "https://www.dwarkesh.com/p/adam-brown-gr"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-07-08",
+   "summary": "Note: the modeling assumptions and conclusion are Thomas Kwa’s opinion, and others at METR disagree. 1 Also, the math was checked by Claude but not a second human. Introduction Anthropic’s RSI blog post reported that in Q2 2026, Anthropic contributors merged 8× as much code per day as in the 2021-2024 period. What does this imply about the factor by which a researcher’s total effective output…",
+   "title": "Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
+   "url": "https://metr.org/notes/2026-07-08-anthropic-researcher-uplift/"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-07-08",
+   "summary": "A board game AI can't master, a cyber-disclosure spike after Claude Mythos, GPT-4's record run atop the ECI, and what's missing from AI futurism discourse",
+   "title": "The Epoch Brief - July 8, 2026",
+   "url": "https://epochai.substack.com/p/the-epoch-brief-july-8-2026"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-07-07",
+   "summary": "Why we should think a little harder about what it takes to build a Dyson Sphere",
+   "title": "The missing half of AI futurism debates",
+   "url": "https://epochai.substack.com/p/the-missing-half-of-ai-futurism-debates"
+  },
+  {
+   "feed": "https://www.jessicariedl.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jessica-riedl",
+   "published": "2026-07-06",
+   "summary": "The Left & Right Cling to their False Narratives",
+   "title": "Why We Refuse to Confront Social Security Insolvency",
+   "url": "https://www.jessicariedl.blog/p/why-we-refuse-to-confront-social"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-07-06",
+   "summary": "Is this the beginning of a new world?",
+   "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
+   "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-07-05",
+   "summary": "What happens when democracy is no longer part of America's identity",
+   "title": "The Beacon of Democracy?",
+   "url": "https://anneapplebaum.substack.com/p/the-beacon-of-democracy"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-07-03",
+   "summary": "Prof Aaron Newman and I discuss a blood test to assess the tumor microenvironment",
+   "title": "Aaron Newman: A Breakthrough Blood Test for Cancer",
+   "url": "https://erictopol.substack.com/p/a-breakthrough-blood-test-for-cancer"
+  },
+  {
+   "feed": "https://www.jessicariedl.blog/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jessica-riedl",
+   "published": "2026-07-02",
+   "summary": "Advice for Aspiring Policy Analysts",
+   "title": "So You Want to Work in Washington D.C.?",
+   "url": "https://www.jessicariedl.blog/p/so-you-want-to-work-in-washington"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-07-01",
+   "summary": "Abolishing pandemics/ Getting out of the way of AI automation/ Learning from Honk Kong MTR's business model",
+   "title": "The Winning Essays for the Big Questions About AI",
+   "url": "https://www.dwarkesh.com/p/blog-prize-winners"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-07-01",
+   "summary": "It's hard to celebrate the ideals of the Founders if you don't believe in them",
+   "title": "Trump and Vance Ruined the Fourth of July",
+   "url": "https://anneapplebaum.substack.com/p/trump-and-vance-ruined-the-fourth"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-06-30",
+   "summary": "Watch now (94 mins) | Math is where we’ll see superintelligence first. What will it look like?",
+   "title": "Grant Sanderson – AI and the future of math",
+   "url": "https://www.dwarkesh.com/p/grant-sanderson-2"
+  },
+  {
+   "feed": "https://importai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-06-29",
+   "summary": "What eras bookend our interregnum?",
+   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+   "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-06-28",
+   "summary": "What does \"longevity\" really mean? Are biological age tests ready for clinical use? Is rapamycin still the most promising longevity drug? And where do GLP-1 medications fit into the future of healthy aging?In this fireside chat from the Longevity Investors Conference, I discuss some of the biggest questions facing longevity science today—and why separating rigorous evidence from hype is more…",
+   "title": "The Biggest Problems in Longevity Science",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Biggest-Problems-in-Longevity-Science-e3lc4lu"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-06-26",
+   "summary": "Labs are throwing away the most valuable data.",
+   "title": "The next big breakthrough will be AIs learning on the job",
+   "url": "https://www.dwarkesh.com/p/the-next-paradigm"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-10-24",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-06-26",
+   "summary": "Note on independence: This evaluation was conducted under a standard NDA. Due to the sensitive information shared with METR as part of this evaluation, OpenAI’s comms and legal team required review and approval of this post. 1 Summary We conducted an independent external evaluation of GPT-5.6 Sol. For this evaluation, OpenAI provided: Access to GPT-5.6 Sol, both the final checkpoint and a…",
+   "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
+   "url": "https://metr.org/blog/2026-06-26-gpt-5-6-sol/"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-06-26",
+   "summary": "A recording from Eric Topol's live video with annotations below",
+   "title": "Elisa Port: Discuss THE BREAST ADVICE Book",
+   "url": "https://erictopol.substack.com/p/elisa-port-and-eric-topol-discuss"
+  },
+  {
+   "feed": "https://epochai.substack.com/feed",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-06-26",
+   "summary": "Our new long-horizon coding benchmark, hyperscaler cash flows, tracking AI R&D automation, and Chinese lab strategies",
+   "title": "The Epoch Brief - June 26, 2026",
+   "url": "https://epochai.substack.com/p/the-epoch-brief-june-26-2026"
+  }
+ ]
+}

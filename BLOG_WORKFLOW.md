@@ -229,6 +229,40 @@ tables needs its table images rendered and pushed before it is cross-posted.
   their own unsubscribe link. Empty the list again afterwards, and never fill
   it in the repository copy, since this repository is public.
 
+## The following page
+
+`following.html` lists people worth following on the blog's topics: where
+each of them publishes, what to read first, and their newest work. Nothing
+on the site links to it yet, it carries `noindex`, and it is not part of
+`blog.html` or `feed.xml`, so it never reaches email subscribers.
+
+- `following/sources.toml` holds the page's intro, the people, their
+  channels, their "start here" works and their feeds. A feed can take
+  `topics`, `match_topics = true` (keep only items matching those topics'
+  keywords, for broad blogs), `exclude` (a regular expression for titles to
+  drop), `max_items` (default 5 on the page) and `summary = false`.
+- `following/interests.toml` holds the topics, their keywords, and which post
+  categories each one covers. The build warns about a post category no topic
+  covers, and about a topic nobody covers.
+- `following/picks.toml` holds hand-written picks shown above the stream.
+- `following/items.json` stores the items fetched from the feeds. Only the
+  fetch writes it.
+- `build_following.py` renders `following.html` and `following.opml` (all
+  the feeds, for a feed reader) from those files. With `--fetch` it first
+  reads every feed. It is separate from `build_blog.py`.
+
+`.github/workflows/following.yml` runs `python3 build_following.py --fetch`
+every day at 05:17 UTC, and on any push that changes `following/*.toml` or
+the script, then commits the page if it changed. Because of those commits,
+run `git pull --rebase` before pushing. To edit the people or topics, change
+the TOML files, run `python3 build_following.py` to preview, and push; the
+workflow fetches the new feeds. A feed that fails is logged in the
+workflow's output and listed under `failing` in `items.json`, with the date
+it started failing.
+
+How the page came about, and the principles behind it, are in
+[following.md](following.md).
+
 ## Exact-copy requests
 
 When a user supplies replacement article text, preserve the supplied wording,

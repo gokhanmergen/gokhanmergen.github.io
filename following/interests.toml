@@ -1,0 +1,90 @@
+# Topics for following.html, in the order the page shows them.
+#
+# `categories` maps the `category` field of the posts in posts/ onto a topic.
+# build_following.py warns about any post category that maps to no topic and
+# isn't in `ignore_categories`, so writing about a new subject shows up as a
+# gap to fill here and in sources.toml.
+#
+# `keywords` decide which of a person's topics each new item belongs to, and
+# which items a feed with `match_topics = true` keeps. They match whole words,
+# ignoring case; a trailing * matches any ending ("autonom*" matches
+# "autonomy" and "autonomous").
+
+ignore_categories = ["Ideas / Quotations", "Books / Markets"]
+
+[[topic]]
+id = "ai-future"
+label = "AI safety & the future"
+categories = [
+  "AI / Safety", "ASI / Society", "Futures / AI", "Ideas / AI futures",
+  "Humanity / AI", "Culture / AI", "Culture / Discovery",
+]
+keywords = [
+  "AI", "A.I.", "AGI", "ASI", "artificial intelligence", "superintelligen*",
+  "alignment", "misalign*", "safety", "x-risk", "existential", "autonom*",
+  "agent", "agents", "agentic", "LLM*", "language model*", "frontier",
+  "OpenAI", "Anthropic", "DeepMind", "Claude", "GPT*", "Gemini", "chatbot*",
+  "interpretab*", "scheming", "watermark*", "singularity", "takeoff",
+  "doom*", "red-team*", "evals", "evaluation*", "monitoring",
+]
+
+[[topic]]
+id = "ai-work"
+label = "AI, work & economy"
+categories = ["Agents / Economy", "Economy / Agents", "Work / AI", "Career / AI"]
+keywords = [
+  "AI", "A.I.", "AGI", "artificial intelligence", "automat*", "robot*",
+  "job", "jobs", "labor", "labour", "employment", "unemployment", "wage*",
+  "worker*", "productivity", "growth", "GDP", "economy", "economics",
+  "economist*", "compute", "data center*", "datacenter*", "capex", "Nvidia",
+  "chip*", "semiconductor*", "transistor*", "adoption", "skills",
+  "comparative advantage", "inference", "tokens", "scaling",
+]
+
+[[topic]]
+id = "math"
+label = "Math, quantum & computing"
+categories = ["Mathematics / AI"]
+keywords = [
+  "math*", "theorem*", "proof*", "prove*", "proved", "conjecture*",
+  "Lean", "formaliz*", "formalis*", "quantum", "qubit*", "complexity",
+  "P vs NP", "BQP", "algorithm*", "Erdős", "Erdos", "Riemann", "prime*",
+  "topolog*", "geometr*", "combinator*", "number theory", "cryptograph*",
+  "computer science", "computation*",
+]
+
+[[topic]]
+id = "longevity"
+label = "Longevity & medicine"
+categories = ["Longevity / Biotech", "Longevity / Medicine", "Longevity / AI"]
+keywords = [
+  "aging", "ageing", "longevity", "lifespan", "healthspan", "senescen*",
+  "rapamycin", "metformin", "GLP-1*", "semaglutide", "tirzepatide",
+  "Alzheimer*", "dementia", "cancer", "cardio*", "heart", "immun*",
+  "vaccine*", "trial*", "drug*", "clinical", "biomarker*", "epigenetic*",
+  "mortality", "exercise", "sleep", "obesity", "diabetes", "brain", "health",
+]
+
+[[topic]]
+id = "geopolitics"
+label = "Geopolitics & propaganda"
+categories = ["Geopolitics / Europe", "Truth / Society"]
+keywords = [
+  "Russia*", "Putin", "Ukrain*", "Kremlin", "NATO", "Europe*", "EU",
+  "China", "Chinese", "Taiwan", "war", "propaganda", "disinformation",
+  "democra*", "autocra*", "authoritarian*", "kleptocra*", "fascis*",
+  "tyranny", "sanction*", "nationalis*", "Hungary", "Orbán", "Turkey",
+  "Erdoğan", "Iran", "Israel", "diplomacy", "espionage", "military",
+]
+
+[[topic]]
+id = "policy"
+label = "US budget & immigration"
+categories = ["Economy / Politics", "Immigration / Policy", "Politics / Data"]
+keywords = [
+  "budget*", "deficit*", "debt", "fiscal", "tax*", "tariff*", "spending",
+  "Social Security", "Medicare", "Medicaid", "entitlement*", "CBO",
+  "Congress", "appropriation*", "interest rate*", "Treasury", "immigra*",
+  "migrant*", "deport*", "visa*", "H-1B", "asylum", "refugee*", "border",
+  "citizenship", "green card*", "election*", "voter*",
+]
