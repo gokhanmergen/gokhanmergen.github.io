@@ -232,9 +232,11 @@ tables needs its table images rendered and pushed before it is cross-posted.
 ## The following page
 
 `following.html` lists people worth following on the blog's topics: where
-each of them publishes, what to read first, and their newest work. Nothing
-on the site links to it yet, it carries `noindex`, and it is not part of
-`blog.html` or `feed.xml`, so it never reaches email subscribers.
+each of them publishes, what to read first, and their newest work. The
+blog index links to it from its "Elsewhere on the site" section, next to
+Publications; `render_index` in `build_blog.py` writes that link. Search
+engines may list the page. It is not in `feed.xml`, so it never reaches
+email subscribers.
 
 - `following/sources.toml` holds the page's intro, the people, their
   channels, their "start here" works and their feeds. A feed can take

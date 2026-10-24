@@ -3238,12 +3238,21 @@ body.lightbox-open {
 .blog-index-footer h2 {
   max-width: 530px;
   font-size: clamp(1.65rem, 3vw, 2.5rem);
+  text-wrap: balance;
 }
 
 .blog-index-footer-link {
   flex-shrink: 0;
   padding-bottom: 4px;
   border-bottom: 1px solid currentColor;
+}
+
+.blog-index-footer-links {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 14px 28px;
 }
 
 .blog-post-page .site-header {
@@ -3571,6 +3580,10 @@ body.lightbox-open {
     flex-direction: column;
     gap: 22px;
     padding: 42px 0 48px;
+  }
+
+  .blog-index-footer-links {
+    justify-content: flex-start;
   }
 
   .blog-article-intro {

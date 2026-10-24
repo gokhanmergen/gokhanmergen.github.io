@@ -11,15 +11,15 @@ Personal website for Gokhan Mergen, featuring his biography, publications, quant
 - `posts/` — canonical Markdown source, one file per blog post with its metadata
 - `build_blog.py` — dependency-free generator for the blog index and article pages
 - `BLOG_WORKFLOW.md` — maintenance protocol for future agents adding or updating posts
-- `blog-autonomous-ai.html` — first post: “Biggest AI Risk: Autonomous AI”
-- `blog-ai-job-apocalypse.html` — second post: “Why the Upcoming AI Job-Apocalypse Predictions Will Be Proven Wrong”
-- `blog-machine-economy.html` — third post: “The Rise of the Machine Economy”
-- `blog-ai-music-production.html` — fourth post: “Artificial Intelligence and Music Production”
-- `blog-ai-awakening.html` — fifth post: “The Awakening of Artificial Intelligence”
-- `blog-singularity-big-nothing.html` — sixth post: “Why the Technological Singularity May Be a Big Nothing”
+- `blog-<slug>.html` — generated article pages, one for each post and translation in `posts/`
 - `photography.html` — self-hosted photography archive and viewer
 - `quantBibliography.html` — quantitative finance bibliography and research notes
-- `following.html` — unlinked page of people worth following, refreshed daily by `build_following.py` from `following/` (see BLOG_WORKFLOW.md)
+- `following.html` — page of people worth following, linked from the bottom of the blog index and refreshed daily (see BLOG_WORKFLOW.md)
+- `following.opml` — every feed on the following page, for importing into a feed reader
+- `following/` — the following page's sources: people, topics, picks, and the stored feed items
+- `build_following.py` — dependency-free generator for `following.html` and `following.opml`; `--fetch` reads the feeds first
+- `.github/workflows/following.yml` — GitHub Action that refreshes the following page every day
+- `following.md` — the prompts, progress, and principles behind the following page
 - `styles.css` — homepage layout and responsive styling
 - `pubs/` — downloadable papers and presentation slides
 - `gokhan.jpg`, `gokhan2.jpg` — homepage image assets
@@ -34,6 +34,8 @@ This is a static site with no runtime dependencies. The blog pages are generated
 python3 build_blog.py
 ```
 
+To rebuild the following page from its stored items, run `python3 build_following.py`; add `--fetch` to read the feeds first.
+
 Then start a local server:
 
 ```bash
@@ -46,4 +48,4 @@ For the complete source, build, validation, and upload protocol, see [BLOG_WORKF
 
 ## Deployment
 
-The repository can be deployed as a static GitHub Pages site. Always run `python3 build_blog.py` after editing blog content and before every upload or deployment. Keep `CNAME` in the repository root when using the configured custom domain.
+The repository can be deployed as a static GitHub Pages site. Always run `python3 build_blog.py` after editing blog content and before every upload or deployment. Keep `CNAME` in the repository root when using the configured custom domain. A GitHub Action commits the refreshed following page to `main` every day, so run `git pull --rebase` before pushing.

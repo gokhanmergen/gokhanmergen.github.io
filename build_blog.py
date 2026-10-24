@@ -676,9 +676,12 @@ def render_index(posts: List[Post], translations: Dict[str, List[Post]]) -> str:
       <section class="blog-index-footer" aria-labelledby="blog-index-footer-title">
         <div>
           <p class="section-kicker">Elsewhere on the site</p>
-          <h2 id="blog-index-footer-title">More work on models and systems.</h2>
+          <h2 id="blog-index-footer-title">Papers I’ve written, and people I read.</h2>
         </div>
-        <a class="blog-index-footer-link" href="pubs.html">Publications <span aria-hidden="true">→</span></a>
+        <div class="blog-index-footer-links">
+          <a class="blog-index-footer-link" href="pubs.html">Publications <span aria-hidden="true">→</span></a>
+          <a class="blog-index-footer-link" href="following.html">People worth following <span aria-hidden="true">→</span></a>
+        </div>
       </section>
 
 {subscribe_section("en")}

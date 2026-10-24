@@ -65,6 +65,15 @@ Long-Term Wiki entry
 > your principles -- separate them from my prompt? Then we can commit and
 > push for testing?
 
+### Prompt 4 (2026-10-24)
+
+> Can you add a link to following from the bottom of blog page?
+
+### Prompt 5 (2026-10-24)
+
+> remove noindex and. More work on models and systems -> reword it. Update
+> the rest of documentation as weel (.md)
+
 ## 2. Progress (Claude)
 
 ### Design, proposed after prompt 1
@@ -158,17 +167,24 @@ The second run read 17 of the 21 feeds. The other four (Eric Topol, Timothy
 Snyder, Anne Applebaum and Phillips P. O'Brien) publish only on Substack.
 Their cards and stored items stay, but the Action can't update them.
 
+### Linked from the blog and opened to search, 2026-10-24
+
+- After prompt 4, the "Elsewhere on the site" section near the bottom of
+  `blog.html` links to the page, next to Publications. `build_blog.py`
+  adds the link.
+- After prompt 5, the page lost `noindex`, so search engines may list it.
+  The section's heading changed from "More work on models and systems." to
+  "Papers I’ve written, and people I read.", to cover both links.
+  `README.md` and `BLOG_WORKFLOW.md` now describe the page, its files and
+  the daily commits. The page stays out of `feed.xml`.
+
 ### Open
 
 - The "why" line on each card, and the page's intro, are Claude's drafts in
   the author's voice. They are factual, but they need the author's rewrite
   wherever they don't sound like the author.
-- After the first push, confirm the Action runs and that its commits
-  redeploy the site. The workflow also requests a Pages build, in case a
-  push with the workflow token doesn't start one.
 - Decide how the four Substack-only feeds get updated.
 - The weekly Claude pass is not built yet.
-- The page stays unlinked until the author decides otherwise.
 
 ## 3. Principles (Claude)
 
@@ -178,9 +194,11 @@ Their cards and stored items stay, but the Action can't update them.
 - **The page follows the blog's interests.** Topics come from the post
   categories. A post on a new subject raises a warning, so the page cannot
   quietly drift from what the blog is about.
-- **Unlinked means unlinked.** The page is not in the navigation, in
-  `blog.html` or in `feed.xml`, and it carries `noindex`. It still sits in
-  a public repository, as does this file.
+- **Visible only where the author puts it.** The page started unlinked
+  and hidden from search engines. The author then linked it from the
+  bottom of the blog index (prompt 4) and opened it to search (prompt 5).
+  It is not in the navigation or in `feed.xml`, so it never reaches email
+  subscribers. It sits in a public repository, as does this file.
 - **Same tools as the rest of the site.** It uses only the Python standard
   library, like `build_blog.py`, with plain HTML and the site's own styles.
   It is a separate script, so the blog build is unaffected.

@@ -533,7 +533,6 @@ def render_page(page: dict, topics: Dict[str, Topic], people: List[Person], pick
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex">
   <meta name="description" content="{escape(lede)}">
   <title>{escape(title)} | Gökhan Mergen</title>
   <link rel="stylesheet" href="styles.css">
