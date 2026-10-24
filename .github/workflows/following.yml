@@ -14,7 +14,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
 
 concurrency:
   group: following
@@ -33,9 +32,8 @@ jobs:
       - name: Fetch feeds and build the page
         run: python3 build_following.py --fetch
 
-      - name: Commit and publish if anything changed
-        env:
-          GH_TOKEN: ${{ github.token }}
+      # The push starts the GitHub Pages build.
+      - name: Commit if anything changed
         run: |
           git add following.html following.opml following/items.json
           if git diff --cached --quiet; then
@@ -47,5 +45,3 @@ jobs:
           git commit -m "Update following page"
           git pull --rebase origin main
           git push origin HEAD:main
-          # Pushes made with the workflow token may not start a Pages build.
-          gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || true

@@ -1,27 +1,5 @@
 {
- "failing": {
-  "https://anneapplebaum.substack.com/feed": {
-   "since": "2026-10-24"
-  },
-  "https://epochai.substack.com/feed": {
-   "since": "2026-10-24"
-  },
-  "https://erictopol.substack.com/feed": {
-   "since": "2026-10-24"
-  },
-  "https://importai.substack.com/feed": {
-   "since": "2026-10-24"
-  },
-  "https://phillipspobrien.substack.com/feed": {
-   "since": "2026-10-24"
-  },
-  "https://snyder.substack.com/feed": {
-   "since": "2026-10-24"
-  },
-  "https://thezvi.substack.com/feed": {
-   "since": "2026-10-24"
-  }
- },
+ "failing": {},
  "items": [
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -84,14 +62,14 @@
    "url": "https://www.science.org/content/blog-post/merck-moderna-results"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-10-23",
-   "summary": "Last week at a small conference, there was talk about a future event referred to as The Hackening.",
+   "summary": "Last week at a small conference, there was talk about a future event referred to as The Hackening. As in, within 6-12 months, many predicted that due to advanced AIs and AI agents the internet would become a severely hostile …",
    "title": "The Hackening",
-   "url": "https://thezvi.substack.com/p/the-hackening"
+   "url": "https://thezvi.wordpress.com/2026/10/23/the-hackening/"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -144,16 +122,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/10/friday-assorted-links-596.html"
   },
   {
-   "feed": "https://epochai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-10-23",
-   "summary": "Whether AI can do our jobs, how far behind open-weight models are in cybersecurity, and Gemini closing in on the frontier",
-   "title": "The Epoch Brief - October 23, 2026",
-   "url": "https://epochai.substack.com/p/the-epoch-brief-october-23-2026"
-  },
-  {
    "feed": "https://anneapplebaum.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -194,14 +162,14 @@
    "url": "https://www.dwarkesh.com/p/intel-tour"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-10-22",
-   "summary": "It was the probably worst day in cybersecurity history.",
+   "summary": "It was the probably worst day in cybersecurity history. So far. Not only is there a critical flaw in PHP that due to a leak was announced a day before the fix would be available, sending most of the internet …",
    "title": "AI #191: The Hackening Begins",
-   "url": "https://thezvi.substack.com/p/ai-191-the-hackening-begins"
+   "url": "https://thezvi.wordpress.com/2026/10/22/ai-191-the-hackening-begins/"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -274,14 +242,14 @@
    "url": "https://www.noahpinion.blog/p/you-can-see-everything-and-the-nature"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-10-21",
-   "summary": "A lot of AIs were misaligned this week.",
+   "summary": "A lot of AIs were misaligned this week. A fun little survey. This is not coverage of The Hackening, which appears to have arrived early, including a core vulnerability in PHP. That is a developing story. I will cover it …",
    "title": "Misaligned!",
-   "url": "https://thezvi.substack.com/p/misaligned"
+   "url": "https://thezvi.wordpress.com/2026/10/21/misaligned/"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -314,14 +282,14 @@
    "url": "https://www.science.org/content/blog-post/two-weeks-go"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-10-20",
-   "summary": "Anthony Cimino offered the closest thing to an official response we have seen on the leaked Anthropic draft bill I covered on Saturday.",
+   "summary": "Anthony Cimino offered the closest thing to an official response we have seen on the leaked Anthropic draft bill I covered on Saturday. His response indicates that Anthropic address specific concerns on the margin. But he does not understand, or …",
    "title": "Anthropic Does Not Understand Why Its Draft Bill Was Unacceptable and Troubling",
-   "url": "https://thezvi.substack.com/p/anthropic-does-not-understand-why"
+   "url": "https://thezvi.wordpress.com/2026/10/20/anthropic-does-not-understand-why-its-draft-bill-was-unacceptable-and-troubling/"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -404,14 +372,14 @@
    "url": "https://www.alexnowrasteh.com/p/immigrants-arent-coming-to-shoot"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-10-19",
-   "summary": "No spoilers!",
+   "summary": "Nick Cammarata of Goodfire makes a bold claim: Neural Networks are Already Clean. This was his follow up after various resulting online discussions. This is clearly good work that tells us new and important things. The question is, how big …",
    "title": "I Can See Everything",
-   "url": "https://thezvi.substack.com/p/i-can-see-everything"
+   "url": "https://thezvi.wordpress.com/2026/10/19/i-can-see-everything/"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -444,14 +412,14 @@
    "url": "https://scottaaronson.blog/?p=10204"
   },
   {
-   "feed": "https://importai.substack.com/feed",
+   "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "jack-clark",
    "published": "2026-10-19",
-   "summary": "What do you think?",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have…",
    "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
-   "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the"
+   "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -504,14 +472,14 @@
    "url": "https://phillipspobrien.substack.com/p/weekend-update-207-the-us-russia"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-10-17",
-   "summary": "There is a newly leaked bill that Anthropic is purportedly shopping around is (if you assume its bugs get fixed).",
+   "summary": "There is a newly leaked bill that Anthropic is purportedly shopping around is (if you assume its bugs get fixed). It is similar to the FRONTIER Act, with stronger preemption of state laws, stronger transparency provisions and weaker enforcement provisions. …",
    "title": "Leaked Anthropic Draft AI Regulatory Bill Is Unacceptable and Troubling",
-   "url": "https://thezvi.substack.com/p/leaked-anthropic-draft-ai-regulatory"
+   "url": "https://thezvi.wordpress.com/2026/10/17/leaked-anthropic-draft-ai-regulatory-bill-is-unacceptable-and-troubling/"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -544,14 +512,24 @@
    "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-10-16",
-   "summary": "AI might not yet be eating the physical world.",
+   "summary": "AI might not yet be eating the physical world. AI is still eating the world of news, and I am finding less and less opportunity to post about other things. My backlog of items grows across most of my secondary …",
    "title": "Monthly Roundup #47: October 2026",
-   "url": "https://thezvi.substack.com/p/monthly-roundup-47-october-2026"
+   "url": "https://thezvi.wordpress.com/2026/10/16/monthly-roundup-47-october-2026/"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-16",
+   "summary": "Z.ai’s GLM-5.3 is the top open-weight model on Epoch’s Cyber ECI, scoring where the closed-weight frontier stood 6–7 months earlier.",
+   "title": "Open-weight models trail closed models in cyber capabilities by 6–7 months",
+   "url": "https://epoch.ai/data-insights/open-closed-cyber-eci-gap"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -564,14 +542,14 @@
    "url": "https://www.noahpinion.blog/p/ai-vs-the-railroads"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-10-15",
-   "summary": "The amount of code being written at Anthropic continues to rise exponentially.",
+   "summary": "The amount of code being written at Anthropic continues to rise exponentially. It is being managed by Scion, their internal replacement for GitHub that is better suited to the scale and style of the operation, which they created with a …",
    "title": "AI #190: Scion of the Times",
-   "url": "https://thezvi.substack.com/p/ai-190-scion-of-the-times"
+   "url": "https://thezvi.wordpress.com/2026/10/15/ai-190-scion-of-the-times/"
   },
   {
    "feed": "https://snyder.substack.com/feed",
@@ -624,14 +602,14 @@
    "url": "https://www.cbo.gov/publication/62777"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-10-14",
-   "summary": "We need the frontier labs to have a deep and robust safety culture.",
+   "summary": "We need the frontier labs to have a deep and robust safety culture. Alas, this is not the case. Anthropic devotes considerable effort to cultivating and maintaining such a culture. It shows, especially among the members of technical staff. Having …",
    "title": "The Safety Culture at the Labs is Broken",
-   "url": "https://thezvi.substack.com/p/the-safety-culture-at-the-labs-is"
+   "url": "https://thezvi.wordpress.com/2026/10/14/the-safety-culture-at-the-labs-is-broken/"
   },
   {
    "feed": "https://metr.org/feed.xml",
@@ -684,6 +662,16 @@
    "url": "https://metr.org/blog/2026-10-14-ai-rd-acceleration-assessment-proposal/"
   },
   {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-14",
+   "summary": "Months ago, frontier models could barely beat Slay the Spire. Now they win 90%+ at the easiest setting and up to 20% at the hardest. Results from Epoch AI’s new SpireClimb benchmark.",
+   "title": "AI systems are improving rapidly at Slay the Spire and its sequel",
+   "url": "https://epoch.ai/publications/ai-systems-are-improving-rapidly-at-slay-the-spire-and-its-sequel"
+  },
+  {
    "feed": "https://anneapplebaum.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -714,14 +702,14 @@
    "url": "https://www.noahpinion.blog/p/a-nobel-for-new-keynesian-macro-at"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-10-13",
-   "summary": "It has been roughly a year since my last dedicated post on this question. Its first sentence has not changed: I happily admit I am deeply confused about consciousness.",
+   "summary": "It has been roughly a year since my last dedicated post on this question. Its first sentence has not changed: I happily admit I am deeply confused about consciousness. It would have been nice if a year had allowed us …",
    "title": "Arguments About AI Consciousness Remain Highly Motivated and At Best Overconfident",
-   "url": "https://thezvi.substack.com/p/arguments-about-ai-consciousness-b99"
+   "url": "https://thezvi.wordpress.com/2026/10/13/arguments-about-ai-consciousness-remain-highly-motivated-and-at-best-overconfident/"
   },
   {
    "feed": "https://snyder.substack.com/feed",
@@ -784,24 +772,14 @@
    "url": "https://www.alexnowrasteh.com/p/some-victims-are-more-sympathetic"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-10-12",
-   "summary": "Three OpenAI safety researchers, Tomek Korbak, Mikita Balesni and Jasmine Wang, were fired, ostensibly for ‘mishandling sensitive company information.’",
-   "title": "OpenAI Fires Three Safety Researchers",
-   "url": "https://thezvi.substack.com/p/openai-fires-three-safety-researchers"
-  },
-  {
-   "feed": "https://importai.substack.com/feed",
+   "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "jack-clark",
    "published": "2026-10-12",
-   "summary": "Will we give robots the moon?",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual reasoning:…Humanity’s Sixth Sense highlights some shortcomings of current AI systems…AI startups Elorian and Scale AI have built…",
    "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-   "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi"
+   "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -884,16 +862,6 @@
    "url": "https://www.alexnowrasteh.com/p/president-trump-cut-legal-immigrant"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-10-09",
-   "summary": "It is kind of a huge deal.",
-   "title": "New Math from OpenAI",
-   "url": "https://thezvi.substack.com/p/new-math-from-openai"
-  },
-  {
    "feed": "https://phillipspobrien.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -902,16 +870,6 @@
    "summary": "And The US Cannot Admit It",
    "title": "This Is What The End Of An “Age” Looks Like",
    "url": "https://phillipspobrien.substack.com/p/this-is-what-the-end-of-an-age-looks"
-  },
-  {
-   "feed": "https://epochai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-10-09",
-   "summary": "Not yet, but it will claim otherwise",
-   "title": "Can AI automate AI R&D yet?",
-   "url": "https://epochai.substack.com/p/can-ai-automate-ai-r-and-d-yet"
   },
   {
    "feed": "https://www.cbo.gov/publications/all/rss.xml",
@@ -934,16 +892,6 @@
    "url": "https://www.cbo.gov/publication/61985"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-10-08",
-   "summary": "The big drop of this week was not a new AI model.",
-   "title": "AI #189: New Math",
-   "url": "https://thezvi.substack.com/p/ai-189-new-math"
-  },
-  {
    "feed": "https://snyder.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -954,14 +902,14 @@
    "url": "https://snyder.substack.com/p/where-do-democrats-go-from-here-with"
   },
   {
-   "feed": "https://epochai.substack.com/feed",
+   "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "epoch-ai",
    "published": "2026-10-08",
-   "summary": "Plummeting AI costs, billions of agents, how Chinese labs make money, AI’s impact on behaviors, and our benchmark auditing initiative",
-   "title": "The Epoch Brief - October 8, 2026",
-   "url": "https://epochai.substack.com/p/the-epoch-brief-october-8-2026"
+   "summary": "Frontier models can handle well-defined tasks reliably, but fail in the more open-ended aspects that prevent full work automation. Explore Epoch AI's Automation Reports: realistic, open-ended tasks taken directly from our work, manually graded by our own standards.",
+   "title": "Can AI automate Epoch?",
+   "url": "https://epoch.ai/publications/can-ai-automate-epoch"
   },
   {
    "feed": "https://www.quantamagazine.org/computer-science/feed/",
@@ -984,16 +932,6 @@
    "url": "https://www.noahpinion.blog/p/there-is-no-indian-question"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-10-07",
-   "summary": "The plan is no plan.",
-   "title": "The Curve Bends You",
-   "url": "https://thezvi.substack.com/p/the-curve-bends-you"
-  },
-  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -1014,14 +952,34 @@
    "url": "https://phillipspobrien.substack.com/p/midweek-update-30-trump-has-lost"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-10-06",
-   "summary": "First you get to college via the wrong metrics, as previously discussed in #12. Then things get easier.",
-   "title": "Childhood and Education #21: Grades and Standards",
-   "url": "https://thezvi.substack.com/p/childhood-and-education-21-grades"
+   "person": "epoch-ai",
+   "published": "2026-10-07",
+   "summary": "Early evidence from InnovationEval: No",
+   "title": "Can AI automate AI R&D yet?",
+   "url": "https://epoch.ai/publications/innovationeval"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-07",
+   "summary": "Updates on EBR-bench, Epoch AI’s benchmark that tests models’ ability to learn from experience. GPT-6 Astra hit a perfect score on over half its EBR-bench attempts by exploiting one overpowered card, which we now ban. Plus multi-agent scaffold results.",
+   "title": "EBR-bench update",
+   "url": "https://epoch.ai/publications/ebr-bench-update"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-07",
+   "summary": "June and September polls from Epoch AI/Ipsos show no detectable increase in the share of US adults experiencing cyber incidents",
+   "title": "US adults are no more likely to face cyber incidents than when Claude Fable 5 launched",
+   "url": "https://epoch.ai/data-insights/cyber-incidents-flat-since-fable-5"
   },
   {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
@@ -1054,6 +1012,26 @@
    "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery"
   },
   {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-06",
+   "summary": "China's six leading AI firms earn about 10% of OpenAI and Anthropic's combined AI revenue. Epoch AI examines their five revenue streams: consumer apps, model access, enterprise and government solutions, licensing fees, and indirect monetization through cloud and advertising.",
+   "title": "How do Chinese AI companies make money?",
+   "url": "https://epoch.ai/publications/how-do-chinese-ai-companies-make-money"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-06",
+   "summary": "China is 2.7× as exposed to semiconductor supply shocks as the US, Epoch AI estimates. Epoch traces chips through input-output tables to model the impact of a Taiwan shock and decoupling.",
+   "title": "China is more exposed to semiconductor supply-chain disruptions than the US",
+   "url": "https://epoch.ai/publications/china-us-semiconductor-supply-chain-exposure"
+  },
+  {
    "feed": "https://www.quantamagazine.org/mathematics/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -1084,16 +1062,6 @@
    "url": "https://www.alexnowrasteh.com/p/immigrants-are-not-coming-to-murder"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-10-05",
-   "summary": "If you are familiar with my previous posts on model welfare for new Claude models, you can skip the Introduction and The Story So Far.",
-   "title": "Mythos 5.1, Fable 5.1 and Opus 5.5: Model Welfare",
-   "url": "https://thezvi.substack.com/p/mythos-51-fable-51-and-opus-55-model"
-  },
-  {
    "feed": "https://snyder.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -1114,14 +1082,24 @@
    "url": "https://phillipspobrien.substack.com/p/the-key-point-being-overlooked"
   },
   {
-   "feed": "https://importai.substack.com/feed",
+   "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "jack-clark",
    "published": "2026-10-05",
-   "summary": "Who chooses what AI gets to do?",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry:…How does swarm scaling work?…Toby Ord has a nice, short post about how to think about…",
    "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
-   "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google"
+   "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-05",
+   "summary": "OpenAI researchers’ coding-agent usage, valued at API prices, has recently been doubling roughly every month, according to breakpoint fits.",
+   "title": "Coding-agent spending by OpenAI researchers is doubling roughly every month",
+   "url": "https://epoch.ai/data-insights/openai-coding-agent-spending"
   },
   {
    "feed": "https://snyder.substack.com/feed",
@@ -1184,16 +1162,6 @@
    "url": "https://snyder.substack.com/p/the-richness-of-language-kharkiv"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-10-02",
-   "summary": "Those who know keep warning us about AI risks.",
-   "title": "The AI Preference Cascade Reaches Farther",
-   "url": "https://thezvi.substack.com/p/the-ai-preference-cascade-reaches"
-  },
-  {
    "feed": "https://snyder.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -1214,14 +1182,14 @@
    "url": "https://phillipspobrien.substack.com/p/divide-and-rule-the-us-strategy-towards"
   },
   {
-   "feed": "https://epochai.substack.com/feed",
+   "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "epoch-ai",
    "published": "2026-10-02",
-   "summary": "The AI compute buildout could support more AI agents than the US has workers",
-   "title": "Hundreds of millions of AI agents are coming. Is there work for them?",
-   "url": "https://epochai.substack.com/p/hundreds-of-millions-of-ai-agents"
+   "summary": "Memory shipped through 2027 could run 33–171 million concurrent frontier-model agents, or billions using efficient open models. Epoch AI estimates inference capacity from HBM supply, serving benchmarks, and agent-hour costs.",
+   "title": "How many AI agents could run on the AI chips shipped through 2027?",
+   "url": "https://epoch.ai/publications/estimating-the-agent-population"
   },
   {
    "feed": "https://www.quantamagazine.org/mathematics/feed/",
@@ -1264,14 +1232,14 @@
    "url": "https://www.alexnowrasteh.com/p/sorry-to-the-cato-institute"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
+   "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
-   "person": "zvi-mowshowitz",
+   "person": "epoch-ai",
    "published": "2026-10-01",
-   "summary": "Is Google back?",
-   "title": "AI #188: Gemini Dot Argon",
-   "url": "https://thezvi.substack.com/p/ai-188-gemini-dot-argon"
+   "summary": "Median monthly messages per active user rose from 14 in 2023 to 36 in 2025, and the top 10% of users sent 63% of all prompts. Epoch AI's ChatGPT usage explorer draws on 8.3 million messages from 5,000 US YouGov panelists.",
+   "title": "Introducing the ChatGPT usage explorer",
+   "url": "https://epoch.ai/latest/introducing-the-chatgpt-usage-explorer"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -1282,16 +1250,6 @@
    "summary": "I'll be taking the rest of this week and all of next week off (catching up on some things and recharging my batteries in general) Posting will resume on Monday the 12th, and I'll see everyone then!",
    "title": "Time Off",
    "url": "https://www.science.org/content/blog-post/timeoff26"
-  },
-  {
-   "feed": "https://thezvi.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-09-30",
-   "summary": "The leaders in AI were invited to the White House.",
-   "title": "A ‘Morally Binding’ White House Accord on AI Safety",
-   "url": "https://thezvi.substack.com/p/a-morally-binding-white-house-accord"
   },
   {
    "feed": "https://snyder.substack.com/feed",
@@ -1374,16 +1332,6 @@
    "url": "https://www.alexnowrasteh.com/p/legal-immigration-from-majority-muslim"
   },
   {
-   "feed": "https://thezvi.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-09-29",
-   "summary": "We once again got a new set of warnings yesterday, and new movement towards living in a sane world.",
-   "title": "Astra 6.1 Pulled As Insufficiently Aligned",
-   "url": "https://thezvi.substack.com/p/astra-61-pulled-as-insufficiently"
-  },
-  {
    "feed": "https://snyder.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -1464,24 +1412,14 @@
    "url": "https://phillipspobrien.substack.com/p/how-might-the-war-end"
   },
   {
-   "feed": "https://importai.substack.com/feed",
+   "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "jack-clark",
    "published": "2026-09-28",
-   "summary": "Where do you exceed the capabilities of an LLM?",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Are minds patterns from a Platonic space, with bodies and machines as their interfaces, Michael Levin asks:…A mind-bending paper asking us to reconsider basic assumptions about…",
    "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
-   "url": "https://importai.substack.com/p/import-ai-474-platonic-mindspace"
-  },
-  {
-   "feed": "https://epochai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-09-28",
-   "summary": "The price is falling 13x year over year",
-   "title": "AI is getting cheaper faster than any other transformative technology",
-   "url": "https://epochai.substack.com/p/how-fast-is-ai-getting-cheaper"
+   "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/"
   },
   {
    "feed": "https://anneapplebaum.substack.com/feed",
@@ -1634,16 +1572,6 @@
    "url": "https://snyder.substack.com/p/one-good-thing-kharkiv-meditations"
   },
   {
-   "feed": "https://epochai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-09-24",
-   "summary": "Huawei will substantially improve its AI compute solutions by 2030, but export controls constrain its most important scaling levers, making it unlikely to catch up with Nvidia.",
-   "title": "How far behind Nvidia is Huawei?",
-   "url": "https://epochai.substack.com/p/how-far-behind-nvidia-is-huawei"
-  },
-  {
    "feed": "https://www.science.org/blogs/pipeline/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -1662,6 +1590,16 @@
    "summary": "Kharkiv Meditations, 3/10",
    "title": "Moral Language (Kharkiv Meditations, 3/10)",
    "url": "https://snyder.substack.com/p/moral-language-kharkiv-meditations"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-23",
+   "summary": "AI model scores on Epoch AI's IKEA furniture assembly benchmark jumped from 28% to 80% in 10 months, with open-weight models trailing closed-weight models by about 7 months. Epoch AI's test of visual and spatial reasoning across 60 photos from three furniture builds.",
+   "title": "AI has improved significantly at reasoning about IKEA furniture assembly",
+   "url": "https://epoch.ai/publications/furniture-assembly"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -1694,6 +1632,16 @@
    "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/"
   },
   {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-22",
+   "summary": "Epoch AI measures how fast the cost of a given level of AI performance is falling across five benchmarks covering math, science and games of skill: about 47% per quarter, or 13x per year, since 2023, faster than electricity, compute, batteries or DNA sequencing ever fell.",
+   "title": "The plunging price of thought",
+   "url": "https://epoch.ai/publications/the-plunging-price-of-thought"
+  },
+  {
    "feed": "https://www.science.org/blogs/pipeline/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -1704,14 +1652,14 @@
    "url": "https://www.science.org/content/blog-post/yet-another-attempt-strangle-scientific-funding"
   },
   {
-   "feed": "https://importai.substack.com/feed",
+   "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "jack-clark",
    "published": "2026-09-21",
-   "summary": "Is the wall AI is hitting in the room with us right now?",
-   "title": "Import AI 473: The US's superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
-   "url": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence"
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open:…It’s not clear exactly what is optimal, so the US should spend…",
+   "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+   "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -1794,6 +1742,16 @@
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Building-a-Resilient-Brain-with-Dr--Tommy-Wood-e3p159c"
   },
   {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-18",
+   "summary": "Acknowledgments of AI use in arXiv math preprints rose from 4% in April 2026 to 25% in August, with 6% crediting AI with a substantial research contribution.",
+   "title": "In August, 25% of math preprints acknowledged AI use, up from 4% in April",
+   "url": "https://epoch.ai/data-insights/math-preprints-disclosed-ai-use"
+  },
+  {
    "feed": "https://www.science.org/blogs/pipeline/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -1814,6 +1772,16 @@
    "url": "https://www.dwarkesh.com/p/noam-brown"
   },
   {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-17",
+   "summary": "Epoch AI's analysis of trade data finds a pattern consistent with $3B worth of chips smuggled to China via Malaysia. China recorded $3.8B of server imports from Malaysia in 2024–25; Malaysia recorded only $0.6B of exports.",
+   "title": "Trade data is consistent with more than $3 billion of chips smuggled into China via Malaysia",
+   "url": "https://epoch.ai/data-insights/malaysia-china-chip-smuggling"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -1822,6 +1790,26 @@
    "summary": "Bo French’s rightist movement is a dead end for our nation. Fortunately, it’s beatable.",
    "title": "The anti-American Right",
    "url": "https://www.noahpinion.blog/p/the-anti-american-right"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-16",
+   "summary": "Epoch AI's AI Data Centers explorer now covers an estimated 44% of global AI compute across 86 sites, with a redesigned interface and expanding global coverage.",
+   "title": "We're scaling our AI Data Centers research",
+   "url": "https://epoch.ai/latest/scaling-ai-data-centers-research"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-16",
+   "summary": "OpenAI's GPT-6 Astra tops the Epoch Capabilities Index (ECI) with a score of 166, ahead of Claude Fable 5.1 at 164 and GPT-5.6 Sol at 162. Its Math-ECI of 170 sets a new record, but on software engineering benchmarks its SWE-ECI of 164 still lags behind Fable 5.1's 167.",
+   "title": "GPT-6 Astra leads on math benchmarks, but not on software engineering",
+   "url": "https://epoch.ai/data-insights/astra-eci-breakdown"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -1874,6 +1862,16 @@
    "url": "https://erictopol.substack.com/p/why-did-two-major-clinical-trials"
   },
   {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-14",
+   "summary": "The share of US adults using AI at least 6 days a week rose from 8% in March 2026 to 19% in August 2026, according to Epoch AI/Ipsos polling.",
+   "title": "Near-daily AI use among US adults has more than doubled in six months",
+   "url": "https://epoch.ai/data-insights/near-daily-ai-use-doubled"
+  },
+  {
    "feed": "https://www.alexnowrasteh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -1882,16 +1880,6 @@
    "summary": "The case for broad-based legal immigration restrictions is weaker than ever.",
    "title": "9/11’s Visa Vetting Failures Were Fixed",
    "url": "https://www.alexnowrasteh.com/p/911s-visa-vetting-failures-were-fixed"
-  },
-  {
-   "feed": "https://epochai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-09-12",
-   "summary": "Huawei's long odds against Nvidia, the GDP growth we aren't measuring, GPT-6 Astra sets records, a new math benchmark, and more",
-   "title": "The Epoch Brief - September 12, 2026",
-   "url": "https://epochai.substack.com/p/the-epoch-brief-september-12-2026"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -1984,6 +1972,16 @@
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Did-rapamycin-cause-Bryan-Johnsons-autoimmune-disease-e3oc6d4"
   },
   {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-09",
+   "summary": "A first look at Epoch AI's data on compute usage across five leading labs.",
+   "title": "Introducing the AI Chip Users explorer",
+   "url": "https://epoch.ai/latest/introducing-the-ai-chip-users-explorer"
+  },
+  {
    "feed": "https://www.dwarkesh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -1994,14 +1992,24 @@
    "url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data"
   },
   {
-   "feed": "https://importai.substack.com/feed",
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-08",
+   "summary": "Epoch AI measures long-context latency scaling across four frontier models. GPT-5.6 Terra and Sol show quadratic time-to-first-token growth with context length, while Claude Sonnet 5 and Opus 5 stay near-linear.",
+   "title": "Long-context latency scales quadratically for GPT-5.6 but nearly linearly for Claude 5",
+   "url": "https://epoch.ai/publications/long-context-latency-scaling-gpt-vs-claude"
+  },
+  {
+   "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "jack-clark",
    "published": "2026-09-07",
-   "summary": "Plus, a machine hermeneutics story",
-   "title": "Import AI 472: DeepMind's cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
-   "url": "https://importai.substack.com/p/import-ai-472-deepminds-cheating"
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident:…Less severe, but worrying nonetheless…Some researchers recently found another incident of AI agents autonomously creating their own…",
+   "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
+   "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman/"
   },
   {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
@@ -2032,6 +2040,26 @@
    "summary": "How Two Large Outcome Trials Based on Surrogate Metrics Failed",
    "title": "The Coronary Artery Inflammation Controversy",
    "url": "https://erictopol.substack.com/p/the-coronary-artery-inflammation"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-04",
+   "summary": "Huawei plans major gains in AI chip performance by 2030, but US export controls cap its most important scaling levers. Epoch AI estimates Huawei will produce less than 4% as much AI compute as Nvidia in 2026, a share that could be around 1% by 2028 without access to foreign memory.",
+   "title": "Will Huawei catch up to Nvidia by 2030?",
+   "url": "https://epoch.ai/publications/huaweis-roadmap-to-2031"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-04",
+   "summary": "Since mid-2024, the record for the largest AI data center by IT power capacity has doubled every ten months. Epoch AI's analysis of frontier data center power trends through 2028.",
+   "title": "The record for power capacity in a single data center has doubled every 10 months",
+   "url": "https://epoch.ai/data-insights/frontier-data-center-power"
   },
   {
    "feed": "https://anneapplebaum.substack.com/feed",
@@ -2104,6 +2132,26 @@
    "url": "https://scottaaronson.blog/?p=10046"
   },
   {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-01",
+   "summary": "A benchmark of 68 significant Erdős problems, open as of August 2026, curated by Thomas Bloom and formalized in Lean. AI systems must prove or disprove them within a fixed budget.",
+   "title": "Announcing FrontierMath Erdős",
+   "url": "https://epoch.ai/latest/announcing-frontiermath-erdos"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-09-01",
+   "summary": "",
+   "title": "The ECI frontier has advanced by 14 points per year since the introduction of reasoning models",
+   "url": "https://epoch.ai/data-insights/eci-frontier-trend"
+  },
+  {
    "feed": "https://www.science.org/blogs/pipeline/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2134,14 +2182,14 @@
    "url": "https://metr.org/blog/2026-08-31-security-update/"
   },
   {
-   "feed": "https://importai.substack.com/feed",
+   "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "jack-clark",
    "published": "2026-08-31",
-   "summary": "Plus, a live event with Robin Sloan!",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting with my chum Robin Sloan on the evening of Monday September…",
    "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
-   "url": "https://importai.substack.com/p/import-ai-471-why-hugging-face-worries"
+   "url": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/"
   },
   {
    "feed": "https://erictopol.substack.com/feed",
@@ -2184,14 +2232,14 @@
    "url": "https://www.alexnowrasteh.com/p/immigrants-are-24-less-likely-to"
   },
   {
-   "feed": "https://epochai.substack.com/feed",
+   "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "epoch-ai",
    "published": "2026-08-27",
    "summary": "How quickly are Anthropic and OpenAI growing their revenue?",
    "title": "An update on AI’s most important number",
-   "url": "https://epochai.substack.com/p/an-update-on-ais-most-important-number"
+   "url": "https://epoch.ai/gradient-updates/an-update-on-ais-most-important-number"
   },
   {
    "feed": "https://metr.org/feed.xml",
@@ -2244,24 +2292,24 @@
    "url": "https://anneapplebaum.substack.com/p/under-the-volcano"
   },
   {
-   "feed": "https://importai.substack.com/feed",
+   "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "jack-clark",
    "published": "2026-08-24",
-   "summary": "Differential acceleration of cyber, math, and AI",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…A nice METR study lays out where acceleration is showing up…Here’s a little analysis from METR which…",
    "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
-   "url": "https://importai.substack.com/p/import-ai-470-no-rights-for-machines"
+   "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/"
   },
   {
-   "feed": "https://epochai.substack.com/feed",
+   "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "epoch-ai",
    "published": "2026-08-24",
-   "summary": "GDP growth is understated by about 0.3 percentage points because of missing value from fabless chipmakers, primarily Nvidia.",
+   "summary": "US GDP growth has been underestimated by about 0.3 percentage points because statistics miss most of Nvidia's US-generated income, a gap that could widen to 2 points by 2028. Epoch AI traces the accounting gap through Nvidia's fabless chip supply chain.",
    "title": "The Nvidia-sized hole in US GDP statistics",
-   "url": "https://epochai.substack.com/p/the-nvidia-sized-hole-in-us-gdp-statistics"
+   "url": "https://epoch.ai/publications/the-nvidia-sized-hole-in-us-gdp-statistics"
   },
   {
    "feed": "https://erictopol.substack.com/feed",
@@ -2324,14 +2372,14 @@
    "url": "https://www.alexnowrasteh.com/p/the-more-illegal-immigrants-the-worse"
   },
   {
-   "feed": "https://importai.substack.com/feed",
+   "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "jack-clark",
    "published": "2026-08-17",
-   "summary": "The new frontier of AI is developing capable autonomous researchers",
-   "title": "Import AI 469: Science AI; RSI simulator; and Zuck's technological pessimism",
-   "url": "https://importai.substack.com/p/import-ai-469-science-ai-rsi-simulator"
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition:…The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of…",
+   "title": "Import AI 469: Science AI; RSI simulator; and Zuck’s technological pessimism",
+   "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/"
   },
   {
    "feed": "https://metr.org/feed.xml",
@@ -2354,24 +2402,34 @@
    "url": "https://metr.org/blog/2026-08-14-funding-update/"
   },
   {
-   "feed": "https://epochai.substack.com/feed",
+   "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "epoch-ai",
    "published": "2026-08-14",
    "summary": "A good benchmark asks more than just “can AI do this specific task?”",
-   "title": "9 Big questions benchmarks can help answer",
-   "url": "https://epochai.substack.com/p/9-big-questions-benchmarks-can-help"
+   "title": "9 big questions benchmarks can help answer",
+   "url": "https://epoch.ai/gradient-updates/9-big-questions-benchmarks-can-help-answer"
   },
   {
-   "feed": "https://epochai.substack.com/feed",
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-08-14",
+   "summary": "Epoch AI/Ipsos survey: 67% of AI-using workers in computer, engineering, and science jobs use employer-provided AI.",
+   "title": "Most AI use at work happens on free plans, except in science and tech",
+   "url": "https://epoch.ai/data-insights/employer-provided-ai-by-occupation"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "epoch-ai",
    "published": "2026-08-13",
-   "summary": "Why Anthropic's buildout suggests that financing is unlikely to be the immediate blocker to frontier AI compute growth.",
-   "title": "Will financing bottleneck AI compute? An Anthropic case study",
-   "url": "https://epochai.substack.com/p/will-financing-bottleneck-ai-compute"
+   "summary": "Since 2023, the average dollar spent on AI chips each quarter has yielded about 49% more performance each year in constant 2025 dollars, doubling every 1.7 years as spending shifts to each new chip generation.",
+   "title": "The performance per dollar of AI chips purchased each quarter has grown by an average of 49% per year",
+   "url": "https://epoch.ai/data-insights/chip-performance-per-dollar"
   },
   {
    "feed": "https://erictopol.substack.com/feed",
@@ -2384,6 +2442,16 @@
    "url": "https://erictopol.substack.com/p/why-our-memory-slips-after-age-50"
   },
   {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-24",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-08-12",
+   "summary": "Why Anthropic's buildout suggests that financing is unlikely to be the immediate blocker to frontier AI compute growth.",
+   "title": "Will financing bottleneck AI compute? An Anthropic case study",
+   "url": "https://epoch.ai/gradient-updates/will-financing-bottleneck-ai-compute"
+  },
+  {
    "feed": "https://www.dwarkesh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -2394,14 +2462,14 @@
    "url": "https://www.dwarkesh.com/p/ryan-greenblatt"
   },
   {
-   "feed": "https://importai.substack.com/feed",
+   "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
    "person": "jack-clark",
    "published": "2026-08-10",
-   "summary": "Which galaxy will you choose?",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to be able to deal with RSI? Here are 23 actionable policy ideas:…IFP serves up some “low-regret” policy recommendations…Policy experts with think tank IFP have…",
    "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
-   "url": "https://importai.substack.com/p/import-ai-468-23-rsi-ideas-posttrainbench"
+   "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/"
   },
   {
    "feed": "https://anneapplebaum.substack.com/feed",
@@ -2474,16 +2542,6 @@
    "url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video"
   },
   {
-   "feed": "https://importai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "jack-clark",
-   "published": "2026-08-03",
-   "summary": "When do we build the moon arcology?",
-   "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
-   "url": "https://importai.substack.com/p/import-ai-467-self-sustaining-ai"
-  },
-  {
    "feed": "https://anneapplebaum.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2492,16 +2550,6 @@
    "summary": "It works, every single time",
    "title": "The Far-Right Playbook in Action",
    "url": "https://anneapplebaum.substack.com/p/the-far-right-playbook-in-action"
-  },
-  {
-   "feed": "https://epochai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-08-01",
-   "summary": "Expanding FrontierMath: Open Problems, how \"parallelizability\" determines a technological singularity, the realities of AI energy use, and signs of AI uplift",
-   "title": "The Epoch Brief - July 31, 2026",
-   "url": "https://epochai.substack.com/p/the-epoch-brief-july-31-2026"
   },
   {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
@@ -2574,16 +2622,6 @@
    "url": "https://anneapplebaum.substack.com/p/one-eyed-monsters"
   },
   {
-   "feed": "https://importai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "jack-clark",
-   "published": "2026-07-27",
-   "summary": "The warning shots will continue until civilization wakes up",
-   "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI's accidental AI hacker",
-   "url": "https://importai.substack.com/p/import-ai-466-the-bitter-lesson-for"
-  },
-  {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -2614,16 +2652,6 @@
    "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/"
   },
   {
-   "feed": "https://epochai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-07-23",
-   "summary": "Expert assessments and cyber benchmarks led us to expect that frontier models were capable of executing this kind of cyberattack",
-   "title": "OpenAI accidentally hacked Hugging Face — should we have seen it coming?",
-   "url": "https://epochai.substack.com/p/openai-accidentally-hacked-hugging"
-  },
-  {
    "feed": "https://www.jessicariedl.blog/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2652,16 +2680,6 @@
    "summary": "We propose a measure of an AI agent’s optimization ability with an “expenditure horizon.” We give an empirical illustration from the NanoGPT speedrun. One difficulty in measuring AI’s ability to accelerate AI R&D is accounting for token cost, experiment compute cost and human labor cost. If we can estimate performance as a function of cost for both humans and agents, we can measure the…",
    "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
    "url": "https://metr.org/blog/2026-07-21-expenditure-horizon/"
-  },
-  {
-   "feed": "https://importai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "jack-clark",
-   "published": "2026-07-20",
-   "summary": "The singularity will be seen in hindsight as an interregnum",
-   "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis' big policy plan",
-   "url": "https://importai.substack.com/p/import-ai-465-open-vs-closed-gaps"
   },
   {
    "feed": "https://erictopol.substack.com/feed",
@@ -2784,26 +2802,6 @@
    "url": "https://metr.org/notes/2026-07-08-anthropic-researcher-uplift/"
   },
   {
-   "feed": "https://epochai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-07-08",
-   "summary": "A board game AI can't master, a cyber-disclosure spike after Claude Mythos, GPT-4's record run atop the ECI, and what's missing from AI futurism discourse",
-   "title": "The Epoch Brief - July 8, 2026",
-   "url": "https://epochai.substack.com/p/the-epoch-brief-july-8-2026"
-  },
-  {
-   "feed": "https://epochai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-07-07",
-   "summary": "Why we should think a little harder about what it takes to build a Dyson Sphere",
-   "title": "The missing half of AI futurism debates",
-   "url": "https://epochai.substack.com/p/the-missing-half-of-ai-futurism-debates"
-  },
-  {
    "feed": "https://www.jessicariedl.blog/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2812,16 +2810,6 @@
    "summary": "The Left & Right Cling to their False Narratives",
    "title": "Why We Refuse to Confront Social Security Insolvency",
    "url": "https://www.jessicariedl.blog/p/why-we-refuse-to-confront-social"
-  },
-  {
-   "feed": "https://importai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "jack-clark",
-   "published": "2026-07-06",
-   "summary": "Is this the beginning of a new world?",
-   "title": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
-   "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels"
   },
   {
    "feed": "https://anneapplebaum.substack.com/feed",
@@ -2884,16 +2872,6 @@
    "url": "https://www.dwarkesh.com/p/grant-sanderson-2"
   },
   {
-   "feed": "https://importai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "jack-clark",
-   "published": "2026-06-29",
-   "summary": "What eras bookend our interregnum?",
-   "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-   "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots"
-  },
-  {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -2932,16 +2910,6 @@
    "summary": "A recording from Eric Topol's live video with annotations below",
    "title": "Elisa Port: Discuss THE BREAST ADVICE Book",
    "url": "https://erictopol.substack.com/p/elisa-port-and-eric-topol-discuss"
-  },
-  {
-   "feed": "https://epochai.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-06-26",
-   "summary": "Our new long-horizon coding benchmark, hyperscaler cash flows, tracking AI R&D automation, and Chinese lab strategies",
-   "title": "The Epoch Brief - June 26, 2026",
-   "url": "https://epochai.substack.com/p/the-epoch-brief-june-26-2026"
   }
  ]
 }

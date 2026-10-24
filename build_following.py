@@ -299,7 +299,7 @@ def fetch_all(people: List[Person], topics: Dict[str, Topic], today: date) -> No
     items = {item["url"]: item for item in state["items"]}
     failing: Dict[str, dict] = state.get("failing", {})
     oldest = today - timedelta(days=KEEP_DAYS)
-    added = 0
+    stored = set(items)
     for person in people:
         for feed in person.feeds:
             try:
@@ -321,7 +321,6 @@ def fetch_all(people: List[Person], topics: Dict[str, Topic], today: date) -> No
                     continue
                 if item is None:
                     item = items[url] = {"url": url, "first_seen": today.isoformat()}
-                    added += 1
                 item.update({
                     "title": title,
                     "summary": summary,
@@ -345,6 +344,7 @@ def fetch_all(people: List[Person], topics: Dict[str, Topic], today: date) -> No
     state["items"] = kept
     state["failing"] = {url: value for url, value in failing.items() if url in feeds}
     save_state(state)
+    added = sum(item["url"] not in stored for item in kept)
     print(f"Fetched {len(feeds)} feeds: {added} new items, {len(kept)} stored, {len(state['failing'])} failing")
 
 

@@ -71,10 +71,11 @@ why = "Long weekly roundups of everything that happened in AI, read through the 
 [[person.channel]]
 label = "Don't Worry About the Vase"
 url = "https://thezvi.substack.com/"
-note = "Substack"
+note = "Substack, mirrored on WordPress"
 
+# Substack refuses GitHub's servers; the WordPress mirror doesn't.
 [[person.feed]]
-url = "https://thezvi.substack.com/feed"
+url = "https://thezvi.wordpress.com/feed/"
 label = "Don't Worry About the Vase"
 
 
@@ -90,8 +91,9 @@ label = "Import AI"
 url = "https://importai.substack.com/"
 note = "weekly newsletter"
 
+# Substack refuses GitHub's servers; his own site carries the same issues.
 [[person.feed]]
-url = "https://importai.substack.com/feed"
+url = "https://jack-clark.net/feed/"
 label = "Import AI"
 
 
@@ -140,9 +142,11 @@ title = "Can AI Scaling Continue Through 2030?"
 url = "https://epoch.ai/publications/can-ai-scaling-continue-through-2030"
 note = "2024"
 
+# Substack refuses GitHub's servers, so this reads Epoch's own site, which
+# has its reports and data insights as well as the newsletter.
 [[person.feed]]
-url = "https://epochai.substack.com/feed"
-label = "Epoch AI"
+url = "https://epoch.ai/atom.xml"
+label = "epoch.ai"
 
 
 [[person]]

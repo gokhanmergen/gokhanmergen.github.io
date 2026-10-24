@@ -14,12 +14,12 @@ Manual changes will be overwritten.
     <outline text="AI safety &amp; the future">
       <outline type="rss" text="Scott Aaronson · Shtetl-Optimized" title="Scott Aaronson · Shtetl-Optimized" xmlUrl="https://scottaaronson.blog/?feed=rss2" htmlUrl="https://scottaaronson.blog/"/>
       <outline type="rss" text="Scott Aaronson · arXiv" title="Scott Aaronson · arXiv" xmlUrl="https://export.arxiv.org/api/query?search_query=au:Aaronson_Scott&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=10" htmlUrl="https://scottaaronson.blog/"/>
-      <outline type="rss" text="Zvi Mowshowitz · Don&#x27;t Worry About the Vase" title="Zvi Mowshowitz · Don&#x27;t Worry About the Vase" xmlUrl="https://thezvi.substack.com/feed" htmlUrl="https://thezvi.substack.com/"/>
-      <outline type="rss" text="Jack Clark · Import AI" title="Jack Clark · Import AI" xmlUrl="https://importai.substack.com/feed" htmlUrl="https://importai.substack.com/"/>
+      <outline type="rss" text="Zvi Mowshowitz · Don&#x27;t Worry About the Vase" title="Zvi Mowshowitz · Don&#x27;t Worry About the Vase" xmlUrl="https://thezvi.wordpress.com/feed/" htmlUrl="https://thezvi.substack.com/"/>
+      <outline type="rss" text="Jack Clark · Import AI" title="Jack Clark · Import AI" xmlUrl="https://jack-clark.net/feed/" htmlUrl="https://importai.substack.com/"/>
       <outline type="rss" text="METR · METR" title="METR · METR" xmlUrl="https://metr.org/feed.xml" htmlUrl="https://metr.org/"/>
     </outline>
     <outline text="AI, work &amp; economy">
-      <outline type="rss" text="Epoch AI · Epoch AI" title="Epoch AI · Epoch AI" xmlUrl="https://epochai.substack.com/feed" htmlUrl="https://epoch.ai/"/>
+      <outline type="rss" text="Epoch AI · epoch.ai" title="Epoch AI · epoch.ai" xmlUrl="https://epoch.ai/atom.xml" htmlUrl="https://epoch.ai/"/>
       <outline type="rss" text="Tyler Cowen · Marginal Revolution" title="Tyler Cowen · Marginal Revolution" xmlUrl="https://marginalrevolution.com/feed" htmlUrl="https://marginalrevolution.com/"/>
       <outline type="rss" text="Noah Smith · Noahpinion" title="Noah Smith · Noahpinion" xmlUrl="https://www.noahpinion.blog/feed" htmlUrl="https://www.noahpinion.blog/"/>
       <outline type="rss" text="Dwarkesh Patel · Dwarkesh Podcast" title="Dwarkesh Patel · Dwarkesh Podcast" xmlUrl="https://www.dwarkesh.com/feed" htmlUrl="https://www.dwarkesh.com/"/>
