@@ -137,6 +137,27 @@ answers:
   - Aaronson's arXiv author page was dead, and Google Scholar replaced it.
   - Two book links were unverified and now use publisher DOIs.
 
+### Tested on GitHub, 2026-10-24
+
+The page went live at `https://www.gokhanmergen.com/following.html`, with
+`noindex`. The first run of the Action on GitHub's servers worked and
+committed, and its push started a Pages build by itself.
+
+That run also showed that Substack refuses every request from GitHub's
+servers, whatever the user agent or client. Seven feeds got HTTP 403 there,
+though all had worked from a home connection. Substacks on their own
+domains, such as Noahpinion, were unaffected. A temporary test branch
+confirmed it, and was deleted afterwards. Three of the seven now read
+mirrors of the same work:
+
+- Zvi Mowshowitz: `thezvi.wordpress.com`
+- Import AI: `jack-clark.net`
+- Epoch AI: `epoch.ai/atom.xml`
+
+The second run read 17 of the 21 feeds. The other four (Eric Topol, Timothy
+Snyder, Anne Applebaum and Phillips P. O'Brien) publish only on Substack.
+Their cards and stored items stay, but the Action can't update them.
+
 ### Open
 
 - The "why" line on each card, and the page's intro, are Claude's drafts in
@@ -145,6 +166,7 @@ answers:
 - After the first push, confirm the Action runs and that its commits
   redeploy the site. The workflow also requests a Pages build, in case a
   push with the workflow token doesn't start one.
+- Decide how the four Substack-only feeds get updated.
 - The weekly Claude pass is not built yet.
 - The page stays unlinked until the author decides otherwise.
 
