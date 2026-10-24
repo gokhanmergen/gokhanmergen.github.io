@@ -1,5 +1,18 @@
 {
- "failing": {},
+ "failing": {
+  "https://anneapplebaum.substack.com/feed": {
+   "since": "2026-10-24"
+  },
+  "https://erictopol.substack.com/feed": {
+   "since": "2026-10-24"
+  },
+  "https://phillipspobrien.substack.com/feed": {
+   "since": "2026-10-24"
+  },
+  "https://snyder.substack.com/feed": {
+   "since": "2026-10-24"
+  }
+ },
  "items": [
   {
    "feed": "https://terrytao.wordpress.com/feed/",
