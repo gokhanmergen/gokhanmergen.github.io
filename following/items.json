@@ -15,6 +15,26 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-25",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-25",
+   "summary": "What will be next to break?",
+   "title": "The internet breaks",
+   "url": "https://www.noahpinion.blog/p/the-internet-breaks"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-25",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-25",
+   "summary": "How leaders allocate their limited time and attention is an important question in economics. This paper constructs and analyzes a novel data set covering the daily calendars of three Federal Reserve Chairs, Ben Bernanke, Janet Yellen, and Jerome Powell, containing more than 20,000 calendar entries. We document several patterns. First, all Fed Chairs spend more…",
+   "title": "How central bankers spend their time",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/how-central-bankers-spend-their-time.html"
+  },
+  {
    "feed": "https://terrytao.wordpress.com/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2893,36 +2913,6 @@
    "summary": "What does \"longevity\" really mean? Are biological age tests ready for clinical use? Is rapamycin still the most promising longevity drug? And where do GLP-1 medications fit into the future of healthy aging?In this fireside chat from the Longevity Investors Conference, I discuss some of the biggest questions facing longevity science today—and why separating rigorous evidence from hype is more…",
    "title": "The Biggest Problems in Longevity Science",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Biggest-Problems-in-Longevity-Science-e3lc4lu"
-  },
-  {
-   "feed": "https://www.dwarkesh.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "dwarkesh-patel",
-   "published": "2026-06-26",
-   "summary": "Labs are throwing away the most valuable data.",
-   "title": "The next big breakthrough will be AIs learning on the job",
-   "url": "https://www.dwarkesh.com/p/the-next-paradigm"
-  },
-  {
-   "feed": "https://metr.org/feed.xml",
-   "first_seen": "2026-10-24",
-   "kind": "report",
-   "person": "metr",
-   "published": "2026-06-26",
-   "summary": "Note on independence: This evaluation was conducted under a standard NDA. Due to the sensitive information shared with METR as part of this evaluation, OpenAI’s comms and legal team required review and approval of this post. 1 Summary We conducted an independent external evaluation of GPT-5.6 Sol. For this evaluation, OpenAI provided: Access to GPT-5.6 Sol, both the final checkpoint and a…",
-   "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
-   "url": "https://metr.org/blog/2026-06-26-gpt-5-6-sol/"
-  },
-  {
-   "feed": "https://erictopol.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "eric-topol",
-   "published": "2026-06-26",
-   "summary": "A recording from Eric Topol's live video with annotations below",
-   "title": "Elisa Port: Discuss THE BREAST ADVICE Book",
-   "url": "https://erictopol.substack.com/p/elisa-port-and-eric-topol-discuss"
   }
  ]
 }
