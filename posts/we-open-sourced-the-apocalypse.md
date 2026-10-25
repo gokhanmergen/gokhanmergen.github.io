@@ -7,6 +7,7 @@ read_time: 12 min read
 title: We May Have Just Open-Sourced the Digital Apocalypse
 deck: Recent open source AI broke the bargain that kept the internet safe.
 archive_deck: Recent open source AI broke the bargain that kept the internet safe.
+email: send
 ---
 
 For years, whenever artificial intelligence came up in private conversations, I repeated the same warning to anyone who would listen: **open-sourcing human-level—or superhuman—AI is utterly, unforgivably irresponsible.**

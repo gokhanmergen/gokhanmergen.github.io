@@ -21,6 +21,7 @@ Manual changes will be overwritten.
       <category>AI / Safety</category>
       <description>Recent open source AI broke the bargain that kept the internet safe.</description>
       <blog:readTime>12 min read</blog:readTime>
+      <blog:email>send</blog:email>
       <content:encoded>&lt;p&gt;For years, whenever artificial intelligence came up in private conversations, I repeated the same warning to anyone who would listen: &lt;strong&gt;open-sourcing human-level—or superhuman—AI is utterly, unforgivably irresponsible.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;To me, the logic was painfully obvious. Open-source AI is one step from free, unrestricted AI, and unrestricted AI is intolerable—because capability is indifferent to intent. A model is precisely as good at causing harm as it is at doing good.&lt;/p&gt;
 &lt;p&gt;You do not open-source the enrichment protocols for thermonuclear weapons in the name of &amp;quot;democratizing energy.&amp;quot; You do not upload plug-and-play synthesis instructions for weaponized smallpox to GitHub just to stick it to &amp;quot;Big Pharma.&amp;quot; The &amp;quot;open-source at all costs&amp;quot; crowd brushed this off as alarmist gatekeeping, arguing that open weights would empower defenders just as much as attackers and that safety guardrails were enough.&lt;/p&gt;
