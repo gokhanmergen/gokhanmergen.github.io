@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="Defense won the PHP race by four days" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+  <style>
+    .title { font-size: 19px; fill: #16150f; }
+    .sub   { fill: #6b6a62; }
+    .lab   { fill: #16150f; }
+    .muted { fill: #6b6a62; }
+    .rail  { fill: #d6d4cc; }
+    .hot   { fill: #c0392b; }
+    .hottx { fill: #c0392b; }
+    @media (prefers-color-scheme: dark) {
+      .title, .lab { fill: #f5f4ef; }
+      .sub, .muted { fill: #a3a199; }
+      .rail { fill: #45443e; }
+      .hot, .hottx { fill: #e05a4a; }
+    }
+  </style>
+  <text class="title" x="40" y="36">Defense won the PHP race by four days</text>
+  <text class="sub" x="40" y="62">Defenders found this flaw first, had a long head start, and still finished in a photo finish.</text>
+
+  <text class="sub" x="390" y="110" text-anchor="middle">77 days of patch development</text>
+  <text class="hottx" x="686" y="110" text-anchor="middle">4 days</text>
+
+  <rect class="rail" x="70" y="125" width="562" height="14" rx="7"/>
+  <rect class="hot" x="632" y="125" width="29" height="14" rx="7"/>
+
+  <circle class="rail" cx="70" cy="132" r="6"/>
+  <circle class="hot" cx="632" cy="132" r="6"/>
+  <circle class="rail" cx="661" cy="132" r="6"/>
+
+  <text class="lab" x="70" y="176">Aug 1 · Defenders find the flaw</text>
+  <text class="lab" x="716" y="176" text-anchor="end">Oct 17 · Attackers exploiting it in the wild</text>
+  <text class="lab" x="716" y="202" text-anchor="end">Oct 21 · Patch ships; NSA tells sites to go offline</text>
+
+  <text class="muted" x="40" y="236" font-size="12">Early signs of the flaw surfaced in a 2024 security audit; the fix stalled until August 2026.</text>
+</svg>
