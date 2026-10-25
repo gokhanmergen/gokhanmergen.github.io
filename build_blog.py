@@ -586,15 +586,19 @@ def render_excerpt(post: Post) -> str:
     """Return the post's opening paragraphs as HTML.
 
     Headings, lists, images and the caption paragraph right after an image
-    are skipped, since the caption makes no sense without its image. Folded
-    sections end the excerpt.
+    are skipped, since the caption makes no sense without its image. Pull
+    quotes stay, as plain paragraphs, since the text around them often
+    refers to them. Folded sections end the excerpt.
     """
     paragraphs: List[str] = []
     words = 0
     after_image = False
+    pull_quote = '<p class="blog-article-emphasis">'
     for block in render_markdown(post.body).split("\n\n"):
         if block.startswith("<details"):
             break
+        if block.startswith(pull_quote):
+            block = "<p>" + block[len(pull_quote):]
         is_caption = after_image
         after_image = block.startswith("<figure")
         if not block.startswith("<p>") or is_caption:
