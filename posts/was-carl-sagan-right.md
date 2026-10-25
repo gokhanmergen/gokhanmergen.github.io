@@ -61,8 +61,6 @@ Yes, but by 1995 that was already history. Harvard's Kiku Adatto [measured candi
 
 Two things changed instead. Television kept the picture and dropped the argument: "image bites," candidates seen but not heard, grew from 22 to 26 seconds per story between 1992 and 2004 and outlasted the sound bites. Then the news moved to the feed: [one in five U.S. adults](https://www.pewresearch.org/short-reads/2026/10/19/1-in-5-americans-regularly-get-news-on-tiktok/) now regularly gets news on TikTok, as do nearly four in ten under 30.
 
-Some popular numbers do not survive scrutiny. The "3-second hook" comes from a [2015 Facebook-commissioned ad-recall study](https://martech.org/even-brief-video-views-drive-brand-lift-facebook-nielsen-study-finds/), and the 8-second "goldfish" attention span [has no traceable source](https://internet.psych.wisc.edu/wp-content/uploads/532-Master/532-UnitPages/Unit-09/Goldfish_MythBusting.pdf). Better evidence comes from UC Irvine's Gloria Mark, who found that office workers [stayed on one screen](https://www.universityofcalifornia.edu/news/cant-pay-attention-youre-not-alone) about 2.5 minutes before switching in 2004 and about 47 seconds in recent years. That measures switching, not capacity, but the trend is real.
-
 ## 3. Are we sliding back into superstition?
 
 Mostly yes, though not the way Sagan pictured it. Old-fashioned superstition is flat: in [Pew's 2024 survey](https://www.pewresearch.org/religion/2025/05/21/3-in-10-americans-consult-astrology-tarot-cards-or-fortune-tellers/), 27% of adults said they believe in astrology, statistically unchanged from 2017, and [Gallup](https://news.gallup.com/poll/16915/Three-Four-Americans-Believe-Paranormal.aspx) found about the same in 1990.
