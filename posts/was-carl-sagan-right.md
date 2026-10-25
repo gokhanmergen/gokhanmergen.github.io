@@ -6,6 +6,7 @@ read_time: 11 min read
 title: Was Carl Sagan Right About the "Dumbing Down" of America?
 deck: Thirty years of data show not a nation getting dumber, but one splitting in two.
 archive_deck: Thirty years of data show not a nation getting dumber, but one splitting in two.
+email: send
 ---
 
 ## What did Sagan predict?
