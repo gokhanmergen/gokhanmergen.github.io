@@ -2,7 +2,7 @@
 slug: was-carl-sagan-right
 date: 2026-10-24
 category: Truth / Society
-read_time: 12 min read
+read_time: 11 min read
 title: Was Carl Sagan Right About the "Dumbing Down" of America?
 deck: Thirty years of data show not a nation getting dumber, but one splitting in two.
 archive_deck: Thirty years of data show not a nation getting dumber, but one splitting in two.
@@ -39,8 +39,6 @@ Yes, and the second half matters more. Manufacturing held 21.7% of U.S. payroll 
 
 ![Since Sagan wrote, factory jobs fell 27% while factory output rose 43%](sagan-manufacturing-jobs-vs-output.png)
 
-*Source: BLS Current Employment Statistics (MANEMP) and Federal Reserve industrial production (IPMAN), via FRED · June values, 1979–2026*
-
 Rising output complicates the story without overturning it. Nearly all of the gain came before 2007, and much of it reflects [quality adjustments for faster computer chips](https://www.upjohn.org/research-highlights/understanding-decline-manufacturing-employment). Trade did more damage than robots: [Chinese import competition alone cost an estimated 2.0 to 2.4 million U.S. jobs](https://www.nber.org/papers/w20395) from 1999 to 2011.
 
 The "very few" can be counted. Industry built [93 of 102 notable AI models in 2025](https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_1_research_development.pdf); academia built two. The ten largest companies held [almost 40% of the S&P 500](https://www.spglobal.com/spdji/en/research/article/in-the-shadows-of-giants/) in mid-2025, the highest share since the mid-1960s, and four of them plan [about $725 billion of capital spending](https://finance.yahoo.com/sectors/technology/article/meta-microsoft-amazon-and-alphabet-are-about-to-spend-a-shocking-amount-of-money-to-dominate-the-ai-era-115359575.html) in 2026, mostly on AI.
@@ -57,8 +55,6 @@ Yes, but by 1995 that was already history. Harvard's Kiku Adatto [measured candi
 
 ![The sound bite stopped shrinking by 1988; the news has since moved to the feed](sagan-sound-bites-and-tiktok-news.png)
 
-*Source: Adatto 1990 (1968, 1988); Bucy & Grabe 2007, Table 1 (1992–2004, ABC, CBS, NBC); Pew Research Center surveys, 2020 and August 2026*
-
 Two things changed instead. Television kept the picture and dropped the argument: "image bites," candidates seen but not heard, grew from 22 to 26 seconds per story between 1992 and 2004 and outlasted the sound bites. Then the news moved to the feed: [one in five U.S. adults](https://www.pewresearch.org/short-reads/2026/10/19/1-in-5-americans-regularly-get-news-on-tiktok/) now regularly gets news on TikTok, as do nearly four in ten under 30.
 
 ## 3. Are we sliding back into superstition?
@@ -66,8 +62,6 @@ Two things changed instead. Television kept the picture and dropped the argument
 Mostly yes, though not the way Sagan pictured it. Old-fashioned superstition is flat: in [Pew's 2024 survey](https://www.pewresearch.org/religion/2025/05/21/3-in-10-americans-consult-astrology-tarot-cards-or-fortune-tellers/), 27% of adults said they believe in astrology, statistically unchanged from 2017, and [Gallup](https://news.gallup.com/poll/16915/Three-Four-Americans-Believe-Paranormal.aspx) found about the same in 1990.
 
 ![Belief in astrology has been flat for 35 years](sagan-astrology-belief.png)
-
-*Source: Gallup (1990–2005); Pew Research Center (2009, 2017, 2024); NSF Science & Engineering Indicators 2020, Table S7-32 (General Social Survey) · Gallup and Pew wordings differ*
 
 The new superstition arrives through the feed. A quarter of adults use social media for health information at least weekly, and they are more than twice as likely to believe the MMR vaccine causes autism: [37%, against 16%](https://www.kff.org/public-opinion/kff-tracking-poll-on-health-information-and-trust-update-on-common-vaccine-myths/) of those who never do. Few Americans are ardent believers in any one myth, but 31% sit in a "mixed middle," unsure what is true. Political news is sorted the same way: among [208 million U.S. Facebook users](https://csmapnyu.org/research/academic-research/asymmetric-ideological-segregation-in-exposure-to-political-news-on-facebook) in 2020, exposure was highly segregated by ideology, and more so in what people engaged with than in what they could have seen.
 
@@ -77,8 +71,6 @@ Where doubt meets biology, it becomes disease. A record 4.2% of kindergartners h
 
 ![Measles is back: 2026 already has the most U.S. cases since 1991](sagan-measles-cases.png)
 
-*Source: CDC annual counts, 2000–2024; 2025 and 2026 (through Oct. 22) from CDC via USAFacts and the Congressional Research Service*
-
 The skill that would prevent this is the one Sagan cared about most, and the OECD estimates that [more than half of 15-year-olds](https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en) may be vulnerable to misinformation. **Horoscopes are flat; superstition has moved into the feed, and the inability to tell a reliable claim from a viral one is the real candle going out.**
 
 ## 4. Did IQ scores rise, and are they now falling?
@@ -86,8 +78,6 @@ The skill that would prevent this is the one Sagan cared about most, and the OEC
 They rose for most of a century. [James Flynn found](https://doi.org/10.1037/0033-2909.95.1.29) that U.S. IQ scores climbed about 3 points per decade from 1932 to 1978, and a [meta-analysis of 285 studies](https://doi.org/10.1037/a0037173) confirmed the gain. Better nutrition, longer schooling and work that rewarded abstract thought did the teaching. What an environment can teach, it can untrain.
 
 ![Where IQ scores reversed, they fell about as fast as they once rose](sagan-iq-rise-and-reversal.png)
-
-*Source: Flynn 1984; Trahan et al. 2014; Bratsberg & Rogeberg 2018; Dworak, Revelle & Condon 2023 (−0.013 SD a year at 15 IQ points per SD) · different tests and samples, so compare directions and rough sizes*
 
 The strongest evidence of a reversal is Norwegian. Among [736,808 conscripts born 1962–1991](https://doi.org/10.1073/pnas.1718793115), scores peaked with the 1975 birth cohort and then fell about a third of a point a year. Because the decline shows up between brothers, it cannot be a change in who has children; it is environmental. [Danish scores](https://doi.org/10.1371/journal.pone.0261117) turned down after the 1980 cohort.
 
@@ -99,19 +89,13 @@ Yes, and the losses run from the bottom up. NAEP's long-term trend has tested 13
 
 ![Thirteen-year-olds peaked in 2012 and were slipping before schools closed](sagan-naep-age-13-trend.png)
 
-*Source: NCES, NAEP long-term trend 2025 technical appendix, age 13 (revised format from 2004); teen smartphone access from Pew Research Center (2012 figure covers ages 12–17)*
-
 The shape is an hourglass. Since 2013, [the weakest eighth-graders](https://www.nationsreportcard.gov/DataService/GetAdhocData.aspx?type=data&subject=mathematics&grade=8&subscale=MRPCM&variable=TOTAL&jurisdiction=NT&stattype=PC:P1,PC:P9,MN:MN&Year=2013,2019,2022,2024) have lost about six times as much ground as the strongest; in reading, half of that loss came before 2020. In 2024, eighth-grade math was flat overall only because [higher performers gained while lower performers fell](https://www.nagb.gov/powered-by-naep/the-2024-nations-report-card/10-takeaways-from-2024-naep-results), and twelfth-graders posted the [lowest scores ever reported](https://www.nagb.gov/powered-by-naep/the-2024-nations-report-card/top-5-takeaways-from-12-grade-naep-math-reading-results.html), with 45% below Basic in math.
 
 ![Since 2013 the weakest eighth-graders lost six times as much as the strongest](sagan-naep-grade-8-percentiles.png)
 
-*Source: NAEP Data Service, grade 8, national public and private schools, 2013–2024*
-
 Internationally, the U.S. is falling more slowly than its peers. [PISA 2025](https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/student-performance-in-pisa-2025_23e075c2.html), released September 8, 2026, put U.S. 15-year-olds at record lows in math and reading. The OECD average fell further, so U.S. rankings [rose to 13th in reading and 27th in math](https://k12dive.com/news/from-science-to-screen-time-4-key-takeaways-from-the-latest-pisa-results/829867).
 
 ![U.S. math and reading hit record lows, but the OECD average fell faster](sagan-pisa-us-vs-oecd.png)
-
-*Source: NCES PISA highlights (2000–2022) and OECD PISA 2025 Results, Volume I · official trends from 2003 (math) and 2006 (science); no U.S. reading score in 2006; the OECD average covers a changing set of countries*
 
 Two cautions apply. Over 40% of U.S. students [skipped the background questionnaire](https://chalkbeat.org/2026/09/08/pisa-results-2025-show-us-gaining-as-other-countries-decline) after a testing pause in spring 2025, so the OECD could not rule out bias. And by the OECD's own estimate that U.S. students gain 12 to 14 points a school year, the 14-point reading drop is roughly a year of learning.
 
@@ -121,15 +105,11 @@ No. Adults are slipping too, so schools cannot be the whole story. On the OECD's
 
 ![Adult literacy fell most where it was already lowest](sagan-adult-literacy-by-education.png)
 
-*Source: NCES, PIAAC Cycle 2 U.S. national results, adults 16–65; IES press release, December 2024 · the 2023 survey used a new test format*
-
 Here too the shape is an hourglass. The NCES commissioner described a ["dwindling middle"](https://ies.ed.gov/learn/press-release/u-s-adults-score-par-international-average-literacy-skills-below-international-average-numeracy-and): more adults clustered at the bottom, a rising share at the very top of numeracy, and a gap between the most and least skilled that is the widest of any participating country. Across the OECD, [only Finland and Denmark improved](https://educacionfpydeportes.gob.es/dam/jcr:a8e49b84-bc36-4225-ba3e-353fa97c7f6b/insightsinterpretations.pdf) in literacy. The 2023 test changed format, so the size of the drop deserves care; its direction does not.
 
 The habit that builds these skills is fading at every age, [fastest among lower-income, less-educated and rural Americans](https://www.ucl.ac.uk/news/2025/aug/proportion-americans-reading-pleasure-fell-40-over-20-years).
 
 ![Reading for pleasure is down on every long-run measure](sagan-reading-for-pleasure.png)
-
-*Source: NEA arts participation survey (2002, 2022); Bone, Bu, Sonke & Fancourt, iScience 2025 (American Time Use Survey); NAEP long-term trend via Pew Research Center and NCES · “Change” is the relative decline in the share*
 
 ## 7. What is driving the decline?
 
@@ -148,8 +128,6 @@ The common thread is time and attention. Reading, attendance and practice build 
 The next test has already begun. In a [field experiment with about 1,000 high-school math students](https://doi.org/10.1073/pnas.2422633122), an unrestricted chatbot raised practice scores and then lowered exam scores once it was taken away. A tutor built to make students think avoided the loss.
 
 ![An unrestricted chatbot lifted practice scores 48%, then cut exam scores 17%](sagan-ai-chatbot-vs-tutor.png)
-
-*Source: Bastani et al., PNAS 2025 · field experiment in high-school math; the tutor’s exam effect was not statistically significant*
 
 How AI enters classrooms may matter more than whether it does.
 
@@ -223,4 +201,18 @@ Sagan wrote *The Demon-Haunted World* as a manual, not an obituary. The candle h
 - [Figlio and Özek, NBER](https://nber.org/digest/202512/school-cell-phone-bans-and-student-achievement); [Odgers (2024)](https://developingadolescent.semel.ucla.edu/news/item/the-great-rewiring-is-social-media-really-behind-an-epidemic-of-teenage-mental-illness); [Staiger, WJLA](https://wjla.com/news/crisis-in-the-classroom/story/reading-scores-have-dropped-for-10-years-a-dartmouth-professor-explains-why); [AEI, chronic absenteeism](https://www.aei.org/research-products/report/from-attendance-crisis-to-chronic-condition-tracking-post-pandemic-chronic-absenteeism-into-2025/); Pew, teens and technology [2013](https://www.pewresearch.org/internet/2013/03/13/teens-and-technology-2013/), [2018](https://www.pewresearch.org/internet/2018/05/31/teens-social-media-technology-2018/)
 - [Bastani et al. (2025), PNAS](https://doi.org/10.1073/pnas.2422633122)
 - [Census 1995](https://www.census.gov/content/dam/Census/library/publications/1996/demo/p20-489.pdf); [Census 2024](https://www.census.gov/newsroom/press-releases/2025/educational-attainment-data.html); [Jon Miller, civic scientific literacy](https://www.sciencedaily.com/releases/2011/02/110216110857.htm); [Protzko and Schooler (2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6795513/)
+
+**Charts**
+
+- *Since Sagan wrote, factory jobs fell 27% while factory output rose 43%*: BLS Current Employment Statistics (MANEMP) and Federal Reserve industrial production (IPMAN), via FRED · June values, 1979–2026
+- *The sound bite stopped shrinking by 1988; the news has since moved to the feed*: Adatto 1990 (1968, 1988); Bucy & Grabe 2007, Table 1 (1992–2004, ABC, CBS, NBC); Pew Research Center surveys, 2020 and August 2026
+- *Belief in astrology has been flat for 35 years*: Gallup (1990–2005); Pew Research Center (2009, 2017, 2024); NSF Science & Engineering Indicators 2020, Table S7-32 (General Social Survey) · Gallup and Pew wordings differ
+- *Measles is back: 2026 already has the most U.S. cases since 1991*: CDC annual counts, 2000–2024; 2025 and 2026 (through Oct. 22) from CDC via USAFacts and the Congressional Research Service
+- *Where IQ scores reversed, they fell about as fast as they once rose*: Flynn 1984; Trahan et al. 2014; Bratsberg & Rogeberg 2018; Dworak, Revelle & Condon 2023 (−0.013 SD a year at 15 IQ points per SD) · different tests and samples, so compare directions and rough sizes
+- *Thirteen-year-olds peaked in 2012 and were slipping before schools closed*: NCES, NAEP long-term trend 2025 technical appendix, age 13 (revised format from 2004); teen smartphone access from Pew Research Center (2012 figure covers ages 12–17)
+- *Since 2013 the weakest eighth-graders lost six times as much as the strongest*: NAEP Data Service, grade 8, national public and private schools, 2013–2024
+- *U.S. math and reading hit record lows, but the OECD average fell faster*: NCES PISA highlights (2000–2022) and OECD PISA 2025 Results, Volume I · official trends from 2003 (math) and 2006 (science); no U.S. reading score in 2006; the OECD average covers a changing set of countries
+- *Adult literacy fell most where it was already lowest*: NCES, PIAAC Cycle 2 U.S. national results, adults 16–65; IES press release, December 2024 · the 2023 survey used a new test format
+- *Reading for pleasure is down on every long-run measure*: NEA arts participation survey (2002, 2022); Bone, Bu, Sonke & Fancourt, iScience 2025 (American Time Use Survey); NAEP long-term trend via Pew Research Center and NCES · “Change” is the relative decline in the share
+- *An unrestricted chatbot lifted practice scores 48%, then cut exam scores 17%*: Bastani et al., PNAS 2025 · field experiment in high-school math; the tutor’s exam effect was not statistically significant
 :::
