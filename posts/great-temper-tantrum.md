@@ -6,6 +6,7 @@ read_time: 3 min read
 title: The Great Temper Tantrum: Why Life Has Felt Broken Since 2020
 deck: Since 2020, much of society has rebelled against the guardrails that held the modern world together. The problems were real; the solutions were imaginary.
 archive_deck: Since 2020, much of society has rebelled against the guardrails that held the modern world together. The problems were real; the solutions were imaginary.
+email: send
 ---
 
 There is a quiet, nagging consensus humming beneath the surface of modern life: *something broke in 2020, and it never quite got put back together.*
