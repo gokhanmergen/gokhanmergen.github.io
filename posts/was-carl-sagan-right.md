@@ -10,13 +10,13 @@ archive_deck: Thirty years of data show not a nation getting dumber, but one spl
 
 ## What did Sagan predict?
 
-In 1995, a year before his death, astronomer Carl Sagan published *The Demon-Haunted World: Science as a Candle in the Dark*. Near the beginning of the book, he sketched a dark vision of the country his descendants would inherit:
+In 1995, a year before his death, astronomer Carl Sagan published *The Demon-Haunted World: Science as a Candle in the Dark*. Near the beginning of the book, he [sketched a dark vision of the country](https://www.reddit.com/r/Damnthatsinteresting/comments/x6jq5w/carl_sagan_predicted_the_decline_of_our_time_27/) his descendants would inherit:
 
 > *"I have a foreboding of an America in my children's or grandchildren's time — when the United States is a service and information economy; when nearly all the manufacturing industries have slipped away to other countries; when awesome technological powers are in the hands of a very few, and no one representing the public interest can even grasp the issues; when the people have lost the ability to set their own agendas or knowledgeably question those in authority; when, clutching our crystals and nervously consulting our horoscopes, our critical faculties in decline, unable to distinguish between what feels good and what's true, we slide, almost without noticing, back into superstition and darkness...*
 
 > *The dumbing down of America is most evident in the slow decay of substantive content in the enormously influential media, the 30 second sound bites (now down to 10 seconds or less), lowest common denominator programming, credulous presentations on pseudoscience and superstition, but especially a kind of celebration of ignorance."*
 
-Three decades later, Sagan's grandchildren are adults, and the passage [goes viral every few months](https://www.reddit.com/r/Damnthatsinteresting/comments/x6jq5w/carl_sagan_predicted_the_decline_of_our_time_27/), shared by millions of people scrolling ten-second clips on feeds built by a handful of trillion-dollar companies. The medium has become part of the evidence.
+Three decades later, Sagan's grandchildren are adults, and the passage goes viral every few months, shared by millions of people scrolling ten-second clips on feeds built by a handful of trillion-dollar companies. The medium has become part of the evidence.
 
 But recognition is not proof. Sagan's passage is a set of testable claims about jobs, power, media, belief and cognition, and thirty years of data can now grade them.
 
