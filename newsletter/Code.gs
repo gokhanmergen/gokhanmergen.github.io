@@ -56,6 +56,9 @@ const STYLE = {
   // The article's first paragraph is larger and darker than the rest.
   lead: 'margin:0 0 25px;font-family:Georgia,Times New Roman,serif;font-size:19px;line-height:1.68;color:#172033',
   paragraph: 'margin:0 0 25px;font-family:Georgia,Times New Roman,serif;font-size:17.5px;line-height:1.82;color:#4c5360',
+  // Section headings, keyed by tag.
+  h2: 'margin:40px 0 16px;font-family:' + FONT_SANS + ';font-size:26px;font-weight:760;letter-spacing:-0.04em;line-height:1.12;color:#172033',
+  h3: 'margin:32px 0 14px;font-family:' + FONT_SANS + ';font-size:21px;font-weight:760;letter-spacing:-0.03em;line-height:1.15;color:#172033',
 };
 
 const props = PropertiesService.getScriptProperties();
@@ -231,11 +234,16 @@ function resendLatestPost() {
 
 function postEmail_(item, to, unsubscribeUrl) {
   let paragraphIndex = 0;
+  let blockIndex = 0;
   const excerptHtml = item.excerpt
-    .replace(/<p>/g, () => '<p style="' + (paragraphIndex++ ? STYLE.paragraph : STYLE.lead) + '">')
+    .replace(/<(p|h2|h3)>/g, (tag, name) => {
+      const style = name === 'p' ? (paragraphIndex++ ? STYLE.paragraph : STYLE.lead) : STYLE[name];
+      // A heading that opens the excerpt sits right under the byline.
+      return '<' + name + ' style="' + style + (blockIndex++ ? '' : ';margin-top:0') + '">';
+    })
     .replace(/<a /g, '<a style="color:#2447b5" ');
   const excerptText = item.excerpt
-    .split('</p>')
+    .split(/<\/(?:p|h2|h3)>/)
     .map(paragraph => decodeEntities_(paragraph.replace(/<[^>]+>/g, '')).trim())
     .filter(Boolean);
   const published = item.pubDate ? Utilities.formatDate(new Date(item.pubDate), 'UTC', 'MMM d, yyyy') : '';

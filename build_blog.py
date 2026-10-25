@@ -583,16 +583,18 @@ def comments_section(post: Post) -> str:
 
 
 def render_excerpt(post: Post) -> str:
-    """Return the post's opening paragraphs as HTML.
+    """Return the post's opening paragraphs, with their section headings, as HTML.
 
-    Headings, lists, images and the caption paragraph right after an image
-    are skipped, since the caption makes no sense without its image. Pull
-    quotes stay, as plain paragraphs, since the text around them often
-    refers to them. Folded sections end the excerpt.
+    Lists, images and the caption paragraph right after an image are skipped,
+    since the caption makes no sense without its image. A heading stays only
+    if a paragraph follows it in the excerpt, so the excerpt never ends on
+    one. Pull quotes stay, as plain paragraphs, since the text around them
+    often refers to them. Folded sections end the excerpt.
     """
     paragraphs: List[str] = []
     words = 0
     after_image = False
+    heading = None
     pull_quote = '<p class="blog-article-emphasis">'
     for block in render_markdown(post.body).split("\n\n"):
         if block.startswith("<details"):
@@ -601,8 +603,14 @@ def render_excerpt(post: Post) -> str:
             block = "<p>" + block[len(pull_quote):]
         is_caption = after_image
         after_image = block.startswith("<figure")
+        if block.startswith(("<h2>", "<h3>")):
+            heading = block
+            continue
         if not block.startswith("<p>") or is_caption:
             continue
+        if heading:
+            paragraphs.append(heading)
+            heading = None
         paragraphs.append(block)
         words += len(re.sub(r"<[^>]+>", " ", block).split())
         if words >= EXCERPT_WORDS:
