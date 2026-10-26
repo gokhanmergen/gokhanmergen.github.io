@@ -15,6 +15,16 @@
  },
  "items": [
   {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-26",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-10-26",
+   "summary": "Part 5 of What People Really Care About When They’re Mad About Immigration",
+   "title": "Immigrants Aren’t Coming to Blow You Up in a Terrorist Attack",
+   "url": "https://www.alexnowrasteh.com/p/immigrants-arent-coming-to-blow-you"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-10-25",
    "kind": "post",
@@ -23,6 +33,36 @@
    "summary": "What will be next to break?",
    "title": "The internet breaks",
    "url": "https://www.noahpinion.blog/p/the-internet-breaks"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-26",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-25",
+   "summary": "[This is a guest post by the Advisory Group on Mathematics and Artificial Intelligence, crossposted from their site. This blog post was initially written in a different file format and converted using AI. — T.] In our September 29 recommendations, we outlined an approach to the release of AI-generated mathematical output by AI labs. Since…",
+   "title": "Disadvantages of Designating Mathematicians for AI Output Releases",
+   "url": "https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-26",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-10-25",
+   "summary": "Someone writing an article for the Israeli press about “people abroad who love Israel but might be worried” emailed me the following questions: “1. What is something about Israel that you admire/appreciate over the years? 2. What are you worried the most about Israel these days?” So I replied as follows: “It’s hard to know…",
+   "title": "Vote! (Israeli edition)",
+   "url": "https://scottaaronson.blog/?p=10235"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-26",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-25",
+   "summary": "1. A safe harbor for open source? 2. False but interesting claims about economic growth. 3. “In a calibrated model of the welfare effects of the estimated impacts of the Great Recession on consumption and mortality, we find that the welfare gain from the estimated mortality decline is quantitatively significant relative to the welfare loss…",
+   "title": "Sunday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/sunday-assorted-links-587.html"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
