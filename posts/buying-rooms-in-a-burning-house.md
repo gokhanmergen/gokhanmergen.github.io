@@ -7,6 +7,7 @@ read_time: 5 min read
 title: Buying Rooms in a Burning House
 deck: "It's not personal, Sonny. It's strictly business"
 archive_deck: "It's not personal, Sonny. It's strictly business"
+email: send
 ---
 
 ## The question
