@@ -10,7 +10,7 @@ archive_deck: "It's not personal, Sonny. It's strictly business"
 email: send
 ---
 
-A [post](https://x.com/omgsidewalks/status/2114376292359377051?s=20) crossed my feed today that made a worthwhile point.
+A [post](https://x.com/omgsidewalks/status/2114376292359377051?s=20) crossed my feed today that is worth discussing.
 
 *"I cannot wrap my head around the endgame here. If you destroy the planet, crash the global economy, and leave ordinary people too broke to buy anything, what exactly are billionaires planning to do with all that money? Sit in underground bunkers staring at bank balances while the world falls apart? Wealth is only valuable when there's a functioning society around it. So what exactly are they trying to win?"*
 
