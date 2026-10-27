@@ -27,10 +27,6 @@ The money leans Republican two to one: $1.67 billion from Republican-leaning don
 
 ![Bar chart of the ten largest donors to the 2026 midterms](burning-house-top-donors.png)
 
-![Treemap of the biggest donors to the 2026 midterms from an earlier Washington Post tally: Republican-leaning $1.54 billion, led by Elon Musk's $369 million; Democratic-leaning $590 million; special interests $259 million](burning-house-donor-treemap.jpg)
-
-*Redrawn from an earlier version of the Washington Post article; the numbers in the text are the latest.*
-
 Musk alone gave more than the five biggest Democratic-leaning donors combined, and about 27% of all the Republican-leaning money. Relative to his fortune, it is pocket change. At [roughly $1 trillion](https://www.wcax.com/2026/10/12/elon-musk-quietly-becomes-biggest-known-donor-midterm-contests-he-tries-save-republicans/), $446 million is 0.045% of his wealth.
 
 For the median American family, worth $215,900 in [the Fed's latest survey](https://federalreserve.gov/newsevents/pressreleases/other20261009a.htm), the same share is about $96. A record-breaking intervention in national politics costs him what a family spends on dinner out.
