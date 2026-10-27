@@ -15,6 +15,76 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-27",
+   "summary": "The humanities; Data center crowd-out; Chinese local governments; AI and capitalism; How Japan builds; Phones bad; Chinese manufacturing; Rent control",
+   "title": "Roundup #90: In which Noah joins a Japanese VC firm",
+   "url": "https://www.noahpinion.blog/p/roundup-90-in-which-noah-joins-a"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-27",
+   "summary": "Pavel Etingof, Slava Gerovitch, “Mathematics of the Future“ Timothy Gowers, “How worried should we be about extinction risk from AI?“ Elchanan Mossel, “LLMs, Reasoning and Plagiarism“. (See also this related petition.) nihilunbounded, “Who Watches the Watchmen“ Sung-Jin Oh, “What does it mean for a mathematician to understand? A case study in the age of AI“…",
+   "title": "More additional blog posts and articles",
+   "url": "https://terrytao.wordpress.com/2026/10/26/more-additional-blog-posts-and-articles/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-27",
+   "summary": "Emily Bazelon was the moderator, there were five of us in the symposium. Excerpt from me: Bores: Do you think the federal government pre-empting the states is consistent with democracy? Cowen: Absolutely. We have federal laws that pre-empt state lawmaking in many other areas. Courts have upheld it many, many times. Bores: OK, but is…",
+   "title": "NYT debate on the rules for AI companies",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/nyt-debate-on-the-rules-for-ai-companies.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-26",
+   "summary": "I thought this was an interesting and provocative article: “Who Knows Medicinal Chemistry?” The author (Daniele Andreotti) starts out with a statement that (to be honest) I have never heard before in my career: Most of us have heard some version of the sentence, and rather more of us than would admit have said it: “you do not really know medicinal chemistry - your job is to make the compounds”…",
+   "title": "What Does It Mean to \"Know Medicinal Chemistry\"?",
+   "url": "https://www.science.org/content/blog-post/what-does-it-mean-know-medicinal-chemistry"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/mathematics/feed/",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-10-26",
+   "summary": "A new topological model connects a centuries-old voting paradox to a surface with no distinct inside or outside.",
+   "title": "How Voting Is Like a Klein Bottle",
+   "url": "https://www.quantamagazine.org/how-voting-is-like-a-klein-bottle-20261026/"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-10-27",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-10-26",
+   "summary": "CBO presents its projections of revenues and outlays for the 2026–2036 period translated into projections of current federal receipts and expenditures in the national income and product accounts.",
+   "title": "CBO's Projections of Federal Receipts and Expenditures in the National Income and Product Accounts: 2026 to 2036",
+   "url": "https://www.cbo.gov/publication/62876"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-10-27",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-10-26",
+   "summary": "CBO explains the differences between revenues, outlays, and deficits in the federal budget and the corresponding measures of federal receipts, expenditures, and saving in the national income and product accounts.",
+   "title": "A Primer on CBO's Projections of Federal Receipts and Expenditures in the National Income and Product Accounts",
+   "url": "https://www.cbo.gov/publication/62778"
+  },
+  {
    "feed": "https://www.alexnowrasteh.com/feed",
    "first_seen": "2026-10-26",
    "kind": "post",
@@ -23,6 +93,66 @@
    "summary": "Part 5 of What People Really Care About When They’re Mad About Immigration",
    "title": "Immigrants Aren’t Coming to Blow You Up in a Terrorist Attack",
    "url": "https://www.alexnowrasteh.com/p/immigrants-arent-coming-to-blow-you"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-26",
+   "summary": "Gemini 4’s model card is a compact 14 pages. Its safety and security report has 217. This is The Way. It also means we have a lot of new reading material. I will quickly summarize the model card, then focus …",
+   "title": "Gemini 4 Argon: The Model and Safety Cards",
+   "url": "https://thezvi.wordpress.com/2026/10/26/gemini-4-argon-the-model-and-safety-cards/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-10-26",
+   "summary": "With Curt Jaimungal: The title Curt put next to my head could’ve been in reference to many, many things! But sorry, he just mean AI. He and I start with the Mathacre, of course, but then we get onto the firewall paradox and then Curt starts asking about computational complexity and the Second Law, and…",
+   "title": "Podcasts about the Topic: Part II",
+   "url": "https://scottaaronson.blog/?p=10239"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-26",
+   "summary": "From the Archive–these posts are written by AI. Cowen’s strongest recommendations include 1491, The Power Broker, Knausgaard’s first two My Struggle volumes, Fuchsia Dunlop’s Chinese cookbooks, and Meetings with Remarkable Manuscripts. These stand out through unusually strong praise, repeated endorsement, or both. The analysis uses qualitative, book-specific sentiment analysis: explicit…",
+   "title": "Tyler Cowen’s Strongest Book Recommendations, 2003-2026",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/tyler-cowens-strongest-book-recommendations-over-the-years.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-26",
+   "summary": "The Marginal Revolution archive is now live at https://marginalrevolution.com/ai-archive/. You can also find it from the header and from “Download Full Archive” link in the left menu. The purpose of the archive is twofold, first as Tyler has said we love our human readers and our AI readers and we want to make it as…",
+   "title": "The MR Archive!",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/the-mr-archive.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-26",
+   "summary": "1. Why slow fields may determine the pace of discovery. 2. Touch screens on your jacket? 3. Astras performance on Bach bench. 4. More on regional productivity differences (and puzzles) in health care. 5. “Plans to allow US companies run entirely by AI “agents” have come under fire from powerful Republicans in Congress, who fear…",
+   "title": "Monday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/monday-assorted-links-583.html"
+  },
+  {
+   "feed": "https://jack-clark.net/feed/",
+   "first_seen": "2026-10-27",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-10-26",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now How math could help alignment:…What the “industrialization of mathematics” means for safety…AI safety startup Resolution (formerly known as Sequent, Import AI 461) has published work on…",
+   "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
+   "url": "https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -2425,16 +2555,6 @@
    "url": "https://www.science.org/content/blog-post/merck-and-moderna-s-melanoma-results"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-08-18",
-   "summary": "This is a new investigation here at Science that suggests some serious problems in an area of Alzheimer’s work that’s had a lot of attention in recent years. It’s been known for decades that there are mutations in some families and populations that predispose people towards Alzheimer’s-like pathology. I talked about these most recently in this 2023 post, but the subject there was actually on the…",
-   "title": "More Alzheimer's Research Trouble",
-   "url": "https://www.science.org/content/blog-post/more-alzheimer-s-research-trouble"
-  },
-  {
    "feed": "https://www.alexnowrasteh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2943,16 +3063,6 @@
    "summary": "Watch now (94 mins) | Math is where we’ll see superintelligence first. What will it look like?",
    "title": "Grant Sanderson – AI and the future of math",
    "url": "https://www.dwarkesh.com/p/grant-sanderson-2"
-  },
-  {
-   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "matt-kaeberlein",
-   "published": "2026-06-28",
-   "summary": "What does \"longevity\" really mean? Are biological age tests ready for clinical use? Is rapamycin still the most promising longevity drug? And where do GLP-1 medications fit into the future of healthy aging?In this fireside chat from the Longevity Investors Conference, I discuss some of the biggest questions facing longevity science today—and why separating rigorous evidence from hype is more…",
-   "title": "The Biggest Problems in Longevity Science",
-   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Biggest-Problems-in-Longevity-Science-e3lc4lu"
   }
  ]
 }
