@@ -43,7 +43,7 @@ If you read the Post's list not as a political roster but as an investment portf
 
 **These are not gifts. They are investments, and the returns can be spectacular.** [A study](https://kuscholarworks.ku.edu/entities/publication/289bc01e-e30d-4d3d-a0b0-f8207f822083) of the 2004 corporate tax holiday on repatriated profits found firms got back more than $220 in tax savings for every dollar spent lobbying for it, a 22,000% return.
 
-Against odds like that, $446 million isn't extravagance. It's position sizing. So what are they trying to win? Something specific, and usually they win it. A crypto exchange doesn't need the planet to burn; it needs a friendly regulator and a law written its way.
+Against odds like that, $446 million isn't extravagance. It's position sizing. So what are they trying to win? Something specific, and usually they win it. A crypto exchange doesn't need the planet; it needs a friendly regulator and a law written its way.
 
 ## Paying the arsonist
 
