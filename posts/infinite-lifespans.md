@@ -24,7 +24,7 @@ The result? Two exponentials fighting each other, producing something surprising
 
 ![Scatter chart titled "Record life expectancy has risen in a straight line since 1840": the highest female life expectancy of any country each year, from Sweden at 46.1 years in 1840 to Hong Kong at 88.1 in 2023, closely following a least-squares trend of +3.0 months per year (R² 0.975)](record-life-expectancy.png)
 
-Each dot is the record holder country for that year, the country where women lived longest.
+*Each dot is the record holder country for that year, the country where women lived longest.*
 
 ### **1. Two Centuries of Progress. No Exponential Takeoff.**
 

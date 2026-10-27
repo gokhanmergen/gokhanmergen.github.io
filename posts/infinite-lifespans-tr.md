@@ -26,7 +26,7 @@ Sonuç mu? Birbiriyle boğuşan iki üstel süreç. Bu boğuşmadan da şaşırt
 
 ![Başlığı "Rekor beklenen yaşam süresi 1840’tan bu yana düz bir çizgi halinde yükseldi" olan saçılım grafiği. Her yıl ülkeler arasında kadınlarda görülen en yüksek beklenen yaşam süresini gösteren noktalar, 1840’ta 46,1 yılla İsveç’ten 2023’te 88,1 yılla Hong Kong’a uzanıyor ve en küçük kareler yöntemiyle çizilen, yılda +3,0 aylık eğilim çizgisini yakından izliyor (R² 0,975)](record-life-expectancy.png)
 
-Her nokta o yılın rekortmen ülkesi, yani kadınların en uzun yaşadığı ülke.
+*Her nokta o yılın rekortmen ülkesi, yani kadınların en uzun yaşadığı ülke.*
 
 ### **1. İki Yüzyıllık İlerleme, Ama Üstel Sıçrama Yok**
 

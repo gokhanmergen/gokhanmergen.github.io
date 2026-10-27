@@ -585,8 +585,10 @@ def comments_section(post: Post) -> str:
 def render_excerpt(post: Post) -> str:
     """Return the post's opening paragraphs, with their section headings, as HTML.
 
-    Lists, images and the caption paragraph right after an image are skipped,
-    since the caption makes no sense without its image. A heading stays only
+    Lists, images and the caption right after an image are skipped, since the
+    caption makes no sense without its image. A caption is a paragraph set
+    entirely in italics, such as "*Source: ...*"; an ordinary paragraph after
+    an image stays. A heading stays only
     if a paragraph follows it in the excerpt, so the excerpt never ends on
     one. Pull quotes stay, as plain paragraphs, since the text around them
     often refers to them. Folded sections end the excerpt.
@@ -601,7 +603,7 @@ def render_excerpt(post: Post) -> str:
             break
         if block.startswith(pull_quote):
             block = "<p>" + block[len(pull_quote):]
-        is_caption = after_image
+        is_caption = after_image and re.fullmatch(r"<p><em>(?:(?!</em>).)*</em></p>", block, flags=re.S) is not None
         after_image = block.startswith("<figure")
         if block.startswith(("<h2>", "<h3>")):
             heading = block
