@@ -3663,53 +3663,13 @@ body.lightbox-open {
   line-height: 1.5;
 }
 
-.blog-subscribe a {
+.blog-subscribe p a {
   color: var(--brand-dark);
 }
 
-.blog-subscribe-form {
-  display: flex;
-  flex: 0 0 360px;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.blog-subscribe-form input[type="email"] {
-  flex: 1 1 180px;
-  min-width: 0;
-  padding: 11px 16px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--background);
-  color: var(--ink);
-  font: inherit;
-  font-size: 0.92rem;
-}
-
-.blog-subscribe-form input[type="email"]:focus {
-  border-color: var(--brand);
-  outline: none;
-}
-
-.blog-subscribe-form .button {
-  cursor: pointer;
-}
-
-.blog-subscribe-form .button:disabled {
-  opacity: 0.6;
-}
-
-.blog-subscribe-trap {
-  position: absolute;
-  left: -9999px;
-}
-
-.blog-subscribe-status:empty {
-  display: none;
-}
-
-.blog-subscribe-status {
-  flex-basis: 100%;
+.blog-subscribe-button {
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .blog-comments {
@@ -3729,10 +3689,6 @@ body.lightbox-open {
     align-items: stretch;
     flex-direction: column;
     padding: 22px 20px;
-  }
-
-  .blog-subscribe-form {
-    flex-basis: auto;
   }
 }
 

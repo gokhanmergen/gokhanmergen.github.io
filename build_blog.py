@@ -29,12 +29,12 @@ GISCUS = {
     "category": "Announcements",
     "category_id": "DIC_kwDOUQjsY84DHS59",
 }
-# The /exec URL of the newsletter/Code.gs Apps Script web app. The email
-# sign-up form is only rendered once this is set.
 # Opening paragraphs included in feed.xml (and so in subscriber emails) as a
 # preview: whole paragraphs until at least this many words.
 EXCERPT_WORDS = 300
-SUBSCRIBE_URL = "https://script.google.com/macros/s/AKfycbyMgkWyLDugpKs2FhQ5tvIEUmPvQk8MXuIIiCxF0XAPpWb6Ice00VOj39yuu2wRJv6WTA/exec"
+# The Substack publication that emails new posts. The subscribe button links
+# to its sign-up page, and is only rendered while this is set.
+SUBSCRIBE_URL = "https://gokhanmergen.substack.com"
 # KaTeX renders LaTeX math on posts that contain it: display blocks fenced by
 # $$ lines, and inline math written as \( ... \). Other pages don't load it.
 KATEX_VERSION = "0.16.11"
@@ -88,13 +88,9 @@ UI_TEXT = {
         "subscribe_kicker": "Subscribe",
         "subscribe_title": "Get new posts by email.",
         "follow_title": "Follow new posts.",
-        "subscribe_copy": "One email when a new post is published. Unsubscribe anytime.",
+        "subscribe_copy": "New posts arrive by email through my Substack. Unsubscribe anytime.",
         "subscribe_rss": "Or follow the",
-        "email_label": "Email address",
-        "subscribe_button": "Subscribe",
-        "subscribe_sending": "Subscribing…",
-        "subscribe_sent": "Almost done: check your inbox for a confirmation link.",
-        "subscribe_failed": "Something went wrong. Please try again later.",
+        "subscribe_button": "Subscribe on Substack",
     },
     "tr": {
         "back": "← Bloga dön",
@@ -113,13 +109,9 @@ UI_TEXT = {
         "subscribe_kicker": "Abone ol",
         "subscribe_title": "Yeni yazıları e-postayla alın.",
         "follow_title": "Yeni yazıları takip edin.",
-        "subscribe_copy": "Yeni bir yazı yayımlandığında tek bir e-posta. İstediğiniz zaman abonelikten çıkabilirsiniz. E-postalar İngilizcedir.",
+        "subscribe_copy": "Yeni yazılar Substack üzerinden e-postayla gelir. İstediğiniz zaman abonelikten çıkabilirsiniz. E-postalar İngilizcedir.",
         "subscribe_rss": "Ya da takip edin:",
-        "email_label": "E-posta adresi",
-        "subscribe_button": "Abone ol",
-        "subscribe_sending": "Abone olunuyor…",
-        "subscribe_sent": "Neredeyse bitti: onay bağlantısı için gelen kutunuza bakın.",
-        "subscribe_failed": "Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.",
+        "subscribe_button": "Substack'te abone ol",
     },
 }
 
@@ -521,39 +513,16 @@ def page_shell(
 
 def subscribe_section(lang: str) -> str:
     text = UI_TEXT[lang]
-    form = ""
+    button = ""
     if SUBSCRIBE_URL:
-        form = f'''
-        <form class="blog-subscribe-form" action="{escape(SUBSCRIBE_URL)}" method="post" data-sending="{escape(text["subscribe_sending"])}" data-sent="{escape(text["subscribe_sent"])}" data-failed="{escape(text["subscribe_failed"])}">
-          <label class="visually-hidden" for="subscribe-email">{escape(text["email_label"])}</label>
-          <input id="subscribe-email" type="email" name="email" required maxlength="254" autocomplete="email" placeholder="you@example.com">
-          <input class="blog-subscribe-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <button class="button button-primary" type="submit">{escape(text["subscribe_button"])}</button>
-          <p class="blog-subscribe-status" role="status" aria-live="polite"></p>
-        </form>
-        <script>
-          document.querySelector(".blog-subscribe-form").addEventListener("submit", async (event) => {{
-            event.preventDefault();
-            const form = event.currentTarget;
-            const status = form.querySelector(".blog-subscribe-status");
-            form.querySelector("button").disabled = true;
-            status.textContent = form.dataset.sending;
-            try {{
-              await fetch(form.action, {{ method: "POST", mode: "no-cors", body: new URLSearchParams(new FormData(form)) }});
-              form.reset();
-              status.textContent = form.dataset.sent;
-            }} catch (error) {{
-              status.textContent = form.dataset.failed;
-            }}
-            form.querySelector("button").disabled = false;
-          }});
-        </script>'''
+        button = f'''
+        <a class="button button-primary blog-subscribe-button" href="{escape(SUBSCRIBE_URL)}/subscribe" target="_blank" rel="noopener">{escape(text["subscribe_button"])}</a>'''
     return f'''      <section class="blog-subscribe" aria-labelledby="subscribe-title">
         <div>
           <p class="section-kicker">{escape(text["subscribe_kicker"])}</p>
           <h2 id="subscribe-title">{escape(text["subscribe_title" if SUBSCRIBE_URL else "follow_title"])}</h2>
           <p>{escape(text["subscribe_copy"]) + " " if SUBSCRIBE_URL else ""}{escape(text["subscribe_rss"])} <a href="{FEED_FILENAME}">RSS feed</a>.</p>
-        </div>{form}
+        </div>{button}
       </section>'''
 
 

@@ -112,32 +112,9 @@ Manual changes will be overwritten.
         <div>
           <p class="section-kicker">Abone ol</p>
           <h2 id="subscribe-title">Yeni yazıları e-postayla alın.</h2>
-          <p>Yeni bir yazı yayımlandığında tek bir e-posta. İstediğiniz zaman abonelikten çıkabilirsiniz. E-postalar İngilizcedir. Ya da takip edin: <a href="feed.xml">RSS feed</a>.</p>
+          <p>Yeni yazılar Substack üzerinden e-postayla gelir. İstediğiniz zaman abonelikten çıkabilirsiniz. E-postalar İngilizcedir. Ya da takip edin: <a href="feed.xml">RSS feed</a>.</p>
         </div>
-        <form class="blog-subscribe-form" action="https://script.google.com/macros/s/AKfycbyMgkWyLDugpKs2FhQ5tvIEUmPvQk8MXuIIiCxF0XAPpWb6Ice00VOj39yuu2wRJv6WTA/exec" method="post" data-sending="Abone olunuyor…" data-sent="Neredeyse bitti: onay bağlantısı için gelen kutunuza bakın." data-failed="Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.">
-          <label class="visually-hidden" for="subscribe-email">E-posta adresi</label>
-          <input id="subscribe-email" type="email" name="email" required maxlength="254" autocomplete="email" placeholder="you@example.com">
-          <input class="blog-subscribe-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <button class="button button-primary" type="submit">Abone ol</button>
-          <p class="blog-subscribe-status" role="status" aria-live="polite"></p>
-        </form>
-        <script>
-          document.querySelector(".blog-subscribe-form").addEventListener("submit", async (event) => {
-            event.preventDefault();
-            const form = event.currentTarget;
-            const status = form.querySelector(".blog-subscribe-status");
-            form.querySelector("button").disabled = true;
-            status.textContent = form.dataset.sending;
-            try {
-              await fetch(form.action, { method: "POST", mode: "no-cors", body: new URLSearchParams(new FormData(form)) });
-              form.reset();
-              status.textContent = form.dataset.sent;
-            } catch (error) {
-              status.textContent = form.dataset.failed;
-            }
-            form.querySelector("button").disabled = false;
-          });
-        </script>
+        <a class="button button-primary blog-subscribe-button" href="https://gokhanmergen.substack.com/subscribe" target="_blank" rel="noopener">Substack&#x27;te abone ol</a>
       </section>
 
       <section class="blog-comments" aria-labelledby="comments-title">

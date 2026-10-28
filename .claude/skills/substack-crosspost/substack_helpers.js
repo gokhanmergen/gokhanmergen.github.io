@@ -503,7 +503,8 @@ window.crosspost = {
     const bounds = heads.concat([c[c.length - 1].type === 'subscribeWidget' ? c.length - 1 : c.length]);
     for (let k = heads.length - 1; k >= 0; k--) {
       const h = heads[k];
-      const what = /^Reference/.test(this.text(c[h])) ? 'references' : 'appendix';
+      const heading = this.text(c[h]);
+      const what = /^Reference/.test(heading) ? 'references' : /^Further reading/i.test(heading) ? 'further reading' : 'appendix';
       const body = c.slice(h + 1, bounds[k + 1]);
       c.splice(h + 1, body.length, { type: 'collapsedContent', attrs: { expandLabel: `Show ${what}`, collapseLabel: `Hide ${what}` }, content: body });
     }
