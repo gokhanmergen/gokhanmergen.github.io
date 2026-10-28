@@ -207,6 +207,9 @@ tables needs its table images rendered and pushed before it is cross-posted.
   Apps Script's subscribers were added to Substack that day without a
   welcome email. The author plans to send posts by email only through
   Substack from then on, so the Apps Script below gets no new sign-ups.
+  Its hourly `checkFeed` trigger was deleted the same day, so `email: send`
+  no longer emails anyone; running `setup` in the Apps Script editor
+  would recreate the trigger.
 - **Email subscriptions** ran on the Google Apps Script in
   `newsletter/Code.gs` until then, deployed as a web app from the owner's
   Google account. Subscribers are kept in a private "Blog subscribers"
