@@ -15,6 +15,36 @@
  },
  "items": [
   {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-28",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-28",
+   "summary": "— 1. The Hilbert transform — In this set of notes we begin the theory of singular integral operators – operators which are almost integral operators, except that their kernel just barely fails to be integrable near the diagonal . (This is in contrast to, say, fractional integral operators such as , whose kernels go…",
+   "title": "247A, Notes 3: Singular integral operators",
+   "url": "https://terrytao.wordpress.com/2026/10/27/247a-notes-3-singular-integral-operators/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-28",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-28",
+   "summary": "That is the topic of my latest Free Press column (now there are gift links!), here is one excerpt, noting this is a worst-case scenario not a prediction: Yet current systems are likely to prove more robust than that suggests. For one thing, they use a variety of different methods of protection, including public key…",
+   "title": "AI hacking risks",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/ai-hacking-risks.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-28",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-27",
+   "summary": "Medicinal chemists are always interested in getting more actual data on our various compound modification tricks and rules of thumb for changing activity and distribution. There are a lot of these, but the depth of the evidence behind them does vary. This new paper looks at lipidation (adding some sort of lipid tail to a given structure) as a strategy for increasing cell penetration. The…",
+   "title": "Lipidation and Its Discontents",
+   "url": "https://www.science.org/content/blog-post/lipidation-and-its-discontents"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-10-27",
    "kind": "post",
@@ -23,6 +53,26 @@
    "summary": "The humanities; Data center crowd-out; Chinese local governments; AI and capitalism; How Japan builds; Phones bad; Chinese manufacturing; Rent control",
    "title": "Roundup #90: In which Noah joins a Japanese VC firm",
    "url": "https://www.noahpinion.blog/p/roundup-90-in-which-noah-joins-a"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-10-28",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-27",
+   "summary": "Anthropic is a frustrating company. Sometimes it will do things I greatly appreciate, including at substantial cost. They have taken bold stands, have a unique governance structure and have hired and worked to establish a relatively strong (but I think …",
+   "title": "Anthropic Versus Anthropic",
+   "url": "https://thezvi.wordpress.com/2026/10/27/anthropic-versus-anthropic/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-28",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-27",
+   "summary": "Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.",
+   "title": "The quasi-Riemann hypothesis",
+   "url": "https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -36,6 +86,16 @@
   },
   {
    "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-28",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-27",
+   "summary": "1. Which musical styles do smart people prefer? 2. U. of Austin job ads. 3. Walter Koenig, RIP (NYT). Chekov. 4. One take on the new computational result. And one (overstated) Chinese interpretation. And another extreme and unwarranted view. 5. New research method: Arjo Klamer’s revenge. 6. How did the Nobel Prize become high status?",
+   "title": "Tuesday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/tuesday-assorted-links-592.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-10-27",
    "kind": "post",
    "person": "tyler-cowen",
@@ -43,6 +103,16 @@
    "summary": "Emily Bazelon was the moderator, there were five of us in the symposium. Excerpt from me: Bores: Do you think the federal government pre-empting the states is consistent with democracy? Cowen: Absolutely. We have federal laws that pre-empt state lawmaking in many other areas. Courts have upheld it many, many times. Bores: OK, but is…",
    "title": "NYT debate on the rules for AI companies",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/10/nyt-debate-on-the-rules-for-ai-companies.html"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-28",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-27",
+   "summary": "Our explorer uses customs records to estimate national shares. Since 2022, 72% of AI compute has ended up in the US and about 10% in China, including chips China makes itself.",
+   "title": "Introducing the AI Chip Imports explorer",
+   "url": "https://epoch.ai/latest/introducing-the-ai-chip-imports-explorer"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -110,7 +180,7 @@
    "kind": "post",
    "person": "scott-aaronson",
    "published": "2026-10-26",
-   "summary": "With Curt Jaimungal: The title Curt put next to my head could’ve been in reference to many, many things! But sorry, he just mean AI. He and I start with the Mathacre, of course, but then we get onto the firewall paradox and then Curt starts asking about computational complexity and the Second Law, and…",
+   "summary": "As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! With Curt Jaimungal: The title Curt put next to my head could’ve been in reference to many, many things! But sorry, he just mean AI. He and I start with the Mathacre, of course, but then we get onto the firewall…",
    "title": "Podcasts about the Topic: Part II",
    "url": "https://scottaaronson.blog/?p=10239"
   },
@@ -2545,16 +2615,6 @@
    "url": "https://www.science.org/content/blog-post/fault-not-our-trees-ourselves"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-08-19",
-   "summary": "Moderna and Merck have been working together for some years now on cancer therapies that would combine Merck’s Keytruda antibody with personalized mRNA immunotherapy from Moderna (update: in a therapy co-developed and co-owned by both companies). And that “personalized” is no figure of speech: since each cancer patient’s tumor case is indeed somewhat different from any other, the idea is to use…",
-   "title": "Merck and Moderna's Melanoma Results",
-   "url": "https://www.science.org/content/blog-post/merck-and-moderna-s-melanoma-results"
-  },
-  {
    "feed": "https://www.alexnowrasteh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2633,16 +2693,6 @@
    "summary": "Landmark independent studies challenge longstanding dogma for brain aging",
    "title": "Why Our Memory Slips After Age 50",
    "url": "https://erictopol.substack.com/p/why-our-memory-slips-after-age-50"
-  },
-  {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-08-12",
-   "summary": "Why Anthropic's buildout suggests that financing is unlikely to be the immediate blocker to frontier AI compute growth.",
-   "title": "Will financing bottleneck AI compute? An Anthropic case study",
-   "url": "https://epoch.ai/gradient-updates/will-financing-bottleneck-ai-compute"
   },
   {
    "feed": "https://www.dwarkesh.com/feed",
