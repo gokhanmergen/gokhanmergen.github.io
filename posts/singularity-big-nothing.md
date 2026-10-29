@@ -4,8 +4,8 @@ date: 2024-03-23
 category: Ideas / AI futures
 read_time: 7 min read
 title: Why the Technological Singularity May Be a "Big Nothing"
-deck: Five reasons superintelligence may change daily life less than expected: people will resist deferring to it, no one will agree it has arrived, machine and human intelligence differ structurally, regulation will slow it, and adoption will be gradual.
-archive_deck: Five reasons superintelligence may change daily life less than expected: people will resist deferring to it, no one will agree it has arrived, machine and human intelligence differ structurally, regulation will slow it, and adoption will be gradual.
+deck: Five reasons superintelligence may change daily life less than expected.
+archive_deck: Five reasons superintelligence may change daily life less than expected.
 ---
 
 *(A counterpoint to the prevailing narrative that the singularity will be a sudden, highly disruptive break)*
