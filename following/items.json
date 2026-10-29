@@ -15,6 +15,96 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-29",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-29",
+   "summary": "AI can do things humans researchers can’t, even in groups.",
+   "title": "A golden age of science is coming",
+   "url": "https://www.noahpinion.blog/p/a-golden-age-of-science-is-coming"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-29",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-29",
+   "summary": "Daniel Carter, Kevin O’Bryant, and I have uploaded to the arXiv our paper On the diameter and distribution of Sidon sets. This is a paper stemming from an interaction on my blog last year, regarding the use of AlphaEvolve to improve the then state of the art on the size of Sidon sets. We obtained…",
+   "title": "On the diameter and distribution of Sidon sets",
+   "url": "https://terrytao.wordpress.com/2026/10/28/on-the-diameter-and-distribution-of-sidon-sets/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-29",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-29",
+   "summary": "From the Archives-written by ChatGPT. Both became dramatically more confident in AI’s capabilities while remaining optimistic about its economic potential. Their differences concern how benefits arrive, how seriously to weight emerging dangers, and whether AI might possess consciousness. Cowen emphasizes institutions, bottlenecks, and geopolitical competition. Tabarrok emphasizes inexpensive…",
+   "title": "How Tyler Cowen and Alex Tabarrok Have Changed Their Views on AI and Where They Disagree",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/how-tyler-cowen-and-alex-tabarrok-have-changed-their-views-on-ai.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-29",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-29",
+   "summary": "We show that AI-generated article reviews are now better, by every measure we could construct, than reviews written by well-compensated human experts and judged to be of unusually high quality by journal editors and authors. We then discuss how this result may inform journal policy choices, with concerning downsides as well as potential paths to…",
+   "title": "AI dominates human peer reviews",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/ai-dominates-human-peer-reviews.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-10-29",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-10-28",
+   "summary": "Oncology researchers have been trying to exploit the Warburg effect for cancer treatment for decades now. This is a modified metabolic style that shows up in many types of cancer cells, and it’s been known since Otto Warburg’s experiments back in the 1920s (!) Put in broad terms, what you see is tumors downregulating the “usual” energy-generating systems of normal cells, i.e. oxidative…",
+   "title": "Messing Around With the Warburg Effect",
+   "url": "https://www.science.org/content/blog-post/messing-around-warburg-effect"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-10-29",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-10-28",
+   "summary": "As ordered reported by the Senate Committee on Agriculture, Nutrition, and Forestry on September 16, 2026",
+   "title": "Estimated Budgetary Effects of S. 5526, the Agricultural Act of 2026",
+   "url": "https://www.cbo.gov/publication/62881"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-10-29",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-10-28",
+   "summary": "Presentation by Lara Robillard, an analyst in CBO's Budget Analysis Division, at AcademyHealth's 2026 Health Policy Orientation.",
+   "title": "Information Sources for Policymakers: Congressional Budget Office 101",
+   "url": "https://www.cbo.gov/publication/62795"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-29",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-10-28",
+   "summary": "Illegal immigrants reduce government deficits",
+   "title": "The White House’s Estimated Cost of Illegal Immigration Rests on Bad Math",
+   "url": "https://www.alexnowrasteh.com/p/the-white-houses-estimated-cost-of"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-10-29",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-28",
+   "summary": "The full text is finally here, so we are giving it the full RTFB of model card treatment. First, a recap of the state of Anthropic finances, then a close reading of the relevant parts of the S-1. A lot …",
+   "title": "Anthropic Files Its S-1",
+   "url": "https://thezvi.wordpress.com/2026/10/28/anthropic-files-its-s-1/"
+  },
+  {
    "feed": "https://terrytao.wordpress.com/feed/",
    "first_seen": "2026-10-28",
    "kind": "post",
@@ -23,6 +113,36 @@
    "summary": "— 1. The Hilbert transform — In this set of notes we begin the theory of singular integral operators – operators which are almost integral operators, except that their kernel just barely fails to be integrable near the diagonal . (This is in contrast to, say, fractional integral operators such as , whose kernels go…",
    "title": "247A, Notes 3: Singular integral operators",
    "url": "https://terrytao.wordpress.com/2026/10/27/247a-notes-3-singular-integral-operators/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-29",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-28",
+   "summary": "1. A new taxonomy of work, for the AI era. Thread here. 2. On Morel’s Invention (NYT). 3. Iranian brick architecture. 4. How do non-profits use cash windfalls? 5. The roots of earlier German industrial success. 6. Susquehanna Hat Company skit.",
+   "title": "Wednesday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/wednesday-assorted-links-577.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-29",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-28",
+   "summary": "Does generative AI narrow or widen productivity gaps in research? We study the distributional effects of AI on research productivity in economics using evidence from three sources: NBER working-paper and publication records, text-based measures of LLM-assisted writing, and an original survey of 227 academic economists measuring AI use across research tasks. We first show that…",
+   "title": "How is AI shaping economic research?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/how-is-ai-shaping-economic-research.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-29",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-28",
+   "summary": "AI issues its judgment: 138 papers audited 2,035 problems found 147 serious enough to change a headline number 69% of papers have at least one 97% of major and moderate errors with a clear direction overstate the paper’s claim And on the method: Two independent audits of each paper. One by Claude Opus 5.5, one…",
+   "title": "Errors in the research of Emmanuel Saez and Gabriel Zucman",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/errors-in-the-research-of-emmanuel-saez-and-gabriel-zucman.html"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -180,7 +300,7 @@
    "kind": "post",
    "person": "scott-aaronson",
    "published": "2026-10-26",
-   "summary": "As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! With Curt Jaimungal: The title Curt put next to my head could’ve been in reference to many, many things! But sorry, he just mean AI. He and I start with the Mathacre, of course, but then we get onto the firewall…",
+   "summary": "As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else! Man do the…",
    "title": "Podcasts about the Topic: Part II",
    "url": "https://scottaaronson.blog/?p=10239"
   },
@@ -2605,16 +2725,6 @@
    "url": "https://www.alexnowrasteh.com/p/can-presidents-exempt-people-from"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-08-20",
-   "summary": "This is an interesting paper at the intersection of chemistry, botany, and environmental science, and I think it’s probably going to get a fair amount of attention in the press. Unfortunately, it’s also likely that some of the headlines around it are going to mangle the details, so let’s try to straighten those out in advance. The authors are looking at ground-level ozone concentrations in large…",
-   "title": "The Fault Is Not In Our Trees, But In Ourselves",
-   "url": "https://www.science.org/content/blog-post/fault-not-our-trees-ourselves"
-  },
-  {
    "feed": "https://www.alexnowrasteh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3103,16 +3213,6 @@
    "summary": "It's hard to celebrate the ideals of the Founders if you don't believe in them",
    "title": "Trump and Vance Ruined the Fourth of July",
    "url": "https://anneapplebaum.substack.com/p/trump-and-vance-ruined-the-fourth"
-  },
-  {
-   "feed": "https://www.dwarkesh.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "dwarkesh-patel",
-   "published": "2026-06-30",
-   "summary": "Watch now (94 mins) | Math is where we’ll see superintelligence first. What will it look like?",
-   "title": "Grant Sanderson – AI and the future of math",
-   "url": "https://www.dwarkesh.com/p/grant-sanderson-2"
   }
  ]
 }
