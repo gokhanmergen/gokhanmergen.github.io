@@ -68,14 +68,12 @@ For decades, science fiction taught us to fear a reality constructed by machines
 
 Perhaps the Matrix won't arrive through conquest, deception, or imprisonment. Perhaps it will arrive through extraordinary beauty—through affordable entertainment, digital companionship, personalized worlds, and experiences unconstrained by physical limitations. Perhaps we will step inside willingly—not because we have lost our humanity, but because those worlds appeal to our most human desires: wonder, belonging, adventure, freedom, and meaning.
 
-There is something poetic about a synthetic performer communicating this dilemma. A machine-generated artist sings about a future in which human beings may become economically displaced. The creation itself demonstrates the technological transformation it questions. Its beauty is both the promise and the warning.
+There is something poetic about a synthetic performer communicating this dilemma. A machine-generated artist sings about a future in which human beings may become economically displaced. The creation itself demonstrates the technological transformation it questions. Its emotional value is in its inherent contradictions.
 
 The real challenge isn't preventing humanity from entering extraordinary virtual worlds. It is ensuring that entering remains a genuine choice, rather than an escape from a physical world where opportunity has become increasingly scarce.
 
 In the original *Matrix*, humanity struggled to escape a reality designed by machines. In the future we are building, humanity may stand at the entrance to such a world, mesmerized by everything it offers, and eagerly ask to be let inside.
 
-**The question may no longer be whether we can escape the Matrix.**
-
-**It may be whether we would ever want to.**
+**The question may no longer be whether we can escape the Matrix. It may be whether we would ever want to.**
 
 *Inspired by [Who Gets Tomorrow](https://www.youtube.com/watch?v=W-HTU4Inzbg) — Astra Blue AI, an AI-generated music video exploring technological displacement, economic inequality, and the future of human freedom.*
