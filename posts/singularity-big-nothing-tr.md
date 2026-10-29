@@ -6,8 +6,8 @@ date: 2024-03-23
 category: Fikirler / Yapay Zekânın Geleceği
 read_time: 7 dk okuma
 title: Teknolojik Tekillik Neden "Koca Bir Hiç" Çıkabilir?
-deck: Süper zekânın gündelik hayatı sanıldığı kadar değiştirmeyebileceğini düşündüren beş neden: İnsanlar onun sözüne uymaya yanaşmayacak, geldiği konusunda uzlaşı sağlanamayacak, makine zekâsı insan zekâsından yapısal olarak farklı, düzenlemeler hızını kesecek ve toplum onu ancak yavaş yavaş benimseyecek.
-archive_deck: Süper zekânın gündelik hayatı sanıldığı kadar değiştirmeyebileceğini düşündüren beş neden: İnsanlar onun sözüne uymaya yanaşmayacak, geldiği konusunda uzlaşı sağlanamayacak, makine zekâsı insan zekâsından yapısal olarak farklı, düzenlemeler hızını kesecek ve toplum onu ancak yavaş yavaş benimseyecek.
+deck: Süper zekânın gündelik hayatı sanıldığı kadar değiştirmeyebileceğini düşündüren beş neden.
+archive_deck: Süper zekânın gündelik hayatı sanıldığı kadar değiştirmeyebileceğini düşündüren beş neden.
 ---
 
 *(Tekilliği ani bir kırılma, her şeyi altüst edecek bir sarsıntı olarak gören yaygın anlatıya bir itiraz)*
