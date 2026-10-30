@@ -15,6 +15,16 @@
  },
  "items": [
   {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-30",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-30",
+   "summary": "Scott Carlson did the work (gated, but free with registration), here is one excerpt: Cowen: …Another proposal I’ve made is that schools should let people do one class, only one class, AI-only — no professor, except a professor grades at the end. The professor grades not answers to an exam but the workflow of how…",
+   "title": "Chronicle of Higher Education interviews me on AI and education",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/chronicle-of-higher-education-interviews-me-on-ai-and-education.html"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-10-29",
    "kind": "post",
@@ -23,6 +33,36 @@
    "summary": "AI can do things humans researchers can’t, even in groups.",
    "title": "A golden age of science is coming",
    "url": "https://www.noahpinion.blog/p/a-golden-age-of-science-is-coming"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-30",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-10-29",
+   "summary": "Preparing to interview Robert Caro.",
+   "title": "What I learned about power from LBJ and Robert Moses",
+   "url": "https://www.dwarkesh.com/p/lessons-in-power"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-10-30",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-29",
+   "summary": "Anthropic filed its S-1 this week to prepare for its IPO. They still have to fill a lot of the numbers including the share price. That still left a lot to be learned, including how the messaging to investors differs …",
+   "title": "AI #192: Anthropic Is Going Public",
+   "url": "https://thezvi.wordpress.com/2026/10/29/ai-192-anthropic-is-going-public/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-30",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-29",
+   "summary": "[This is a guest post by Gireeja Ranade. This blog post was initially written in a different file format and converted using AI. — T.] The day after the Navier-Stokes result was announced, a student came to my office hours. They said, “Can we please talk about the Navier-Stokes result and what it means? I…",
+   "title": "AI, Mathematics, Education, and a public goods problem",
+   "url": "https://terrytao.wordpress.com/2026/10/29/ai-mathematics-education-and-a-public-goods-problem/"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -36,6 +76,16 @@
   },
   {
    "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-30",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-29",
+   "summary": "1. “A whopping 79 NBA players are listed on today’s 2:30 PM injury report for tonight’s games. That’s roughly 15% of the entire league” This is just week one people! And some commentary. 2. Video making the case that AI has been fine for jobs. 3. John Repetti reviews The Rouse at Jacobin. 4. Is…",
+   "title": "Thursday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/thursday-assorted-links-576.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-10-29",
    "kind": "post",
    "person": "tyler-cowen",
@@ -46,6 +96,16 @@
   },
   {
    "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-30",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-29",
+   "summary": "I use LLMs to forecast treatment effects of research studies pre-registered on the AEA RCT Registry and the Open Science Framework. I focus on studies whose results were first publicly released in 2026 and elicit forecasts from models whose training or knowledge cut-off dates were before the relevant set of papers was released. First, LLM…",
+   "title": "Can Artificial Intelligence Forecast Treatment Effects in Economics?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/can-artificial-intelligence-forecast-treatment-effects-in-economics.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-10-29",
    "kind": "post",
    "person": "tyler-cowen",
@@ -53,6 +113,26 @@
    "summary": "We show that AI-generated article reviews are now better, by every measure we could construct, than reviews written by well-compensated human experts and judged to be of unusually high quality by journal editors and authors. We then discuss how this result may inform journal policy choices, with concerning downsides as well as potential paths to…",
    "title": "AI dominates human peer reviews",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/10/ai-dominates-human-peer-reviews.html"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-30",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-29",
+   "summary": "GLM 5.3 turned published-but-unshipped Firefox security fixes into working one-click exploits for six releases, at roughly $1,000 each.",
+   "title": "AI can turn security fixes into working exploits before users receive an update",
+   "url": "https://epoch.ai/publications/open-weight-models-patch-gap"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-30",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-29",
+   "summary": "The computing power of AI chips sold each quarter has grown about 2.5× per year since 2024, down from a surge in 2023.",
+   "title": "New global AI computing capacity is doubling every 9 months",
+   "url": "https://epoch.ai/data-insights/ai-computing-capacity-additions-doubling"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -590,7 +670,7 @@
    "kind": "report",
    "person": "metr",
    "published": "2026-10-22",
-   "summary": "For three weeks, from July 21st to August 11th, a METR employee and a Redwood Research employee conducted a pilot high-access exercise to stress-test OpenAI’s internal misalignment monitoring system. 1 The output of this exercise was a 61-page internal report that was shared with OpenAI researchers and security staff, 2 primarily focused on estimating the fraction of agentic inference that is…",
+   "summary": "For three weeks, from July 21st to August 11th, 1 a METR employee and a Redwood Research employee conducted a pilot high-access exercise to stress-test OpenAI’s internal misalignment monitoring system. 2 The output of this exercise was a 61-page internal report that was shared with OpenAI researchers and security staff, 3 primarily focused on estimating the fraction of agentic inference that is…",
    "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
    "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
   },
@@ -2775,26 +2855,6 @@
    "url": "https://epoch.ai/gradient-updates/9-big-questions-benchmarks-can-help-answer"
   },
   {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-08-14",
-   "summary": "Epoch AI/Ipsos survey: 67% of AI-using workers in computer, engineering, and science jobs use employer-provided AI.",
-   "title": "Most AI use at work happens on free plans, except in science and tech",
-   "url": "https://epoch.ai/data-insights/employer-provided-ai-by-occupation"
-  },
-  {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-08-13",
-   "summary": "Since 2023, the average dollar spent on AI chips each quarter has yielded about 49% more performance each year in constant 2025 dollars, doubling every 1.7 years as spending shifts to each new chip generation.",
-   "title": "The performance per dollar of AI chips purchased each quarter has grown by an average of 49% per year",
-   "url": "https://epoch.ai/data-insights/chip-performance-per-dollar"
-  },
-  {
    "feed": "https://erictopol.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3193,26 +3253,6 @@
    "summary": "Advice for Aspiring Policy Analysts",
    "title": "So You Want to Work in Washington D.C.?",
    "url": "https://www.jessicariedl.blog/p/so-you-want-to-work-in-washington"
-  },
-  {
-   "feed": "https://www.dwarkesh.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "dwarkesh-patel",
-   "published": "2026-07-01",
-   "summary": "Abolishing pandemics/ Getting out of the way of AI automation/ Learning from Honk Kong MTR's business model",
-   "title": "The Winning Essays for the Big Questions About AI",
-   "url": "https://www.dwarkesh.com/p/blog-prize-winners"
-  },
-  {
-   "feed": "https://anneapplebaum.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "anne-applebaum",
-   "published": "2026-07-01",
-   "summary": "It's hard to celebrate the ideals of the Founders if you don't believe in them",
-   "title": "Trump and Vance Ruined the Fourth of July",
-   "url": "https://anneapplebaum.substack.com/p/trump-and-vance-ruined-the-fourth"
   }
  ]
 }
