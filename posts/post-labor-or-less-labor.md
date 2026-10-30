@@ -32,7 +32,7 @@ The historical record points strongly toward **less-labor economics**: a world i
 - **Most of America's shorter workweek came in one institutional burst, between 1913 and 1950.** The eight-hour-day movement, unions, new laws and the Great Depression cut the full-time week from about 58 hours to 42. Before and since, it fell only slowly.
 - **Work has never stopped suddenly.** When work per person did fall fast, it was a recession, a baby boom or a law cutting the standard week.
 - **We took our extra leisure at the ends of life.** Counting housework too, Americans aged 25 to 54 worked about as many hours a week in 2005 as in 1900. Nearly all the cuts came before age 25 and after 55.
-- **On the historical pattern, the average American worker will still work about 28 hours a week in 2100.** Keynes's fifteen-hour week needs either growth far beyond anything America has seen or a new shorter-hours movement like that of the 1910s.
+- **On the historical pattern, the average American worker will still work about 28 hours a week in 2100 (from about 35 today).** Keynes's fifteen-hour week needs either growth far beyond anything America has seen or a new shorter-hours movement like that of the 1910s.
 - **The first years of AI look normal, with two exceptions.** Productivity, hours, jobs and pay have stayed within their historical range. What is unusual is who gets the output and who gets hired: labor's share of business income is at a record low, and young adults' employment has lagged the business cycle.
 
 ## 1. Machines save labor fast; we take the savings as goods
