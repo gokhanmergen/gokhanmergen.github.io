@@ -220,4 +220,4 @@ A selection of memorable claims is not a forecasting tournament: feasibility arg
 *Weekly hours per worker in 2100, starting from 35.3 in 2025. −0.10 is roughly the US since 1950, −0.16 rich countries since 1950, −0.26 the US before 1930, −0.37 rich countries in 1890–1929, and −0.53 the 1913–29 shorter-hours wave.*
 :::
 
-*The full analysis, with data, robustness checks and references, is in the working paper “Less Labor or Post-Labor? Hours, Productivity, and Lifetimes of Work, 1870–2100” (October 2026).*
+*The full analysis, with data, robustness checks and references, is in the working paper [“Less Labor or Post-Labor? Hours, Productivity, and Lifetimes of Work, 1870–2100”](/pubs/less-labor-or-post-labor/less-labor-or-post-labor.pdf) (October 2026).*
