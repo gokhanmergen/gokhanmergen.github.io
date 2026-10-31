@@ -55,6 +55,9 @@ The Substack copy is built from that live page.
     is words ("Yale Budget Lab, earlier tracking"), not when it is a figure
     such as a rating.
 - **Images** are uploaded to Substack's CDN. Their alt text is kept.
+- **Links** are made absolute. A root-relative link on the blog, such as
+  `/pubs/…/paper.pdf`, would point at the Substack site. `livePage` does
+  this for every helper.
 - **The whole post is mirrored,** including appendices and references.
 - **Publishing:**
   - When the author asks to publish, use **Send to everyone now**:
@@ -65,7 +68,7 @@ The Substack copy is built from that live page.
 - **Long posts** show the editor banner "Your post may be truncated in some
   email clients" (Gmail clips large emails, with a "View entire message"
   link). Tell the author. They have published such posts anyway
-  (betting-on-longevity, who-broke-the-budget).
+  (betting-on-longevity, who-broke-the-budget, post-labor-or-less-labor).
 
 ## Steps for a new post
 
@@ -88,19 +91,27 @@ The Substack copy is built from that live page.
    a table changes on the blog, render it again and push it before updating
    the Substack copy.
 4. **Body.** Read `substack_helpers.js` in this folder and run its full text
-   with `javascript_tool` on the editor page. Then run each of these in its
-   own call:
+   with `javascript_tool` on the editor page. When the file has no local
+   changes (`git status`), you can fetch it instead of pasting 37 KB:
+   `fetch` it from `https://raw.githubusercontent.com/gokhanmergen/gokhanmergen.github.io/<commit>/.claude/skills/substack-crosspost/substack_helpers.js`
+   at the pushed commit (`git rev-parse HEAD`), after checking with `curl
+   | shasum` that it matches the local file. Then store it in
+   `sessionStorage` as `cp` and run `(0, eval)(sessionStorage.getItem('cp'))`.
+   Then run each of these in its own call:
 
    ```js
-   await crosspost.buildBody('<slug>', 'October 18, 2026')  // tables -> images, image uploads, dateline
-   await crosspost.fill()                                    // loads the body into the editor
+   await crosspost.buildBody('<slug>', 'October 18, 2026')  // tables -> images, image uploads, dateline; lists the folds
+   await crosspost.fill()                                    // loads the body into the editor, math included
    await crosspost.addWidgets()                              // returns the heading the middle widget precedes
+   await crosspost.foldSections(<draft id>)                  // only if buildBody listed folds
+   await crosspost.waitSaved(<draft id>)                     // only after foldSections
    await crosspost.verify(<draft id>)                        // checks the server's copy
    ```
 
    `verify` must show:
    - 3 widgets;
    - `images` equal to `liveImages` (the blog's images plus its tables);
+   - `math` equal to `liveMath`, and `folds` equal to `liveFolds`;
    - `links` equal to `liveLinksPlusDateline`;
    - an empty `missing` list.
 
@@ -126,15 +137,15 @@ The Substack copy is built from that live page.
 
 - **Math.** The live HTML has display math as raw text in
   `<div class="blog-math">\[...\]</div>`, and inline math as `\(x\)`.
-  `buildBody` refuses posts with math, so handle them by hand:
-  1. Replace each math div with a placeholder paragraph before `fill()`.
-  2. In `editor.getJSON()`, replace each placeholder with a `latex_block`
-     node.
-  3. Split inline text around an `inline_latex` node.
-
-  Both node types take attrs `{persistentExpression: '<latex>', id: '<10
-  random A–Z letters>'}`. Don't use the editor's insertLatex commands: they
-  create empty nodes that crash the editor.
+  - `buildBody` replaces each math div with a `MATHBLOCK<n>` placeholder
+    paragraph.
+  - `fill` swaps each placeholder for a `latex_block` node, and splits inline
+    math out of the text as `inline_latex` nodes (`mathify`).
+  - Both node types take attrs `{persistentExpression: '<latex>', id: '<10
+    random A–Z letters>'}`. To add math by hand, edit the editor's JSON the
+    same way. Don't use the editor's insertLatex commands: they create empty
+    nodes that crash the editor.
+  - In the email, a math block shows as an image (checked 2026-10-30).
 - **SVG images.** Render each one to a 2x PNG on a canvas, then upload the
   PNG as a data URL. `buildBody` refuses SVGs.
 - **Editor JSON marks.** The editor's schema calls the marks `italic` and
@@ -144,17 +155,24 @@ The Substack copy is built from that live page.
 - **Folded sections.** The blog folds appendices and references (`::: fold`).
   On Substack they go in its collapsible block, `collapsedContent` (attrs
   `expandLabel`, `collapseLabel`; content any blocks):
-  - The heading stays visible, and a "Show appendix" or "Show references"
-    button opens the block under it.
-  - Run `await crosspost.foldSections(<id>, ['Appendix A', 'Appendix B',
-    'References'])` on the editor page, then `waitSaved` and `update`. For a
-    new post, run it after `addWidgets`.
+  - The heading stays visible, and a "Show appendix", "Show references" or
+    "Show sources" button opens the block under it.
+  - The editor rejects the blog's `<details>` ("Invalid HTML content"), so
+    `buildBody` unwraps them and lists their headings as `folds`.
+  - `await crosspost.foldSections(<id>)` folds the sections the blog folds.
+    For a new post, run it after `addWidgets`, so the middle widget is placed
+    by the unfolded post. For a published post, follow it with `waitSaved`
+    and `update`. To fold other sections, pass heading prefixes:
+    `foldSections(<id>, ['Appendix A', 'References'])`.
+  - Each fold ends where the blog's does. A paragraph after the last fold,
+    such as post-labor-or-less-labor's note on the working paper, stays
+    visible above the end widget.
   - It also gives every image its width and height. Without them, an image
     inside a block that starts closed shows at 300px.
+  - In the email, a folded section shows only its heading and a "Show
+    appendix" link to the post on the web (checked 2026-10-30).
 
-  First done on who-broke-the-budget on 2026-10-20. How these blocks look in
-  emails hasn't been checked; check an email preview before relying on them
-  in a new post.
+  First done on who-broke-the-budget on 2026-10-20.
 - **Interactive pages** (`!embed`, such as the blue-or-red quiz). Substack
   can't run them, so the Substack post is a short teaser. The author
   approved this layout on 2026-10-20:

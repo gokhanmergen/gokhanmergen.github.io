@@ -5,14 +5,14 @@
 // It defines window.crosspost. Then call, one step per javascript_tool call:
 //
 //   await crosspost.buildBody('who-broke-the-budget', 'October 18, 2026')
-//   await crosspost.fill()          // loads the body into the editor
+//   await crosspost.fill()          // loads the body into the editor, math included
 //   await crosspost.addWidgets()    // after dateline, mid-article, at the end
+//   await crosspost.foldSections(<draft id>)  // if buildBody listed folds; then waitSaved
 //   await crosspost.verify(<draft id>)
 //
 // buildBody uploads the post's images to Substack and swaps each table for
 // its image (made by render_tables.py and pushed to the site), with the
-// table's links in the caption. It does not handle math or SVG images; see
-// SKILL.md for those.
+// table's links in the caption. It does not handle SVG images; see SKILL.md.
 //
 //   await crosspost.audit()         // compares every published post with the blog
 //
@@ -32,7 +32,7 @@
 //
 // or, to fold appendices and references as the blog does:
 //
-//   await crosspost.foldSections(<id>, ['Appendix A', 'Appendix B', 'References'])
+//   await crosspost.foldSections(<id>)  // the sections the blog folds
 
 window.crosspost = {
   SITE: 'https://www.gokhanmergen.com',
@@ -49,9 +49,38 @@ window.crosspost = {
     return (n.content || []).map((c) => this.text(c)).join(n.type === 'paragraph' || n.type === 'heading' ? '' : ' ');
   },
 
+  // The live page, with the article's links made absolute: a root-relative
+  // link, such as /pubs/….pdf, would point at the Substack site.
   async livePage(slug) {
-    const html = await fetch(`${this.SITE}/blog-${slug}.html`, { cache: 'no-store' }).then((r) => r.text());
-    return new DOMParser().parseFromString(html, 'text/html');
+    const postUrl = `${this.SITE}/blog-${slug}.html`;
+    const html = await fetch(postUrl, { cache: 'no-store' }).then((r) => r.text());
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    for (const a of doc.querySelectorAll('.blog-article-content a[href]')) a.setAttribute('href', new URL(a.getAttribute('href'), postUrl).href);
+    return doc;
+  },
+
+  // A math node's id: 10 random capital letters.
+  letters() {
+    return Array.from({ length: 10 }, () => String.fromCharCode(65 + Math.floor(Math.random() * 26))).join('');
+  },
+
+  // Split the text runs of a node in the editor's JSON around inline math,
+  // \(…\), which becomes inline_latex nodes.
+  mathify(node) {
+    if (!node.content) return node;
+    const content = [];
+    for (const ch of node.content) {
+      if (ch.type !== 'text' || !/\\\(/.test(ch.text)) {
+        content.push(this.mathify(ch));
+        continue;
+      }
+      for (const part of ch.text.split(/(\\\(.+?\\\))/)) {
+        const m = part.match(/^\\\((.+)\\\)$/);
+        if (m) content.push({ type: 'inline_latex', attrs: { persistentExpression: m[1], id: this.letters() } });
+        else if (part) content.push({ ...ch, text: part });
+      }
+    }
+    return { ...node, content };
   },
 
   // Replace each table with <figure><img><figcaption>Links: …</figcaption>.
@@ -59,7 +88,6 @@ window.crosspost = {
   // keeps the table's links, named after their row: the first column, or the
   // second when the first is a "#" rank.
   tablesToImages(doc, slug) {
-    const postUrl = `${this.SITE}/blog-${slug}.html`;
     const tables = [...doc.querySelectorAll('.blog-article-content div.blog-table')];
     tables.forEach((wrap, i) => {
       const table = wrap.querySelector('table');
@@ -77,7 +105,7 @@ window.crosspost = {
             // added when it is words, like "earlier tracking", not "4.06 · 35k".
             const name = c === labelCol ? text.split(': ')[0] : /[a-z]{3}/i.test(text) ? `${rowName}, ${text}` : rowName;
             const link = doc.createElement('a');
-            link.href = new URL(a.getAttribute('href'), postUrl).href;
+            link.href = a.getAttribute('href');
             link.textContent = name;
             links.push(link);
           }
@@ -99,15 +127,34 @@ window.crosspost = {
     return tables.length;
   },
 
-  // Fetch the live article, swap tables for images, upload images, add the dateline.
+  // Ready the live article for the editor: tables become images; each
+  // display equation becomes a MATHBLOCK<n> paragraph, which fill swaps for a
+  // math block (its LaTeX goes in this.math); and each folded section is
+  // unwrapped, since the editor rejects <details> (foldSections folds it
+  // again). Returns the folded sections' headings.
+  prepare(doc, slug) {
+    const art = doc.querySelector('.blog-article-content');
+    const tables = this.tablesToImages(doc, slug);
+    this.math = [...art.querySelectorAll('.blog-math')].map((div, i) => {
+      const p = doc.createElement('p');
+      p.textContent = `MATHBLOCK${i}`;
+      div.replaceWith(p);
+      return div.textContent.trim().replace(/^\\\[/, '').replace(/\\\]$/, '').trim();
+    });
+    const folds = [...art.querySelectorAll('details')].map((d) => {
+      const summary = d.querySelector(':scope > summary');
+      const heading = summary.textContent.trim();
+      d.replaceWith(...summary.children, ...[...d.childNodes].filter((n) => n !== summary));
+      return heading;
+    });
+    return { art, tables, folds };
+  },
+
+  // Fetch the live article, ready it (prepare), upload images, add the dateline.
   async buildBody(slug, dateText) {
     const postUrl = `${this.SITE}/blog-${slug}.html`;
     const doc = await this.livePage(slug);
-    const art = doc.querySelector('.blog-article-content');
-    if (art.querySelector('.blog-math') || /\\\(/.test(art.textContent)) {
-      throw new Error('Post has math: follow the math steps in SKILL.md');
-    }
-    const tables = this.tablesToImages(doc, slug);
+    const { art, tables, folds } = this.prepare(doc, slug);
 
     // Upload each image to Substack's CDN and point the <img> at it.
     const uploads = [];
@@ -135,13 +182,36 @@ window.crosspost = {
     const dateline = `<p><em>Originally published on <a href="${postUrl}">gokhanmergen.com</a> on ${dateText}.</em></p>`;
     this.slug = slug;
     this.bodyHtml = dateline + art.innerHTML;
-    return { uploads, tables, tablesLeft: art.querySelectorAll('table').length, htmlLength: this.bodyHtml.length };
+    const inlineMath = (art.innerHTML.match(/\\\(/g) || []).length;
+    return { uploads, tables, math: this.math.length, inlineMath, folds, tablesLeft: art.querySelectorAll('table').length, htmlLength: this.bodyHtml.length };
   },
 
+  // Load the body into the editor, then swap in the math nodes.
   async fill() {
-    this.editor().commands.setContent(this.bodyHtml, true);
+    const ed = this.editor();
+    ed.commands.setContent(this.bodyHtml, true);
     await new Promise((r) => setTimeout(r, 1500));
-    return { nodes: this.editor().getJSON().content.length };
+    const inline = (this.bodyHtml.match(/\\\(/g) || []).length;
+    if (this.math.length || inline) {
+      ed.commands.setContent(this.withMath(ed.getJSON()), true);
+      await new Promise((r) => setTimeout(r, 2000));
+    }
+    const after = ed.getJSON();
+    const count = (t) => (JSON.stringify(after).match(new RegExp(`"type":"${t}"`, 'g')) || []).length;
+    if (count('latex_block') !== this.math.length || count('inline_latex') !== inline) {
+      throw new Error(`${count('latex_block')} math blocks and ${count('inline_latex')} inline math nodes; the post has ${this.math.length} and ${inline}`);
+    }
+    return { nodes: after.content.length, mathBlocks: this.math.length, inlineMath: inline };
+  },
+
+  // The editor's JSON with each MATHBLOCK<n> paragraph made a latex_block
+  // holding this.math[n], and inline math made inline_latex nodes.
+  withMath(doc) {
+    const content = doc.content.map((n) => {
+      const m = n.type === 'paragraph' && this.text(n).trim().match(/^MATHBLOCK(\d+)$/);
+      return m ? { type: 'latex_block', attrs: { persistentExpression: this.math[+m[1]], id: this.letters() } } : this.mathify(n);
+    });
+    return { ...doc, content };
   },
 
   widget() {
@@ -192,8 +262,10 @@ window.crosspost = {
   async verify(draftId) {
     await new Promise((r) => setTimeout(r, 3000));
     const d = await fetch(`/api/v1/drafts/${draftId}`, { cache: 'no-store' }).then((r) => r.json());
-    const body = JSON.parse(d.draft_body || '{"content":[]}');
-    const count = (t) => body.content.filter((n) => n.type === t).length;
+    const raw = d.draft_body || '{"content":[]}';
+    const body = JSON.parse(raw);
+    // Images and math are counted inside folded sections too; widgets only at the top level.
+    const count = (t) => (raw.match(new RegExp(`"type":"${t}"`, 'g')) || []).length;
     const draftText = this.text(body).replace(/\s+/g, ' ');
     const art = (await this.livePage(this.slug)).querySelector('.blog-article-content');
     const blocks = [...art.querySelectorAll('p, li, h2, h3')]
@@ -203,10 +275,14 @@ window.crosspost = {
     return {
       title: d.draft_title,
       subtitle: d.draft_subtitle,
-      widgets: count('subscribeWidget'),
+      widgets: body.content.filter((n) => n.type === 'subscribeWidget').length,
       images: count('captionedImage'),
       liveImages: art.querySelectorAll('figure img').length + art.querySelectorAll('table').length,
-      links: (JSON.stringify(body).match(/"type":"link"/g) || []).length,
+      math: count('latex_block') + count('inline_latex'),
+      liveMath: art.querySelectorAll('.blog-math').length + (art.innerHTML.match(/\\\(/g) || []).length,
+      folds: count('collapsedContent'),
+      liveFolds: art.querySelectorAll('details').length,
+      links: (raw.match(/"type":"link"/g) || []).length,
       liveLinksPlusDateline: art.querySelectorAll('a').length + 1,
       textBlocksChecked: blocks.length,
       missing: blocks.filter((t) => !draftText.includes(t)).map((t) => t.slice(0, 80)),
@@ -317,7 +393,6 @@ window.crosspost = {
       throw new Error(msg);
     };
     const c = JSON.parse(JSON.stringify(orig.content));
-    const postUrl = `${this.SITE}/blog-${slug}.html`;
     const art = (await this.livePage(slug)).querySelector('.blog-article-content');
     const replaced = [];
     for (const [oldStart, newStart] of paragraphs) {
@@ -325,7 +400,6 @@ window.crosspost = {
       const p = [...art.querySelectorAll('p')].find((e) => e.textContent.trim().startsWith(newStart));
       if (at < 0) fail(`No Substack paragraph starts "${oldStart}"`);
       if (!p) fail(`No paragraph on the blog starts "${newStart}"`);
-      for (const a of p.querySelectorAll('a')) a.setAttribute('href', new URL(a.getAttribute('href'), postUrl).href);
       ed.commands.setContent(p.outerHTML, false);
       c[at] = ed.getJSON().content[0];
       replaced.push(at);
@@ -364,9 +438,7 @@ window.crosspost = {
       throw new Error(msg);
     };
     const norm = (t) => t.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, ' ').trim();
-    const postUrl = `${this.SITE}/blog-${slug}.html`;
     const art = (await this.livePage(slug)).querySelector('.blog-article-content');
-    for (const a of art.querySelectorAll('a')) a.setAttribute('href', new URL(a.getAttribute('href'), postUrl).href);
 
     const strip = (n) => (n.content ? { ...n, content: n.content.filter((x) => x.type !== 'subscribeWidget').map(strip) } : n);
     const c = strip(orig).content;
@@ -392,26 +464,9 @@ window.crosspost = {
       if (e.classList.contains('blog-math')) return 'M';
       return 'X' + e.tagName;
     };
-    const letters = () => Array.from({ length: 10 }, () => String.fromCharCode(65 + Math.floor(Math.random() * 26))).join('');
-    const mathify = (node) => {
-      if (!node.content) return node;
-      const content = [];
-      for (const ch of node.content) {
-        if (ch.type !== 'text' || !/\\\(/.test(ch.text)) {
-          content.push(mathify(ch));
-          continue;
-        }
-        for (const part of ch.text.split(/(\\\(.+?\\\))/)) {
-          const m = part.match(/^\\\((.+)\\\)$/);
-          if (m) content.push({ type: 'inline_latex', attrs: { persistentExpression: m[1], id: letters() } });
-          else if (part) content.push({ ...ch, text: part });
-        }
-      }
-      return { ...node, content };
-    };
     const convert = (e) => {
       ed.commands.setContent(e.outerHTML, false);
-      const nodes = ed.getJSON().content.map(mathify);
+      const nodes = ed.getJSON().content.map((n) => this.mathify(n));
       if (!nodes.length) fail(`Could not convert "${e.textContent.slice(0, 60)}"`);
       return nodes;
     };
@@ -486,28 +541,21 @@ window.crosspost = {
 
   // Fold the sections the blog folds (appendices, references) into Substack's
   // collapsible block. Each `## <prefix>...` heading stays visible; what follows
-  // it, up to the next folded heading or the end widget, goes into a
-  // collapsedContent block that opens with "Show appendix" (or "Show
-  // references"). Every image gets its width and height from its file name:
-  // without them, an image in a block that starts closed shrinks to 300px.
-  // The old body is stashed in sessionStorage as orig-<id>.
+  // it goes into a collapsedContent block that opens with "Show appendix" (or
+  // "Show references", "Show sources"). Without prefixes, it folds the sections the blog
+  // folds. A fold ends where the blog's does, at the next folded heading or at
+  // the end widget, so a closing note after the last fold stays visible.
+  // Every image gets its width and height from its file name: without them,
+  // an image in a block that starts closed shrinks to 300px. The old body is
+  // stashed in sessionStorage as orig-<id>.
   async foldSections(postId, prefixes) {
     const ed = this.editor();
     const orig = ed.getJSON();
     sessionStorage.setItem(`orig-${postId}`, JSON.stringify(orig));
-    const c = JSON.parse(JSON.stringify(orig.content));
-    if (c.some((n) => n.type === 'collapsedContent')) throw new Error('Already folded');
-    const heads = prefixes.map((p) => c.findIndex((n) => n.type === 'heading' && n.attrs.level === 2 && this.text(n).startsWith(p)));
-    if (heads.some((i) => i < 0)) throw new Error(`Headings not found: ${prefixes.filter((_, k) => heads[k] < 0)}`);
-    if (heads.some((h, k) => k && h <= heads[k - 1])) throw new Error('Headings out of order');
-    const bounds = heads.concat([c[c.length - 1].type === 'subscribeWidget' ? c.length - 1 : c.length]);
-    for (let k = heads.length - 1; k >= 0; k--) {
-      const h = heads[k];
-      const heading = this.text(c[h]);
-      const what = /^Reference/.test(heading) ? 'references' : /^Further reading/i.test(heading) ? 'further reading' : 'appendix';
-      const body = c.slice(h + 1, bounds[k + 1]);
-      c.splice(h + 1, body.length, { type: 'collapsedContent', attrs: { expandLabel: `Show ${what}`, collapseLabel: `Hide ${what}` }, content: body });
-    }
+    const slug = (JSON.stringify(orig).match(/gokhanmergen\.com\/blog-([a-z0-9-]+)\.html/) || [])[1];
+    if (!slug) throw new Error('No dateline link to the blog');
+    const art = (await this.livePage(slug)).querySelector('.blog-article-content');
+    const { content: c, folded } = this.folded(orig.content, art, prefixes);
     let sized = 0;
     const size = (n) => {
       const m = n.type === 'image2' && !n.attrs.width && (n.attrs.src || '').match(/_(\d+)x(\d+)\.\w+$/);
@@ -527,7 +575,41 @@ window.crosspost = {
       throw new Error('The text changed; restored the old body');
     }
     this.expected = this.fingerprint(after);
-    return { folded: heads.length, sized, nodes: after.content.length };
+    return { folded, sized, nodes: after.content.length };
+  },
+
+  // The body's top-level blocks with the folds made (see foldSections); `art`
+  // is the live article.
+  folded(content, art, prefixes) {
+    const norm = (t) => t.replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/\s+/g, ' ').trim();
+    const c = JSON.parse(JSON.stringify(content));
+    if (c.some((n) => n.type === 'collapsedContent')) throw new Error('Already folded');
+    const details = [...art.querySelectorAll(':scope > details')];
+    const summary = (d) => norm(d.querySelector('summary').textContent);
+    prefixes = (prefixes || details.map(summary)).map(norm);
+    const heads = prefixes.map((p) => c.findIndex((n) => n.type === 'heading' && n.attrs.level === 2 && norm(this.text(n)).startsWith(p)));
+    if (!heads.length) throw new Error('Nothing to fold');
+    if (heads.some((i) => i < 0)) throw new Error(`Headings not found: ${prefixes.filter((_, k) => heads[k] < 0)}`);
+    if (heads.some((h, k) => k && h <= heads[k - 1])) throw new Error('Headings out of order');
+    const last = c[c.length - 1].type === 'subscribeWidget' ? c.length - 1 : c.length;
+    const ends = heads.map((h, k) => {
+      const end = k + 1 < heads.length ? heads[k + 1] : last;
+      // On the blog, the block after this fold's <details>, if the fold ends before the next folded heading.
+      const next = details.find((d) => summary(d).startsWith(prefixes[k]))?.nextElementSibling;
+      if (!next || next.tagName === 'DETAILS') return end;
+      const t = norm(next.textContent).slice(0, 60);
+      const at = c.findIndex((n, i) => i > h && i < end && t && norm(this.text(n)).startsWith(t));
+      if (at < 0) throw new Error(`The block after "${prefixes[k]}" on the blog ("${t}") is not where it should be`);
+      return at;
+    });
+    for (let k = heads.length - 1; k >= 0; k--) {
+      const h = heads[k];
+      const heading = this.text(c[h]);
+      const what = /^Reference/.test(heading) ? 'references' : /^Sources/.test(heading) ? 'sources' : /^Further reading/i.test(heading) ? 'further reading' : 'appendix';
+      const body = c.slice(h + 1, ends[k]);
+      c.splice(h + 1, body.length, { type: 'collapsedContent', attrs: { expandLabel: `Show ${what}`, collapseLabel: `Hide ${what}` }, content: body });
+    }
+    return { content: c, folded: heads.length };
   },
 
   // What waitSaved compares: the widget positions, the image sources and the text.
