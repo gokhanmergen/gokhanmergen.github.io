@@ -15,6 +15,76 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-10-31",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-10-31",
+   "summary": "A TV character gave us a glimpse of what humanity might become.",
+   "title": "Farewell, my Captain",
+   "url": "https://www.noahpinion.blog/p/farewell-my-captain"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-31",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-31",
+   "summary": "[This is a guest post by the organizers of the Summit on Math Research in the Age of AI: Dan Freed (Harvard), Larry Guth (MIT), Bryna Kra (Northwestern), Emily Riehl (Johns Hopkins), and Mohammed Abouzaid (Stanford). This blog post was initially written in a different file format and converted using AI. — T.] Last week…",
+   "title": "Report of the Summit on Math Research in the Age of AI",
+   "url": "https://terrytao.wordpress.com/2026/10/30/__trashed/"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-10-31",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-10-30",
+   "summary": "\"A lot of the stuff that I cut out, it's tragic that no one knows it.\"",
+   "title": "Robert Caro – The master biographer reflects at 91",
+   "url": "https://www.dwarkesh.com/p/robert-caro"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-10-31",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-10-30",
+   "summary": "The Census Bureau’s most recent data released on October 29 shows the US population will decline without high rates of immigration.",
+   "title": "US Immigrant Share Growing at the Slowest Pace Since the 1960s",
+   "url": "https://www.alexnowrasteh.com/p/us-immigrant-share-growing-at-the"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-10-31",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-10-30",
+   "summary": "Nikole Hannah-Jones wrote a brave self-critical piece in The New York Times, centrally about how she intentionally sent her daughter to a well-funded but failing school, PS 307, in the hopes of using voice to improve it, and how that …",
+   "title": "Childhood and Education #22: Voice Without Exit",
+   "url": "https://thezvi.wordpress.com/2026/10/30/childhood-and-education-22-voice-without-exit/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-31",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-30",
+   "summary": "Edgar Assing, Valentin Blomer, and Farrell Brumley are organizing an event at the Hausdorff Center in Bonn on Jan 11-15 to discuss recent developments regarding the Riemann zeta function and allied functions. From the announcement: “This includes in particular the recently established proof of the quasi Riemann Hypothesis over the rational numbers as well as over general…",
+   "title": "Collaborative retreat: New developments in the theory of zeta functions",
+   "url": "https://terrytao.wordpress.com/2026/10/30/collaborative-retreat-new-developments-in-the-theory-of-zeta-functions/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-10-31",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-10-30",
+   "summary": "In my “Mathocalypse” post, I mentioned that my wife Dana—who’s been working on Subhash Khot’s Unique Games Conjecture since ~2009, for the entire time I’ve known her—has for the past few weeks (while on sabbatical at the Simons Institute in Berkeley) been spending essentially all of her time laboring to understand OpenAI’s recent proof of…",
+   "title": "Talk by Dana Moshkovitz: The Unique Games Conjecture – Proved (!!?)",
+   "url": "https://scottaaronson.blog/?p=10232"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-10-30",
    "kind": "post",
@@ -23,6 +93,16 @@
    "summary": "Scott Carlson did the work (gated, but free with registration), here is one excerpt: Cowen: …Another proposal I’ve made is that schools should let people do one class, only one class, AI-only — no professor, except a professor grades at the end. The professor grades not answers to an exam but the workflow of how…",
    "title": "Chronicle of Higher Education interviews me on AI and education",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/10/chronicle-of-higher-education-interviews-me-on-ai-and-education.html"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-10-31",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-10-30",
+   "summary": "17% of biology preprints acknowledge LLM use, nearly matching specialized tools like AlphaFold. Epoch AI analyzes trends in AI acknowledgment in research.",
+   "title": "LLM use is acknowledged almost as often as specialized AI tools in biology preprints",
+   "url": "https://epoch.ai/data-insights/biorxiv-llms-vs-ai-tools"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -2845,16 +2925,6 @@
    "url": "https://metr.org/blog/2026-08-14-funding-update/"
   },
   {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-08-14",
-   "summary": "A good benchmark asks more than just “can AI do this specific task?”",
-   "title": "9 big questions benchmarks can help answer",
-   "url": "https://epoch.ai/gradient-updates/9-big-questions-benchmarks-can-help-answer"
-  },
-  {
    "feed": "https://erictopol.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3243,16 +3313,6 @@
    "summary": "Prof Aaron Newman and I discuss a blood test to assess the tumor microenvironment",
    "title": "Aaron Newman: A Breakthrough Blood Test for Cancer",
    "url": "https://erictopol.substack.com/p/a-breakthrough-blood-test-for-cancer"
-  },
-  {
-   "feed": "https://www.jessicariedl.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "jessica-riedl",
-   "published": "2026-07-02",
-   "summary": "Advice for Aspiring Policy Analysts",
-   "title": "So You Want to Work in Washington D.C.?",
-   "url": "https://www.jessicariedl.blog/p/so-you-want-to-work-in-washington"
   }
  ]
 }
