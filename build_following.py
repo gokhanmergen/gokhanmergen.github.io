@@ -29,7 +29,7 @@ from typing import Dict, List, Optional
 
 # Importing build_blog would otherwise leave a __pycache__ in the repository.
 sys.dont_write_bytecode = True
-from build_blog import load_posts, navigation  # noqa: E402
+from build_blog import UI_TEXT, load_posts, navigation  # noqa: E402
 
 
 ROOT = Path(__file__).resolve().parent
@@ -548,7 +548,7 @@ def render_page(page: dict, topics: Dict[str, Topic], people: List[Person], pick
 {main}
 
     <footer class="site-footer">
-      <span>Gökhan Mergen (c) 2026</span>
+      <span>{escape(UI_TEXT["en"]["copyright"])}</span>
       <a href="index.html">Back to the homepage ↑</a>
     </footer>
   </div>

@@ -83,6 +83,7 @@ UI_TEXT = {
         "next_older": "Next older post",
         "publications": "Publications",
         "footer": "Back to the blog ↑",
+        "copyright": f"{AUTHOR} (c) 2026 * Opinions expressed are solely my own and do not express the views or opinions of my employer.",
         "read_in": "Read in English",
         "comments": "Comments",
         "subscribe_kicker": "Subscribe",
@@ -104,6 +105,7 @@ UI_TEXT = {
         "next_older": "Bir önceki yazı",
         "publications": "Yayınlar",
         "footer": "Bloga dön ↑",
+        "copyright": f"{AUTHOR} (c) 2026 * Dile getirilen görüşler yalnızca bana aittir; işverenimin görüş ya da düşüncelerini yansıtmaz.",
         "read_in": "Türkçe oku",
         "comments": "Yorumlar",
         "subscribe_kicker": "Abone ol",
@@ -502,7 +504,7 @@ def page_shell(
 {main}
 
     <footer class="site-footer">
-      <span>Gökhan Mergen (c) 2026</span>
+      <span>{escape(UI_TEXT[lang]["copyright"])}</span>
       <a href="{escape(footer_href)}">{escape(footer_link)}</a>
     </footer>
   </div>
