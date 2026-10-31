@@ -30,9 +30,29 @@
    "kind": "post",
    "person": "terence-tao",
    "published": "2026-10-31",
+   "summary": "The Academy for the Mathematical Sciences, which is based in the UK, has released a report “The mathematical sciences in an AI-enabled world“. To quote from the release: The paper examines how recent advances in artificial intelligence are changing mathematical research and its applications, bringing new opportunities for discovery, verification and the use of mathematics…",
+   "title": "The mathematical sciences in an AI-enabled world",
+   "url": "https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-10-31",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-10-31",
    "summary": "[This is a guest post by the organizers of the Summit on Math Research in the Age of AI: Dan Freed (Harvard), Larry Guth (MIT), Bryna Kra (Northwestern), Emily Riehl (Johns Hopkins), and Mohammed Abouzaid (Stanford). This blog post was initially written in a different file format and converted using AI. — T.] Last week…",
    "title": "Report of the Summit on Math Research in the Age of AI",
    "url": "https://terrytao.wordpress.com/2026/10/30/__trashed/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-10-31",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-10-31",
+   "summary": "Researchers, I just uploaded a prominent QJE paper on climate change economics to @RefineDotInk and I loaded my critique of the paper. I asked the AI to offer an impartial verdict. I will make this report public. A new journal could collect these into “Special Issues”. That is from Matthew E. Kahn.",
+   "title": "And so it begins…",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/and-so-it-begins-2.html"
   },
   {
    "feed": "https://www.dwarkesh.com/feed",
