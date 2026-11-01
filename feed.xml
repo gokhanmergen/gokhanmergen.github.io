@@ -14,6 +14,22 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>AI Watch: Economic Indicators</title>
+      <link>https://www.gokhanmergen.com/blog-ai-watch.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-ai-watch.html</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Economy / AI</category>
+      <description>What do economic indicators say about AI&#x27;s effect on jobs and the economy?</description>
+      <blog:readTime>6 min read</blog:readTime>
+      <content:encoded>&lt;p&gt;&lt;em&gt;Data through October 23, 2026 for job postings, September 2026 for employment and pay, and 2026 Q2 for output and the labor share.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;1. Job postings&lt;/h2&gt;
+&lt;p&gt;Software postings are 32% above their May 2025 low but 65% below their February 2022 peak; all postings are 36% below theirs. Human resources is back to its pre-pandemic level (+17% over the year); healthcare is flat. The same data reproduce &lt;a href=&quot;https://www.a16z.news/p/charts-of-the-week-job-fud-fades&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;a16z&amp;#x27;s&lt;/a&gt; figures exactly: engineering +29.5%, software +25.7% and manufacturing +13.3% since October 1, 2025.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tax law.&lt;/strong&gt; The &lt;a href=&quot;https://www.congress.gov/bill/115th-congress/house-bill/1&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Tax Cuts and Jobs Act&lt;/a&gt; of 2017 required firms, from January 2022, to deduct the cost of software development over five years (fifteen for work abroad) instead of at once; US software postings peaked at the end of February. The &lt;a href=&quot;https://www.congress.gov/bill/119th-congress/house-bill/1&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;One Big Beautiful Bill Act&lt;/a&gt;, signed on July 4, 2025, restored immediate deduction for domestic research from 2025, and back to 2022 for small businesses. Both laws were signed by President Trump, the first in his first term and the second in his second, so the 2025 rebound can be read as one law undoing the other&amp;#x27;s drag rather than as a verdict on AI.&lt;/p&gt;
+&lt;p&gt;Other countries, where neither law applies to local firms, separate the two years:&lt;/p&gt;
+&lt;h2&gt;5. Evidence not rebuilt here&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Definitions, sources and limits: &lt;a href=&quot;/pubs/ai-watch/methods-and-data.pdf&quot;&gt;Methods and Data&lt;/a&gt;. This edition as a PDF: &lt;a href=&quot;/pubs/ai-watch/ai-watch.pdf&quot;&gt;AI Watch&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>Polarization and Its Discontents</title>
       <link>https://www.gokhanmergen.com/blog-the-great-rotation.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-the-great-rotation.html</guid>
