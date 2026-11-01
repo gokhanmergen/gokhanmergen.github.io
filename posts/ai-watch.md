@@ -79,4 +79,4 @@ Other countries, where neither law applies to local firms, separate the two year
 - **Companies:** revenue and headcount diverged after 2022 at Alphabet, Meta, Microsoft and Spotify, but not at Bank of America, Visa, Accenture or Deloitte (FT).
 - **Young workers:** in US payroll data, employment of 22–25-year-olds in the most AI-exposed jobs is 19% below the path of less-exposed peers, up from 15% a year earlier ([Brynjolfsson, Chandar and Chen](https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/), June 2026); Current Population Survey data give 14.5% (July–September 2026). The FT finds the junior shortfall in software jobs in the US, UK, Canada and Western Europe, but in other exposed jobs mainly in the US.
 
-*Definitions, sources and limits: [Methods and Data](/pubs/ai-watch/methods-and-data.pdf). This edition as a PDF: [AI Watch](/pubs/ai-watch/ai-watch.pdf).*
+*Definitions, sources and limits: [Methods and Data](/pubs/ai-watch/methods-and-data.pdf).*
