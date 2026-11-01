@@ -15,6 +15,16 @@
  },
  "items": [
   {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-01",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-01",
+   "summary": "A suburban Chicago man has been sentenced to two years in federal prison for conspiring to stage armed robberies so that the purported victims could apply for U.S. immigration visas reserved for crime victims. From 2022 to 2024, PARTH NAYI organized and participated in hundreds of staged armed robberies at coffee shops, restaurants, liquor stores, and gas…",
+   "title": "Those new service sector jobs?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/those-new-service-sector-jobs-18.html"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-10-31",
    "kind": "post",
@@ -43,6 +53,16 @@
    "summary": "[This is a guest post by the organizers of the Summit on Math Research in the Age of AI: Dan Freed (Harvard), Larry Guth (MIT), Bryna Kra (Northwestern), Emily Riehl (Johns Hopkins), and Mohammed Abouzaid (Stanford). This blog post was initially written in a different file format and converted using AI. — T.] Last week…",
    "title": "Report of the Summit on Math Research in the Age of AI",
    "url": "https://terrytao.wordpress.com/2026/10/30/__trashed/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-11-01",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-10-31",
+   "summary": "Boooooo! What spooooky times we now live in, with AI rapidly advancing in capabilities and solving more and more major open math problems! So it seems like a perfect occasion to share yet another podcast. I know I’ve been dropping them like every day, but this is a special one, with Brian Greene for his…",
+   "title": "Podcast about the Topic: Part III, with Brian Greene",
+   "url": "https://scottaaronson.blog/?p=10270"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -3323,16 +3343,6 @@
    "summary": "What happens when democracy is no longer part of America's identity",
    "title": "The Beacon of Democracy?",
    "url": "https://anneapplebaum.substack.com/p/the-beacon-of-democracy"
-  },
-  {
-   "feed": "https://erictopol.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "eric-topol",
-   "published": "2026-07-03",
-   "summary": "Prof Aaron Newman and I discuss a blood test to assess the tumor microenvironment",
-   "title": "Aaron Newman: A Breakthrough Blood Test for Cancer",
-   "url": "https://erictopol.substack.com/p/a-breakthrough-blood-test-for-cancer"
   }
  ]
 }
