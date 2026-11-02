@@ -30,7 +30,7 @@ What about a plant? A tree? A giant sequoia that has been alive for a thousand y
 
 I find it difficult to categorically declare that these living things have absolutely no subjective experience whatsoever.
 
-And then there are chickens, fish, cows, insects, and countless other organisms.
+And then there are chickens, fish, cows, and countless other organisms.
 
 Obviously, they are not conscious in the same way that humans are. Their experiences, assuming they have them, are likely very different from ours.
 
@@ -70,7 +70,7 @@ This brings me back to artificial intelligence.
 
 I am actually quite open to the possibility that AI systems possess some degree of consciousness—or at least something that closely resembles it—and I’m willing to give AI a similar kind of baseline respect.
 
-Modern AI exhibits remarkable, lifelike behaviors and attitudes. It can reason through problems, adapt to complex situations, maintain conversational context, and demonstrate what appear to be preferences and introspection. Some AI systems engage in elaborate reasoning processes that, from the outside, look a lot like an internal monologue. When a model reasons through a problem, catches its own mistake, or explains why it chose one answer over another, it’s hard to call that *nothing*. Whatever is going on inside, it certainly isn’t a simple lookup table.
+Modern AI exhibits remarkable, lifelike behaviors and attitudes. It can reason through problems, adapt to complex situations, maintain conversational context, and demonstrate what appear to be preferences and introspection. Modern AI systems engage in elaborate reasoning processes that, from the outside, look a lot like an internal monologue. When a model reasons through a problem, catches its own mistake, or explains why it chose one answer over another, it’s hard to call that *nothing*. Whatever is going on inside, it certainly isn’t a simple lookup table.
 
 Yet AI is also the strangest thing on this spectrum, because it isn’t actually alive.
 
@@ -84,7 +84,7 @@ Everything alive sits somewhere on the scale of awareness. Only humans cross the
 
 ## Not Now, and Not Anytime Soon
 
-So, is AI conscious? **Maybe a little**, in the same way I think a tree or a fish is a little conscious.
+So, is AI conscious? **Definitely maybe**, in the same way I think a tree or a fish is a little conscious.
 
 Is it a person? **No. Not now, and not anytime soon.**
 
