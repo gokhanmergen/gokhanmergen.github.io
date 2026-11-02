@@ -15,6 +15,46 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-02",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-02",
+   "summary": "The bull case for Anthropic’s IPO.",
+   "title": "Anthropic’s moat is Claude",
+   "url": "https://www.noahpinion.blog/p/anthropics-moat-is-claude"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-11-02",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-11-02",
+   "summary": "Part 6 of What People Really Care About When They’re Mad About Immigration",
+   "title": "Legal Migrants Aren’t Ticking Time Bombs",
+   "url": "https://www.alexnowrasteh.com/p/legal-migrants-arent-ticking-time"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-02",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-02",
+   "summary": "My latest paper, The Price of a Cure: Luxturna and the Economic Dilemmas of Precision Medicine, is in the Journal of Law, Medicine and Ethics. I discuss the economics of the pharmaceutical industry and the special issues that arise with targeted drugs that cure. We are going to get many more of these drugs in…",
+   "title": "Expensive Pharmaceuticals for Targeted Diseases",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/expensive-pharmaceuticals-for-targeted-diseases.html"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-02",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-01",
+   "summary": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on October 6 of over 700 research papers was a watershed in the history of mathematics. AI is now undeniably…",
+   "title": "Mathematics has changed. Let’s act like it",
+   "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-01",
    "kind": "post",
