@@ -15,6 +15,36 @@
  },
  "items": [
   {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-03",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-03",
+   "summary": "Tipping is large and growing, but we know little about its consequences for workers and firms. We link point-of-sale and payroll records at 20,000 U.S. firms, which lets us observe tips from customer payment to worker earnings. We find that tips are a nearly constant share of revenue, which means hourly pay moves with revenue.…",
+   "title": "The economics of tips",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-tips.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-03",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-03",
+   "summary": "That is the theme of my latest Free Press article. Excerpt, which offers the beginning of the story: If we look at the 1960s, the John F. Kennedy and Lyndon Baines Johnson administrations brought James Tobin, Robert Solow, Kenneth Arrow (all three later Nobel laureates), Arthur Okun, Walter Heller, Gardner Ackley, Otto Eckstein, and Walt…",
+   "title": "Are economists declining in status?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/are-economists-declining-in-status.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-03",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-02",
+   "summary": "This paper’s conclusions seem well worth knowing: the authors are looking at the intersection of what are usually considered two rather different forms of cancer treatment (therapeutic vaccines to mobilize the immune system and the more classic chemotherapy approaches). The paper notes that tests of such vaccines often take place in patients who are themselves receiving chemotherapy, and in fact…",
+   "title": "Chemotherapy Actually Helps Immunotherapy in Cancer",
+   "url": "https://www.science.org/content/blog-post/chemotherapy-actually-helps-immunotherapy-cancer"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-02",
    "kind": "post",
@@ -35,6 +65,46 @@
    "url": "https://www.alexnowrasteh.com/p/legal-migrants-arent-ticking-time"
   },
   {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-03",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-02",
+   "summary": "If you are helping build something that might kill everyone, maybe stop doing that. Ideally, when you do stop, tell everyone else to also stop building it. That is certainly the obvious, first-level thing to do. You need a damn …",
+   "title": "Scott Alexander’s Against SURA Seems Deeply Confused",
+   "url": "https://thezvi.wordpress.com/2026/11/02/scott-alexanders-against-sura-seems-deeply-confused/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-03",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-02",
+   "summary": "[This is a guest post by Karthik C. S., Amit Sahai, and Jie Xue. This blog post was initially written in a different file format and converted using AI. — T.] This is a good time for mathematicians to think carefully about the purpose of their work. The development of artificial intelligence brings that question…",
+   "title": "Egoless Mathematics in the AI Era",
+   "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-11-03",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-11-02",
+   "summary": "Can rapamycin reverse skin aging?In this episode of Longevity Science, I sit down with Dr. Chris Sell and Dr. Christina Chung, co-founders of Hayflick Therapeutics, to explore the science behind using rapamycin to target aging in the skin.Chris has spent decades studying cellular senescence, IGF signaling, mTOR, and rapamycin. Christina is a dermatologist whose work with transplant patients gave…",
+   "title": "Can Rapamycin Reverse Skin Aging? The Science of Skin Rejuvenation",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Can-Rapamycin-Reverse-Skin-Aging--The-Science-of-Skin-Rejuvenation-e3rjmtc"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-03",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-02",
+   "summary": "1. Why is it now so common to be asked about your food allergies? (GPT Pro answer) 2. Training for alignment, applies principal-agent theory. 3. Do people offload empathy when they think AI can give it instead? 4. The Wallace line. 5. AI can draw blueprints now. 6. Ed Glaeser review of the new book…",
+   "title": "Monday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/monday-assorted-links-584.html"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-02",
    "kind": "post",
@@ -43,6 +113,16 @@
    "summary": "My latest paper, The Price of a Cure: Luxturna and the Economic Dilemmas of Precision Medicine, is in the Journal of Law, Medicine and Ethics. I discuss the economics of the pharmaceutical industry and the special issues that arise with targeted drugs that cure. We are going to get many more of these drugs in…",
    "title": "Expensive Pharmaceuticals for Targeted Diseases",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/expensive-pharmaceuticals-for-targeted-diseases.html"
+  },
+  {
+   "feed": "https://jack-clark.net/feed/",
+   "first_seen": "2026-11-03",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-11-02",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad at low-latency tasks:…Realtime-Bench says it’ll be a while till AI systems can play games or do online auctions for you…Researchers have built…",
+   "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+   "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -121,7 +201,7 @@
    "person": "dwarkesh-patel",
    "published": "2026-10-30",
    "summary": "\"A lot of the stuff that I cut out, it's tragic that no one knows it.\"",
-   "title": "Robert Caro – The master biographer reflects at 91",
+   "title": "What Robert Caro learned about power after studying it for 50 years",
    "url": "https://www.dwarkesh.com/p/robert-caro"
   },
   {
@@ -2885,16 +2965,6 @@
    "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-08-25",
-   "summary": "I’m taking a summer break and will return to posting Monday, August 31.",
-   "title": "On vacation until August 31",
-   "url": "https://www.science.org/content/blog-post/vacation-until-august-31"
-  },
-  {
    "feed": "https://www.dwarkesh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -3373,16 +3443,6 @@
    "summary": "The Left & Right Cling to their False Narratives",
    "title": "Why We Refuse to Confront Social Security Insolvency",
    "url": "https://www.jessicariedl.blog/p/why-we-refuse-to-confront-social"
-  },
-  {
-   "feed": "https://anneapplebaum.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "anne-applebaum",
-   "published": "2026-07-05",
-   "summary": "What happens when democracy is no longer part of America's identity",
-   "title": "The Beacon of Democracy?",
-   "url": "https://anneapplebaum.substack.com/p/the-beacon-of-democracy"
   }
  ]
 }
