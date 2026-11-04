@@ -6,6 +6,9 @@
   "https://erictopol.substack.com/feed": {
    "since": "2026-10-24"
   },
+  "https://export.arxiv.org/api/query?search_query=au:Aaronson_Scott&sortBy=submittedDate&sortOrder=descending&max_results=10": {
+   "since": "2026-11-04"
+  },
   "https://phillipspobrien.substack.com/feed": {
    "since": "2026-10-24"
   },
@@ -14,6 +17,66 @@
   }
  },
  "items": [
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-04",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-04",
+   "summary": "Normies exist, and there’s only so far you can push them before they get mad.",
+   "title": "Normal Americans punished MAGA",
+   "url": "https://www.noahpinion.blog/p/normal-americans-punished-maga"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-04",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-03",
+   "summary": "(It is of course Election Day here in the US, and yes, I am likely to jump straight up into the air at the slightest provocation and will be for some time to come, I fear. But I’m writing a straight-up blog post to give my brain something else to think about! Anyone who wants to hear me yammer about US electoral politics after the polls close can follow my Bluesky account (@dereklowe.bsky.social)…",
+   "title": "Taming Photochemistry",
+   "url": "https://www.science.org/content/blog-post/taming-photochemistry"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-04",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-03",
+   "summary": "The Model Spec is potentially OpenAI’s most important document. It outlines what they aspire for the model to do, and how it should think. I’ve already covered a previous version in depth, so my strategy this time is to look …",
+   "title": "OpenAI Updates Its Model Spec",
+   "url": "https://thezvi.wordpress.com/2026/11/03/openai-updates-its-model-spec/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-04",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-03",
+   "summary": "[This is a guest post by the AHM communications group. — T.] We are happy to announce that the Teaching Working Group of the Association for Human Mathematics wrote a set of recommendations on doctoral advising aimed at departments, advisors, and students. The document contains five guidelines centered on prioritizing human-authored writing, avoiding overreliance on…",
+   "title": "Doctoral Advising Guidelines by the AHM",
+   "url": "https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-11-04",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-11-03",
+   "summary": "Can we slow aging in dogs and help them live longer, healthier lives? More than a decade ago, that question inspired the creation of the Dog Aging Project, which has grown from an ambitious idea into one of the largest studies of aging ever conducted in companion animals, with more than 55,000 dogs participating.In this special presentation from the inaugural Animal Longevity Summit, Dr. Matt…",
+   "title": "The Story of the Dog Aging Project: How One Dog Changed Longevity Science",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Story-of-the-Dog-Aging-Project-How-One-Dog-Changed-Longevity-Science-e3rjnjg"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-04",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-03",
+   "summary": "1. Jason Furman on AI and the CEA. 2. Matt Kahn uses Refine and gets results. 3. Cyril Hilsum, RIP (flat screen TV, NYT). 4. How much of the return to education is in fact a return to genes? 5. Essay contest on how AI will affect developing economies. 6. AI sanity from Nicholas Decker.…",
+   "title": "Tuesday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/tuesday-assorted-links-593.html"
+  },
   {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-03",
@@ -181,7 +244,7 @@
    "person": "scott-aaronson",
    "published": "2026-10-31",
    "summary": "Boooooo! What spooooky times we now live in, with AI rapidly advancing in capabilities and solving more and more major open math problems! So it seems like a perfect occasion to share yet another podcast. I know I’ve been dropping them like every day, but this is a special one, with Brian Greene for his…",
-   "title": "Podcast about the Topic: Part III, with Brian Greene",
+   "title": "Podcasts about the Topic: Part III, with Brian Greene",
    "url": "https://scottaaronson.blog/?p=10270"
   },
   {
@@ -2865,16 +2928,6 @@
    "url": "https://epoch.ai/data-insights/eci-frontier-trend"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-08-31",
-   "summary": "We had a weird story develop over the weekend here in the Cambridge area (and among organic chemists in general). I’m glad that I wasn’t trying to blog it as it happened, because it’s taken some turns! This all started last Wednesday night, but most of us only heard something on Thursday when word came of an MIT chemistry building that was being closed off because of a report of someone who had…",
-   "title": "The Alleged Dimethylmercury Incident",
-   "url": "https://www.science.org/content/blog-post/alleged-dimethylmercury-incident"
-  },
-  {
    "feed": "https://www.dwarkesh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -3433,16 +3486,6 @@
    "summary": "Note: the modeling assumptions and conclusion are Thomas Kwa’s opinion, and others at METR disagree. 1 Also, the math was checked by Claude but not a second human. Introduction Anthropic’s RSI blog post reported that in Q2 2026, Anthropic contributors merged 8× as much code per day as in the 2021-2024 period. What does this imply about the factor by which a researcher’s total effective output…",
    "title": "Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
    "url": "https://metr.org/notes/2026-07-08-anthropic-researcher-uplift/"
-  },
-  {
-   "feed": "https://www.jessicariedl.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "jessica-riedl",
-   "published": "2026-07-06",
-   "summary": "The Left & Right Cling to their False Narratives",
-   "title": "Why We Refuse to Confront Social Security Insolvency",
-   "url": "https://www.jessicariedl.blog/p/why-we-refuse-to-confront-social"
   }
  ]
 }
