@@ -6,9 +6,6 @@
   "https://erictopol.substack.com/feed": {
    "since": "2026-10-24"
   },
-  "https://export.arxiv.org/api/query?search_query=au:Aaronson_Scott&sortBy=submittedDate&sortOrder=descending&max_results=10": {
-   "since": "2026-11-04"
-  },
   "https://phillipspobrien.substack.com/feed": {
    "since": "2026-10-24"
   },
@@ -18,6 +15,36 @@
  },
  "items": [
   {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-05",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-05",
+   "summary": "India’s Outlook Business has an excellent issue focusing on pollution not just as a people killer but as a growth killer (as I have emphasized pollution reduces wealth and health, see especially this video). I am interviewed; here is one bit: Q. Doesn’t the demographic dividend argue for growth first? The demographic dividend is people.…",
+   "title": "Pollution as Growth Killer",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/pollution-as-growth-killer.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-05",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-04",
+   "summary": "Readers, you’ll have to bear with me for one morning as I do a politics post. After last night’s election there’s no way I can keep from it, and I’ll get to what this could mean for US science and science funding, I promise. I also know that I have many non-US readers who have not internalized all the bizarre details of electoral politics here - the correct decision, for sure - and now might want…",
+   "title": "The Morning After the Midterms",
+   "url": "https://www.science.org/content/blog-post/morning-after-midterms"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/computer-science/feed/",
+   "first_seen": "2026-11-05",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-11-04",
+   "summary": "By injecting “thoughts” directly into large language models, researchers are trying to map out AI’s capacity for introspection.",
+   "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
+   "url": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-04",
    "kind": "post",
@@ -26,6 +53,66 @@
    "summary": "Normies exist, and there’s only so far you can push them before they get mad.",
    "title": "Normal Americans punished MAGA",
    "url": "https://www.noahpinion.blog/p/normal-americans-punished-maga"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-05",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-04",
+   "summary": "The Majority Leader of the House of Representatives announces bills that will be considered under suspension of the rules in that chamber. CBO estimates the effects of those bills on direct spending and revenues.",
+   "title": "Legislation considered under suspension of the Rules of the House of Representatives during the week of November 9, 2026",
+   "url": "https://www.cbo.gov/publication/62590"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-11-05",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-11-04",
+   "summary": "Republicans went all-in on being anti-immigrant. It didn't work.",
+   "title": "Republicans Went All-In on Bad Immigration Policy",
+   "url": "https://www.alexnowrasteh.com/p/republicans-went-all-in-on-bad-immigration"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-05",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-04",
+   "summary": "I am continuing in this current era to open up my blog to a broader range of voices on math and AI, with the majority of posts now being guest posts by other authors. My own views on these topics (which often overlap with, but are not identical to, those of the guest authors) are…",
+   "title": "More of my interviews and talks",
+   "url": "https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-05",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-04",
+   "summary": "1. Important people in the AI world. 2. Ted Nordhaus on Bill Nordhaus. 3. “That universities facilitate broader political mobilization can explain why governments often seek to restrict student activism.” 4. NYT obituary for William Nordhaus. 5. A new (job market) paper on how much does economic geography matter? 6. “Recent-graduate unemployment fell to 5.2%,…",
+   "title": "Wednesday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-578.html"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-11-05",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-11-04",
+   "summary": "A Bayesian model gives the ECI better-justified uncertainty estimates and lets us compare models directly.",
+   "title": "Updating the Epoch Capabilities Index methodology to use a Bayesian model",
+   "url": "https://epoch.ai/publications/eci-bayesian-methodology"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-11-05",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-11-04",
+   "summary": "Broadcom’s shipments of TPU by unit volume increased by about 65% quarter over quarter to roughly 800,000 chips, while compute output doubled, driven by a shift to more powerful chips.",
+   "title": "Broadcom TPU compute shipments doubled from Q2 to Q3 2026, reaching 2 million H100-equivalents",
+   "url": "https://epoch.ai/data-insights/tpu-production-doubling"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -976,26 +1063,6 @@
    "summary": "For three weeks, from July 21st to August 11th, 1 a METR employee and a Redwood Research employee conducted a pilot high-access exercise to stress-test OpenAI’s internal misalignment monitoring system. 2 The output of this exercise was a 61-page internal report that was shared with OpenAI researchers and security staff, 3 primarily focused on estimating the fraction of agentic inference that is…",
    "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
    "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "video",
-   "person": "tyler-cowen",
-   "published": "2026-10-22",
-   "summary": "If you are teaching economics Modern Principles is the book to use! Great and original writing, over one hundred videos, iClicker, Achieve and lots of additional support. Contact Mike Krotine to get an examination copy. https://alextabarrok.com/video/modern-principles.mp4",
-   "title": "Modern Principles of Economics!",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/modern-principles-of-economics-3.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-22",
-   "summary": "At some point AI will be more regulated than it is today. Furthermore, I believe that most parts of the American economy, once they are regulated, end up overregulated. Thus it is likely that the AI sector will, at some point, end up overregulated. Given that reality, perhaps the AI sector should be underregulated today.…",
-   "title": "A simple point about the intertemporal regulation of AI",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/a-simple-point-about-the-intertemporal-regulation-of-ai.html"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -2878,16 +2945,6 @@
    "url": "https://www.science.org/content/blog-post/mutate-em-all-and-see-if-you-can-sort-em-out"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-01",
-   "summary": "There have been reports for a while now about altered images of Western blots in the catalogs of various antibody suppliers, and this news (sadly) will not have come as a real shock to many of their customers. The state of the commercial antibody market has always been a shambles, as far back as I’ve been aware of it. There are antibodies from different catalogs that are actually the same thing…",
-   "title": "Crappy Antibodies, Made Superficially More Appealing",
-   "url": "https://www.science.org/content/blog-post/crappy-antibodies-made-superficially-more-appealing"
-  },
-  {
    "feed": "https://www.dwarkesh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -2998,16 +3055,6 @@
    "url": "https://www.alexnowrasteh.com/p/immigrants-are-24-less-likely-to"
   },
   {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-08-27",
-   "summary": "How quickly are Anthropic and OpenAI growing their revenue?",
-   "title": "An update on AI’s most important number",
-   "url": "https://epoch.ai/gradient-updates/an-update-on-ais-most-important-number"
-  },
-  {
    "feed": "https://metr.org/feed.xml",
    "first_seen": "2026-10-24",
    "kind": "report",
@@ -3056,16 +3103,6 @@
    "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…A nice METR study lays out where acceleration is showing up…Here’s a little analysis from METR which…",
    "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
    "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/"
-  },
-  {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-08-24",
-   "summary": "US GDP growth has been underestimated by about 0.3 percentage points because statistics miss most of Nvidia's US-generated income, a gap that could widen to 2 points by 2028. Epoch AI traces the accounting gap through Nvidia's fabless chip supply chain.",
-   "title": "The Nvidia-sized hole in US GDP statistics",
-   "url": "https://epoch.ai/publications/the-nvidia-sized-hole-in-us-gdp-statistics"
   },
   {
    "feed": "https://erictopol.substack.com/feed",
