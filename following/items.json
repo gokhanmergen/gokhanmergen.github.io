@@ -15,6 +15,116 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-06",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-06",
+   "summary": "The Dems have to figure out what they stand for, and what they want to do.",
+   "title": "For the Democrats, now comes the hard part",
+   "url": "https://www.noahpinion.blog/p/for-the-democrats-now-comes-the-hard"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-06",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-06",
+   "summary": "I am on my way back home from Armenia, where I was on a Fulbright teaching U.S. securities regulation to Armenian law students. I’m an active user of AI for multiple areas of my life, including my professional life. When I just started preparing for teaching this class, I had a plan: I would use…",
+   "title": "Natasha Cowen guest posts on Caffrey",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/natasha-cowen-guest-posts-on-caffrey.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-06",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-05",
+   "summary": "I can recommend this article beyond its stated subject matter, because it’s a good all-round look at the general problems of drug delivery and PK-ADMET problems that need to be solved. It’s looking specifically at antimicrobial peptides, which admittedly is not a huge sector of the drug industry. But it’s a really good one to get an appreciation of what has to be done to turn a good compound in…",
+   "title": "Antimicrobial Peptides for Fun (?) and Profit (?)",
+   "url": "https://www.science.org/content/blog-post/antimicrobial-peptides-fun-and-profit"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-11-06",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-11-05",
+   "summary": "AIs are now good enough to run a conspiracy",
+   "title": "The benchmark where AIs have to lie to win",
+   "url": "https://www.dwarkesh.com/p/clocktower"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-06",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-05",
+   "summary": "Anthropic is warning us. Its modified S-1 now says that ‘we may imminently meet our Responsible Scaling Policy’s definition of ‘dramatically accelerated progress attributable to AI.’ That is a highly scary sentence to have a company put in its S-1. …",
+   "title": "AI #193: Progress May Dramatically Accelerate",
+   "url": "https://thezvi.wordpress.com/2026/11/05/ai-193-progress-may-dramatically-accelerate/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-06",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-05",
+   "summary": "[This is a guest post by Francesco Fournier-Facio, Yara Kyrychenko, Jon Roozenbeek, and Julian Wykowski, cross-posted from the Proofs and Prompts blog. This blog post was initially written in a different file format and converted using AI. — T.] Today we launch Futures of Maths, a new, living platform that asks active research mathematicians about…",
+   "title": "Futures of Maths Launch",
+   "url": "https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-11-06",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-11-05",
+   "summary": "As everyone knows, this week was a (an?) historic one for the State of Texas and for the United States as a whole—because this is the week when my wife Dana finally gave a 3-hour public lecture on OpenAI’s recent proof of the Unique Games Conjecture! Thanks so much to the nearly 200 people who…",
+   "title": "Thoughts on a historic week",
+   "url": "https://scottaaronson.blog/?p=10283"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-11-06",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-11-05",
+   "summary": "What if a gene variant found in people who live past 100 could help us develop therapies to slow aging?In this episode of Longevity Science, I sit down with Dr. Eric Leire, CEO of Genflow Biosciences, to explore the science behind SIRT6, a gene involved in DNA repair, metabolism, and several fundamental processes associated with aging.Eric and I discuss Genflow's approach to delivering a human…",
+   "title": "Can a Centenarian Gene Slow Aging? The SIRT6 Gene Therapy Story",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Can-a-Centenarian-Gene-Slow-Aging--The-SIRT6-Gene-Therapy-Story-e3rkels"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-11-06",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-11-05",
+   "summary": "Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. All redactions that were important to our conclusions are described in the report below…",
+   "title": "Review of the \"Risks from automated R&D\" section in Anthropic's Risk Report (August 2026)",
+   "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-11-06",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-11-05",
+   "summary": "Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. While we were able to freely share our highest-level conclusions about risk, Anthropic…",
+   "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+   "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-06",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-05",
+   "summary": "1. Economics job market site. 2. Data on the flattening of consumer culture (NYT). One-sided, but still of interest. 3. A new and better measure of how much of educational value is signaling. 4. Inside joke concerning the Pope that only some Beatles fans will get. 5. U.S. productivity growth is looking up. 6. NYT…",
+   "title": "Thursday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/thursday-assorted-links-577.html"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-05",
    "kind": "post",
@@ -963,26 +1073,6 @@
    "summary": "From Jesús Fernández-Villaverde: Will AI poison the public finances of many modern states? There is a real risk that it will. Yesterday, I circulated a new paper, “Saving for the Machines,” which makes a simple point. Building the AI transformation will require enormous investment. The only way to induce agents to save for that investment…",
    "title": "Will bystander economies be able to finance their governments?",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/10/will-bystander-economies-be-able-to-finance-their-governments.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-23",
-   "summary": "Here is their episode summary: Economist Tyler Cowen joins David Wolpe for a conversation about AI, religion, and what makes us human. Tyler makes the case that AI’s biggest impact may be on status: who gains it, who loses it, and what happens to experts like rabbis when anyone can ask ChatGPT all their questions.…",
-   "title": "Podcast with Rabbi David Wolpe",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/podcast-with-rabbi-david-wolpe.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-23",
-   "summary": "1. Weird diets (NYT). 2. Is this what the Denisovans looked like? 3. Measuring bottlenecks for AI. 4. How is violence diffferent when women lead drug cartels? 5. “Israel’s economy is growing so fast, it will leapfrog the Netherlands and Australia within the next 18 months, in time for it’s 80th birthday—not by 2030, as…",
-   "title": "Friday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/friday-assorted-links-596.html"
   },
   {
    "feed": "https://anneapplebaum.substack.com/feed",
@@ -2935,16 +3025,6 @@
    "url": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-02",
-   "summary": "As much as I love an experiment designed to slice and dice the possible explanations in one smooth motion, I also have always enjoyed the blue-sky “I wonder what would happen if. . .” kinds as well. And the modern era of molecular biology and computation really gives people the tools to do that sort of thing, as this recent preprint illustrates. What If. . .you took a simple virus and mutated…",
-   "title": "Mutate 'Em All and See If You Can Sort 'Em Out",
-   "url": "https://www.science.org/content/blog-post/mutate-em-all-and-see-if-you-can-sort-em-out"
-  },
-  {
    "feed": "https://www.dwarkesh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -3513,16 +3593,6 @@
    "summary": "And why black holes are the ultimate power plants.",
    "title": "Adam Brown – A deep but accessible introduction to general relativity",
    "url": "https://www.dwarkesh.com/p/adam-brown-gr"
-  },
-  {
-   "feed": "https://metr.org/feed.xml",
-   "first_seen": "2026-10-24",
-   "kind": "report",
-   "person": "metr",
-   "published": "2026-07-08",
-   "summary": "Note: the modeling assumptions and conclusion are Thomas Kwa’s opinion, and others at METR disagree. 1 Also, the math was checked by Claude but not a second human. Introduction Anthropic’s RSI blog post reported that in Q2 2026, Anthropic contributors merged 8× as much code per day as in the 2021-2024 period. What does this imply about the factor by which a researcher’s total effective output…",
-   "title": "Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
-   "url": "https://metr.org/notes/2026-07-08-anthropic-researcher-uplift/"
   }
  ]
 }
