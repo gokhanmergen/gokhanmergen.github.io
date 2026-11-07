@@ -25,6 +25,36 @@
    "url": "https://www.noahpinion.blog/p/for-the-democrats-now-comes-the-hard"
   },
   {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-07",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-06",
+   "summary": "For a while, UK AISI, Redwood Research and others have been concerned specifically with the possibility that AIs would sabotage safety research, and have invested in looking for signs that this may be happening. This was also a key element …",
+   "title": "GPT-6 Astra Covertly Underperforms on Safety Research Tasks",
+   "url": "https://thezvi.wordpress.com/2026/11/06/gpt-6-astra-covertly-underperforms-on-safety-research-tasks/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-07",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-06",
+   "summary": "Pavel Etingof, “Use of AI in Mathematical Research: A Guide for Young Mathematicians” Anna Gilbert, “Math qua math“ Anna Gilbert, “Mathematical criticism“ Larry Guth, “What math means to me“ Atoosa Kasirzadeh, “A New Dawn For Mathematical Progress“ As in previous posts, readers are invited to post links to additional articles in the comments.",
+   "title": "More posts",
+   "url": "https://terrytao.wordpress.com/2026/11/06/more-posts/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-07",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-06",
+   "summary": "A Delaware AIC will be a separate legal entity whose day-to-day aﬀairs are managed by an AI agent rather than a person. At the agent’s direction, the AIC can sue and be sued in its own name, hold and dispose of property, and incur obligations… That is a current proposal, here is the full article.…",
+   "title": "Untethered AI agents in Delaware?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/untethered-ai-agents-in-delaware.html"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-06",
    "kind": "post",
@@ -33,6 +63,26 @@
    "summary": "I am on my way back home from Armenia, where I was on a Fulbright teaching U.S. securities regulation to Armenian law students. I’m an active user of AI for multiple areas of my life, including my professional life. When I just started preparing for teaching this class, I had a plan: I would use…",
    "title": "Natasha Cowen guest posts on Caffrey",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/natasha-cowen-guest-posts-on-caffrey.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-07",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-06",
+   "summary": "1. What will happen with Texas data centers? And more on that. 2. What is the half life of a claim about LLMs? 3. YouTube video created by AI. Titled Der Zauberberg. 4. Data centers tend to be put in places with relatively flat supply curves. 5. “According to Twenge, one of the great Cassandras…",
+   "title": "Friday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/friday-assorted-links-598.html"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-11-07",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-11-06",
+   "summary": "Huawei’s AI data center in Horinger, Inner Mongolia, uses Ascend chips and has an estimated AI computing capacity that is just 7% that of the world’s largest AI data center, SpaceX’s Colossus 2 in Tennessee.",
+   "title": "What Huawei’s Horinger data center reveals about China’s compute gap",
+   "url": "https://epoch.ai/publications/huawei-horinger-china-compute-gap"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -1015,16 +1065,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/10/why-are-cybersecurity-losses-not-worse.html"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-24",
-   "summary": "Here is the audio, video, and transcript. Here is one excerpt: Cowen: Talk me out of this worry: So we agree science is an ecosystem, and there’s always a temptation to want to fund the most dynamic, most productive parts of the ecosystem. And right now, that would probably be A.I. But if you need…",
-   "title": "I guest host an NYT podcast with Michael Kratsios, Trump science advisor",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/i-guest-host-an-nyt-podcast-with-michael-kratsios-trump-science-advisor.html"
-  },
-  {
    "feed": "https://www.science.org/blogs/pipeline/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -1063,16 +1103,6 @@
    "summary": "A recording from Phillips P. OBrien's live video",
    "title": "Live with Phillips P. OBrien",
    "url": "https://phillipspobrien.substack.com/p/live-with-phillips-p-obrien-3df"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-23",
-   "summary": "From Jesús Fernández-Villaverde: Will AI poison the public finances of many modern states? There is a real risk that it will. Yesterday, I circulated a new paper, “Saving for the Machines,” which makes a simple point. Building the AI transformation will require enormous investment. The only way to induce agents to save for that investment…",
-   "title": "Will bystander economies be able to finance their governments?",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/will-bystander-economies-be-able-to-finance-their-governments.html"
   },
   {
    "feed": "https://anneapplebaum.substack.com/feed",
@@ -3053,16 +3083,6 @@
    "summary": "A benchmark of 68 significant Erdős problems, open as of August 2026, curated by Thomas Bloom and formalized in Lean. AI systems must prove or disprove them within a fixed budget.",
    "title": "Announcing FrontierMath Erdős",
    "url": "https://epoch.ai/latest/announcing-frontiermath-erdos"
-  },
-  {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-09-01",
-   "summary": "",
-   "title": "The ECI frontier has advanced by 14 points per year since the introduction of reasoning models",
-   "url": "https://epoch.ai/data-insights/eci-frontier-trend"
   },
   {
    "feed": "https://www.dwarkesh.com/feed",
