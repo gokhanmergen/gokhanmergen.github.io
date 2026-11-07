@@ -88,7 +88,7 @@ However, if we *succeed*—the "greatest reward" Sutskever alludes to—we unloc
 
 Sutskever argues that *"no amount of essays and explanations can compete with what we see with our own senses."* He predicts that over the next 1, 2, and 3 years, public apathy will evaporate as AI's capabilities become undeniable to the naked eye, generating the collective "energy" needed to confront these problems.
 
-Based on his framework, here is what the projection toward that date looks like:
+Based on his framework—and my estimated dates—here is what the projection toward 2035 looks like:
 
 ### Phase 1: The Awakening & Friction (2025 – 2028)
 
@@ -117,3 +117,5 @@ At first glance, it sounds like standard self-help wisdom. In context, it is psy
 In the coming years, millions of people are going to feel that the rules of the game were changed on them unfairly. People who spent decades mastering a craft, or years earning a degree, will watch machines replicate their expertise in milliseconds. It will be overwhelmingly tempting to fall into despair, denial, or bitter nostalgia for the pre-AI world.
 
 Sutskever is telling us that we cannot afford to look backward. The digital brain is coming. The only productive response is to look at it directly with our own eyes, accept the reality of the most unusual era in human history, and channel our collective energy into taking the next best step.
+
+**PS:** My personal take is that the future of AI is still unknown. We don’t yet know what share of human capabilities computers, and eventually machines, can replace in the short term, or how much of that they actually will. The short-term effects are especially hard to predict. Ultimately, though, Sutskever’s vision will likely come true. The biggest uncertainty is timing and pace.
