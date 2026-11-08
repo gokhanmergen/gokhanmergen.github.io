@@ -29,7 +29,7 @@ He states that the day is coming when AI will do **all** the things humans can d
 
 In philosophy of mind and computer science, this is known as **substrate independence**. Information processing does not require carbon, neurons, and blood; it only requires compute, memory, and the right algorithmic architecture. Because the human brain is a finite physical system operating under the laws of physics, there is no magical barrier preventing a silicon-based system from replicating—and eventually vastly exceeding—every cognitive capability we possess.
 
-Current AI, as Sutskever notes, is "evocative" yet "deficient." It can speak to us and write code, which is historically unprecedented, yet it still stumbles on things a child finds effortless. However, viewing today's flaws as permanent ceilings is a fatal failure of imagination.
+Current AI, as Sutskever notes, is "evocative" yet "deficient." It can speak to us and write code, which is historically unprecedented, yet it still stumbles on things. However, viewing today's flaws as permanent ceilings is a fatal failure of imagination.
 
 ## 2. When Will This Happen? (The Timeline)
 
@@ -68,7 +68,7 @@ Sutskever describes the arrival of this technology as **"the greatest challenge 
 
 ### A. The Post-Labor Crisis (Meaning and Economics)
 
-Since the dawn of agriculture, human society has been organized around a simple contract: *you trade your cognitive or physical labor for the resources required to survive, and in doing so, you derive social status and purpose.* When digital brains can do *all* jobs better, faster, and cheaper than biological brains, that foundational contract shatters. Even in a benign scenario where wealth is redistributed (via Universal Basic Income or radical abundance), humanity will face an unprecedented crisis of purpose. As one commenter on the video aptly noted, hearing this speech while holding a freshly minted university degree feels surreal—the very concept of "building a career" is being called into question.
+Since the dawn of agriculture, human society has been organized around a simple contract: *you trade your cognitive or physical labor for the resources required to survive, and in doing so, you derive social status and purpose.* When digital brains can do *all* jobs better, faster, and cheaper than biological brains, that foundational contract shatters. Even in a benign scenario where wealth is redistributed (via Universal Basic Income or radical abundance), humanity may face an unprecedented crisis of purpose. As one commenter on the video aptly noted, hearing this speech while holding a freshly minted university degree feels surreal—the very concept of "building a career" is being called into question.
 
 ### B. The Deceptive Alignment Problem (Survival)
 
@@ -86,25 +86,25 @@ However, if we *succeed*—the "greatest reward" Sutskever alludes to—we unloc
 
 ## 5. Projections and Implications: The Road to 2035
 
-Sutskever argues that *"no amount of essays and explanations can compete with what we see with our own senses."* He predicts that over the next 1, 2, and 3 years, public apathy will evaporate as AI's capabilities become undeniable to the naked eye, generating the collective "energy" needed to confront these problems.
+Sutskever argues that *"no amount of essays and explanations can compete with what we see with our own senses."* Within a few years, he expects, AI's abilities will be impossible to ignore, and public apathy will give way to the collective "energy" needed to confront these problems.
 
-Based on his framework—and my estimated dates—here is what the projection toward 2035 looks like:
+Here is how his framework could play out. The dates are my reading of it, not a forecast.
 
-### Phase 1: The Awakening & Friction (2025 – 2028)
+### Phase 1: Awakening and Friction (2025–2028)
 
-- **Education & Entry-Level Shock:** Traditional university assessments (essays, coding assignments, standard exams) become largely obsolete. Junior-level white-collar roles (software engineering, legal discovery, copywriting, data analysis) shrink as one senior worker paired with AI agents can act like a team.
-- **Building Intuition:** As AI transitions from text chatbots to autonomous multimodal agents that can use computers and navigate the physical world, the public begins to viscerally "feel the AGI."
+- **Education and entry-level shock:** Essays, coding assignments and standard exams lose their value as assessments. Junior white-collar roles in software, legal discovery, copywriting and data analysis shrink as one senior worker with AI agents does the work of a team.
+- **Building intuition:** As AI moves from chatbots to agents that use computers and act in the physical world, the public begins to "feel the AGI."
 
-### Phase 2: The R&D Inflection Point (2026 – 2029)
+### Phase 2: The R&D Inflection Point (2026–2029)
 
-- **Automated Science:** AI models begin making novel scientific discoveries in mathematics, materials science, and biology without human hand-holding.
-- **The Recursive Loop Begins:** Major AI labs deploy millions of virtual AI researchers working round-the-clock to optimize AI architectures. Progress detaches from human comprehension; models improve at a vertical pace.
-- **Political Mobilization:** Sutskever’s suggested quote—*"You may not take interest in AI, but AI will take interest in you"*—becomes the defining geopolitical reality. Governments scramble to implement emergency economic buffers, compute governance, and international safety treaties.
+- **Automated science:** AI makes novel discoveries in mathematics, materials science and biology without human hand-holding.
+- **The loop begins:** Labs run millions of virtual AI researchers around the clock to improve AI itself. Progress outruns human understanding.
+- **Political mobilization:** Sutskever's twist on an old line, that you may not take interest in AI but AI will take interest in you, becomes political reality. Governments scramble for economic cushions, compute governance and international safety treaties.
 
-### Phase 3: The Crucible (2029 – 2035)
+### Phase 3: The Crucible (2029–2035)
 
-- **Full Task Parity:** The "Biological Computer" hypothesis is proven to a large degree. The list of economically valuable cognitive tasks left that a human can perform better than a machine shrinks rapidly.
-- **The Alignment Test:** Humanity faces the ultimate test of whether our technical solutions for AI transparency and alignment hold up when dealing with systems vastly smarter than our collective civilization.
+- **Task parity:** The biological-computer hypothesis is largely borne out. Fewer and fewer valuable cognitive tasks remain where humans beat machines.
+- **The alignment test:** We learn whether our methods for transparency and alignment hold up against systems far smarter than our whole civilization.
 
 ## Conclusion: Why He Started With Stoicism
 
