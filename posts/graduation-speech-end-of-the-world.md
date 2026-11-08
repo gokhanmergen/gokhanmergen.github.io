@@ -39,7 +39,7 @@ Given that the speech was delivered in mid-2025, this places the arrival of full
 
 Why so fast? Because of the second major hypothesis in his speech: **The Recursive R&D Loop (The Intelligence Explosion).**
 
-Sutskever asks the audience to consider what "the collective we" will immediately use advanced AIs for:
+Sutskever asks the audience to consider what we will immediately use advanced AIs for:
 
 1. Doing more economic work.
 2. Growing the economy.
