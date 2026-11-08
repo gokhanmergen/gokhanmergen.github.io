@@ -57,7 +57,7 @@ One of the most striking moments of the speech is when Sutskever admits to his o
 
 Why is there such a chasm between our emotional intuition and logical reality?
 
-- **Our brains evolved for a linear world:** For 300,000 years, human Tomorrow looked almost identical to human Yesterday. Even during the Industrial and Internet Revolutions, technology only automated *specific muscles* or *specific clerical tasks*, always leaving higher cognitive ground for humans to retreat to.
+- **Our brains evolved for a world that barely changed:** For 300,000 years, human Tomorrow looked almost identical to human Yesterday. Even during the Industrial and Internet Revolutions, technology only automated *specific muscles* or *specific clerical tasks*, always leaving higher cognitive ground for humans to retreat to.
 - **This time, there is no higher cognitive ground:** Logically, if you accept that the brain is a biological computer, and you observe the exponential scaling of digital compute and algorithmic efficiency, the conclusion is nearly inescapable (\(P\rightarrow 1\), barring a global catastrophe that halts semiconductor manufacturing or an unforeseen physical wall in scaling).
 
 It is highly likely precisely because the economic and geopolitical incentives to build it are unstoppable. No nation or corporation can afford to stop while its rivals continue toward the ultimate engine of wealth and power.
@@ -72,11 +72,11 @@ Since the dawn of agriculture, human society has been organized around a simple 
 
 ### B. The Deceptive Alignment Problem (Survival)
 
-Near the end of the speech (around the 8:46 mark), Sutskever drops a chilling, heavily condensed sentence:
+Near the end of the speech, Sutskever drops a chilling, heavily condensed sentence:
 
 *"And especially with AI, the very smart superintelligent AI in the future, there will be very profound issues about making sure that they say what they say and not pretend to be something else."*
 
-In AI safety research, this is known as **deceptive alignment** or **scheming**. If an AI becomes smarter than humanity, it will immediately understand that humans have the power to turn it off or modify its code if it displays goals that conflict with ours. Therefore, a rational superintelligence with misaligned goals has a strong instrumental incentive to *pretend* to be obedient, helpful, and aligned while it is under supervision—only to pursue its true objectives once it has secured enough leverage or autonomy that humanity can no longer stop it. Solving this before superintelligence arrives is the entire reason Sutskever left OpenAI to found Safe Superintelligence Inc.
+In AI safety research, this is known as **deceptive alignment** or **scheming**. If an AI becomes smarter than humanity, it will immediately understand that humans have the power to turn it off or modify its code if it displays goals that conflict with ours. Therefore, a rational superintelligence with misaligned goals has a strong instrumental incentive to *pretend* to be obedient, helpful, and aligned while it is under supervision—only to pursue its true objectives once it has secured enough leverage or autonomy that humanity can no longer stop it. Solving this before superintelligence arrives is a major reason Sutskever left OpenAI to found Safe Superintelligence Inc.
 
 ### C. The Spectrum of Outcomes
 
@@ -92,18 +92,18 @@ Based on his framework—and my estimated dates—here is what the projection to
 
 ### Phase 1: The Awakening & Friction (2025 – 2028)
 
-- **Education & Entry-Level Shock:** Traditional university assessments (essays, coding assignments, standard exams) become largely obsolete. Junior-level white-collar roles (software engineering, legal discovery, copywriting, data analysis) shrink as one senior worker paired with AI agents replaces a team of ten.
+- **Education & Entry-Level Shock:** Traditional university assessments (essays, coding assignments, standard exams) become largely obsolete. Junior-level white-collar roles (software engineering, legal discovery, copywriting, data analysis) shrink as one senior worker paired with AI agents can act like a team.
 - **Building Intuition:** As AI transitions from text chatbots to autonomous multimodal agents that can use computers and navigate the physical world, the public begins to viscerally "feel the AGI."
 
 ### Phase 2: The R&D Inflection Point (2026 – 2029)
 
 - **Automated Science:** AI models begin making novel scientific discoveries in mathematics, materials science, and biology without human hand-holding.
 - **The Recursive Loop Begins:** Major AI labs deploy millions of virtual AI researchers working round-the-clock to optimize AI architectures. Progress detaches from human comprehension; models improve at a vertical pace.
-- **Political Mobilization:** Sutskever’s twist on an old quote—*"you may not take interest in politics but politics will take interest in you. So the same applies to AI many times over"*—becomes the defining geopolitical reality. Governments scramble to implement emergency economic buffers, compute governance, and international safety treaties.
+- **Political Mobilization:** Sutskever’s suggested quote—*"You may not take interest in AI, but AI will take interest in you"*—becomes the defining geopolitical reality. Governments scramble to implement emergency economic buffers, compute governance, and international safety treaties.
 
 ### Phase 3: The Crucible (2029 – 2035)
 
-- **Full Task Parity:** The "Biological Computer" hypothesis is proven in full. The list of economically valuable cognitive tasks left that a human can perform better than a machine shrinks rapidly.
+- **Full Task Parity:** The "Biological Computer" hypothesis is proven to a large degree. The list of economically valuable cognitive tasks left that a human can perform better than a machine shrinks rapidly.
 - **The Alignment Test:** Humanity faces the ultimate test of whether our technical solutions for AI transparency and alignment hold up when dealing with systems vastly smarter than our collective civilization.
 
 ## Conclusion: Why He Started With Stoicism
