@@ -118,4 +118,20 @@ In the coming years, millions of people are going to feel that the rules of the 
 
 Sutskever is telling us that we cannot afford to look backward. The digital brain is coming. The only productive response is to look at it directly with our own eyes, accept the reality of the most unusual era in human history, and channel our collective energy into taking the next best step.
 
-**PS:** My personal take is that the future of AI is still unknown. We don’t yet know what share of human capabilities computers, and eventually machines, can replace in the short term, or how much of that they actually will. The short-term effects are especially hard to predict. Ultimately, though, Sutskever’s vision will likely come true. The biggest uncertainty is timing and pace.
+### Is Sutskever Right? My Personal Take
+
+On where AI ends up, I think he is right. The brain is a physical system, and I know of nothing that reserves its abilities for biology. Where answers can be checked, as in math, code, chip design and AI research itself, progress is moving at roughly the pace he implied.
+
+Where I part ways is on how fast a smarter machine becomes a different world.
+
+[**Reality is irreducible.**](https://www.gokhanmergen.com/blog-interacting-with-asi.html) A recursive loop speeds up thinking, not experiments. Drugs must still be tested in human bodies over years, and physical experiments must still be run. Exponential intelligence often [meets exponentially harder problems](https://www.gokhanmergen.com/blog-infinite-lifespans.html).
+
+[**The data so far are ordinary.**](https://www.gokhanmergen.com/blog-ai-watch.html) Nearly four years after ChatGPT, generative AI saves about 2% of US work hours. Productivity is growing near its postwar norm, and prime-age employment is close to its 2000 peak. Only two signals stand out: fewer young adults are being hired into AI-exposed jobs, and labor’s share of business output is the lowest since 1947. New tech jobs are [up in the last 12 months](https://www.gokhanmergen.com/blog-ai-watch.html)!
+
+[**Better technology has never made human labor obsolete.**](https://www.gokhanmergen.com/blog-post-labor-or-less-labor.html) For 150 years, machines have saved labor at about 2% a year, yet work has receded only slowly. Cheaper intelligence may set off a [gold rush](https://www.gokhanmergen.com/blog-ai-job-apocalypse.html) of demand for human work before it empties the mines. By speeding up change, it may even [need more people](https://www.gokhanmergen.com/blog-gold-rush-without-miners.html) in the sectors it creates.
+
+So I read the three phases above as the fast case, not the base case. What I can’t rule out is [Geoffrey Hinton’s six-word reply to me](https://www.gokhanmergen.com/blog-gold-rush-without-miners.html): *the new hires will be AI*. If AI learns whole jobs, including the new ones it creates, history stops being a guide. Nobody yet knows which way that breaks. My hope is that prime-age US employment in 2030 will be at least as high as in 2025. Junior hiring and labor’s share will give us directional signals.
+
+On risk, I share his alarm but would aim it differently. The danger I find most concrete is [autonomy and misalignment, not intelligence](https://www.gokhanmergen.com/blog-autonomous-ai.html): AI that pays its own bills, copies itself and can’t be switched off. That danger grows when [frontier weights are open to anyone](https://www.gokhanmergen.com/blog-we-open-sourced-the-apocalypse.html), free to be hacked or deliberately misaligned.
+
+This is where his stoicism fits best. Accepting reality includes accepting that we don’t yet know what the future holds, and then taking the next best step anyway.
