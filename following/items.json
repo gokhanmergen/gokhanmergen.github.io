@@ -16,6 +16,26 @@
  "items": [
   {
    "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-08",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-07",
+   "summary": "The country was perfectly positioned to win in a world that no longer exists.",
+   "title": "Why I’m becoming a China bear",
+   "url": "https://www.noahpinion.blog/p/why-im-becoming-a-china-bear"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-08",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-07",
+   "summary": "1. Simon Winchester, RIP (NYT). 2. Pork roll vs. Taylor Ham, a NJ map. 3. Those new service sector jobs, Bradford edition. 4. “New assessment of the greatest of all time: Antarctic blue whales, showing how whaling reduced them from >200,000 to a low of just 418 before slow recovery at 4.5% per year to…",
+   "title": "Saturday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/saturday-assorted-links-585.html"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-06",
    "kind": "post",
    "person": "noah-smith",
@@ -1053,16 +1073,6 @@
    "summary": "A recording from Phillips P. OBrien's live video",
    "title": "Live with Phillips P. OBrien: AMA",
    "url": "https://phillipspobrien.substack.com/p/live-with-phillips-p-obrien-ama"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-24",
-   "summary": "Here’s the first part of my theory: cybercriminals are not the organized geniuses we implicitly imagine. Anyone building a criminal gang has to find candidates willing to forgo more stable opportunities in the formal economy. My modeling estimated that something like 720,000 people are involved in the online criminal economy, 90% of them in scam…",
-   "title": "Why are cybersecurity losses not worse?",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/why-are-cybersecurity-losses-not-worse.html"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -3603,16 +3613,6 @@
    "summary": "Proteins Tell How Fast Our Organs and Cells Are Ticking",
    "title": "Medicine is Moving From Calendars to Clocks",
    "url": "https://erictopol.substack.com/p/medicine-is-moving-from-calendars"
-  },
-  {
-   "feed": "https://www.dwarkesh.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "dwarkesh-patel",
-   "published": "2026-07-10",
-   "summary": "And why black holes are the ultimate power plants.",
-   "title": "Adam Brown – A deep but accessible introduction to general relativity",
-   "url": "https://www.dwarkesh.com/p/adam-brown-gr"
   }
  ]
 }
