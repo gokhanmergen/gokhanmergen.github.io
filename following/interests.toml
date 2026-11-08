@@ -56,7 +56,7 @@ keywords = [
 [[topic]]
 id = "longevity"
 label = "Longevity & medicine"
-categories = ["Longevity / Biotech", "Longevity / Medicine", "Longevity / AI"]
+categories = ["Longevity / Biotech", "Longevity / Medicine", "Longevity / AI", "Health / Brain"]
 keywords = [
   "aging", "ageing", "longevity", "lifespan", "healthspan", "senescen*",
   "rapamycin", "metformin", "GLP-1*", "semaglutide", "tirzepatide",
