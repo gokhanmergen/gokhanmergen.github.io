@@ -17,10 +17,6 @@ Most brain hacks don't survive contact with evidence. Three have survived years 
 
 I researched each one for a long time before buying anything. Here is what the studies say, how I use each, and where the risks are. I'm not your doctor: if you have a heart, eye or mood condition, talk to one before trying any of this.
 
-![A shelf of light devices: a white SunTouch Plus light box on the left, a clamp-on heat lamp glowing orange on the right, and a small square 96-LED infrared illuminator in front.](brain-hacks-light-shelf.jpg)
-
-*My light shelf: the SunTouch Plus 10,000-lux box (left), the $40 near-infrared illuminator (front) and a broadband infrared heat lamp (right).*
-
 ## 1. Coffee: the essential one
 
 Caffeine is the best-studied cognitive enhancer we have, and it works. It blocks adenosine, the molecule that builds up while you're awake and makes you sleepy. A [2016 review of military and occupational research](https://pubmed.ncbi.nlm.nih.gov/27612937/) found that doses of roughly 40 to 300 mg reliably improve alertness, vigilance, attention and reaction time. Effects on memory and higher reasoning are less consistent, and the boost is biggest when you're short on sleep.
@@ -32,6 +28,10 @@ A couple of cups a day is about 200 mg, comfortably under the [FDA's 400 mg dail
 The deaths come from concentrated caffeine. A single teaspoon of pure caffeine powder holds as much as [28 cups of coffee](https://www.nbcnews.com/health/health-news/fda-warns-powdered-caffeine-you-re-selling-deadly-doses-n419627), and the FDA notes seizures can start around 1,200 mg taken quickly. So drink coffee, enjoy it, and skip the powders, pills and stacked energy drinks. Please don't kill yourself.
 
 **Watch the clock.** In one [sleep study](https://sleepeducation.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep/), 400 mg taken six hours before bed cut sleep by more than an hour, and participants didn't even notice. Lost sleep erases everything coffee gives you, so keep it to the morning and early afternoon.
+
+![A shelf of light devices: a white SunTouch Plus light box on the left, a Sperti vitamin D lamp with four tubes in the middle, a clamp-on heat lamp glowing orange on the right, and a small square 96-LED infrared illuminator in front.](brain-hacks-lamps.jpg)
+
+*My light shelf: the SunTouch Plus 10,000-lux box (left), the $40 near-infrared illuminator (front) and a broadband infrared heat lamp (right). I gave my vitamin D lamp away after starting vitamin D supplements, and thinking that UVA/B might cause skin aging.*
 
 ## 2. Morning bright light: the great one
 
