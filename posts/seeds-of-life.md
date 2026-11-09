@@ -15,7 +15,7 @@ archive_deck: Whole wheat, nuts, beans, coffee and mushrooms are rich in spermid
 
 Whole wheat bread contains one of the most promising molecules in aging research. It is called spermidine.
 
-Does that word remind you of anything? It should. It is what you think it is. In 1678, [Antonie van Leeuwenhoek saw crystals in human semen](https://cris.huji.ac.il/en/publications/the-early-history-of-polyamine-research/). They were spermine, spermidine's sibling. Spermidine itself was found and named later.
+Does that word remind you of anything? It should. It is what you think it is. In 1678, [Antonie van Leeuwenhoek saw crystals](https://cris.huji.ac.il/en/publications/the-early-history-of-polyamine-research/). They were spermine, spermidine's sibling. Spermidine itself was found and named later.
 
 In wheat, spermidine sits in exactly the parts refining throws away. The richest is the germ, the embryo that would sprout into a new wheat plant. The germ is [only about 2.5% of the kernel, yet it is the richest source of these molecules among cereals](https://pmc.ncbi.nlm.nih.gov/articles/PMC10630827/). The bran, the seed's protective coat, carries plenty too.
 
