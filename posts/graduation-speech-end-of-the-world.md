@@ -19,8 +19,6 @@ In his [June 2025 convocation address](https://www.youtube.com/watch?v=zuZ2zaotr
 
 Here is a deep dive into the hypotheses espoused in Sutskever’s speech: what he predicts, when it will happen, how likely it is, and what it means for the future of humanity.
 
-![Cartoon titled "The Graduation Speech at the End of the World": at a University of Toronto spring convocation, under a banner reading "The future is in your hands" with "hands" crossed out and "AI's hands!" written below, a speaker at the podium says "Now, as you graduate, you must accept reality. The brain is merely a biological computer—and soon, digital brains will do everything you just spent years learning. So… what's the next best step?" A glowing AGI sphere with robotic arms types on laptops, among labels for coding, theses, law, scientific R&D, AI design 24/7 and the recursive AI R&D loop. Worried graduates in caps and gowns react: "Wait, four to ten years of grinding just to be outpaced by a server bank?!", "He didn't even say the 'you are the future' part!", "Is it too late to get a refund?" and "I guess we figure out 'what's the next best step'…"](graduation-speech-cartoon.jpg)
-
 ## 1. The Core Hypothesis: The "Biological Computer" Argument
 
 The centerpiece of Sutskever’s speech is a deceptively simple syllogism that cuts through decades of philosophical debate about whether machines can truly "think."
