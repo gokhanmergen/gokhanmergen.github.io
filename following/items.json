@@ -15,6 +15,46 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-09",
+   "kind": "podcast",
+   "person": "noah-smith",
+   "published": "2026-11-09",
+   "summary": "The Hexapodia Podcast is back!",
+   "title": "Noah, Brad DeLong, and Dan Wang discuss the Anthropic IPO",
+   "url": "https://www.noahpinion.blog/p/noah-brad-delong-and-dan-wang-discuss"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-11-09",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-11-09",
+   "summary": "Part 7 of What People Really Care About When They’re Mad About Immigration",
+   "title": "Illegal Immigrants Aren’t Terrorists",
+   "url": "https://www.alexnowrasteh.com/p/illegal-immigrants-arent-terrorists"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-09",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-09",
+   "summary": "Despite its weaknesses, Paraguay’s young democracy was still able to deliver under stress. Its free, boisterous press was the first to sound the alarm about Peña’s shenanigans. The Central Bank’s supervision chief did his job: he examined ueno’s numbers and recommended blocking the sale of its bad loans to a related company (Peña had appointed…",
+   "title": "The Paraguayan bank story",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-paraguayan-bank-story.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-09",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-09",
+   "summary": "Of course as an economist I am always wondering what the equilibrium is. And, in this case, what is the scarce factor? It seems that in the case under current consideration, the returns to honeypotting are very high for somebody. Maybe for China, maybe for the shorts, or maybe for parts of the Deep State…",
+   "title": "The economics of honeypots",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-honeypots.html"
+  },
+  {
    "feed": "https://terrytao.wordpress.com/feed/",
    "first_seen": "2026-11-08",
    "kind": "post",
@@ -1005,16 +1045,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/10/the-mr-archive.html"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-27",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-26",
-   "summary": "1. Why slow fields may determine the pace of discovery. 2. Touch screens on your jacket? 3. Astras performance on Bach bench. 4. More on regional productivity differences (and puzzles) in health care. 5. “Plans to allow US companies run entirely by AI “agents” have come under fire from powerful Republicans in Congress, who fear…",
-   "title": "Monday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/monday-assorted-links-583.html"
-  },
-  {
    "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-27",
    "kind": "post",
@@ -1053,16 +1083,6 @@
    "summary": "Someone writing an article for the Israeli press about “people abroad who love Israel but might be worried” emailed me the following questions: “1. What is something about Israel that you admire/appreciate over the years? 2. What are you worried the most about Israel these days?” So I replied as follows: “It’s hard to know…",
    "title": "Vote! (Israeli edition)",
    "url": "https://scottaaronson.blog/?p=10235"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-26",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-25",
-   "summary": "1. A safe harbor for open source? 2. False but interesting claims about economic growth. 3. “In a calibrated model of the welfare effects of the estimated impacts of the Great Recession on consumption and mortality, we find that the welfare gain from the estimated mortality decline is quantitatively significant relative to the welfare loss…",
-   "title": "Sunday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/sunday-assorted-links-587.html"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
