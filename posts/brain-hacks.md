@@ -17,6 +17,8 @@ Most brain hacks don't survive contact with evidence. Three have survived years 
 
 I researched each one for a long time before buying anything. Here is what the studies say, how I use each, and where the risks are. I'm not your doctor: if you have a heart, eye or mood condition, talk to one before trying any of this.
 
+![Cartoon of a smiling brain sitting in a chair with a cup of coffee, beside a glowing light box on one table, while a red lamp on another table shines a beam onto its head.](brain-hacks-cartoon.jpg)
+
 ## 1. Coffee: the essential one
 
 Caffeine is the best-studied cognitive enhancer we have, and it works. It blocks adenosine, the molecule that builds up while you're awake and makes you sleepy. A [2016 review of military and occupational research](https://pubmed.ncbi.nlm.nih.gov/27612937/) found that doses of roughly 40 to 300 mg reliably improve alertness, vigilance, attention and reaction time. Effects on memory and higher reasoning are less consistent, and the boost is biggest when you're short on sleep.

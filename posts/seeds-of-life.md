@@ -5,8 +5,8 @@ time: 17:45
 category: Longevity / Nutrition
 read_time: 5 min read
 title: Eat Foods That Contain Seeds of Life
-deck: Whole wheat, nuts, beans, coffee and mushrooms are rich in spermidine and other molecules of renewal. The parts of living things that make new life may help renew yours.
-archive_deck: Whole wheat, nuts, beans, coffee and mushrooms are rich in spermidine and other molecules of renewal. The parts of living things that make new life may help renew yours.
+deck: Whole wheat, nuts, beans, coffee and mushrooms are rich in spermidine and other molecules of renewal.
+archive_deck: Whole wheat, nuts, beans, coffee and mushrooms are rich in spermidine and other molecules of renewal.
 ---
 
 ![Cartoon titled "Eat Foods That Contain Seeds of Life! The Natural Machinery of Renewal & Longevity": a smiling gray-haired man in glasses and an apron holds up a slice of whole wheat bread and says "Borrow the chemistry of genesis for renewal!" On the table are a loaf of 100% whole wheat bread with its germ highlighted ("Wheat embryo packed with Spermidine!"), a bowl of nuts and seeds, a jar of royal jelly with bees, coffee cherries and a cup of coffee, mushrooms labeled "Spore-makers!" and a bowl of beans and soy with a "Cook me first!" sign. A circle shows a cartoon cell sweeping up broken gears: "Autophagy! Your cell's cleanup crew recycling worn-out parts!"](seeds-of-life.jpg)
