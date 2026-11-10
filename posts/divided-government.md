@@ -14,6 +14,8 @@ The Democrats' sweeping victory in the 2026 midterms, taking control of both the
 
 When neither political party can be trusted with unchecked power, preventing either from exercising it becomes a virtue.
 
+![Cartoon titled "Divided Government": in front of the Capitol, Uncle Sam leans on a "Constitution" shield beside a steel barrier labeled "Checks & Balances", with two rams marked "House" and "Presidency" on top. From the left, angry activists under rainbow and raised-fist flags drive a purple bulldozer marked "Woke Dogma" past crates labeled speech codes, orthodoxy, equity mandates and groupthink. From the right, a caricature of Donald Trump in a MAGA cap drives a red bulldozer marked "MAGA" past crates labeled tariffs, loyalty, executive power and norms. Both are stopped at the barrier. Below, under a "Debate · Pluralism · Compromise" banner, a diverse group talks over coffee at a round table, between signs reading "Not true liberalism" and "Not true conservatism", above a ribbon reading "Humility > Compromise > Democracy".](divided-government-checks.jpg)
+
 ## 1. America May Have Just Escaped Its Erdoğan Moment
 
 Having watched what happened to Turkey under Recep Tayyip Erdoğan, I have been deeply disturbed by America's recent political trajectory. The parallels are not exact—American institutions are older and stronger, and the United States is not Turkey. Still, the underlying pattern is unmistakably familiar: a populist leader presents himself as the sole embodiment of the people, treats independent institutions as enemies, demands personal loyalty, attacks expertise, and steadily erodes the constraints on executive power.
