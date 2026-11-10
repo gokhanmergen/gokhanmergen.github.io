@@ -227,17 +227,13 @@ void main(){
     if(old_>.5){
       float row=cell.y; vec2 Pm=vec2(P.x+floor(sin(row*.9+floor(uLt*10.)*.55)*1.6+.5),2.*WY-P.y);
       refl_=1.; col=far(Pm,floor(Pm)).rgb*vec3(.6,.52,.78); refl_=0.;
-      // the moon's glitter path: a dash on every other line, widening towards the viewer, shimmering at 12.5 Hz
-      float ph=floor(uLt*12.5), hw=(1.5+dep*.2)*(.5+.5*sin(row*2.4+ph*.9)), dx=abs(P.x-MOON.x-floor(sin(row*1.7+ph*.35)*(1.+dep*.07)+.5));
-      if(mod(row,2.)<1.&&dep>2.&&hw>.8&&dx<hw) col=dx<hw-1.5?H(0xFEB):H(0xC9A);
+      // (no glitter path for the moon: the sky does not scroll and the hero holds his place on screen, so a path below
+      // the moon sat at his back all level long and read as a white glow stuck to him)
     } else {
       vec2 Pm=vec2(P.x+sin(P.y*.9+uLt*2.2)*(1.+dep*.07)+sin(P.y*2.7-uLt*3.1)*.5,2.*WY-P.y+sin(P.x*.11+uLt*1.3)*.6);
       col=far(Pm,cell).rgb*vec3(.5,.48,.72)*mix(1.,.55,smoothstep(0.,50.,dep));
       float sh=shaft(Pm);
       col+=vec3(.5,.56,.95)*sh*.1*exp(-length(Pm-MOON)*.0045);
-      float pw=7.+dep*.42, px=(P.x-MOON.x)/pw;                                    // the moon's glitter path: thin
-      float gl=pow(noise(vec2(P.x*.33+sin(P.y*1.3+uLt*1.7)*1.2,P.y*2.6+uLt*1.6)),6.)*exp(-px*px);   // wave crests, not static
-      col+=vec3(1.,.93,.8)*gl*(2.6+1.6*uGlow)*smoothstep(0.,3.,dep);
       float mist=fbm(vec2((P.x+uS*.7)*.016-uLt*.02,P.y*.11+9.))*exp(-dep*.06);
       col=mix(col,vec3(.5,.42,.62),mist*.4);
     }
@@ -347,6 +343,7 @@ void main(){
   // swing keys [fraction of the swing, hip angle (from vertical, + forward), knee flexion, ankle plantarflexion] deg
   const NORMAL = [[.167, -14, 65, 45], [.359, 2, 100, 32], [.513, 22, 115, 22], [.679, 40, 85, 16], [.833, 44, 40, 10], [.936, 35, 22, 10]];
   const TRAIL = [[.225, -2, 112, 25], [.45, 24, 112, 20], [.65, 40, 80, 16], [.825, 44, 40, 10], [.925, 35, 22, 10]];
+  const softMin = (x, lo, w) => { const z = (x - lo) / w; return z > 30 ? x : lo + w * Math.log1p(Math.exp(z)); };
   const herm = (p0, m0, p1, m1, h, u) => { const u2 = u * u, u3 = u2 * u; return (2 * u3 - 3 * u2 + 1) * p0 + (u3 - 2 * u2 + u) * h * m0 + (3 * u2 - 2 * u3) * p1 + (u3 - u2) * h * m1; };
   const stD = c => (c.take ? 13 : 21.3) / spd(c.t);                            // stance duration (steps)
   const at = s => { let k = 0; while (k + 1 < C.length && C[k + 1].t <= s) k++; return k; };
@@ -382,7 +379,9 @@ void main(){
       const e = 0.03, A0 = stance(c0, te), A0b = stance(c0, te - e), A1 = stance(c1, c1.t), A1b = stance(c1, c1.t + e);
       const keys = [[te, ...A0]], sc = Math.sqrt(spd(s) / 24), add = (t, h, k, p) => keys.push([t, h * sc * R, k * R, p * R]);
       if (c0.take) {                     // take-off leg: trails back, bent, through the leap; swings through after landing
-        const b = mid.t, T = c1.t - b; add(te + 0.4 * (b - te), -32, 85, 40); add(b - 0.15, -26, 95, 35);
+        // (the first key comes as soon after toe-off on the long last leap as on a short one: placed in proportion to
+        // the 4.6-step flight, the spline carried the push-off's backswing on until the thigh was horizontal)
+        const b = mid.t, T = c1.t - b; add(te + Math.min(0.4 * (b - te), 0.6), -32, 85, 40); add(b - 0.15, -26, 95, 35);
         for (const [f, h, k, p] of TRAIL) add(b + f * T, h, k, p);
       } else if (mid.take) {             // lead leg: drives the knee up at take-off, reaches far forward, lands
         const ta = mid.t, tA = ta + stD(mid), b = c1.t;
@@ -396,6 +395,10 @@ void main(){
         : (keys[m + 1][c] - keys[m - 1][c]) / (keys[m + 1][0] - keys[m - 1][0]);
       a = [1, 2, 3].map(c => herm(keys[j][c], tan(j, c), keys[j + 1][c], tan(j + 1, c), h, u));
     }
+    // Joint limits: the splines may overshoot where a fast push-off or landing meets a key (a lead leg reaching for
+    // the ground went 13 deg past straight). A knee never bends backwards and a hip never kicks back past ~50 deg.
+    // Soft (softplus), so the motion eases into the limit and stays smooth; well inside it nothing changes.
+    a[0] = softMin(a[0], -50 * R, 4 * R); a[1] = softMin(a[1], 5 * R, 3 * R);
     const hy = pelY(s), [th, tk, ps] = a, kx = TH * Math.sin(th), ky = hy - TH * Math.cos(th), sa = th - tk;
     const ax = kx + TH * Math.sin(sa), ay = ky - TH * Math.cos(sa), gf = sa - ps;
     return [kx, ky, ax, ay, ax + FL * Math.cos(gf), ay + FL * Math.sin(gf)];

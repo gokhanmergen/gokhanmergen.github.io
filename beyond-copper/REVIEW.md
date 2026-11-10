@@ -21,6 +21,13 @@ depacks) ran once without errors at 60 fps.
 Not judged: anything by ear (the chain's strength in particular is a guess), and motion at full frame rate.
 Frame rates were not re-measured; the Glenz shader does more work only during its 1.4 s beam.
 
+## Runner fixes (from viewing)
+
+| Finding | Change |
+|---|---|
+| A white shade behind the runner in both halves: the moon's glitter path. The sky does not scroll and the hero holds his place on screen, so the path below the moon sat at his back all level long and read as a glow stuck to him. Moving the moon only moved the patch. | No glitter path; the moon stays where it was. The lake keeps its reflections of the aqueduct and hills. |
+| On the long last leap the trailing leg's knee bent backwards (down to -81 deg) and the thigh swung back to horizontal (-88 deg): the spline carried the push-off's fast backswing across a first key placed in proportion to the 4.6-step flight. Every regular leap also overextended the landing leg by 13 deg. | The trailing leg's first key comes at most 0.6 steps after toe-off, and soft joint limits (softplus: knee at least 5 deg, hip at most 50 deg back) keep every spline anatomical without breaking velocity continuity. Measured every 1/100 step over the whole level: knee min 5 deg (was -81), hip back at most 45 deg (was 88); normal running unchanged. |
+
 ---
 
 # Fit-and-finish pass — 9 November 2026 (evening)
@@ -32,7 +39,7 @@ around all sixteen cuts, and the runner frame by frame. The runner's gait was al
 | Area | Finding | Change |
 |---|---|---|
 | Runner: gait | The hip stopped dead on every landing (a 40 px/step fall to zero in one frame), every toe-off had a knee kink (the swing spline started at 60 % of the stance speed), the take-off spring began at half speed, and the hip stepped slightly between strides while accelerating. | The fall's velocity is carried into the landing and absorbed by the knees; tangents are continuous at toe-off and take-off; stance timing follows the current speed. |
-| Runner: picture | 1985 half: random white dashes flickered beside the hero (meant as moon glitter) and palm reflections broke up into dark blots. Modern half: the glitter was a wide field of static behind the hero; footfall rings hung in the air over the streams; eye and hairline merged into a pair of sunglasses; the white sprite bloomed heavily. | A proper glitter path under the moon in both halves; no palms in the lo-res reflection; rings clipped to the bank; a one-pixel eye clear of the hair; less bloom before the beam; the light trail starts at the sash. |
+| Runner: picture | 1985 half: random white dashes flickered beside the hero (meant as moon glitter) and palm reflections broke up into dark blots. Modern half: the glitter was a wide field of static behind the hero; footfall rings hung in the air over the streams; eye and hairline merged into a pair of sunglasses; the white sprite bloomed heavily. | A proper glitter path under the moon in both halves (removed again later: see the runner fixes above); no palms in the lo-res reflection; rings clipped to the bank; a one-pixel eye clear of the hair; less bloom before the beam; the light trail starts at the sash. |
 | Cuts between parts | Modern, wide parts cut straight to the next part's CRT; flashes washed over the bezel and pillarbox. | The tube outro (see `scenario.md`); flashes stay inside the picture; bezel light spill now falls off with distance instead of tinting the whole surround. |
 | "Then" halves | Tunnel, Fractal and Greetings skipped the CRT; Boing and Greetings showed their 1985 half for under two seconds. | All three start in the tube; Boing and Greetings get two bars before the beam. |
 | PIX screens | The cracktro logo and the tracker title were cut off by the tube's rounded corners. | A 6 % overscan border that repeats the edge colour. |
