@@ -1,3 +1,29 @@
+# Fit-and-finish pass — 9 November 2026 (evening)
+
+Every part was re-inspected in headless Chrome: a contact sheet of the whole timeline, closely spaced frames
+around all sixteen cuts, and the runner frame by frame. The runner's gait was also checked numerically
+(joint velocities sampled every 1/100 step for the whole level).
+
+| Area | Finding | Change |
+|---|---|---|
+| Runner: gait | The hip stopped dead on every landing (a 40 px/step fall to zero in one frame), every toe-off had a knee kink (the swing spline started at 60 % of the stance speed), the take-off spring began at half speed, and the hip stepped slightly between strides while accelerating. | The fall's velocity is carried into the landing and absorbed by the knees; tangents are continuous at toe-off and take-off; stance timing follows the current speed. |
+| Runner: picture | 1985 half: random white dashes flickered beside the hero (meant as moon glitter) and palm reflections broke up into dark blots. Modern half: the glitter was a wide field of static behind the hero; footfall rings hung in the air over the streams; eye and hairline merged into a pair of sunglasses; the white sprite bloomed heavily. | A proper glitter path under the moon in both halves; no palms in the lo-res reflection; rings clipped to the bank; a one-pixel eye clear of the hair; less bloom before the beam; the light trail starts at the sash. |
+| Cuts between parts | Modern, wide parts cut straight to the next part's CRT; flashes washed over the bezel and pillarbox. | The tube outro (see `scenario.md`); flashes stay inside the picture; bezel light spill now falls off with distance instead of tinting the whole surround. |
+| "Then" halves | Tunnel, Fractal and Greetings skipped the CRT; Boing and Greetings showed their 1985 half for under two seconds. | All three start in the tube; Boing and Greetings get two bars before the beam. |
+| PIX screens | The cracktro logo and the tracker title were cut off by the tube's rounded corners. | A 6 % overscan border that repeats the edge colour. |
+| Copla | 26 s on the opening shot. | A second shot from bar 70, low over the water. |
+| Player | No feedback on pause, skip or quality; the pointer stayed visible; a fatal error rescheduled itself every frame; a hidden tab was read as a slow GPU. | One-line on-screen display in the 8×8 font, `1`/`2`/`Home`, double-click fullscreen, idle pointer hidden, loops stop on a fatal error, long frame gaps ignored by the scaler. The end screen drops the loading bar. |
+
+Not done in this pass: the runner still has no hand-authored cycle; the shooter's legibility, the palace's
+depth and startup hardening (items 1–3 and 5 below) are unchanged. Nothing here was judged by ear, and
+frame rates were not re-measured; the shader changes are a few instructions each.
+
+Verification: `node --test tests/*.test.cjs` (eight tests, two new: disk-jump keys with the pause display,
+and the loop stopping after a render error), syntax checks, and the stills described above. The live path
+(audio clock, a part skip, the on-screen display, the end screen) was run once in headless Chrome.
+
+---
+
 # Demo review — 9 November 2026
 
 The strongest idea is the continuity between the pixel effect and its modern rendering. The biggest improvement is to make the objects recognizable before adding more effects: a distinctive runner, spacecraft, car and computer carry more nostalgia than extra bloom. Keep the music-driven choreography and give physical objects convincing contact.

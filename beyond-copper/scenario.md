@@ -25,6 +25,10 @@ the very same thing carries on at the fidelity of a 2026 GPU.
   object, from the same camera, is modern. It lives in the post chain (`uBeam` in `js/gfx.js`), and each
   scene's shader asks `isOld()` per pixel to pick its shading model. After the beam the CRT flattens and
   the frame widens to 16:9.
+- **The tube.** The mirror image of the beam. Over the last half second of a part the wide modern picture
+  closes back into the curved 5:4 tube, and the next part's 1985 picture appears in the same glass, so a
+  cut between parts reads as a channel change, not a new window. PIX-drawn screens (boot, cracktro, disk
+  change, tracker) sit inside an overscan border that repeats their edge colour, as copper bars did.
 - **Now.** Whatever the old effect was reaching for: sprite balls become sixteen thousand lit spheres, a
   glenz vector becomes refracting glass, a scanline road becomes wet asphalt.
 
@@ -78,7 +82,7 @@ The logo drops in, bounces and nods on the kick.
 ### 0:38.4 – 1:09.1 · BOING (patterns 5–8)
 - **Then:** the 1984 demo as it looked: a flat red-and-white ball, a grey room with a purple grid, and a
   shadow that is just a darker patch.
-- **Beam at 0:40.3** (one bar in): the same room is lit for real, with soft shadows, gloss and reflections.
+- **Beam at 0:42.2** (two bars in): the same room is lit for real, with soft shadows, gloss and reflections.
 - **From 0:46:** the walls fall away into the other icon of the era, the ray-traced checkerboard under a
   blue sky, with chrome and glass spheres bouncing and colliding.
 
@@ -100,7 +104,7 @@ The breather of Disk 1: half-time drums, a flute lead, bell arpeggios.
 
 ### 1:55.2 – 2:18.2 · TUNNEL (patterns 15–17) · label "THE SAME 32 TEXELS, GOING DEEPER"
 Three generations of one effect with one 32×32 XOR tile and one palette (eight ambers, eight teals).
-- **1990:** a chunky 2×2 rotozoomer.
+- **1990:** a chunky 2×2 rotozoomer, in the tube like every other "then".
 - **1992:** the sheet rolls up into the classic lookup-table tunnel. The fold is a visible conformal morph
   of the mapping, not a cross-fade.
 - **Beam at 2:02.9:** the tunnel is a place. The tiles are inlaid emissive panels between wet metal ribs,
@@ -123,7 +127,7 @@ Disk 1's climax; the cracktro melody returns as a supersaw anthem.
 The music returns to four-channel chip.
 - **Then:** a one-pixel sine scroller in the 8×8 font with three bobbing copper bars and a rippling
   every-other-line mirror.
-- **Beam at 2:50.9:** each font pixel is a bevelled glossy cube. The scroller snakes in depth over black
+- **Beam at 2:52.8** (two bars in): each font pixel is a bevelled glossy cube. The scroller snakes in depth over black
   water; lead notes send a bright crest along the letters. The text greets everyone "who kept the copper
   flowing" (coders, musicians, graphicians, swappers, sysops, crackers, trainer makers, party organisers)
   and ends on the tracker in-joke `C-3 01 F06`.
@@ -171,8 +175,8 @@ oscilloscopes and VU meters. A glitch at bar 8 hands over to the game.
   cypresses and palms) and a silhouette runner with a trailing scarf.
 - **Beam at 3:35.4** (bar 12): 27 layers with atmospheric perspective, moon shafts through the aqueduct
   arches, mist, a reflecting lake, fireflies and a ribbon of light behind the hero.
-- **The notes play the game:** every thumb-melody note (six per bar) is a footfall with a glowing ripple;
-  every second bar is a leap across a stream; the score ticks with the notes. Wind and speed build with
+- **The notes play the game:** the thumb melody (six notes per bar) drives the stride, one footfall with a
+  glowing ripple on every beat; every second bar is a leap across a stream, landing on the downbeat; the score ticks with the notes. Wind and speed build with
   the riser in bars 22–23.
 
 ### 3:51.7 – 4:24.5 · LEVEL 2 "THE FLOOR OF STARS" (bars 24–47): the shoot-'em-up
@@ -200,8 +204,9 @@ oscilloscopes and VU meters. A glitch at bar 8 hands over to the game.
 
 ### 4:44.5 – 5:44.7 · COPLA (bars 62–93): the cutscene · label "EVERY NOTE FALLS INTO THE WATER"
 The slowest music of the demo, staged like a letterboxed adventure-game cutscene in a moonlit courtyard of
-horseshoe arcades around a reflecting pool. Three shots: a low walk along the water; at bar 77's held
-chord a crane up to the roofs, where the moon lies in the pool; then a tracking shot through the arches.
+horseshoe arcades around a reflecting pool. Four shots: a low walk along the water; at bar 70 (4:59.5,
+the second phrase) the camera is just above the surface, drifting across the pool with the notes landing in
+front of the lens; at bar 77's held chord a crane up to the roofs, where the moon lies in the pool; then a tracking shot through the arches.
 Every melody note is a droplet that falls into the water and rings; the violin's long notes draw wide slow
 rings, guitar notes small sharp ones.
 
@@ -279,7 +284,7 @@ The source was `amiga_gemini`'s 1,301-event guitar tab. The notes were right; th
   featureless.
 - Pinball: slingshot volleys repeat the same figure; three flipper shots curve slightly on open playfield
   with no physical guide; the final lock is half hidden by the fade; no anti-aliasing on silhouettes.
-- Copla: sixty seconds in one location, even with three shots.
+- Copla: sixty seconds in one location, even with four shots.
 
 ### Questions for a reviewer
 1. Does the beam stay fresh over ten uses, or should two or three parts transition differently?
@@ -291,9 +296,9 @@ The source was `amiga_gemini`'s 1,301-event guitar tab. The notes were right; th
 ### Where feedback lands in the code
 | Topic | File |
 |---|---|
-| Beam, CRT, bloom, part labels | `js/gfx.js` |
+| Beam, CRT, overscan, bloom, part labels | `js/gfx.js` |
 | 8×8 font, 12-bit palette, dithering, sprites | `js/pix.js` |
 | Disk 1 song and instruments | `js/music.js` |
 | Asturias notes / arrangement, tempo map, section table | `js/leyenda_tab.js`, `js/leyenda.js` |
 | A scene | `js/scene_<name>.js` (timings are constants near the top or in `draw`) |
-| Timeline, loader, adaptive quality, dev hooks (`?still=`, `?only=`, `__bench()`) | `js/main.js` |
+| Timeline, loader, the tube outro (`tube:` on a scene), on-screen display, adaptive quality, dev hooks (`?still=`, `?only=`, `__bench()`) | `js/main.js` |

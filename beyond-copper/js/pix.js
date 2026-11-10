@@ -161,7 +161,7 @@ float pixGlyph(sampler2D atlas, float code, vec2 uv){
 float pixMsg(sampler2D msg, float i){ return floor(texelFetch(msg,ivec2(int(i),0),0).r*255.+.5); }
 `;
   // post-chain options for showing the framebuffer on the simulated CRT
-  const crt = extra => ({ tex, flipY: true, crt: 1, fa: 1.25, crop: 0, scan: 256, tm: 0, bloom: 0.38, thresh: 0.5, grain: 0.03, vig: 0.35, aberr: 0.22, ...extra });
+  const crt = extra => ({ tex, flipY: true, crt: 1, fa: 1.25, crop: 0, inset: 0.06, scan: 256, tm: 0, bloom: 0.38, thresh: 0.5, grain: 0.03, vig: 0.35, aberr: 0.22, ...extra });
 
   return { W, H, px, buf, c12, hex, mix12, bayer, dith, clear, rect, hline, pset, bevel, text, centre, bitmap, scale2x, bevelMap, sprite, blit,
     font8, font16, font32, sym: SPECIAL, init, upload, message, GLSL, crt, get tex() { return tex; }, get atlas() { return atlasTex; } };

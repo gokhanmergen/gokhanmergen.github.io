@@ -392,7 +392,7 @@ void main(){
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Pinball', disk: 2, init, draw, plan, ballAt,
+    name: 'Pinball', title: 'BONUS STAGE: PINBALL', disk: 2, init, draw, plan, ballAt,
     range: () => [LEY.AT + LEY.sec('pinball')[0], LEY.AT + LEY.sec('pinball')[1]],
     caps: [{ at: 9.6, len: 4.2, title: 'BONUS STAGE', sub: 'EVERY CASTANET IS A BUMPER' }],
   });

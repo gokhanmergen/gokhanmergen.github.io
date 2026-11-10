@@ -153,17 +153,17 @@ void main(){
         : [pi[0], pi[2], age, drop > 0 ? 0 : b.r], n * 4);
       n++;
     });
-    const beam = sm(BAR, BAR + 1.6, lt), stage = sm(PAT - 0.2, PAT + 1.6, lt);
+    const beam = sm(2 * BAR, 2 * BAR + 1.6, lt), stage = sm(PAT - 0.2, PAT + 1.6, lt);
     const m = sm(PAT - 0.5, PAT + 7, lt), a = Math.sin((lt - PAT) * 0.17) * 1.15 * m, rad = 10 - 2.2 * m + Math.sin(lt * 0.3) * m;
     const cam = [Math.sin(a) * rad, 2.3 + 0.5 * m + Math.sin(lt * 0.23) * 0.7 * m, Math.cos(a) * rad];
     G.draw(prog, { uBall: ball, uBallM: mat, uRip: rip, uN: n, uCam: cam, uTgt: [0, 1.6 + 0.35 * m, 0], uFov: 1.6 - 0.22 * m, uStage: stage, uBeam: beam }, tgt);
     return {
-      lines: 256, ocs: 1, beam, crt: 1 - sm(2 * BAR, 2 * BAR + 1.5, lt), fa: 1.25 + (st.W / st.H - 1.25) * sm(2 * BAR + 0.5, 3 * BAR + 0.2, lt), scan: 256,
-      flash: Math.max(0, 1 - lt * 9) * 0.6, bloom: 0.35, thresh: 1.15, expo: 0.92, aberr: 0.25 * (1 - beam), vig: 0.45, fade: Math.min(1, (st.dur - lt) * 8),
+      lines: 256, ocs: 1, beam, crt: 1 - sm(2 * BAR + 1.1, 2 * BAR + 2.5, lt), fa: 1.25 + (st.W / st.H - 1.25) * sm(2 * BAR + 1.4, 2 * BAR + 3.0, lt), scan: 256,
+      flash: Math.max(0, 1 - lt * 9) * 0.6, bloom: 0.35, thresh: 1.15, expo: 0.92, aberr: 0.25 * (1 - beam), vig: 0.45, fade: Math.min(1, (st.dur - lt) * 10),
     };
   }
 
-  (window.SCENES = window.SCENES || []).push({ name: 'Boing', from: 5, to: 9, draw, init() {
+  (window.SCENES = window.SCENES || []).push({ name: 'Boing', from: 5, to: 9, draw, tube: 0.6, init() {
     prog = G.program(FS, 'boing');
     physics = BOING_PHYSICS.bake(BALLS, { from: 2 * PAT, to: 4 * PAT, startTime: 5 * PAT, beat: BEAT, position: pos });
     physics.spawnFrames = BALLS.map(b => Math.max(0, Math.ceil((b.spawn - 2 * PAT) * BOING_PHYSICS.HZ - 1e-9)));

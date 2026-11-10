@@ -16,7 +16,7 @@
   const TEXT = 'GREETINGS TO ALL WHO KEPT THE COPPER FLOWING:  CODERS  MUSICIANS  GRAPHICIANS  SWAPPERS  SYSOPS  CRACKERS  ' +
     'TRAINER MAKERS  PARTY ORGANISERS    C-3 01 F06';
   const T1 = 'BEYOND THE COPPER', T2 = 'END OF DISK ONE', YT1 = 0.42, YT2 = -0.1;
-  const BEAM0 = BAR, BEAM1 = BEAM0 + 1.4, TS = 2 * PAT, TE = TS - 0.7;        // the scroller has stopped by TE; the title forms from TS
+  const BEAM0 = 2 * BAR, BEAM1 = BEAM0 + 1.4, TS = 2 * PAT, TE = TS - 0.7;        // the scroller has stopped by TE; the title forms from TS
   const SC0 = -34, SCE = (TEXT.length - 5) * 8, VEL = (SCE - SC0) / (TE - 0.6);
   // scroll position in font columns (the column at the middle of the screen): constant speed, then 1.2 s of braking
   // Include phase advection: a moving font column sees WSPD - KW * VEL.
@@ -229,7 +229,7 @@ void main(){
       gl.disable(gl.DEPTH_TEST);
     }
     // ---- post: beam at the start; at the end the CRT closes around the title and is switched off (timings as in the 2D version)
-    const crt = sm(3.2, 4.6, endT), off = sm(5.6, 6.8, endT);
+    const crt = Math.max(1 - sm(BEAM1 - 0.2, BEAM1 + 1.3, lt0), sm(3.2, 4.6, endT)), off = sm(5.6, 6.8, endT);
     return { beam, lines: beam < 1 ? 256 : undefined, ocs: 1, scan: 256, bloom: 0.2 + 0.4 * beam, thresh: 1.6 - 0.75 * beam, expo: 1,
       crt, fa: asp + (1.25 - asp) * crt, aberr: 0.12 + 0.1 * crt, off, grain: 0.02, vig: 0.5,
       fade: endT > 6.85 ? 0 : Math.min(1, lt0 / 0.3) };

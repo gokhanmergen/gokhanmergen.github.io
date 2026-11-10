@@ -162,7 +162,9 @@ void main(){
     const depth = Math.max(0, -ls);
     G.draw(pMan, { uBeam: beam, uC: [cx, cy], uS: Math.exp(ls), uCyc: beam < 1 ? Math.floor(lt * 14) : lt * 14, uEmb: sm(6.5, PAT - 0.05, lt),
       uIt: Math.min(420, 90 + 46 * depth), uBand: 1 / (1 + 0.45 * Math.max(0, depth - 0.9)) }, tgt);
-    return { lines: 256, ocs: 1, beam, bloom: 0.2 + 0.3 * beam, thresh: 0.8, expo: 1, vig: 0.45, flash: Math.pow(Math.max(0, 1 - st.lt / 0.45), 2), fade: 1 };
+    const crt = 1 - sm(HB + 1.0, HB + 2.4, st.lt);
+    return { lines: 256, ocs: 1, beam, crt, fa: 1.25 + (st.W / st.H - 1.25) * sm(HB + 1.3, HB + 2.9, st.lt), scan: 256, aberr: 0.15 * crt,
+      bloom: 0.2 + 0.3 * beam, thresh: 0.8, expo: 1, vig: 0.45 - 0.1 * crt, flash: Math.pow(Math.max(0, 1 - st.lt / 0.45), 2), fade: 1 };
   }
   function drawBulb(st, tgt, l) {                                   // l: seconds since the P19 boundary
     const k = sm(0.15, 4.2, l), dive = sm(PAT - 1.0, PAT, l), az = l * 0.42 * k - 0.5;
@@ -179,7 +181,7 @@ void main(){
     const bell = Math.exp(-(((st.t - 20 * PAT) % (2 * MUSIC.ROW)) + 0) * 9);
     const z = 0.5 + l2 * 0.55 + 1.6 * (1 - Math.exp(-l2 * 2.2)) + 2.2 * Math.pow(Math.max(0, 1.6 - end) / 1.6, 3);
     G.draw(pMeng, { uZ: z, uRoll: l2 * 0.12 + Math.sin(l2 * 0.4) * 0.4, uBell: bell, uDie: die }, tgt);
-    return { bloom: 0.6, thresh: 0.85, expo: 1.05, aberr: 0.25 + 1.5 * Math.exp(-l2 * 3), fade: Math.min(1, end / 0.45) };
+    return { bloom: 0.6, thresh: 0.85, expo: 1.05, aberr: 0.25 + 1.5 * Math.exp(-l2 * 3), fade: Math.min(1, end / 0.15) };
   }
   function draw(st, tgt) {
     const lt = st.lt;
@@ -188,7 +190,7 @@ void main(){
     return drawMenger(st, tgt, lt - 2 * PAT);
   }
   (window.SCENES = window.SCENES || []).push({
-    name: 'Fractal', from: 18, to: 22, draw, scale: 0.7,
+    name: 'Fractal', title: 'FRACTAL DREAMS', from: 18, to: 22, draw, scale: 0.7, tube: 0.6,
     init() { pMan = G.program(MANDEL, 'mandelbrot'); pBulb = G.program(BULB, 'mandelbulb'); pMeng = G.program(MENGER, 'menger'); },
     caps: [{ at: PAT + 3.2, len: 4.2, title: 'FRACTAL DREAMS', sub: 'THE SAME EQUATION, ONE DIMENSION UP', hue: 28 }],
   });

@@ -228,19 +228,23 @@ void main(){
   const cl = x => Math.min(1, Math.max(0, x));
   const sm = (a, b, x) => { const k = cl((x - a) / (b - a)); return k * k * (3 - 2 * k); };
   const mix = (a, b, k) => a.map((v, i) => v + (b[i] - v) * k);
-  let A0, AD, T76, T78, T86, TEND, TD_END;
+  let A0, AD, T70, T76, T78, T86, TEND, TD_END;
 
   // ----------------------------- camera -----------------------------
   const zA = d2 => (d2 - A0) * 0.5, zC = d2 => zA(T86) + 6 + (d2 - T86) * 0.34, zD = d2 => (d2 - AD) * 0.4;
   function poseCopla(d2) {
     const z = zA(d2), sw = Math.sin(z * 0.13);
-    const walk = { c: [sw * 0.5, 0.5 + 0.12 * Math.sin(z * 0.21), z], t: [sw * 0.2, 0.72, z + 3] };
+    // two shots before the crane: the walk along the water, then (bar 70, the second phrase) low over the pool,
+    // drifting across it towards the lanterns, with the notes landing right in front of the lens
+    const kl = cl((d2 - T70) / (T76 - T70)), ke = kl * (2 - kl);
+    const walk = d2 < T70 ? { c: [sw * 0.5, 0.5 + 0.12 * Math.sin(z * 0.21), z], t: [sw * 0.2, 0.72, z + 3] }
+      : { c: [-1.15 + 1.5 * ke, 0.2 + 0.16 * ke, z], t: [1.9 - 1.9 * ke, 0.5 + 0.2 * ke, z + 4.2], fov: 1.15 + 0.2 * ke };
     if (d2 < T76) return walk;
     if (d2 < T86) {                                              // crane straight up; from above every ring is a circle
       const k = sm(T76, T78, d2), kb = cl((d2 - T78) / (T86 - T78));
       const c = [walk.c[0] * (1 - k) + (0.9 - 1.8 * kb) * k, walk.c[1] + (9.2 - 1.2 * kb - walk.c[1]) * sm(0, 1, k), z];
       const hi = [0.6 * Math.sin(kb * 2.4 - 0.6), 0, z + 8.5 + 1.5 * kb];
-      return { c, t: mix(walk.t, hi, sm(0.05, 0.95, k)), fov: 1.35 + 0.75 * k };
+      return { c, t: mix(walk.t, hi, sm(0.05, 0.95, k)), fov: walk.fov + (2.1 - walk.fov) * k };
     }
     const zc = zC(d2), k = cl((d2 - T86) / (TEND - T86));      // inside the gallery, looking out through the arches
     return { c: [4.12, 1.25 + 0.06 * Math.sin(zc * 0.5), zc], t: [-2.6 + 0.8 * k, 0.9 + 0.3 * k, zc + 5.2] };
@@ -299,21 +303,21 @@ void main(){
     }
     G.draw(prog, { uRip: rip, uCam: pose.c, uTgt: pose.t, uFov: pose.fov || 1.35, ...uni }, tgt);
     const fade = dawn ? sm(0, 2.2, lt) * sm(st.dur, st.dur - 1.6, lt)
-      : sm(0, 1.8, lt) * Math.min(1, 0.04 + Math.abs(d2 - T86) / 0.45) * sm(st.dur, st.dur - 1.3, lt);
+      : sm(0, 1.8, lt) * Math.min(1, 0.04 + Math.abs(d2 - T86) / 0.45, 0.04 + Math.abs(d2 - T70) / 0.4) * sm(st.dur, st.dur - 1.3, lt);
     return { bloom: dawn ? 0.5 : 0.7, thresh: dawn ? 0.85 : 0.6, expo: dawn ? 1.0 : 1.5, letter: 0.24, vig: 0.5, grain: 0.03, fade };
   }
   function init() {
     prog = G.program(FS, 'courtyard');
     const B = LEY.barT;
     A0 = LEY.sec('copla')[0]; AD = LEY.sec('dawn')[0]; TD_END = LEY.sec('dawn')[1];
-    T76 = B[76]; T78 = B[78]; T86 = B[86]; TEND = B[94];
+    T70 = B[70]; T76 = B[76]; T78 = B[78]; T86 = B[86]; TEND = B[94];
     const mk = (m, i, f) => { const x = Math.max(-1.3, Math.min(1.3, (m.n - 68) * 0.11)), [fx, fz] = f(m.t, x, h1(i));
       return { t: m.t, x: fx, z: fz, a: 0.55 + 0.45 * h1(i * 3 + 1), wide: m.d > 0.85 }; };
     RIP = LEY.melody.filter(m => m.n >= 55 && m.t >= A0 - 1 && m.t < TEND).map((m, i) => mk(m, i, focus));
     RIPD = LEY.melody.filter(m => m.n >= 55 && m.t >= AD - 1 && m.t < TD_END).map((m, i) => mk(m, i, (t, x, h) => [x, zD(t) + 3 + h * 4.5]));
   }
   (window.SCENES = window.SCENES || []).push(
-    { name: 'Courtyard', disk: 2, scale: 0.7, init, draw: (s, t) => draw(s, t, false),
+    { name: 'Courtyard', title: 'COPLA', disk: 2, scale: 0.7, init, draw: (s, t) => draw(s, t, false),
       range: () => [LEY.AT + LEY.sec('copla')[0], LEY.AT + LEY.sec('copla')[1]],
       caps: [{ at: 3.5, len: 5.5, title: 'COPLA', sub: 'EVERY NOTE FALLS INTO THE WATER', align: 'center', scale: 4, y: 978, hue: 215 }] },
     { name: 'Dawn', disk: 2, scale: 0.7, draw: (s, t) => draw(s, t, true),

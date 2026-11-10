@@ -219,11 +219,11 @@ void main(){
     const out = sm(BEAM1 - 0.2, BEAM1 + 1.3, lt), asp = st.W / st.H;
     return { beam, lines: beam < 1 ? 256 : undefined, ocs: 1, crt: 1 - out, fa: 1.25 + (asp - 1.25) * sm(BEAM1, BEAM1 + 1.6, lt), scan: 256,
       bloom: 0.15 + 0.45 * beam, thresh: 2.6 - 1.6 * beam, expo: 1, aberr: 0.15 * (1 - out), grain: 0.02, vig: 0.35 + 0.2 * out,
-      fade: Math.min(1, lt / 0.08, (st.dur - lt) / 0.4) };
+      fade: Math.min(1, lt / 0.08, (st.dur - lt) / 0.12) };
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Glenz', from: 12, to: 15, draw, init() { prog = G.program(FS, 'glenz'); },
+    name: 'Glenz', from: 12, to: 15, draw, tube: 0.6, init() { prog = G.program(FS, 'glenz'); },
     caps: [{ at: BEAM1 + 2.2, len: 4.2, title: 'GLENZ', sub: 'IT ALWAYS WANTED TO BE GLASS' }],
   });
 })();

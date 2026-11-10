@@ -714,11 +714,11 @@ void main(){ if(isOld()>.5) discard; float a=exp(-dot(vUv,vUv)*2.4); fragColor=v
     }
     const crt = 1 - sm(7.3, 9.1, lt), wide = sm(7.7, 9.7, lt), end = st.dur - lt;
     return { lines: 256, beam, crt, fa: 1.25 + (st.W / st.H - 1.25) * wide, scan: 256, bloom: 0.5, thresh: 1.0, expo: 1.0,
-      aberr: 0.22 * crt, grain: 0.03, vig: 0.35 + 0.2 * (1 - crt), fade: Math.min(1, end / 0.4) };
+      aberr: 0.22 * crt, grain: 0.03, vig: 0.35 + 0.2 * (1 - crt), fade: Math.min(1, end / 0.15) };
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Shmup', disk: 2, init, draw,
+    name: 'Shmup', title: 'LEVEL 2: THE FLOOR OF STARS', disk: 2, init, draw, tube: 0.7,
     range: () => [LEY.AT + LEY.sec('shmup')[0], LEY.AT + LEY.sec('shmup')[1]],
   });
 })();

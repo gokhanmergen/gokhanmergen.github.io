@@ -588,7 +588,7 @@ void main(){ vec2 q=vUv*2.-1.; float d=dot(q,q); if(d>1.) discard;
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Night Drive', disk: 2, init, draw,
+    name: 'Night Drive', title: 'LEVEL 3: THE ROAD TO THE FIESTA', disk: 2, init, draw,
     range: () => [LEY.AT + LEY.sec('race')[0], LEY.AT + LEY.sec('race')[1]],
   });
 })();

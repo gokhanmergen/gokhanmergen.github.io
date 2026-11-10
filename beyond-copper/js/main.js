@@ -7,8 +7,9 @@
   const $ = id => document.getElementById(id);
   const ui = $('ui'), status = $('status'), fill = $('fill'), go = $('go'), hud = $('hud'), errEl = $('err'), canvas = $('c');
   const nextFrame = () => new Promise(r => requestAnimationFrame(() => r()));
+  let dead = false;                      // set by a fatal error: the render loops stop instead of failing again every frame
   const guru = e => {
-    console.error(e); ui.style.display = ''; ui.classList.remove('hidden');
+    dead = true; console.error(e); ui.style.display = ''; ui.classList.remove('hidden');
     status.innerHTML = '<span style="color:#f33">SOFTWARE FAILURE. &nbsp;GURU MEDITATION #8000000' + (Math.random() * 9 | 0) + '</span>';
     errEl.textContent = String((e && e.message) || e);
   };
@@ -31,17 +32,31 @@
     } else {
       P.centre(status.textContent.slice(0, 38), 116, WHITE);
       const p = parseFloat(fill.style.width) / 100 || 0;
-      P.bevel(58, 130, 204, 12, X(0x000), X(0x026), X(0x9CF)); for (let x = 0; x < Math.round(200 * p); x++) P.rect(60 + x, 132, 1, 8, ((x >> 3) & 1) ? ORANGE : X(0xFB2));
+      if (ui.dataset.end) P.centre('SEVEN MINUTES, TWO DISKS, NO ASSETS', 134, ORANGE);
+      else { P.bevel(58, 130, 204, 12, X(0x000), X(0x026), X(0x9CF)); for (let x = 0; x < Math.round(200 * p); x++) P.rect(60 + x, 132, 1, 8, ((x >> 3) & 1) ? ORANGE : X(0xFB2)); }
       if (go.style.display !== 'none' && go.style.display !== '') {
         const on = (t * 2 | 0) % 2, lbl = go.textContent.toUpperCase(), w = lbl.length * 8 + 24, x0 = (320 - w) >> 1;
         P.bevel(x0, 158, w, 20, on ? ORANGE : X(0x000), WHITE, X(0x026)); P.text(lbl, x0 + 12, 164, on ? X(0x000) : WHITE);
       }
     }
     P.centre('SPACE PAUSE   ' + String.fromCharCode(60, 45, 32, 45, 62) + ' PART   F FULLSCREEN', 214, X(0x9CF));
-    P.centre('H STATS   Q QUALITY   HEADPHONES ON!', 226, X(0x9CF));
+    P.centre('1 2 DISK   H STATS   Q QUALITY', 226, X(0x9CF));
+    P.centre('HEADPHONES ON!', 240, ORANGE);
     limg.data.set(P.buf); lctx.putImageData(limg, 0, 0);
   }
   setInterval(paintUI, 60); paintUI();
+  // on-screen display: one line of pixel text that fades out (hold = stays until the next message)
+  const osdEl = $('osd'), octx = osdEl.getContext('2d'); let osdTimer = 0;
+  function osd(text, hold) {
+    const f = PIX.font8, s = String(text).toUpperCase(), sc = Math.max(2, Math.round(innerHeight / 300));
+    osdEl.width = s.length * 8 + 12; osdEl.height = 14; osdEl.style.width = osdEl.width * sc + 'px'; osdEl.style.height = 14 * sc + 'px';
+    octx.fillStyle = 'rgba(0,0,0,.72)'; octx.fillRect(0, 0, osdEl.width, 14);
+    for (let i = 0; i < s.length; i++) { const g = s.charCodeAt(i) - 32; if (g <= 0 || g >= 64) continue;
+      for (let r = 0; r < 8; r++) { octx.fillStyle = `hsl(${40 - 3 * r},100%,${78 - 5 * r}%)`;
+        for (let c = 0; c < 8; c++) if (f.mask[g * 64 + r * 8 + c]) octx.fillRect(6 + i * 8 + c, 3 + r, 1, 1); } }
+    osdEl.classList.add('on'); clearTimeout(osdTimer);
+    if (!hold) osdTimer = setTimeout(() => osdEl.classList.remove('on'), 1300);
+  }
   ui.addEventListener('click', () => { if (go.style.display !== 'none' && go.style.display !== '') go.onclick && go.onclick(); });
 
   const PAT = MUSIC.PAT, AT2 = LEY.AT, TOTAL = AT2 + LEY.LEN;
@@ -85,6 +100,13 @@
     });
     o.cap = capA;
     if (o.fade === undefined) o.fade = Math.min(1, lt / 0.25);
+    // The mirror image of the beam: a part that ended up modern and wide closes back into the 5:4 tube over its
+    // last moments, so the next part's 1985 picture appears in the same glass (sc.tube = seconds).
+    if (sc.tube) {
+      const k = Math.min(1, Math.max(0, (lt - (dur - sc.tube)) / (sc.tube - 0.08))), e = k * k * (3 - 2 * k), asp = W / H;
+      if (e > 0) { o.crt = (o.crt || 0) + (1 - (o.crt || 0)) * e; o.fa = (o.fa || asp) + (1.25 - (o.fa || asp)) * e;
+        o.aberr = Math.max(o.aberr || 0, 0.22 * e); o.vig = (o.vig ?? 0.6) + (0.35 - (o.vig ?? 0.6)) * e; }
+    }
     G.post(o.tex || tgt, o, W, H);
     return sc;
   }
@@ -93,7 +115,7 @@
   if (params.has('still')) {
     MUSIC.prepare(); ui.style.display = 'none';
     const run = params.has('run'), p0 = performance.now(); window.__t = +params.get('still'); window.__frames = 0;
-    const loop = () => { requestAnimationFrame(loop); try { frame(window.__t + (run ? (performance.now() - p0) / 1000 : 0)); window.__frames++; } catch (e) { guru(e); } };
+    const loop = () => { if (dead) return; requestAnimationFrame(loop); try { frame(window.__t + (run ? (performance.now() - p0) / 1000 : 0)); window.__frames++; } catch (e) { guru(e); } };
     requestAnimationFrame(loop);
     // dev: await __bench() -> GPU milliseconds per frame at the current canvas size and time
     window.__bench = (n = 30) => { const gl = G.gl, px = new Uint8Array(4), t0 = performance.now();
@@ -142,25 +164,37 @@
 
   // ------------------------------ controls ------------------------------
   const Q = ['auto', 1, 0.75, 0.5];
-  const seek = from => { ended = false; ui.classList.add('hidden'); go.style.display = 'none'; play(from); };
+  const seek = from => { ended = false; delete ui.dataset.end; ui.classList.add('hidden'); go.style.display = 'none'; play(from); };
+  const jump = s => { seek(s.t0); if (ac.state !== 'running') ac.resume(); osd(`${SC.indexOf(s) + 1}/${SC.length}  ${s.title || s.name}`); };
+  // the pointer disappears while the demo plays and nobody moves it
+  let idleTimer = 0;
+  const wake = () => { document.body.classList.remove('idle'); clearTimeout(idleTimer); idleTimer = setTimeout(() => { if (!ended) document.body.classList.add('idle'); }, 2200); };
+  window.addEventListener('pointermove', wake); wake();
+  canvas.addEventListener('dblclick', () => { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {}); });
   window.addEventListener('keydown', e => {
     if (e.repeat && [' ', 'f', 'F', 'q', 'Q'].includes(e.key)) return;
     const t = now(), s = sceneAt(t), i = SC.indexOf(s);
-    if (e.key === ' ') { e.preventDefault(); if (ended) { seek(0); ac.resume(); } else if (ac.state === 'running') ac.suspend(); else ac.resume(); }
-    else if (e.key === 'ArrowRight' && i < SC.length - 1) { e.preventDefault(); seek(SC[i + 1].t0); }
-    else if (e.key === 'ArrowLeft') { e.preventDefault(); seek((t - s.t0 > 2 || i === 0 ? s : SC[i - 1]).t0); }
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    if (e.key === ' ') { e.preventDefault(); if (ended) { seek(0); ac.resume(); } else if (ac.state === 'running') { ac.suspend(); osd('PAUSED', true); } else { ac.resume(); osd('PLAY'); } }
+    else if (e.key === 'ArrowRight' && i < SC.length - 1) { e.preventDefault(); jump(SC[i + 1]); }
+    else if (e.key === 'ArrowLeft') { e.preventDefault(); jump(t - s.t0 > 2 || i === 0 ? s : SC[i - 1]); }
+    else if (e.key === 'Home' || e.key === '1') { e.preventDefault(); jump(SC[0]); }
+    else if (e.key === '2') jump(sceneAt(AT2));
     else if (e.key === 'f' || e.key === 'F') { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {}); }
     else if (e.key === 'h' || e.key === 'H') { showHud = !showHud; hud.style.display = showHud ? 'block' : 'none'; }
-    else if (e.key === 'q' || e.key === 'Q') { qMode = (qMode + 1) % Q.length; if (Q[qMode] !== 'auto') quality = Q[qMode]; }
+    else if (e.key === 'q' || e.key === 'Q') { qMode = (qMode + 1) % Q.length; if (Q[qMode] !== 'auto') quality = Q[qMode];
+      osd('QUALITY ' + (Q[qMode] === 'auto' ? 'AUTO' : Q[qMode] * 100 + '%')); }
   });
   go.onclick = () => { seek(0); ac.resume(); };
 
   // ------------------------------ main loop ------------------------------
   let last = performance.now(), acc = 0, frames = 0, fps = 0, lastAdj = 0;
   function loop() {
+    if (dead) return;
     requestAnimationFrame(loop);
     const pnow = performance.now(), dt = pnow - last; last = pnow;
-    acc += dt; frames++;
+    if (dt > 250) { acc = 0; frames = 0; lastAdj = pnow; }     // the tab was hidden or the machine stalled: not a GPU verdict
+    else { acc += dt; frames++; }
     if (acc > 1000) {
       fps = frames * 1000 / acc;
       if (Q[qMode] === 'auto' && pnow - lastAdj > 1500 && !holding) {
@@ -180,7 +214,7 @@
     }
     if (!ab2 && t >= AT2) { holding = true; t = AT2; }
     if (t >= TOTAL - 0.05 && !ended) {
-      ended = true; ui.classList.remove('hidden');
+      ended = true; ui.dataset.end = '1'; ui.classList.remove('hidden'); document.body.classList.remove('idle');
       status.textContent = 'THE END.  THANKS FOR WATCHING.'; go.textContent = 'WATCH AGAIN'; go.style.display = 'inline-block';
     }
     let sc;

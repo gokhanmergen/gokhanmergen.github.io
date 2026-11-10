@@ -128,12 +128,13 @@ void main(){
     const ox = lt * 46 * fs + Math.sin(lt * 0.9) * 30 * fs - z * 32 / (2 * Math.PI * 2 / 12), oy = Math.cos(lt * 0.7) * 70 * fs;
     G.draw(prog, { uBeam: beam, uFold: fold, uPersp: sm(4.8, 6.6, lt), uZ: z, uRoll: roll, uWarp: warp, uAmp: sm(PAT + 1.2, PAT + 6, lt),
       uZoom: zoom, uOff: [ox, oy], uPl: lt * 0.8, uKickAge: Math.min(4, MUSIC.since('kick', st.t)), uPunch: 0.05 * st.kick * sm(PAT + 1.4, PAT + 3, lt) }, tgt);
-    const end = st.dur - st.lt;
-    return { lines: 128, scan: 256, ocs: 1, beam, bloom: 0.22 + 0.5 * beam, thresh: 0.75, expo: 1, aberr: 0.15 + warp * 2.2, vig: 0.5,
+    const end = st.dur - st.lt, crt = 1 - sm(PAT + 1.0, PAT + 2.4, st.lt);
+    return { lines: 128, scan: 256, ocs: 1, beam, crt, fa: 1.25 + (st.W / st.H - 1.25) * sm(PAT + 1.3, PAT + 2.9, st.lt),
+      bloom: 0.22 + 0.5 * beam, thresh: 0.75, expo: 1, aberr: 0.15 + warp * 2.2, vig: 0.5 - 0.15 * crt,
       flash: Math.pow(Math.max(0, 1 - end / 0.45), 2), fade: Math.min(1, st.lt * 6) };
   }
   (window.SCENES = window.SCENES || []).push({
-    name: 'Tunnel', from: 15, to: 18, draw, scale: 0.85, init() { prog = G.program(FS, 'tunnel'); },
+    name: 'Tunnel', from: 15, to: 18, draw, scale: 0.85, tube: 0.5, init() { prog = G.program(FS, 'tunnel'); },
     caps: [{ at: PAT + 2.2, len: 4.5, title: 'TUNNEL', sub: 'THE SAME 32 TEXELS, GOING DEEPER', hue: 32 }],
   });
 })();

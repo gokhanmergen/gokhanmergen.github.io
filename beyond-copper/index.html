@@ -12,6 +12,10 @@
   #ui.hidden{opacity:0;pointer-events:none}
   #ld{height:min(100vh,80vw);aspect-ratio:5/4;image-rendering:pixelated;image-rendering:crisp-edges}
   #ui .dom{display:none}
+  /* one-line on-screen display (pause, part names, quality) in the same 8x8 font */
+  #osd{position:fixed;left:50%;bottom:8%;transform:translateX(-50%);image-rendering:pixelated;image-rendering:crisp-edges;opacity:0;transition:opacity .5s;pointer-events:none}
+  #osd.on{opacity:1;transition:none}
+  body.idle{cursor:none}
   #hud{position:fixed;left:10px;top:8px;font:12px monospace;color:#0f0;text-shadow:1px 1px 0 #000;display:none;white-space:pre}
 </style>
 </head>
@@ -21,6 +25,7 @@
   <canvas id="ld" width="320" height="256"></canvas>
   <div class="dom"><div id="status">INITIALISING CUSTOM CHIPS...</div><div id="bar"><div id="fill"></div></div><div id="err"></div><button id="go">CLICK TO START</button></div>
 </div>
+<canvas id="osd" width="8" height="14"></canvas>
 <div id="hud"></div>
 
 <script src="js/music.js"></script>

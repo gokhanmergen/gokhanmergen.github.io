@@ -20,7 +20,7 @@ const float WY=-30., GY=-80., HX=-34.;
 const vec2 MOON=vec2(-78.,62.), LGT=vec2(-.41,.91);   // LGT: key light on the hero, from the moon side
 #define NR 12
 #define NH 8
-float old_, aaw;
+float old_, aaw, refl_;
 vec3 invAces(vec3 y){ y=clamp(y,0.,1.02); vec3 a=2.43*y-2.51, b=.59*y-.03, c=.14*y; return (-b-sqrt(max(b*b-4.*a*c,0.)))/(2.*a); }
 vec3 o12(vec3 c){ return invAces((min(floor(clamp(c,0.,1.)*15.+.5),14.)+.02)/15.); }
 vec3 H(int h){ return vec3(float((h>>8)&15),float((h>>4)&15),float(h&15))/15.; }
@@ -104,7 +104,7 @@ vec4 far(vec2 P, vec2 cell){               // front to back: aqueduct, far shore
     float w=mix(15.,21.,fj), c=floor(x/w), h=hash11(c*1.37+fo*17.), lx=x-(c+.5)*w-(h-.5)*w*.5, t=0.;
     float d=P.y-WY-base;
     if(h>.45){ float Ht=mix(9.,17.,fract(h*7.3))*mix(.75,1.35,fj), hw=1.2+Ht*.11; d=P.y-WY-base-Ht*pow(max(0.,1.-abs(lx)/hw),.6); }
-    else if(h<.2&&(j==NH-1||j==NH-3)){ float cx=(c+.5)*w+(h-.5)*w*.5, sc=mix(.75,1.2,fj);
+    else if(h<.2&&refl_<.5&&(j==NH-1||j==NH-3)){ float cx=(c+.5)*w+(h-.5)*w*.5, sc=mix(.75,1.2,fj);
       float b2=mix(13.,4.,fj)+vn(cx/55.+fo*9.1)*mix(8.,5.,fj)+vn(cx/19.+fo*3.7)*2.5;
       d=min(d,palm(vec2(lx,P.y-WY-b2+1.),mix(15.,24.,fract(h*31.))*sc,sc)); }
     float a=edge(d); if(a<=0.) continue;
@@ -187,7 +187,7 @@ float hero(vec2 P){
   put(4,capN(P,Hd+hf*2.9+hu*.3,Hd+hf*3.5-hu*.4,.5,.4),1.);                          // nose
   put(4,capN(P,Hd-hf*1.2+hu*1.1,Hd-hf*2.4-hu*2.7,2.5,1.4),2.);                      // dark hair down to the nape
   vec2 r=P-Hd; float ra=dot(r,hf), rb=dot(r,hu);
-  if(hD[4]<0.&&hM[4]==1.&&rb>-2.2){ if(rb>1.1-.25*ra||ra<-.6) hM[4]=2.; if(abs(ra-1.9)<.55&&abs(rb-.25)<.55) hM[4]=5.; }
+  if(hD[4]<0.&&hM[4]==1.&&rb>-2.2){ if(rb>1.45-.25*ra||ra<-.6) hM[4]=2.; if(abs(ra-1.85)<.42&&abs(rb+.15)<.42) hM[4]=5.; }
   return min(min(min(hD[0],hD[1]),min(hD[2],hD[3])),min(hD[4],hD[5]));
 }
 vec3 matCol(float m){ return m<.5?vec3(.9,.87,.78):m<1.5?vec3(.82,.52,.32):m<2.5?vec3(.1,.055,.035):m<3.5?vec3(.62,.1,.08):m<4.5?vec3(.22,.1,.06):vec3(.03); }
@@ -205,7 +205,7 @@ float num(vec2 P, vec2 o, float v, float nd){
 }
 
 void main(){
-  float asp=uRes.x/uRes.y; old_=isOld(); aaw=256./uRes.y*.9/uZoom;
+  float asp=uRes.x/uRes.y; old_=isOld(); aaw=256./uRes.y*.9/uZoom; refl_=0.;
   vec2 cell=floor(vUv*vec2(256.*asp,256.));
   vec2 P=old_>.5 ? cell+.5-vec2(128.*asp,128.) : (vUv-.5)*vec2(256.*asp,256.)/uZoom+vec2(HX+34.,-52.)*(1.-1./uZoom);
   vec3 col; float gS=scr(1.), gx=P.x+gS;
@@ -226,16 +226,18 @@ void main(){
     float dep=WY-P.y;
     if(old_>.5){
       float row=cell.y; vec2 Pm=vec2(P.x+floor(sin(row*.9+floor(uLt*10.)*.55)*1.6+.5),2.*WY-P.y);
-      col=far(Pm,floor(Pm)).rgb*vec3(.6,.52,.78);
-      float h=hash11(row*3.1+floor(uLt*6.)*1.7);
-      if(h>.7&&mod(row,2.)<1.&&abs(P.x-MOON.x-(h-.85)*70.)<2.+fract(h*9.)*5.&&dep>3.) col=fract(h*5.)>.6?H(0xFEB):H(0xC9A);
+      refl_=1.; col=far(Pm,floor(Pm)).rgb*vec3(.6,.52,.78); refl_=0.;
+      // the moon's glitter path: a dash on every other line, widening towards the viewer, shimmering at 12.5 Hz
+      float ph=floor(uLt*12.5), hw=(1.5+dep*.2)*(.5+.5*sin(row*2.4+ph*.9)), dx=abs(P.x-MOON.x-floor(sin(row*1.7+ph*.35)*(1.+dep*.07)+.5));
+      if(mod(row,2.)<1.&&dep>2.&&hw>.8&&dx<hw) col=dx<hw-1.5?H(0xFEB):H(0xC9A);
     } else {
       vec2 Pm=vec2(P.x+sin(P.y*.9+uLt*2.2)*(1.+dep*.07)+sin(P.y*2.7-uLt*3.1)*.5,2.*WY-P.y+sin(P.x*.11+uLt*1.3)*.6);
       col=far(Pm,cell).rgb*vec3(.5,.48,.72)*mix(1.,.55,smoothstep(0.,50.,dep));
       float sh=shaft(Pm);
       col+=vec3(.5,.56,.95)*sh*.1*exp(-length(Pm-MOON)*.0045);
-      float gl=pow(noise(vec2(P.x*.7,P.y*3.6+uLt*2.)),9.)*exp(-abs(P.x-MOON.x)/(9.+dep*.45));
-      col+=vec3(1.,.93,.8)*gl*5.*(1.+uGlow);
+      float pw=7.+dep*.42, px=(P.x-MOON.x)/pw;                                    // the moon's glitter path: thin
+      float gl=pow(noise(vec2(P.x*.33+sin(P.y*1.3+uLt*1.7)*1.2,P.y*2.6+uLt*1.6)),6.)*exp(-px*px);   // wave crests, not static
+      col+=vec3(1.,.93,.8)*gl*(2.6+1.6*uGlow)*smoothstep(0.,3.,dep);
       float mist=fbm(vec2((P.x+uS*.7)*.016-uLt*.02,P.y*.11+9.))*exp(-dep*.06);
       col=mix(col,vec3(.5,.42,.62),mist*.4);
     }
@@ -261,7 +263,7 @@ void main(){
         if(max(abs(q.x),abs(q.y))<1.6-ag*2.||max(abs(q2.x),abs(q2.y))<1.1) col=H(0x978); }
     } else {
       float rr=length((P-c)*vec2(1.,3.6)), R=3.+ag*46.;
-      col+=vec3(1.,.55,.16)*(exp(-pow((rr-R)*.45,2.))*exp(-ag*4.2)*2.2+exp(-rr*.22)*exp(-ag*9.)*3.)*F.z*step(P.y,gtop+2.);
+      col+=vec3(1.,.55,.16)*(exp(-pow((rr-R)*.45,2.))*exp(-ag*4.2)*2.2+exp(-rr*.22)*exp(-ag*9.)*3.)*F.z*smoothstep(1.5,-.5,dg-1.5);
       for(int k=0;k<4;k++){ float fk=float(k)+F.x*.37; vec2 v=vec2(-28.+34.*hash11(fk),30.+34.*hash11(fk*1.7));
         vec2 sp=c+vec2(0.,1.)+v*ag-vec2(0.,95.)*ag*ag; col+=vec3(1.,.7,.3)*exp(-dot(P-sp,P-sp)*1.4)*exp(-ag*5.)*5.*F.z; }
     }
@@ -284,7 +286,7 @@ void main(){
       vec2 tp=uJ[17]; float dx=tp.x-P.x;
       if(dx>0.){ float yy=scarfY(dx,tp.y), dd=abs(P.y-yy);                     // a faint trail of light, left
         float w=1.2+dx*.02;                                                     // behind, not tied to him
-        col+=vec3(1.,.5,.12)*(exp(-dd*dd/(w*w))*1.5+exp(-dd*.3)*.14)*exp(-dx/(52.+60.*uWind))*smoothstep(10.,36.,dx); }
+        col+=vec3(1.,.5,.12)*(exp(-dd*dd/(w*w))*1.5+exp(-dd*.3)*.14)*exp(-dx/(52.+60.*uWind))*smoothstep(1.,16.,dx); }
       for(int i=0;i<6;i++){ float w=edge(hD[i]); if(w<=0.) continue;
         float occ=1.; for(int j=i+1;j<6;j++) occ*=mix(.5,1.,smoothstep(0.,2.2,hD[j]));
         vec2 n=hN[i]; float lv=dot(n,LGT), fr=i<2?.62:1.;
@@ -348,11 +350,13 @@ void main(){
   const herm = (p0, m0, p1, m1, h, u) => { const u2 = u * u, u3 = u2 * u; return (2 * u3 - 3 * u2 + 1) * p0 + (u3 - 2 * u2 + u) * h * m0 + (3 * u2 - 2 * u3) * p1 + (u3 - u2) * h * m1; };
   const stD = c => (c.take ? 13 : 21.3) / spd(c.t);                            // stance duration (steps)
   const at = s => { let k = 0; while (k + 1 < C.length && C[k + 1].t <= s) k++; return k; };
-  function hn(k, s) {                    // hip height over the half cycle that starts with contact k
-    const c0 = C[k], c1 = C[k + 1], u = (s - c0.t) / (c1.t - c0.t), sg = stD(c0) / (c1.t - c0.t);
-    let y = (HLO + HHI) / 2 - (HHI - HLO) / 2 * Math.cos(2 * Math.PI * (u - sg / 2));
-    if (c0.land) y -= 2.4 * Math.sin(Math.PI * Math.min(1, (s - c0.t) / 1.1));   // knees absorb the landing
-    return y;
+  function hb(k, s) {                    // hip height over the half cycle that starts with contact k
+    const c0 = C[k], c1 = C[k + 1], u = (s - c0.t) / (c1.t - c0.t), sg = 21.3 / spd(s) / (c1.t - c0.t);   // sg from the speed *now*: no step between cycles
+    return (HLO + HHI) / 2 - (HHI - HLO) / 2 * Math.cos(2 * Math.PI * (u - sg / 2));
+  }
+  function hn(k, s) {                    // ... plus the landing: the hip arrives with the fall's velocity and the knees absorb it
+    const L = C[k].land, tau = s - C[k].t;
+    return hb(k, s) + (L ? L.v * tau * Math.exp(-tau / 0.26) : 0);
   }
   function pelY(s) {
     const k = at(s), c0 = C[k];
@@ -360,7 +364,7 @@ void main(){
     const J = c0.take, tA = c0.t + stD(c0), Hl = hn(k + 1, J.b), v0 = (Hl - HTO + 4 * J.h) / (J.b - tA);
     if (s >= tA) { const u = (s - tA) / (J.b - tA); return HTO + (Hl - HTO) * u + J.h * 4 * u * (1 - u); }
     const y0 = hn(k - 1, c0.t), m0 = (y0 - hn(k - 1, c0.t - 0.02)) / 0.02;     // gather, then spring off one leg
-    return herm(y0, m0, HTO, v0 * 0.5, tA - c0.t, (s - c0.t) / (tA - c0.t));
+    return herm(y0, m0, HTO, v0, tA - c0.t, (s - c0.t) / (tA - c0.t));
   }
   function stance(c, s) {                // [hip angle, knee flexion, ankle] of a planted foot (toe locked, heel peels off)
     const q = Math.min(1, Math.max(0, (s - c.t) / stD(c)));
@@ -388,7 +392,7 @@ void main(){
       keys.push([c1.t, ...A1]);
       let j = 0; while (j < keys.length - 2 && keys[j + 1][0] <= s) j++;
       const n = keys.length - 1, h = keys[j + 1][0] - keys[j][0], u = (s - keys[j][0]) / h;
-      const tan = (m, c) => m === 0 ? (A0[c - 1] - A0b[c - 1]) / e * 0.6 : m === n ? (A1b[c - 1] - A1[c - 1]) / e
+      const tan = (m, c) => m === 0 ? (A0[c - 1] - A0b[c - 1]) / e : m === n ? (A1b[c - 1] - A1[c - 1]) / e
         : (keys[m + 1][c] - keys[m - 1][c]) / (keys[m + 1][0] - keys[m - 1][0]);
       a = [1, 2, 3].map(c => herm(keys[j][c], tan(j, c), keys[j + 1][c], tan(j + 1, c), h, u));
     }
@@ -403,7 +407,7 @@ void main(){
     let w = 0, land = 0;                 // w: the leap pose (arms forward and up), land: knee-flex absorption
     for (const J of jumps) { const tA = J.a + 13 / spd(J.a);
       w = Math.max(w, sm(J.a - 0.3, tA + 0.15, s) * (1 - sm(J.b - 0.35, J.b + 0.9, s)));
-      if (s > J.b) land = Math.max(land, Math.sin(Math.PI * Math.min(1, (s - J.b) / 1.1))); }
+      land = Math.max(land, sm(J.b, J.b + 0.45, s) * (1 - sm(J.b + 0.45, J.b + 1.5, s))); }
     const hy = pelY(s), p0 = ph(0), lean = (11 + 5 * wind) * R + 0.015 * Math.cos(4 * Math.PI * p0) - 0.07 * w + 0.07 * land;
     const ux = Math.sin(lean), uy = Math.cos(lean), fx = uy, fy = -ux;
     P(0, 0, hy); P(1, 15 * ux, hy + 15 * uy); P(2, 15.6 * ux, hy + 15.6 * uy);
@@ -435,9 +439,12 @@ void main(){
     // footfalls: one per beat (two steps), the take-off foot plants just before the gap edge, the lead leg lands
     for (let t = -4, i = 0; t < 112; i++) {
       const J = jumps.find(j => j.a === t);
-      C.push({ t, leg: i & 1, x: J ? 3 : 7, take: J || null, land: jumps.some(j => j.b === t) });
+      C.push({ t, leg: i & 1, x: J ? 3 : 7, take: J || null, land: jumps.find(j => j.b === t) || null });
       t = J ? J.b : t + 2;
     }
+    // the hip's vertical speed when a leap lands (minus the run cycle's own), carried into the landing by hn()
+    C.forEach((c, k) => { const J = c.take; if (!J) return; const tA = c.t + stD(c), Hl = hb(k + 1, J.b);
+      J.v = (Hl - HTO - 4 * J.h) / (J.b - tA) - (hb(k + 1, J.b + 1e-3) - Hl) / 1e-3; });
   }
 
   function draw(st, tgt) {
@@ -462,12 +469,12 @@ void main(){
       uGap: [near[0].x, near[0].hw, near[1].x, near[1].hw], uFoot: foot, uZoom: 1 + 0.24 * sm(7.0, 11.5, lt) + 0.06 * wind,
     }, tgt);
     const crt = 1 - sm(7.3, 9.1, lt), wide = sm(7.7, 9.7, lt), end = st.dur - lt;
-    return { lines: 256, beam, crt, fa: 1.25 + (st.W / st.H - 1.25) * wide, scan: 256, bloom: 0.5 + 0.1 * wind, thresh: 1.0, expo: 1.0,
+    return { lines: 256, beam, crt, fa: 1.25 + (st.W / st.H - 1.25) * wide, scan: 256, bloom: 0.3 + 0.2 * beam + 0.1 * wind, thresh: 1.0, expo: 1.0,
       aberr: 0.22 * crt + Math.max(0, 1 - end / 0.5) * 1.2, grain: 0.03, vig: 0.35 + 0.2 * (1 - crt), fade: Math.min(1, lt / 0.3) };
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Run', disk: 2, init, draw,
+    name: 'Run', title: 'LEVEL 1: RUN', disk: 2, init, draw, tube: 0.6,
     range: () => [LEY.AT + LEY.sec('run')[0], LEY.AT + LEY.sec('run')[1]],
   });
 })();

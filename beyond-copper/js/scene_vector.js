@@ -225,7 +225,7 @@ void main(){
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Vector Balls', from: 9, to: 12, init, draw,
+    name: 'Vector Balls', from: 9, to: 12, init, draw, tube: 0.6,
     caps: [{ at: PAT + 2.4, len: 4.2, title: 'VECTOR BALLS', sub: 'ONCE THERE WERE A HUNDRED' }],
   });
 })();
