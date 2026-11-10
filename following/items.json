@@ -6,6 +6,9 @@
   "https://erictopol.substack.com/feed": {
    "since": "2026-10-24"
   },
+  "https://export.arxiv.org/api/query?search_query=au:Aaronson_Scott&sortBy=submittedDate&sortOrder=descending&max_results=10": {
+   "since": "2026-11-10"
+  },
   "https://phillipspobrien.substack.com/feed": {
    "since": "2026-10-24"
   },
@@ -14,6 +17,66 @@
   }
  },
  "items": [
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-11-10",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-11-10",
+   "summary": "The United States is falling behind in the global competition for labor.",
+   "title": "US Immigrant Share Ranked in the Bottom Third of Wealthy Countries in 2024",
+   "url": "https://www.alexnowrasteh.com/p/us-immigrant-share-ranked-in-the"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-10",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-10",
+   "summary": "Well, sure, it sounds bad when you put it like that. It is indeed quite bad. National security has been compromised. He must resign. Nvidia underperformed the Nasdaq roughly 7% on the news. Matt Levine has his usual ‘but is …",
+   "title": "Nvidia CEO Jensen Huang Had an Affair With a Chinese Spy",
+   "url": "https://thezvi.wordpress.com/2026/11/10/nvidia-ceo-jensen-huang-had-an-affair-with-a-chinese-spy/"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-11-10",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-11-10",
+   "summary": "Why do Great Danes typically live much shorter lives than Chihuahuas? Do larger dogs actually age faster, or do they simply die younger?In this special presentation from the Animal Longevity Summit (ALOS), Dr. Noah Snyder-Mackler explores these questions through groundbreaking new research from the Dog Aging Project, recently published in Science.In his lecture, \"Epigenetic Mechanisms of…",
+   "title": "The Epigenetic Secret Behind Why Big Dogs Age Faster",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Epigenetic-Secret-Behind-Why-Big-Dogs-Age-Faster-e3s45vm"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-10",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-10",
+   "summary": "From SaneCite: We checked the anonymous AI audit of Emmanuel Saez and Gabriel Zucman’s research that Marginal Revolution featured on 28 Oct: all 147 problems it calls serious enough to change a headline number, against the papers, their sources and the authors’ own data. The audit’s facts hold up: for 131 of the 147, every…",
+   "title": "Checking the AI audit of Saez and Zucman’s research.",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/checking-the-ai-audit-of-saez-and-zucmans-research.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-10",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-09",
+   "summary": "I’m sorry to report that Jon Clardy recently passed away due to acute myeloid leukemia. His name will be very familiar indeed to people who work in chemical biology, natural products, x-ray crystallography and several other fields, because for decades now he’s had a very large impact in all of them. I first met him in 1983 when he was at Cornell (where he spent the 80s and 90s). I was a…",
+   "title": "Jon Clardy, 1943-2026",
+   "url": "https://www.science.org/content/blog-post/jon-clardy-1943-2026"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-10",
+   "kind": "podcast",
+   "person": "noah-smith",
+   "published": "2026-11-09",
+   "summary": "A bonus podcast!",
+   "title": "Noah Smith and Azeem Azhar discuss the AI boom",
+   "url": "https://www.noahpinion.blog/p/noah-smith-and-azeem-azhar-discuss"
+  },
   {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-09",
@@ -25,6 +88,16 @@
    "url": "https://www.noahpinion.blog/p/noah-brad-delong-and-dan-wang-discuss"
   },
   {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-10",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-09",
+   "summary": "In fiscal year 2026, which ended on September 30, the federal budget deficit totaled $2.0 trillion—an increase of $217 billion (or 12 percent) from the deficit recorded in the previous year.",
+   "title": "Monthly Budget Review: Summary for Fiscal Year 2026",
+   "url": "https://www.cbo.gov/publication/61986"
+  },
+  {
    "feed": "https://www.alexnowrasteh.com/feed",
    "first_seen": "2026-11-09",
    "kind": "post",
@@ -33,6 +106,26 @@
    "summary": "Part 7 of What People Really Care About When They’re Mad About Immigration",
    "title": "Illegal Immigrants Aren’t Terrorists",
    "url": "https://www.alexnowrasteh.com/p/illegal-immigrants-arent-terrorists"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-10",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-09",
+   "summary": "METR came out with an extensive report on how much AI is accelerating AI R&D at Anthropic, and thus how close we might be to recursive self-improvement (RSI) and how far that might go. This is one of the most …",
+   "title": "AI R&D Is Accelerating Towards Potential RSI in 2027",
+   "url": "https://thezvi.wordpress.com/2026/11/09/ai-rd-is-accelerating-towards-potential-rsi-in-2027/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-10",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-09",
+   "summary": "[This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT). This blog post was initially written in a different file format and converted using AI. — T.] In late September and early October, we distributed a survey of early career mathematicians. Our goals were to take a “temperature check” of the…",
+   "title": "Our Survey of Early Career Mathematicians",
+   "url": "https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -55,6 +148,36 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-honeypots.html"
   },
   {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-10",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-09",
+   "summary": "1. What WWII looked like, four and a half minute video. 2. Intellectual Deep Web, YouTube channel. 3. Complete works of Schelling, and no I do not mean Thomas. 4. What the French Left is proposing. 5. How much AI could the CEA manage? 6. Douthat! 7. Andrew Maxfield, Stations of the Cross, vocal music.",
+   "title": "Monday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/monday-assorted-links-585.html"
+  },
+  {
+   "feed": "https://jack-clark.net/feed/",
+   "first_seen": "2026-11-10",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-11-09",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI Science startup converts a quantum conjecture into a theorem:…An evocative taste of the singularity…In the same way a few years ago it went from remarkable…",
+   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+   "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-11-10",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-11-09",
+   "summary": "Epoch AI's Inference Performance Index, which goes beyond the underestimates of FLOP/s measures and scores chips on memory and communication",
+   "title": "Inference Performance Index: changing the way we measure inference capacity",
+   "url": "https://epoch.ai/publications/inference-performance-index"
+  },
+  {
    "feed": "https://terrytao.wordpress.com/feed/",
    "first_seen": "2026-11-08",
    "kind": "post",
@@ -70,7 +193,7 @@
    "kind": "post",
    "person": "scott-aaronson",
    "published": "2026-11-08",
-   "summary": "We now, of course, live in age where longstanding open problems in quantum computing theory (and all theoretical computer science, and all math) are dropping like flies, to the extent that there’s no way I could possibly do a post on each and every bombshell. But I can’t exactly avoid the Aaronson-Ambainis Conjecture, given that…",
+   "summary": "The “For Dummies” Version (apologies for not including this earlier): We now, of course, live in age where longstanding open problems in quantum computing theory (and all theoretical computer science, and all math) are dropping like flies, to the extent that there’s no way I could possibly do a post on each and every bombshell.…",
    "title": "Aaronson-Ambainis Conjecture proved! (By AI, of course)",
    "url": "https://scottaaronson.blog/?p=10295"
   },
@@ -1023,26 +1146,6 @@
    "summary": "As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else! Man do the…",
    "title": "Podcasts about the Topic: Part II",
    "url": "https://scottaaronson.blog/?p=10239"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-27",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-26",
-   "summary": "From the Archive–these posts are written by AI. Cowen’s strongest recommendations include 1491, The Power Broker, Knausgaard’s first two My Struggle volumes, Fuchsia Dunlop’s Chinese cookbooks, and Meetings with Remarkable Manuscripts. These stand out through unusually strong praise, repeated endorsement, or both. The analysis uses qualitative, book-specific sentiment analysis: explicit…",
-   "title": "Tyler Cowen’s Strongest Book Recommendations, 2003-2026",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/tyler-cowens-strongest-book-recommendations-over-the-years.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-27",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-26",
-   "summary": "The Marginal Revolution archive is now live at https://marginalrevolution.com/ai-archive/. You can also find it from the header and from “Download Full Archive” link in the left menu. The purpose of the archive is twofold, first as Tyler has said we love our human readers and our AI readers and we want to make it as…",
-   "title": "The MR Archive!",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/the-mr-archive.html"
   },
   {
    "feed": "https://jack-clark.net/feed/",
@@ -3085,16 +3188,6 @@
    "url": "https://anneapplebaum.substack.com/p/the-myth-of-the-censorship-industrial"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-03",
-   "summary": "If you thought that there was a lot of noise and action in the GLP-1 drug area before (medical, financial, societal), just wait. I think that this new paper at Nature is a preview of what’s to come. We’ve already been seeing a good bit of evidence that these compounds have what seem to be beneficial effects well outside of their primary effects on appetite and weight, but this work (building on…",
-   "title": "GLP-1 Drugs for Aging?",
-   "url": "https://www.science.org/content/blog-post/glp-1-drugs-aging"
-  },
-  {
    "feed": "https://www.quantamagazine.org/computer-science/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3123,16 +3216,6 @@
    "summary": "I woke up yesterday with the following thoughts, which are probably either obvious or dumb. A central thesis that many readers, including me, took from Douglas Hofstadter’s Gödel Escher Bach when young was that the secret of intelligence (and therefore, of AI) was going to have a lot to do with self-referentiality and “strange loops.”…",
    "title": "LLMs and self-referentiality",
    "url": "https://scottaaronson.blog/?p=10046"
-  },
-  {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-09-01",
-   "summary": "A benchmark of 68 significant Erdős problems, open as of August 2026, curated by Thomas Bloom and formalized in Lean. AI systems must prove or disprove them within a fixed budget.",
-   "title": "Announcing FrontierMath Erdős",
-   "url": "https://epoch.ai/latest/announcing-frontiermath-erdos"
   },
   {
    "feed": "https://www.dwarkesh.com/feed",
@@ -3643,16 +3726,6 @@
    "summary": "Lindsey Graham strove to stay relevant, whatever the cost",
    "title": "The Quintessential Trump-era Politician",
    "url": "https://anneapplebaum.substack.com/p/the-quintessential-trump-era-politician"
-  },
-  {
-   "feed": "https://erictopol.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "eric-topol",
-   "published": "2026-07-12",
-   "summary": "Proteins Tell How Fast Our Organs and Cells Are Ticking",
-   "title": "Medicine is Moving From Calendars to Clocks",
-   "url": "https://erictopol.substack.com/p/medicine-is-moving-from-calendars"
   }
  ]
 }
