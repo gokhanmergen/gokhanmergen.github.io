@@ -648,10 +648,12 @@ void main(){ if(isOld()>.5) discard; float a=exp(-dot(vUv,vUv)*2.4); fragColor=v
     const a = SPR.build(); sprTex = G.texture(a.w, a.h, { data: a.data });   // texelFetch for 1985, bilinear for now
   }
 
+  // the beam on the crash of bar 28 (shared with the soundtrack, which opens with it)
+  const beamAt = lt => Math.min(1, Math.max(0, (lt - (LEY.barT[28] - LEY.barT[24])) / 1.5));
   function draw(st, tgt) {
     if (!M) M = build();
     const lt = st.lt, t = st.t - LEY.AT, B = M.B, gl = G.gl;
-    const beam = clamp((lt - (B[28] - B[24])) / 1.5, 0, 1);
+    const beam = beamAt(lt);
     const fi = clamp((t - M.T0) / M.dt, 0, M.px.length - 1.001), i0 = Math.floor(fi), fr = fi - i0;
     const sx = M.px[i0] + (M.px[i0 + 1] - M.px[i0]) * fr, sv = M.pv[i0];
     const tilt = 0.42 * sm(8.0, 12.5, lt) + 0.03 * Math.sin(lt * 0.37) * sm(12, 16, lt);
@@ -718,7 +720,7 @@ void main(){ if(isOld()>.5) discard; float a=exp(-dot(vUv,vUv)*2.4); fragColor=v
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Shmup', title: 'LEVEL 2: THE FLOOR OF STARS', disk: 2, init, draw, tube: 0.7,
+    name: 'Shmup', title: 'LEVEL 2: THE FLOOR OF STARS', disk: 2, init, draw, tube: 0.7, beamAt, paula: true,
     range: () => [LEY.AT + LEY.sec('shmup')[0], LEY.AT + LEY.sec('shmup')[1]],
   });
 })();

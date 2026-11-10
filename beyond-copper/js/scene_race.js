@@ -533,9 +533,11 @@ void main(){ vec2 q=vUv*2.-1.; float d=dot(q,q); if(d>1.) discard;
   const latAt = lt => { const x = Math.max(0, Math.min(LAT.length / NLAT - 2, (lt - L0) / LDT)), i = Math.floor(x), f = x - i, o = [];
     for (let c = 0; c < NLAT; c++) o.push(LAT[i * NLAT + c] + (LAT[(i + 1) * NLAT + c] - LAT[i * NLAT + c]) * f); return o; };
 
+  // the beam on the crash of bar 52 (shared with the soundtrack, which opens with it)
+  const beamAt = lt => Math.min(1, Math.max(0, (lt - (LEY.barT[52] - LEY.barT[48])) / 1.4));
   function draw(st, tgt) {
     const gl = G.gl, lt = st.lt, T52 = B[52] - B[48], T56 = B[56] - B[48], T58 = B[58] - B[48], T60 = B[60] - B[48], T61 = B[61] - B[48];
-    const beam = Math.min(1, Math.max(0, (lt - T52) / 1.4));
+    const beam = beamAt(lt);
     const ltq = beam < 1 ? Math.floor(lt * 50) / 50 : lt, t = B[48] + ltq;          // the old machine runs at 50 Hz
     const D = dist(t), vel = (dist(t + 0.01) - dist(t - 0.01)) / 0.02 * SP;         // lamp units; metres per second
     const drive = sm(T52, T60, ltq), low = sm(T56, T60 - 0.4, ltq), after = sm(T60, T60 + 1.2, ltq);
@@ -588,7 +590,7 @@ void main(){ vec2 q=vUv*2.-1.; float d=dot(q,q); if(d>1.) discard;
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Night Drive', title: 'LEVEL 3: THE ROAD TO THE FIESTA', disk: 2, init, draw,
+    name: 'Night Drive', title: 'LEVEL 3: THE ROAD TO THE FIESTA', disk: 2, init, draw, beamAt, paula: true,
     range: () => [LEY.AT + LEY.sec('race')[0], LEY.AT + LEY.sec('race')[1]],
   });
 })();

@@ -80,6 +80,9 @@
   SC.sort((a, b) => a.t0 - b.t0);
   SC.forEach((s, i) => { s.t1 = i < SC.length - 1 ? SC[i + 1].t0 : TOTAL; });
   const sceneAt = t => SC.find(s => t >= s.t0 && t < s.t1) || SC[SC.length - 1];
+  // The sound goes through the beam too: a part marked paula plays its music through an A500 (MUSIC.paulaGen) until
+  // its beam (sc.beamAt, the same curve the picture uses) has passed, and the filter opens as the line moves down.
+  const paulaAt = t => { const s = sceneAt(t); return s.paula && s.beamAt ? 1 - s.beamAt(t - s.t0) : 0; };
 
   // ------------------------------ one frame ------------------------------
   let tgt = null, quality = 1, scaleNow = 1;
@@ -126,7 +129,7 @@
 
   let song;
   try {
-    song = await MUSIC.render((p, msg) => { fill.style.width = (p * 100).toFixed(1) + '%'; status.textContent = msg + '  ' + Math.floor(p * 100) + '%'; });
+    song = await MUSIC.render((p, msg) => { fill.style.width = (p * 100).toFixed(1) + '%'; status.textContent = msg + '  ' + Math.floor(p * 100) + '%'; }, paulaAt);
   } catch (e) { guru(e); return; }
 
   status.textContent = 'READY. INSERT DISK... OR JUST CLICK';
@@ -141,7 +144,7 @@
   const AC = window.AudioContext || window.webkitAudioContext, ac = new AC();
   const toBuffer = s => { const b = ac.createBuffer(2, s.N, s.SR); b.copyToChannel(s.L, 0); b.copyToChannel(s.R, 1); return b; };
   const ab1 = toBuffer(song); song = null;
-  let ab2 = null, gen2 = LEY.start(), prog2 = 0;               // Disk 2 depacks in the background, a few ms per frame
+  let ab2 = null, gen2 = LEY.start(t => paulaAt(AT2 + t)), prog2 = 0;   // Disk 2 depacks in the background, a few ms per frame
   let src1 = null, src2 = null, startAt = 0, offset = 0;
   let showHud = false, qMode = 0, ended = false, holding = false, pendingSeek = AT2;
   const stopAll = () => { [src1, src2].forEach(s => { if (s) { try { s.stop(); } catch (e) { /* not started */ } s.disconnect(); } }); src1 = src2 = null; };

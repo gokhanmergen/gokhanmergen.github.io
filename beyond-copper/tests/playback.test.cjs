@@ -23,17 +23,18 @@ async function demo(query = '?autostart&t=18') {
     resume() { this.state = 'running'; }
     suspend() { this.state = 'suspended'; }
   }
-  const song = { N: 1, SR: 1, L: new Float32Array(1), R: new Float32Array(1) };
+  const song = { N: 1, SR: 1, L: new Float32Array(1), R: new Float32Array(1) }, curves = {};
   const sandbox = {
     console: { error: noop, log: noop }, URLSearchParams, Float32Array, Uint8Array, Math, performance: { now: () => 0 },
     innerWidth: 640, innerHeight: 480, location: { search: query },
     document: { getElementById: id => elements[id], body: { classList: { add: noop, remove: noop } } },
     setInterval: noop, setTimeout: noop, clearTimeout: noop, requestAnimationFrame: fn => frames.push(fn),
     PIX: { W: 320, H: 256, font8: { mask: new Uint8Array(64 * 64) }, buf: new Uint8Array(320 * 256 * 4), hex: x => x, init: noop, clear: noop, rect: noop, text: noop, centre: noop, bevel: noop },
-    MUSIC: { PAT: 1, LEN: 10, env: () => 0, render: async () => song, engine: { step: () => ready ? { done: true, value: song } : { value: { p: 0.5 } } } },
-    LEY: { AT: 10, LEN: 20, env: () => 0, start: () => ({}), barAt: () => 0, bpm: () => 120 },
+    MUSIC: { PAT: 1, LEN: 10, env: () => 0, render: async (p, paula) => { curves.disk1 = paula; return song; }, engine: { step: () => ready ? { done: true, value: song } : { value: { p: 0.5 } } } },
+    LEY: { AT: 10, LEN: 20, env: () => 0, start: paula => { curves.disk2 = paula; return {}; }, barAt: () => 0, bpm: () => 120 },
     G: { init: noop, globals: {}, ensure: () => ({ w: 640, h: 480 }), post: noop },
-    SCENES: [{ name: 'one', range: () => [0, 10], draw: st => { draws.push(st); } }, { name: 'two', disk: 2, range: () => [10, 30], draw: st => { draws.push(st); } }],
+    SCENES: [{ name: 'one', range: () => [0, 10], draw: st => { draws.push(st); }, paula: true, beamAt: lt => Math.min(1, Math.max(0, (lt - 4) / 2)) },
+      { name: 'two', disk: 2, range: () => [10, 30], draw: st => { draws.push(st); }, paula: true, beamAt: lt => lt < 3 ? 0 : 1 }],
     AudioContext: Audio, addEventListener: (name, fn) => (listeners[name] ||= []).push(fn), removeEventListener: noop,
   };
   sandbox.window = sandbox;
@@ -41,7 +42,7 @@ async function demo(query = '?autostart&t=18') {
   // Scene compilation yields once only if there are initializers; this fixture has none.
   await loading;
   return {
-    elements, starts, draws, ac: Audio.instance, classes, osd,
+    elements, starts, draws, ac: Audio.instance, classes, osd, curves,
     fail: () => { sandbox.G.post = () => { throw new Error('lost context'); }; }, pending: () => frames.length,
     ready: () => { ready = true; }, tick: () => { assert.ok(frames.length); frames.shift()(); },
     key: key => listeners.keydown.forEach(fn => fn({ key, preventDefault: noop })),
@@ -99,4 +100,14 @@ test('a fatal render error stops the loop instead of failing every frame', async
   d.fail(); d.tick(); // this frame throws; the one already scheduled must not schedule another
   d.tick();
   assert.equal(d.pending(), 0);
+});
+
+test('each disk is rendered through Paula until the part\'s beam has passed', async () => {
+  const d = await demo();
+  const k1 = d.curves.disk1, k2 = d.curves.disk2;
+  assert.equal(k1(1), 1);       // part one, before its beam: all 1985
+  assert.equal(k1(5), 0.5);     // halfway through the beam
+  assert.equal(k1(7), 0);       // after it: hi-fi
+  assert.equal(k2(1), 1);       // Disk 2's clock starts at the global 10: part two, before its beam
+  assert.equal(k2(4), 0);
 });

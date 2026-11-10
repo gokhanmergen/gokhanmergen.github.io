@@ -6,21 +6,21 @@
 //   1992: the same sheet is rolled up (a conformal fold z -> (z^k-1)/k,
 //         k: 1 -> 0, the seam is the sheet's own edge) into the classic
 //         lookup-table tunnel
-//   2026: the raster beam passes and the tunnel is a place: the tiles are
-//         inlaid emissive panels between wet metal ribs, kick-launched
-//         light pulses run down the rings, the path starts to wind.
+//   2026: the raster beam runs down the tunnel, a ring of light shrinking
+//         into the vanishing point, and behind it the tunnel is a place:
+//         the tiles are inlaid emissive panels between wet metal ribs,
+//         kick-launched light pulses run down the rings, the path winds.
 //  Old and new share one camera model, so the picture lines up across the beam.
+//  No white-out at the end: the warp carries straight into FRACTAL DREAMS,
+//  which opens with this tunnel wrapped around the Mandelbrot set.
 // =====================================================================
 (() => {
   const AMB = [0x100, 0x310, 0x620, 0x940, 0xC60, 0xE80, 0xFB3, 0xFE9], TEAL = [0x011, 0x022, 0x044, 0x066, 0x088, 0x0AA, 0x4CC, 0xAFE];
   const v3 = h => `vec3(${(((h >> 8) & 15) / 15).toFixed(4)},${(((h >> 4) & 15) / 15).toFixed(4)},${((h & 15) / 15).toFixed(4)})`;
-  const FS = `
-const vec3 PAL[16]=vec3[16](${[...AMB, ...TEAL].map(v3).join(',')});
-uniform float uFold, uPersp, uZ, uRoll, uWarp, uAmp, uZoom, uPl, uKickAge, uPunch;
-uniform vec2 uOff;
-const float R=2., NA=12., S=NA*32./TAU, TL=TAU*R/NA, FOC=1.1, R0=.45, RIB=6.*TL;
-// so that the post chain's ACES gives back exactly the 12-bit palette colour
-vec3 invAces(vec3 y){ y=clamp(y,0.,.97); vec3 a=2.51-2.43*y, b=.03-.59*y, c=-.14*y; return (-b+sqrt(b*b-4.*a*c))/(2.*a); }
+  // The one texture and its palette. FRACTAL DREAMS uses them too (window.TUNNEL_TILE).
+  const TILE = `
+const vec3 TPAL[16]=vec3[16](${[...AMB, ...TEAL].map(v3).join(',')});
+uniform float uPl;
 // the one texture: p in texels, 32 per tile. returns (shade 0..7, ramp 0 amber / 1 teal, groove)
 vec3 tileTex(vec2 p){
   vec2 f=floor(p); ivec2 i=ivec2(f), c=i&31, t=i>>5;
@@ -34,7 +34,15 @@ vec3 tileTex(vec2 p){
   if(abs(float(c.x)-15.5)<2.&&abs(float(c.y)-15.5)<2.){ idx=7.; chk=1.-chk; }  // a rivet of the other colour
   return vec3(gr?0.:idx,chk,gr?1.:0.);
 }
-vec3 palC(float idx, float ramp){ return PAL[int(clamp(idx,0.,7.))+(ramp>.5?8:0)]; }
+vec3 palC(float idx, float ramp){ return TPAL[int(clamp(idx,0.,7.))+(ramp>.5?8:0)]; }
+`;
+  window.TUNNEL_TILE = TILE;
+  const FS = TILE + `
+uniform float uFold, uPersp, uZ, uRoll, uWarp, uAmp, uZoom, uKickAge, uPunch, uRing;
+uniform vec2 uOff;
+const float R=2., NA=12., S=NA*32./TAU, TL=TAU*R/NA, FOC=1.1, R0=.45, RIB=6.*TL;
+// so that the post chain's ACES gives back exactly the 12-bit palette colour
+vec3 invAces(vec3 y){ y=clamp(y,0.,.97); vec3 a=2.51-2.43*y, b=.03-.59*y, c=-.14*y; return (-b+sqrt(b*b-4.*a*c))/(2.*a); }
 
 // ---- 1990/1992: rotozoomer folding into the lookup-table tunnel ----
 vec3 oldFx(vec2 uv){
@@ -103,12 +111,17 @@ vec3 tunnel3d(vec2 uv){
   col+=glow*.6;
   float hs=hash21(floor(vec2(atan(uv.y,uv.x)*90.,3.)));
   float sl=smoothstep(1.-.45*uWarp,1.,hs)*uWarp*smoothstep(.1,.75,length(uv));
-  return col+vec3(1.,.62,.22)*sl*2.5+vec3(1.,.8,.5)*pow(uWarp,3.)*exp(-length(uv)*5.)*2.;
+  return col+vec3(1.,.62,.22)*sl*2.5+vec3(1.,.8,.5)*pow(uWarp,3.)*exp(-length(uv)*5.)*.5;
 }
 void main(){
   vec2 uv=(gl_FragCoord.xy-.5*uRes)/uRes.y;
-  vec3 col=isOld()>.5?invAces(oldFx(uv)):tunnel3d(uv);
-  fragColor=vec4(col,1.);
+  // The beam runs down the tunnel instead of down the screen: a ring that leaves the viewer and shrinks into the
+  // vanishing point. Nearer than the ring the tunnel is already a place; deeper in, it is still 1992. The post chain
+  // takes the split from alpha (o.mask) and leaves out its straight line.
+  float r=length(uv), old=uBeam<=0.?1.:uBeam>=1.?0.:step(r,uRing);
+  vec3 col=old>.5?invAces(oldFx(uv)):tunnel3d(uv);
+  if(uBeam>0.&&uBeam<1.){ float d=r-uRing; col+=vec3(.75,.9,1.)*(exp(-abs(d)*800.)+.25*exp(-abs(d)*70.)+.04*exp(-d*12.)*step(0.,d))*2.2; }
+  fragColor=vec4(col,.5*old);
 }`;
   let prog, zTab = null;
   const PAT = MUSIC.PAT, DT = 0.01;
@@ -119,22 +132,23 @@ void main(){
     if (!zTab) { zTab = new Float32Array(Math.ceil(dur / DT) + 2); for (let i = 1; i < zTab.length; i++) zTab[i] = zTab[i - 1] + speed((i - 0.5) * DT, dur) * DT; }
     const x = Math.min(zTab.length - 2, Math.max(0, lt / DT)), i = x | 0; return zTab[i] + (zTab[i + 1] - zTab[i]) * (x - i);
   };
+  const beamAt = lt => sm(PAT, PAT + 1.4, lt);
   function draw(st, tgt) {
-    const beam = sm(PAT, PAT + 1.4, st.lt);
+    const beam = beamAt(st.lt);
     const lt = beam < 1 ? Math.floor(st.lt * 50) / 50 : st.lt;      // 50 Hz until the beam has passed
     const fold = 1 - sm(3.0, 5.6, lt), fs = fold * fold * (3 - 2 * fold), warp = warpAt(lt, st.dur), z = zAt(lt, st.dur);
     const zoom = 1 + (0.15 + 0.75 * Math.sin(lt * 1.3)) * fs;
     const roll = 0.55 * lt * (1 - sm(2.5, 6, lt)) + 0.55 * 4.25 * sm(2.5, 6, lt) + Math.sin(lt * 0.21) * 0.5 * sm(5, 10, lt);
     const ox = lt * 46 * fs + Math.sin(lt * 0.9) * 30 * fs - z * 32 / (2 * Math.PI * 2 / 12), oy = Math.cos(lt * 0.7) * 70 * fs;
-    G.draw(prog, { uBeam: beam, uFold: fold, uPersp: sm(4.8, 6.6, lt), uZ: z, uRoll: roll, uWarp: warp, uAmp: sm(PAT + 1.2, PAT + 6, lt),
+    G.draw(prog, { uBeam: beam, uRing: 0.85 * Math.exp(-4.2 * beam), uFold: fold, uPersp: sm(4.8, 6.6, lt), uZ: z, uRoll: roll, uWarp: warp, uAmp: sm(PAT + 1.2, PAT + 6, lt),
       uZoom: zoom, uOff: [ox, oy], uPl: lt * 0.8, uKickAge: Math.min(4, MUSIC.since('kick', st.t)), uPunch: 0.05 * st.kick * sm(PAT + 1.4, PAT + 3, lt) }, tgt);
     const end = st.dur - st.lt, crt = 1 - sm(PAT + 1.0, PAT + 2.4, st.lt);
-    return { lines: 128, scan: 256, ocs: 1, beam, crt, fa: 1.25 + (st.W / st.H - 1.25) * sm(PAT + 1.3, PAT + 2.9, st.lt),
-      bloom: 0.22 + 0.5 * beam, thresh: 0.75, expo: 1, aberr: 0.15 + warp * 2.2, vig: 0.5 - 0.15 * crt,
-      flash: Math.pow(Math.max(0, 1 - end / 0.45), 2), fade: Math.min(1, st.lt * 6) };
+    return { lines: 128, scan: 256, ocs: 1, beam, mask: 1, crt, fa: 1.25 + (st.W / st.H - 1.25) * sm(PAT + 1.3, PAT + 2.9, st.lt),
+      bloom: 0.22 + 0.5 * beam, thresh: 0.75, expo: 1, aberr: 0.15 + warp * 2.2 * sm(0, 0.6, end), vig: 0.5 - 0.15 * crt,
+      fade: Math.min(1, st.lt * 6) };
   }
   (window.SCENES = window.SCENES || []).push({
-    name: 'Tunnel', from: 15, to: 18, draw, scale: 0.85, tube: 0.5, init() { prog = G.program(FS, 'tunnel'); },
+    name: 'Tunnel', from: 15, to: 18, draw, scale: 0.85, tube: 0.5, beamAt, paula: true, init() { prog = G.program(FS, 'tunnel'); },
     caps: [{ at: PAT + 2.2, len: 4.5, title: 'TUNNEL', sub: 'THE SAME 32 TEXELS, GOING DEEPER', hue: 32 }],
   });
 })();

@@ -141,7 +141,7 @@ void main(){ vec3 c=texture(uSrc,vUv).rgb*.227027;
   // uBeam sweeps a glowing scanline down the picture; below it the image is still "1985" (uPix-sized pixels,
   // 12-bit colour with ordered dither, scanlines), above it the same image is shown at full modern fidelity.
   const COMP = `uniform sampler2D uScene, uB1, uB2, uB3, uCap;
-uniform float uCRT, uPix, uBloom, uExpo, uAberr, uFlash, uFade, uOff, uFA, uCrop, uScan, uTM, uCapA, uGrain, uVig, uFlipY, uOcs, uLetter, uInset;
+uniform float uCRT, uPix, uBloom, uExpo, uAberr, uFlash, uFade, uOff, uFA, uCrop, uScan, uTM, uCapA, uGrain, uVig, uFlipY, uOcs, uLetter, uInset, uMask, uBeamGlow;
 uniform vec3 uTint;
 vec3 samp(vec2 uv){ if(uFlipY>.5) uv.y=1.-uv.y; return texture(uScene,uv).rgb; }
 float bayer4(vec2 p){ ivec2 i=ivec2(mod(p,4.)); int k=i.y*4+i.x;
@@ -151,12 +151,15 @@ void main(){
   if(uOff>0.){ float sy=mix(1.,.003,smoothstep(0.,.55,uOff)), sx=mix(1.,.002,smoothstep(.55,1.,uOff)); uv=(uv-.5)/vec2(sx,sy)+.5; }
   vec2 p=uv-.5; p.x*=sa/uFA;
   vec2 q=p*2.; float r2=dot(q,q); q*=1.+uCRT*(.07*r2+.025*r2*r2); vec2 fuv=q*.5+.5;
-  // retro = 1 below the beam, 0 above it (uBeam 0 = all retro, 1 = all modern)
-  float by=1.-uBeam*1.04+.02, retro=uBeam<=0.?1.:uBeam>=1.?0.:step(fuv.y,by);
-  float pix=mix(1.,uPix,retro);
   vec2 suv=uCrop>.5 ? .5+(fuv-.5)*vec2(uFA/sa,1.) : fuv, cell=vec2(0.);
   // overscan: the 320x256 display sits inside a border that repeats its edge colour (so copper bars run into it)
   suv=clamp(.5+(suv-.5)*(1.+uInset),0.,1.);
+  // retro = 1 below the beam, 0 above it (uBeam 0 = all retro, 1 = all modern)
+  float by=1.-uBeam*1.04+.02, retro=uBeam<=0.?1.:uBeam>=1.?0.:step(fuv.y,by), own=0.;
+  // o.mask: where the scene bends the beam itself (glass refracting it, a tunnel it runs down) it writes alpha < .75:
+  // .5 = still 1985 there, 0 = modern; it draws its own line, so the straight one is left out at those pixels
+  if(uMask>0.){ float a=texture(uScene,uFlipY>.5?vec2(suv.x,1.-suv.y):suv).a; if(a<.75){ own=1.; retro=step(.25,a); } }
+  float pix=mix(1.,uPix,retro);
   if(pix>1.){ cell=floor(suv*uRes/pix); suv=(cell+.5)*pix/uRes; }
   float rad=.04*uCRT, rc=length(max(abs(fuv-.5)-.5+rad,0.));
   float inside=step(rc,rad+1e-5);
@@ -179,8 +182,8 @@ void main(){
     col*=mix(1.,smoothstep(rad,rad-.012,rc),uCRT);
   }
   // the beam itself: a hot line, a soft glow below (phosphor about to be rewritten) and a faint one above
-  if(uBeam>0.&&uBeam<1.){ float d=fuv.y-by; float hot=exp(-abs(d)*900.)+.35*exp(-abs(d)*90.)+.12*exp(-max(d,0.)*14.)*step(0.,d);
-    col+=vec3(.75,.9,1.)*hot*(1.6+.4*sin(fuv.x*900.+uGT*90.)); }
+  if(uBeam>0.&&uBeam<1.&&own<.5){ float d=fuv.y-by; float hot=exp(-abs(d)*900.)+.35*exp(-abs(d)*90.)+.12*exp(-max(d,0.)*14.)*step(0.,d);
+    col+=vec3(.75,.9,1.)*hot*(1.6+.4*sin(fuv.x*900.+uGT*90.))*uBeamGlow; }
   // the bezel: light from the picture spills a little way onto it and dies off
   vec3 bez=(min(texture(uB3,clamp(fuv,0.,1.)).rgb,vec3(1.5))*.3*exp(-max(rc-rad,0.)*14.)+vec3(.012,.012,.014))*uCRT;
   bez+=vec3(.04,.04,.05)*uCRT*smoothstep(.02,.0,abs(rc-rad-.012));
@@ -251,6 +254,7 @@ void main(){
       uFlash: o.flash || 0, uFade: o.fade ?? 1, uOff: o.off || 0, uFA: o.fa || W / H, uCrop: o.crop ?? 1, uScan: o.scan || o.lines || 256,
       uTM: o.tm ?? 1, uCapA: o.cap || 0, uGrain: o.grain ?? 0.025, uVig: o.vig ?? 0.6, uFlipY: o.flipY ? 1 : 0,
       uBeam: o.beam === undefined ? (o.lines || (o.pix || 1) > 1 ? 0 : 1) : o.beam, uOcs: o.ocs || 0, uLetter: o.letter || 0, uInset: o.inset || 0, uTint: o.tint || [1, 1, 1],
+      uMask: o.mask ? 1 : 0, uBeamGlow: o.beamGlow ?? 1,
     }, null);
   }
 

@@ -148,7 +148,8 @@ const LEY = (() => {
   for (const k in SYNC) SYNC[k].sort((a, b) => a - b);
   ev.sort((a, b) => a.t - b.t);
   const S = makeSync(SYNC);
-  const start = () => renderGen(ev, kicks, LEN, { gtr: { rev: 0.32, width: 0.28 }, room: 1.3, delay: 60 / 132 * 0.75, fade: 4, gain: 1.2, duck: 0.4, msg: 'READING DISK 2' });
+  // paula: optional k(t) on this disk's clock (the 1985 halves of the levels play through an A500, see MUSIC.paulaGen)
+  const start = paula => renderGen(ev, kicks, LEN, { gtr: { rev: 0.32, width: 0.28 }, room: 1.3, delay: 60 / 132 * 0.75, fade: 4, gain: 1.2, duck: 0.4, msg: 'READING DISK 2', paula });
   const barAt = t => { let lo = 0, hi = NB; while (lo < hi) { const m = (lo + hi + 1) >> 1; if (barT[m] <= t) lo = m; else hi = m - 1; } return lo; };
   // Disk 2's audio starts 1.5 s before Disk 1's tail ends (AT is on the global timeline)
   return { AT: MUSIC.LEN - 1.5, T0, LEN, NB, barT, bpm, SEC, sec: k => [barT[SEC[k][0]], barT[Math.min(NB, SEC[k][1])]], barAt,

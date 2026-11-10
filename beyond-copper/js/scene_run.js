@@ -447,6 +447,8 @@ void main(){
       J.v = (Hl - HTO - 4 * J.h) / (J.b - tA) - (hb(k + 1, J.b + 1e-3) - Hl) / 1e-3; });
   }
 
+  // the beam on the downbeat of bar 12 (shared with the soundtrack, which opens with it)
+  const beamAt = lt => Math.min(1, Math.max(0, (lt - (LEY.barT[12] - LEY.barT[8])) / 1.5));
   function draw(st, tgt) {
     const lt = st.lt, d2 = st.t - LEY.AT, B = LEY.barT, stepDur = (B[9] - B[8]) / 6;
     const s = Math.max(0, (d2 - B[8]) / stepDur), sc = S(s), v = spd(s);
@@ -459,7 +461,7 @@ void main(){
       const c = C[k]; foot.set([S(c.t) + HXP + c.x + 1.5, (s - c.t) * stepDur, c.land ? 1.8 : c.take ? 1.3 : 1, 0], n * 4); n++;
     }
     const jumpsDone = jumps.filter(j => j.b <= s).length;
-    const beam = Math.min(1, Math.max(0, (lt - (B[12] - B[8])) / 1.5));
+    const beam = beamAt(lt);
     const wind = sm(84, 96, s);
     pose(s, lt, wind);
     G.draw(prog, {
@@ -474,7 +476,7 @@ void main(){
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Run', title: 'LEVEL 1: RUN', disk: 2, init, draw, tube: 0.6,
+    name: 'Run', title: 'LEVEL 1: RUN', disk: 2, init, draw, tube: 0.6, beamAt, paula: true,
     range: () => [LEY.AT + LEY.sec('run')[0], LEY.AT + LEY.sec('run')[1]],
   });
 })();

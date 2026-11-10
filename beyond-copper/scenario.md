@@ -20,11 +20,20 @@ the very same thing carries on at the fidelity of a 2026 GPU.
   The old half is the genuine old *technique* (sprite bobs, a lookup-table tunnel, a scanline road, palette
   cycling), not a pixelated modern render. Text and 2D parts are drawn by `js/pix.js`, a software
   framebuffer with a real 8×8 bitmap font.
-- **The beam.** One transition, used everywhere: a hot scanline travels from the top of the picture to the
-  bottom in about 1.4 s, on a musical boundary. Below it the picture is still 1985; above it the same
-  object, from the same camera, is modern. It lives in the post chain (`uBeam` in `js/gfx.js`), and each
-  scene's shader asks `isOld()` per pixel to pick its shading model. After the beam the CRT flattens and
-  the frame widens to 16:9.
+- **The beam.** The one transition: a hot scanline travels from the top of the picture to the bottom in
+  about 1.4 s, on a musical boundary. Below it the picture is still 1985; above it the same object, from the
+  same camera, is modern. It lives in the post chain (`uBeam` in `js/gfx.js`), and each scene's shader asks
+  `isOld()` per pixel to pick its shading model. After the beam the CRT flattens and the frame widens to
+  16:9. Each part defines its beam once (`beamAt` on the scene), and the picture and the sound both read it.
+- **Three parts bend the beam**, each in a way the Copper or the effect itself suggests. Boing stops it
+  halfway for a bar, the way a mid-screen copper change splits a display. In Glenz the crystal refracts the
+  line and splits it into colours. In the Tunnel it runs down the tunnel as a ring. Scenes that bend it
+  write the split into alpha (`o.mask`), and the post chain follows.
+- **The sound.** While the picture is 1985, the music plays as if from an A500: the finished mix is
+  sampled at 22 kHz with no anti-aliasing, cut to 8 bits and low-passed like the A500's LED filter. As the
+  beam passes, the filter sweeps open (`paulaGen` in `js/music.js`). This applies to the parts whose 1985
+  half plays over modern synthesis (Boing to Fractal) and to the four Disk 2 levels. The cracktro and the
+  greetings are chip music already and stay as they are.
 - **The tube.** The mirror image of the beam. Over the last half second of a part the wide modern picture
   closes back into the curved 5:4 tube, and the next part's 1985 picture appears in the same glass, so a
   cut between parts reads as a channel change, not a new window. PIX-drawn screens (boot, cracktro, disk
@@ -39,7 +48,7 @@ the very same thing carries on at the fidelity of a 2026 GPU.
 | Platform | Any recent desktop browser; WebGL2 + Web Audio; no build, no server |
 | Assets | None. Every pixel, glyph and sample is generated at load time |
 | Size | 20 JS files + `index.html`, about 350 KB of readable source (not minified) |
-| Audio | Rendered offline in JS before playback (Disk 1, ~5 s behind a loader); Disk 2 renders in the background during Disk 1 |
+| Audio | Rendered offline in JS before playback (Disk 1, ~5 s behind a loader); Disk 2 renders in the background during Disk 1. The last stage of both is the Paula chain that follows the beam |
 | Video | Each scene renders to an HDR target, then one shared post chain: bloom, ACES tone map, CRT (curvature, scanlines, shadow mask), the raster beam, letterbox, grain, CRT power-off |
 | Adaptive | Render scale drops automatically when the frame rate falls (minimum 45 %); `Q` forces 100/75/50 % |
 
@@ -81,23 +90,31 @@ The logo drops in, bounces and nods on the kick.
 
 ### 0:38.4 – 1:09.1 · BOING (patterns 5–8)
 - **Then:** the 1984 demo as it looked: a flat red-and-white ball, a grey room with a purple grid, and a
-  shadow that is just a darker patch.
-- **Beam at 0:42.2** (two bars in): the same room is lit for real, with soft shadows, gloss and reflections.
+  shadow that is just a darker patch. The breakout's impact lands muffled, through the A500's filter.
+- **Copper split at 0:42.2** (two bars in): the beam runs down to just above the floor line and stops there
+  for a bar. Below the line it is 1984; above it the same room is lit for real, with soft shadows, gloss and
+  reflections, and the ball changes material every time it bounces through the line. The sound opens
+  halfway.
+- **0:44.2**, on the drum fill: the beam finishes, the sound opens fully and the CRT flattens.
 - **From 0:46:** the walls fall away into the other icon of the era, the ray-traced checkerboard under a
   blue sky, with chrome and glass spheres bouncing and colliding.
 
 ### 1:09.1 – 1:32.2 · VECTOR BALLS (patterns 9–11) · label "ONCE THERE WERE A HUNDRED"
-- **Then:** 125 sprite "bobs" (three tones and a specular dot, three sprite sizes, painter-sorted) in a
-  tumbling 5×5×5 lattice over a copper horizon.
-- **Beam at 1:13.0:** every bob is a lit sphere. The lattice subdivides 125 → 1 000 → 16 384 and the swarm
-  morphs sphere → torus knot → galaxy → the word AMIGA above a black mirror floor. One instanced draw plus
-  one for the reflection; sphere impostors with correct per-pixel depth.
+- **Then, for all of pattern 9:** 125 sprite "bobs" (three tones and a specular dot, three sprite sizes,
+  painter-sorted) in a tumbling 5×5×5 lattice over a copper horizon, bulging into a ball and back.
+- **Beam at 1:16.8:** every bob is a lit sphere. At 1:18.7 the lattice subdivides 125 → 1 000; at 1:20.6
+  the swarm of 16 384 flies into a torus knot; at **1:24.5**, on the downbeat where the sequence turns
+  supersaw, it lands as the word AMIGA above a black mirror floor and holds there through the riser to the
+  cut. One instanced draw plus one for the reflection; sphere impostors with correct per-pixel depth.
 
 ### 1:32.2 – 1:55.2 · GLENZ → GLASS (patterns 12–14) · label "IT ALWAYS WANTED TO BE GLASS"
 The breather of Disk 1: half-time drums, a flute lead, bell arpeggios.
-- **Then:** a glenz vector, a tumbling faceted solid whose translucent white and blue faces show the back
-  through the front, over three copper bars.
-- **Beam at 1:36.0:** it is glass. An analytically ray-traced convex polyhedron (26 half-spaces) with
+- **Then, for all of pattern 12:** a glenz vector, a tumbling faceted solid whose translucent white and blue
+  faces show the back through the front, over three copper bars. The flute already re-cuts it.
+- **Beam at 1:39.8:** the crystal refracts the beam. Seen through the glass the line is a distant line seen
+  through a prism: each facet catches it at a different moment and place, and dispersion splits it into
+  colours. (The refraction is squeezed towards the middle of the screen, so every facet is crossed during
+  the sweep.) Then it is glass. An analytically ray-traced convex polyhedron (26 half-spaces) with
   refraction, dispersion (red, green and blue are traced with slightly different indices), internal bounces
   and absorption, in a dark studio whose light strips are the copper bars reborn. Every flute note re-cuts
   the crystal (octahedron → truncated octahedron → cuboctahedron → ...); every bell note is a glint.
@@ -107,15 +124,19 @@ Three generations of one effect with one 32×32 XOR tile and one palette (eight 
 - **1990:** a chunky 2×2 rotozoomer, in the tube like every other "then".
 - **1992:** the sheet rolls up into the classic lookup-table tunnel. The fold is a visible conformal morph
   of the mapping, not a cross-fade.
-- **Beam at 2:02.9:** the tunnel is a place. The tiles are inlaid emissive panels between wet metal ribs,
-  kick-launched light pulses run down the rings and the path starts to wind.
-- **2:10–2:18:** the riser drives a warp (FOV stretch, radial streaks) into a white-out on the downbeat of
-  the next part: the one flash of Disk 1.
+- **Beam at 2:02.9:** the beam runs down the tunnel, a ring of light that leaves the viewer and shrinks into
+  the vanishing point. Behind it the tunnel is a place: the tiles are inlaid emissive panels between wet
+  metal ribs, kick-launched light pulses run down the rings and the path starts to wind.
+- **2:10–2:18:** the riser drives a warp (FOV stretch, radial streaks) and the tube closes around it. No
+  white-out: the cut lands inside the next part's tunnel.
 
 ### 2:18.2 – 2:49.0 · FRACTAL DREAMS (patterns 18–21) · label "THE SAME EQUATION, ONE DIMENSION UP"
 Disk 1's climax; the cracktro melody returns as a supersaw anthem.
-- **Then:** the Mandelbrot set at 320×256 in 32 colours with real colour cycling (palette rotation),
-  40 iterations and a slow zoom.
+- **Then:** a match cut. The same 32×32 tile and the same ambers and teals keep rushing outward, but the
+  vanishing point is now the Mandelbrot set, small at first and growing, and the rings bend to its level
+  lines (the smooth escape count is the depth; the 12 tiles around are screen sectors, as in the tunnel).
+  From 2:20.0, ring by ring from the outside in, the tiles drain into the set at 320×256 in 32 colours with
+  real colour cycling (palette rotation), 40 iterations and a slow zoom.
 - **Beam at 2:22.1:** the same view with smooth colouring and deeper iterations, a zoom into seahorse
   valley and back out while the set gains relief.
 - **2:25.9:** it lifts into 3D. A Mandelbulb whose equatorial slice *is* the Mandelbrot set, its power
@@ -173,8 +194,9 @@ oscilloscopes and VU meters. A glitch at bar 8 hands over to the game.
 ### 3:29.9 – 3:51.7 · LEVEL 1 "RUN" (bars 8–23): the parallax action game
 - **Then:** a copper-gradient dusk, a dithered moon, seven flat parallax layers (sierras, an aqueduct,
   cypresses and palms) and a silhouette runner with a trailing scarf.
-- **Beam at 3:35.4** (bar 12): 27 layers with atmospheric perspective, moon shafts through the aqueduct
-  arches, mist, a reflecting lake, fireflies and a ribbon of light behind the hero.
+- **Beam at 3:35.4** (bar 12), with the sound opening out of the A500 filter: 27 layers with atmospheric
+  perspective, moon shafts through the aqueduct arches, mist, a reflecting lake, fireflies and a ribbon of
+  light behind the hero.
 - **The notes play the game:** the thumb melody (six notes per bar) drives the stride, one footfall with a
   glowing ripple on every beat; every second bar is a leap across a stream, landing on the downbeat; the score ticks with the notes. Wind and speed build with
   the riser in bars 22–23.
@@ -274,7 +296,11 @@ The source was `amiga_gemini`'s 1,301-event guitar tab. The notes were right; th
 - Greetings: letters twist on the steep part of the sine while the camera is yawed; the end title is kept
   to about two thirds of the width so it survives the CRT crop.
 - Glenz: the facet reflections use a simplified room (no floor, no strip gaps) to keep the shader small.
-- Tunnel: the white-out into the fractal is the one transition that is "just a flash".
+- Fractal: the opening tunnel's tiles are screen sectors bent along the level lines, not a true conformal
+  map, so they shear near the set (where they are already sinking into the dark).
+- The Vector Balls lost the sphere and galaxy stages to give the bobs a whole pattern; the Fractal's 1985
+  half stays at two bars, because its tunnel opening and drain fill them and a longer one would cut the
+  seahorse dive.
 
 **Disk 2**
 - Level 2: the pilot never takes damage and the boss only launches escorts; there is a small scale seam
@@ -286,8 +312,15 @@ The source was `amiga_gemini`'s 1,301-event guitar tab. The notes were right; th
   with no physical guide; the final lock is half hidden by the fade; no anti-aliasing on silhouettes.
 - Copla: sixty seconds in one location, even with four shots.
 
+**The sound through the beam**
+- The Paula chain was checked by measurement only: in the 1985 halves it removes 8–14 dB of high-frequency
+  energy and changes loudness by less than 0.1 dB; outside them the samples are unchanged. Whether it reads
+  as "the A500" rather than "a muffled mix", and whether the dull opening of Boing's breakout is worth it,
+  needs ears.
+
 ### Questions for a reviewer
-1. Does the beam stay fresh over ten uses, or should two or three parts transition differently?
+1. Three parts now bend the beam (Boing's split, Glenz's refraction, the Tunnel's ring). Do they keep it
+   fresh, and does the plain sweep still read as the signature?
 2. Does each "then" half pass for the real thing at a glance? Which one gives itself away first?
 3. In Disk 2, can you tell *without being told* that the notes drive the game?
 4. Is the copla too long for a demo, or is it the breath the piece needs?
@@ -296,9 +329,9 @@ The source was `amiga_gemini`'s 1,301-event guitar tab. The notes were right; th
 ### Where feedback lands in the code
 | Topic | File |
 |---|---|
-| Beam, CRT, overscan, bloom, part labels | `js/gfx.js` |
+| Beam, CRT, overscan, bloom, part labels, scene-drawn beams (`o.mask`) | `js/gfx.js` |
 | 8×8 font, 12-bit palette, dithering, sprites | `js/pix.js` |
-| Disk 1 song and instruments | `js/music.js` |
+| Disk 1 song and instruments; the Paula chain (`paulaGen`) | `js/music.js` |
 | Asturias notes / arrangement, tempo map, section table | `js/leyenda_tab.js`, `js/leyenda.js` |
-| A scene | `js/scene_<name>.js` (timings are constants near the top or in `draw`) |
+| A scene | `js/scene_<name>.js` (timings are constants near the top or in `draw`; the beam is `beamAt`) |
 | Timeline, loader, the tube outro (`tube:` on a scene), on-screen display, adaptive quality, dev hooks (`?still=`, `?only=`, `__bench()`) | `js/main.js` |

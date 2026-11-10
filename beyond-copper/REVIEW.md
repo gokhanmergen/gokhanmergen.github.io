@@ -1,3 +1,28 @@
+# Pass 1 of the idea review: the core idea — 9 November 2026 (night)
+
+From a ranked list of outside ideas, this pass took the ones that strengthen "then, beam, now" itself.
+
+| Idea | Change |
+|---|---|
+| The sound goes through the beam | The last stage of both disks' offline render is a Paula chain (`paulaGen` in `js/music.js`): 22 kHz sample-and-hold without anti-aliasing, 8 bits, a 3.6 kHz low-pass that sweeps open to 19 kHz. `main.js` builds its curve from each part's `beamAt()`, the same function the picture uses. On: Boing, Vector Balls, Glenz, Tunnel, Fractal and the four Disk 2 levels. Off: the cracktro and greetings (already chip music). |
+| A copper split in Boing | The beam stops 42 % of the way down for a bar (1984 below, the lit room above; the ball changes material as it bounces through), then finishes on the drum fill. The held line is dimmer (`o.beamGlow`). |
+| Two more bent beams | Glenz: through the crystal the line is refracted and split by dispersion; each colour channel picks 1991 or glass from where its exit ray points. Tunnel: the beam is a ring running down the tunnel into the vanishing point. Scenes that bend the beam write the split into alpha and set `o.mask`, so the post chain pixelates the right side and leaves out its straight line there. |
+| Replace the tunnel white-out | No flash at either side of the cut. FRACTAL DREAMS opens with the tunnel's own tile and 16 colours still rushing outward, wrapped around a small Mandelbrot set that grows out of the vanishing point; the rings bend to the set's level lines, then drain ring by ring into the 32-colour colour-cycled set before the beam. |
+| Longer 1985 halves | Vector Balls and Glenz keep their bobs and glenz for a whole pattern (7.7 s, was 3.8 s). Vector Balls pays with its sphere and galaxy stages: the lattice flies straight into the knot, and AMIGA lands on the pattern-11 downbeat and holds to the cut. Fractal stays at two bars (the tunnel opening fills them; a longer one would cut the seahorse dive). |
+
+Verification: `node --test tests/*.test.cjs` (11 tests; three new: the chain dulls only its window and leaves
+the rest bit-identical, it is a no-op at k = 0, and `main.js` hands each disk the right curve on the right
+clock). Disk 1 was rendered offline in Node and measured: in the 1985 halves the chain removes 8–14 dB of
+high-frequency energy at under 0.1 dB of loudness change; the hi-fi parts are unchanged; no new clicks at
+the cuts; peak 0.76. Headless-Chrome stills (Metal) around every changed transition, a frame strip of the
+Glenz beam, and the four Disk 2 beams. The live path (load, Disk 1 render, playing into Disk 2 while it
+depacks) ran once without errors at 60 fps.
+
+Not judged: anything by ear (the chain's strength in particular is a guess), and motion at full frame rate.
+Frame rates were not re-measured; the Glenz shader does more work only during its 1.4 s beam.
+
+---
+
 # Fit-and-finish pass — 9 November 2026 (evening)
 
 Every part was re-inspected in headless Chrome: a contact sheet of the whole timeline, closely spaced frames

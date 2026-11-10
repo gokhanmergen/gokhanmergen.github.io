@@ -1,8 +1,12 @@
 'use strict';
 // =====================================================================
 //  PART 6: FRACTAL DREAMS - Disk 1's climax, one equation three ways.
-//   THEN: the Mandelbrot set at 320x256 in 32 colours with real colour
-//         cycling (palette rotation), 40 iterations, slow zoom.
+//   THEN: it opens inside the tunnel the last part ended in: the same
+//         tiles still rushing outward, but their vanishing point is now
+//         the Mandelbrot set and the rings bend to its equipotentials.
+//         Ring by ring from the outside in, the tiles drain into the set
+//         at 320x256 in 32 colours with real colour cycling (palette
+//         rotation), 40 iterations, slow zoom.
 //   BEAM: the same view, smooth-coloured, distance-estimated, deep zoom
 //         into seahorse valley, then a whoosh back out while the set
 //         gains relief ...
@@ -18,8 +22,27 @@
 
   const MANDEL = `
 const vec3 PAL[32]=vec3[32](${PAL32.map(v3).join(',')});
-uniform vec2 uC; uniform float uS, uCyc, uEmb, uIt, uBand;
+uniform vec2 uC; uniform float uS, uCyc, uEmb, uIt, uBand, uFlow, uDrain, uRoll;
 ${INV}
+${window.TUNNEL_TILE || ''}
+float bayer4(vec2 p){ ivec2 i=ivec2(mod(p,4.)); int k=i.y*4+i.x;
+  const float m[16]=float[16](0.,8.,2.,10.,12.,4.,14.,6.,3.,11.,1.,9.,15.,7.,13.,5.); return (m[k]+.5)/16.; }
+// The tunnel the picture arrives through, still running. The outside of the set is a tunnel in disguise: the smooth
+// escape count is the depth (its level lines start as circles and bend to the set further in) and the 12 tiles
+// around are sectors of the screen, as they were in the tunnel. The same tile and the same 16 colours.
+// mu below uDrain: that ring has already drained into the plain colour-cycled bands.
+bool arrive(vec2 uv, vec2 c, out vec3 col){
+  vec2 w=vec2(0.); float m=0.;
+  for(int i=0;i<64;i++){ w=vec2(w.x*w.x-w.y*w.y,2.*w.x*w.y)+c; if(dot(w,w)>1e4) break; m++; }
+  if(m>=64.) return false;
+  float mu=m+1.-log2(log(dot(w,w))*.5/log(100.));
+  if(mu<uDrain+1.5*bayer4(floor(gl_FragCoord.xy/(uRes.y/256.)))) return false;
+  vec2 q=rot(uRoll)*uv;
+  vec3 tt=tileTex(vec2(-(mu+uFlow)*32.,(atan(q.y,q.x)/TAU*12.+.5)*32.));
+  float dark=floor(smoothstep(5.,16.,mu)*8.);                           // deeper rings sink into the dark, as in the tunnel
+  col=palC(tt.x-dark,tt.y)*step(dark,tt.x+.5);
+  return true;
+}
 vec3 palS(float x){ x=mod(x,32.); float i=floor(x), f=x-i; vec3 a=PAL[int(i)], b=PAL[int(mod(i+1.,32.))]; return mix(a*a,b*b,f*f*(3.-2.*f)); }
 vec3 shadeM(vec2 c){
   vec2 z=vec2(0.), dz=vec2(0.); float n=0., trap=1e9; int N=int(uIt); bool esc=false;
@@ -46,7 +69,9 @@ void main(){
   if(isOld()>.5){
     vec2 c=uC+uv*2.*uS, z=vec2(0.); int n=0;
     for(int i=0;i<40;i++){ z=vec2(z.x*z.x-z.y*z.y,2.*z.x*z.y)+c; if(dot(z,z)>4.) break; n++; }
-    fragColor=vec4(invAces(n>=40?vec3(0.):PAL[(n+int(uCyc))&31]),1.); return;
+    vec3 col=n>=40?vec3(0.):PAL[(n+int(uCyc))&31], tc;
+    if(uDrain<60.&&arrive(uv,c,tc)) col=tc;
+    fragColor=vec4(invAces(col),1.); return;
   }
   vec3 acc=vec3(0.); float px=2.*uS/uRes.y;
   acc+=shadeM(uC+uv*2.*uS+px*vec2(.125,.375)); acc+=shadeM(uC+uv*2.*uS+px*vec2(-.375,.125));
@@ -151,20 +176,24 @@ void main(){
   const PAT = MUSIC.PAT, HB = PAT / 2, TZ = 6.55;
   const sm = (a, b, x) => { const k = Math.min(1, Math.max(0, (x - a) / (b - a))); return k * k * (3 - 2 * k); };
   const C0 = [-0.743643887037151, 0.13182590420533], LS0 = Math.log(1.5), LSE = Math.log(1.35);
-  const lsIn = t => t <= HB ? LS0 - 0.165 * t : LS0 - 0.165 * t - 0.79 * (t - HB) * (t - HB);
+  // the first second also zooms in from twice as far out, so the set grows out of the tunnel's dark vanishing point
+  const lsIn = t => (t <= HB ? LS0 - 0.165 * t : LS0 - 0.165 * t - 0.79 * (t - HB) * (t - HB)) + Math.log(2.2) * Math.exp(-1.5 * t);
   const norm = a => { const l = Math.hypot(...a) || 1; return a.map(x => x / l); };
 
+  const beamAt = lt => lt < PAT ? sm(HB, HB + 1.4, lt) : 1;
   function drawMandel(st, tgt) {
-    const beam = sm(HB, HB + 1.4, st.lt), lt = beam < 1 ? Math.floor(st.lt * 50) / 50 : st.lt;
+    const beam = beamAt(st.lt), lt = beam < 1 ? Math.floor(st.lt * 50) / 50 : st.lt;
+    // the tunnel keeps running for a bar (slowing from the warp), then drains ring by ring into the set by the beam
+    const flow = 9 * lt + 10 / 3 * (1 - Math.exp(-3 * lt)), drain = beam > 0 ? 99 : 1 + 27 * sm(MUSIC.BAR * 0.9, HB - 0.15, lt);
     let ls, cx, cy;
     if (lt <= TZ) { ls = lsIn(lt); const s = Math.exp(ls), k = s / 1.5; cx = C0[0] + (-0.6 - C0[0]) * k; cy = C0[1] * (1 - k) + 0.4 * s * sm(0.95, 0.45, s) * sm(0.004, 0.04, s); }   // keep the open valley, not the black bulbs, in frame
     else { const w = sm(TZ, PAT - 0.02, lt); ls = lsIn(TZ) + (LSE - lsIn(TZ)) * w * w; const k = Math.exp(ls) / 1.35; cx = C0[0] + (-0.45 - C0[0]) * k; cy = C0[1] * (1 - k); }
     const depth = Math.max(0, -ls);
     G.draw(pMan, { uBeam: beam, uC: [cx, cy], uS: Math.exp(ls), uCyc: beam < 1 ? Math.floor(lt * 14) : lt * 14, uEmb: sm(6.5, PAT - 0.05, lt),
-      uIt: Math.min(420, 90 + 46 * depth), uBand: 1 / (1 + 0.45 * Math.max(0, depth - 0.9)) }, tgt);
+      uIt: Math.min(420, 90 + 46 * depth), uBand: 1 / (1 + 0.45 * Math.max(0, depth - 0.9)), uFlow: flow, uDrain: drain, uRoll: 0.3 * lt, uPl: lt * 0.8 }, tgt);
     const crt = 1 - sm(HB + 1.0, HB + 2.4, st.lt);
     return { lines: 256, ocs: 1, beam, crt, fa: 1.25 + (st.W / st.H - 1.25) * sm(HB + 1.3, HB + 2.9, st.lt), scan: 256, aberr: 0.15 * crt,
-      bloom: 0.2 + 0.3 * beam, thresh: 0.8, expo: 1, vig: 0.45 - 0.1 * crt, flash: Math.pow(Math.max(0, 1 - st.lt / 0.45), 2), fade: 1 };
+      bloom: 0.2 + 0.3 * beam, thresh: 0.8, expo: 1, vig: 0.45 - 0.1 * crt, fade: 1 };
   }
   function drawBulb(st, tgt, l) {                                   // l: seconds since the P19 boundary
     const k = sm(0.15, 4.2, l), dive = sm(PAT - 1.0, PAT, l), az = l * 0.42 * k - 0.5;
@@ -190,7 +219,7 @@ void main(){
     return drawMenger(st, tgt, lt - 2 * PAT);
   }
   (window.SCENES = window.SCENES || []).push({
-    name: 'Fractal', title: 'FRACTAL DREAMS', from: 18, to: 22, draw, scale: 0.7, tube: 0.6,
+    name: 'Fractal', title: 'FRACTAL DREAMS', from: 18, to: 22, draw, scale: 0.7, tube: 0.6, beamAt, paula: true,
     init() { pMan = G.program(MANDEL, 'mandelbrot'); pBulb = G.program(BULB, 'mandelbulb'); pMeng = G.program(MENGER, 'menger'); },
     caps: [{ at: PAT + 3.2, len: 4.2, title: 'FRACTAL DREAMS', sub: 'THE SAME EQUATION, ONE DIMENSION UP', hue: 28 }],
   });

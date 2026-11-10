@@ -345,9 +345,10 @@ void main(){
   }
 
   const BEAM0 = 12, BEAMD = 1.4;                                   // the beam starts on the downbeat of bar 98
+  const beamAt = lt => Math.min(1, Math.max(0, (lt - BEAM0 * (LEY.barT[95] - LEY.barT[94]) / 3) / BEAMD));
   function draw(st, tgt) {
     const lt = st.lt, t = st.t - LEY.AT - T94, tb = BEAM0 * BEAT;
-    const beam = Math.min(1, Math.max(0, (lt - tb) / BEAMD));
+    const beam = beamAt(lt);
     const tq = beam < 1 ? Math.floor(t * 50) / 50 : t;                // the old table moves at 50 Hz
     const P = ballAt(tq), P0 = ballAt(tq - 0.006), h = ballH(tq);
     // ---- what the table is doing
@@ -392,7 +393,7 @@ void main(){
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Pinball', title: 'BONUS STAGE: PINBALL', disk: 2, init, draw, plan, ballAt,
+    name: 'Pinball', title: 'BONUS STAGE: PINBALL', disk: 2, init, draw, plan, ballAt, beamAt, paula: true,
     range: () => [LEY.AT + LEY.sec('pinball')[0], LEY.AT + LEY.sec('pinball')[1]],
     caps: [{ at: 9.6, len: 4.2, title: 'BONUS STAGE', sub: 'EVERY CASTANET IS A BUMPER' }],
   });

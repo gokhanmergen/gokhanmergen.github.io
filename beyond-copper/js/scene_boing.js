@@ -135,6 +135,11 @@ void main(){
   };
   const ball = new Float32Array(32), mat = new Float32Array(32), rip = new Float32Array(32);
   const sm = (a, b, x) => { const k = Math.min(1, Math.max(0, (x - a) / (b - a))); return k * k * (3 - 2 * k); };
+  // The copper split: two bars in, the beam runs down to just above the floor line and stops there for a bar, the way
+  // a mid-screen copper change splits an Amiga display: 1984 below, the lit room above, and the ball changes material
+  // every time it bounces through the line. On the drum fill it finishes. (The soundtrack opens halfway, then fully.)
+  const SPLIT = 0.42, S0 = 2 * BAR, S1 = 3 * BAR;
+  const beamAt = lt => lt < S1 ? SPLIT * sm(S0, S0 + 0.75, lt) : SPLIT + (1 - SPLIT) * sm(S1, S1 + 0.85, lt);
 
   function draw(st, tgt) {
     const lt = st.lt, beat = st.t / BEAT;
@@ -153,17 +158,17 @@ void main(){
         : [pi[0], pi[2], age, drop > 0 ? 0 : b.r], n * 4);
       n++;
     });
-    const beam = sm(2 * BAR, 2 * BAR + 1.6, lt), stage = sm(PAT - 0.2, PAT + 1.6, lt);
+    const beam = beamAt(lt), stage = sm(PAT - 0.2, PAT + 1.6, lt), held = sm(S0 + 0.6, S0 + 0.9, lt) * (1 - sm(S1 - 0.1, S1 + 0.05, lt));
     const m = sm(PAT - 0.5, PAT + 7, lt), a = Math.sin((lt - PAT) * 0.17) * 1.15 * m, rad = 10 - 2.2 * m + Math.sin(lt * 0.3) * m;
     const cam = [Math.sin(a) * rad, 2.3 + 0.5 * m + Math.sin(lt * 0.23) * 0.7 * m, Math.cos(a) * rad];
     G.draw(prog, { uBall: ball, uBallM: mat, uRip: rip, uN: n, uCam: cam, uTgt: [0, 1.6 + 0.35 * m, 0], uFov: 1.6 - 0.22 * m, uStage: stage, uBeam: beam }, tgt);
     return {
-      lines: 256, ocs: 1, beam, crt: 1 - sm(2 * BAR + 1.1, 2 * BAR + 2.5, lt), fa: 1.25 + (st.W / st.H - 1.25) * sm(2 * BAR + 1.4, 2 * BAR + 3.0, lt), scan: 256,
+      lines: 256, ocs: 1, beam, beamGlow: 1 - 0.6 * held, crt: 1 - sm(S1 + 0.5, S1 + 1.9, lt), fa: 1.25 + (st.W / st.H - 1.25) * sm(S1 + 0.8, S1 + 2.4, lt), scan: 256,
       flash: Math.max(0, 1 - lt * 9) * 0.6, bloom: 0.35, thresh: 1.15, expo: 0.92, aberr: 0.25 * (1 - beam), vig: 0.45, fade: Math.min(1, (st.dur - lt) * 10),
     };
   }
 
-  (window.SCENES = window.SCENES || []).push({ name: 'Boing', from: 5, to: 9, draw, tube: 0.6, init() {
+  (window.SCENES = window.SCENES || []).push({ name: 'Boing', from: 5, to: 9, draw, tube: 0.6, beamAt, paula: true, init() {
     prog = G.program(FS, 'boing');
     physics = BOING_PHYSICS.bake(BALLS, { from: 2 * PAT, to: 4 * PAT, startTime: 5 * PAT, beat: BEAT, position: pos });
     physics.spawnFrames = BALLS.map(b => Math.max(0, Math.ceil((b.spawn - 2 * PAT) * BOING_PHYSICS.HZ - 1e-9)));

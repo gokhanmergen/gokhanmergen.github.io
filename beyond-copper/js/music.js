@@ -343,6 +343,7 @@ const MUSIC = (() => {
     const A = Math.pow(10, db / 40), w = TAU * f0 / SR, cs = Math.cos(w), sn = Math.sin(w), al = sn / (2 * Q);
     let b0, b1, b2, a0, a1, a2;
     if (type === 'peak') { b0 = 1 + al * A; b1 = -2 * cs; b2 = 1 - al * A; a0 = 1 + al / A; a1 = -2 * cs; a2 = 1 - al / A; }
+    else if (type === 'lp') { b0 = (1 - cs) / 2; b1 = 1 - cs; b2 = (1 - cs) / 2; a0 = 1 + al; a1 = -2 * cs; a2 = 1 - al; }
     else if (type === 'hshelf') {
       const sq = 2 * Math.sqrt(A) * al;
       b0 = A * ((A + 1) + (A - 1) * cs + sq); b1 = -2 * A * ((A - 1) + (A + 1) * cs); b2 = A * ((A + 1) + (A - 1) * cs - sq);
@@ -366,6 +367,30 @@ const MUSIC = (() => {
       B.R[j] += x + w * (j >= d2 ? G[j - d2] : 0);
       B.RV[j] += x * rv;
       if ((j & 8191) === 0 && busy()) yield { p: 0.72, msg: 'TUNING SIX STRINGS' };
+    }
+  }
+  // ---- the sound goes through the beam ----
+  // While a part's picture is still 1985, its music comes out of an A500: the finished mix is sampled at 22 kHz
+  // with no anti-alias filter (nearest-neighbour grit), cut to 8 bits, then low-passed like the A500's output with
+  // the LED filter on. k(t) (seconds on this disk) is 1 for all-1985 and 0 for hi-fi; as the beam passes, the
+  // filter sweeps open and the chain fades out. It runs on the mastered mix, so the hi-fi parts are untouched.
+  const PAULA = { hold: 2, lo: 3600, hi: 19000 };
+  function* paulaGen(L, R, N, k) {
+    const BLK = 64, sL = new Float64Array(4), sR = new Float64Array(4);
+    let kk = 0, hL = 0, hR = 0, on = false;
+    for (let j0 = 0; j0 < N; j0 += BLK) {
+      const kt = Math.min(1, Math.max(0, k((j0 + BLK / 2) / SR) || 0));
+      kk += (kt - kk) * (kt > kk ? 0.12 : 1);               // switching on is eased over ~15 ms (no click at a cut)
+      if (kk < 1e-3) { if (on) { sL.fill(0); sR.fill(0); on = false; } continue; }
+      on = true;
+      const c = bq('lp', PAULA.lo * Math.pow(PAULA.hi / PAULA.lo, 1 - kk), Math.SQRT1_2, 0), e = Math.min(N, j0 + BLK);
+      for (let j = j0; j < e; j++) {
+        if (j % PAULA.hold === 0) { hL = Math.round(L[j] * 127) / 127; hR = Math.round(R[j] * 127) / 127; }
+        const yL = c[0] * hL + c[1] * sL[0] + c[2] * sL[1] - c[3] * sL[2] - c[4] * sL[3]; sL[1] = sL[0]; sL[0] = hL; sL[3] = sL[2]; sL[2] = yL;
+        const yR = c[0] * hR + c[1] * sR[0] + c[2] * sR[1] - c[3] * sR[2] - c[4] * sR[3]; sR[1] = sR[0]; sR[0] = hR; sR[3] = sR[2]; sR[2] = yR;
+        L[j] += (yL - L[j]) * kk; R[j] += (yR - R[j]) * kk;
+      }
+      if ((j0 & 65535) === 0 && busy()) yield { p: 0.98, msg: 'MASTERING' };
     }
   }
   function* renderGen(ev, kicks, LEN, o = {}) {
@@ -398,6 +423,7 @@ const MUSIC = (() => {
       L[j] = Math.tanh(L[j] * g) * 0.92 * f; R[j] = Math.tanh(R[j] * g) * 0.92 * f;
       if ((j & 65535) === 0 && busy()) yield { p: 0.97, msg: 'MASTERING' };
     }
+    if (o.paula) yield* paulaGen(L, R, N, o.paula);
     return { L, R, SR, N };
   }
   const step = (gen, ms) => { slice.end = performance.now() + ms; const r = gen.next(); slice.end = Infinity; return r; };
@@ -407,9 +433,9 @@ const MUSIC = (() => {
   }
   let built = null;
   const prepare = () => { if (!built) { built = build(); for (const k in SYNC) SYNC[k].sort((a, b) => a - b); } return built; };
-  async function render(progress) {
+  async function render(progress, paula) {                // paula: optional k(t), see paulaGen
     const { ev, kicks } = prepare();
-    const out = await drive(renderGen(ev, kicks, LEN), progress);
+    const out = await drive(renderGen(ev, kicks, LEN, { paula }), progress);
     progress(1, 'READY');
     return out;
   }
@@ -424,5 +450,5 @@ const MUSIC = (() => {
   const S1 = makeSync(SYNC);
 
   return { SR, BPM, ROW, BAR, PAT, NPAT, LEN, render, prepare, SYNC, since: S1.since, env: (ty, t, r) => S1.env(ty, t, r), count: S1.count,
-    engine: { SR, TAU, mtof, rnd, I, W: { LEAD: W_LEAD, ARP: W_ARP, BASS: W_BASS }, renderGen, step, drive, makeSync, lastIdx } };
+    engine: { SR, TAU, mtof, rnd, I, W: { LEAD: W_LEAD, ARP: W_ARP, BASS: W_BASS }, renderGen, paulaGen, PAULA, step, drive, makeSync, lastIdx } };
 })();

@@ -1,12 +1,13 @@
 'use strict';
 // =====================================================================
-//  PART 3: VECTOR BALLS. THEN: 125 sprite "bobs" (three tones and a
-//  specular dot, painter-sorted, three sprite sizes) in a tumbling 5x5x5
-//  lattice over a copper horizon. The raster beam passes and every bob
-//  is a lit sphere; the lattice subdivides 125 -> 1000 -> 16 384 and
-//  the swarm morphs sphere -> torus knot -> galaxy -> AMIGA above a
-//  black mirror floor. One instanced draw (plus one for the reflection),
-//  sphere impostors with correct per-pixel depth.
+//  PART 3: VECTOR BALLS. THEN: a whole pattern of 125 sprite "bobs"
+//  (three tones and a specular dot, painter-sorted, three sprite sizes)
+//  in a tumbling 5x5x5 lattice over a copper horizon. The raster beam
+//  passes on pattern 10 and every bob is a lit sphere; the lattice
+//  subdivides 125 -> 1000 -> 16 384, the swarm flies into a torus knot,
+//  and on the downbeat of pattern 11 it lands as AMIGA above a black
+//  mirror floor and holds there to the end. One instanced draw (plus one
+//  for the reflection), sphere impostors with correct per-pixel depth.
 // =====================================================================
 (() => {
   const N = 16384, PAT = MUSIC.PAT, BAR = MUSIC.BAR, ROW = MUSIC.ROW;
@@ -64,23 +65,18 @@ vec3 lc(float g){ return vec3(mod(g,10.),mod(floor(g/10.),10.),floor(g/100.)); }
 vec3 warp(vec3 p){ float l=length(p), m=max(abs(p.x),max(abs(p.y),abs(p.z))); return l<1e-4?p:mix(p,p/l*m*1.3,uWarp); }
 vec3 lat1(float g){ return warp((lc(g)-4.5)*S1); }
 vec3 lat0(float g){ return warp((floor(lc(g)*.5)-2.)*S1*2.); }
-const vec3 COPPER=vec3(1.,.40,.07), GOLD=vec3(1.,.76,.30), BLUE=vec3(.03,.30,.95), DEEP=vec3(.0,.10,.42);
+const vec3 COPPER=vec3(1.,.40,.07), GOLD=vec3(1.,.76,.30), BLUE=vec3(.03,.30,.95);
 vec3 shape(float s, float id){
-  if(s<.5){ float y=1.-2.*(id+.5)/N, r=sqrt(1.-y*y), a=id*2.39996323; return vec3(cos(a)*r,y,sin(a)*r)*1.72; }
   if(s<2.5){ float ring=floor(id/24.), k=mod(id,24.), a=ring/(N/24.)*TAU, b=k/24.*TAU;
     vec3 c=vec3((2.+cos(3.*a))*cos(2.*a),(2.+cos(3.*a))*sin(2.*a),-sin(3.*a)*1.3);
     float a2=a+.002; vec3 c2=vec3((2.+cos(3.*a2))*cos(2.*a2),(2.+cos(3.*a2))*sin(2.*a2),-sin(3.*a2)*1.3);
     vec3 T=normalize(c2-c), Nn=normalize(cross(T,vec3(0,0,1))), B=cross(T,Nn);
     return (c+(Nn*cos(b)+B*sin(b))*.42)*.56; }
-  if(s<3.5){ float arm=mod(id,3.), rr=pow(h1(id*1.7),.7)*2.5, ang=rr*2.6+arm*TAU/3.+(h1(id*3.1)-.5)*.5/(rr+.3);
-    return vec3(cos(ang)*rr,(h1(id*5.3)-.5)*.3*(1.-rr/2.7),sin(ang)*rr); }
   if(s<4.5) return texelFetch(uTextPos,ivec2(int(mod(id,256.)),int(id/256.)),0).xyz;
   return lat1(mod(id,1000.));
 }
 vec3 tint(float s, float id, vec3 p){
-  if(s<.5){ float t=.5+.5*sin(p.y*2.4+atan(p.z,p.x)*2.+uTime*.5); return mix(mix(DEEP,BLUE,smoothstep(0.,.45,t)),mix(COPPER,GOLD,smoothstep(.7,1.,t)),smoothstep(.45,.62,t)); }
   if(s<2.5){ float t=fract(floor(id/24.)/(N/24.)*18.); return mix(BLUE,GOLD,smoothstep(.62,.7,t)*(1.-smoothstep(.92,1.,t))); }
-  if(s<3.5){ float r=length(p.xz)/2.5; return mix(mix(vec3(1.,.9,.7),COPPER,smoothstep(.0,.4,r)),BLUE,smoothstep(.35,.9,r)); }
   if(s<4.5) return mix(mix(COPPER,GOLD,smoothstep(-.6,.1,p.y)),vec3(1.,.93,.75),smoothstep(.15,.6,p.y));
   vec3 c=floor(lc(mod(id,1000.))*.5); return mod(c.x+c.y+c.z,2.)<.5?mix(COPPER,GOLD,.25):BLUE;
 }
@@ -158,8 +154,10 @@ void main(){
   let prog, bg, vao, textTex;
   const sm = (a, b, x) => { const k = Math.min(1, Math.max(0, (x - a) / (b - a))); return k * k * (3 - 2 * k); };
   const SEQ = [0, 2, 4, 2, 1, 3, 5, 3, 0, 2, 4, 6, 5, 4, 3, 1];          // the tune's 16th sequence (degrees of the chord)
-  const BEAM0 = 2 * BAR, BEAM1 = BEAM0 + 1.4, T2 = PAT;                   // beam after two bars; the swarm stage starts with pattern 10
-  const SHAPES = [6, 0, 2, 3, 4], TIMES = [0, T2, T2 + 2 * BAR, T2 + 4 * BAR, T2 + 6 * BAR], MORPH = [1, 2.0, 1.7, 1.7, 1.5];
+  // 1985 for the whole of pattern 9; the beam on pattern 10; 125 -> 1000 a bar later; the 16 384 swarm flies into the
+  // knot two bars later; AMIGA lands on the downbeat of pattern 11 and holds through the riser to the cut.
+  const BEAM0 = PAT, BEAM1 = BEAM0 + 1.4, SPLIT = PAT + BAR, T2 = PAT + 2 * BAR;
+  const SHAPES = [6, 2, 4], TIMES = [0, T2, 2 * PAT], MORPH = [1, 2.0, 1.4];
 
   function makeText() {                                       // AMIGA, set in the demo's own pixel font: every font pixel a clump of balls
     const b = PIX.bitmap('AMIGA', 2), pts = [];
@@ -178,14 +176,15 @@ void main(){
   const mul3 = (a, b) => { const o = new Array(9); for (let c = 0; c < 3; c++) for (let r = 0; r < 3; r++) o[c * 3 + r] = a[r] * b[c * 3] + a[3 + r] * b[c * 3 + 1] + a[6 + r] * b[c * 3 + 2]; return o; };
   const nrm = v => { const l = Math.hypot(...v) || 1; return v.map(x => x / l); };
 
+  const beamAt = lt => Math.min(1, Math.max(0, (lt - BEAM0) / (BEAM1 - BEAM0)));
   function draw(st, tgt) {
-    const gl = G.gl, lt = st.lt, beam = Math.min(1, Math.max(0, (lt - BEAM0) / (BEAM1 - BEAM0)));
+    const gl = G.gl, lt = st.lt, beam = beamAt(lt);
     const tt = beam < 1 ? Math.floor(lt * 50) / 50 : lt;      // 50 Hz while any of the picture is still 1990
     // ---- object motion: a fast two-axis tumble that settles into a slow turntable
     const s = Math.min(1, Math.max(0, (tt - 4) / 4)), F = tt < 4 ? tt : 4 + 4 * (s - s * s * s + s * s * s * s / 2);
     let k = 0; while (k + 1 < TIMES.length && lt >= TIMES[k + 1]) k++;
     const stage2 = lt >= T2, A = k === 0 ? 6 : SHAPES[k - 1], B = SHAPES[k], morph = k === 0 ? 1 : Math.min(1, (lt - TIMES[k]) / MORPH[k]);
-    const tw = sm(0, 1, B === 4 ? morph : 0), gw = sm(0, 1, B === 3 ? morph : A === 3 ? 1 - morph : 0);
+    const tw = sm(0, 1, B === 4 ? morph : 0);
     // ---- camera: locked off for the bobs, then a slow orbit
     const w = sm(BEAM1 - 0.3, BEAM1 + 3.5, lt), a = 0.16 * Math.max(0, lt - BEAM1) * w + Math.sin(lt * 0.21) * 0.25 * w;
     const rad = 6.6 + 0.6 * w, cy = -0.7 + 1.5 * w + Math.sin(lt * 0.17) * 0.25 * w;      // crane up from below the horizon to reveal the floor
@@ -194,10 +193,9 @@ void main(){
     const asp = st.W / st.H, P = G.m4.persp(FOV, asp, 0.1, 100), V = G.m4.look(cam, tg);
     let ax = (0.3 + 2 * Math.PI) * F / 6, ay = 0.25 * tt + 0.9 * F;
     const el = Math.atan2(cy - 0.1, rad), face = a + 2 * Math.PI * Math.round((ay - a) / (2 * Math.PI));
-    ay += (face - ay) * Math.max(tw, gw); ax += (2 * Math.PI + 0.95 - ax) * gw; ax += (2 * Math.PI - el - ax) * tw;
+    ay += (face - ay) * tw; ax += (2 * Math.PI - el - ax) * tw;                           // the word turns to face the camera
     const cxr = Math.cos(ax), sxr = Math.sin(ax), cyr = Math.cos(ay), syr = Math.sin(ay);
-    const sp = 0.45 * (lt - TIMES[3]) * gw, cs = Math.cos(sp), ss = Math.sin(sp);                 // the galaxy turns about its own axis
-    const obj = mul3(mul3([cyr, 0, -syr, 0, 1, 0, syr, 0, cyr], [1, 0, 0, 0, cxr, sxr, 0, -sxr, cxr]), [cs, 0, -ss, 0, 1, 0, ss, 0, cs]);      // Ry * Rx, column-major
+    const obj = mul3([cyr, 0, -syr, 0, 1, 0, syr, 0, cyr], [1, 0, 0, 0, cxr, sxr, 0, -sxr, cxr]);      // Ry * Rx, column-major
     // ---- sync
     const row = Math.floor((st.t % BAR) / ROW + 1e-4) & 15, hs = MUSIC.since('hat', st.t), hc = MUSIC.count('hat', st.t), ha = hc * 2.4;
     const sync = [-1.5 + 3 * SEQ[row] / 6, Math.exp(-(st.t % ROW) * 12) * (stage2 ? 1 : 0.5), -2.4 + hs * 20, Math.exp(-hs * 7)];
@@ -205,7 +203,7 @@ void main(){
        v3 = (m, d) => [m[0] * d[0] + m[4] * d[1] + m[8] * d[2], m[1] * d[0] + m[5] * d[1] + m[9] * d[2], m[2] * d[0] + m[6] * d[1] + m[10] * d[2]];
     const env = { uCam: cam, uCF: f, uCR: r, uCU: u, uFl: 1 / Math.tan(FOV / 2), uFloorY: FLOOR, uShadow: 1, uBeam: beam };
     G.draw(bg, env, tgt);
-    const split = sm(3 * BAR, 3 * BAR + 1.3, lt);
+    const split = sm(SPLIT, SPLIT + 1.3, lt);
     const U = { ...env, uP: P, uV: V, uObj: obj, uStage: stage2 ? 1 : 0, uSplit: split,
       uWarp: stage2 ? 0 : sm(BAR, BAR + 1.5, lt) * (1 - sm(3 * BAR, 3 * BAR + 1.2, lt)),
       uMorph: morph, uShapeA: A, uShapeB: B, uRA: A === 6 ? R1 : RS, uRB: RS * (1 - 0.42 * tw), uTextPos: textTex, uTextW: tw,
@@ -225,7 +223,7 @@ void main(){
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Vector Balls', from: 9, to: 12, init, draw, tube: 0.6,
-    caps: [{ at: PAT + 2.4, len: 4.2, title: 'VECTOR BALLS', sub: 'ONCE THERE WERE A HUNDRED' }],
+    name: 'Vector Balls', from: 9, to: 12, init, draw, tube: 0.6, beamAt, paula: true,
+    caps: [{ at: BEAM1 + 1.0, len: 4.2, title: 'VECTOR BALLS', sub: 'ONCE THERE WERE A HUNDRED' }],
   });
 })();

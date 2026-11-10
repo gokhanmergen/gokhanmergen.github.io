@@ -7,7 +7,9 @@
 //  with refraction, dispersion (R, G and B are traced separately),
 //  internal bounces and absorption, in a dark studio whose light strips
 //  are the copper bars reborn. The flute re-cuts the crystal on each downbeat, one slow cut at a time
-//  (octahedron -> truncated -> cuboctahedron -> ...), every bell glints.
+//  (octahedron -> truncated -> cuboctahedron -> ...), every bell glints. The glenz gets all of pattern 12,
+//  and the beam that ends it is refracted by the crystal: seen through the glass it bends at every facet
+//  and splits into its colours.
 // =====================================================================
 (() => {
   const PAT = MUSIC.PAT, BAR = MUSIC.BAR, ROW = MUSIC.ROW, FOV = 0.72, FLOOR = -1.8, RW = 16;
@@ -68,14 +70,14 @@ vec3 env(vec3 ro, vec3 rd){
   return walls(ro,rd)*fre+add;
 }
 // ---- light inside the crystal: follow one wavelength through up to three facets
-vec3 through(vec3 p, vec3 d, float ior){
-  vec3 acc=vec3(0.); float w=1., path=0.;
+vec3 through(vec3 p, vec3 d, float ior, out vec3 ex){
+  vec3 acc=vec3(0.); float w=1., path=0.; bool out_=false; ex=d;
   for(int b=0;b<4;b++){
     vec3 o=d; float wt=w*.6;                                    // b==3: what is still bouncing around leaves here
     if(b<3){
       vec3 m; float t=exitT(p,d,m); p+=d*t; path+=t;
       o=refract(d,-m,ior); wt=0.;
-      if(dot(o,o)>.5){ float f=.04+.96*pow(1.-clamp(dot(o,m),0.,1.),5.); wt=w*(1.-f); w*=f; }
+      if(dot(o,o)>.5){ float f=.04+.96*pow(1.-clamp(dot(o,m),0.,1.),5.); wt=w*(1.-f); w*=f; if(!out_){ ex=o; out_=true; } }
       d=reflect(d,m);
     }
     if(wt>0.) acc+=wt*env(uRot*p+uCtr,uRot*o);
@@ -83,14 +85,19 @@ vec3 through(vec3 p, vec3 d, float ior){
   }
   return acc*exp(-path*vec3(.20,.085,.03));                    // thick glass goes faintly Workbench blue
 }
-vec3 glass(vec3 roO, vec3 rdO, float tN, int iN, bool hq){
+// where a world direction lies on the screen (0 bottom .. 1 top), for the beam seen through the glass. Squeezed
+// towards the middle (a weaker lens than the real crystal), so that facets looking far above or below the screen are
+// still crossed by the line during its sweep rather than all switching when it starts or when it ends.
+float scrY(vec3 w){ float z=dot(w,uCF); return .5+.55*clamp(z>1e-3?.5*uFl*dot(w,uCU)/z:sign(dot(w,uCU))*9.,-.9,.9); }
+vec3 glass(vec3 roO, vec3 rdO, float tN, int iN, bool hq, out vec3 fy){
   vec3 n=PN[iN], p=roO+rdO*tN;
   float f=.04+.96*pow(1.-clamp(-dot(rdO,n),0.,1.),5.);
-  vec3 tr=vec3(0.);
+  vec3 tr=vec3(0.), ex;
   for(int c=0;c<3;c++){
     float ior=hq?(c==0?1.468:c==1?1.48:1.494):1.48;
-    vec3 t=through(p,refract(rdO,n,1./ior),ior);
-    if(hq) tr[c]=t[c]; else { tr=t; break; }
+    vec3 t=through(p,refract(rdO,n,1./ior),ior,ex);
+    fy[c]=scrY(uRot*ex);
+    if(hq) tr[c]=t[c]; else { tr=t; fy=vec3(fy[0]); break; }
   }
   // the mirror image on the facet: the room only (cheap walls+floor lookup, no second crystal)
   vec3 rr=uRot*reflect(rdO,n), rp=uRot*p+uCtr, col=vec3(.0025,.0025,.004);
@@ -98,26 +105,30 @@ vec3 glass(vec3 roO, vec3 rdO, float tN, int iN, bool hq){
   return col*f+tr*(1.-f);
 }
 float cls(int i, vec3 n){ return i<6?2.:i<14?(n.x*n.y*n.z>0.?0.:1.):i<18?3.:i<22?0.:1.; }
+// ------------------------------- 1991 -------------------------------
+vec3 old91(vec2 uv, bool hit, int iN, int iF){
+  vec3 col=vec3(0.);
+  float ln=uv.y*128.;
+  for(int k=0;k<4;k++){ if(k==3) continue; float dl=abs(floor(ln)+.5-floor(uBarY[k]*128.))/7.; if(dl<1.) col=SC[k]/7.5*15.*(1.-dl*dl*.9)*(k==2?1.5:1.); }
+  vec2 g=floor(uv*128.); float s=hash21(g); if(dot(col,col)<.01&&s>.994) col=vec3(5.,6.,9.);
+  if(hit){
+    float cf=cls(iN,PN[iN]), cb=cls(iF,PN[iF]);
+    vec3 fr=cf<.5?vec3(15.,15.,15.):cf<1.5?vec3(1.,5.,15.):cf<2.5?vec3(15.,8.,1.):vec3(7.,11.,15.);
+    vec3 bk=cb<.5?vec3(9.,10.,12.):cb<1.5?vec3(0.,2.,8.):cb<2.5?vec3(9.,4.,1.):vec3(2.,5.,9.);
+    col=mix(bk,fr,cf<.5?.58:cf<1.5?.5:.6);
+  }
+  return invAces(h12(col));
+}
+float gOwn=1.;   // alpha for the post chain: 1 = the straight beam decides this pixel; below .75 = decided here (o.mask)
 vec3 shade(vec2 fc, out float edge){
   vec2 uv=(fc-.5*uRes)/(.5*uRes.y);
   vec3 rd=normalize(uCF*uFl+uCR*uv.x+uCU*uv.y), ro=uCam;
   vec3 roO=(ro-uCtr)*uRot, rdO=rd*uRot;
   float tN,tF,t2; int iN,iF; bool hit=hull(roO,rdO,tN,tF,t2,iN,iF);
   float px=3.5*tN/(uRes.y*uFl); edge=0.;
-  if(isOld()>.5){
-    // ------------------------------- 1991 -------------------------------
-    vec3 col=vec3(0.);
-    float ln=uv.y*128.;
-    for(int k=0;k<4;k++){ if(k==3) continue; float dl=abs(floor(ln)+.5-floor(uBarY[k]*128.))/7.; if(dl<1.) col=SC[k]/7.5*15.*(1.-dl*dl*.9)*(k==2?1.5:1.); }
-    vec2 g=floor(uv*128.); float s=hash21(g); if(dot(col,col)<.01&&s>.994) col=vec3(5.,6.,9.);
-    if(hit){
-      float cf=cls(iN,PN[iN]), cb=cls(iF,PN[iF]);
-      vec3 fr=cf<.5?vec3(15.,15.,15.):cf<1.5?vec3(1.,5.,15.):cf<2.5?vec3(15.,8.,1.):vec3(7.,11.,15.);
-      vec3 bk=cb<.5?vec3(9.,10.,12.):cb<1.5?vec3(0.,2.,8.):cb<2.5?vec3(9.,4.,1.):vec3(2.,5.,9.);
-      col=mix(bk,fr,cf<.5?.58:cf<1.5?.5:.6);
-    }
-    return invAces(h12(col));
-  }
+  bool split=hit&&uBeam>0.&&uBeam<1.;                        // the beam is on screen and this pixel looks through the glass
+  vec3 oc=vec3(0.);
+  if(isOld()>.5||split){ oc=old91(uv,hit,iN,iF); if(!split) return oc; }
   // ------------------------------- now -------------------------------
   vec3 gro=roO, grd=rdO, wro=ro, wrd=rd, add=vec3(0.); float gt=tN, wgt=1.; int gi=iN; bool hq=true, doGlass=hit;
   if(hit) edge=step(min(tN-t2,tF-tN),px);
@@ -146,8 +157,19 @@ vec3 shade(vec2 fc, out float edge){
     }
   }
   }
-  vec3 c=doGlass?glass(gro,grd,gt,gi,hq):walls(wro,wrd);
-  return c*wgt+add;
+  vec3 fy=vec3(0.);
+  vec3 c=doGlass?glass(gro,grd,gt,gi,hq,fy):walls(wro,wrd);
+  c=c*wgt+add;
+  if(split){
+    // Through the crystal the beam is a distant line seen through a prism: every wavelength left the glass in its own
+    // direction (fy: where that direction is on screen), so the line bends at each facet and splits into colours,
+    // and each channel shows 1991 or now depending on which side of the beam it ended up looking at.
+    vec3 by=vec3(1.-uBeam*1.04+.02), o3=step(fy,by), d=fy-by;
+    c=mix(c,oc,o3);
+    c+=vec3(.75,.9,1.)*(exp(-abs(d)*900.)+.35*exp(-abs(d)*90.)+.12*exp(-max(d,0.)*14.)*step(0.,d))*4.;
+    gOwn=.5*o3.g;
+  }
+  return c;
 }
 void main(){
   const vec2 OFF[4]=vec2[4](vec2(0.),vec2(.38,.12),vec2(-.12,.38),vec2(-.38,-.12));
@@ -163,7 +185,7 @@ void main(){
       float s=exp(-length(q)*70.)+.55*(exp(-abs(q.x)*260.-abs(q.y)*16.)+exp(-abs(q.y)*260.-abs(q.x)*16.));
       col+=vec3(1.,.9,.72)*s*uGl[i].z*4.; }
   }
-  fragColor=vec4(col,1.);
+  fragColor=vec4(col,gOwn);
 }`;
   // a, b, c: plane distances of the cube / octahedron / edge families; then how much each family really shows (for the caustics)
   const SOLID = {
@@ -181,11 +203,12 @@ void main(){
   const nrm = v => { const l = Math.hypot(...v) || 1; return v.map(x => x / l); };
   const mul3 = (a, b) => { const o = new Array(9); for (let c = 0; c < 3; c++) for (let r = 0; r < 3; r++) o[c * 3 + r] = a[r] * b[c * 3] + a[3 + r] * b[c * 3 + 1] + a[6 + r] * b[c * 3 + 2]; return o; };
   const h1 = x => { const s = Math.sin(x * 127.1 + 3.3) * 43758.5453; return s - Math.floor(s); };
-  const BEAM0 = 2 * BAR, BEAM1 = BEAM0 + 1.4;
+  const BEAM0 = PAT, BEAM1 = BEAM0 + 1.4;                        // the glenz has all of pattern 12; the beam on 13
+  const beamAt = lt => Math.min(1, Math.max(0, (lt - BEAM0) / (BEAM1 - BEAM0)));
   const glint = new Float32Array(6);
 
   function draw(st, tgt) {
-    const lt = st.lt, t0 = st.t - lt, beam = Math.min(1, Math.max(0, (lt - BEAM0) / (BEAM1 - BEAM0)));
+    const lt = st.lt, t0 = st.t - lt, beam = beamAt(lt);
     const tt = beam < 1 ? Math.floor(lt * 50) / 50 : lt;
     // ---- which solid: a flute note re-cuts the crystal once the previous cut has settled
     if (!cuts) {
@@ -217,13 +240,13 @@ void main(){
     G.draw(prog, { uCam: cam, uCF: f, uCR: r, uCU: u, uFl: fl, uFloorY: FLOOR, uRot: rot, uCtr: ctr, uD: S.slice(0, 3).map(x => x * grow), uFam: S.slice(3),
       uBarY: bars, uGl: glint, uLit: 1 + 0.22 * st.kick + 0.1 * st.snare, uBeam: beam }, tgt);
     const out = sm(BEAM1 - 0.2, BEAM1 + 1.3, lt), asp = st.W / st.H;
-    return { beam, lines: beam < 1 ? 256 : undefined, ocs: 1, crt: 1 - out, fa: 1.25 + (asp - 1.25) * sm(BEAM1, BEAM1 + 1.6, lt), scan: 256,
+    return { beam, mask: 1, lines: beam < 1 ? 256 : undefined, ocs: 1, crt: 1 - out, fa: 1.25 + (asp - 1.25) * sm(BEAM1, BEAM1 + 1.6, lt), scan: 256,
       bloom: 0.15 + 0.45 * beam, thresh: 2.6 - 1.6 * beam, expo: 1, aberr: 0.15 * (1 - out), grain: 0.02, vig: 0.35 + 0.2 * out,
       fade: Math.min(1, lt / 0.08, (st.dur - lt) / 0.12) };
   }
 
   (window.SCENES = window.SCENES || []).push({
-    name: 'Glenz', from: 12, to: 15, draw, tube: 0.6, init() { prog = G.program(FS, 'glenz'); },
+    name: 'Glenz', from: 12, to: 15, draw, tube: 0.6, beamAt, paula: true, init() { prog = G.program(FS, 'glenz'); },
     caps: [{ at: BEAM1 + 2.2, len: 4.2, title: 'GLENZ', sub: 'IT ALWAYS WANTED TO BE GLASS' }],
   });
 })();
