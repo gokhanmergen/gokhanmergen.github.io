@@ -14,6 +14,22 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>What Will You Build Today?</title>
+      <link>https://www.gokhanmergen.com/blog-what-will-you-build-today.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-what-will-you-build-today.html</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Culture / AI</category>
+      <description>The future belongs to those who create the future.</description>
+      <blog:readTime>7 min read</blog:readTime>
+      <content:encoded>&lt;p&gt;If you grew up in the golden era of home computing, you probably remember the exact feeling of sitting in front of a glowing CRT monitor and booting up a Commodore Amiga 500 for the first time.&lt;/p&gt;
+&lt;p&gt;When it arrived in 1987 with a 7MHz &lt;a href=&quot;https://en.wikipedia.org/wiki/Motorola_68000&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Motorola 68000&lt;/a&gt; processor and half a megabyte of memory, the Amiga didn’t just feel like a hardware upgrade—it felt like being handed the keys to an infinite universe. Inside its case sat a trio of dedicated custom chips with almost mythical names: &lt;a href=&quot;https://en.wikipedia.org/wiki/Original_Chip_Set#Copper&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Copper&lt;/a&gt;, a tiny coprocessor that rewrote color registers on the fly as the electron beam swept down the screen; &lt;a href=&quot;https://en.wikipedia.org/wiki/Original_Chip_Set#Blitter&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Blitter&lt;/a&gt;, which shoved blocks of graphics memory around faster than the CPU ever could; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Original_Chip_Set#Paula&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Paula&lt;/a&gt;, which gave a generation of bedroom musicians four channels of 8-bit stereo sound.&lt;/p&gt;
+&lt;p&gt;Out of that modest silicon was born the legendary &lt;a href=&quot;https://en.wikipedia.org/wiki/Demoscene&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;demoscene&lt;/a&gt;: a fiercely creative subculture of coders, pixel artists, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Music_tracker&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;tracker&lt;/a&gt; musicians across Europe and beyond who competed to push the hardware far past what its engineers thought possible. Their demos weren&amp;#x27;t mere technical benchmarks. They were digital art—impossible-looking 3D animations, raster bars, and synchronized soundtracks built simply to say, &lt;em&gt;&amp;quot;Look what we can make this machine do.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;None of that magic came free. It required hand-written assembly language, counting individual CPU cycles, and months of late nights by an entire crew of specialists. &lt;strong&gt;As a kid, though, you didn&amp;#x27;t dwell on the constraints. You looked at the screen and felt a sense of wonder everyday regarding what to do next.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Last night, decades later, that exact same feeling hit me all over again.&lt;/p&gt;
+&lt;h2&gt;One Prompt and the Ratio of Wonder&lt;/h2&gt;
+&lt;p&gt;Seeing how rapidly creative coding has evolved, I decided to run a casual experiment with Claude Opus. I wanted to see what would happen if I asked a frontier AI model to channel the spirit of those 1980s and 90s bedroom coders.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>Eat Foods That Contain Seeds of Life</title>
       <link>https://www.gokhanmergen.com/blog-seeds-of-life.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-seeds-of-life.html</guid>
