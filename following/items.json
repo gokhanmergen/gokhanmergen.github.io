@@ -6,9 +6,6 @@
   "https://erictopol.substack.com/feed": {
    "since": "2026-10-24"
   },
-  "https://export.arxiv.org/api/query?search_query=au:Aaronson_Scott&sortBy=submittedDate&sortOrder=descending&max_results=10": {
-   "since": "2026-11-10"
-  },
   "https://phillipspobrien.substack.com/feed": {
    "since": "2026-10-24"
   },
@@ -17,6 +14,26 @@
   }
  },
  "items": [
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-11",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-11",
+   "summary": "The world’s biggest country continues to defy the skeptics.",
+   "title": "India is quietly doing great",
+   "url": "https://www.noahpinion.blog/p/india-is-quietly-doing-great"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-11-11",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-11-11",
+   "summary": "Congress must end racial and demographic profiling, restoring Americans’ equal rights.",
+   "title": "Videos of 1.5 Years of ICE’s Racial and Demographic Profiling of Americans",
+   "url": "https://www.alexnowrasteh.com/p/videos-of-15-years-of-ices-racial"
+  },
   {
    "feed": "https://www.alexnowrasteh.com/feed",
    "first_seen": "2026-11-10",
@@ -38,6 +55,26 @@
    "url": "https://thezvi.wordpress.com/2026/11/10/nvidia-ceo-jensen-huang-had-an-affair-with-a-chinese-spy/"
   },
   {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-11",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-10",
+   "summary": "My popular mathematics book, “Six Math Essentials” (Six Maths Essentials in the UK), which was previously announced on this blog in February, is now available (in print, digital, and audiobook formats). Some related links: Review by Karmela Padavic-Callaghan (New Scientist) Review (Publishers Weekly) Review (Library Journal) Sample excerpt (via Science Friday), with related podcast interview…",
+   "title": "“Six Math Essentials” now available",
+   "url": "https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-11-11",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-11-10",
+   "summary": "Enjoy all three hours of this! Dana covers what the Unique Games problem is, the structure of a proof of its NP-hardness, exactly where the previous attempts to complete the proof (based on the Long Code and the Hadamard Code) got stuck, what new tree-based code the AI discovered, and how the new code gets…",
+   "title": "Dana’s talk on OpenAI’s proof of the Unique Games Conjecture, now on YouTube!",
+   "url": "https://scottaaronson.blog/?p=10318"
+  },
+  {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
    "first_seen": "2026-11-10",
    "kind": "podcast",
@@ -49,6 +86,16 @@
   },
   {
    "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-11",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-10",
+   "summary": "1. AI as a normal technology. 2. Hayek for our time, by Cass Sunstein, free download for two weeks. 3. Works in Progress is looking for business and finance writers. 4. Matthew Lilley on Harvard grad students. I believe they teach the permanent income hypothesis there? 5. Ethan Mollick on Fable 5.2. 6. John Cochrane…",
+   "title": "Tuesday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/tuesday-assorted-links-594.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-10",
    "kind": "post",
    "person": "tyler-cowen",
@@ -56,6 +103,16 @@
    "summary": "From SaneCite: We checked the anonymous AI audit of Emmanuel Saez and Gabriel Zucman’s research that Marginal Revolution featured on 28 Oct: all 147 problems it calls serious enough to change a headline number, against the papers, their sources and the authors’ own data. The audit’s facts hold up: for 131 of the 147, every…",
    "title": "Checking the AI audit of Saez and Zucman’s research.",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/checking-the-ai-audit-of-saez-and-zucmans-research.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-11",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-10",
+   "summary": "Maybe so: We study the statistical credibility of randomized controlled trials (RCTs) in development economics and the optimal allocation of resources to replication. Using 745 principal-hypothesis tests from 190 articles in leading economics journals, we find that actual t-statistics peak well below the theoretical benchmark of 2.8 expected under 80 percent power, though above values…",
+   "title": "Are RCTs underpowered?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/are-rcts-underpowered.html"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -173,7 +230,7 @@
    "kind": "post",
    "person": "epoch-ai",
    "published": "2026-11-09",
-   "summary": "Epoch AI's Inference Performance Index, which goes beyond the underestimates of FLOP/s measures and scores chips on memory and communication",
+   "summary": "Comparing AI hardware for inference beyond FLOP/s with memory and inter-chip communication",
    "title": "Inference Performance Index: changing the way we measure inference capacity",
    "url": "https://epoch.ai/publications/inference-performance-index"
   },
@@ -1046,26 +1103,6 @@
    "summary": "Pavel Etingof, Slava Gerovitch, “Mathematics of the Future“ Timothy Gowers, “How worried should we be about extinction risk from AI?“ Elchanan Mossel, “LLMs, Reasoning and Plagiarism“. (See also this related petition.) nihilunbounded, “Who Watches the Watchmen“ Sung-Jin Oh, “What does it mean for a mathematician to understand? A case study in the age of AI“…",
    "title": "More additional blog posts and articles",
    "url": "https://terrytao.wordpress.com/2026/10/26/more-additional-blog-posts-and-articles/"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-28",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-27",
-   "summary": "1. Which musical styles do smart people prefer? 2. U. of Austin job ads. 3. Walter Koenig, RIP (NYT). Chekov. 4. One take on the new computational result. And one (overstated) Chinese interpretation. And another extreme and unwarranted view. 5. New research method: Arjo Klamer’s revenge. 6. How did the Nobel Prize become high status?",
-   "title": "Tuesday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/tuesday-assorted-links-592.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-27",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-27",
-   "summary": "Emily Bazelon was the moderator, there were five of us in the symposium. Excerpt from me: Bores: Do you think the federal government pre-empting the states is consistent with democracy? Cowen: Absolutely. We have federal laws that pre-empt state lawmaking in many other areas. Courts have upheld it many, many times. Bores: OK, but is…",
-   "title": "NYT debate on the rules for AI companies",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/nyt-debate-on-the-rules-for-ai-companies.html"
   },
   {
    "feed": "https://epoch.ai/atom.xml",
@@ -2898,16 +2935,6 @@
    "url": "https://epoch.ai/data-insights/malaysia-china-chip-smuggling"
   },
   {
-   "feed": "https://www.noahpinion.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "noah-smith",
-   "published": "2026-09-16",
-   "summary": "Bo French’s rightist movement is a dead end for our nation. Fortunately, it’s beatable.",
-   "title": "The anti-American Right",
-   "url": "https://www.noahpinion.blog/p/the-anti-american-right"
-  },
-  {
    "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3716,16 +3743,6 @@
    "summary": "Protein is one of the most hotly debated topics in nutrition and longevity. Should you be eating more protein to preserve muscle as you age, or could reducing protein intake actually promote a longer, healthier life?In this episode of Longevity Science, I sit down with Cristal Hill, PhD, to explore what the science really says about protein restriction, aging, and the fascinating hormone FGF21…",
    "title": "FGF21 and The Protein Paradox: Could Eating Less Help You Live Longer?",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/FGF21-and-The-Protein-Paradox-Could-Eating-Less-Help-You-Live-Longer-e3m4d62"
-  },
-  {
-   "feed": "https://anneapplebaum.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "anne-applebaum",
-   "published": "2026-07-13",
-   "summary": "Lindsey Graham strove to stay relevant, whatever the cost",
-   "title": "The Quintessential Trump-era Politician",
-   "url": "https://anneapplebaum.substack.com/p/the-quintessential-trump-era-politician"
   }
  ]
 }
