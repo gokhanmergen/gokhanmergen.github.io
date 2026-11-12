@@ -15,6 +15,16 @@
  },
  "items": [
   {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-12",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-12",
+   "summary": "Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back…",
+   "title": "Lean Grimoire",
+   "url": "https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-11",
    "kind": "post",
@@ -33,6 +43,36 @@
    "summary": "Congress must end racial and demographic profiling, restoring Americans’ equal rights.",
    "title": "Videos of 1.5 Years of ICE’s Racial and Demographic Profiling of Americans",
    "url": "https://www.alexnowrasteh.com/p/videos-of-15-years-of-ices-racial"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-12",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-11",
+   "summary": "It’s that time again: Introducing the world’s most powerful model, Claude Mythos 5.2. At this point I’ve done a lot of these system cards. Thus I focus on what is new. There will be a lot of things to say …",
+   "title": "Fable and Mythos 5.2: The System Card",
+   "url": "https://thezvi.wordpress.com/2026/11/11/fable-and-mythos-5-2-the-system-card/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-12",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-11",
+   "summary": "1. “We were discussing this today in office: future paper is 5 pages (what’s question, where is lit now very briefly, what do we do, what do we find), with all details left to a long appendix, hyperlinked, with rigorous AI review. We would read many more papers in that world! Agree?” Kevin Bryan. 2.…",
+   "title": "Wednesday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-579.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-12",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-10",
+   "summary": "This paper really give targeted protein degradation (TPD) people something to think about. The exciting thing about TPD is that it provides (in many cases, for the first time) a pharmacological means to lower the amount of a target protein without doing anything to the genomic or translational machinery. The protein is degraded once it’s out in the cytosol, and this…",
+   "title": "Think Before You Degrade",
+   "url": "https://www.science.org/content/blog-post/think-you-degrade"
   },
   {
    "feed": "https://www.alexnowrasteh.com/feed",
@@ -70,7 +110,7 @@
    "kind": "post",
    "person": "scott-aaronson",
    "published": "2026-11-10",
-   "summary": "Enjoy all three hours of this! Dana covers what the Unique Games problem is, the structure of a proof of its NP-hardness, exactly where the previous attempts to complete the proof (based on the Long Code and the Hadamard Code) got stuck, what new tree-based code the AI discovered, and how the new code gets…",
+   "summary": "Enjoy all three hours of this! Dana covers what the Unique Games problem is and why people cared about it, the structure of a proof of its NP-hardness, exactly where the previous attempts to complete the proof (based on the Long Code and the Hadamard Code) got stuck, the new tree-based code that the AI…",
    "title": "Dana’s talk on OpenAI’s proof of the Unique Games Conjecture, now on YouTube!",
    "url": "https://scottaaronson.blog/?p=10318"
   },
@@ -1043,16 +1083,6 @@
    "summary": "AI issues its judgment: 138 papers audited 2,035 problems found 147 serious enough to change a headline number 69% of papers have at least one 97% of major and moderate errors with a clear direction overstate the paper’s claim And on the method: Two independent audits of each paper. One by Claude Opus 5.5, one…",
    "title": "Errors in the research of Emmanuel Saez and Gabriel Zucman",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/10/errors-in-the-research-of-emmanuel-saez-and-gabriel-zucman.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-28",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-28",
-   "summary": "That is the topic of my latest Free Press column (now there are gift links!), here is one excerpt, noting this is a worst-case scenario not a prediction: Yet current systems are likely to prove more robust than that suggests. For one thing, they use a variety of different methods of protection, including public key…",
-   "title": "AI hacking risks",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/ai-hacking-risks.html"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -3093,16 +3123,6 @@
    "summary": "By revisiting the famous problem — which was controversially solved in the 1970s with the help of computers — mathematicians have gained important new insights into the nature of graphs.",
    "title": "The Four-Color Theorem Gets a Rare New Proof",
    "url": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/"
-  },
-  {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-09",
-   "summary": "Update: I can always tell when RealClearScience links to one of my vaccine posts, because suddenly in come a number of comments from people who know little or nothing about vaccines and who seem to assume that any favorable coverage of them is some sort of propaganda operation. Oddly, I'm grateful for the links, because it gets these posts out to some people who otherwise would never come across…",
-   "title": "More Impossible-to-Ignore Vaccine Effects",
-   "url": "https://www.science.org/content/blog-post/more-impossible-ignore-vaccine-effects"
   },
   {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
