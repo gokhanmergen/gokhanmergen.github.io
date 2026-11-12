@@ -263,7 +263,7 @@ def render_inline(value: str) -> str:
     return "".join(rendered)
 
 
-IMAGE_LINE = re.compile(r"^!\[([^\]]*)\]\(([^)\s]+)\)$")
+IMAGE_LINE = re.compile(r"^!\[([^\]]*)\]\(([^)\s]+)\)(?:\{width=(\d{1,3})%\})?$")
 
 
 def is_image(line: str) -> bool:
@@ -408,11 +408,12 @@ def render_markdown(markdown: str) -> str:
 
         image = IMAGE_LINE.match(line)
         if image:
-            alt, src = image.groups()
+            alt, src, width = image.groups()
             if src.startswith(("javascript:", "data:")):
                 src = "#"
+            size = f' style="width: {min(int(width), 100)}%; margin-inline: auto"' if width else ""
             output.append(
-                f'<figure class="blog-article-figure"><img src="{escape(src)}" alt="{escape(alt)}" loading="lazy"></figure>'
+                f'<figure class="blog-article-figure"><img src="{escape(src)}" alt="{escape(alt)}"{size} loading="lazy"></figure>'
             )
             cursor += 1
             continue

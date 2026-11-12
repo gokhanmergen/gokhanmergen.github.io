@@ -87,7 +87,7 @@ When technical barriers fall, human barriers become the only ones left standing.
 
 In 1987, if you turned on an Amiga 500 without a program loaded, it greeted you with a stark, unforgettable image: a pixelated white screen showing a hand holding a blue [Kickstart](https://en.wikipedia.org/wiki/AmigaOS#Kickstart) floppy disk, silently waiting for you to insert something and bring the machine to life.
 
-![The Amiga Kickstart 1.3 boot screen: a pixelated white hand holding a blue floppy disk labeled "AMIGA Workbench", with "V1.3" beside it, on a pale gray background.](build-today-kickstart.png)
+![The Amiga Kickstart 1.3 boot screen: a pixelated white hand holding a blue floppy disk labeled "AMIGA Workbench", with "V1.3" beside it, on a pale gray background.](build-today-kickstart.png){width=50%}
 
 The blinking cursor of a modern AI interface waits the exact same way.
 

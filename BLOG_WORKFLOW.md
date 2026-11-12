@@ -103,8 +103,10 @@ translation:
 ```
 
 To add an image, put it in the repository root and write a line containing
-only `![Alt text](image.jpg)`. It renders as a full-width figure. Remember to
-commit the image file itself. Keep a chart's source files, such as SVG
+only `![Alt text](image.jpg)`. It renders as a full-width figure. To show it
+narrower and centered, add a width as a percentage of the column right after
+it: `![Alt text](image.png){width=50%}`. Remember to commit the image file
+itself. Keep a chart's source files, such as SVG
 originals and full-size exports, in `posts/images/<slug>/`. The page shows
 only the copy in the root.
 
