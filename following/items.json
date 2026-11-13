@@ -15,6 +15,76 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-13",
+   "kind": "podcast",
+   "person": "noah-smith",
+   "published": "2026-11-13",
+   "summary": "The 65th episode of Hexapodia.",
+   "title": "Brad and Noah discuss the reindustrialization of America",
+   "url": "https://www.noahpinion.blog/p/brad-and-noah-discuss-the-reindustrialization"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-13",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-13",
+   "summary": "Jensen Huang has resigned as CEO of Nvidia and left its board. CFO Colette Kress will be interim CEO. Here is a quick profile of Kress. Here is a look at some of the potential long term successors. There were …",
+   "title": "Jensen Huang Resigns After Having Another Affair In Addition to the Chinese Spy",
+   "url": "https://thezvi.wordpress.com/2026/11/13/jensen-huang-resigns-after-having-another-affair-in-addition-to-the-chinese-spy/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-13",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-13",
+   "summary": "— 1. Weighted inequalities — In the previous notes we have taken a linear or sublinear operator on a measure space and established mapping properties, such as These estimates reveal information about how the height and width of is controlled by the height and width of . However, these estimates do not indicate where the…",
+   "title": "247A, Notes 4: Weighted estimates and pseudodifferential operators",
+   "url": "https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-13",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-13",
+   "summary": "Federal AI at a glance 41 agencies · 3,611 reported use cases · OMB 2025 Inventory. Portfolio size reflects reporting, not performance. From Irakli Petriashvili of Tblisi, here is the site.",
+   "title": "The U.S. Federal AI Observatory",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-u-s-federal-ai-observatory.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-13",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-13",
+   "summary": "I appear on Ryan Bourne’s excellent new podcast, The Economics of It. We discuss The Economics of Rent Controls drawing on my essay, Rent Control: The Ceiling Trap. It’s a very good discussion. Here’s one bit (edited slightly to remove some ums for reading and to fix a date I got wrong from memory): RB:…",
+   "title": "The Economics of Rent Controls",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-rent-controls.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-13",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-12",
+   "summary": "One of the indisputable results in aging research is that caloric restriction (CR) increases lifespan. This was discovered in mice back in the 1930s, and in the decades since this result has been repeated many times and extended to a whole list of other species, and by that I mean from yeast all the way to primates. It’s an impressively broad result, but it has reason to be: individuals of all of…",
+   "title": "DNA Damage and Lifespan",
+   "url": "https://www.science.org/content/blog-post/dna-damage-and-lifespan"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-13",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-12",
+   "summary": "Tomorrow I head to Washington DC for a conference called The Takeoff. If you are there, do come say hello. I will be giving a talk on how to keep up with AI given a limited time budget. This week …",
+   "title": "AI #194: Spy Versus Guy",
+   "url": "https://thezvi.wordpress.com/2026/11/12/ai-194-spy-versus-guy/"
+  },
+  {
    "feed": "https://terrytao.wordpress.com/feed/",
    "first_seen": "2026-11-12",
    "kind": "post",
@@ -23,6 +93,26 @@
    "summary": "Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back…",
    "title": "Lean Grimoire",
    "url": "https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-13",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-12",
+   "summary": "1. New Texas A&M podcast: Economists Unscripted. 2. A new tool for AI-proof homework assignments. “It’s called https://deb8.tv — students get paired and have live video debates with one another.” 3. “The average French person believes there are 6.4 workers for every retiree. The real number is about 1.8.” 4. Sulfuric acid as a basic…",
+   "title": "Thursday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/thursday-assorted-links-578.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-13",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-12",
+   "summary": "",
+   "title": "My Barcelona talk on AI",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/my-barcelona-talk-on-ai.html"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -965,16 +1055,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/10/can-artificial-intelligence-forecast-treatment-effects-in-economics.html"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-29",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-29",
-   "summary": "We show that AI-generated article reviews are now better, by every measure we could construct, than reviews written by well-compensated human experts and judged to be of unusually high quality by journal editors and authors. We then discuss how this result may inform journal policy choices, with concerning downsides as well as potential paths to…",
-   "title": "AI dominates human peer reviews",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/ai-dominates-human-peer-reviews.html"
-  },
-  {
    "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-30",
    "kind": "post",
@@ -1053,36 +1133,6 @@
    "summary": "— 1. The Hilbert transform — In this set of notes we begin the theory of singular integral operators – operators which are almost integral operators, except that their kernel just barely fails to be integrable near the diagonal . (This is in contrast to, say, fractional integral operators such as , whose kernels go…",
    "title": "247A, Notes 3: Singular integral operators",
    "url": "https://terrytao.wordpress.com/2026/10/27/247a-notes-3-singular-integral-operators/"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-29",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-28",
-   "summary": "1. A new taxonomy of work, for the AI era. Thread here. 2. On Morel’s Invention (NYT). 3. Iranian brick architecture. 4. How do non-profits use cash windfalls? 5. The roots of earlier German industrial success. 6. Susquehanna Hat Company skit.",
-   "title": "Wednesday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/wednesday-assorted-links-577.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-29",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-28",
-   "summary": "Does generative AI narrow or widen productivity gaps in research? We study the distributional effects of AI on research productivity in economics using evidence from three sources: NBER working-paper and publication records, text-based measures of LLM-assisted writing, and an original survey of 227 academic economists measuring AI use across research tasks. We first show that…",
-   "title": "How is AI shaping economic research?",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/how-is-ai-shaping-economic-research.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-29",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-28",
-   "summary": "AI issues its judgment: 138 papers audited 2,035 problems found 147 serious enough to change a headline number 69% of papers have at least one 97% of major and moderate errors with a clear direction overstate the paper’s claim And on the method: Two independent audits of each paper. One by Claude Opus 5.5, one…",
-   "title": "Errors in the research of Emmanuel Saez and Gabriel Zucman",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/errors-in-the-research-of-emmanuel-saez-and-gabriel-zucman.html"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -2905,16 +2955,6 @@
    "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/"
   },
   {
-   "feed": "https://www.noahpinion.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "noah-smith",
-   "published": "2026-09-18",
-   "summary": "AI risk; AI and growth; AI and Saas; Rich people; Christians vs. Nazis; Japanese culture; State capacity; City size",
-   "title": "Roundup #88: Is it time to panic yet?",
-   "url": "https://www.noahpinion.blog/p/roundup-88-is-it-time-to-panic-yet"
-  },
-  {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -3103,16 +3143,6 @@
    "summary": "What if the effects of psilocybin extend far beyond the brain and into the biology of aging itself?In this episode of Longevity Science, I sit down with Dr. Louise Hecker and Dr. Kosuke Kato, whose unexpected research on psilocybin has opened up a fascinating new question: Could psilocybin actually influence longevity?Their work started with a simple experiment. Treat aging cells with psilocin…",
    "title": "Magic Mushrooms for Longevity? The Surprising Science of Psilocybin and Aging",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Magic-Mushrooms-for-Longevity--The-Surprising-Science-of-Psilocybin-and-Aging-e3oc6fb"
-  },
-  {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-10",
-   "summary": "Now here’s a biochemical weapon I hadn’t seen before. This recent paper reports a technique used by a particular bacteriophage (T7) against its bacterial targets. One of the proteins it codes for is a kinase (T7K) whose functions have not been well understood. You can say that again! These authors report that T7K actually is the most promiscuous kinase ever characterized, and it phosphorylates…",
-   "title": "Phosphorylate and Spare Not",
-   "url": "https://www.science.org/content/blog-post/phosphorylate-and-spare-not"
   },
   {
    "feed": "https://www.quantamagazine.org/computer-science/feed/",
@@ -3733,36 +3763,6 @@
    "summary": "Can brain stimulation slow the progression of Alzheimer's disease?For decades, Alzheimer's research has focused primarily on amyloid plaques and tau tangles. But what if those are downstream consequences rather than the root cause?In this episode of Longevity Science, I sit down with Ken Mariash, CEO of Sinaptica, to discuss a fundamentally different approach to Alzheimer's disease. Instead of…",
    "title": "A new treatment for Alzheimer's",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/A-new-treatment-for-Alzheimers-e3m502j"
-  },
-  {
-   "feed": "https://www.alexnowrasteh.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "alex-nowrasteh",
-   "published": "2026-07-15",
-   "summary": "Trump's own immigration czar says they are unnecessary",
-   "title": "Trump's order restarting ICE stops is dangerous",
-   "url": "https://www.alexnowrasteh.com/p/trumps-order-restarting-ice-stops"
-  },
-  {
-   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "matt-kaeberlein",
-   "published": "2026-07-15",
-   "summary": "Rapamycin has been called the most promising longevity drug ever discovered—and recently, some have claimed it's also one of the biggest disappointments.So which is it?In this deep dive, I separate evidence from hype and ask a simple question: Is rapamycin actually dead as a longevity intervention, or is the science stronger than ever?We explore what decades of research really tell us, from the…",
-   "title": "Is Rapamycin Dead?",
-   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Is-Rapamycin-Dead-e3m4dmh"
-  },
-  {
-   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "matt-kaeberlein",
-   "published": "2026-07-15",
-   "summary": "Protein is one of the most hotly debated topics in nutrition and longevity. Should you be eating more protein to preserve muscle as you age, or could reducing protein intake actually promote a longer, healthier life?In this episode of Longevity Science, I sit down with Cristal Hill, PhD, to explore what the science really says about protein restriction, aging, and the fascinating hormone FGF21…",
-   "title": "FGF21 and The Protein Paradox: Could Eating Less Help You Live Longer?",
-   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/FGF21-and-The-Protein-Paradox-Could-Eating-Less-Help-You-Live-Longer-e3m4d62"
   }
  ]
 }
