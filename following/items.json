@@ -16,6 +16,46 @@
  "items": [
   {
    "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-14",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-14",
+   "summary": "And it’s not *just* because I prefer the Democrats.",
+   "title": "I’m feeling more optimistic about American politics",
+   "url": "https://www.noahpinion.blog/p/im-feeling-more-optimistic-about"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-14",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-14",
+   "summary": "[This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post. -T.] Mathematics depends on our regular conversations with colleagues and with the wider public. They help us share ideas, deepen our collective understanding, see where the field stands, and decide what to explore next. They…",
+   "title": "Introducing MathHelm: A Place to discuss AI-generated papers",
+   "url": "https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-14",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-14",
+   "summary": "Aspirations have become a common theme in empirical economics studies but there is no unified understanding of the range of outcomes they influence, the factors that shape them, and how to measure them. We survey this growing literature. We argue that there is compelling evidence to consider aspirations as a useful lens to analyze human…",
+   "title": "The Power and Roots of Aspirations",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-power-and-roots-of-aspirations.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-14",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-14",
+   "summary": "This paper investigates the role of work in providing meaning, purpose, community, and other non-monetary benefits. Using an original cross-national survey of 8,234 working-age adults across the UK, US, Denmark, and India, I study the factors that motivate people in their work, with an eye toward the future AI economic transformation. I find that 81%…",
+   "title": "People like their jobs, even British people",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/people-like-their-jobs-even-british-people.html"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-13",
    "kind": "podcast",
    "person": "noah-smith",
@@ -23,6 +63,36 @@
    "summary": "The 65th episode of Hexapodia.",
    "title": "Brad and Noah discuss the reindustrialization of America",
    "url": "https://www.noahpinion.blog/p/brad-and-noah-discuss-the-reindustrialization"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-11-14",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-11-13",
+   "summary": "Why I now expect superintelligence by 2030",
+   "title": "The avalanche that hit math is coming for AI development",
+   "url": "https://www.dwarkesh.com/p/rsi"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-14",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-13",
+   "summary": "The Majority Leader of the House of Representatives announces bills that will be considered under suspension of the rules in that chamber. CBO estimates the effects of those bills on direct spending and revenues.",
+   "title": "Legislation considered under suspension of the Rules of the House of Representatives during the week of November 16, 2026",
+   "url": "https://www.cbo.gov/publication/62909"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-14",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-13",
+   "summary": "Letter to the Honorable Ron Johnson and the Honorable Jeff Merkley",
+   "title": "Preliminary Estimate of the Budgetary Effects of the Bipartisan American Affordability and Jobs Act of 2026, an Amendment in the Nature of a Substitute to H.R. 2347, the Survivor Justice Tax Prevention Act",
+   "url": "https://www.cbo.gov/publication/62908"
   },
   {
    "feed": "https://thezvi.wordpress.com/feed/",
@@ -63,6 +133,36 @@
    "summary": "I appear on Ryan Bourne’s excellent new podcast, The Economics of It. We discuss The Economics of Rent Controls drawing on my essay, Rent Control: The Ceiling Trap. It’s a very good discussion. Here’s one bit (edited slightly to remove some ums for reading and to fix a date I got wrong from memory): RB:…",
    "title": "The Economics of Rent Controls",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-rent-controls.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-14",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-13",
+   "summary": "1. Peru cancels the Moche sculptures for obscenity? 2. Claude translates from The Kalevela. 3. David Chalmers on AI speed-ups. 4. Cass Sunstein picks Bob Dylan’s best songs. 5. “Hobby dogging”? 6. Argentina worries and updates. 7. Jon Hartley podcast with James Heckman. 8. The world without Jensen? Good piece.",
+   "title": "Friday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/friday-assorted-links-599.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-14",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-13",
+   "summary": "From Luis Garicano and Alex Imas: Hence AI capabilities improved 1.91 times faster after October 2025, but R&D spending grew 6.19 times and the technical workforce 3.10 times. So measured capability gains per dollar fell by approximately 69%, and measured gains per technical employee-year decreased by 38%. These figures are accounting; nothing causal can be…",
+   "title": "Are we witnessing an intelligence explosion?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/are-we-witnessing-an-intelligence-explosion.html"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-11-14",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-11-13",
+   "summary": "Three October 2026 events involving Trajectory Labs, PBC, in which agents probed our site and impersonated staff. No private data was accessed.",
+   "title": "Incident report: AI agents attempted exploits on our website during a third-party alignment evaluation",
+   "url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -955,16 +1055,6 @@
    "url": "https://scottaaronson.blog/?p=10232"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-30",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-30",
-   "summary": "Scott Carlson did the work (gated, but free with registration), here is one excerpt: Cowen: …Another proposal I’ve made is that schools should let people do one class, only one class, AI-only — no professor, except a professor grades at the end. The professor grades not answers to an exam but the workflow of how…",
-   "title": "Chronicle of Higher Education interviews me on AI and education",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/chronicle-of-higher-education-interviews-me-on-ai-and-education.html"
-  },
-  {
    "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-31",
    "kind": "post",
@@ -1023,36 +1113,6 @@
    "summary": "Daniel Carter, Kevin O’Bryant, and I have uploaded to the arXiv our paper On the diameter and distribution of Sidon sets. This is a paper stemming from an interaction on my blog last year, regarding the use of AlphaEvolve to improve the then state of the art on the size of Sidon sets. We obtained…",
    "title": "On the diameter and distribution of Sidon sets",
    "url": "https://terrytao.wordpress.com/2026/10/28/on-the-diameter-and-distribution-of-sidon-sets/"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-30",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-29",
-   "summary": "1. “A whopping 79 NBA players are listed on today’s 2:30 PM injury report for tonight’s games. That’s roughly 15% of the entire league” This is just week one people! And some commentary. 2. Video making the case that AI has been fine for jobs. 3. John Repetti reviews The Rouse at Jacobin. 4. Is…",
-   "title": "Thursday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/thursday-assorted-links-576.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-29",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-29",
-   "summary": "From the Archives-written by ChatGPT. Both became dramatically more confident in AI’s capabilities while remaining optimistic about its economic potential. Their differences concern how benefits arrive, how seriously to weight emerging dangers, and whether AI might possess consciousness. Cowen emphasizes institutions, bottlenecks, and geopolitical competition. Tabarrok emphasizes inexpensive…",
-   "title": "How Tyler Cowen and Alex Tabarrok Have Changed Their Views on AI and Where They Disagree",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/how-tyler-cowen-and-alex-tabarrok-have-changed-their-views-on-ai.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-30",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-29",
-   "summary": "I use LLMs to forecast treatment effects of research studies pre-registered on the AEA RCT Registry and the Open Science Framework. I focus on studies whose results were first publicly released in 2026 and elicit forecasts from models whose training or knowledge cut-off dates were before the relevant set of papers was released. First, LLM…",
-   "title": "Can Artificial Intelligence Forecast Treatment Effects in Economics?",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/can-artificial-intelligence-forecast-treatment-effects-in-economics.html"
   },
   {
    "feed": "https://epoch.ai/atom.xml",
@@ -1713,16 +1773,6 @@
    "summary": "There is a newly leaked bill that Anthropic is purportedly shopping around is (if you assume its bugs get fixed). It is similar to the FRONTIER Act, with stronger preemption of state laws, stronger transparency provisions and weaker enforcement provisions. …",
    "title": "Leaked Anthropic Draft AI Regulatory Bill Is Unacceptable and Troubling",
    "url": "https://thezvi.wordpress.com/2026/10/17/leaked-anthropic-draft-ai-regulatory-bill-is-unacceptable-and-troubling/"
-  },
-  {
-   "feed": "https://terrytao.wordpress.com/feed/",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "terence-tao",
-   "published": "2026-10-17",
-   "summary": "As readers of this blog have no doubt noticed, I have recently turned over the majority of content on this blog to guest posts from other authors, either within the mathematics community or adjacent to it. In this post I record some content coming from my own talks and interviews in this time period. “The…",
-   "title": "Some of my recent talks and interviews",
-   "url": "https://terrytao.wordpress.com/2026/10/17/some-of-my-recent-talks-and-interviews/"
   },
   {
    "feed": "https://phillipspobrien.substack.com/feed",
@@ -2895,16 +2945,6 @@
    "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/"
   },
   {
-   "feed": "https://www.noahpinion.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "noah-smith",
-   "published": "2026-09-20",
-   "summary": "The trick is to let them beat themselves.",
-   "title": "How we can beat China",
-   "url": "https://www.noahpinion.blog/p/how-we-can-beat-china"
-  },
-  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3243,16 +3283,6 @@
    "summary": "Huawei plans major gains in AI chip performance by 2030, but US export controls cap its most important scaling levers. Epoch AI estimates Huawei will produce less than 4% as much AI compute as Nvidia in 2026, a share that could be around 1% by 2028 without access to foreign memory.",
    "title": "Will Huawei catch up to Nvidia by 2030?",
    "url": "https://epoch.ai/publications/huaweis-roadmap-to-2031"
-  },
-  {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-09-04",
-   "summary": "Since mid-2024, the record for the largest AI data center by IT power capacity has doubled every ten months. Epoch AI's analysis of frontier data center power trends through 2028.",
-   "title": "The record for power capacity in a single data center has doubled every 10 months",
-   "url": "https://epoch.ai/data-insights/frontier-data-center-power"
   },
   {
    "feed": "https://anneapplebaum.substack.com/feed",
@@ -3753,16 +3783,6 @@
    "summary": "Trump solidifying his reputation as the most anti-legal immigration admin ever.",
    "title": "Trump’s New Anti-Legal Immigration Rules Target Students, Spouses of US Citizens",
    "url": "https://www.alexnowrasteh.com/p/trumps-new-anti-legal-immigration"
-  },
-  {
-   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "matt-kaeberlein",
-   "published": "2026-07-16",
-   "summary": "Can brain stimulation slow the progression of Alzheimer's disease?For decades, Alzheimer's research has focused primarily on amyloid plaques and tau tangles. But what if those are downstream consequences rather than the root cause?In this episode of Longevity Science, I sit down with Ken Mariash, CEO of Sinaptica, to discuss a fundamentally different approach to Alzheimer's disease. Instead of…",
-   "title": "A new treatment for Alzheimer's",
-   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/A-new-treatment-for-Alzheimers-e3m502j"
   }
  ]
 }
