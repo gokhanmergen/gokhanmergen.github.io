@@ -15,6 +15,16 @@
  },
  "items": [
   {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-15",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-15",
+   "summary": "In a “weak links” model of production, where tasks are complements, the gains from automation tend to arrive slowly because output is constrained by the least productive tasks. But the same complementarity makes attacks more harmful and easier to execute. For example, with an elasticity of substitution across tasks of 0.2, automating tasks worth 1…",
+   "title": "AI and complements",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/ai-and-complements.html"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-14",
    "kind": "post",
@@ -35,6 +45,16 @@
    "url": "https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/"
   },
   {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-11-15",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-11-14",
+   "summary": "What actually works in longevity medicine, and how do we separate meaningful interventions from expensive tests, questionable treatments, and hype?In this special episode of Longevity Science, recorded live at Eudēmonia 2026, Dr. Matt Kaeberlein sits down with Dr. Amy Killen and Dr. Kevin White for an informal, candid, and occasionally humorous conversation about the rapidly evolving world of…",
+   "title": "Longevity Medicine Unfiltered: What Actually Works? | Amy Killen & Kevin White",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Longevity-Medicine-Unfiltered-What-Actually-Works---Amy-Killen--Kevin-White-e3scf1b"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-14",
    "kind": "post",
@@ -53,6 +73,16 @@
    "summary": "This paper investigates the role of work in providing meaning, purpose, community, and other non-monetary benefits. Using an original cross-national survey of 8,234 working-age adults across the UK, US, Denmark, and India, I study the factors that motivate people in their work, with an eye toward the future AI economic transformation. I find that 81%…",
    "title": "People like their jobs, even British people",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/people-like-their-jobs-even-british-people.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-15",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-13",
+   "summary": "A number of people have asked me about Anthropic’s Dario Amodei and his statement in a recent video presentation that’s part of the runup to their planned IPO). He says (and he’s said stuff like this before) that “. . .cancer, Alzheimer's, heart disease, mental illness — these will be relics of the past in, I think, less than a decade”. In the same way that he (and others) have said things like…",
+   "title": "Stop It. Just Stop It.",
+   "url": "https://www.science.org/content/blog-post/stop-it-just-stop-it"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -993,16 +1023,6 @@
    "summary": "Boooooo! What spooooky times we now live in, with AI rapidly advancing in capabilities and solving more and more major open math problems! So it seems like a perfect occasion to share yet another podcast. I know I’ve been dropping them like every day, but this is a special one, with Brian Greene for his…",
    "title": "Podcasts about the Topic: Part III, with Brian Greene",
    "url": "https://scottaaronson.blog/?p=10270"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-10-31",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-10-31",
-   "summary": "Researchers, I just uploaded a prominent QJE paper on climate change economics to @RefineDotInk and I loaded my critique of the paper. I asked the AI to offer an impartial verdict. I will make this report public. A new journal could collect these into “Special Issues”. That is from Matthew E. Kahn.",
-   "title": "And so it begins…",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/10/and-so-it-begins-2.html"
   },
   {
    "feed": "https://www.dwarkesh.com/feed",
@@ -3135,16 +3155,6 @@
    "url": "https://www.alexnowrasteh.com/p/911s-visa-vetting-failures-were-fixed"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-11",
-   "summary": "I often say that I think that antibody design is one of the better use cases for AI drug discovery at present, because you start with a lot of inherent advantages: antibodies as a class are evolutionarily optimized for long plasma half-lives, and the long list of approved antibody drugs shows you that success is out there to be had. But this is a relative scale! I still believe that antibodies…",
-   "title": "The State of AI Antibody Design",
-   "url": "https://www.science.org/content/blog-post/state-ai-antibody-design"
-  },
-  {
    "feed": "https://www.dwarkesh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -3773,16 +3783,6 @@
    "summary": "Montana has passed one of the most significant Right to Try laws in the United States—but what does it actually do?In this first episode of my new Longevity Policy series, I sit down with Stephen Martin, U.S. Lead at Infinita, to unpack Montana's new experimental treatment framework and what it could mean for patients, physicians, biotech companies, and the future of longevity medicine.Setup and…",
    "title": "The Truth About Montana's Right to Try Law",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Truth-About-Montanas-Right-to-Try-Law-e3m8730"
-  },
-  {
-   "feed": "https://www.alexnowrasteh.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "alex-nowrasteh",
-   "published": "2026-07-17",
-   "summary": "Trump solidifying his reputation as the most anti-legal immigration admin ever.",
-   "title": "Trump’s New Anti-Legal Immigration Rules Target Students, Spouses of US Citizens",
-   "url": "https://www.alexnowrasteh.com/p/trumps-new-anti-legal-immigration"
   }
  ]
 }
