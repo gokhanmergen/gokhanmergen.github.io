@@ -14,6 +14,22 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>San Francisco: the Cyberpunk City</title>
+      <link>https://www.gokhanmergen.com/blog-san-francisco-cyberpunk-city.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-san-francisco-cyberpunk-city.html</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Culture / AI</category>
+      <description>Is San Francisco an ultimate glimpse of our upcoming “Cyberpunk” future?</description>
+      <blog:readTime>5 min read</blog:readTime>
+      <content:encoded>&lt;p&gt;Stand near Market Street in San Francisco at dusk, and the future arrives without a sound. A sleek, white Jaguar I-PACE glides through the intersection with no one behind the wheel. Its roof-mounted LiDAR sensors spin frantically, painting the surrounding streetscape in millions of invisible laser points and calculating trajectories through a dense neural network.&lt;/p&gt;
+&lt;p&gt;Just ten feet away, trash blows across the concrete where unhoused residents are slumped over on the sidewalk in the shadow of luxury high-rises. Across the street, a private security guard in a tactical vest stands watch outside the doors of a Carl&amp;#x27;s Jr., regulating access to fast food. Meanwhile, a few blocks away inside air-conditioned, badge-restricted offices, an aristocrat class of twenty-something engineers making seven-figure salaries is earnestly attempting to build Artificial General Intelligence—a literal machine god.&lt;/p&gt;
+&lt;h2&gt;The Aesthetic: Neon vs. Patagonia&lt;/h2&gt;
+&lt;p&gt;Thanks to visual masterpieces like &lt;em&gt;Blade Runner&lt;/em&gt;, &lt;em&gt;Akira&lt;/em&gt;, and &lt;em&gt;Cyberpunk 2077&lt;/em&gt;, pop culture has reduced cyberpunk to a visual mood board. We expect endless night, torrential acid rain, Japanese kanji glowing in hot pink and cyan, and a brooding anti-hero smoking a synthetic cigarette.&lt;/p&gt;
+&lt;p&gt;San Francisco, by contrast, is brightly lit, perpetually blanketed in soft coastal fog, and architecturally defined by pastel Painted Ladies and glass-and-steel office parks. Its ruling class doesn’t wear high-collared cyber-trench coats; they wear Patagonia fleece vests, Allbirds, and Apple Watches.&lt;/p&gt;
+&lt;p&gt;Because the city looks more like a sprawling corporate campus collided with a 19th-century Gold Rush town, people miss what is happening beneath the surface. Strip away the neon veneer of the genre, and you find the foundational definition coined by sci-fi writer Bruce Sterling in the 1980s: &lt;strong&gt;&amp;quot;&lt;em&gt;High tech, low life.&lt;/em&gt;&amp;quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cyberpunk was never about how cool the lights looked. It was a sociological warning about what happens when exponential technological advancement occurs alongside the total collapse of the social safety net. It is about the friction between god-like technological power and raw, unmitigated human despair. By that metric, San Francisco isn&amp;#x27;t just cyberpunk—it is the capital of it.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>What Will You Build Today?</title>
       <link>https://www.gokhanmergen.com/blog-what-will-you-build-today.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-what-will-you-build-today.html</guid>
