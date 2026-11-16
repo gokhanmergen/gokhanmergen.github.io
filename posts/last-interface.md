@@ -4,7 +4,7 @@ date: 2026-11-15
 time: 19:00
 category: Work / AI
 read_time: 7 min read
-title: The Last Interface
+title: The Last User Interface
 deck: How AI is becoming the operating system of human intent.
 archive_deck: How AI is becoming the operating system of human intent.
 ---
