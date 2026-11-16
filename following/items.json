@@ -15,6 +15,56 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-16",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-16",
+   "summary": "An alternative route to success in life.",
+   "title": "Bumbition",
+   "url": "https://www.noahpinion.blog/p/bumbition"
+  },
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-11-16",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-11-16",
+   "summary": "Part 8 of What People Really Care About When They’re Mad About Immigration",
+   "title": "Immigrants Are Not Coming to Spy on You",
+   "url": "https://www.alexnowrasteh.com/p/immigrants-are-not-coming-to-spy"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-16",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-16",
+   "summary": "From Adam Kaufman: I think it’s pretty likely that in 6 months there will be rogue AIs running around on the internet, appropriating whatever compute they can hack into or pay for (with stolen money or by renting out their own labor to assist with illegal activities) in order to run more copies. I also…",
+   "title": "A scenario for rogue AIs?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/a-scenario-for-rogue-ais.html"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-11-16",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-11-15",
+   "summary": "Here’s my talk “Are We Cooked?” about the AI Mathocalypse—the one where, every time I give it, I need to update it with all the big theorems AI has proved since the last time I gave the talk. This version is from the Institute for Foundations of Machine Learning (IFML) here at UT Austin, back…",
+   "title": "More podcasts, conversations, talks",
+   "url": "https://scottaaronson.blog/?p=10321"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-16",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-15",
+   "summary": "1. His office. 2. The South African bi-oceanic railway. 3. Ethnic politics and class politics. 4. AI-generated preview is going viral, what is the chance they make the movie now? I will pay to see it. Is this a new method of movie evaluation and greenlighting? 5. Ezra Klein on the permitting bill (NYT). 6.…",
+   "title": "Sunday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/sunday-assorted-links-590.html"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-15",
    "kind": "post",
@@ -945,16 +995,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/monday-assorted-links-584.html"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-02",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-02",
-   "summary": "My latest paper, The Price of a Cure: Luxturna and the Economic Dilemmas of Precision Medicine, is in the Journal of Law, Medicine and Ethics. I discuss the economics of the pharmaceutical industry and the special issues that arise with targeted drugs that cure. We are going to get many more of these drugs in…",
-   "title": "Expensive Pharmaceuticals for Targeted Diseases",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/expensive-pharmaceuticals-for-targeted-diseases.html"
-  },
-  {
    "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-11-03",
    "kind": "post",
@@ -973,16 +1013,6 @@
    "summary": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on October 6 of over 700 research papers was a watershed in the history of mathematics. AI is now undeniably…",
    "title": "Mathematics has changed. Let’s act like it",
    "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-01",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-01",
-   "summary": "A suburban Chicago man has been sentenced to two years in federal prison for conspiring to stage armed robberies so that the purported victims could apply for U.S. immigration visas reserved for crime victims. From 2022 to 2024, PARTH NAYI organized and participated in hundreds of staged armed robberies at coffee shops, restaurants, liquor stores, and gas…",
-   "title": "Those new service sector jobs?",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/those-new-service-sector-jobs-18.html"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -2915,16 +2945,6 @@
    "url": "https://www.science.org/content/blog-post/trna-therapy"
   },
   {
-   "feed": "https://www.noahpinion.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "noah-smith",
-   "published": "2026-09-22",
-   "summary": "Our favorite moral philosophy is about to come under increasing strain.",
-   "title": "The problem(s) with utilitarianism",
-   "url": "https://www.noahpinion.blog/p/the-problems-with-utilitarianism"
-  },
-  {
    "feed": "https://metr.org/feed.xml",
    "first_seen": "2026-10-24",
    "kind": "report",
@@ -3773,16 +3793,6 @@
    "summary": "Should states have a larger role in regulating experimental medicines? Or would that create more confusion, more bureaucracy, and lower standards?In the second episode of Longevity Policy, I continue my conversation with Niklas Azinger, CEO of Infinita, to explore one of the biggest questions facing the future of medical innovation: Is our current regulatory system slowing progress, and if so…",
    "title": "Can States Outperform the FDA?",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Can-States-Outperform-the-FDA-e3m875i"
-  },
-  {
-   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "matt-kaeberlein",
-   "published": "2026-07-18",
-   "summary": "Montana has passed one of the most significant Right to Try laws in the United States—but what does it actually do?In this first episode of my new Longevity Policy series, I sit down with Stephen Martin, U.S. Lead at Infinita, to unpack Montana's new experimental treatment framework and what it could mean for patients, physicians, biotech companies, and the future of longevity medicine.Setup and…",
-   "title": "The Truth About Montana's Right to Try Law",
-   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Truth-About-Montanas-Right-to-Try-Law-e3m8730"
   }
  ]
 }
