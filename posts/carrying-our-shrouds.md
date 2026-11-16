@@ -170,8 +170,6 @@ More appreciative of an ordinary afternoon when absolutely nothing remarkable ha
 
 In a strange way, the awareness of death can make everyday life feel more valuable.
 
-![An illustration titled “We Set Out Carrying Our Shrouds: On Mortality, Legacy, and the Cycle of Life”: people of every age walk winding trails through green hills between a rising and a setting sun, each carrying a rolled white bundle in their pack. A father walks with two small children, a mother and child plant a sapling, friends play guitar by a campfire, an elderly couple stroll arm in arm, and an old man hands a lantern to a younger traveler. A wooden signpost reads “Biz kefenemizi alıp da çıktık yola,” and a banner at the bottom reads “We might as well enjoy the journey.”](carrying-our-shrouds.jpg)
-
 ## The Difference Between Being Depressed and Being Aware
 
 I think there's an important distinction between dwelling on mortality and understanding it.
@@ -231,3 +229,5 @@ After all, we set out carrying our shrouds.
 We might as well enjoy the journey.
 
 *Inspired by a conversation about a [YouTube video](https://www.youtube.com/watch?v=idW9ZON1a0o), the lives of people we follow online.*
+
+![An illustration titled “We Set Out Carrying Our Shrouds: On Mortality, Legacy, and the Cycle of Life”: people of every age walk winding trails through green hills between a rising and a setting sun, each carrying a rolled white bundle in their pack. A father walks with two small children, a mother and child plant a sapling, friends play guitar by a campfire, an elderly couple stroll arm in arm, and an old man hands a lantern to a younger traveler. A wooden signpost reads “Biz kefenemizi alıp da çıktık yola,” and a banner at the bottom reads “We might as well enjoy the journey.”](carrying-our-shrouds.jpg)
