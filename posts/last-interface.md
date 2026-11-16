@@ -124,7 +124,7 @@ Yet this creates a profound platform dilemma. Even if open standards like MCP ma
 
 ## The Next Platform War Is Already Underway
 
-Anthropic's recent moves are part of a broader collision among technology's heaviest hitters. [OpenAI's ChatGPT Work](https://openai.com/index/chatgpt-for-your-most-ambitious-work/) is pushing aggressively into multi-step project execution across files and workflows. Google is leveraging its massive distribution across Workspace, Android, and cloud infrastructure. Microsoft is fusing its operating system dominance, enterprise software catalog, and cloud footprint into an ubiquitous copilot layer.
+Anthropic's recent moves are part of a broader collision among technology's heaviest hitters. [OpenAI's ChatGPT Work](https://openai.com/index/chatgpt-for-your-most-ambitious-work/) is pushing aggressively into multi-step project execution across files and workflows. Google is leveraging its massive distribution across Workspace, Android, and cloud infrastructure. Microsoft is fusing its operating system dominance, enterprise software catalog, and cloud footprint into a ubiquitous copilot layer.
 
 Each contender is attacking from a different vantage point, but their strategic North Star is identical: **become the default place where humans express what they want to accomplish.**
 
@@ -138,7 +138,7 @@ Standing between this vision and reality is a single, massive hurdle: trust.
 
 An AI that hallucinates a fact in a chat window is a minor annoyance. An AI that acts on a hallucination across your enterprise systems is a liability. It can send fabricated commitments to clients, corrupt financial ledgers, approve unauthorized expenditures, leak proprietary data, or take down production infrastructure. As AI transitions from an advisor to an actor, the cost of failure scales exponentially.
 
-The same peril applies to organizational memory. An AI that faithfully recalls the nuances of a past strategy session is an asset; an AI that enshrining an employee's offhand speculation as binding company policy is a hazard. A system that tracks agreed-upon deliverables reduces friction; a system that crosses into ambient workplace surveillance destroys culture.
+The same peril applies to organizational memory. An AI that faithfully recalls the nuances of a past strategy session is an asset; an AI that enshrines an employee's offhand speculation as binding company policy is a hazard. A system that tracks agreed-upon deliverables reduces friction; a system that crosses into ambient workplace surveillance destroys culture.
 
 For the AI operating layer to succeed, it cannot merely be capable—it must be governable. It requires cryptographic identity verification, granular role-based permissions, immutable audit trails, clear citations of evidence, human-in-the-loop approval gates, and instant rollback mechanisms. It demands systems that clearly distinguish between verified facts, probabilistic inferences, and speculative recommendations.
 
