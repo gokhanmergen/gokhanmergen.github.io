@@ -1,19 +1,56 @@
 {
- "failing": {
-  "https://anneapplebaum.substack.com/feed": {
-   "since": "2026-10-24"
-  },
-  "https://erictopol.substack.com/feed": {
-   "since": "2026-10-24"
-  },
-  "https://phillipspobrien.substack.com/feed": {
-   "since": "2026-10-24"
-  },
-  "https://snyder.substack.com/feed": {
-   "since": "2026-10-24"
-  }
- },
+ "failing": {},
  "items": [
+  {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-11-17",
+   "summary": "Immigrants have reduced federal, state, and local government deficits every year for the last 124 years by a cumulative $14.6 trillion.",
+   "title": "Cato Study: Immigrants Are Twice as Fiscally Positive Today as in the Early 20th Century",
+   "url": "https://www.alexnowrasteh.com/p/cato-study-immigrants-are-twice-as"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-17",
+   "summary": "A Vital Section Of The Kerch Bridge Is Down",
+   "title": "The Ukrainian Strategic Air Campaign On Russian Oil Is Maturing: A Primer",
+   "url": "https://phillipspobrien.substack.com/p/the-ukrainian-strategic-air-campaign"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-17",
+   "summary": "1. Luka has become a very good player. Defense is much better too. 2. No comment. 3. Did England bribe Scotland into political union? 4. Survey article on the economics of mental health, one of the most important and understudied areas. 5. Science isn’t just a series of lucky accidents. 6. Kalshi five-year productivity growth…",
+   "title": "Tuesday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/tuesday-assorted-links-595.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-17",
+   "summary": "Most of my assessment is very positive, but I will excerpt this bit from my latest Free Press piece: Finally, the company was not built to withstand Huang’s departure. Too much authority and knowledge were concentrated in his hands, as evidenced by his practice of having about 60 different people reporting directly to him. Whatever…",
+   "title": "The economics of Jensen Huang",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-jensen-huang.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-17",
+   "summary": "In both German and English. Built with AI agents, we are going to see much more of this kind of effort. English-language explainer is here.",
+   "title": "Adlerlicht, reporting on crime in Germany",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/adlerlicht-reporting-on-crime-in-germany.html"
+  },
   {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-16",
@@ -23,6 +60,36 @@
    "summary": "An alternative route to success in life.",
    "title": "Bumbition",
    "url": "https://www.noahpinion.blog/p/bumbition"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-11-16",
+   "summary": "Watch now (99 mins) | \"It would be hard for humanity to recover.\"",
+   "title": "Paul Christiano – We could be 12 months away from AIs that can overthrow the government",
+   "url": "https://www.dwarkesh.com/p/paul-christiano-2"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-17",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-16",
+   "summary": "Phillip Swagel's second term as CBO's Director ends in January, and he will then return to his faculty position at the University of Maryland.",
+   "title": "A Privilege to Lead CBO",
+   "url": "https://www.cbo.gov/publication/62910"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-17",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-16",
+   "summary": "In CBO's estimation, activities funded by the Health Care Fraud and Abuse Control account generate a substantial return on investment in the form of recoveries to the government and reduced spending.",
+   "title": "CBO's Estimates of the Budgetary Effects of Increasing Funding for the Health Care Fraud and Abuse Control Account",
+   "url": "https://www.cbo.gov/publication/62886"
   },
   {
    "feed": "https://www.alexnowrasteh.com/feed",
@@ -35,6 +102,26 @@
    "url": "https://www.alexnowrasteh.com/p/immigrants-are-not-coming-to-spy"
   },
   {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-16",
+   "summary": "You do not always want a bazooka. Sometimes, though, you absolutely want a bazooka. That’s what Claude Fable 5.2 is for. This is your bazooka. For most purposes, for a thousand household uses, Claude Fable 5.2 will not be appreciably …",
+   "title": "Fable 5.2 is the New Bazooka",
+   "url": "https://thezvi.wordpress.com/2026/11/16/fable-5-2-is-the-new-bazooka/"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-11-17",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-11-16",
+   "summary": "Summary Models sometimes can tell that an eval is an alignment eval, not a capabilities eval (Needham & Edkins, 2025) . To figure out what features of an eval tell a model what kind of eval it’s in, we run investigator agents on a set of evals for both capabilities and alignment. We instruct these agents to explore the environment and probe what it’s evaluating. We find that investigator agents…",
+   "title": "Measuring alignment eval tells",
+   "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-16",
    "kind": "post",
@@ -45,6 +132,26 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/a-scenario-for-rogue-ais.html"
   },
   {
+   "feed": "https://jack-clark.net/feed/",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-11-16",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are getting good at sub-contracting to make themselves better:…AI can now productively spend money to improve itself…Researchers have developed FrontierML, a benchmark “that measures…",
+   "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+   "url": "https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development/"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-15",
+   "summary": "A beautiful, critical memoir that clarifies American history",
+   "title": "On “Backtalker” with Kimberlé Crenshaw",
+   "url": "https://snyder.substack.com/p/on-backtalker-with-kimberle-crenshaw"
+  },
+  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-11-16",
    "kind": "post",
@@ -53,6 +160,16 @@
    "summary": "Here’s my talk “Are We Cooked?” about the AI Mathocalypse—the one where, every time I give it, I need to update it with all the big theorems AI has proved since the last time I gave the talk. This version is from the Institute for Foundations of Machine Learning (IFML) here at UT Austin, back…",
    "title": "More podcasts, conversations, talks",
    "url": "https://scottaaronson.blog/?p=10321"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-15",
+   "summary": "Russian Losses Are Being Revised Upwards; Starlink/Starshield Is Limited Again",
+   "title": "Weekend Update #211: The Week In Which Stupidity Battled Evil",
+   "url": "https://phillipspobrien.substack.com/p/weekend-update-211-the-week-in-which"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -75,6 +192,16 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/ai-and-complements.html"
   },
   {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-11-15",
+   "summary": "Prof Joanna Chikwe is Chair of the Department of Cardiac Surgery in the Smidt Heart Institute at Cedars-Sinai, one of the top heart centers in the United States, and a Professor at UCLA School of Medicine. She is also Editor-in-Chief of the Annals of Thoracic Surgery, the field’s most prestigious peer review journal. This year she was Chair of the Scientific Sessions of the 99th Annual Meeting of…",
+   "title": "Jo Chikwe: A Renowned Cardiac Surgeon, on Leadership, Diversity, And Much More",
+   "url": "https://erictopol.substack.com/p/jo-chikwe-a-renowned-cardiac-surgeon"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-14",
    "kind": "post",
@@ -95,6 +222,16 @@
    "url": "https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-14",
+   "summary": "From a new series of long, unscripted conversations with the Democratic majority",
+   "title": "Now We Act: With Senator Richard Blumenthal on the Opportunity of a Lifetime",
+   "url": "https://snyder.substack.com/p/now-we-act-with-senator-richard-blumenthal"
+  },
+  {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
    "first_seen": "2026-11-15",
    "kind": "podcast",
@@ -103,6 +240,16 @@
    "summary": "What actually works in longevity medicine, and how do we separate meaningful interventions from expensive tests, questionable treatments, and hype?In this special episode of Longevity Science, recorded live at Eudēmonia 2026, Dr. Matt Kaeberlein sits down with Dr. Amy Killen and Dr. Kevin White for an informal, candid, and occasionally humorous conversation about the rapidly evolving world of…",
    "title": "Longevity Medicine Unfiltered: What Actually Works? | Amy Killen & Kevin White",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Longevity-Medicine-Unfiltered-What-Actually-Works---Amy-Killen--Kevin-White-e3scf1b"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-14",
+   "summary": "De-fund Trump’s War And Cut Defense Spending. Both Will Make The USA Safer.",
+   "title": "It Is Time For Democrats To Cross The Rubicon Of Appropriations",
+   "url": "https://phillipspobrien.substack.com/p/it-is-time-for-democrats-to-cross"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -195,6 +342,16 @@
    "url": "https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-13",
+   "summary": "The latest from the Now We Act series",
+   "title": "Now We Act: With Senator Andy Kim on Health and Democracy",
+   "url": "https://snyder.substack.com/p/now-we-act-with-senator-andy-kim"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-13",
    "kind": "post",
@@ -275,6 +432,26 @@
    "url": "https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-12",
+   "summary": "A recording from Timothy Snyder's live video",
+   "title": "Now We Act: With Senator Mark Kelly on Security and Freedom",
+   "url": "https://snyder.substack.com/p/now-we-act-with-senator-mark-kelly"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-12",
+   "summary": "Yes, Midterm Elections Matter And This One Could Reshape The Middle East.",
+   "title": "Midweek Update #34 , The New Motto Of The US Military: To The Victor Goes The Spoils!",
+   "url": "https://phillipspobrien.substack.com/p/weekend-update-34-the-new-motto-of"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-13",
    "kind": "post",
@@ -325,6 +502,16 @@
    "url": "https://thezvi.wordpress.com/2026/11/11/fable-and-mythos-5-2-the-system-card/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-11",
+   "summary": "And a little bit of health, science, and baseball",
+   "title": "Live with Senator Tammy Baldwin on Recovery",
+   "url": "https://snyder.substack.com/p/live-with-senator-tammy-baldwin-on"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-12",
    "kind": "post",
@@ -333,6 +520,16 @@
    "summary": "1. “We were discussing this today in office: future paper is 5 pages (what’s question, where is lit now very briefly, what do we do, what do we find), with all details left to a long appendix, hyperlinked, with rigorous AI review. We would read many more papers in that world! Agree?” Kevin Bryan. 2.…",
    "title": "Wednesday assorted links",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-579.html"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-11-11",
+   "summary": "The restoration and repair of our democracy has to start now",
+   "title": "How do we fix it?",
+   "url": "https://anneapplebaum.substack.com/p/how-do-we-fix-it"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -375,6 +572,16 @@
    "url": "https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-10",
+   "summary": "On authoritarianism, defining moments, and what is to come",
+   "title": "Now We Act: With Senator Chris Van Hollen on Leadership",
+   "url": "https://snyder.substack.com/p/now-we-act-with-senator-chris-van"
+  },
+  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-11-11",
    "kind": "post",
@@ -393,6 +600,16 @@
    "summary": "Why do Great Danes typically live much shorter lives than Chihuahuas? Do larger dogs actually age faster, or do they simply die younger?In this special presentation from the Animal Longevity Summit (ALOS), Dr. Noah Snyder-Mackler explores these questions through groundbreaking new research from the Dog Aging Project, recently published in Science.In his lecture, \"Epigenetic Mechanisms of…",
    "title": "The Epigenetic Secret Behind Why Big Dogs Age Faster",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Epigenetic-Secret-Behind-Why-Big-Dogs-Age-Faster-e3s45vm"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-10",
+   "summary": "Can Europe Resist Until January?",
+   "title": "Trump Is Feeling The Pressure To Help Putin Now",
+   "url": "https://phillipspobrien.substack.com/p/trump-is-feeling-the-pressure-to"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -423,6 +640,16 @@
    "summary": "Maybe so: We study the statistical credibility of randomized controlled trials (RCTs) in development economics and the optimal allocation of resources to replication. Using 745 principal-hypothesis tests from 190 articles in leading economics journals, we find that actual t-statistics peak well below the theoretical benchmark of 2.8 expected under 80 percent power, though above values…",
    "title": "Are RCTs underpowered?",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/are-rcts-underpowered.html"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-11-10",
+   "summary": "A recording from Eric Topol's live video with annotations below",
+   "title": "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
+   "url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -555,6 +782,46 @@
    "url": "https://terrytao.wordpress.com/2026/11/08/what-should-we-teach-our-undergraduate-students/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-08",
+   "summary": "How to turn victory into transformation?",
+   "title": "Now We Act: With Senator Tina Smith on Unrigging the System",
+   "url": "https://snyder.substack.com/p/now-we-act-with-senator-tina-smith"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-08",
+   "summary": "The latest from our new series with the Democratic majority on political transformation",
+   "title": "Now We Act: With Senator Maggie Hassan on Responsive Democracy",
+   "url": "https://snyder.substack.com/p/now-we-act-with-senator-maggie-hassan"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-08",
+   "summary": "A conversation from our new series with elected representatives",
+   "title": "Now We Act: With Rep. Madeleine Dean on Language and Power",
+   "url": "https://snyder.substack.com/p/now-we-act-with-rep-madeleine-dean"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-08",
+   "summary": "A recording from our new series of conversations about US transformation",
+   "title": "Now We Act: With Rep. Greg Casar on Passing Great Laws",
+   "url": "https://snyder.substack.com/p/now-we-act-with-rep-greg-casar-on"
+  },
+  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-11-08",
    "kind": "post",
@@ -563,6 +830,16 @@
    "summary": "The “For Dummies” Version (apologies for not including this earlier): We now, of course, live in age where longstanding open problems in quantum computing theory (and all theoretical computer science, and all math) are dropping like flies, to the extent that there’s no way I could possibly do a post on each and every bombshell.…",
    "title": "Aaronson-Ambainis Conjecture proved! (By AI, of course)",
    "url": "https://scottaaronson.blog/?p=10295"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-08",
+   "summary": "US Midterm Results, How Much Will things now Change?",
+   "title": "Weekend Update #210: Trump Has Stood Between Ukraine And Military Success",
+   "url": "https://phillipspobrien.substack.com/p/weekend-update-207-trump-has-stood"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -585,6 +862,26 @@
    "url": "https://www.noahpinion.blog/p/why-im-becoming-a-china-bear"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-07",
+   "summary": "A recording from Timothy Snyder's live video",
+   "title": "Now We Act: With Rep. Seth Magaziner on Ethics and Reform",
+   "url": "https://snyder.substack.com/p/now-we-act-with-rep-seth-magaziner"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-07",
+   "summary": "A recording from “Now We Act,” a new series with elected officials on Thinking About...",
+   "title": "Now We Act: With Rep. Ro Khanna on America’s Future",
+   "url": "https://snyder.substack.com/p/now-we-act-with-rep-ro-khanna-on"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-08",
    "kind": "post",
@@ -593,6 +890,16 @@
    "summary": "1. Simon Winchester, RIP (NYT). 2. Pork roll vs. Taylor Ham, a NJ map. 3. Those new service sector jobs, Bradford edition. 4. “New assessment of the greatest of all time: Antarctic blue whales, showing how whaling reduced them from >200,000 to a low of just 418 before slow recovery at 4.5% per year to…",
    "title": "Saturday assorted links",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/saturday-assorted-links-585.html"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "anne-applebaum",
+   "published": "2026-11-07",
+   "summary": "A recording from Anne Applebaum and John Harwood's live video",
+   "title": "Anne Applebaum",
+   "url": "https://anneapplebaum.substack.com/p/anne-applebaum"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -623,6 +930,16 @@
    "summary": "Pavel Etingof, “Use of AI in Mathematical Research: A Guide for Young Mathematicians” Anna Gilbert, “Math qua math“ Anna Gilbert, “Mathematical criticism“ Larry Guth, “What math means to me“ Atoosa Kasirzadeh, “A New Dawn For Mathematical Progress“ As in previous posts, readers are invited to post links to additional articles in the comments.",
    "title": "More posts",
    "url": "https://terrytao.wordpress.com/2026/11/06/more-posts/"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-06",
+   "summary": "Are you ready Democrats?",
+   "title": "Trump is going Full Putin with the Miller Appointment",
+   "url": "https://phillipspobrien.substack.com/p/trump-is-going-full-putin-with-the"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -705,6 +1022,16 @@
    "url": "https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "timothy-snyder",
+   "published": "2026-11-05",
+   "summary": "American elected officials speaking live here on Thinking About...",
+   "title": "Now We Act -- a new series",
+   "url": "https://snyder.substack.com/p/now-we-act-a-new-series"
+  },
+  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-11-06",
    "kind": "post",
@@ -723,6 +1050,16 @@
    "summary": "What if a gene variant found in people who live past 100 could help us develop therapies to slow aging?In this episode of Longevity Science, I sit down with Dr. Eric Leire, CEO of Genflow Biosciences, to explore the science behind SIRT6, a gene involved in DNA repair, metabolism, and several fundamental processes associated with aging.Eric and I discuss Genflow's approach to delivering a human…",
    "title": "Can a Centenarian Gene Slow Aging? The SIRT6 Gene Therapy Story",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Can-a-Centenarian-Gene-Slow-Aging--The-SIRT6-Gene-Therapy-Story-e3rkels"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-05",
+   "summary": "Hello All,",
+   "title": "The Biggest Winners From The Midterms",
+   "url": "https://phillipspobrien.substack.com/p/the-biggest-winners-from-the-midterms"
   },
   {
    "feed": "https://metr.org/feed.xml",
@@ -825,6 +1162,16 @@
    "url": "https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/"
   },
   {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-04",
+   "summary": "The Scale Of The Democratic Victory Changes Everything",
+   "title": "The Losers From Last Night",
+   "url": "https://phillipspobrien.substack.com/p/the-losers-from-last-night"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-05",
    "kind": "post",
@@ -853,6 +1200,16 @@
    "summary": "Broadcom’s shipments of TPU by unit volume increased by about 65% quarter over quarter to roughly 800,000 chips, while compute output doubled, driven by a shift to more powerful chips.",
    "title": "Broadcom TPU compute shipments doubled from Q2 to Q3 2026, reaching 2 million H100-equivalents",
    "url": "https://epoch.ai/data-insights/tpu-production-doubling"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-11-04",
+   "summary": "Not just control of Congress",
+   "title": "What Was At Stake",
+   "url": "https://anneapplebaum.substack.com/p/what-was-at-stake"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -885,6 +1242,16 @@
    "url": "https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-03",
+   "summary": "A recording from Timothy Snyder and Jess Craven's live video",
+   "title": "On Power and Joy -- what comes next",
+   "url": "https://snyder.substack.com/p/on-power-and-joy-what-comes-next"
+  },
+  {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
    "first_seen": "2026-11-04",
    "kind": "podcast",
@@ -903,26 +1270,6 @@
    "summary": "1. Jason Furman on AI and the CEA. 2. Matt Kahn uses Refine and gets results. 3. Cyril Hilsum, RIP (flat screen TV, NYT). 4. How much of the return to education is in fact a return to genes? 5. Essay contest on how AI will affect developing economies. 6. AI sanity from Nicholas Decker.…",
    "title": "Tuesday assorted links",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/tuesday-assorted-links-593.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-03",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-03",
-   "summary": "Tipping is large and growing, but we know little about its consequences for workers and firms. We link point-of-sale and payroll records at 20,000 U.S. firms, which lets us observe tips from customer payment to worker earnings. We find that tips are a nearly constant share of revenue, which means hourly pay moves with revenue.…",
-   "title": "The economics of tips",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-tips.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-03",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-03",
-   "summary": "That is the theme of my latest Free Press article. Excerpt, which offers the beginning of the story: If we look at the 1960s, the John F. Kennedy and Lyndon Baines Johnson administrations brought James Tobin, Robert Solow, Kenneth Arrow (all three later Nobel laureates), Arthur Okun, Walter Heller, Gardner Ackley, Otto Eckstein, and Walt…",
-   "title": "Are economists declining in status?",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/are-economists-declining-in-status.html"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -985,14 +1332,14 @@
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Can-Rapamycin-Reverse-Skin-Aging--The-Science-of-Skin-Rejuvenation-e3rjmtc"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-03",
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
    "kind": "post",
-   "person": "tyler-cowen",
+   "person": "phillips-obrien",
    "published": "2026-11-02",
-   "summary": "1. Why is it now so common to be asked about your food allergies? (GPT Pro answer) 2. Training for alignment, applies principal-agent theory. 3. Do people offload empathy when they think AI can give it instead? 4. The Wallace line. 5. AI can draw blueprints now. 6. Ed Glaeser review of the new book…",
-   "title": "Monday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/monday-assorted-links-584.html"
+   "summary": "If you care about national security you cannot support the party of Donald Trump",
+   "title": "The USA Has Not Been So Insecure Since The US Civil War",
+   "url": "https://phillipspobrien.substack.com/p/the-usa-has-not-been-so-insecure"
   },
   {
    "feed": "https://jack-clark.net/feed/",
@@ -1005,6 +1352,16 @@
    "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/"
   },
   {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-11-02",
+   "summary": "The Trump administration is trying to build a nationalist, pro-Russian, insecure and divided Europe",
+   "title": "American Bullying",
+   "url": "https://anneapplebaum.substack.com/p/american-bullying"
+  },
+  {
    "feed": "https://terrytao.wordpress.com/feed/",
    "first_seen": "2026-11-02",
    "kind": "post",
@@ -1013,6 +1370,26 @@
    "summary": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on October 6 of over 700 research papers was a watershed in the history of mathematics. AI is now undeniably…",
    "title": "Mathematics has changed. Let’s act like it",
    "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-01",
+   "summary": "Video conversation on the big American questions.",
+   "title": "The Midterms and the Aftermath with Michael Podhorzer",
+   "url": "https://snyder.substack.com/p/the-midterms-and-the-aftermath-with"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-01",
+   "summary": "The Evacuation Of Oleshky And Ukrainian Identity: 500 Patriot Missiles For Ukraine--in 2030",
+   "title": "Weekend Update #209: The Growing Slaughter Of Ukrainian Civilians",
+   "url": "https://phillipspobrien.substack.com/p/weekend-update-209-the-growing-slaughter"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -1053,6 +1430,26 @@
    "summary": "Boooooo! What spooooky times we now live in, with AI rapidly advancing in capabilities and solving more and more major open math problems! So it seems like a perfect occasion to share yet another podcast. I know I’ve been dropping them like every day, but this is a special one, with Brian Greene for his…",
    "title": "Podcasts about the Topic: Part III, with Brian Greene",
    "url": "https://scottaaronson.blog/?p=10270"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-31",
+   "summary": "Hi All,",
+   "title": "The US Military Is On A Precipice",
+   "url": "https://phillipspobrien.substack.com/p/the-us-military-is-on-a-precipice"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-10-31",
+   "summary": "And what it would really take to get it",
+   "title": "“Peace”",
+   "url": "https://anneapplebaum.substack.com/p/peace"
   },
   {
    "feed": "https://www.dwarkesh.com/feed",
@@ -1165,6 +1562,16 @@
    "url": "https://terrytao.wordpress.com/2026/10/28/on-the-diameter-and-distribution-of-sidon-sets/"
   },
   {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-29",
+   "summary": "The Israeli Elections; Populists Never Lose Elections",
+   "title": "Midweek Update #33: How To Tell When You Have Lost A War",
+   "url": "https://phillipspobrien.substack.com/p/midweek-update-33-how-to-tell-when"
+  },
+  {
    "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-30",
    "kind": "post",
@@ -1245,6 +1652,16 @@
    "url": "https://terrytao.wordpress.com/2026/10/27/247a-notes-3-singular-integral-operators/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "timothy-snyder",
+   "published": "2026-10-28",
+   "summary": "And how to liberate ourselves",
+   "title": "Our American Matrix, Our American Skynet",
+   "url": "https://snyder.substack.com/p/our-american-matrix-our-american"
+  },
+  {
    "feed": "https://www.science.org/blogs/pipeline/feed",
    "first_seen": "2026-10-28",
    "kind": "post",
@@ -1293,6 +1710,36 @@
    "summary": "Pavel Etingof, Slava Gerovitch, “Mathematics of the Future“ Timothy Gowers, “How worried should we be about extinction risk from AI?“ Elchanan Mossel, “LLMs, Reasoning and Plagiarism“. (See also this related petition.) nihilunbounded, “Who Watches the Watchmen“ Sung-Jin Oh, “What does it mean for a mathematician to understand? A case study in the age of AI“…",
    "title": "More additional blog posts and articles",
    "url": "https://terrytao.wordpress.com/2026/10/26/more-additional-blog-posts-and-articles/"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "timothy-snyder",
+   "published": "2026-10-27",
+   "summary": "The positives!",
+   "title": "Ohio’s Race for Governor",
+   "url": "https://snyder.substack.com/p/ohios-race-for-governor"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-27",
+   "summary": "What Is Elon Musk Actually Saying?",
+   "title": "The First Military Investigation",
+   "url": "https://phillipspobrien.substack.com/p/the-first-military-investigation"
+  },
+  {
+   "feed": "https://erictopol.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "eric-topol",
+   "published": "2026-10-27",
+   "summary": "A far-ranging conversation with one of the leaders of the field",
+   "title": "Vadim Gladyshev and the Science of Aging",
+   "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of"
   },
   {
    "feed": "https://epoch.ai/atom.xml",
@@ -1365,6 +1812,16 @@
    "url": "https://thezvi.wordpress.com/2026/10/26/gemini-4-argon-the-model-and-safety-cards/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-10-26",
+   "summary": "A conversation with Glenn Kirschner",
+   "title": "Before and After the Elections (video)",
+   "url": "https://snyder.substack.com/p/before-and-after-the-elections-video"
+  },
+  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-10-27",
    "kind": "post",
@@ -1405,6 +1862,16 @@
    "url": "https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "timothy-snyder",
+   "published": "2026-10-25",
+   "summary": "Four Poems by Svitlana Povaliaieva",
+   "title": "“Autumn in the sky...”",
+   "url": "https://snyder.substack.com/p/autumn-in-the-sky"
+  },
+  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-10-26",
    "kind": "post",
@@ -1413,6 +1880,16 @@
    "summary": "Someone writing an article for the Israeli press about “people abroad who love Israel but might be worried” emailed me the following questions: “1. What is something about Israel that you admire/appreciate over the years? 2. What are you worried the most about Israel these days?” So I replied as follows: “It’s hard to know…",
    "title": "Vote! (Israeli edition)",
    "url": "https://scottaaronson.blog/?p=10235"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-17",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-10-25",
+   "summary": "A Study Of The Last Two Weeks",
+   "title": "Weekend Update #208: Trump Reacts To Pressure Not Flattery",
+   "url": "https://phillipspobrien.substack.com/p/weekend-update-208-trump-reacts-to"
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
@@ -2495,16 +2972,6 @@
    "url": "https://snyder.substack.com/p/the-richness-of-language-kharkiv"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-10-02",
-   "summary": "A wonderful novel -- read it",
-   "title": "Thinking Live with Min Jin Lee about American Hagwon",
-   "url": "https://snyder.substack.com/p/thinking-live-with-min-jin-lee-about"
-  },
-  {
    "feed": "https://phillipspobrien.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2585,26 +3052,6 @@
    "url": "https://www.science.org/content/blog-post/timeoff26"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-09-30",
-   "summary": "A recording from Timothy Snyder's live video",
-   "title": "Disagreement and Persuasion with Jessica Tarlov",
-   "url": "https://snyder.substack.com/p/disagreement-and-persuasion-with"
-  },
-  {
-   "feed": "https://phillipspobrien.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "phillips-obrien",
-   "published": "2026-09-30",
-   "summary": "The Xi-Trump Summit, Keeping The US Fat, Weak And Consuming; Taiwan Should Be Nervous",
-   "title": "Midweek Update #29: The American Distance Blockade: Establishing The Best Possible Terms For US Withdrawal",
-   "url": "https://phillipspobrien.substack.com/p/midweek-update-29-the-american-distance"
-  },
-  {
    "feed": "https://metr.org/feed.xml",
    "first_seen": "2026-10-24",
    "kind": "report",
@@ -2665,16 +3112,6 @@
    "url": "https://www.alexnowrasteh.com/p/legal-immigration-from-majority-muslim"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-09-29",
-   "summary": "A recording from Timothy Snyder and Robert Reich's conversation",
-   "title": "Trump, Power, What Comes Next with Robert Reich",
-   "url": "https://snyder.substack.com/p/trump-power-what-comes-next-with"
-  },
-  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2725,26 +3162,6 @@
    "url": "https://www.alexnowrasteh.com/p/what-people-really-care-about-when"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-09-28",
-   "summary": "A recording from Timothy Snyder's live video",
-   "title": "Regime Change and Corruption with Anne Applebaum",
-   "url": "https://snyder.substack.com/p/regime-change-and-corruption-with"
-  },
-  {
-   "feed": "https://phillipspobrien.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "phillips-obrien",
-   "published": "2026-09-28",
-   "summary": "Leadership Choices and Possibilities",
-   "title": "How Might The War End?",
-   "url": "https://phillipspobrien.substack.com/p/how-might-the-war-end"
-  },
-  {
    "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2775,36 +3192,6 @@
    "url": "https://www.noahpinion.blog/p/wheres-the-intelligence-explosion"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-09-27",
-   "summary": "Kharkiv Meditations, 7/10",
-   "title": "AI, War, and Dignity (Kharkiv Meditations, 7/10)",
-   "url": "https://snyder.substack.com/p/ai-war-and-dignity-kharkiv-meditations"
-  },
-  {
-   "feed": "https://phillipspobrien.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "phillips-obrien",
-   "published": "2026-09-27",
-   "summary": "Russia’s Most Effective Campaign; The Trump Rehabilitation Campaign Continues",
-   "title": "Weekend Update #204: An Army Of Robots",
-   "url": "https://phillipspobrien.substack.com/p/weekend-update-204-an-army-of-robots"
-  },
-  {
-   "feed": "https://phillipspobrien.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "phillips-obrien",
-   "published": "2026-09-27",
-   "summary": "Russia’s Most Effective Campaign; The Trump Rehabilitation Campaign Continues",
-   "title": "Second Try At: Weekend Update #204: An Army Of Robots",
-   "url": "https://phillipspobrien.substack.com/p/second-try-at-weekend-update-204"
-  },
-  {
    "feed": "https://metr.org/feed.xml",
    "first_seen": "2026-10-24",
    "kind": "report",
@@ -2815,26 +3202,6 @@
    "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-09-26",
-   "summary": "Kharkiv Meditations, 6/10",
-   "title": "On Fascism (Kharkiv Meditations, 6/10)",
-   "url": "https://snyder.substack.com/p/on-fascism-kharkiv-meditations-610"
-  },
-  {
-   "feed": "https://phillipspobrien.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "phillips-obrien",
-   "published": "2026-09-26",
-   "summary": "A recording from Phillips P. OBrien's live video",
-   "title": "Live with Phillips P. OBrien and Kate Leschyshyn",
-   "url": "https://phillipspobrien.substack.com/p/live-with-phillips-p-obrien-and-kate"
-  },
-  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2843,16 +3210,6 @@
    "summary": "An anthropological reflection.",
    "title": "Four eras of San Francisco tech culture",
    "url": "https://www.noahpinion.blog/p/four-eras-of-san-francisco-tech-culture"
-  },
-  {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-09-25",
-   "summary": "Kharkiv Meditations, 5/10",
-   "title": "Freedom (Kharkiv Meditations, 5/10)",
-   "url": "https://snyder.substack.com/p/freedom-kharkiv-meditations-510"
   },
   {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
@@ -2895,16 +3252,6 @@
    "url": "https://www.noahpinion.blog/p/no-you-are-not-on-indigenous-land-2b2"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-09-24",
-   "summary": "Kharkiv Meditations 4/10",
-   "title": "One Good Thing (Kharkiv Meditations 4/10)",
-   "url": "https://snyder.substack.com/p/one-good-thing-kharkiv-meditations"
-  },
-  {
    "feed": "https://www.science.org/blogs/pipeline/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2913,16 +3260,6 @@
    "summary": "Last year I wrote about the problems in generating carbyne, which is a (hypothetical) allotrope of carbon that is made up of rods of conjugated CC triple bonds, one acetylene stuck end-to-end with another and stretching off into the distance. Smaller versions of these structures have been made, and the outlook from those is not encouraging: as mentioned in that post, these are not very stable and…",
    "title": "As Close to Carbyne As We're Probably Going to Get",
    "url": "https://www.science.org/content/blog-post/close-carbyne-we-re-probably-going-get"
-  },
-  {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-09-23",
-   "summary": "Kharkiv Meditations, 3/10",
-   "title": "Moral Language (Kharkiv Meditations, 3/10)",
-   "url": "https://snyder.substack.com/p/moral-language-kharkiv-meditations"
   },
   {
    "feed": "https://epoch.ai/atom.xml",
@@ -3783,16 +4120,6 @@
    "summary": "Patrick Hsu Comes Back to Ground Truths",
    "title": "Patrick Hsu: How Is AI Catalyzing Life Science?",
    "url": "https://erictopol.substack.com/p/how-is-ai-catalyzing-life-science"
-  },
-  {
-   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "matt-kaeberlein",
-   "published": "2026-07-19",
-   "summary": "Should states have a larger role in regulating experimental medicines? Or would that create more confusion, more bureaucracy, and lower standards?In the second episode of Longevity Policy, I continue my conversation with Niklas Azinger, CEO of Infinita, to explore one of the biggest questions facing the future of medical innovation: Is our current regulatory system slowing progress, and if so…",
-   "title": "Can States Outperform the FDA?",
-   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Can-States-Outperform-the-FDA-e3m875i"
   }
  ]
 }
