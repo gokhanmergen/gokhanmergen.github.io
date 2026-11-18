@@ -1,6 +1,49 @@
 {
- "failing": {},
+ "failing": {
+  "https://anneapplebaum.substack.com/feed": {
+   "since": "2026-11-18"
+  },
+  "https://erictopol.substack.com/feed": {
+   "since": "2026-11-18"
+  },
+  "https://phillipspobrien.substack.com/feed": {
+   "since": "2026-11-18"
+  },
+  "https://snyder.substack.com/feed": {
+   "since": "2026-11-18"
+  }
+ },
  "items": [
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-18",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-18",
+   "summary": "Teen happiness; AI capabilities; Inflation; Inclusionary zoning; Cloud laws; Pronatalism; The Democrats",
+   "title": "Roundup #91: Rocketing into the technofuture",
+   "url": "https://www.noahpinion.blog/p/roundup-91-rocketing-into-the-technofuture"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-18",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-18",
+   "summary": "Tyler Cowen: Don’t Be Fooled By Randomness The problems are serious, but the sky is not falling in. When it comes to the recent service outages, keep a few points in mind. First, cyber risk is considerably higher than it used to be. Due to progress in AI systems, cyber offense has outraced cyber defense.…",
+   "title": "Me on the cyberattacks",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/me-on-the-cyberattacks.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-18",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-17",
+   "summary": "Here’s a look at how long it can take for new drug technologies to actually make it to the clinic and to FDA approval - including why it takes as long as it does and how that might be sped up. Four techniques get a close look and comparison: fragment-based drug discovery (FBDD), DNA-encoded libraries DEL), aptamers, and targeted protein degradation. I have written posts about all of these over…",
+   "title": "New Drug Technologies and Their Histories",
+   "url": "https://www.science.org/content/blog-post/new-drug-technologies-and-their-histories"
+  },
   {
    "feed": "https://www.alexnowrasteh.com/feed",
    "first_seen": "2026-11-17",
@@ -10,6 +53,16 @@
    "summary": "Immigrants have reduced federal, state, and local government deficits every year for the last 124 years by a cumulative $14.6 trillion.",
    "title": "Cato Study: Immigrants Are Twice as Fiscally Positive Today as in the Early 20th Century",
    "url": "https://www.alexnowrasteh.com/p/cato-study-immigrants-are-twice-as"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-18",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-17",
+   "summary": "This scandal is a really big deal. Jensen Huang has resigned after multiple affairs came to light, one of them with alleged Chinese spy Alice Huang who also helped smuggle billions in Nvidia chips, and another with a direct report …",
+   "title": "Jensen Huang Really Liked Selling China Advanced AI Chips",
+   "url": "https://thezvi.wordpress.com/2026/11/17/jensen-huang-really-liked-selling-china-advanced-ai-chips/"
   },
   {
    "feed": "https://phillipspobrien.substack.com/feed",
@@ -33,6 +86,16 @@
   },
   {
    "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-18",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-17",
+   "summary": "It is coming in at 2.2%, people. That is for over the next five years. tys…though even I think it will be a bit higher than that. Yes the liquidity is tiny, but that is endogenous to the reality that huge profits are not to be made there. You are free to trade yourself of…",
+   "title": "The Kalshi market on U.S. productivity growth",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-kalshi-market-on-u-s-productivity-growth.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-17",
    "kind": "post",
    "person": "tyler-cowen",
@@ -43,6 +106,16 @@
   },
   {
    "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-18",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-17",
+   "summary": "Alex is an economist from the University of Chicago, currently visiting at DeepMind. Erik Torenberg hosts, I thought it was an excellent episode. YouTube: HERE X: HERE Spotify: HERE Apple: HERE",
+   "title": "Alex Imas and I podcast on the economics of AI",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/alex-imas-and-i-podcast-on-the-economics-of-ai.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-17",
    "kind": "post",
    "person": "tyler-cowen",
@@ -50,6 +123,16 @@
    "summary": "In both German and English. Built with AI agents, we are going to see much more of this kind of effort. English-language explainer is here.",
    "title": "Adlerlicht, reporting on crime in Germany",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/adlerlicht-reporting-on-crime-in-germany.html"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-11-18",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-11-17",
+   "summary": "We tested Fable 5.2, GPT-6.2 Astra, and four other models on real Epoch work tasks. None met our employee standard, including the two that top our ECI.",
+   "title": "How good are Fable 5.2 and GPT-6.2 Astra at real work?",
+   "url": "https://epoch.ai/publications/how-good-are-fable-5-2-and-gpt-6-2-astra-at-real-work"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -1092,16 +1175,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/thursday-assorted-links-577.html"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-05",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-05",
-   "summary": "India’s Outlook Business has an excellent issue focusing on pollution not just as a people killer but as a growth killer (as I have emphasized pollution reduces wealth and health, see especially this video). I am interviewed; here is one bit: Q. Doesn’t the demographic dividend argue for growth first? The demographic dividend is people.…",
-   "title": "Pollution as Growth Killer",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/pollution-as-growth-killer.html"
-  },
-  {
    "feed": "https://www.science.org/blogs/pipeline/feed",
    "first_seen": "2026-11-05",
    "kind": "post",
@@ -1170,16 +1243,6 @@
    "summary": "The Scale Of The Democratic Victory Changes Everything",
    "title": "The Losers From Last Night",
    "url": "https://phillipspobrien.substack.com/p/the-losers-from-last-night"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-05",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-04",
-   "summary": "1. Important people in the AI world. 2. Ted Nordhaus on Bill Nordhaus. 3. “That universities facilitate broader political mobilization can explain why governments often seek to restrict student activism.” 4. NYT obituary for William Nordhaus. 5. A new (job market) paper on how much does economic geography matter? 6. “Recent-graduate unemployment fell to 5.2%,…",
-   "title": "Wednesday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-578.html"
   },
   {
    "feed": "https://epoch.ai/atom.xml",
@@ -1260,16 +1323,6 @@
    "summary": "Can we slow aging in dogs and help them live longer, healthier lives? More than a decade ago, that question inspired the creation of the Dog Aging Project, which has grown from an ambitious idea into one of the largest studies of aging ever conducted in companion animals, with more than 55,000 dogs participating.In this special presentation from the inaugural Animal Longevity Summit, Dr. Matt…",
    "title": "The Story of the Dog Aging Project: How One Dog Changed Longevity Science",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Story-of-the-Dog-Aging-Project-How-One-Dog-Changed-Longevity-Science-e3rjnjg"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-04",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-03",
-   "summary": "1. Jason Furman on AI and the CEA. 2. Matt Kahn uses Refine and gets results. 3. Cyril Hilsum, RIP (flat screen TV, NYT). 4. How much of the return to education is in fact a return to genes? 5. Essay contest on how AI will affect developing economies. 6. AI sanity from Nicholas Decker.…",
-   "title": "Tuesday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/tuesday-assorted-links-593.html"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -3242,16 +3295,6 @@
    "url": "https://www.science.org/content/blog-post/ai-help-biological-or-chemical-weapons"
   },
   {
-   "feed": "https://www.noahpinion.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "noah-smith",
-   "published": "2026-09-24",
-   "summary": "A repost from 2024.",
-   "title": "No, you are not on Indigenous land",
-   "url": "https://www.noahpinion.blog/p/no-you-are-not-on-indigenous-land-2b2"
-  },
-  {
    "feed": "https://www.science.org/blogs/pipeline/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3472,16 +3515,6 @@
    "url": "https://anneapplebaum.substack.com/p/empire-of-grift"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-14",
-   "summary": "I’ve been meaning to write about this paper, which has an unusual variation on the “molecular glue” concept. It’s getting to the point where I’m going to have to stop putting that phrase in quotation marks because it’s become so familiar. But for those outside the field, a glue is a small molecule that (by itself) brings two proteins together that otherwise would not interact in such a way. If…",
-   "title": "Not The Glue They Thought It Was",
-   "url": "https://www.science.org/content/blog-post/not-glue-they-thought-it-was"
-  },
-  {
    "feed": "https://erictopol.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -3640,16 +3673,6 @@
    "summary": "How Two Large Outcome Trials Based on Surrogate Metrics Failed",
    "title": "The Coronary Artery Inflammation Controversy",
    "url": "https://erictopol.substack.com/p/the-coronary-artery-inflammation"
-  },
-  {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-09-04",
-   "summary": "Huawei plans major gains in AI chip performance by 2030, but US export controls cap its most important scaling levers. Epoch AI estimates Huawei will produce less than 4% as much AI compute as Nvidia in 2026, a share that could be around 1% by 2028 without access to foreign memory.",
-   "title": "Will Huawei catch up to Nvidia by 2030?",
-   "url": "https://epoch.ai/publications/huaweis-roadmap-to-2031"
   },
   {
    "feed": "https://anneapplebaum.substack.com/feed",
@@ -4110,16 +4133,6 @@
    "summary": "We propose a measure of an AI agent’s optimization ability with an “expenditure horizon.” We give an empirical illustration from the NanoGPT speedrun. One difficulty in measuring AI’s ability to accelerate AI R&D is accounting for token cost, experiment compute cost and human labor cost. If we can estimate performance as a function of cost for both humans and agents, we can measure the…",
    "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
    "url": "https://metr.org/blog/2026-07-21-expenditure-horizon/"
-  },
-  {
-   "feed": "https://erictopol.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "eric-topol",
-   "published": "2026-07-20",
-   "summary": "Patrick Hsu Comes Back to Ground Truths",
-   "title": "Patrick Hsu: How Is AI Catalyzing Life Science?",
-   "url": "https://erictopol.substack.com/p/how-is-ai-catalyzing-life-science"
   }
  ]
 }
