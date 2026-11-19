@@ -15,6 +15,56 @@
  },
  "items": [
   {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-19",
+   "summary": "Happy Zvi finally takes a real vacation day. As you read this, I am probably on a flight to Vegas, baby, Vegas until Sunday. Not to a conference to talk about AI, but to an Airbnb rental to do things …",
+   "title": "AI #195: Opening Bell",
+   "url": "https://thezvi.wordpress.com/2026/11/19/ai-195-opening-bell/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-19",
+   "summary": "Tyler and Alex, I have built Marginalia Library: using AI and the archives you have helpfully posted, I found every time a book has been mentioned on Marginal Revolution and created a searchable, browsable catalog. The catalog currently covers 13,315 mentions of 7,968 books across 7,306 posts. Mentions come from the entire Marginal Revolution corpus,…",
+   "title": "Will Baird, book maven (from my email)",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/will-baird-book-maven-from-my-email.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-19",
+   "summary": "In general I am bullish on the commercial prospects of AI companies, including Anthropic (do note I am on the Advisory Board, though with zero governance role and zero access to internal information). But I view today’s IPO as a sign of bearishness on any kind of extreme superintelligence, no matter what involved parties might…",
+   "title": "The Anthropic IPO",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-anthropic-ipo.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-18",
+   "summary": "This Nature article dives into a topic that’s always been divisive and is becoming more so all the time: what happens when a paper gets retracted? Does its full text still stay up on the journal website and other archives? Is it still searchable (and still fodder for AI/ML mining)? Can it still be cited? OK, now let’s go a step further. What if that paper has been in the literature for years when…",
+   "title": "Vintage Mistakes",
+   "url": "https://www.science.org/content/blog-post/vintage-mistakes"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/mathematics/feed/",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-11-18",
+   "summary": "The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians.",
+   "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
+   "url": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-18",
    "kind": "post",
@@ -25,6 +75,56 @@
    "url": "https://www.noahpinion.blog/p/roundup-91-rocketing-into-the-technofuture"
   },
   {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-19",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-18",
+   "summary": "Presentation by Eric Labs, an analyst in CBO's National Security Division, at the Madison Grand Strategy \"First Wednesday\" Seapower Workshop.",
+   "title": "The Navy's New Battleship Program",
+   "url": "https://www.cbo.gov/publication/62860"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-18",
+   "summary": "In response to the METR report, many people have been reevaluating their timelines. Two prominent reactions are a new timelines update from the AI Futures Project, and the new predictions of Paul Christiano (day 1, day 2, day 3), who …",
+   "title": "Quickly, There’s No Time",
+   "url": "https://thezvi.wordpress.com/2026/11/18/quickly-theres-no-time/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-18",
+   "summary": "1. Chinese AI companies way down in value. 2. Allison Schrager is starting a podcast with Ken Rogoff. 3. Extensive survey of students on AI. 4. Robert Lynch on lookism. 5. New version of Claude Blattman. 6. Seb Krier on the Christiano interview. The whole dialogue over this interview is a good example of why…",
+   "title": "Wednesday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-580.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-18",
+   "summary": "Output per hour worked increased by 2.5% in Quarter 3 (July to Sept) 2026 compared with the same quarter a year ago, reflecting a 2.0% increase in GVA and a 0.5% decrease in hours worked. Output per worker increased by 2.0% in Quarter 3 2026 compared with the same quarter a year ago. This was…",
+   "title": "UK productivity update",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/uk-productivity-update.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-18",
+   "summary": "In July 2025, the One Big Beautiful Bill Act made 100% equipment expensing permanent after two decades of temporary bonus depreciation. I evaluate this reform in a general-equilibrium heterogeneous-firm model with collateral constraints and nonrefundable tax deductions. When matched to U.S. tax-return and Compustat moments, the model yields three findings. First, permanent expensing raises…",
+   "title": "The economics of investment expensing",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-investment-expensing.html"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-18",
    "kind": "post",
@@ -33,6 +133,26 @@
    "summary": "Tyler Cowen: Don’t Be Fooled By Randomness The problems are serious, but the sky is not falling in. When it comes to the recent service outages, keep a few points in mind. First, cyber risk is considerably higher than it used to be. Due to progress in AI systems, cyber offense has outraced cyber defense.…",
    "title": "Me on the cyberattacks",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/me-on-the-cyberattacks.html"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-11-18",
+   "summary": "Anthropic spent nearly $10 billion on compute and infrastructure in the third quarter of 2026, or close to $40 billion on an annualized basis, up from just $433 million in 2023.",
+   "title": "Anthropic’s compute spending is increasing by 4x per year, outpacing OpenAI’s 3x",
+   "url": "https://epoch.ai/data-insights/anthropic-openai-compute-spend-growth"
+  },
+  {
+   "feed": "https://epoch.ai/atom.xml",
+   "first_seen": "2026-11-19",
+   "kind": "post",
+   "person": "epoch-ai",
+   "published": "2026-11-18",
+   "summary": "Our Inference Performance Index and chip sales data show agentic inference capacity grew nearly twice as much as 8-bit compute.",
+   "title": "Agentic inference capacity grew 4.6× in a year, versus 2.6× for compute capacity",
+   "url": "https://epoch.ai/data-insights/agentic-inference-capacity-growth"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -965,16 +1085,6 @@
    "url": "https://snyder.substack.com/p/now-we-act-with-rep-ro-khanna-on"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-08",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-07",
-   "summary": "1. Simon Winchester, RIP (NYT). 2. Pork roll vs. Taylor Ham, a NJ map. 3. Those new service sector jobs, Bradford edition. 4. “New assessment of the greatest of all time: Antarctic blue whales, showing how whaling reduced them from >200,000 to a low of just 418 before slow recovery at 4.5% per year to…",
-   "title": "Saturday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/saturday-assorted-links-585.html"
-  },
-  {
    "feed": "https://anneapplebaum.substack.com/feed",
    "first_seen": "2026-11-17",
    "kind": "podcast",
@@ -1023,36 +1133,6 @@
    "summary": "Are you ready Democrats?",
    "title": "Trump is going Full Putin with the Miller Appointment",
    "url": "https://phillipspobrien.substack.com/p/trump-is-going-full-putin-with-the"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-07",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-06",
-   "summary": "A Delaware AIC will be a separate legal entity whose day-to-day aﬀairs are managed by an AI agent rather than a person. At the agent’s direction, the AIC can sue and be sued in its own name, hold and dispose of property, and incur obligations… That is a current proposal, here is the full article.…",
-   "title": "Untethered AI agents in Delaware?",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/untethered-ai-agents-in-delaware.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-06",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-06",
-   "summary": "I am on my way back home from Armenia, where I was on a Fulbright teaching U.S. securities regulation to Armenian law students. I’m an active user of AI for multiple areas of my life, including my professional life. When I just started preparing for teaching this class, I had a plan: I would use…",
-   "title": "Natasha Cowen guest posts on Caffrey",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/natasha-cowen-guest-posts-on-caffrey.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-07",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-06",
-   "summary": "1. What will happen with Texas data centers? And more on that. 2. What is the half life of a claim about LLMs? 3. YouTube video created by AI. Titled Der Zauberberg. 4. Data centers tend to be put in places with relatively flat supply curves. 5. “According to Twenge, one of the great Cassandras…",
-   "title": "Friday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/friday-assorted-links-598.html"
   },
   {
    "feed": "https://epoch.ai/atom.xml",
@@ -1163,16 +1243,6 @@
    "summary": "Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. While we were able to freely share our highest-level conclusions about risk, Anthropic…",
    "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
    "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-06",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-05",
-   "summary": "1. Economics job market site. 2. Data on the flattening of consumer culture (NYT). One-sided, but still of interest. 3. A new and better measure of how much of educational value is signaling. 4. Inside joke concerning the Pope that only some Beatles fans will get. 5. U.S. productivity growth is looking up. 6. NYT…",
-   "title": "Thursday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/thursday-assorted-links-577.html"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -3485,16 +3555,6 @@
    "url": "https://epoch.ai/data-insights/astra-eci-breakdown"
   },
   {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-15",
-   "summary": "Edit: the RSS feeds are back! I don't know why this couldn't have been done when the new web page designs rolled out, but you can find the feed addresses here. I'm also not sure why no one there got around to telling me (and many others) about this, but I am glad to have the functionality back. A longtime Pipeline reader just alerted me to this. But I'm not sure it's all back! At least in my…",
-   "title": "The ACS Redesign",
-   "url": "https://www.science.org/content/blog-post/acs-redesign"
-  },
-  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3605,16 +3665,6 @@
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Did-rapamycin-cause-Bryan-Johnsons-autoimmune-disease-e3oc6d4"
   },
   {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-09-09",
-   "summary": "A first look at Epoch AI's data on compute usage across five leading labs.",
-   "title": "Introducing the AI Chip Users explorer",
-   "url": "https://epoch.ai/latest/introducing-the-ai-chip-users-explorer"
-  },
-  {
    "feed": "https://www.dwarkesh.com/feed",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -3623,16 +3673,6 @@
    "summary": "Breaking down 6 years of pretraining progress into data vs model improvements",
    "title": "Pretraining progress is mostly coming from data",
    "url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data"
-  },
-  {
-   "feed": "https://epoch.ai/atom.xml",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "epoch-ai",
-   "published": "2026-09-08",
-   "summary": "Epoch AI measures long-context latency scaling across four frontier models. GPT-5.6 Terra and Sol show quadratic time-to-first-token growth with context length, while Claude Sonnet 5 and Opus 5 stay near-linear.",
-   "title": "Long-context latency scales quadratically for GPT-5.6 but nearly linearly for Claude 5",
-   "url": "https://epoch.ai/publications/long-context-latency-scaling-gpt-vs-claude"
   },
   {
    "feed": "https://jack-clark.net/feed/",
@@ -4123,16 +4163,6 @@
    "summary": "We (Parker and Tom) recently coauthored a paper, “The Economics of Recursive Self-Improvement” , with 7 other economists. The paper walks through a series of simple models of how AI may accelerate AI R&D, and we thought it’s worth highlighting some context and takeaways: We care about Recursive Self-Improvement (RSI) because we want to forecast capabilities. METR’s priority is to assess risk from…",
    "title": "The Economics of Recursive Self-Improvement",
    "url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/"
-  },
-  {
-   "feed": "https://metr.org/feed.xml",
-   "first_seen": "2026-10-24",
-   "kind": "report",
-   "person": "metr",
-   "published": "2026-07-21",
-   "summary": "We propose a measure of an AI agent’s optimization ability with an “expenditure horizon.” We give an empirical illustration from the NanoGPT speedrun. One difficulty in measuring AI’s ability to accelerate AI R&D is accounting for token cost, experiment compute cost and human labor cost. If we can estimate performance as a function of cost for both humans and agents, we can measure the…",
-   "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
-   "url": "https://metr.org/blog/2026-07-21-expenditure-horizon/"
   }
  ]
 }
