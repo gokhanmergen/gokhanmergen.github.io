@@ -48,7 +48,7 @@ In all of these domains, the feedback loop is slow, expensive, ambiguous, or eth
 
 This creates an important asymmetry in how confident we can be about the road ahead.
 
-In data-rich, verifiable domains, superintelligence is either already here or feels almost inevitable. Mathematics has already crossed that threshold, presumably powered by the same RLVF engine. Software development, digital operations, and large swaths of text-based knowledge work sit squarely in the same crosshairs of verifiable feedback and synthetic data generation. In those arenas, the path to mastery is clear and already playing out.
+In data-rich, verifiable domains, superintelligence is either already here or feels almost inevitable. Mathematics has already crossed that threshold, presumably powered by the same RLVF engine. Software development, digital work, and large swaths of text-based knowledge work sit squarely in the same crosshairs of verifiable feedback and synthetic data generation. In those arenas, the path to mastery is clear and already playing out.
 
 In the rest of the world, however, the direct, mechanistic case is harder to make as cleanly. Without abundant, high-signal data and cheap verification, models can't simply rely on the same RLVF flywheel—because the physical world refuses to grade their homework fast enough.
 
