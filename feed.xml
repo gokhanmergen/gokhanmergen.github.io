@@ -14,6 +14,23 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>What Comes After Chat and Coding? Solving Digital Work.</title>
+      <link>https://www.gokhanmergen.com/blog-what-comes-after-chat-and-coding.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-what-comes-after-chat-and-coding.html</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Work / AI</category>
+      <description>The next frontier of AI isn&#x27;t another chatbot or a better coding assistant. It&#x27;s the ability to do virtually anything that can be done on a computer.</description>
+      <blog:readTime>9 min read</blog:readTime>
+      <content:encoded>&lt;p&gt;The first wave of generative AI was &lt;strong&gt;chat&lt;/strong&gt;. Nearly four years ago, ChatGPT showed that anyone could type a question and get a thoughtful answer, and it reached &lt;a href=&quot;https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;100 million users in two months&lt;/a&gt;. Natural language became a universal interface to intelligence. But the AI lived behind glass. It could advise you on your work; you still had to copy, paste, click and execute everything yourself.&lt;/p&gt;
+&lt;p&gt;The second wave was &lt;strong&gt;coding&lt;/strong&gt;. In 2025, agents stopped suggesting the next line and started navigating repositories, running commands, reading error logs and shipping whole features. AI stepped out of the chat window and began producing outcomes instead of information. Software engineering became the first profession where AI does a large share of the actual work.&lt;/p&gt;
+&lt;p&gt;So what comes third? Many leap to the far horizon: humanoid robots folding laundry, autonomous labs discovering new physics. Those frontiers are real, but jumping to them skips the enormous continent right in front of us.&lt;/p&gt;
+&lt;p&gt;The next frontier is &lt;strong&gt;all of digital work&lt;/strong&gt;. Not talking about work, and not just writing the code that powers it. Actually getting the work done, anywhere a screen is the workplace.&lt;/p&gt;
+&lt;h2&gt;Coding was the beachhead&lt;/h2&gt;
+&lt;p&gt;Coding was not special. It was simply the easiest door to open:&lt;/p&gt;
+&lt;p&gt;What coding proved is bigger than coding: AI can take an objective, break it into steps, use tools, keep track of state over long tasks and check its own results. Once that threshold is crossed, software engineering stops looking like the destination and starts looking like the beachhead.&lt;/p&gt;
+&lt;p&gt;After all, every digital task is bits in, bits out. A spreadsheet is a small program. A financial report is a few queries plus prose. An insurance claim is a form, a lookup and a decision. An agent that writes code can do all of that wherever an API exists. Where none exists, an agent that sees a screen and moves a mouse can do it the way a person does, click by click. Between the two, every piece of software ever made is in reach, including the 20-year-old ERP system and the government portal nobody will ever modernize.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>Low-Hanging Superintelligence</title>
       <link>https://www.gokhanmergen.com/blog-low-hanging-superintelligence.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-low-hanging-superintelligence.html</guid>
