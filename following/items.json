@@ -15,6 +15,46 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-20",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-20",
+   "summary": "Maybe this is the wrong frame for the AI safety discussion.",
+   "title": "Does it really matter if there’s an intelligence explosion?",
+   "url": "https://www.noahpinion.blog/p/does-it-really-matter-if-theres-an"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-20",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-20",
+   "summary": "Is agentic research any good? Dr Yanagizawa-Drott and his colleague, Olaf Willner, used an AI verifier to check 1,000 APE papers. None was error-free; 842 contained at least one severe error, including ones invalidating headline results. To see roughly how Ape stacks up against human primates, The Economist teamed up with Refine, the research-verification firm…",
+   "title": "AIs vs. humans in economics papers",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/ais-vs-humans-in-economics-papers.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-20",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-19",
+   "summary": "Here’s a fact that I don’t think that a lot of people are aware of: the risks of developing dementia with aging have been falling pretty steadily for a long time now in the industrialized world. This trend has been holding for decades now. An 80-year-old today is much less likely to show signs of dementia (memory loss, confusion, etc.) than the people in their parents’ generation. (Some may be…",
+   "title": "We're Getting Less Demented. Why?",
+   "url": "https://www.science.org/content/blog-post/we-re-getting-less-demented-why"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-20",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-19",
+   "summary": "CBO estimates that the average annual cost to implement the Navy's 2027 shipbuilding plan, which covers fiscal years 2027 to 2056, would be $53.8 billion (in 2026 dollars), including $48.9 billion for new-ship construction.",
+   "title": "An Analysis of the Navy's Fiscal Year 2027 Shipbuilding Plan",
+   "url": "https://www.cbo.gov/publication/62884"
+  },
+  {
    "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-11-19",
    "kind": "post",
@@ -33,6 +73,16 @@
    "summary": "Tyler and Alex, I have built Marginalia Library: using AI and the archives you have helpfully posted, I found every time a book has been mentioned on Marginal Revolution and created a searchable, browsable catalog. The catalog currently covers 13,315 mentions of 7,968 books across 7,306 posts. Mentions come from the entire Marginal Revolution corpus,…",
    "title": "Will Baird, book maven (from my email)",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/will-baird-book-maven-from-my-email.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-20",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-19",
+   "summary": "1. How to turn AI-written maths into a video. 2. Honeypot markets in everything? 3. Traveling a lot without going on planes (WSJ). 4. American audiovisual exports have plunged in terms of global share (I think that is fine and arguably good, by the way). 5. “There’s been a 30 year debate between cyber revolutionaries and…",
+   "title": "Thursday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/thursday-assorted-links-579.html"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -945,16 +995,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-honeypots.html"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-10",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-09",
-   "summary": "1. What WWII looked like, four and a half minute video. 2. Intellectual Deep Web, YouTube channel. 3. Complete works of Schelling, and no I do not mean Thomas. 4. What the French Left is proposing. 5. How much AI could the CEA manage? 6. Douthat! 7. Andrew Maxfield, Stations of the Cross, vocal music.",
-   "title": "Monday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/monday-assorted-links-585.html"
-  },
-  {
    "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-11-10",
    "kind": "post",
@@ -1043,16 +1083,6 @@
    "summary": "US Midterm Results, How Much Will things now Change?",
    "title": "Weekend Update #210: Trump Has Stood Between Ukraine And Military Success",
    "url": "https://phillipspobrien.substack.com/p/weekend-update-207-trump-has-stood"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-08",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-08",
-   "summary": "1. Among the Wagner fanatics. 2. Does AI instead commodify jobs? 3. The digital world is making Islam more diverse (The Economist). 4. “An affair with an economist exposed the calculus of modern dating.” (New Yorker) 5. “How Much Economic Value Do AI Systems Produce per Unit of Energy?” 6. John Gray will be writing…",
-   "title": "Sunday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/sunday-assorted-links-589.html"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -3325,16 +3355,6 @@
    "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor/"
   },
   {
-   "feed": "https://www.noahpinion.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "noah-smith",
-   "published": "2026-09-25",
-   "summary": "An anthropological reflection.",
-   "title": "Four eras of San Francisco tech culture",
-   "url": "https://www.noahpinion.blog/p/four-eras-of-san-francisco-tech-culture"
-  },
-  {
    "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
    "first_seen": "2026-10-24",
    "kind": "podcast",
@@ -3503,16 +3523,6 @@
    "summary": "Acknowledgments of AI use in arXiv math preprints rose from 4% in April 2026 to 25% in August, with 6% crediting AI with a substantial research contribution.",
    "title": "In August, 25% of math preprints acknowledged AI use, up from 4% in April",
    "url": "https://epoch.ai/data-insights/math-preprints-disclosed-ai-use"
-  },
-  {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-17",
-   "summary": "I’ve written many times about CAR-T cell therapies and some of the variations on this theme. Most recently I wrote back in the spring about some of the more allogenic idea being tried, i.e. ones that concentrate on using more off-the shelf approaches to preparing the modified T cells, as opposed to the usual procedure of taking the patient’s own cells, modifying them ex vivo. That has produced…",
-   "title": "The Latest On CAR-T: Good and Bad",
-   "url": "https://www.science.org/content/blog-post/latest-car-t-good-and-bad"
   },
   {
    "feed": "https://www.dwarkesh.com/feed",
@@ -4143,26 +4153,6 @@
    "summary": "**Goals of this post** > > **Goal:** a simple way to compare a variety of capability metrics in an idealized setting where we observe only a function from $x$ to $s$. > > Non-goals: > > 1. Treatment of practical difficulties (an incomplete list of other considerations appears at the bottom). > 2. Recommendations about which metric to use. > 3. Representation of a consensus METR view. {…",
    "title": "Metrics of Agent Ability",
    "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/"
-  },
-  {
-   "feed": "https://www.jessicariedl.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "jessica-riedl",
-   "published": "2026-07-22",
-   "summary": "Congress wrote the rules to restrain deficits. Then it broke every one.",
-   "title": "How Congress Quietly Eviscerated 50 Years of Deficit Constraints",
-   "url": "https://www.jessicariedl.blog/p/how-congress-quietly-eviscerated"
-  },
-  {
-   "feed": "https://metr.org/feed.xml",
-   "first_seen": "2026-10-24",
-   "kind": "report",
-   "person": "metr",
-   "published": "2026-07-22",
-   "summary": "We (Parker and Tom) recently coauthored a paper, “The Economics of Recursive Self-Improvement” , with 7 other economists. The paper walks through a series of simple models of how AI may accelerate AI R&D, and we thought it’s worth highlighting some context and takeaways: We care about Recursive Self-Improvement (RSI) because we want to forecast capabilities. METR’s priority is to assess risk from…",
-   "title": "The Economics of Recursive Self-Improvement",
-   "url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/"
   }
  ]
 }
