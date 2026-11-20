@@ -1,0 +1,67 @@
+---
+slug: low-hanging-superintelligence
+date: 2026-11-19
+category: Futures / AI
+read_time: 5 min read
+title: Low-Hanging Superintelligence
+deck: Could AI Saturate Outside of Code and Math?
+archive_deck: Could AI Saturate Outside of Code and Math?
+---
+
+For a long time, I never thought AI would saturate. The trajectory felt too steep, the breakthroughs too relentless, and the ceiling too far out of sight to seriously entertain the idea of a plateau.
+
+Lately, though, I’ve started to pause and examine that assumption. Not because AI has stopped improving—it clearly hasn't—but because it is worth asking *where* today's most dramatic gains are coming from and how cleanly they carry over to the rest of the world.
+
+The thought that gave me pause is simple: math and coding—the very domains where AI looks most miraculous right now—might actually be the low-hanging fruit.
+
+## The Two Magic Ingredients: Data and Verifiability
+
+If you wanted to design an ideal playground for modern AI, you would look for two things: an ocean of training data and an effortless, objective way to check whether an answer is right.
+
+Writing had the data. Math and coding have the verifiability—and in coding's case, an enormous mountain of real-world data to match.
+
+Mathematics is arguably the clearest proof of concept we have. It is a domain where superintelligence has already been achieved in meaningful ways, with models routinely clearing Olympiad-level reasoning and formal theorem proving—and it almost certainly got there on the back of Reinforcement Learning with Verifiable Feedback (RLVF). Math offers the cleanest possible reward signal: whether through unambiguous final answers or formal proof checkers, a derivation is objectively right or wrong. When a system can verify its own reasoning steps at scale, it doesn't just memorize math; it can search, iterate, and bootstrap its way past human ceilings.
+
+Software engineering sits right next to it, uniquely hospitable to machine learning. Decades of open-source repositories, documentation, bug trackers, and forum threads gave models an extraordinary foundation to learn from. Better yet, code lives inside a closed, deterministic loop. If an AI writes a function, you don't need a panel of human experts to debate its merits for six months. You run the compiler. You run the test suite. It either passes or it fails.
+
+That tight feedback loop is rocket fuel for RLVF. Give a model a math problem or a coding challenge, let it try a thousand approaches, reward the ones that pass verification, and repeat at massive scale. Under those conditions, superhuman performance isn't just possible—it's practically expected.
+
+Computer use sits in a similar neighborhood. Navigating an operating system, clicking buttons, querying databases, and completing digital workflows all happen inside structured environments where states are observable and outcomes can often be checked automatically.
+
+When we watch AI conquer advanced mathematics, tear through software benchmarks, and automate digital tasks, it is tempting to assume every other field works the same way.
+
+But step outside the screen and the proof checker, and the terrain looks very different.
+
+## Where the Verifier Ends
+
+After writing, math, coding, and general computer use, is there *any* other domain that is simultaneously this data-rich and this verifiable?
+
+Consider physics. Real progress at the frontier of physics isn't bottlenecked by syntax or pure symbolic manipulation; it’s bottlenecked by reality. You can’t spin up ten million synthetic particle colliders overnight to generate clean RLVF reward signals. Experiments are expensive, slow, noisy, and constrained by physical laws we are still trying to uncover.
+
+Consider physical engineering. Designing a bridge, a jet turbine, or a new battery chemistry involves materials science, manufacturing tolerances, wear over decades, and edge cases that only reveal themselves in the messy real world. Simulations help, of course—but simulations are only approximations. Eventually, reality is the test suite, and reality is painfully slow to run.
+
+Consider being a doctor. Medicine is drowning in information, yet paradoxically starved of clean, verifiable feedback. Patient histories are fragmented, privacy-protected, and full of unspoken context. Two patients with identical symptoms can respond completely differently to the same treatment. Did a clinical decision succeed because it was optimal, or because the patient got lucky? Sometimes you don't know for years—and you certainly can't let an AI run a million trial-and-error episodes on human lives to optimize a reward function.
+
+In all of these domains, the feedback loop is slow, expensive, ambiguous, or ethically constrained. You cannot simply brute-force your way to truth with a proof checker or a unit test.
+
+## A Tale of Two Mechanisms
+
+This creates an important asymmetry in how confident we can be about the road ahead.
+
+In data-rich, verifiable domains, superintelligence is either already here or feels almost inevitable. Mathematics has already crossed that threshold, presumably powered by the same RLVF engine. Software development, digital operations, and large swaths of text-based knowledge work sit squarely in the same crosshairs of verifiable feedback and synthetic data generation. In those arenas, the path to mastery is clear and already playing out.
+
+In the rest of the world, however, the direct, mechanistic case is harder to make as cleanly. Without abundant, high-signal data and cheap verification, models can't simply rely on the same RLVF flywheel—because the physical world refuses to grade their homework fast enough.
+
+## Why Broad Superintelligence Is Still the Base Case
+
+Even with that caveat, betting *against* AI scaling has historically been a losing game.
+
+Given the relentless, compounding improvement of intelligence from raw compute—the modern heir to Moore’s Law—superintelligence across *every* domain still feels like the base scenario. Time and again, raw scale has unlocked emergent capabilities that bridged gaps people assumed required bespoke data or hand-crafted feedback loops.
+
+It is easy to imagine an AI trained to superhuman levels on math, code, and structured reasoning—backed by orders of magnitude more compute—developing a form of deep, generalizable intelligence that transcends the need for domain-specific training data and RLVF. Much like a brilliant human scientist who sharpens their reasoning in one discipline and then brings that intellect to bear on an unfamiliar, data-sparse problem, sheer scale may unlock true sample-efficient generalization across physics, engineering, and medicine alike.
+
+Seen through that lens, the alternative—AI actually slowing down or hitting a ceiling outside the screen simply because real-world domains lack rich data and clean verifiable feedback—would be the more surprising outcome.
+
+Yet recognizing just how uniquely privileged math and coding really are is enough to make that surprising alternative worth taking seriously for the first time. Will raw compute carry superintelligence seamlessly across every messy corner of physical reality, or will the lack of verifiers finally introduce real friction?
+
+Only time will tell.

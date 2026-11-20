@@ -14,6 +14,23 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>Low-Hanging Superintelligence</title>
+      <link>https://www.gokhanmergen.com/blog-low-hanging-superintelligence.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-low-hanging-superintelligence.html</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Futures / AI</category>
+      <description>Could AI Saturate Outside of Code and Math?</description>
+      <blog:readTime>5 min read</blog:readTime>
+      <content:encoded>&lt;p&gt;For a long time, I never thought AI would saturate. The trajectory felt too steep, the breakthroughs too relentless, and the ceiling too far out of sight to seriously entertain the idea of a plateau.&lt;/p&gt;
+&lt;p&gt;Lately, though, I’ve started to pause and examine that assumption. Not because AI has stopped improving—it clearly hasn&amp;#x27;t—but because it is worth asking &lt;em&gt;where&lt;/em&gt; today&amp;#x27;s most dramatic gains are coming from and how cleanly they carry over to the rest of the world.&lt;/p&gt;
+&lt;p&gt;The thought that gave me pause is simple: math and coding—the very domains where AI looks most miraculous right now—might actually be the low-hanging fruit.&lt;/p&gt;
+&lt;h2&gt;The Two Magic Ingredients: Data and Verifiability&lt;/h2&gt;
+&lt;p&gt;If you wanted to design an ideal playground for modern AI, you would look for two things: an ocean of training data and an effortless, objective way to check whether an answer is right.&lt;/p&gt;
+&lt;p&gt;Writing had the data. Math and coding have the verifiability—and in coding&amp;#x27;s case, an enormous mountain of real-world data to match.&lt;/p&gt;
+&lt;p&gt;Mathematics is arguably the clearest proof of concept we have. It is a domain where superintelligence has already been achieved in meaningful ways, with models routinely clearing Olympiad-level reasoning and formal theorem proving—and it almost certainly got there on the back of Reinforcement Learning with Verifiable Feedback (RLVF). Math offers the cleanest possible reward signal: whether through unambiguous final answers or formal proof checkers, a derivation is objectively right or wrong. When a system can verify its own reasoning steps at scale, it doesn&amp;#x27;t just memorize math; it can search, iterate, and bootstrap its way past human ceilings.&lt;/p&gt;
+&lt;p&gt;Software engineering sits right next to it, uniquely hospitable to machine learning. Decades of open-source repositories, documentation, bug trackers, and forum threads gave models an extraordinary foundation to learn from. Better yet, code lives inside a closed, deterministic loop. If an AI writes a function, you don&amp;#x27;t need a panel of human experts to debate its merits for six months. You run the compiler. You run the test suite. It either passes or it fails.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>We Set Out Carrying Our Shrouds: On Mortality, Legacy, and the Cycle of Life</title>
       <link>https://www.gokhanmergen.com/blog-carrying-our-shrouds.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-carrying-our-shrouds.html</guid>
