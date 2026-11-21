@@ -1,0 +1,103 @@
+<!--
+GENERATED FILE — DO NOT EDIT DIRECTLY.
+Source: posts/grh-reader-guide.md
+Generator: build_blog.py
+Regenerate from the repository root with: python3 build_blog.py
+Manual changes will be overwritten.
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Inside the Claimed Lean 4 Proof of the Generalized Riemann Hypothesis: A Reader&#x27;s Guide — Levent Alpöge and Claude released a machine-checkable proof of the Riemann Hypothesis with no paper to read. I asked an AI to read the code and explain it.">
+  <title>Inside the Claimed Lean 4 Proof of the Generalized Riemann Hypothesis: A Reader&#x27;s Guide | My Blog: Post AGI</title>
+  <link rel="alternate" type="application/rss+xml" title="My Blog: Post AGI" href="feed.xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="blog-page blog-post-page">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gökhan Mergen home">Gökhan <span>Mergen</span></a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html#about">About</a>
+        <a class="nav-link" href="blog.html" aria-current="page">My Blog</a>
+        <a class="nav-link" href="pubs.html">Publications</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/gokhanmergen/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="nav-link" href="quantBibliography.html">Quant finance</a>
+        <a class="nav-link" href="https://github.com/gokhanmergen/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="nav-link" href="photography.html">Photography</a>
+      </nav>
+    </header>
+
+    <main>
+      <header class="blog-article-intro" aria-labelledby="page-title">
+        <a class="blog-article-back" href="blog.html">← Back to My Blog: Post AGI</a>
+        <p class="eyebrow">My Blog: Post AGI · Post 01</p>
+        <h1 id="page-title">Inside the Claimed Lean 4 Proof of the Generalized Riemann Hypothesis: A Reader&#x27;s Guide</h1>
+        <p class="blog-article-dek">Levent Alpöge and Claude released a machine-checkable proof of the Riemann Hypothesis with no paper to read. I asked an AI to read the code and explain it.</p>
+
+        <div class="blog-author-row">
+          <div class="blog-author">
+            <img src="gokhan2.jpg" alt="Portrait of Gökhan Mergen">
+            <div>
+              <strong>Gökhan Mergen</strong>
+              <span>My Blog: Post AGI</span>
+            </div>
+          </div>
+          <div class="blog-article-meta" aria-label="Post details">
+            <span>Nov 20, 2026 · 2 min read + 43-page guide</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="blog-article-layout">
+        <article class="blog-article-content" data-slug="grh-reader-guide">
+<p>In November 2026, the mathematician <a href="https://alpo.ge/" target="_blank" rel="noopener noreferrer">Levent Alpöge</a>, who now works at Anthropic, announced that working with Claude he had found a proof of the Riemann Hypothesis, and that the same method resolves the Generalized Riemann Hypothesis for Dirichlet L-functions. In a short companion note, he describes steering the work toward a descendant of Stepanov&#x27;s argument for curves over finite fields, while Claude supplied much of the technical machinery, including the idea of chaining roughly √X theta lifts to imitate the &quot;multiplicity&quot; that the function-field proof relies on. Rather than post what he called a massive unreadable document, he released only the formal proof: a Lean 4 archive of 175,187 files and 17.37 million lines.</p>
+
+<p>That left those of us who are curious with a proof no human can read. So I downloaded the archive and the note and asked Google&#x27;s Antigravity agent, running Gemini Neon, to read the Lean source and explain it. The result is the 43-page guide below. It reconstructs the argument&#x27;s architecture from static inspection of the code, starting each section in plain English with analogies and small worked examples before giving the exact statements and inequalities found in the Lean files. It was not written, reviewed or endorsed by Alpöge, and the code has not been compiled here: a text scan found no <code>sorry</code>, no custom axioms and no <code>native_decide</code>, but the full kernel check (<code>lake build Main</code>, <code>#print axioms</code>, <code>lean4checker</code>) still has to run on a large machine. Read it as an AI-written map of a claimed proof, not as a verification.</p>
+
+<figure class="blog-article-figure"><img src="grh-reader-guide-cover.png" alt="The cover of the guide: “Inside the Claimed Lean 4 Proof of the Generalized Riemann Hypothesis. A Non-Specialist Reader&#x27;s Guide to the Ideas, Analogies, and Key Proof Steps of Levent Alpöge and Claude&#x27;s Lean 4 Formalization,” with a note that it was reconstructed from static inspection of the November 20, 2026 Lean 4 archive and was not written, reviewed, or endorsed by L. Alpöge." loading="lazy"></figure>
+
+<p><strong><a href="/pubs/grh-reader-guide/GRH_Reader_Friendly_Guide.pdf">Read the guide (PDF, 43 pages)</a></strong></p>
+        </article>
+      </div>
+
+      <section class="blog-subscribe" aria-labelledby="subscribe-title">
+        <div>
+          <p class="section-kicker">Subscribe</p>
+          <h2 id="subscribe-title">Get new posts by email.</h2>
+          <p>New posts arrive by email through my Substack. Unsubscribe anytime. Or follow the <a href="feed.xml">RSS feed</a>.</p>
+        </div>
+        <a class="button button-primary blog-subscribe-button" href="https://gokhanmergen.substack.com/subscribe" target="_blank" rel="noopener">Subscribe on Substack</a>
+      </section>
+
+      <section class="blog-comments" aria-labelledby="comments-title">
+        <h2 id="comments-title">Comments</h2>
+        <script src="https://giscus.app/client.js" data-repo="gokhanmergen/gokhanmergen.github.io" data-repo-id="R_kgDOUQjsYw" data-category="Announcements" data-category-id="DIC_kwDOUQjsY84DHS59" data-mapping="specific" data-term="grh-reader-guide" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" data-loading="lazy" crossorigin="anonymous" async></script>
+      </section>
+
+      <section class="blog-article-footer" aria-labelledby="next-reading-title">
+        <div>
+          <p class="section-kicker">More from My Blog: Post AGI</p>
+          <h2 id="next-reading-title">Read another article.</h2>
+        </div>
+        <div class="blog-closing-copy">
+          <p>Browse the archive or continue with the next older post.</p>
+          <div class="page-actions">
+            <a class="button button-primary" href="blog.html">All blog posts <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="blog-what-comes-after-chat-and-coding.html">Next older post <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Gökhan Mergen (c) 2026 · Opinions expressed are solely my own and do not express the views or opinions of my employer.</span>
+      <a href="blog.html">Back to the blog ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
