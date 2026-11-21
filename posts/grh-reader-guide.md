@@ -18,4 +18,4 @@ That left those of us who are curious with a proof no human can read. So I downl
 
 **[Read the guide (PDF, 43 pages)](/pubs/grh-reader-guide/GRH_Reader_Friendly_Guide.pdf)**
 
-*— triple checked by several AIs (Gemini Neon High x 2, Claude Opus High) for rigor and correctness.*
+*The guide has been triple checked by AIs (Gemini Neon High x 2, Claude Opus High) for rigor and correctness.*
