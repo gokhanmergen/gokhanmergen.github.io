@@ -15,6 +15,46 @@
  },
  "items": [
   {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-21",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-21",
+   "summary": "The author is my colleague Vincent Geloso and the subtitle is A New History of American Growth and Inequality, 1865-1945. Here is an excerpt from the very beginning: …regardless of what improvements you think occurred during the Gilded Age and the Progressive Era, you are underestimating how much improvement there truly was. From 1870 to…",
+   "title": "*The Great Enrichment*",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-great-enrichment.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-21",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-21",
+   "summary": "Faris Allafi, Abu Dhabi, 13, train AI models. Eliel Selin, Helsinki, 18, AI agents. Robert Boswall, London area, energy information for the UK. Alex Yang, Harvard, genetics for better organ transplants. Stanislaw Tomaszewski, Warsaw area, AI agents and the organization of trucking. Jonas Dolezal, London, nuclear fusion. Shawnak Shivakumar, Stanford, longevity research. Ruzgar Albayrak, Izmir,…",
+   "title": "Emergent Ventures, 60th cohort",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/emergent-ventures-60th-cohort.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-21",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-20",
+   "summary": "Many will have heard of the Army’s plan to detonate a large quantity of lead azide near Burlington, Iowa, an unusual event that was supposed to take place today but has been postponed to (at least) Monday, pending all sorts of legal action. Let’s deal with this news in a Q&A format, shall we? Start at the top: what the heck is lead azide? The first thing to know is that it’s a “primary…",
+   "title": "Detonating A Huge Pile of Lead Azide. Really.",
+   "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really"
+  },
+  {
+   "feed": "https://www.quantamagazine.org/computer-science/feed/",
+   "first_seen": "2026-11-21",
+   "kind": "post",
+   "person": "quanta",
+   "published": "2026-11-20",
+   "summary": "When links in a communication network go down, messages can get routed in a loop. Computer scientists now know that four simple network structures are to blame.",
+   "title": "Network Researchers Nail Down Theory of ‘Perfect Resilience’",
+   "url": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-20",
    "kind": "post",
@@ -23,6 +63,66 @@
    "summary": "Maybe this is the wrong frame for the AI safety discussion.",
    "title": "Does it really matter if there’s an intelligence explosion?",
    "url": "https://www.noahpinion.blog/p/does-it-really-matter-if-theres-an"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-21",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-20",
+   "summary": "CBO analysts present research on how double machine learning can be used to improve causal inference with panel data and how Medicare's site-neutral payment policy for hospital outpatient departments affected commercial insurers' payments.",
+   "title": "Recent and Upcoming Presentations by the Staff of CBO's Health Analysis Division",
+   "url": "https://www.cbo.gov/publication/62921"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-21",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-20",
+   "summary": "Obviously these results will be reported widely in other outlets, but I will note them here, in decreasing order of how “digested” the results currently are: Levent Alpöge, Tristan Buckmaster, and Matei Coiculescu, with heavy AI assistance, have written a human-readable proof of the finite time blowup for the unforced incompressible Euler equations in three…",
+   "title": "Unforced Euler singularity, unforced Navier-Stokes singularity, and the Generalized Riemann Hypothesis",
+   "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-21",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-20",
+   "summary": "[This is a guest post by Ivan Corwin – T.] Dear colleagues, I am writing to encourage applications to the Columbia Data Science Institute’s postdoc program, for those interested in being involved in Columbia’s AI and Mathematical Foundations research activities. See the (Fun)damental AI & Math description here for some activity in spring 2026 and here…",
+   "title": "Postdoc positions at the Columbia Data Science Institute",
+   "url": "https://terrytao.wordpress.com/2026/11/20/postdoc-positions-at-the-columbia-data-science-institute/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-11-21",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-11-20",
+   "summary": "“… it is very probable that all roots are real. Of course one would wish for a rigorous proof here; I have for the time being, after some fleeting vain attempts, provisionally put aside the search for this, as it appears dispensable for the immediate objective of my investigation.” –Bernhard Riemann, 1859 [Update: According to…",
+   "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
+   "url": "https://scottaaronson.blog/?p=10344"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-11-21",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-11-20",
+   "summary": "Contents Overview 1 Background 2 Methodology 3 Results 4 Robustness Checks 5 Discussion 6 Acknowledgments Appendices A Difficulty Estimation and Baselining B Time Horizon Diagnostics C MCI Modelling Methodology D Limitations of IRT E MCI Robustness Checks F Estimating Lifecycle Cost for Tasks G Data Integrity and Reward Hacking H Changes in Capability Growth Rates I Inference Scaling J Swarm…",
+   "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
+   "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-21",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-20",
+   "summary": "1. Markets drive moods, and not vice versa? 2. AI literary scandals and the future of the Latin American novel. 3. New Stripe Press website. 4. Does Claude’s constitution mean anything? 5. Did the Baby Boom help cause the later divorce boom? 6. “Social adversity in early life has minimal, predominantly positive long-term consequences for…",
+   "title": "Friday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/friday-assorted-links-600.html"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -885,16 +985,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/checking-the-ai-audit-of-saez-and-zucmans-research.html"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-11",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-10",
-   "summary": "Maybe so: We study the statistical credibility of randomized controlled trials (RCTs) in development economics and the optimal allocation of resources to replication. Using 745 principal-hypothesis tests from 190 articles in leading economics journals, we find that actual t-statistics peak well below the theoretical benchmark of 2.8 expected under 80 percent power, though above values…",
-   "title": "Are RCTs underpowered?",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/are-rcts-underpowered.html"
-  },
-  {
    "feed": "https://erictopol.substack.com/feed",
    "first_seen": "2026-11-17",
    "kind": "podcast",
@@ -973,26 +1063,6 @@
    "summary": "[This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT). This blog post was initially written in a different file format and converted using AI. — T.] In late September and early October, we distributed a survey of early career mathematicians. Our goals were to take a “temperature check” of the…",
    "title": "Our Survey of Early Career Mathematicians",
    "url": "https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-09",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-09",
-   "summary": "Despite its weaknesses, Paraguay’s young democracy was still able to deliver under stress. Its free, boisterous press was the first to sound the alarm about Peña’s shenanigans. The Central Bank’s supervision chief did his job: he examined ueno’s numbers and recommended blocking the sale of its bad loans to a related company (Peña had appointed…",
-   "title": "The Paraguayan bank story",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-paraguayan-bank-story.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-09",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-09",
-   "summary": "Of course as an economist I am always wondering what the equilibrium is. And, in this case, what is the scarce factor? It seems that in the case under current consideration, the returns to honeypotting are very high for somebody. Maybe for China, maybe for the shorts, or maybe for parts of the Deep State…",
-   "title": "The economics of honeypots",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-honeypots.html"
   },
   {
    "feed": "https://jack-clark.net/feed/",
@@ -2405,26 +2475,6 @@
    "url": "https://www.noahpinion.blog/p/why-are-we-ruled-by-barbarians"
   },
   {
-   "feed": "https://terrytao.wordpress.com/feed/",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "terence-tao",
-   "published": "2026-10-18",
-   "summary": "[This is a guest post by Francesco Maggi. This blog post was initially written in a different file format and converted using AI. — T.] Large language models (LLMs) and the research systems built around them (and commonly known as “artificial intelligence”) have demonstrated remarkable abilities in generating mathematical proofs. While the quality and limits…",
-   "title": "Will it be a golden age or a dark age for mathematics (and science)?",
-   "url": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/"
-  },
-  {
-   "feed": "https://terrytao.wordpress.com/feed/",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "terence-tao",
-   "published": "2026-10-18",
-   "summary": "[This is a guest post by Shaoming Guo – T.] Several math colleagues and I are preparing to launch a new journal. As we considered which values we wanted the journal to uphold, we realized that there may be many other values worth exploring as a community, potentially through the creation of additional journals. We…",
-   "title": "Starting a new journal",
-   "url": "https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/"
-  },
-  {
    "feed": "https://snyder.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3483,16 +3533,6 @@
    "summary": "No, the US does not now own the island",
    "title": "Greenland Forever",
    "url": "https://anneapplebaum.substack.com/p/greenland-forever"
-  },
-  {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-18",
-   "summary": "Here’s a paper that I thought deserved a bit more notice than it’s probably getting - there are people who could use to see it who probably don’t read Inorganic Chemistry very often. It’s about carboranes, which are interesting-looking cage-type clusters of boron and carbon atoms. These come in a number of varieties, and they’ve been looked at in several fields of chemistry - inorganic, materials…",
-   "title": "Safety Warning: Carborane Mixtures",
-   "url": "https://www.science.org/content/blog-post/safety-warning-carborane-mixtures"
   },
   {
    "feed": "https://www.quantamagazine.org/mathematics/feed/",
