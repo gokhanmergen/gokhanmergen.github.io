@@ -17,3 +17,5 @@ That left those of us who are curious with a proof no human can read. So I downl
 ![The cover of the guide: “Inside the Claimed Lean 4 Proof of the Generalized Riemann Hypothesis. A Non-Specialist Reader's Guide to the Ideas, Analogies, and Key Proof Steps of Levent Alpöge and Claude's Lean 4 Formalization,” with a note that it was reconstructed from static inspection of the November 20, 2026 Lean 4 archive and was not written, reviewed, or endorsed by L. Alpöge.](grh-reader-guide-cover.png)
 
 **[Read the guide (PDF, 43 pages)](/pubs/grh-reader-guide/GRH_Reader_Friendly_Guide.pdf)**
+
+*— triple checked by several AIs (Gemini Neon High x 2, Claude Opus High) for rigor and correctness.*
