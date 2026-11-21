@@ -40,6 +40,10 @@ CATEGORIES = {
     "Books / Markets": "Kitaplar / Piyasalar",
     "Career / AI": "Kariyer / Yapay Zekâ",
     "Ideas / AI futures": "Fikirler / Yapay Zekânın Geleceği",
+    "Longevity / Nutrition": "Uzun Ömür / Beslenme",
+    "Life / Mortality": "Yaşam / Ölümlülük",
+    "Health / Brain": "Sağlık / Beyin",
+    "Geopolitics / Europe": "Jeopolitik / Avrupa",
 }
 
 

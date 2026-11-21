@@ -1,0 +1,108 @@
+<!--
+GENERATED FILE — DO NOT EDIT DIRECTLY.
+Source: posts/grh-reader-guide-tr.md
+Generator: build_blog.py
+Regenerate from the repository root with: python3 build_blog.py
+Manual changes will be overwritten.
+-->
+
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Genelleştirilmiş Riemann Hipotezi için Öne Sürülen Lean 4 İspatının İçinden: Bir Okuma Rehberi — Levent Alpöge ve Claude, Riemann Hipotezi&#x27;nin makineyle denetlenebilir bir ispatını yayımladı, ama okunacak bir makale yok. Ben de bir yapay zekâdan kodu okuyup anlatmasını istedim.">
+  <title>Genelleştirilmiş Riemann Hipotezi için Öne Sürülen Lean 4 İspatının İçinden: Bir Okuma Rehberi | My Blog: Post AGI</title>
+  <link rel="alternate" type="application/rss+xml" title="My Blog: Post AGI" href="feed.xml">
+  <link rel="alternate" hreflang="en" href="blog-grh-reader-guide.html">
+  <link rel="alternate" hreflang="tr" href="blog-grh-reader-guide-tr.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="blog-page blog-post-page">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gökhan Mergen home">Gökhan <span>Mergen</span></a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html#about">About</a>
+        <a class="nav-link" href="blog.html" aria-current="page">My Blog</a>
+        <a class="nav-link" href="pubs.html">Publications</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/gokhanmergen/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="nav-link" href="quantBibliography.html">Quant finance</a>
+        <a class="nav-link" href="https://github.com/gokhanmergen/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="nav-link" href="photography.html">Photography</a>
+      </nav>
+    </header>
+
+    <main>
+      <header class="blog-article-intro" aria-labelledby="page-title">
+        <a class="blog-article-back" href="blog.html">← Bloga dön</a>
+        <p class="eyebrow">My Blog: Post AGI · Yazı 01</p>
+        <h1 id="page-title">Genelleştirilmiş Riemann Hipotezi için Öne Sürülen Lean 4 İspatının İçinden: Bir Okuma Rehberi</h1>
+        <p class="blog-article-dek">Levent Alpöge ve Claude, Riemann Hipotezi&#x27;nin makineyle denetlenebilir bir ispatını yayımladı, ama okunacak bir makale yok. Ben de bir yapay zekâdan kodu okuyup anlatmasını istedim.</p>
+
+        <div class="blog-author-row">
+          <div class="blog-author">
+            <img src="gokhan2.jpg" alt="Gökhan Mergen portresi">
+            <div>
+              <strong>Gökhan Mergen</strong>
+              <span>My Blog: Post AGI</span>
+            </div>
+          </div>
+          <div class="blog-article-meta" aria-label="Yazı bilgileri">
+            <span>20 Kasım 2026 · 2 dk okuma + 43 sayfalık rehber</span>
+            <a class="blog-article-lang" href="blog-grh-reader-guide.html" hreflang="en" lang="en">Read in English</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="blog-article-layout">
+        <article class="blog-article-content" data-slug="grh-reader-guide-tr">
+<p>Bugün Anthropic&#x27;te çalışan matematikçi <a href="https://alpo.ge/" target="_blank" rel="noopener noreferrer">Levent Alpöge</a>, Kasım 2026&#x27;da Claude&#x27;la birlikte Riemann Hipotezi&#x27;nin bir ispatını bulduğunu duyurdu. Ona göre aynı yöntem, Dirichlet L-fonksiyonları için Genelleştirilmiş Riemann Hipotezi&#x27;ni de çözüyor. Duyuruya eşlik eden kısa notunda, çalışmayı Stepanov&#x27;un sonlu cisimler üzerindeki eğriler için verdiği argümanın soyundan gelen bir yaklaşıma kendisinin yönlendirdiğini anlatıyor. Teknik altyapının büyük kısmı ise Claude&#x27;dan gelmiş; fonksiyon cismi durumundaki ispatın dayandığı &quot;katlılığı&quot; taklit etmek için yaklaşık √X tane teta yükseltmesini (theta lift) zincirleme fikri de buna dâhil. Alpöge, kendi deyişiyle devasa ve okunamaz bir belge yayımlamak yerine yalnızca biçimsel ispatı paylaştı: 175.187 dosya ve 17,37 milyon satırdan oluşan bir Lean 4 arşivi.</p>
+
+<p>Bu da bizim gibi meraklıları hiçbir insanın okuyamayacağı bir ispatla baş başa bıraktı. Ben de arşivi ve notu indirdim, Google&#x27;ın Gemini Neon üzerinde çalışan Antigravity ajanından Lean kaynak kodunu okuyup açıklamasını istedim. Ortaya aşağıdaki 43 sayfalık rehber çıktı. Rehber, argümanın mimarisini kodun statik incelemesinden yola çıkarak yeniden kuruyor. Her bölüm önce sade bir İngilizceyle, benzetmeler ve küçük çözümlü örneklerle açılıyor; Lean dosyalarındaki kesin önermeler ve eşitsizlikler ancak ondan sonra geliyor. Rehberi Alpöge yazmadı, gözden geçirmedi ya da onaylamadı. Kod da bu çalışmada derlenmedi: metin taramasında hiç <code>sorry</code>, özel aksiyom ya da <code>native_decide</code> çıkmadı, ama tam çekirdek denetiminin (<code>lake build Main</code>, <code>#print axioms</code>, <code>lean4checker</code>) hâlâ büyük bir makinede çalıştırılması gerekiyor. Rehberi bir doğrulama olarak değil, öne sürülen bir ispat için yapay zekânın çizdiği bir harita olarak okuyun.</p>
+
+<figure class="blog-article-figure"><img src="grh-reader-guide-cover.png" alt="Rehberin kapağı: “Inside the Claimed Lean 4 Proof of the Generalized Riemann Hypothesis. A Non-Specialist Reader&#x27;s Guide to the Ideas, Analogies, and Key Proof Steps of Levent Alpöge and Claude&#x27;s Lean 4 Formalization.” Altında, rehberin 20 Kasım 2026 tarihli Lean 4 arşivinin statik incelemesinden yeniden kurulduğunu ve L. Alpöge&#x27;nin onu yazmadığını, gözden geçirmediğini ya da onaylamadığını belirten bir not var." loading="lazy"></figure>
+
+<p><strong><a href="/pubs/grh-reader-guide/GRH_Reader_Friendly_Guide.pdf">Rehberi okuyun (PDF, 43 sayfa, İngilizce)</a></strong></p>
+
+<p><em>Rehberin titizliğini ve doğruluğunu yapay zekâlar üç kez denetledi (Gemini Neon High x 2, Claude Opus High).</em></p>
+        </article>
+      </div>
+
+      <section class="blog-subscribe" aria-labelledby="subscribe-title">
+        <div>
+          <p class="section-kicker">Abone ol</p>
+          <h2 id="subscribe-title">Yeni yazıları e-postayla alın.</h2>
+          <p>Yeni yazılar Substack üzerinden e-postayla gelir. İstediğiniz zaman abonelikten çıkabilirsiniz. E-postalar İngilizcedir. Ya da takip edin: <a href="feed.xml">RSS feed</a>.</p>
+        </div>
+        <a class="button button-primary blog-subscribe-button" href="https://gokhanmergen.substack.com/subscribe" target="_blank" rel="noopener">Substack&#x27;te abone ol</a>
+      </section>
+
+      <section class="blog-comments" aria-labelledby="comments-title">
+        <h2 id="comments-title">Yorumlar</h2>
+        <script src="https://giscus.app/client.js" data-repo="gokhanmergen/gokhanmergen.github.io" data-repo-id="R_kgDOUQjsYw" data-category="Announcements" data-category-id="DIC_kwDOUQjsY84DHS59" data-mapping="specific" data-term="grh-reader-guide" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="tr" data-loading="lazy" crossorigin="anonymous" async></script>
+      </section>
+
+      <section class="blog-article-footer" aria-labelledby="next-reading-title">
+        <div>
+          <p class="section-kicker">Blogdan daha fazlası</p>
+          <h2 id="next-reading-title">Başka bir yazı okuyun.</h2>
+        </div>
+        <div class="blog-closing-copy">
+          <p>Arşive göz atın ya da bir önceki yazıyla devam edin.</p>
+          <div class="page-actions">
+            <a class="button button-primary" href="blog.html">Tüm yazılar <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="blog-what-comes-after-chat-and-coding-tr.html">Bir önceki yazı <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Gökhan Mergen (c) 2026 · Dile getirilen görüşler yalnızca bana aittir; işverenimin görüş ya da düşüncelerini yansıtmaz.</span>
+      <a href="blog.html">Bloga dön ↑</a>
+    </footer>
+  </div>
+</body>
+</html>

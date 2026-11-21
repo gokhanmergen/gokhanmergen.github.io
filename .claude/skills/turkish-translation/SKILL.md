@@ -134,12 +134,16 @@ Conjunctions and particles such as ve, ile, mi and ki stay lowercase.
 | Economy / Agents | Ekonomi / Ajanlar |
 | Economy / Politics | Ekonomi / Siyaset |
 | Futures / AI | Gelecek / Yapay Zekâ |
+| Geopolitics / Europe | Jeopolitik / Avrupa |
+| Health / Brain | Sağlık / Beyin |
 | Humanity / AI | İnsanlık / Yapay Zekâ |
 | Ideas / AI futures | Fikirler / Yapay Zekânın Geleceği |
 | Ideas / Quotations | Fikirler / Alıntılar |
+| Life / Mortality | Yaşam / Ölümlülük |
 | Longevity / AI | Uzun Ömür / Yapay Zekâ |
 | Longevity / Biotech | Uzun Ömür / Biyoteknoloji |
 | Longevity / Medicine | Uzun Ömür / Tıp |
+| Longevity / Nutrition | Uzun Ömür / Beslenme |
 | Mathematics / AI | Matematik / Yapay Zekâ |
 | Truth / Society | Hakikat / Toplum |
 | Work / AI | Çalışma Hayatı / Yapay Zekâ |
