@@ -15,6 +15,46 @@
  },
  "items": [
   {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-22",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-22",
+   "summary": "What should we think about that?",
+   "title": "AI people are very, very, very, very rich",
+   "url": "https://www.noahpinion.blog/p/ai-people-are-very-very-very-very"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-22",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-22",
+   "summary": "AHM Statement on the Announced Proof of the Riemann Hypothesis Positionen des Präsidiums der Deutschen Mathematiker-Vereinigung (DMV) zur Bedeutung Künstlicher Intelligenz für die Mathematik (Positions of the Presidium of the German Mathematical Society (DMV) on the importance of artificial intelligence for mathematics) Oxford Mathematics in Conversation on AI – Ben Green and James Maynard with…",
+   "title": "Even more posts, opinion pieces, interviews, and position statements",
+   "url": "https://terrytao.wordpress.com/2026/11/21/even-more-posts-opinion-pieces-interviews-and-position-statements/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-22",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-22",
+   "summary": "Here is the abstract from a new NBER paper by Daniel Björkegren, David Lagakos & Mitchell VanVuren: This paper explores how economic growth driven by AI will impact the developing world. Our analysis is based on a growth model of a developed and developing economy where AI services are traded on the world market, and…",
+   "title": "Will AI Growth Reach the Developing World?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/will-ai-growth-reach-the-developing-world.html"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-22",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-21",
+   "summary": "We have to stop meeting like this. Alas, we will keep meeting like this. It is time, once again, to do the reading. As per usual, I will focus on things to the extent they are new and important. There …",
+   "title": "GPT-6.2 Astra and Sol: The System Card",
+   "url": "https://thezvi.wordpress.com/2026/11/21/gpt-6-2-astra-and-sol-the-system-card/"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-21",
    "kind": "post",
@@ -23,6 +63,16 @@
    "summary": "The author is my colleague Vincent Geloso and the subtitle is A New History of American Growth and Inequality, 1865-1945. Here is an excerpt from the very beginning: …regardless of what improvements you think occurred during the Gilded Age and the Progressive Era, you are underestimating how much improvement there truly was. From 1870 to…",
    "title": "*The Great Enrichment*",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-great-enrichment.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-22",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-21",
+   "summary": "1. Many federal agencies are hiring economists. 2. Theodore Zeldin, RIP. 3. Henry Oliver on Paradise Lost. 4. Quantum computing even weirder than you think? (NYT) And an article bullish on quantum computing (NYT). 5. Good AI policy ideas from Joshua Saxe. 6. Podcast with SBF from prison, have not had a chance to listen,…",
+   "title": "Saturday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/saturday-assorted-links-587.html"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -963,26 +1013,6 @@
    "summary": "Can Europe Resist Until January?",
    "title": "Trump Is Feeling The Pressure To Help Putin Now",
    "url": "https://phillipspobrien.substack.com/p/trump-is-feeling-the-pressure-to"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-11",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-10",
-   "summary": "1. AI as a normal technology. 2. Hayek for our time, by Cass Sunstein, free download for two weeks. 3. Works in Progress is looking for business and finance writers. 4. Matthew Lilley on Harvard grad students. I believe they teach the permanent income hypothesis there? 5. Ethan Mollick on Fable 5.2. 6. John Cochrane…",
-   "title": "Tuesday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/tuesday-assorted-links-594.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-10",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-10",
-   "summary": "From SaneCite: We checked the anonymous AI audit of Emmanuel Saez and Gabriel Zucman’s research that Marginal Revolution featured on 28 Oct: all 147 problems it calls serious enough to change a headline number, against the papers, their sources and the authors’ own data. The audit’s facts hold up: for 131 of the 147, every…",
-   "title": "Checking the AI audit of Saez and Zucman’s research.",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/checking-the-ai-audit-of-saez-and-zucmans-research.html"
   },
   {
    "feed": "https://erictopol.substack.com/feed",
@@ -2435,16 +2465,6 @@
    "url": "https://terrytao.wordpress.com/2026/10/19/the-bourgain-project/"
   },
   {
-   "feed": "https://terrytao.wordpress.com/feed/",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "terence-tao",
-   "published": "2026-10-19",
-   "summary": "For a given prime , the Legendre symbol is defined as follows: if is a quadratic residue modulo , then ; if is a quadratic non-residue modulo , then ; and if divides , then . Let be an integer that is not a perfect square. (One could require to be a fundamental discriminant if…",
-   "title": "A sketch of the proof of non-existence of Siegel zeroes",
-   "url": "https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/"
-  },
-  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3385,16 +3405,6 @@
    "url": "https://anneapplebaum.substack.com/p/thinking-about-corruption-with-anne"
   },
   {
-   "feed": "https://www.noahpinion.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "noah-smith",
-   "published": "2026-09-27",
-   "summary": "Ramez Naam gives a skeptic’s take on Recursive Self-Improvement.",
-   "title": "Where’s the “intelligence explosion”?",
-   "url": "https://www.noahpinion.blog/p/wheres-the-intelligence-explosion"
-  },
-  {
    "feed": "https://metr.org/feed.xml",
    "first_seen": "2026-10-24",
    "kind": "report",
@@ -4183,16 +4193,6 @@
    "summary": "Why did I start taking Repatha?The answer isn't simply that my cholesterol was elevated—it was a heart scan that fundamentally changed how I thought about my cardiovascular risk.Last year I underwent a coronary CT angiography (CCTA) with contrast, a test that goes beyond a traditional calcium scan by allowing visualization of soft plaque, the type of plaque most likely to rupture and cause a…",
    "title": "Why I Started Repatha (And Why I Almost Didn't)",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Why-I-Started-Repatha-And-Why-I-Almost-Didnt-e3mhne9"
-  },
-  {
-   "feed": "https://metr.org/feed.xml",
-   "first_seen": "2026-10-24",
-   "kind": "report",
-   "person": "metr",
-   "published": "2026-07-24",
-   "summary": "**Goals of this post** > > **Goal:** a simple way to compare a variety of capability metrics in an idealized setting where we observe only a function from $x$ to $s$. > > Non-goals: > > 1. Treatment of practical difficulties (an incomplete list of other considerations appears at the bottom). > 2. Recommendations about which metric to use. > 3. Representation of a consensus METR view. {…",
-   "title": "Metrics of Agent Ability",
-   "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/"
   }
  ]
 }
