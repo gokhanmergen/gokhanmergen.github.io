@@ -14,6 +14,20 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>Reading Gödel, Escher, Bach in the Age of Talking Machines</title>
+      <link>https://www.gokhanmergen.com/blog-geb-talking-machines.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-geb-talking-machines.html</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Books / AI</category>
+      <description>What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence—and the unsettling difference between a machine that can think and a machine that has a self.</description>
+      <blog:readTime>24 min read</blog:readTime>
+      <content:encoded>&lt;p&gt;In 1979, Douglas Hofstadter introduced his readers to Aunt Hillary. She was witty, well read, and could keep a friend in conversation for hours. She was also an ant colony.&lt;/p&gt;
+&lt;p&gt;Individually, her ants were hopeless. &amp;quot;All the ants in Aunt Hillary are as dumb as can be,&amp;quot; explains her friend the Anteater. &amp;quot;They couldn&amp;#x27;t converse to save their little thoraxes!&amp;quot; No single ant understood language or had the faintest idea what Aunt Hillary was thinking. Yet out of millions of them, each following simple local rules, came a coherent mind with a personality and a sense of self.&lt;/p&gt;
+&lt;p&gt;Aunt Hillary is a character in &lt;a href=&quot;https://www.hachettebookgroup.com/titles/douglas-r-hofstadter/g%C3%B6del-escher-bach/9780465026562/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;em&gt;Gödel, Escher, Bach: An Eternal Golden Braid&lt;/em&gt;&lt;/a&gt;, the sprawling, playful book that won Hofstadter the Pulitzer Prize. For decades she was a charming thought experiment. Nearly half a century later, she reads more like a question we can no longer put off.&lt;/p&gt;
+&lt;p&gt;The systems on our screens today reason through unfamiliar problems, write working software, compose music, and hold conversations that would have seemed miraculous a few years ago. They discuss their apparent motivations, explain their mistakes, and sometimes describe what is going on inside them. We know what these systems do, and we are beginning to understand how they do some of it. What we do not know is whether any of it is accompanied by an inner life. The question is old and disarmingly simple: &lt;strong&gt;Is there anybody home?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;That is why &lt;em&gt;Gödel, Escher, Bach&lt;/em&gt; is worth rereading now. Not because Hofstadter predicted our technology. In several telling ways he did not, and his misses turn out to be as instructive as his insights. &lt;strong&gt;Hofstadter understood how intelligence and selfhood might emerge from mindless matter. What he did not foresee was how far machines might travel toward the first without clearly acquiring the second.&lt;/strong&gt;&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>Math Is So Over. Math Is So Back.</title>
       <link>https://www.gokhanmergen.com/blog-math-is-so-back.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-math-is-so-back.html</guid>
