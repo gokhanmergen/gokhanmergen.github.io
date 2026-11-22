@@ -4,13 +4,11 @@ date: 2026-11-22
 category: Books / AI
 read_time: 24 min read
 title: Reading Gödel, Escher, Bach in the Age of Talking Machines
-deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence—and the unsettling difference between a machine that can think and a machine that has a self.
-archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence—and the unsettling difference between a machine that can think and a machine that has a self.
+deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
+archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 ---
 
 ![Aunt Hillary and the talking mind: countless mindless ants weave along Escher-like geometry into a luminous, self-aware profile etched with circuits and a musical clef.](geb-hero-aunt-hillary.jpg)
-
-*From mindless parts to an emergent mind: Aunt Hillary's colony meets the architecture of artificial intelligence. (Original editorial illustration)*
 
 In 1979, Douglas Hofstadter introduced his readers to Aunt Hillary. She was witty, well read, and could keep a friend in conversation for hours. She was also an ant colony.
 
