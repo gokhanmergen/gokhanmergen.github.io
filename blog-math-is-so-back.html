@@ -64,6 +64,8 @@ Manual changes will be overwritten.
 
 <p>Levent Alpöge, working in intense collaboration with Claude, released a proof of the Riemann Hypothesis (and its generalized cousin for Dirichlet \(L\)-functions). Not as a 200-page PDF full of hand-wavy transitions and &quot;left to the reader&quot; gaps, and not even as a human-readable manuscript—translated into prose, the argument would reportedly span more than 250,000 pages. Instead, it arrived as roughly 17 million lines of Lean 4 code across more than 175,000 files.</p>
 
+<p><em>Curious what is inside those files? I asked an AI to read the Lean code and explain the argument in plain English: <a href="/pubs/grh-reader-guide/GRH_Reader_Friendly_Guide.pdf">my 43-page reader&#x27;s guide to the proof (PDF)</a>.</em></p>
+
 <p>And then came today.</p>
 
 <p>Within twenty-four hours, independent researchers and the Lean and Mathlib communities compiled the codebase, audited the axioms, checked the theorem statement against Mathlib&#x27;s vetted definition of the Riemann Hypothesis, and confirmed it: <strong>it compiles.</strong> Every non-trivial zero of \(\zeta(s)\) really does lie on the critical line \(\operatorname{Re}(s) = \frac{1}{2}\).</p>
