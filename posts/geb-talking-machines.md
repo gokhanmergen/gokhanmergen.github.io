@@ -134,7 +134,7 @@ Hofstadter was right that an "I" needs no magic ingredient: intelligence and sel
 
 ## Addendum
 
-Rereading *Gödel, Escher, Bach* has sharpened, rather than changed, [my views on consciousness](https://www.gokhanmergen.com/blog-is-ai-conscious.html).
+Reading *Gödel, Escher, Bach* has sharpened, rather than changed, [my views on consciousness](https://www.gokhanmergen.com/blog-is-ai-conscious.html).
 
 I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. What it lacks is a self: a self-symbol that persists and steers what the system becomes. Today's models run, answer, and stop. They describe a strange loop far better than they live one.
 
