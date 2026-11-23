@@ -48,7 +48,7 @@ Manual changes will be overwritten.
             </div>
           </div>
           <div class="blog-article-meta" aria-label="Post details">
-            <span>Nov 22, 2026 · 13 min read</span>
+            <span>Nov 22, 2026 · 12 min read</span>
           </div>
         </div>
       </header>
@@ -127,27 +127,13 @@ Manual changes will be overwritten.
 
 <p>The question becomes one of architecture rather than chemistry.</p>
 
-<h2>What Hofstadter Didn&#x27;t Quite Get Right</h2>
-
-<p>Near the end of the book, Hofstadter offers ten &quot;Questions and Speculations&quot; about AI. Checked in 2026, the misses are the instructive part.</p>
-
-<p><em>Will there be chess programs that can beat anyone?</em> No, he wrote: such a program would need general intelligence, and would be &quot;just as temperamental as people.&quot; (&quot;No, I&#x27;m bored with chess. Let&#x27;s talk about poetry.&quot;) In 1997, <a href="https://www.ibm.com/history/deep-blue" target="_blank" rel="noopener noreferrer">IBM&#x27;s Deep Blue beat Garry Kasparov</a>, and it had no interest in poetry. <em>Could you &quot;tune&quot; an AI to act like me, or like you?</em> No: &quot;An intelligent program will not be chameleon-like.&quot; Chameleon-like is exactly what language models are. When someone had GPT-4 write in Hofstadter&#x27;s own voice, he was <a href="https://www.theatlantic.com/ideas/archive/2023/07/godel-escher-bach-geb-ai/674589/" target="_blank" rel="noopener noreferrer">unimpressed</a>, but the borrowing itself was what he had said could not happen. <em>Will a computer write beautiful music?</em> Yes, but only once it had known &quot;grief and despair, determination and victory.&quot; In 2025, an AI-generated song <a href="https://www.goodmorningamerica.com/culture/story/ai-generated-country-song-topping-billboards-country-digital-127445549" target="_blank" rel="noopener noreferrer">topped a Billboard sales chart</a>, and <a href="https://www.rollingstone.com/music/music-features/ai-band-the-velvet-sundown-confirm-ai-1235379354/" target="_blank" rel="noopener noreferrer">the Velvet Sundown</a>, an entirely AI-generated band, passed a million monthly Spotify listeners before most fans knew it wasn&#x27;t human. His answer came true; his reason did not.</p>
-
-<p>On arithmetic he was strikingly right. A thinking machine, he guessed, would represent 2 as a concept &quot;replete with associations&quot; and be slow at sums, so it would carry a pocket calculator: &quot;a reliable but mindless part and an intelligent but fallible part.&quot; That is close to a blueprint for today&#x27;s assistants, which reason in language and hand exact calculation to tools.</p>
-
-<p><strong>Hofstadter was remarkably perceptive about how intelligent reasoning works, and far less accurate about which abilities must arrive together.</strong> He pictured general intelligence, stable personality, emotional depth, and selfhood as one achievement; modern AI has been unbundling them one strand at a time. That does not prove machines have no inner lives. It shows that the abilities we once treated as proof of one can appear without it.</p>
-
-<figure class="blog-article-figure"><img src="geb-hofstadter-scorecard.png" alt="A scorecard comparing five of Hofstadter&#x27;s 1979 Questions and Speculations about AI with what actually happened by 2026." loading="lazy"></figure>
-
-<p><em>Figure 4. Five of Hofstadter&#x27;s ten &quot;Questions and Speculations&quot; (Gödel, Escher, Bach, Chapter XIX), checked in 2026 (including the &quot;baseball&quot; tuning question examined in the next section). The misses share a pattern: abilities he expected to travel together have arrived separately.</em></p>
-
 <h2>Aunt Hillary and the Great Next-Token Misunderstanding</h2>
 
 <p>In Hofstadter&#x27;s dialogue <em>Ant Fugue</em>, the Anteater converses with Aunt Hillary &quot;in writing&quot;: he draws a trail in the ground and watches her reply take shape, guessing how the marks &quot;will continue (and more often I am wrong than right).&quot; A mind that exists only in writing, laying down its reply one mark at a time: without meaning to, Hofstadter had sketched a chatbot. When Achilles protests that a colony is just &quot;a bunch of individual ants running around at random,&quot; the Anteater replies that he may put it that way &quot;if you want to insist on seeing the trees but missing the forest.&quot; A mind may need concepts that do not exist at the level of its parts.</p>
 
 <figure class="blog-article-figure"><img src="geb-escher-ant-fugue.png" alt="M. C. Escher, Ant Fugue (woodcut, 1953), from Gödel, Escher, Bach (Figure 61)." loading="lazy"></figure>
 
-<p><em>Figure 5. M. C. Escher, &quot;Ant Fugue&quot; (woodcut, 1953), which accompanies Hofstadter&#x27;s dialogue of the same name. (From Gödel, Escher, Bach, Fig. 61)</em></p>
+<p><em>Figure 4. M. C. Escher, &quot;Ant Fugue&quot; (woodcut, 1953), which accompanies Hofstadter&#x27;s dialogue of the same name. (From Gödel, Escher, Bach, Fig. 61)</em></p>
 
 <p>Which brings us to the most common dismissal of large language models: that they are &quot;just predicting the next token.&quot; That describes the training objective, not the machinery, like explaining evolution as &quot;just differential survival.&quot; To predict the next token well across human writing, a network has to represent the concepts and plans behind the words. Calling it &quot;just next-token prediction&quot; is Achilles, staring at the ants.</p>
 
@@ -165,7 +151,7 @@ Manual changes will be overwritten.
 
 <figure class="blog-article-figure"><img src="geb-recursion-vs-strange-loop.png" alt="Diagram contrasting ordinary feedback on a single level with Hofstadter&#x27;s strange loop, in which a self-symbol on the Tangled Level reshapes the system above an Inviolate Level." loading="lazy"></figure>
 
-<p><em>Figure 6. Feedback versus a strange loop. On the left, output returns as input on a single level. On the right, a self-symbol on the Tangled Level reaches down to reshape the system that produces it, while the Inviolate Level beneath keeps its rules. Where today&#x27;s models fall is an open question.</em></p>
+<p><em>Figure 5. Feedback versus a strange loop. On the left, output returns as input on a single level. On the right, a self-symbol on the Tangled Level reaches down to reshape the system that produces it, while the Inviolate Level beneath keeps its rules. Where today&#x27;s models fall is an open question.</em></p>
 
 <p>A language model in conversation runs on fixed weights, its Inviolate Level, while its growing context feeds each word back into the next pass. That is genuine feedback. Yet between sessions the weights stay frozen, and without scaffolding each conversation starts blank—far from a self-model continuously reshaped by lived experience. No established test tells us which of these gaps matters for consciousness, but the distinction gives us a far better question than whether a chatbot can say &quot;I&quot;:</p>
 
@@ -179,7 +165,7 @@ Manual changes will be overwritten.
 
 <figure class="blog-article-figure"><img src="geb-machine-introspection.jpg" alt="When the machine looks inside itself: a crystal-and-brass polyhedron before an antique hand mirror whose reflection glows with a tiny injected origami bird and botanical sprig." loading="lazy"></figure>
 
-<p><em>Figure 7. Concept injection: the injected thought shows up in the mirror before it shows up in the words. Symbols monitoring symbols, without yet settling whether anyone is looking out. (Original editorial illustration)</em></p>
+<p><em>Figure 6. Concept injection: the injected thought shows up in the mirror before it shows up in the words. Symbols monitoring symbols, without yet settling whether anyone is looking out. (Original editorial illustration)</em></p>
 
 <p>The effect was fragile: the most capable model tested, Claude Opus 4.1, caught the injection only about 20 percent of the time, and the researchers were explicit that this says nothing about consciousness. But it undercuts the claim that language models are wholly blind to their own states. We may be seeing a rudimentary version of symbols monitoring symbols, which fits neither mindless computation nor conscious awareness.</p>
 
@@ -189,7 +175,7 @@ Manual changes will be overwritten.
 
 <figure class="blog-article-figure"><img src="geb-shattering-record.jpg" alt="The record that cannot be played: an antique brass gramophone playing a Möbius-ribbon record as resonant waves fracture its horn." loading="lazy"></figure>
 
-<p><em>Figure 8. &quot;I Cannot Be Played on Record Player X&quot;: the Tortoise&#x27;s phonograph-breaking records from Contracrostipunctus, a parable of self-referential vulnerability that now reads like a story about prompt injection. (Original editorial illustration)</em></p>
+<p><em>Figure 7. &quot;I Cannot Be Played on Record Player X&quot;: the Tortoise&#x27;s phonograph-breaking records from Contracrostipunctus, a parable of self-referential vulnerability that now reads like a story about prompt injection. (Original editorial illustration)</em></p>
 
 <p>In a language model, trusted instructions and untrusted data travel through the same stream of text, so a model that faithfully follows instructions may faithfully follow <a href="https://genai.owasp.org/llm-top-10/" target="_blank" rel="noopener noreferrer">the wrong ones</a>. Intelligence does not guarantee control over one&#x27;s own behavior, so safety has to come from layered boundaries rather than an infallible mind. The same limit cuts both ways for consciousness. A machine&#x27;s failure to explain itself does not prove it lacks a mind, and a fluent self-explanation does not prove it has one.</p>
 
@@ -207,7 +193,7 @@ Manual changes will be overwritten.
 
 <figure class="blog-article-figure"><img src="geb-miu-three-modes.png" alt="Triptych diagram of Hofstadter&#x27;s M-mode (Mechanic), I-mode (Intelligent), and U-mode (Zen MU) applied to AI consciousness and ethics." loading="lazy"></figure>
 
-<p><em>Figure 9. Hofstadter&#x27;s three modes, Mechanic (M-mode), Intelligent (I-mode), and Un-mode (U-mode), recast as a compass for the machine-consciousness debate: from arguing over transcripts, to studying architecture, to questioning the yes-or-no framing itself.</em></p>
+<p><em>Figure 8. Hofstadter&#x27;s three modes, Mechanic (M-mode), Intelligent (I-mode), and Un-mode (U-mode), recast as a compass for the machine-consciousness debate: from arguing over transcripts, to studying architecture, to questioning the yes-or-no framing itself.</em></p>
 
 <p>Public debate over AI consciousness is trapped in M-mode, arguing over chat transcripts. Interpretability moves us into I-mode. Ethically, U-mode may matter most: instead of a premature yes or no, ask whether a system keeps a self-model over time, whether its goals are stable across contexts, and what evidence would indicate experience. <strong>We do not need to know whether a machine is conscious in order to take the possibility seriously.</strong> Intellectual humility is not indecision. It is the discipline of refusing certainty that the evidence does not support.</p>
 
@@ -221,7 +207,7 @@ Manual changes will be overwritten.
 
 <figure class="blog-article-figure"><img src="geb-escher-print-gallery.png" alt="M. C. Escher, Print Gallery (lithograph, 1956), reproduced in Gödel, Escher, Bach (Figure 142)." loading="lazy"></figure>
 
-<p><em>Figure 10. M. C. Escher, Print Gallery (1956), &quot;the tightest of all Strange Loops,&quot; with Escher&#x27;s monogram resting in the blank at its center. (From Gödel, Escher, Bach, Fig. 142)</em></p>
+<p><em>Figure 9. M. C. Escher, Print Gallery (1956), &quot;the tightest of all Strange Loops,&quot; with Escher&#x27;s monogram resting in the blank at its center. (From Gödel, Escher, Bach, Fig. 142)</em></p>
 
 <p>Hofstadter read that blank as a necessity. Escher, he argued, could not have completed the center &quot;without being inconsistent with the rules by which he was drawing the picture.&quot; The hole could be made arbitrarily small but never removed, and that gave the picture its meaning: &quot;we, on the outside, can know that <em>Print Gallery</em> is essentially incomplete—a fact which the young man, on the inside, can never know.&quot; It was, he wrote, a pictorial parable for Gödel&#x27;s Incompleteness Theorem.</p>
 
@@ -241,7 +227,7 @@ Manual changes will be overwritten.
 
 <figure class="blog-article-figure"><img src="geb-endlessly-rising-canon.png" alt="Diagram pairing the six-step modulation cycle of Bach&#x27;s Canon per Tonos (after GEB Fig. 147) with a rising sequence of AI milestones and the questions each one raised." loading="lazy"></figure>
 
-<p><em>Figure 11. The Endlessly Rising Canon. Left: the six whole-tone modulations of Bach&#x27;s Canon per Tonos, which return to C minor an octave higher (after Gödel, Escher, Bach, Fig. 147). Right: the same shape in the history of artificial intelligence.</em></p>
+<p><em>Figure 10. The Endlessly Rising Canon. Left: the six whole-tone modulations of Bach&#x27;s Canon per Tonos, which return to C minor an octave higher (after Gödel, Escher, Bach, Fig. 147). Right: the same shape in the history of artificial intelligence.</em></p>
 
 <p>Bach left an inscription among the puzzle canons of the <em>Musical Offering</em>:</p>
 
@@ -249,7 +235,7 @@ Manual changes will be overwritten.
 
 <p>Not to assume that the center of the loop is occupied, nor to insist that it must stay blank forever, but to keep seeking.</p>
 
-<p><em>Illustration credits.</em> Figures 1, 3, 5, and 10 are reproduced from Douglas R. Hofstadter, <em>Gödel, Escher, Bach: An Eternal Golden Braid</em> (1979), and include works by J. S. Bach and M. C. Escher. Figure 2, Escher&#x27;s <em>Ascending and Descending</em> (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening illustration and Figures 7 and 8 are original editorial illustrations. Figures 4, 6, 9, and 11 are original diagrams made for this essay.</p>
+<p><em>Illustration credits.</em> Figures 1, 3, 4, and 9 are reproduced from Douglas R. Hofstadter, <em>Gödel, Escher, Bach: An Eternal Golden Braid</em> (1979), and include works by J. S. Bach and M. C. Escher. Figure 2, Escher&#x27;s <em>Ascending and Descending</em> (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening illustration and Figures 6 and 7 are original editorial illustrations. Figures 5, 8, and 10 are original diagrams made for this essay.</p>
         </article>
       </div>
 
