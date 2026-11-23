@@ -142,7 +142,7 @@ Machine minds should be read the same way. The blank center is not a veil hiding
 
 Reading *Gödel, Escher, Bach* has sharpened, rather than changed, [my views on consciousness](https://www.gokhanmergen.com/blog-is-ai-conscious.html).
 
-I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. Unlike Hofstadter, I don't think a flicker of awareness requires a self. And a self is what most of today's AI still lacks: a lasting model of itself that steers what the system becomes. Most models run, answer, and stop. They describe a strange loop far better than they live one.
+I still think consciousness comes in degrees—from a head of lettuce to a cow—and that today's AI is **definitely maybe** a little conscious. Unlike Hofstadter, I do not think a flicker of awareness requires a self. A self is something heavier: a lasting internal model that steers what a system becomes. That is what today's AI still lacks. Most models run, answer, and stop. They describe a strange loop far better than they live one.
 
 That is not fixed. These machines have emergent properties, but much of what they present is shaped from outside by the people who train and deploy them, so none of the questions in this essay has a predetermined answer. Whether AI gets a persistent self, and perhaps more of whatever consciousness comes with one, is largely up to its designers.
 
