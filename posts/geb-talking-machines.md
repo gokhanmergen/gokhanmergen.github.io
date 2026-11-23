@@ -3,7 +3,7 @@ slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
 read_time: 10 min read
-title: Reading Gödel, Escher, Bach in the Age of Talking Machines
+title: Reading *Gödel, Escher, Bach* in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 ---

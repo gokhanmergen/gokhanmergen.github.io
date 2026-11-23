@@ -84,6 +84,12 @@ added (see "Comments, feed, and email subscriptions").
 a hex color, separated by commas. The index, the browser tab and the feed
 keep the plain title.
 
+To italicize part of the title, such as a book title, wrap it in asterisks:
+`title: Reading *Gödel, Escher, Bach* in the Age of Talking Machines`. The
+article heading and the index show it in italics; the browser tab, the
+feed and the page description show the title without the asterisks. The
+same works in `archive_title`. A title with `title_colors` shows no italics.
+
 The generator sorts posts by `date` from newest to oldest and assigns the
 visible post numbers automatically. Do not hard-code or manually renumber
 posts. Use the actual calendar date rather than relative labels such as “one

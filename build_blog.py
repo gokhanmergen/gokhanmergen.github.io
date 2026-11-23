@@ -138,6 +138,10 @@ class Post:
     # Words of the title shown in color on the article page, with their hex
     # colors, from "title_colors: Blue #1D5BC4, Red #C1302B".
     title_colors: Tuple[Tuple[str, str], ...] = ()
+    # The title and index title as written, where *asterisks* mark italics,
+    # such as a book title. `title` and `archive_title` hold the plain text.
+    title_markup: str = ""
+    archive_title_markup: str = ""
 
     @property
     def filename(self) -> str:
@@ -156,6 +160,21 @@ class Post:
 
 def escape(value: str) -> str:
     return html.escape(value, quote=True)
+
+
+TITLE_ITALICS = re.compile(r"\*([^*]+)\*")
+
+
+def plain_title(title: str) -> str:
+    """Return a title without its *italics* markers, for the browser tab and feed."""
+    return TITLE_ITALICS.sub(r"\1", title)
+
+
+def title_html(title: str) -> str:
+    """Return a title as HTML, with *italics* in <em>."""
+    parts = TITLE_ITALICS.split(title)
+    # re.split puts the italic text at the odd indexes.
+    return "".join(f"<em>{escape(part)}</em>" if index % 2 else escape(part) for index, part in enumerate(parts))
 
 
 def parse_title_colors(path: Path, fields: Dict[str, str]) -> Tuple[Tuple[str, str], ...]:
@@ -203,16 +222,18 @@ def parse_post(path: Path) -> Post:
         published=date.fromisoformat(fields["date"]),
         category=fields["category"],
         read_time=fields["read_time"],
-        title=fields["title"],
+        title=plain_title(fields["title"]),
         deck=fields["deck"],
         archive_deck=fields["archive_deck"],
-        archive_title=fields.get("archive_title", fields["title"]),
+        archive_title=plain_title(fields.get("archive_title", fields["title"])),
         body=body,
         lang=fields.get("lang", "en"),
         translation_of=fields.get("translation_of"),
         published_time=time.fromisoformat(fields.get("time", "00:00")),
         email=fields.get("email") == "send",
         title_colors=parse_title_colors(path, fields),
+        title_markup=fields["title"],
+        archive_title_markup=fields.get("archive_title", fields["title"]),
     )
     if fields.get("email", "send") != "send":
         raise ValueError(f"{path.name}: email must be 'send' or left out, not {fields['email']}")
@@ -639,7 +660,7 @@ def render_index(posts: List[Post], translations: Dict[str, List[Post]]) -> str:
               <span>{escape(post.category)}</span>
             </div>
             <div class="blog-list-body">
-              <h3><a href="{escape(post.filename)}">{escape(post.archive_title)}</a></h3>
+              <h3><a href="{escape(post.filename)}">{title_html(post.archive_title_markup)}</a></h3>
               <p>{escape(post.archive_deck)}</p>
               <a class="blog-list-read" href="{escape(post.filename)}">Read article <span aria-hidden="true">→</span></a>{translation_links}
             </div>
@@ -680,9 +701,12 @@ def render_index(posts: List[Post], translations: Dict[str, List[Post]]) -> str:
 
 
 def render_title(post: Post) -> str:
-    """Return the article heading, with the words in title_colors colored."""
+    """Return the article heading, with the words in title_colors colored.
+
+    A title with title_colors shows no italics.
+    """
     if not post.title_colors:
-        return escape(post.title)
+        return title_html(post.title_markup)
     colors = dict(post.title_colors)
     words = "|".join(re.escape(word) for word in colors)
     parts = re.split(rf"\b({words})\b", post.title)
