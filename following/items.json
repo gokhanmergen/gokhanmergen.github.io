@@ -26,6 +26,16 @@
   },
   {
    "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-23",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-22",
+   "summary": "The Department of Mathematics at the University of California, Los Angeles, invites applications for a tenure-track faculty position as an Assistant Professor in mathematics. A competitive candidate should have a transformative research program and show excellence in undergraduate teaching and educational innovation. We give preference to applicants in areas of pure and applied mathematics…",
+   "title": "Tenure-track position in pure mathematics at UCLA",
+   "url": "https://terrytao.wordpress.com/2026/11/22/tenure-track-position-in-pure-mathematics-at-ucla/"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
    "first_seen": "2026-11-22",
    "kind": "post",
    "person": "terence-tao",
@@ -43,6 +53,26 @@
    "summary": "Here is the abstract from a new NBER paper by Daniel Björkegren, David Lagakos & Mitchell VanVuren: This paper explores how economic growth driven by AI will impact the developing world. Our analysis is based on a growth model of a developed and developing economy where AI services are traded on the world market, and…",
    "title": "Will AI Growth Reach the Developing World?",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/will-ai-growth-reach-the-developing-world.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-23",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-22",
+   "summary": "1. Jonathan Yardley, RIP (NYT). One of the great book reviewers. 2. Summary of the RH proof. 3. A site collecting my talks and links. 4. Humans were never in control. 5. The Buddhist AI cult? (New Yorker) 6. Teortaxes on user data vs. curated data.",
+   "title": "Sunday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/sunday-assorted-links-591.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-23",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-22",
+   "summary": "From 2014 to 2024, the share of U.S. hourly workers paid below $15 in real terms fell by two-thirds, from 38 percent to 13 percent. Why? We first distinguish the entry and exit of employers—wherein high-paying employers have supplanted low-paying ones—from organizational changes among incumbent employers. Organizational changes can be imposed on employers by external…",
+   "title": "Increasing pay for lower wage workers",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/increasing-pay-for-lower-wage-workers.html"
   },
   {
    "feed": "https://thezvi.wordpress.com/feed/",
@@ -865,16 +895,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/thursday-assorted-links-578.html"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-13",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-12",
-   "summary": "",
-   "title": "My Barcelona talk on AI",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/my-barcelona-talk-on-ai.html"
-  },
-  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-11",
    "kind": "post",
@@ -913,16 +933,6 @@
    "summary": "And a little bit of health, science, and baseball",
    "title": "Live with Senator Tammy Baldwin on Recovery",
    "url": "https://snyder.substack.com/p/live-with-senator-tammy-baldwin-on"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-12",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-11",
-   "summary": "1. “We were discussing this today in office: future paper is 5 pages (what’s question, where is lit now very briefly, what do we do, what do we find), with all details left to a long appendix, hyperlinked, with rigorous AI review. We would read many more papers in that world! Agree?” Kevin Bryan. 2.…",
-   "title": "Wednesday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-579.html"
   },
   {
    "feed": "https://anneapplebaum.substack.com/feed",
@@ -2453,16 +2463,6 @@
    "summary": "Nick Cammarata of Goodfire makes a bold claim: Neural Networks are Already Clean. This was his follow up after various resulting online discussions. This is clearly good work that tells us new and important things. The question is, how big …",
    "title": "I Can See Everything",
    "url": "https://thezvi.wordpress.com/2026/10/19/i-can-see-everything/"
-  },
-  {
-   "feed": "https://terrytao.wordpress.com/feed/",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "terence-tao",
-   "published": "2026-10-19",
-   "summary": "[This is a guest post by Lukas Liehr, João Pedro Ramos and Mitchell Taylor – T.] We are launching the Bourgain Project, a community-driven initiative to revisit, expand upon, and explore the body of work of Jean Bourgain, one of the most prolific mathematicians of his time. The goal of this initiative is to develop…",
-   "title": "The Bourgain Project",
-   "url": "https://terrytao.wordpress.com/2026/10/19/the-bourgain-project/"
   },
   {
    "feed": "https://scottaaronson.blog/?feed=rss2",
@@ -4183,16 +4183,6 @@
    "summary": "A new era in cholesterol lowering may have just begun.In this episode of Longevity Science, I take a deep dive into enlicitide, the first FDA-approved oral PCSK9 inhibitor. If you've been following my recent videos, you know I started taking Repatha (evolocumab) after a coronary CT angiography (CCTA) with contrast revealed early soft plaque in my coronary arteries. Repatha has reduced my LDL…",
    "title": "The Pill That Could Prevent Heart Disease",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Pill-That-Could-Prevent-Heart-Disease-e3mhngs"
-  },
-  {
-   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "matt-kaeberlein",
-   "published": "2026-07-25",
-   "summary": "Why did I start taking Repatha?The answer isn't simply that my cholesterol was elevated—it was a heart scan that fundamentally changed how I thought about my cardiovascular risk.Last year I underwent a coronary CT angiography (CCTA) with contrast, a test that goes beyond a traditional calcium scan by allowing visualization of soft plaque, the type of plaque most likely to rupture and cause a…",
-   "title": "Why I Started Repatha (And Why I Almost Didn't)",
-   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Why-I-Started-Repatha-And-Why-I-Almost-Didnt-e3mhne9"
   }
  ]
 }
