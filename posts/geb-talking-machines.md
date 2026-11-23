@@ -120,7 +120,7 @@ To be fair, no settled theory of consciousness proves that frozen weights rule o
 
 **Does the system merely produce fluent descriptions of a self, or does it maintain an integrated, self-revising model of itself that genuinely steers what it becomes?**
 
-That is the difference between describing a strange loop and being one—per GEB.
+That is the difference between describing a strange loop and being one per GEB.
 
 ## The Blank Center
 
