@@ -24,7 +24,7 @@ We know what these systems do. We increasingly understand how they do some of it
 
 This is why *Gödel, Escher, Bach* may be the most important book to revisit in the age of AI. Not because Hofstadter accurately predicted our technological future. In several remarkable ways, he did not.
 
-Its importance lies somewhere deeper: **Hofstadter understood how intelligence and selfhood might emerge from mindless matter. What he did not foresee was how far machines might travel toward the former without clearly acquiring the latter.**
+Its importance lies somewhere deeper: **Hofstadter showed how intelligence and selfhood could emerge from mindless matter. He never imagined how far machines would go toward intelligence while leaving selfhood behind.**
 
 That distinction may become one of the defining philosophical and ethical questions of our century (previous post: [Is AI Conscious? And Does It Really Matter?](https://www.gokhanmergen.com/blog-is-ai-conscious.html)).
 
