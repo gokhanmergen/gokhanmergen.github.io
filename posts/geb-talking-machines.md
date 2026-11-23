@@ -110,12 +110,6 @@ Now hold today's language models against that diagram. During a conversation, a 
 
 This is where *Gödel, Escher, Bach* looks weakest. In 1979, Hofstadter assumed that selfhood and intelligence go together. He argued that making sense of the world requires an inner model of oneself, and he expected that a program able to beat anyone at chess would have to be a program of general intelligence, temperament and all. Deep Blue broke that assumption for chess in 1997; by 2026, language models have broken it for broad reasoning itself. They reason, write software, and hold expert conversations without a persistent, self-revising self. Intelligence and selfhood look like separate traits: so far, intelligence has arrived without a persistent self. That is not because a self can't be built, but because today's systems mostly aren't built to have one.
 
-The useful question, then, is not whether a machine can say "I" convincingly, but this:
-
-**Does the system merely produce fluent descriptions of a self, or does it maintain an integrated, self-revising model of itself that genuinely steers what it becomes?**
-
-That is the difference between describing a strange loop and being one.
-
 ## How to Introduce "Self" to an LLM?
 
 Translated into engineering terms, Hofstadter's recipe for a self has three ingredients: a memory that persists, a model of the system stored in that memory, and a loop in which that model steers what the system does and is revised by what happens. None of these needs new physics. Each is a design choice, and several are already on the table.
