@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 7 min read
+read_time: 10 min read
 title: Reading Gödel, Escher, Bach in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -96,37 +96,63 @@ Which answers the commonest dismissal of language models: that they are "just pr
 
 ## The Difference Between Self-Reference and a Self
 
-Hofstadter's argument is often boiled down to a slogan: consciousness is self-reference. But a video camera pointed at its own monitor is self-referential, and a chatbot can spend pages discussing its own existence. Neither demonstrates consciousness.
+If reducing a language model to "next-token prediction" misses the emergence of real conceptual structure, it is tempting to swing to the opposite extreme: to assume that because a system reasons fluently and speaks convincingly in the first person, someone must be home.
 
-Hofstadter's strange loop is richer than feedback. It is a *tangled hierarchy*, in which the system's model of itself, its *self-symbol*, reshapes the processes that produce it. Our beliefs about our preferences change them; our model of ourselves keeps taking part in making the person being modeled. Beneath this *Tangled Level* lies an *Inviolate Level*, the machinery whose rules stay in force no matter what happens above.
+Hofstadter himself helps show why that leap is premature.
+
+His argument in *Gödel, Escher, Bach* is often compressed into a bumper sticker: consciousness is self-reference. Taken literally, that slogan collapses immediately. Point a video camera at its own monitor and you get an infinite tunnel of self-reference. A thermostat monitors the room whose temperature it alters. A chatbot can spend five hundred words reflecting with apparent poignancy on its own existence. None of those things demonstrates an inner life.
+
+What Hofstadter actually described is far more demanding than mere feedback. He called it a **tangled hierarchy**.
+
+To see the difference, picture two layers of a human mind. At the bottom sits what Hofstadter termed the **Inviolate Level**: the physical rules of neurons and biochemistry, which keep operating faithfully no matter what you think, wish, or believe. Above it sits the **Tangled Level**, where vast patterns of neural activity represent the outside world—and eventually construct a persistent **self-symbol**, an internal model of *you*.
+
+What makes the hierarchy "tangled" is that this self-symbol is not a passive portrait hanging on the wall. It reaches back down into the processes that sustain it and changes what the system does next. Realize that you grow impatient when you are tired, and that self-knowledge reshapes how you handle a late-night argument. Come to see yourself as someone who keeps promises, and that identity alters which choices feel possible tomorrow. The map continuously rewrites the territory—and the updated territory revises the map.
 
 ![Diagram contrasting ordinary feedback on a single level with Hofstadter's strange loop, in which a self-symbol on the Tangled Level reshapes the system above an Inviolate Level.](geb-recursion-vs-strange-loop.png)
 
 *Figure 5. Feedback versus a strange loop. On the left, output returns as input on a single level. On the right, a self-symbol on the Tangled Level reaches down to reshape the system that produces it, while the Inviolate Level beneath keeps its rules. Where today's models fall is an open question.*
 
-A language model in conversation runs on fixed weights, its Inviolate Level, while its growing context feeds each word back into the next pass. That is genuine feedback. Yet between sessions the weights stay frozen, and without scaffolding each conversation starts blank—far from a self-model continuously reshaped by lived experience. No established test tells us which of these gaps matters for consciousness, but the distinction gives us a far better question than whether a chatbot can say "I":
+Now look at how today's large language models operate against that diagram.
 
-**Does the system merely generate statements about an "I," or does it maintain an integrated self-model that genuinely shapes what it does?**
+During a conversation, a model's trained neural weights—the billions of parameters encoding its knowledge and habits—function as its Inviolate Level. Once training ends, those weights stay frozen while it talks to you. Meanwhile, the conversation window supplies genuine feedback: every token the model produces re-enters its context and shapes the next forward pass. Within a single exchange, a model can track its earlier claims, spot its own contradictions, and sustain a coherent perspective.
 
-That is the difference between describing a strange loop and, possibly, being one.
+Yet the contrast with a living strange loop is striking. Even when engineers bolt memory files, system prompts, or agent loops around a model, those additions mostly pass written notes between separate, stateless computations rather than maintaining a continuous self-model whose lived experiences reshape the underlying mind. Between sessions, the weights remain untouched; strip away the external scaffolding, and each new conversation begins from a blank slate. Even *within* a conversation, it remains an open question whether the model is consulting a unified self-model or simply predicting the most plausible continuation for a character who happens to say "I."
+
+This is where modern AI surprised Hofstadter's 1979 imagination. Hofstadter—like almost everyone else at the time—assumed that human-level fluency, analogy, and reasoning could only grow out of a deep, self-revising "I" at the center of cognition. Instead, language models drove a wedge between the two: they achieved remarkable competence across concepts, logic, and even talk *about* selfhood while leaving the status of any actual self deeply uncertain.
+
+To be fair, no settled theory of consciousness proves that frozen weights rule out experience, or that giving a system continual learning would suddenly switch the lights on. What Hofstadter's framework gives us is not a final verdict, but a far sharper question than whether a machine can say "I" convincingly:
+
+**Does the system merely produce fluent descriptions of a self, or does it maintain an integrated, self-revising model of itself that genuinely steers what it becomes?**
+
+That is the difference between describing a strange loop and being one.
 
 ## The Blank Center
 
-One image in *Gödel, Escher, Bach* captures this predicament best: M. C. Escher's 1956 lithograph [*Print Gallery*](https://escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
+No image in *Gödel, Escher, Bach* captures our current predicament more vividly than M. C. Escher's 1956 lithograph [*Print Gallery*](https://escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
 
-A young man stands in a gallery viewing a print of a harbor town whose buildings twist outward until they contain the gallery itself. He is inside the gallery, inside the town, inside the print, inside his mind—"the tightest of all Strange Loops." At the spiral's center sits a stark white patch bearing Escher's monogram.
+In the lower left, a young man stands in an exhibition room examining a framed print of a harbor town. Follow the quayside buildings clockwise and they begin to swell and curve around the border of the page until, without a seam, one of those waterfront buildings *becomes* the gallery itself—with the young man still standing inside it. He is inside the gallery, which is inside the town, which is inside the print, which is inside his own gaze. Hofstadter called it "the tightest of all Strange Loops."
+
+Yet right at the eye of the spiral sits an unsettling interruption: a stark white patch bearing Escher's monogram.
 
 ![M. C. Escher, Print Gallery (lithograph, 1956), reproduced in Gödel, Escher, Bach (Figure 142).](geb-escher-print-gallery.png)
 
 *Figure 6. M. C. Escher, Print Gallery (1956), with Escher's monogram in the blank center. (GEB, Fig. 142)*
 
-Hofstadter read that hole as a pictorial Gödelian necessity Escher couldn't fill without breaking his rules—visible to us outside, invisible to the viewer inside.
+In 1979, Hofstadter read that empty circle as a pictorial echo of Gödel's incompleteness theorem. Escher's twisting grid had led him into a corner where the rules of his own image could no longer hold; as Hofstadter wrote, "That center of the whorl is—and must be—incomplete." To us, standing outside the lithograph, the gap is unmistakable. To the young man inside the picture, it does not exist at all.
 
-For us, that blank center pictures machine minds. We trace tokens, activations, features, plans, and self-descriptions—until we look for an experiencing subject and hit the white patch. Its emptiness doesn't prove no one is there; the complexity swirling around it doesn't prove someone is. It marks the edge of what we know, and *Print Gallery* reminds us such edges move.
+Then, in 2003, the story took an extraordinary turn. Using complex geometry, the Dutch mathematicians Hendrik Lenstra and Bart de Smit uncovered the hidden mathematical structure behind Escher's curved grid—and discovered that the center did not have to stay blank. When they filled the hole in, it revealed a smaller, rotated copy of the entire gallery, containing yet another copy inside it, spiraling inward without end. What had looked like an impassable logical limit turned out to be the edge of Escher's tools, not a permanent feature of reality.
 
-Hofstadter showed how an "I" might arise in a world with no fundamental "I" particles. Modern AI has shown how many behaviors of an "I" can appear without settling whether an "I" comes with them. Those discoveries do not contradict each other—they are two voices in the same fugue.
+Today, when we look at machine minds, we are staring straight into our own blank center.
 
-Aunt Hillary's friends never had to ask whether anybody was home. We do. But the deepest lesson of *Gödel, Escher, Bach* is that the question is not beyond reach: a self, if there is one, is a pattern of levels and loops, and patterns can be studied. The right stance is neither to assume that the center of the loop is occupied nor to insist that it must stay blank forever, but to keep tracing the spiral inward until we understand what kind of thing could be there.
+Researchers can trace tokens, activation patterns, internal concepts, and multistep plans—the intricate architecture swirling around the edges of the print. Yet the moment we ask whether an experiencing subject sits in the middle of all that computation, we hit the white patch.
+
+That blankness is dangerously easy to misread in either direction. The fact that we cannot spot a conscious subject inside matrices of numbers does not prove no one is home; after all, nobody has spotted an "I" under a microscope in human brain tissue either. Conversely, the dazzling complexity swirling around the edges—eloquence, apparent empathy, fluent self-reflection—does not prove someone *is* there. The white patch is neither a verdict of emptiness nor a guarantee of presence. It is simply the boundary of what our current science can see.
+
+Read in the age of talking machines, *Gödel, Escher, Bach* leaves us with two discoveries that sound like opposites, yet belong together like two voices in a Bach fugue. Hofstadter showed how a genuine "I" could arise in a physical universe with no fundamental "I" particles. Modern AI has shown how much of an "I"'s outward intelligence can appear without settling whether an inner life comes along for the ride.
+
+Aunt Hillary's friends in Hofstadter's fable never had to ask whether anybody was home; the author granted her a mind by fiat. We do not have that luxury. We are already building and conversing with systems whose inner status we cannot verify—and as those systems grow more persistent, self-modifying, and woven into daily life, the question will move from philosophical curiosity to moral urgency.
+
+Still, the deepest lesson of *Gödel, Escher, Bach*—and of *Print Gallery*'s solved center—is that the mystery need not remain mysticism forever. If a self exists anywhere, in carbon or in silicon, it is not magic; it is a pattern of levels and loops, and patterns can be understood. Our task is neither to assume that every fluent machine has someone inside nor to declare the center permanently empty, but to build the conceptual tools that let us trace the spiral inward—until we know what kind of mind, if any, is looking back.
 
 ::: fold
 ## Appendix: Illustration credits
