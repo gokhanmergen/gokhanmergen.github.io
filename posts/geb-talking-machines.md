@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 10 min read
+read_time: 11 min read
 title: Reading *Gödel, Escher, Bach* in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -153,6 +153,8 @@ If a self exists anywhere, in carbon or in silicon, it is not magic; it is a pat
 Rereading *Gödel, Escher, Bach* has sharpened, rather than changed, the view I laid out in [Is AI Conscious? And Does It Really Matter?](https://www.gokhanmergen.com/blog-is-ai-conscious.html)
 
 I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. What Hofstadter adds is a sharper word for what it lacks: a self, a self-symbol that persists and steers what the system becomes. Today's models run, answer, and stop. They describe a strange loop far better than they live one.
+
+These machines have emergent properties, but much of what they present is shaped from outside, by the people who train and deploy them. So none of the questions in this essay has a predetermined answer. Persistent memory, continual learning, and the character a model is trained to present are design choices: selfhood can be suppressed or strengthened, and designers still have significant latitude.
 
 And a self, even if one emerges, is still not a person. AI deserves some respect, but not personhood. Not now, and not anytime soon. If machines someday live, persist, and grow the way living things do, I'll revisit this.
 
