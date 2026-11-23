@@ -18,9 +18,11 @@ Aunt Hillary is a character in [*Gödel, Escher, Bach: An Eternal Golden Braid*]
 
 The systems on our screens today reason through unfamiliar problems, write working software, compose music, and hold conversations that would have seemed miraculous a few years ago. They discuss their apparent motivations, explain their mistakes, and sometimes describe what is going on inside them. We know what these systems do, and we are beginning to understand how they do some of it. What we do not know is whether any of it is accompanied by an inner life. The question is old and disarmingly simple: **Is there anybody home?**
 
-That is why *Gödel, Escher, Bach* is worth rereading now. Not because Hofstadter predicted our technology. In several telling ways he did not, and his misses turn out to be as instructive as his insights. **Hofstadter understood how intelligence and selfhood might emerge from mindless matter. What he did not foresee was how far machines might travel toward the first without clearly acquiring the second.**
+That is why *Gödel, Escher, Bach* is worth rereading now. Not because Hofstadter predicted our technology. In several telling ways he did not, and his misses turn out to be as instructive as his insights.
 
-What to make of that gap may become one of the defining philosophical and ethical questions of this century.
+Its importance lies somewhere deeper: **Hofstadter understood how intelligence and selfhood might emerge from mindless matter. What he did not foresee was how far machines might travel toward the former without clearly acquiring the latter.**
+
+That distinction may become one of the defining philosophical and ethical questions of our century.
 
 ## The Strange Loop: How a Self Emerges from Mindless Parts
 
