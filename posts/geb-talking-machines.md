@@ -142,7 +142,7 @@ That is not fixed. These machines have emergent properties, but much of what the
 
 And a self, even if one emerges, is still not a person. AI deserves some respect, but not personhood. If machines someday live, persist, and grow the way living things do, I'll revisit this.
 
-**My final verdict:** *Gödel, Escher, Bach* is a meditation on consciousness, not a theory of it. Its central insight, that a self can emerge from mindless parts, holds up. Its central assumption, that selfhood comes bundled with intelligence, does not. Its ideas are suggestive rather than testable, fitting for a subject as vague as the soul, and its analogies make you think. But it leaves you somewhat unsatisfied, like getting up hungry from a very large meal.
+**My final verdict:** *Gödel, Escher, Bach* is a meditation on consciousness. Its central insight, that a self can emerge from mindless parts, holds up. Its central assumption, that selfhood comes bundled with intelligence, does not. Its ideas are suggestive rather than testable, fitting for a subject as vague as the soul, and its analogies make you think. But it leaves you somewhat unsatisfied, like getting up hungry from a very large meal.
 
 ::: fold
 ## Appendix: Illustration credits
