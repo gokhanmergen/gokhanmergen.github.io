@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 8 min read
+read_time: 7 min read
 title: Reading Gödel, Escher, Bach in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -116,26 +116,22 @@ That is the difference between describing a strange loop and, possibly, being on
 
 ## The Blank Center
 
-One image in *Gödel, Escher, Bach* captures this predicament better than any argument: M. C. Escher's 1956 lithograph [*Print Gallery*](https://escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
+One image in *Gödel, Escher, Bach* captures this predicament best: M. C. Escher's 1956 lithograph [*Print Gallery*](https://escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
 
-A young man stands in a gallery, looking at a print of a harbor town. Follow the buildings in the print and the perspective begins to twist. The town swells and curls around until it contains the very gallery in which the young man is standing. He is inside the gallery; the gallery is inside the town; the town is inside the picture; and the picture is inside his mind. Hofstadter called it "the tightest of all Strange Loops."
-
-At the center of the whorl sits a conspicuous white patch bearing Escher's monogram.
+A young man stands in a gallery viewing a print of a harbor town whose buildings twist outward until they contain the gallery itself. He is inside the gallery, inside the town, inside the print, inside his mind—"the tightest of all Strange Loops." At the spiral's center sits a stark white patch bearing Escher's monogram.
 
 ![M. C. Escher, Print Gallery (lithograph, 1956), reproduced in Gödel, Escher, Bach (Figure 142).](geb-escher-print-gallery.png)
 
-*Figure 7. M. C. Escher, Print Gallery (1956), "the tightest of all Strange Loops," with Escher's monogram resting in the blank at its center. (From Gödel, Escher, Bach, Fig. 142)*
+*Figure 7. M. C. Escher, Print Gallery (1956), with Escher's monogram in the blank center. (GEB, Fig. 142)*
 
-Hofstadter read that blank as a necessity. Escher, he argued, could not have completed the center "without being inconsistent with the rules by which he was drawing the picture." The hole could be made arbitrarily small but never removed, and that gave the picture its meaning: "we, on the outside, can know that *Print Gallery* is essentially incomplete—a fact which the young man, on the inside, can never know." It was, he wrote, a pictorial parable for Gödel's Incompleteness Theorem.
+Hofstadter read that hole as a pictorial Gödelian necessity Escher couldn't fill without breaking his rules—visible to us outside, invisible to the viewer inside.
 
-Then, in 2003, the mathematicians Bart de Smit and Hendrik Lenstra worked out the precise geometry behind Escher's distortion and used it to fill the hole. The completed center contains a smaller, rotated copy of the entire print, which contains another, and so on inward without end. The blank was not forced by contradiction after all. It marked a spiral of infinite self-similarity: something no hand could draw to completion, yet mathematics could describe. From inside a system, a gap can look impassable; from outside, with better instruments, it can turn out to have structure.
+Then, in 2003, mathematicians Bart de Smit and Hendrik Lenstra solved Escher's geometry and filled the hole: inside sits a smaller, rotated copy of the entire print, spiraling inward forever. The blank wasn't forced by contradiction, but by infinite self-similarity—impossible by hand, describable by math. With better instruments, an impassable gap can reveal structure.
 
-For us, the blank center has become a picture of the mystery of machine minds. We can follow the layers: tokens, activations, features, concepts, plans, self-descriptions. But at the point where we want to locate a subject, to know whether anyone is actually experiencing any of this, we reach the white patch.
+For us, that blank center pictures machine minds. We trace tokens, activations, features, plans, and self-descriptions—until we look for an experiencing subject and hit the white patch. Its emptiness doesn't prove no one is there; the complexity swirling around it doesn't prove someone is. It marks the edge of what we know, and *Print Gallery* reminds us such edges move.
 
-Its emptiness is not proof that no one is there. Nor is the complexity swirling around it proof that someone must be. It marks the edge of what we currently understand, and *Print Gallery* is a reminder that such edges can move.
+Hofstadter showed how an "I" might arise in a world with no fundamental "I" particles. Modern AI has shown how many behaviors of an "I" can appear without settling whether an "I" comes with them. Those discoveries do not contradict each other—they are two voices in the same fugue.
 
-Perhaps this is the deepest lesson of *Gödel, Escher, Bach*. The book does not ask us to choose between mystical consciousness and meaningless machinery; it challenges the assumption that those are the only options. A pattern can be entirely physical and still be real. A mind can arise from parts that have no minds of their own. But we must keep the emergence of intelligence distinct from the emergence of experience, even though in ourselves the two seem inseparable.
-
-Hofstadter's achievement was to show how an "I" might arise in a world that contains no fundamental "I" particles. The achievement of modern AI has been to show how many of the behaviors we associate with an "I" can arise without settling whether an "I" has arisen with them. The two discoveries do not contradict each other. They are two voices in the same fugue.
+Aunt Hillary's friends never had to ask whether anybody was home. We do. But the deepest lesson of *Gödel, Escher, Bach* is that the question is not beyond reach: a self, if there is one, is a pattern of levels and loops, and patterns can be studied. The right stance is neither to assume that the center of the loop is occupied nor to insist that it must stay blank forever, but to keep tracing the spiral inward until we understand what kind of thing could be there.
 
 *Illustration credits.* Figures 1, 3, 4, 5, and 7 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach, M. C. Escher, and Hofstadter. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening image is an original editorial illustration. Figure 6 is an original diagram made for this essay.
