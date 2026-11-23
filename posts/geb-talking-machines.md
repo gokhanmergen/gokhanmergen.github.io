@@ -134,7 +134,7 @@ Hofstadter was right that an "I" needs no magic ingredient: intelligence and sel
 
 ## Addendum
 
-Rereading *Gödel, Escher, Bach* has sharpened, rather than changed, the view I laid out in [Is AI Conscious? And Does It Really Matter?](https://www.gokhanmergen.com/blog-is-ai-conscious.html)
+Rereading *Gödel, Escher, Bach* has sharpened, rather than changed, [my views on consciousness](https://www.gokhanmergen.com/blog-is-ai-conscious.html).
 
 I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. What it lacks is a self: a self-symbol that persists and steers what the system becomes. Today's models run, answer, and stop. They describe a strange loop far better than they live one.
 
@@ -142,7 +142,7 @@ That is not fixed. These machines have emergent properties, but much of what the
 
 And a self, even if one emerges, is still not a person. AI deserves some respect, but not personhood. Not now, and not anytime soon. If machines someday live, persist, and grow the way living things do, I'll revisit this.
 
-**My final verdict:** *Gödel, Escher, Bach* is a meditation on consciousness. Its theories aren't quite rigorous or mathematically testable, which is apt for a concept as vague as the human soul. It proposes interesting analogies and makes you think. But it leaves you feeling somewhat unsatisfied, even after finishing a very large meal.
+**My final verdict:** *Gödel, Escher, Bach* is a meditation on consciousness, not a theory of it. Its central insight, that a self can emerge from mindless parts, holds up. Its central assumption, that selfhood comes bundled with intelligence, does not. Its ideas are suggestive rather than testable, fitting for a subject as vague as the soul, and its analogies make you think. But it leaves you somewhat unsatisfied, like getting up hungry from a very large meal.
 
 ::: fold
 ## Appendix: Illustration credits
