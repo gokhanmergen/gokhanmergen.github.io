@@ -122,8 +122,6 @@ A young man stands in a gallery viewing a print of a harbor town whose buildings
 
 Hofstadter read that hole as a pictorial Gödelian necessity Escher couldn't fill without breaking his rules—visible to us outside, invisible to the viewer inside.
 
-Then, in 2003, mathematicians Bart de Smit and Hendrik Lenstra solved Escher's geometry and filled the hole: inside sits a smaller, rotated copy of the entire print, spiraling inward forever. The blank wasn't forced by contradiction, but by infinite self-similarity—impossible by hand, describable by math. With better instruments, an impassable gap can reveal structure.
-
 For us, that blank center pictures machine minds. We trace tokens, activations, features, plans, and self-descriptions—until we look for an experiencing subject and hit the white patch. Its emptiness doesn't prove no one is there; the complexity swirling around it doesn't prove someone is. It marks the edge of what we know, and *Print Gallery* reminds us such edges move.
 
 Hofstadter showed how an "I" might arise in a world with no fundamental "I" particles. Modern AI has shown how many behaviors of an "I" can appear without settling whether an "I" comes with them. Those discoveries do not contradict each other—they are two voices in the same fugue.
