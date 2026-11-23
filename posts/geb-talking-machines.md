@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 9 min read
+read_time: 10 min read
 title: Reading *Gödel, Escher, Bach* in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -108,7 +108,7 @@ What Hofstadter described is more demanding than feedback. He called it a **tang
 
 Now hold today's language models against that diagram. During a conversation, a model's trained weights act as its Inviolate Level: they stay frozen while it talks to you. The conversation window supplies genuine feedback, since every token the model produces re-enters its context and shapes the next one. Memory files, system prompts, and agent loops add more, but they mostly pass written notes between separate, stateless runs rather than maintaining a continuous self-model that experience reshapes. Even within a conversation, it is unclear whether the model consults a unified self-model or simply predicts the most plausible lines for a character who happens to say "I."
 
-This is where *Gödel, Escher, Bach* gets it wrong. In 1979, Hofstadter assumed that selfhood and intelligence go together. He argued that making sense of the world requires an inner model of oneself, and he expected that a program able to beat anyone at chess would have to be a program of general intelligence, temperament and all. Deep Blue broke that assumption for chess in 1997; by 2026, language models have broken it for broad reasoning itself. They reason, write software, and hold expert conversations without a persistent, self-revising self. Intelligence and selfhood are separate traits, and so far one can be built without the other.
+This is where *Gödel, Escher, Bach* looks weakest. In 1979, Hofstadter assumed that selfhood and intelligence go together. He argued that making sense of the world requires an inner model of oneself, and he expected that a program able to beat anyone at chess would have to be a program of general intelligence, temperament and all. Deep Blue broke that assumption for chess in 1997; by 2026, language models have broken it for broad reasoning itself. They reason, write software, and hold expert conversations without a persistent, self-revising self. Intelligence and selfhood look like separate traits: so far, intelligence has arrived without a persistent self. If research one day finds an "I" inside these models, it will be one that lasts a single conversation, not the continuous, self-revising self Hofstadter had in mind.
 
 The useful question, then, is not whether a machine can say "I" convincingly, but this:
 
@@ -128,7 +128,7 @@ In the lower left, a young man stands in an exhibition room examining a framed p
 
 Hofstadter read the patch as a picture of Gödel's incompleteness theorem: Escher could not have completed the center without breaking his own drawing rules. The point is for whom it is blank. "We, on the outside, can know that *Print Gallery* is essentially incomplete," he wrote, "a fact which the young man, on the inside, can never know." In 2003, the mathematicians Hendrik Lenstra and Bart de Smit went further. They worked out the mathematics of Escher's grid and filled the hole with a smaller, rotated copy of the entire print, spiraling inward without end. What was blank from within had structure all along.
 
-Machine minds should be read the same way. The blank center is not a veil hiding the system from outsiders; it is a blind spot for the system looking from within. A model's reports about its own inner life come from inside the loop, and they may be no more reliable than our introspection is about our own consciousness. From outside, researchers can trace the concepts and plans a model cannot report about itself. And the filled-in print hints at what to look for: a copy of the whole inside itself, which is what a self amounts to in Hofstadter's account. Whether a machine has a self is a question that can be studied from outside.
+Machine minds should be read the same way. The blank center is not a veil hiding the system from outsiders; it is a blind spot for the system looking from within. A model's reports about its own inner life come from inside the loop, and they may be no more reliable than our introspection is about our own consciousness. From outside, researchers can trace the concepts and plans a model cannot report about itself. In July 2026, Anthropic researchers [reported a small "global workspace" inside Claude](https://www.anthropic.com/research/global-workspace): a few dozen concepts at a time that the model can report on, which privately registered things like "ERROR" in buggy code or "fake" in a staged test. They saw "hints that it's tied to Claude's sense of self," while stressing that none of it shows Claude feels anything. And the filled-in print hints at what to look for: a copy of the whole inside itself, which is what a self amounts to in Hofstadter's account. Whether a machine has a self is a question that can be studied from outside.
 
 ## Conclusions
 
