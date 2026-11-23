@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 10 min read
+read_time: 11 min read
 title: Reading *Gödel, Escher, Bach* in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -129,6 +129,16 @@ In the lower left, a young man stands in an exhibition room examining a framed p
 Hofstadter read the patch as a picture of Gödel's incompleteness theorem: Escher could not have completed the center without breaking his own drawing rules. The point is for whom it is blank. "We, on the outside, can know that *Print Gallery* is essentially incomplete," he wrote, "a fact which the young man, on the inside, can never know." In 2003, the mathematicians Hendrik Lenstra and Bart de Smit went further. They worked out the mathematics of Escher's grid and filled the hole with a smaller, rotated copy of the entire print, spiraling inward without end. What was blank from within had structure all along.
 
 Machine minds should be read the same way. The blank center is not a veil hiding the system from outsiders; it is a blind spot for the system looking from within. A model's reports about its own inner life come from inside the loop, and they may be no more reliable than our introspection is about our own consciousness. From outside, researchers can trace the concepts and plans a model cannot report about itself. In July 2026, Anthropic researchers [reported a small "global workspace" inside Claude](https://www.anthropic.com/research/global-workspace): a few dozen concepts at a time that the model can report on, which privately registered things like "ERROR" in buggy code or "fake" in a staged test. They saw "hints that it's tied to Claude's sense of self," while stressing that none of it shows Claude feels anything. And the filled-in print hints at what to look for: a copy of the whole inside itself, which is what a self amounts to in Hofstadter's account. Whether a machine has a self is a question that can be studied from outside.
+
+## Is a Persistent Self Just a Design Choice?
+
+If transformers lack a persistent self, could a different architecture have one? Recurrent neural networks, and their best-known variant, the LSTM, look like natural candidates. A transformer rereads its whole context at every step; a recurrent network instead carries a hidden state forward, updating it with each new input. It is a loop in the literal sense, and nothing stops engineers from saving that state at the end of one session and loading it at the start of the next. Newer recurrent designs, such as state-space models, work the same way.
+
+But a loop is not yet a strange loop. An LSTM's "long-term" memory is long only by the standards of earlier recurrent networks: a fixed-size summary that fades and is overwritten as new input arrives. And like a transformer, a recurrent model runs on frozen weights; its state changes, but the network that interprets it does not. A transformer can keep state too, by saving its context or carrying notes in files like `AGENTS.md`. Persistence alone gives a system a diary, not a self. Hofstadter's loop asks for more: a model of the system that experience keeps revising, and that in turn changes the system.
+
+The closest thing to that is not a particular architecture but continual learning: letting a model update its own weights from what it goes through. Is that simply a design choice? Partly. Labs keep deployed models frozen on purpose, because a model that rewrites itself after every conversation is harder to test, harder to audit, and could carry one user's secrets into another's session. But it is also an unsolved problem. Networks that keep learning tend to overwrite what they already knew, a failure known as catastrophic forgetting, and no one has fully fixed it.
+
+So the absence of a persistent self in today's AI says little about what machines can be, and a lot about what we have chosen, and so far managed, to build. The one system we know has a self, the brain, is recurrent, never stops learning, and never starts over from a blank slate.
 
 ## Conclusions
 
