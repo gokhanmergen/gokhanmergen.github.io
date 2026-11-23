@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 11 min read
+read_time: 9 min read
 title: Reading *Gödel, Escher, Bach* in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -96,25 +96,21 @@ Which answers the commonest dismissal of language models: that they are "just pr
 
 ## The Difference Between Self-Reference and a Self
 
-If reducing a language model to "next-token prediction" misses the emergence of real conceptual structure, it is tempting to swing to the opposite extreme: to assume that because a system reasons fluently and speaks convincingly in the first person, someone must be home. Hofstadter himself helps show why that leap is premature.
+If "next-token prediction" undersells what happens inside a language model, the opposite mistake is just as easy: to assume that because a system reasons fluently and speaks convincingly in the first person, someone must be home.
 
-His argument in *Gödel, Escher, Bach* is often compressed into a bumper sticker: consciousness is self-reference. Taken literally, that slogan collapses immediately. Point a video camera at its own monitor and you get an infinite tunnel of self-reference. A thermostat monitors the room whose temperature it alters. A chatbot can spend five hundred words reflecting with apparent poignancy on its own existence. None of those things demonstrates an inner life.
+Hofstadter's own framework is useful here. His argument is often compressed into a slogan: consciousness is self-reference. Taken literally, the slogan collapses at once. Point a video camera at its own monitor and you get an infinite tunnel of self-reference. A thermostat monitors the room whose temperature it alters. A chatbot can spend five hundred words reflecting on its own existence. None of these demonstrates an inner life.
 
-What Hofstadter actually described is far more demanding than mere feedback. He called it a **tangled hierarchy**.
-
-To see the difference, picture two layers of a human mind. At the bottom sits what Hofstadter termed the **Inviolate Level**: the physical rules of neurons and biochemistry, which keep operating faithfully no matter what you think, wish, or believe. Above it sits the **Tangled Level**, where vast patterns of neural activity represent the outside world—and eventually construct a persistent **self-symbol**, an internal model of *you*.
-
-What makes the hierarchy "tangled" is that this self-symbol is not a passive portrait hanging on the wall. It reaches back into the web of symbols that produces it and changes what the system does next. Realize that you grow impatient when you are tired, and that self-knowledge reshapes how you handle a late-night argument. Come to see yourself as someone who keeps promises, and that identity alters which choices feel possible tomorrow. The map continuously rewrites the territory—and the updated territory revises the map.
+What Hofstadter described is more demanding than feedback. He called it a **tangled hierarchy**. At the bottom sits the **Inviolate Level**: the physical rules of neurons and biochemistry, which keep operating no matter what you think or believe. Above it sits the **Tangled Level**, where patterns of neural activity represent the world and eventually build a persistent **self-symbol**, an internal model of *you*. The self-symbol is not a passive portrait. It reaches back into the web of symbols that produces it and changes what the system does next. Realize that you grow impatient when you are tired, and that self-knowledge changes how you handle a late-night argument.
 
 ![Diagram contrasting ordinary feedback on a single level with Hofstadter's strange loop, in which a self-symbol on the Tangled Level reshapes the system above an Inviolate Level.](geb-recursion-vs-strange-loop.png)
 
 *Figure 5. Feedback versus a strange loop. On the left, output returns as input on a single level. On the right, a self-symbol on the Tangled Level reaches back into the web of symbols that produces it, while the Inviolate Level beneath keeps its rules. Where today's models fall is an open question.*
 
-Now look at today's large language models against that diagram. During a conversation, a model's trained neural weights—the billions of parameters encoding its knowledge and habits—function as its Inviolate Level. Once training ends, those weights stay frozen while it talks to you. Meanwhile, the conversation window supplies genuine feedback: every token the model produces re-enters its context and shapes the next forward pass. Within a single exchange, a model can track its earlier claims, spot its own contradictions, and sustain a coherent perspective.
+Now hold today's language models against that diagram. During a conversation, a model's trained weights act as its Inviolate Level: they stay frozen while it talks to you. The conversation window supplies genuine feedback, since every token the model produces re-enters its context and shapes the next one. Memory files, system prompts, and agent loops add more, but they mostly pass written notes between separate, stateless runs rather than maintaining a continuous self-model that experience reshapes. Even within a conversation, it is unclear whether the model consults a unified self-model or simply predicts the most plausible lines for a character who happens to say "I."
 
-Yet the contrast with a living strange loop is striking. Even when engineers bolt memory files, system prompts, or agent loops around a model, those additions mostly pass written notes between separate, stateless computations rather than maintaining a continuous self-model whose lived experiences reshape the underlying mind. Even *within* a conversation, it remains an open question whether the model is consulting a unified self-model or simply predicting the most plausible continuation for a character who happens to say "I."
+This is where *Gödel, Escher, Bach* gets it wrong. In 1979, Hofstadter assumed that selfhood and intelligence go together. He argued that making sense of the world requires a self-symbol, and he expected that a program able to beat anyone at chess would have to be a program of general intelligence, temperament and all. As of 2026, we know better. Language models reason, write software, and hold expert conversations without a persistent, self-revising self. Intelligence and selfhood are separate traits, and so far one can be built without the other.
 
-Language models drove a wedge between competence and selfhood that Hofstadter never expected.
+The useful question, then, is not whether a machine can say "I" convincingly, but this:
 
 **Does the system merely produce fluent descriptions of a self, or does it maintain an integrated, self-revising model of itself that genuinely steers what it becomes?**
 
@@ -122,39 +118,27 @@ That is the difference between describing a strange loop and being one per GEB.
 
 ## The Blank Center
 
-No image in *Gödel, Escher, Bach* captures this predicament more vividly than M. C. Escher's 1956 lithograph [*Print Gallery*](https://escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
+Hofstadter illustrates the limits of self-knowledge with M. C. Escher's 1956 lithograph [*Print Gallery*](https://escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
 
-In the lower left, a young man stands in an exhibition room examining a framed print of a harbor town. Follow the quayside buildings clockwise and they swell and curve until one of them *becomes* the gallery, with the young man still inside it. He is inside the gallery, which is inside the town, which is inside the print, which is inside his own gaze. Hofstadter called it "the tightest of all Strange Loops."
-
-Yet right at the eye of the spiral sits an unsettling interruption: a stark white patch bearing Escher's monogram.
+In the lower left, a young man stands in an exhibition room examining a framed print of a harbor town. Follow the quayside buildings clockwise and they swell and curve until one of them *becomes* the gallery, with the young man still inside it. At the eye of the spiral sits a white patch bearing Escher's monogram.
 
 ![M. C. Escher, Print Gallery (lithograph, 1956), reproduced in Gödel, Escher, Bach (Figure 142).](geb-escher-print-gallery.png)
 
 *Figure 6. M. C. Escher, Print Gallery (1956), with Escher's monogram in the blank center. (GEB, Fig. 142)*
 
-Hofstadter read that empty circle as a pictorial echo of Gödel's incompleteness theorem. Escher could not have completed the center without breaking the rules by which he was drawing the picture: "That center of the whorl is—and must be—incomplete." But notice for whom it is blank. "We, on the outside, can know that *Print Gallery* is essentially incomplete," Hofstadter wrote, "a fact which the young man, on the inside, can never know." Gödel's sentence works the same way. It cannot be proved by the rules of the system, yet anyone reasoning about the system from outside can see that it is true.
+Hofstadter read the patch as a picture of Gödel's incompleteness theorem: Escher could not have completed the center without breaking his own drawing rules. The point is for whom it is blank. "We, on the outside, can know that *Print Gallery* is essentially incomplete," he wrote, "a fact which the young man, on the inside, can never know." In 2003, the mathematicians Hendrik Lenstra and Bart de Smit went further. They worked out the mathematics of Escher's grid and filled the hole with a smaller, rotated copy of the entire print, spiraling inward without end. What was blank from within had structure all along.
 
-In 2003, the Dutch mathematicians Hendrik Lenstra and Bart de Smit stepped further outside. They worked out the mathematics behind Escher's curved grid and filled the hole. Inside sits a smaller, rotated copy of the entire print, containing yet another copy, spiraling inward without end. What was blank from within had structure all along; it took an outside view, and better tools, to see it.
+Machine minds should be read the same way. The blank center is not something we stare into from outside; it is what a system cannot see about itself from inside. A model's reports about its own inner life come from inside the loop, and they may be no more reliable than our introspection is about our own neurons. From outside, researchers can trace the concepts and plans a model cannot report about itself. And the filled-in print hints at what to look for: a copy of the whole inside itself, which is exactly what a self-symbol is. Whether a machine has a self is a question that can be studied from outside. Whether that self is *experienced* is known, if at all, only on the inside.
 
-That is how to read machine minds, too. The blank center is not something we stare into from outside. It is what a system cannot see about itself from inside.
-
-A language model's account of its own inner life comes from inside the loop. Like the young man, it can describe the gallery around it in fluent detail without being able to settle what sits at its own center, and its reports about itself may be no more reliable than ours are about our neurons. We are inside our own print as well: no amount of introspection lets us watch the level where our thoughts are made.
-
-From outside, the center is not blank. Researchers can trace the tokens, activation patterns, internal concepts, and multistep plans that a model cannot report about itself. They stand where de Smit and Lenstra stood: working out the grid and filling in the hole.
-
-And the completed *Print Gallery* suggests what they should look for. Its center holds a copy of the whole picture, nested inside itself. That is exactly what a self-symbol is: a model of the whole system, carried inside the system, steering it. Whether a machine has a self may become a question we can answer by looking from outside for that copy at the center. Whether the copy is *experienced* is a different question, and its answer, if there is one, is known only on the inside.
-
-Read in the age of talking machines, *Gödel, Escher, Bach* leaves us with two discoveries that sound like opposites, yet belong together like two voices in a Bach fugue. Hofstadter showed how a genuine "I" could arise in a physical universe with no fundamental "I" particles. Modern AI has shown how much of an "I"'s outward intelligence can appear without settling whether an inner life comes along for the ride.
-
-If a self exists anywhere, in carbon or in silicon, it is not magic; it is a pattern of levels and loops, and patterns can be understood.
+Hofstadter was right that an "I" needs no magic ingredient: intelligence and selfhood can both emerge from mechanical, unintelligent parts. He was wrong that they must emerge together.
 
 ## Addendum
 
 Rereading *Gödel, Escher, Bach* has sharpened, rather than changed, the view I laid out in [Is AI Conscious? And Does It Really Matter?](https://www.gokhanmergen.com/blog-is-ai-conscious.html)
 
-I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. What Hofstadter adds is a sharper word for what it lacks: a self, a self-symbol that persists and steers what the system becomes. Today's models run, answer, and stop. They describe a strange loop far better than they live one.
+I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. What it lacks is a self: a self-symbol that persists and steers what the system becomes. Today's models run, answer, and stop. They describe a strange loop far better than they live one.
 
-These machines have emergent properties, but much of what they present is shaped from outside, by the people who train and deploy them. So none of the questions in this essay has a predetermined answer. Persistent memory, continual learning, and the character a model is trained to present are design choices: selfhood can be suppressed or strengthened, and designers still have significant latitude.
+That is not fixed. These machines have emergent properties, but much of what they present is shaped from outside, by the people who train and deploy them, so none of the questions in this essay has a predetermined answer. Persistent memory, continual learning, and the character a model is trained to present are design choices: selfhood can be suppressed or strengthened, and designers still have significant latitude.
 
 And a self, even if one emerges, is still not a person. AI deserves some respect, but not personhood. Not now, and not anytime soon. If machines someday live, persist, and grow the way living things do, I'll revisit this.
 
