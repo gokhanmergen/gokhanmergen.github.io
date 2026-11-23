@@ -14,11 +14,15 @@ In 1979, Douglas Hofstadter introduced readers to a woman named Aunt Hillary. Sh
 
 Not a particularly intelligent ant colony. Every individual ant was as mindless as any other. None understood language, possessed a personality, or had the slightest idea what Aunt Hillary was thinking. Yet through the coordinated activity of millions of these tiny creatures, something extraordinary emerged: a coherent mind with a sense of self.
 
-Aunt Hillary is a character in [*Gödel, Escher, Bach: An Eternal Golden Braid*](https://www.hachettebookgroup.com/titles/douglas-r-hofstadter/g%C3%B6del-escher-bach/9780465026562/), the sprawling, playful book that won Hofstadter the Pulitzer Prize. For decades she was a charming thought experiment. Nearly half a century later, she reads more like a question we can no longer put off.
+Aunt Hillary was fictional, of course—a character in Hofstadter's Pulitzer Prize–winning [*Gödel, Escher, Bach: An Eternal Golden Braid*](https://www.hachettebookgroup.com/titles/douglas-r-hofstadter/g%C3%B6del-escher-bach/9780465026562/). But nearly half a century later, we have built something that makes her seem less like an intellectual fantasy and more like a question we can no longer avoid.
 
-The systems on our screens today reason through unfamiliar problems, write working software, compose music, and hold conversations that would have seemed miraculous a few years ago. They discuss their apparent motivations, explain their mistakes, and sometimes describe what is going on inside them. We know what these systems do, and we are beginning to understand how they do some of it. What we do not know is whether any of it is accompanied by an inner life. The question is old and disarmingly simple: **Is there anybody home?**
+Today's most advanced artificial intelligence systems can reason through unfamiliar problems, write sophisticated software, compose music, and engage in conversations that would have seemed miraculous just a few years ago. They can discuss their apparent motivations, explain their mistakes, and sometimes describe their own internal processes.
 
-That is why *Gödel, Escher, Bach* is worth rereading now. Not because Hofstadter predicted our technology. In several telling ways he did not, and his misses turn out to be as instructive as his insights.
+And yet we have no settled answer to a surprisingly simple question: **Is there anybody home?**
+
+We know what these systems do. We increasingly understand how they do some of it. What we do not know is whether the intelligence appearing on our screens is accompanied by anything resembling an inner life.
+
+This is why *Gödel, Escher, Bach* may be the most important book to revisit in the age of AI. Not because Hofstadter accurately predicted our technological future. In several remarkable ways, he did not.
 
 Its importance lies somewhere deeper: **Hofstadter understood how intelligence and selfhood might emerge from mindless matter. What he did not foresee was how far machines might travel toward the former without clearly acquiring the latter.**
 
