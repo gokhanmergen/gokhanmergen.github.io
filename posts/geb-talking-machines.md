@@ -130,7 +130,7 @@ Hofstadter read the patch as a picture of Gödel's incompleteness theorem: Esche
 
 Machine minds should be read the same way. The blank center is not something we stare into from outside; it is what a system cannot see about itself from inside. A model's reports about its own inner life come from inside the loop, and they may be no more reliable than our introspection is about our own neurons. From outside, researchers can trace the concepts and plans a model cannot report about itself. And the filled-in print hints at what to look for: a copy of the whole inside itself, which is exactly what a self-symbol is. Whether a machine has a self is a question that can be studied from outside.
 
-Hofstadter was right that an "I" needs no magic ingredient: intelligence and selfhood can both emerge from mechanical, unintelligent parts. He was wrong that they must emerge together.
+Hofstadter was right that an "I" needs no magic ingredient: intelligence and selfhood can both emerge from mechanical, unintelligent parts. He was mistaken that they must emerge together.
 
 ## Addendum
 
