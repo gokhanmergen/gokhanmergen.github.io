@@ -28,19 +28,31 @@ Its importance lies somewhere deeper: **Hofstadter understood how intelligence a
 
 That distinction may become one of the defining philosophical and ethical questions of our century.
 
-## The Strange Loop: How a Self Emerges from Mindless Parts
+## The Strange Loop: How Something Comes From Nothing
 
-You are made of atoms, and none of them is conscious. Your neurons are cells running on electrochemistry; not one of them understands Shakespeare or feels nostalgic about childhood. Yet when billions of them work together, there is *you*: someone who remembers yesterday, imagines tomorrow, recognizes the face in the mirror, and can think about thinking itself.
+You are made of atoms. None of those atoms is conscious.
 
-How does a self come out of things that have no selves? That is the mystery at the heart of Hofstadter's book. Rather than begin with neuroscience, he came at it sideways, through three men who never met: the composer Johann Sebastian Bach, the artist M. C. Escher, and the logician Kurt Gödel. In each of their works he found the same hidden shape. He called it the **Strange Loop**.
+Your neurons are physical cells governed by electrochemical processes. No individual neuron understands Shakespeare, feels nostalgic about childhood, or wonders whether life has meaning.
 
-In 1747, Bach visited Frederick the Great, who gave him a theme and asked him to improvise on it. What Bach later built from that theme became the [*Musical Offering*](https://www.chambermusicsociety.org/about-the-music/compositions/bach-musical-offering). One of its pieces, the *Canon per Tonos*, begins in C minor and, when it seems to conclude, has quietly arrived in D minor, from where it can start again. The modulations lead the ear "to increasingly remote provinces of tonality," Hofstadter writes, and yet "after exactly six such modulations, the original key of C minor has been restored." Every voice is now exactly one octave higher than where it began. Home again, but one level up. Hofstadter called it the Endlessly Rising Canon.
+Yet somehow, when billions of these cells operate together, there is *you*: a person who remembers yesterday, imagines tomorrow, recognizes themselves in a mirror, and can think about the very process of thinking.
+
+How does a self emerge from things that have no selves?
+
+This is the mystery around which Hofstadter constructed his extraordinary book. Rather than begin with neuroscience, he approached the problem through three seemingly unrelated figures: Johann Sebastian Bach, M. C. Escher, and Kurt Gödel.
+
+Their works, Hofstadter argued, revealed a common underlying structure: the **Strange Loop**.
+
+Consider Bach's [*Musical Offering*](https://www.chambermusicsociety.org/about-the-music/compositions/bach-musical-offering), composed in 1747 after a visit to Frederick the Great. One piece, the *Canon per Tonos*, begins in C minor and gradually modulates upward. Just when the music appears ready to conclude, it has reached D minor, from which it can begin its journey again.
+
+Repeat the process six times and something peculiar happens. The canon has climbed through an entire octave, only to arrive back in C minor.
+
+It has returned to its starting point, but one level higher. Hofstadter calls it the Endlessly Rising Canon.
 
 ![The Royal Theme from Bach's Musical Offering, as reproduced in Gödel, Escher, Bach (Figure 3).](geb-bach-royal-theme.png)
 
 *Figure 1. The Royal Theme that Frederick the Great gave Bach in 1747. The endlessly rising Canon per Tonos grows out of it. (From Gödel, Escher, Bach, Fig. 3)*
 
-Escher did the same thing with pictures. In *Ascending and Descending*, monks trudge endlessly around a staircase that climbs forever yet always returns to where it began. In *Drawing Hands*, each of two hands draws the other into existence, and the line between creator and creation folds back on itself.
+Escher accomplished a similar trick visually. In *Ascending and Descending*, figures march endlessly along an impossible staircase. In *Drawing Hands*, two hands appear to sketch each other into existence. The distinction between creator and creation folds back upon itself.
 
 ![M. C. Escher, Ascending and Descending (lithograph, 1960): hooded monks circle an endless staircase on a monastery roof.](geb-escher-ascending-descending.png)
 
@@ -50,13 +62,23 @@ Escher did the same thing with pictures. In *Ascending and Descending*, monks tr
 
 *Figure 3. M. C. Escher, Drawing Hands (1948). "A two-step Strange Loop," in Hofstadter's words: creator and creation draw each other into being. (From Gödel, Escher, Bach, Fig. 135)*
 
-In 1931, Gödel did something stranger still, in mathematics. He found a way for arithmetic to encode statements about its own proofs, and used it to build a sentence that says of itself: *this statement cannot be proved*. If the system proved it, the sentence would be false, breaking consistency. So if the system is consistent, the sentence must be unprovable—which makes it true. Hence his first incompleteness theorem: any consistent rule-governed system rich enough for arithmetic contains truths it cannot prove.
+And in 1931, Gödel achieved something even more startling in mathematics. By developing a way for arithmetic to encode statements about its own proofs, he constructed a proposition that effectively asserted its own unprovability. He showed that a sufficiently powerful, consistent formal system cannot prove every arithmetic truth expressible within it.
 
-What unites these examples is not mere repetition. An ordinary loop simply returns to where it started. **A strange loop climbs through levels we think of as separate until, somewhere along the way, the top reaches back down into the bottom.** The drawing creates the hand that creates the drawing. A system of arithmetic makes claims about the provability of its own claims. And, Hofstadter suggested, a brain builds a model of the world, places a model of itself inside it, and then lets that self-model steer the brain that built it.
+A mathematical system had learned, in a precise technical sense, to refer to itself—and that self-reference exposed a fundamental limitation.
 
-That last loop, he argued, may be the secret of consciousness. The self is not a little person in the skull watching a screen of sensations. It is a pattern: a self-referential structure complex enough to model itself and to let that model take part in the processes that sustain it. No mysterious extra ingredient has to be added to matter for an "I" to appear. Under the right organization, the pattern itself becomes the self.
+What unites these examples is not mere repetition. Ordinary loops return to where they began. **Strange loops cross levels that we normally imagine to be separate, until the higher level unexpectedly reaches back into the lower one.**
 
-If that is true, nothing in principle requires the pattern to run on neurons. The question becomes one of architecture, not chemistry.
+The drawing creates the hand that creates the drawing. A formal system makes statements about the provability of its own statements. A brain builds a representation of the world, places a representation of itself inside that world, and then allows that representation to influence its own behavior.
+
+For Hofstadter, this last kind of loop may be the secret of consciousness.
+
+The self is not a little person sitting inside the skull, watching a screen of sensory information. It is a sophisticated, self-referential pattern: a system that has become complex enough to construct a model of itself and allow that model to participate in the processes that sustain it.
+
+The extraordinary suggestion is that no mysterious ingredient needs to be added to matter for an "I" to emerge. Under the right organization, the pattern itself may become the self.
+
+And if that is true, nothing in principle requires the underlying material to be biological.
+
+The question becomes one of architecture rather than chemistry.
 
 ## What Hofstadter Didn't Quite Get Right
 
