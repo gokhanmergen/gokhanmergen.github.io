@@ -86,13 +86,9 @@ In Hofstadter's dialogue *Ant Fugue*, Achilles—the curious straight man of the
 
 At the bottom, ants simply wander and follow chemical cues. Higher up, they form coordinated clusters and recurring patterns large enough to represent concepts and support thought. Watch individual ants and you see insects; read the organization and you meet Aunt Hillary.
 
-![M. C. Escher, Ant Fugue (woodcut, 1953), from Gödel, Escher, Bach (Figure 61).](geb-escher-ant-fugue.png)
-
-*Figure 4. M. C. Escher, "Ant Fugue" (1953). (GEB, Fig. 61)*
-
 ![Douglas Hofstadter's multi-level MU / HOLISM / REDUCTIONISM drawing from Ant Fugue (Figure 60).](geb-hofstadter-mu-holism.png)
 
-*Figure 5. Hofstadter's MU-picture: "MU" from afar, "HOLISM" and "REDUCTIONISM" up close. Meaning depends on the level you read. (GEB, Fig. 60)*
+*Figure 4. Hofstadter's MU-picture: "MU" from afar, "HOLISM" and "REDUCTIONISM" up close. Meaning depends on the level you read. (GEB, Fig. 60)*
 
 That is Hofstadter's lesson about levels of description. Molecular collisions can't explain a hurricane's eye; vibrating air molecules can't explain why a symphony moves us. Minds likewise require concepts absent at the level of their parts.
 
@@ -106,7 +102,7 @@ Hofstadter's strange loop is richer than feedback. It is a *tangled hierarchy*, 
 
 ![Diagram contrasting ordinary feedback on a single level with Hofstadter's strange loop, in which a self-symbol on the Tangled Level reshapes the system above an Inviolate Level.](geb-recursion-vs-strange-loop.png)
 
-*Figure 6. Feedback versus a strange loop. On the left, output returns as input on a single level. On the right, a self-symbol on the Tangled Level reaches down to reshape the system that produces it, while the Inviolate Level beneath keeps its rules. Where today's models fall is an open question.*
+*Figure 5. Feedback versus a strange loop. On the left, output returns as input on a single level. On the right, a self-symbol on the Tangled Level reaches down to reshape the system that produces it, while the Inviolate Level beneath keeps its rules. Where today's models fall is an open question.*
 
 A language model in conversation runs on fixed weights, its Inviolate Level, while its growing context feeds each word back into the next pass. That is genuine feedback. Yet between sessions the weights stay frozen, and without scaffolding each conversation starts blank—far from a self-model continuously reshaped by lived experience. No established test tells us which of these gaps matters for consciousness, but the distinction gives us a far better question than whether a chatbot can say "I":
 
@@ -122,7 +118,7 @@ A young man stands in a gallery viewing a print of a harbor town whose buildings
 
 ![M. C. Escher, Print Gallery (lithograph, 1956), reproduced in Gödel, Escher, Bach (Figure 142).](geb-escher-print-gallery.png)
 
-*Figure 7. M. C. Escher, Print Gallery (1956), with Escher's monogram in the blank center. (GEB, Fig. 142)*
+*Figure 6. M. C. Escher, Print Gallery (1956), with Escher's monogram in the blank center. (GEB, Fig. 142)*
 
 Hofstadter read that hole as a pictorial Gödelian necessity Escher couldn't fill without breaking his rules—visible to us outside, invisible to the viewer inside.
 
@@ -137,5 +133,5 @@ Aunt Hillary's friends never had to ask whether anybody was home. We do. But the
 ::: fold
 ## Appendix: Illustration credits
 
-Figures 1, 3, 4, 5, and 7 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach, M. C. Escher, and Hofstadter. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening image is an original editorial illustration. Figure 6 is an original diagram made for this essay.
+Figures 1, 3, 4, and 6 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach, M. C. Escher, and Hofstadter. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening image is an original editorial illustration. Figure 5 is an original diagram made for this essay.
 :::
