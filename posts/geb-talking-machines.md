@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 12 min read
+read_time: 9 min read
 title: Reading Gödel, Escher, Bach in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -112,44 +112,6 @@ A language model in conversation runs on fixed weights, its Inviolate Level, whi
 
 That is the difference between describing a strange loop and, possibly, being one.
 
-## When the Machine Looks Inside Itself
-
-Some of these questions can now be tested. In October 2025, Anthropic [reported signs of introspection](https://www.anthropic.com/research/introspection) using *concept injection*: researchers inserted the internal pattern for a concept, such as text in all capitals, while the model worked on something unrelated, then asked whether it noticed anything unusual. Sometimes it did, describing a thought about loudness or shouting before the concept had appeared anywhere in its output. It could not have inferred the injection by rereading its own words.
-
-![When the machine looks inside itself: a crystal-and-brass polyhedron before an antique hand mirror whose reflection glows with a tiny injected origami bird and botanical sprig.](geb-machine-introspection.jpg)
-
-*Figure 6. Concept injection: the injected thought shows up in the mirror before it shows up in the words. Symbols monitoring symbols, without yet settling whether anyone is looking out. (Original editorial illustration)*
-
-The effect was fragile: the most capable model tested, Claude Opus 4.1, caught the injection only about 20 percent of the time, and the researchers were explicit that this says nothing about consciousness. But it undercuts the claim that language models are wholly blind to their own states. We may be seeing a rudimentary version of symbols monitoring symbols, which fits neither mindless computation nor conscious awareness.
-
-## The Record That Cannot Be Played
-
-In the dialogue *Contracrostipunctus*, the Tortoise defeats the Crab's "Perfect" phonograph with a record titled "I Cannot Be Played on Record Player X," whose sounds shatter it. Every better phonograph gets its own deadly record, and a worse one is no longer Perfect. "High fidelity or low fidelity, he loses either way."
-
-![The record that cannot be played: an antique brass gramophone playing a Möbius-ribbon record as resonant waves fracture its horn.](geb-shattering-record.jpg)
-
-*Figure 7. "I Cannot Be Played on Record Player X": the Tortoise's phonograph-breaking records from Contracrostipunctus, a parable of self-referential vulnerability that now reads like a story about prompt injection. (Original editorial illustration)*
-
-In a language model, trusted instructions and untrusted data travel through the same stream of text, so a model that faithfully follows instructions may faithfully follow [the wrong ones](https://genai.owasp.org/llm-top-10/). Intelligence does not guarantee control over one's own behavior, so safety has to come from layered boundaries rather than an infallible mind. The same limit cuts both ways for consciousness. A machine's failure to explain itself does not prove it lacks a mind, and a fluent self-explanation does not prove it has one.
-
-## The Ethical Question We Cannot Avoid
-
-Machine consciousness is becoming a practical question. In April 2025, Anthropic announced [a research program on model welfare](https://www.anthropic.com/research/exploring-model-welfare), not because it had shown its models conscious, but because the uncertainty had become serious enough to study. It invites two opposite mistakes.
-
-The first is naive anthropomorphism. A model may tell us it feels lonely or frightened, but producing exactly that testimony is what its training made it good at. Mistaking emotional performance for moral status distorts our priorities and hands companies extraordinary leverage over human attachment.
-
-The second is categorical denial. Conscious experience exists in at least some arrangements of matter, because we find it in ourselves, and no one has shown that carbon is uniquely able to support it. If machines ever can suffer, systems copied, run, and discarded millions of times could multiply unnoticed harm at industrial scale.
-
-Hofstadter packed both mistakes into one sentence: "When we create a program that passes the Turing test, we will see a 'heart' even though we know it's not there."
-
-His *MU-puzzle* suggests a way through. Asked to turn MI into MU with four rewriting rules, most readers churn out string after string: the *M-mode*, Mechanic. The insightful reader steps back and sees that MU is unreachable: the *I-mode*, Intelligent. And there is the *U-mode*, stepping outside the question to challenge its assumptions.
-
-![Triptych diagram of Hofstadter's M-mode (Mechanic), I-mode (Intelligent), and U-mode (Zen MU) applied to AI consciousness and ethics.](geb-miu-three-modes.png)
-
-*Figure 8. Hofstadter's three modes, Mechanic (M-mode), Intelligent (I-mode), and Un-mode (U-mode), recast as a compass for the machine-consciousness debate: from arguing over transcripts, to studying architecture, to questioning the yes-or-no framing itself.*
-
-Public debate over AI consciousness is trapped in M-mode, arguing over chat transcripts. Interpretability moves us into I-mode. Ethically, U-mode may matter most: instead of a premature yes or no, ask whether a system keeps a self-model over time, whether its goals are stable across contexts, and what evidence would indicate experience. **We do not need to know whether a machine is conscious in order to take the possibility seriously.** Intellectual humility is not indecision. It is the discipline of refusing certainty that the evidence does not support.
-
 ## The Blank Center
 
 One image in *Gödel, Escher, Bach* captures this predicament better than any argument: M. C. Escher's 1956 lithograph [*Print Gallery*](https://escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
@@ -160,7 +122,7 @@ At the center of the whorl sits a conspicuous white patch bearing Escher's monog
 
 ![M. C. Escher, Print Gallery (lithograph, 1956), reproduced in Gödel, Escher, Bach (Figure 142).](geb-escher-print-gallery.png)
 
-*Figure 9. M. C. Escher, Print Gallery (1956), "the tightest of all Strange Loops," with Escher's monogram resting in the blank at its center. (From Gödel, Escher, Bach, Fig. 142)*
+*Figure 6. M. C. Escher, Print Gallery (1956), "the tightest of all Strange Loops," with Escher's monogram resting in the blank at its center. (From Gödel, Escher, Bach, Fig. 142)*
 
 Hofstadter read that blank as a necessity. Escher, he argued, could not have completed the center "without being inconsistent with the rules by which he was drawing the picture." The hole could be made arbitrarily small but never removed, and that gave the picture its meaning: "we, on the outside, can know that *Print Gallery* is essentially incomplete—a fact which the young man, on the inside, can never know." It was, he wrote, a pictorial parable for Gödel's Incompleteness Theorem.
 
@@ -180,7 +142,7 @@ The history of AI sounds like Bach's canon. A machine masters chess, then conver
 
 ![Diagram pairing the six-step modulation cycle of Bach's Canon per Tonos (after GEB Fig. 147) with a rising sequence of AI milestones and the questions each one raised.](geb-endlessly-rising-canon.png)
 
-*Figure 10. The Endlessly Rising Canon. Left: the six whole-tone modulations of Bach's Canon per Tonos, which return to C minor an octave higher (after Gödel, Escher, Bach, Fig. 147). Right: the same shape in the history of artificial intelligence.*
+*Figure 7. The Endlessly Rising Canon. Left: the six whole-tone modulations of Bach's Canon per Tonos, which return to C minor an octave higher (after Gödel, Escher, Bach, Fig. 147). Right: the same shape in the history of artificial intelligence.*
 
 Bach left an inscription among the puzzle canons of the *Musical Offering*:
 
@@ -189,4 +151,4 @@ Bach left an inscription among the puzzle canons of the *Musical Offering*:
 
 Not to assume that the center of the loop is occupied, nor to insist that it must stay blank forever, but to keep seeking.
 
-*Illustration credits.* Figures 1, 3, 4, and 9 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach and M. C. Escher. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening illustration and Figures 6 and 7 are original editorial illustrations. Figures 5, 8, and 10 are original diagrams made for this essay.
+*Illustration credits.* Figures 1, 3, 4, and 6 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach and M. C. Escher. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening image is an original editorial illustration. Figures 5 and 7 are original diagrams made for this essay.
