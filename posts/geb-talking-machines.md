@@ -134,4 +134,8 @@ Hofstadter showed how an "I" might arise in a world with no fundamental "I" part
 
 Aunt Hillary's friends never had to ask whether anybody was home. We do. But the deepest lesson of *Gödel, Escher, Bach* is that the question is not beyond reach: a self, if there is one, is a pattern of levels and loops, and patterns can be studied. The right stance is neither to assume that the center of the loop is occupied nor to insist that it must stay blank forever, but to keep tracing the spiral inward until we understand what kind of thing could be there.
 
-*Illustration credits.* Figures 1, 3, 4, 5, and 7 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach, M. C. Escher, and Hofstadter. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening image is an original editorial illustration. Figure 6 is an original diagram made for this essay.
+::: fold
+## Appendix: Illustration credits
+
+Figures 1, 3, 4, 5, and 7 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach, M. C. Escher, and Hofstadter. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening image is an original editorial illustration. Figure 6 is an original diagram made for this essay.
+:::
