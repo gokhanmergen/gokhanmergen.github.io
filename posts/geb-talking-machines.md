@@ -26,7 +26,7 @@ This is why *Gödel, Escher, Bach* may be the most important book to revisit in 
 
 Its importance lies somewhere deeper: **Hofstadter showed how intelligence and selfhood could emerge from mindless matter. He never imagined how far machines would go toward intelligence while leaving selfhood behind.**
 
-That distinction may become one of the defining philosophical and ethical questions of our century (previous post: [Is AI Conscious? And Does It Really Matter?](https://www.gokhanmergen.com/blog-is-ai-conscious.html)).
+That distinction may become one of the defining philosophical and ethical questions of our century (see previous post: [Is AI Conscious? And Does It Really Matter?](https://www.gokhanmergen.com/blog-is-ai-conscious.html)).
 
 ## The Strange Loop: How Something Comes From Nothing
 
