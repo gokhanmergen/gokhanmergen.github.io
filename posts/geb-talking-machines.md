@@ -136,19 +136,4 @@ Perhaps this is the deepest lesson of *Gödel, Escher, Bach*. The book does not 
 
 Hofstadter's achievement was to show how an "I" might arise in a world that contains no fundamental "I" particles. The achievement of modern AI has been to show how many of the behaviors we associate with an "I" can arise without settling whether an "I" has arisen with them. The two discoveries do not contradict each other. They are two voices in the same fugue.
 
-## Endlessly Rising
-
-The history of AI sounds like Bach's canon. A machine masters chess, then conversation, then planning and introspection, and each time the old question returns, an octave higher.
-
-![Diagram pairing the six-step modulation cycle of Bach's Canon per Tonos (after GEB Fig. 147) with a rising sequence of AI milestones and the questions each one raised.](geb-endlessly-rising-canon.png)
-
-*Figure 7. The Endlessly Rising Canon. Left: the six whole-tone modulations of Bach's Canon per Tonos, which return to C minor an octave higher (after Gödel, Escher, Bach, Fig. 147). Right: the same shape in the history of artificial intelligence.*
-
-Bach left an inscription among the puzzle canons of the *Musical Offering*:
-
-> *Quaerendo invenietis.*
-> **By seeking, you will discover.**
-
-Not to assume that the center of the loop is occupied, nor to insist that it must stay blank forever, but to keep seeking.
-
-*Illustration credits.* Figures 1, 3, 4, and 6 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach and M. C. Escher. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening image is an original editorial illustration. Figures 5 and 7 are original diagrams made for this essay.
+*Illustration credits.* Figures 1, 3, 4, and 6 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach and M. C. Escher. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening image is an original editorial illustration. Figure 5 is an original diagram made for this essay.
