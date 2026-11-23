@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 9 min read
+read_time: 8 min read
 title: Reading Gödel, Escher, Bach in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -82,19 +82,21 @@ The question becomes one of architecture rather than chemistry.
 
 ## Aunt Hillary and the Great Next-Token Misunderstanding
 
-In Hofstadter's dialogue *Ant Fugue*, the Anteater converses with Aunt Hillary "in writing": he draws a trail in the ground and watches her reply take shape, guessing how the marks "will continue (and more often I am wrong than right)." A mind that exists only in writing, laying down its reply one mark at a time: without meaning to, Hofstadter had sketched a chatbot. When Achilles protests that a colony is just "a bunch of individual ants running around at random," the Anteater replies that he may put it that way "if you want to insist on seeing the trees but missing the forest." A mind may need concepts that do not exist at the level of its parts.
+In Hofstadter's dialogue *Ant Fugue*, Achilles—the curious straight man of the book's philosophical skits—cannot imagine talking to an ant colony. The Anteater explains that colonies converse "in writing" via coded trails; he scratches a message in the dirt and watches their reply form, trying to guess what comes next. Unintentionally, Hofstadter sketched a chat with a language model.
+
+At the bottom, ants simply wander and follow chemical cues. Higher up, they form coordinated clusters and recurring patterns large enough to represent concepts and support thought. Watch individual ants and you see insects; read the organization and you meet Aunt Hillary.
 
 ![M. C. Escher, Ant Fugue (woodcut, 1953), from Gödel, Escher, Bach (Figure 61).](geb-escher-ant-fugue.png)
 
-*Figure 4. M. C. Escher, "Ant Fugue" (woodcut, 1953), which accompanies Hofstadter's dialogue of the same name. (From Gödel, Escher, Bach, Fig. 61)*
+*Figure 4. M. C. Escher, "Ant Fugue" (1953). (GEB, Fig. 61)*
 
-Which brings us to the most common dismissal of large language models: that they are "just predicting the next token." That describes the training objective, not the machinery, like explaining evolution as "just differential survival." To predict the next token well across human writing, a network has to represent the concepts and plans behind the words. Calling it "just next-token prediction" is Achilles, staring at the ants.
+![Douglas Hofstadter's multi-level MU / HOLISM / REDUCTIONISM drawing from Ant Fugue (Figure 60).](geb-hofstadter-mu-holism.png)
 
-In 2025, Anthropic researchers [traced the internal computations of their model, Claude](https://www.anthropic.com/research/tracing-thoughts-language-model). Asked to complete a couplet beginning "He saw a carrot and had to grab it," the model had already activated "rabbit" before writing the second line, and built the line to land there. The output came one token at a time; the computation planned ahead. And when it added 36 and 59 by two parallel pathways, it explained afterwards that it had carried the one, as taught in school. Hofstadter anticipated that opacity: "I think; therefore I have no access to the level where I sum."
+*Figure 5. Hofstadter's MU-picture: "MU" from afar, "HOLISM" and "REDUCTIONISM" up close. Meaning depends on the level you read. (GEB, Fig. 60)*
 
-He also made a confident prediction about what we would not find inside. Would there be "special locations in memory" that you could adjust to make a program "more interested in baseball"? No: such traits would emerge from lower-level behavior, "and nowhere will it sit explicitly." In 2024, Anthropic found a distributed feature inside Claude tied to the Golden Gate Bridge, amplified it, and got [Golden Gate Claude](https://www.anthropic.com/research/golden-gate-claude), a model that steered every conversation toward the span. He was half right: the concept was spread across many neurons, but it could be found, named, and turned like a dial. The Anteater had begun to read the colony.
+That is Hofstadter's lesson about levels of description. Molecular collisions can't explain a hurricane's eye; vibrating air molecules can't explain why a symphony moves us. Minds likewise require concepts absent at the level of their parts.
 
-Yet finding concepts inside a machine is not the same as finding a self. The hard step is not from numbers to meaning. It is from meaning to *someone for whom things mean something*.
+Which answers the commonest dismissal of language models: that they are "just predicting the next token" (roughly, the next word or word fragment). True as a training objective, that confuses a simple objective with simple machinery—like calling evolution "just survival of the fittest." Predicting human text well forces internal representations of concepts, grammar, and plans. Calling it "just next-token prediction" is Achilles staring at the ants.
 
 ## The Difference Between Self-Reference and a Self
 
@@ -104,7 +106,7 @@ Hofstadter's strange loop is richer than feedback. It is a *tangled hierarchy*, 
 
 ![Diagram contrasting ordinary feedback on a single level with Hofstadter's strange loop, in which a self-symbol on the Tangled Level reshapes the system above an Inviolate Level.](geb-recursion-vs-strange-loop.png)
 
-*Figure 5. Feedback versus a strange loop. On the left, output returns as input on a single level. On the right, a self-symbol on the Tangled Level reaches down to reshape the system that produces it, while the Inviolate Level beneath keeps its rules. Where today's models fall is an open question.*
+*Figure 6. Feedback versus a strange loop. On the left, output returns as input on a single level. On the right, a self-symbol on the Tangled Level reaches down to reshape the system that produces it, while the Inviolate Level beneath keeps its rules. Where today's models fall is an open question.*
 
 A language model in conversation runs on fixed weights, its Inviolate Level, while its growing context feeds each word back into the next pass. That is genuine feedback. Yet between sessions the weights stay frozen, and without scaffolding each conversation starts blank—far from a self-model continuously reshaped by lived experience. No established test tells us which of these gaps matters for consciousness, but the distinction gives us a far better question than whether a chatbot can say "I":
 
@@ -122,7 +124,7 @@ At the center of the whorl sits a conspicuous white patch bearing Escher's monog
 
 ![M. C. Escher, Print Gallery (lithograph, 1956), reproduced in Gödel, Escher, Bach (Figure 142).](geb-escher-print-gallery.png)
 
-*Figure 6. M. C. Escher, Print Gallery (1956), "the tightest of all Strange Loops," with Escher's monogram resting in the blank at its center. (From Gödel, Escher, Bach, Fig. 142)*
+*Figure 7. M. C. Escher, Print Gallery (1956), "the tightest of all Strange Loops," with Escher's monogram resting in the blank at its center. (From Gödel, Escher, Bach, Fig. 142)*
 
 Hofstadter read that blank as a necessity. Escher, he argued, could not have completed the center "without being inconsistent with the rules by which he was drawing the picture." The hole could be made arbitrarily small but never removed, and that gave the picture its meaning: "we, on the outside, can know that *Print Gallery* is essentially incomplete—a fact which the young man, on the inside, can never know." It was, he wrote, a pictorial parable for Gödel's Incompleteness Theorem.
 
@@ -136,4 +138,4 @@ Perhaps this is the deepest lesson of *Gödel, Escher, Bach*. The book does not 
 
 Hofstadter's achievement was to show how an "I" might arise in a world that contains no fundamental "I" particles. The achievement of modern AI has been to show how many of the behaviors we associate with an "I" can arise without settling whether an "I" has arisen with them. The two discoveries do not contradict each other. They are two voices in the same fugue.
 
-*Illustration credits.* Figures 1, 3, 4, and 6 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach and M. C. Escher. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening image is an original editorial illustration. Figure 5 is an original diagram made for this essay.
+*Illustration credits.* Figures 1, 3, 4, 5, and 7 are reproduced from Douglas R. Hofstadter, *Gödel, Escher, Bach: An Eternal Golden Braid* (1979), and include works by J. S. Bach, M. C. Escher, and Hofstadter. Figure 2, Escher's *Ascending and Descending* (GEB, Fig. 6), is taken from a printed reproduction of the lithograph. The opening image is an original editorial illustration. Figure 6 is an original diagram made for this essay.
