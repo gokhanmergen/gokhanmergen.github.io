@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 11 min read
+read_time: 10 min read
 title: Reading *Gödel, Escher, Bach* in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -115,8 +115,6 @@ Now look at today's large language models against that diagram. During a convers
 Yet the contrast with a living strange loop is striking. Even when engineers bolt memory files, system prompts, or agent loops around a model, those additions mostly pass written notes between separate, stateless computations rather than maintaining a continuous self-model whose lived experiences reshape the underlying mind. Even *within* a conversation, it remains an open question whether the model is consulting a unified self-model or simply predicting the most plausible continuation for a character who happens to say "I."
 
 Language models drove a wedge between competence and selfhood that Hofstadter never expected.
-
-To be fair, no settled theory of consciousness proves that frozen weights rule out experience, or that giving a system continual learning would suddenly switch the lights on. What Hofstadter's framework gives us is not a final verdict, but a far sharper question than whether a machine can say "I" convincingly:
 
 **Does the system merely produce fluent descriptions of a self, or does it maintain an integrated, self-revising model of itself that genuinely steers what it becomes?**
 
