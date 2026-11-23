@@ -10,9 +10,9 @@ archive_deck: What a 1979 classic about mathematics, music, and consciousness re
 
 ![Aunt Hillary and the talking mind: countless mindless ants weave along Escher-like geometry into a luminous, self-aware profile etched with circuits and a musical clef.](geb-hero-aunt-hillary.jpg)
 
-In 1979, Douglas Hofstadter introduced his readers to Aunt Hillary. She was witty, well read, and could keep a friend in conversation for hours. She was also an ant colony.
+In 1979, Douglas Hofstadter introduced readers to a woman named Aunt Hillary. She was intelligent, witty, sensitive, and capable of delightful conversation. She also happened to be an ant colony.
 
-Individually, her ants were hopeless. "All the ants in Aunt Hillary are as dumb as can be," explains her friend the Anteater. "They couldn't converse to save their little thoraxes!" No single ant understood language or had the faintest idea what Aunt Hillary was thinking. Yet out of millions of them, each following simple local rules, came a coherent mind with a personality and a sense of self.
+Not a particularly intelligent ant colony. Every individual ant was as mindless as any other. None understood language, possessed a personality, or had the slightest idea what Aunt Hillary was thinking. Yet through the coordinated activity of millions of these tiny creatures, something extraordinary emerged: a coherent mind with a sense of self.
 
 Aunt Hillary is a character in [*Gödel, Escher, Bach: An Eternal Golden Braid*](https://www.hachettebookgroup.com/titles/douglas-r-hofstadter/g%C3%B6del-escher-bach/9780465026562/), the sprawling, playful book that won Hofstadter the Pulitzer Prize. For decades she was a charming thought experiment. Nearly half a century later, she reads more like a question we can no longer put off.
 
