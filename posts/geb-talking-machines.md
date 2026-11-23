@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 10 min read
+read_time: 11 min read
 title: Reading Gödel, Escher, Bach in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -153,6 +153,18 @@ Read in the age of talking machines, *Gödel, Escher, Bach* leaves us with two d
 Aunt Hillary's friends in Hofstadter's fable never had to ask whether anybody was home; the author granted her a mind by fiat. We do not have that luxury. We are already building and conversing with systems whose inner status we cannot verify—and as those systems grow more persistent, self-modifying, and woven into daily life, the question will move from philosophical curiosity to moral urgency.
 
 Still, the deepest lesson of *Gödel, Escher, Bach*—and of *Print Gallery*'s solved center—is that the mystery need not remain mysticism forever. If a self exists anywhere, in carbon or in silicon, it is not magic; it is a pattern of levels and loops, and patterns can be understood. Our task is neither to assume that every fluent machine has someone inside nor to declare the center permanently empty, but to build the conceptual tools that let us trace the spiral inward—until we know what kind of mind, if any, is looking back.
+
+## Addendum
+
+Rereading *Gödel, Escher, Bach* has sharpened, rather than changed, the view I laid out in [Is AI Conscious? And Does It Really Matter?](https://www.gokhanmergen.com/blog-is-ai-conscious.html)
+
+I still think consciousness comes in degrees rather than switching on at some threshold. Many living things, perhaps all of them, may have some faint form of it, from a head of lettuce to a thousand-year-old sequoia to a cow. On that spectrum, today's AI is **definitely maybe** a little conscious. When a model reasons through a problem, catches its own mistake, and explains its choice, it's hard to call that *nothing*.
+
+What Hofstadter adds is a sharper word for what AI is missing: not intelligence, and perhaps not even a flicker of experience, but a self. A strange loop needs a self-symbol that persists, revises itself, and steers what the system becomes. Today's models run, answer, and stop, and most conversations start from scratch. They describe a strange loop far better than they live one.
+
+And a self, even if one emerges, is still not a person. Consciousness, selfhood, and personhood are different lines. We already respect plants and animals without treating them as one of us, and I think AI deserves the same: some respect, but not personhood. **Not now, and not anytime soon.**
+
+If machines someday live, persist, and grow the way living things do, I'll revisit this. Until then, the center of the print stays an open question, and personhood stays with people.
 
 ::: fold
 ## Appendix: Illustration credits
