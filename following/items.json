@@ -15,6 +15,46 @@
  },
  "items": [
   {
+   "feed": "https://www.alexnowrasteh.com/feed",
+   "first_seen": "2026-11-23",
+   "kind": "post",
+   "person": "alex-nowrasteh",
+   "published": "2026-11-23",
+   "summary": "Part 9 of What People Really Care About When They’re Mad About Immigration",
+   "title": "Some Immigrants Come to Save Your Life",
+   "url": "https://www.alexnowrasteh.com/p/some-immigrants-come-to-save-your"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-11-23",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-11-23",
+   "summary": "In the wake of the Riemannocalypse, here, for better or worse, is a very special video—unlike any I’ve done before—recorded just this weekend at Lighthaven in Berkeley. You get to watch Václav Rozhoň, of the “Polylog” YouTube channel, torture me by handing me sticky notes with numerous future milestones (P≠NP, P=BPP, the Collatz Conjecture, Busy…",
+   "title": "Moar Videos and Links",
+   "url": "https://scottaaronson.blog/?p=10359"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-11-23",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-11-23",
+   "summary": "Did three studies really debunk rapamycin for longevity? That’s the claim Dr. Terry Simpson makes in a video criticizing Peter Attia and his book Outlive. In the first episode of Social Media Shenanigans, I go through Simpson’s clip and ask what evidence he gives for that claim.Along the way, I discuss why dose, drug regimen, and patient population matter when talking about side effects. I also…",
+   "title": "What Terry Simpson Gets Wrong | Social Media Shenanigans #1",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/What-Terry-Simpson-Gets-Wrong--Social-Media-Shenanigans-1-e3ssiqm"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-23",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-23",
+   "summary": "I wrote about the Tyranny of the Alphabet many years ago. In economics the standard then was to list authors alphabetically: Faculty members in top departments with surnames beginning with letters earlier in the alphabet are substantially more likely to be tenured, be fellows of the Econometric Society, and even win Nobel prizes (let’s see,…",
+   "title": "The Tyranny of the Alphabet 2",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/94257.html"
+  },
+  {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-22",
    "kind": "post",
@@ -883,16 +923,6 @@
    "summary": "Yes, Midterm Elections Matter And This One Could Reshape The Middle East.",
    "title": "Midweek Update #34 , The New Motto Of The US Military: To The Victor Goes The Spoils!",
    "url": "https://phillipspobrien.substack.com/p/weekend-update-34-the-new-motto-of"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-13",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-12",
-   "summary": "1. New Texas A&M podcast: Economists Unscripted. 2. A new tool for AI-proof homework assignments. “It’s called https://deb8.tv — students get paired and have live video debates with one another.” 3. “The average French person believes there are 6.4 workers for every retiree. The real number is about 1.8.” 4. Sulfuric acid as a basic…",
-   "title": "Thursday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/thursday-assorted-links-578.html"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
