@@ -156,7 +156,7 @@ I still think consciousness comes in degrees, from a head of lettuce to a cow, a
 
 And a self, even if one emerges, is still not a person. AI deserves some respect, but not personhood. Not now, and not anytime soon. If machines someday live, persist, and grow the way living things do, I'll revisit this.
 
-My final verdict: *Gödel, Escher, Bach* is a meditation on consciousness. Its theories aren't quite rigorous or mathematically testable, which is apt for a concept as vague as the human soul. It proposes interesting analogies and makes you think. But it leaves you feeling unsatisfied, even after finishing a very large meal.
+**My final verdict:** *Gödel, Escher, Bach* is a meditation on consciousness. Its theories aren't quite rigorous or mathematically testable, which is apt for a concept as vague as the human soul. It proposes interesting analogies and makes you think. But it leaves you feeling somewhat unsatisfied, even after finishing a very large meal.
 
 ::: fold
 ## Appendix: Illustration credits
