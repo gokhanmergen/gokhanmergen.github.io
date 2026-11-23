@@ -144,7 +144,7 @@ Reading *Gödel, Escher, Bach* has sharpened, rather than changed, [my views on 
 
 I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. Unlike Hofstadter, I don't think a flicker of awareness requires a self. And a self is what most of today's AI still lacks: a lasting model of itself that steers what the system becomes. Most models run, answer, and stop. They describe a strange loop far better than they live one.
 
-That is not fixed. These machines have emergent properties, but much of what they present is shaped from outside by the people who train and deploy them, so none of the questions in this essay has a predetermined answer. Whether AI gets a persistent self, and perhaps more of whatever consciousness comes with one, is largely up to its designers, and they still have significant latitude.
+That is not fixed. These machines have emergent properties, but much of what they present is shaped from outside by the people who train and deploy them, so none of the questions in this essay has a predetermined answer. Whether AI gets a persistent self, and perhaps more of whatever consciousness comes with one, is largely up to its designers.
 
 And a self, even if one is built, is still not a person. AI deserves some respect, but not personhood. If machines someday live, persist, and grow the way living things do, I might revisit this.
 
