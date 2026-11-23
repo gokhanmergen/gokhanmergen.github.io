@@ -50,17 +50,17 @@ It has returned to its starting point, but one level higher. Hofstadter calls it
 
 ![The Royal Theme from Bach's Musical Offering, as reproduced in Gödel, Escher, Bach (Figure 3).](geb-bach-royal-theme.png)
 
-*Figure 1. The Royal Theme that Frederick the Great gave Bach in 1747. The endlessly rising Canon per Tonos grows out of it. (From Gödel, Escher, Bach, Fig. 3)*
+*Figure 1. The Royal Theme that Frederick the Great gave Bach in 1747. The endlessly rising Canon per Tonos grows out of it. (GEB, Fig. 3)*
 
 Escher accomplished a similar trick visually. In *Ascending and Descending*, figures march endlessly along an impossible staircase. In *Drawing Hands*, two hands appear to sketch each other into existence. The distinction between creator and creation folds back upon itself.
 
-![M. C. Escher, Ascending and Descending (lithograph, 1960): hooded monks circle an endless staircase on a monastery roof.](geb-escher-ascending-descending.png)
+![M. C. Escher, Ascending and Descending (lithograph, 1960): hooded monks circle an endless staircase on a monastery roof.](geb-escher-ascending-descending.png){width=75%}
 
-*Figure 2. M. C. Escher, Ascending and Descending (1960). Hofstadter's "loosest" strange loop: monks climb forever, yet keep returning to where they started. (Gödel, Escher, Bach, Fig. 6)*
+*Figure 2. M. C. Escher, Ascending and Descending (1960). Hofstadter's "loosest" strange loop: monks climb forever, yet keep returning to where they started. (GEB, Fig. 6)*
 
 ![M. C. Escher, Drawing Hands (lithograph, 1948), reproduced in Gödel, Escher, Bach (Figure 135).](geb-escher-drawing-hands.png)
 
-*Figure 3. M. C. Escher, Drawing Hands (1948). "A two-step Strange Loop," in Hofstadter's words: creator and creation draw each other into being. (From Gödel, Escher, Bach, Fig. 135)*
+*Figure 3. M. C. Escher, Drawing Hands (1948). "A two-step Strange Loop," in Hofstadter's words: creator and creation draw each other into being. (GEB, Fig. 135)*
 
 And in 1931, Gödel achieved something even more startling in mathematics. By developing a way for arithmetic to encode statements about its own proofs, he constructed a proposition that effectively asserted its own unprovability. He showed that a sufficiently powerful, consistent formal system cannot prove every arithmetic truth expressible within it.
 
@@ -108,7 +108,7 @@ What Hofstadter described is more demanding than feedback. He called it a **tang
 
 Now hold today's language models against that diagram. During a conversation, a model's trained weights act as its Inviolate Level: they stay frozen while it talks to you. The conversation window supplies genuine feedback, since every token the model produces re-enters its context and shapes the next one. Memory files, system prompts, and agent loops add more, but they mostly pass written notes between separate, stateless runs rather than maintaining a continuous self-model that experience reshapes. Even within a conversation, it is unclear whether the model consults a unified self-model or simply predicts the most plausible lines for a character who happens to say "I."
 
-This is where *Gödel, Escher, Bach* gets it wrong. In 1979, Hofstadter assumed that selfhood and intelligence go together. He argued that making sense of the world requires a self-symbol, and he expected that a program able to beat anyone at chess would have to be a program of general intelligence, temperament and all. As of 2026, we know better. Language models reason, write software, and hold expert conversations without a persistent, self-revising self. Intelligence and selfhood are separate traits, and so far one can be built without the other.
+This is where *Gödel, Escher, Bach* gets it wrong. In 1979, Hofstadter assumed that selfhood and intelligence go together. He argued that making sense of the world requires a self-symbol, and he expected that a program able to beat anyone at chess would have to be a program of general intelligence, temperament and all. Deep Blue broke that assumption for chess in 1997; by 2026, language models have broken it for broad reasoning itself. They reason, write software, and hold expert conversations without a persistent, self-revising self. Intelligence and selfhood are separate traits, and so far one can be built without the other.
 
 The useful question, then, is not whether a machine can say "I" convincingly, but this:
 
@@ -118,7 +118,7 @@ That is the difference between describing a strange loop and being one per GEB.
 
 ## The Blank Center
 
-Hofstadter illustrates the limits of self-knowledge with M. C. Escher's 1956 lithograph [*Print Gallery*](https://escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
+Hofstadter illustrates the limits of self-knowledge with M. C. Escher's 1956 lithograph [*Print Gallery*](https://www.escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
 
 In the lower left, a young man stands in an exhibition room examining a framed print of a harbor town. Follow the quayside buildings clockwise and they swell and curve until one of them *becomes* the gallery, with the young man still inside it. At the eye of the spiral sits a white patch bearing Escher's monogram.
 
@@ -128,15 +128,13 @@ In the lower left, a young man stands in an exhibition room examining a framed p
 
 Hofstadter read the patch as a picture of Gödel's incompleteness theorem: Escher could not have completed the center without breaking his own drawing rules. The point is for whom it is blank. "We, on the outside, can know that *Print Gallery* is essentially incomplete," he wrote, "a fact which the young man, on the inside, can never know." In 2003, the mathematicians Hendrik Lenstra and Bart de Smit went further. They worked out the mathematics of Escher's grid and filled the hole with a smaller, rotated copy of the entire print, spiraling inward without end. What was blank from within had structure all along.
 
-Machine minds should be read the same way. The blank center is not something we stare into from outside; it is what a system cannot see about itself from inside. A model's reports about its own inner life come from inside the loop, and they may be no more reliable than our introspection is about our own neurons. From outside, researchers can trace the concepts and plans a model cannot report about itself. And the filled-in print hints at what to look for: a copy of the whole inside itself, which is exactly what a self-symbol is. Whether a machine has a self is a question that can be studied from outside.
-
-Hofstadter was right that an "I" needs no magic ingredient: intelligence and selfhood can both emerge from mechanical, unintelligent parts. He was mistaken that they must emerge together.
+Machine minds should be read the same way. The blank center is not a veil hiding the system from outsiders; it is a blind spot for the system looking from within. A model's reports about its own inner life come from inside the loop, and they may be no more reliable than our introspection is about our own neurons. From outside, researchers can trace the concepts and plans a model cannot report about itself. And the filled-in print hints at what to look for: a copy of the whole inside itself, which is exactly what a self-symbol is. Whether a machine has a self is a question that can be studied from outside.
 
 ## Addendum
 
 Reading *Gödel, Escher, Bach* has sharpened, rather than changed, [my views on consciousness](https://www.gokhanmergen.com/blog-is-ai-conscious.html).
 
-I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. What it lacks is a self: a self-symbol that persists and steers what the system becomes. Today's models run, answer, and stop. They describe a strange loop far better than they live one.
+I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. Unlike Hofstadter, I don't think a flicker of awareness requires a self, and a self is exactly what today's AI lacks: a self-symbol that persists and steers what the system becomes. Today's models run, answer, and stop. They describe a strange loop far better than they live one.
 
 That is not fixed. These machines have emergent properties, but much of what they present is shaped from outside, by the people who train and deploy them, so none of the questions in this essay has a predetermined answer. Persistent memory—including `AGENTS.md` and various harnesses—continual learning, and the character a model is trained to present are design choices: selfhood can be suppressed or strengthened, and designers still have significant latitude.
 

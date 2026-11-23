@@ -17,7 +17,7 @@ id = "ai-future"
 label = "AI safety & the future"
 categories = [
   "AI / Safety", "ASI / Society", "Futures / AI", "Ideas / AI futures",
-  "Humanity / AI", "Culture / AI", "Culture / Discovery",
+  "Humanity / AI", "Culture / AI", "Culture / Discovery", "Books / AI",
 ]
 keywords = [
   "AI", "A.I.", "AGI", "ASI", "artificial intelligence", "superintelligen*",
