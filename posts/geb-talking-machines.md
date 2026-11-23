@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 10 min read
+read_time: 11 min read
 title: Reading *Gödel, Escher, Bach* in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -124,7 +124,7 @@ That is the difference between describing a strange loop and being one per GEB.
 
 ## The Blank Center
 
-No image in *Gödel, Escher, Bach* captures our current predicament more vividly than M. C. Escher's 1956 lithograph [*Print Gallery*](https://escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
+No image in *Gödel, Escher, Bach* captures this predicament more vividly than M. C. Escher's 1956 lithograph [*Print Gallery*](https://escherinhetpaleis.nl/en/about-escher/masterpieces/print-gallery?lang=en).
 
 In the lower left, a young man stands in an exhibition room examining a framed print of a harbor town. Follow the quayside buildings clockwise and they swell and curve until one of them *becomes* the gallery, with the young man still inside it. He is inside the gallery, which is inside the town, which is inside the print, which is inside his own gaze. Hofstadter called it "the tightest of all Strange Loops."
 
@@ -134,15 +134,17 @@ Yet right at the eye of the spiral sits an unsettling interruption: a stark whit
 
 *Figure 6. M. C. Escher, Print Gallery (1956), with Escher's monogram in the blank center. (GEB, Fig. 142)*
 
-In 1979, Hofstadter read that empty circle as a pictorial echo of Gödel's incompleteness theorem. Escher's twisting grid had led him into a corner where the rules of his own image could no longer hold; as Hofstadter wrote, "That center of the whorl is—and must be—incomplete." To us, standing outside the lithograph, the gap is unmistakable. To the young man inside the picture, it does not exist at all.
+Hofstadter read that empty circle as a pictorial echo of Gödel's incompleteness theorem. Escher could not have completed the center without breaking the rules by which he was drawing the picture: "That center of the whorl is—and must be—incomplete." But notice for whom it is blank. "We, on the outside, can know that *Print Gallery* is essentially incomplete," Hofstadter wrote, "a fact which the young man, on the inside, can never know." Gödel's sentence works the same way. It cannot be proved by the rules of the system, yet anyone reasoning about the system from outside can see that it is true.
 
-Then, in 2003, the story took an extraordinary turn. Using complex geometry, the Dutch mathematicians Hendrik Lenstra and Bart de Smit uncovered the hidden mathematical structure behind Escher's curved grid—and discovered that the center did not have to stay blank. When they filled the hole in, it revealed a smaller, rotated copy of the entire print, containing yet another copy inside it, spiraling inward without end. What had looked like an impassable logical limit turned out to be the edge of Escher's tools, not a permanent feature of reality.
+In 2003, the Dutch mathematicians Hendrik Lenstra and Bart de Smit stepped further outside. They worked out the mathematics behind Escher's curved grid and filled the hole. Inside sits a smaller, rotated copy of the entire print, containing yet another copy, spiraling inward without end. What was blank from within had structure all along; it took an outside view, and better tools, to see it.
 
-Today, when we look at machine minds, we are staring straight into our own blank center.
+That is how to read machine minds, too. The blank center is not something we stare into from outside. It is what a system cannot see about itself from inside.
 
-Researchers can trace tokens, activation patterns, internal concepts, and multistep plans—the intricate architecture swirling around the edges of the print. Yet the moment we ask whether an experiencing subject sits in the middle of all that computation, we hit the white patch.
+A language model's account of its own inner life comes from inside the loop. Like the young man, it can describe the gallery around it in fluent detail without being able to settle what sits at its own center, and its reports about itself may be no more reliable than ours are about our neurons. We are inside our own print as well: no amount of introspection lets us watch the level where our thoughts are made.
 
-That blankness is dangerously easy to misread in either direction. The fact that we cannot spot a conscious subject inside matrices of numbers does not prove no one is home; after all, nobody has spotted an "I" under a microscope in human brain tissue either. Conversely, the dazzling complexity swirling around the edges—eloquence, apparent empathy, fluent self-reflection—does not prove someone *is* there. The white patch is simply the boundary of what our current science can see.
+From outside, the center is not blank. Researchers can trace the tokens, activation patterns, internal concepts, and multistep plans that a model cannot report about itself. They stand where de Smit and Lenstra stood: working out the grid and filling in the hole.
+
+And the completed *Print Gallery* suggests what they should look for. Its center holds a copy of the whole picture, nested inside itself. That is exactly what a self-symbol is: a model of the whole system, carried inside the system, steering it. Whether a machine has a self may become a question we can answer by looking from outside for that copy at the center. Whether the copy is *experienced* is a different question, and its answer, if there is one, is known only on the inside.
 
 Read in the age of talking machines, *Gödel, Escher, Bach* leaves us with two discoveries that sound like opposites, yet belong together like two voices in a Bach fugue. Hofstadter showed how a genuine "I" could arise in a physical universe with no fundamental "I" particles. Modern AI has shown how much of an "I"'s outward intelligence can appear without settling whether an inner life comes along for the ride.
 
