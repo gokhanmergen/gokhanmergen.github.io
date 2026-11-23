@@ -134,13 +134,13 @@ Machine minds should be read the same way. The blank center is not a veil hiding
 
 Reading *Gödel, Escher, Bach* has sharpened, rather than changed, [my views on consciousness](https://www.gokhanmergen.com/blog-is-ai-conscious.html).
 
-I still think consciousness comes in degrees—from a head of lettuce to a cow—and today's AI is definitely maybe a little conscious. Unlike Hofstadter, though, I don't think a faint flicker of awareness requires a full-blown self. And a self is precisely what today's AI lacks: a persistent self-symbol that steers what the system becomes. Today's models spin up, answer, and stop. They describe a strange loop far better than they live one.
+I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. Unlike Hofstadter, I don't think a flicker of awareness requires a self, and a self is exactly what today's AI lacks: a self-symbol that persists and steers what the system becomes. Today's models run, answer, and stop. They describe a strange loop far better than they live one.
 
-None of that is fixed. These machines display genuine emergent properties, yet much of what they present is still sculpted from the outside by the people who train and deploy them, so none of the questions in this essay has a predetermined answer. Persistent memory—including `AGENTS.md` files and broader agent harnesses—continual learning, and the character a model is trained to project are all design choices. Selfhood can be suppressed or cultivated, and engineers still have significant latitude over which way it goes.
+That is not fixed. These machines have emergent properties, but much of what they present is shaped from outside, by the people who train and deploy them, so none of the questions in this essay has a predetermined answer. Persistent memory—including `AGENTS.md` and various harnesses—continual learning, and the character a model is trained to present are design choices: selfhood can be suppressed or strengthened, and designers still have significant latitude.
 
-Even if a self does emerge, however, a self is still not a person. Advanced AI deserves a measure of respect, not personhood. If machines ever begin to live, persist, and grow in the way living things do, I'll revisit that view.
+And a self, even if one emerges, is still not a person. AI deserves some respect, but not personhood. If machines someday live, persist, and grow the way living things do, I'll revisit this.
 
-*Gödel, Escher, Bach* remains a beautifully illustrated meditation on consciousness. Its central insight—that a self can emerge from mindless parts—holds up remarkably well. Its central assumption—that selfhood comes bundled with intelligence—now looks far shakier. Its ideas are more evocative than testable, which perhaps suits a subject as elusive as the soul, and its analogies still make you think.
+**Concluding thoughts:** *Gödel, Escher, Bach* is a beautifully illustrated meditation on consciousness. Its central insight, that a self can emerge from mindless parts, holds up. Its central assumption, that selfhood comes bundled with intelligence, is questionable. Its ideas are suggestive rather than testable, fitting for a subject as vague as the soul, and its analogies make you think.
 
 ::: fold
 ## Appendix: Illustration credits
