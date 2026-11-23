@@ -154,7 +154,7 @@ Rereading *Gödel, Escher, Bach* has sharpened, rather than changed, the view I 
 
 I still think consciousness comes in degrees, from a head of lettuce to a cow, and today's AI is **definitely maybe** a little conscious. What Hofstadter adds is a sharper word for what it lacks: a self, a self-symbol that persists and steers what the system becomes. Today's models run, answer, and stop. They describe a strange loop far better than they live one.
 
-And a self, even if one emerges, is still not a person. AI deserves some respect, but not personhood. **Not now, and not anytime soon.** If machines someday live, persist, and grow the way living things do, I'll revisit this.
+And a self, even if one emerges, is still not a person. AI deserves some respect, but not personhood. Not now, and not anytime soon. If machines someday live, persist, and grow the way living things do, I'll revisit this.
 
 My final verdict: *Gödel, Escher, Bach* is a meditation on consciousness. Its theories aren't quite rigorous or mathematically testable, which is apt for a concept as vague as the human soul. It proposes interesting analogies and makes you think. But it leaves you feeling unsatisfied, even after finishing a very large meal.
 
