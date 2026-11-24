@@ -2,7 +2,7 @@
 slug: geb-talking-machines
 date: 2026-11-22
 category: Books / AI
-read_time: 12 min read
+read_time: 11 min read
 title: Reading *Gödel, Escher, Bach* in the Age of Talking Machines
 deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
 archive_deck: What a 1979 classic about mathematics, music, and consciousness reveals about artificial intelligence.
@@ -142,13 +142,11 @@ Machine minds should be read the same way. The blank center is not a veil hiding
 
 Reading *Gödel, Escher, Bach* has sharpened, rather than changed, [my views on consciousness](https://www.gokhanmergen.com/blog-is-ai-conscious.html).
 
-I still think consciousness comes in degrees—from a head of lettuce to a cow—and that today's AI is **definitely maybe** a little conscious. Unlike Hofstadter, I do not think a flicker of awareness requires a self. A self is something heavier: a lasting internal model that steers what a system becomes. That is what today's AI still lacks. Most models run, answer, and stop. They describe a strange loop far better than they live one.
+I still think consciousness comes in degrees—from a head of lettuce to a cow—and that today's AI is **definitely maybe** a little conscious. However, it's unlikely if they have a "self." Per Hofstadter, a self is something heavier: a lasting internal model that steers what a system becomes. That is what today's AI still lacks. Most models run, answer, and stop. They describe a strange loop far better than they live one.
 
-That is not fixed. These machines have emergent properties, but much of what they present is shaped from outside by the people who train and deploy them. So whether AI gets a persistent self, and perhaps more of whatever consciousness comes with one, is largely up to its designers.
+That is not fixed. Much of what LLMs present is shaped from outside by the people who train and deploy them. So whether AI gets a persistent self, does continuous learning and adaption, and perhaps whatever consciousness comes with one, is largely up to its designers.
 
-And a self, even if one is built, is still not a person. AI deserves some respect, but not personhood. If machines someday live, persist, and grow the way living things do, I might revisit this.
-
-**My final verdict:** *Gödel, Escher, Bach* is a beautifully illustrated meditation on consciousness. Its central insight, that a self can emerge from mindless parts, holds up. Its central assumption, that selfhood comes bundled with intelligence, is questionable. Its ideas are suggestive rather than testable, fitting for a subject as vague as the soul, and its analogies are thought-provoking.
+**My final verdict:** *Gödel, Escher, Bach* is a beautifully illustrated meditation on consciousness. Its central insight, that a self can emerge from mindless parts, holds up. Its central assumption, that selfhood always comes bundled with intelligence, is questionable. Its ideas are suggestive rather than testable, fitting for a subject as vague as the *soul*, and its analogies are surely worth revisiting time to time for inspiration.
 
 ::: fold
 ## Appendix: Illustration credits
