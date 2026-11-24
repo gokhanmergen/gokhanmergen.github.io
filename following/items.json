@@ -1,19 +1,26 @@
 {
- "failing": {
-  "https://anneapplebaum.substack.com/feed": {
-   "since": "2026-11-18"
-  },
-  "https://erictopol.substack.com/feed": {
-   "since": "2026-11-18"
-  },
-  "https://phillipspobrien.substack.com/feed": {
-   "since": "2026-11-18"
-  },
-  "https://snyder.substack.com/feed": {
-   "since": "2026-11-18"
-  }
- },
+ "failing": {},
  "items": [
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-24",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-24",
+   "summary": "To be clear, I’m glad it’s failing.",
+   "title": "Why the New Right is failing",
+   "url": "https://www.noahpinion.blog/p/why-the-new-right-is-failing"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-24",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-23",
+   "summary": "Presentation by Berna Demiralp, CBO's Health Market Studies Unit Chief, at the Tobin-Cowles Health Economics & Policy Program: Addressing Hospital Prices.",
+   "title": "Policies to Cap the Prices Paid by Commercial Insurers: Considerations for Estimating Federal Budgetary Effects",
+   "url": "https://www.cbo.gov/publication/62882"
+  },
   {
    "feed": "https://www.alexnowrasteh.com/feed",
    "first_seen": "2026-11-23",
@@ -23,6 +30,16 @@
    "summary": "Part 9 of What People Really Care About When They’re Mad About Immigration",
    "title": "Some Immigrants Come to Save Your Life",
    "url": "https://www.alexnowrasteh.com/p/some-immigrants-come-to-save-your"
+  },
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-24",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-23",
+   "summary": "[This is a guest post by Matei P. Coiculescu. This blog post was initially written in a different file format and converted using AI. — T.] The Euler equations model the motion of an inviscid fluid: fluid motion in the absence of shear stresses arising from fluid particles “sliding past” each other. In an ideal…",
+   "title": "Finite-Time Singularity Formation for the Three-Dimensional Euler Equations",
+   "url": "https://terrytao.wordpress.com/2026/11/23/finite-time-singularity-formation-for-the-three-dimensional-euler-equations/"
   },
   {
    "feed": "https://scottaaronson.blog/?feed=rss2",
@@ -45,6 +62,26 @@
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/What-Terry-Simpson-Gets-Wrong--Social-Media-Shenanigans-1-e3ssiqm"
   },
   {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-23",
+   "summary": "And this last illusion involves China and the USA",
+   "title": "One Illusion Is Dying, But There Is One More To Go",
+   "url": "https://phillipspobrien.substack.com/p/one-illusion-is-dying-but-there-is"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-23",
+   "summary": "That is a recent essay of mine, published in The Humanist Review of AI. Excerpt: One way to think of these matching gains is to say that AI helps consumers get hold of more customized products. The effective, available degree of product variety rises sharply due to AI. But again, that effect is not captured…",
+   "title": "The AI gains that gdp misses",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-ai-gains-that-gdp-misses.html"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-23",
    "kind": "post",
@@ -53,6 +90,16 @@
    "summary": "I wrote about the Tyranny of the Alphabet many years ago. In economics the standard then was to list authors alphabetically: Faculty members in top departments with surnames beginning with letters earlier in the alphabet are substantially more likely to be tenured, be fellows of the Econometric Society, and even win Nobel prizes (let’s see,…",
    "title": "The Tyranny of the Alphabet 2",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/94257.html"
+  },
+  {
+   "feed": "https://jack-clark.net/feed/",
+   "first_seen": "2026-11-24",
+   "kind": "post",
+   "person": "jack-clark",
+   "published": "2026-11-23",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. Subscribe now Chinese researchers optimize Huawei chips with a kernel improvement benchmark:…AscendGYM will help China do its own form of RSI…Researchers with the Shenzhen Loop Area Institute, a Chinese research organization, have built and released AscendGYM,…",
+   "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab’s AI science benchmark",
+   "url": "https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark/"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -71,7 +118,7 @@
    "person": "terence-tao",
    "published": "2026-11-22",
    "summary": "The Department of Mathematics at the University of California, Los Angeles, invites applications for a tenure-track faculty position as an Assistant Professor in mathematics. A competitive candidate should have a transformative research program and show excellence in undergraduate teaching and educational innovation. We give preference to applicants in areas of pure and applied mathematics…",
-   "title": "Tenure-track position in pure mathematics at UCLA",
+   "title": "Tenure-track position in pure and applied mathematics at UCLA",
    "url": "https://terrytao.wordpress.com/2026/11/22/tenure-track-position-in-pure-mathematics-at-ucla/"
   },
   {
@@ -83,6 +130,16 @@
    "summary": "AHM Statement on the Announced Proof of the Riemann Hypothesis Positionen des Präsidiums der Deutschen Mathematiker-Vereinigung (DMV) zur Bedeutung Künstlicher Intelligenz für die Mathematik (Positions of the Presidium of the German Mathematical Society (DMV) on the importance of artificial intelligence for mathematics) Oxford Mathematics in Conversation on AI – Ben Green and James Maynard with…",
    "title": "Even more posts, opinion pieces, interviews, and position statements",
    "url": "https://terrytao.wordpress.com/2026/11/21/even-more-posts-opinion-pieces-interviews-and-position-statements/"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-22",
+   "summary": "The Kerch Bridge Goes Down--What Is The Bigger Picture?; Ukraine Continues To Show Greater Resilience And Adaptability In The Land War",
+   "title": "Weekend Update #212: The Clock Is Ticking",
+   "url": "https://phillipspobrien.substack.com/p/weekend-update-212-the-clock-is-ticking"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -125,6 +182,26 @@
    "url": "https://thezvi.wordpress.com/2026/11/21/gpt-6-2-astra-and-sol-the-system-card/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-21",
+   "summary": "It was great to talk to Representative Jim Himes, a natural conversationalist, about the priorities and possibilities of the big Democratic majorities.",
+   "title": "Now We Act (From Ukraine 2/2): With Rep. Jim Himes on Investigation and Reform",
+   "url": "https://snyder.substack.com/p/now-we-act-from-ukraine-22-with-rep"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "podcast",
+   "person": "phillips-obrien",
+   "published": "2026-11-21",
+   "summary": "A recording from Phillips P. OBrien and Persuasion's live video",
+   "title": "Ask the Author: Phillips O'Brien on Reorganizing the U.S. Military",
+   "url": "https://phillipspobrien.substack.com/p/ask-the-author-phillips-obrien-on"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-21",
    "kind": "post",
@@ -160,8 +237,8 @@
    "kind": "post",
    "person": "derek-lowe",
    "published": "2026-11-20",
-   "summary": "Many will have heard of the Army’s plan to detonate a large quantity of lead azide near Burlington, Iowa, an unusual event that was supposed to take place today but has been postponed to (at least) Monday, pending all sorts of legal action. Let’s deal with this news in a Q&A format, shall we? Start at the top: what the heck is lead azide? The first thing to know is that it’s a “primary…",
-   "title": "Detonating A Huge Pile of Lead Azide. Really.",
+   "summary": "Note: updated on Monday, November 23rd with more discussions of lead levels, etc. The detonation is currently scheduled for Wednesday, Nov. 25. Many will have heard of the Army’s plan to detonate a large quantity of lead azide near Burlington, Iowa, an unusual event that was supposed to take place today but has been postponed to (at least) Monday, pending all sorts of legal action. Let’s deal…",
+   "title": "Detonating A Huge Pile of Lead Azide. Really. (Updated)",
    "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really"
   },
   {
@@ -215,6 +292,16 @@
    "url": "https://terrytao.wordpress.com/2026/11/20/postdoc-positions-at-the-columbia-data-science-institute/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-20",
+   "summary": "Against “ankle-biting” reforms and for “big and bold” ideas",
+   "title": "Now We Act (from Ukraine 1/2): Live with Senator Elissa Slotkin on Security and Leadership",
+   "url": "https://snyder.substack.com/p/now-we-act-from-ukraine-12-live-with"
+  },
+  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-11-21",
    "kind": "post",
@@ -223,6 +310,16 @@
    "summary": "“… it is very probable that all roots are real. Of course one would wish for a rigorous proof here; I have for the time being, after some fleeting vain attempts, provisionally put aside the search for this, as it appears dispensable for the immediate objective of my investigation.” –Bernhard Riemann, 1859 [Update: According to…",
    "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
    "url": "https://scottaaronson.blog/?p=10344"
+  },
+  {
+   "feed": "https://phillipspobrien.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "post",
+   "person": "phillips-obrien",
+   "published": "2026-11-20",
+   "summary": "And the differences are crucial for understanding where we are",
+   "title": "No This Is Not Yalta Mark II Nor Appeasement Mark II",
+   "url": "https://phillipspobrien.substack.com/p/no-this-is-not-yalta-mark-ii-nor"
   },
   {
    "feed": "https://metr.org/feed.xml",
@@ -253,6 +350,16 @@
    "summary": "Is agentic research any good? Dr Yanagizawa-Drott and his colleague, Olaf Willner, used an AI verifier to check 1,000 APE papers. None was error-free; 842 contained at least one severe error, including ones invalidating headline results. To see roughly how Ape stacks up against human primates, The Economist teamed up with Refine, the research-verification firm…",
    "title": "AIs vs. humans in economics papers",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/ais-vs-humans-in-economics-papers.html"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-11-20",
+   "summary": "Trump has himself photographed next to thugs",
+   "title": "Embarassing and Inconsequential",
+   "url": "https://anneapplebaum.substack.com/p/embarassing-and-inconsequential"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -365,6 +472,36 @@
    "url": "https://thezvi.wordpress.com/2026/11/18/quickly-theres-no-time/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-18",
+   "summary": "The latest in our series of unscripted conversations with the Democractic majority",
+   "title": "Now We Act: With Senator Ruben Gallego on Exposing the Conspiracies",
+   "url": "https://snyder.substack.com/p/now-we-act-with-senator-ruben-gallego"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-18",
+   "summary": "A recording from Timothy Snyder's live video",
+   "title": "Now We Act: With Rep. Raja Krishnamoorthi on the Strength of Democracy",
+   "url": "https://snyder.substack.com/p/now-we-act-with-rep-raja-krishnamoorthi"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-18",
+   "summary": "The latest in our series with the Democratic majority",
+   "title": "Now We Act: With Rep. Jamie Raskin on the Constitution vs. Corruption",
+   "url": "https://snyder.substack.com/p/now-we-act-with-rep-jamie-raskin"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-19",
    "kind": "post",
@@ -455,6 +592,36 @@
    "url": "https://thezvi.wordpress.com/2026/11/17/jensen-huang-really-liked-selling-china-advanced-ai-chips/"
   },
   {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-17",
+   "summary": "The latest in our series of unscripted conversations with the Demcratic majority",
+   "title": "Now We Act: With Senator Sheldon Whitehouse on Dark Money and a Brighter Future",
+   "url": "https://snyder.substack.com/p/now-we-act-with-senator-sheldon-whitehouse"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-17",
+   "summary": "The latest in our series of live, unscripted conversations with lawmakers",
+   "title": "Now We Act: With Rep. Sarah McBride on Care and Freedom",
+   "url": "https://snyder.substack.com/p/now-we-act-with-rep-sarah-mcbride"
+  },
+  {
+   "feed": "https://snyder.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "podcast",
+   "person": "timothy-snyder",
+   "published": "2026-11-17",
+   "summary": "The latest in our series of conversations with the Democratic majority",
+   "title": "Now We Act: With Rep.-Elect Brad Lander on Cooperation vs. Corruption",
+   "url": "https://snyder.substack.com/p/now-we-act-with-rep-elect-brad-lander"
+  },
+  {
    "feed": "https://phillipspobrien.substack.com/feed",
    "first_seen": "2026-11-17",
    "kind": "post",
@@ -523,6 +690,16 @@
    "summary": "We tested Fable 5.2, GPT-6.2 Astra, and four other models on real Epoch work tasks. None met our employee standard, including the two that top our ECI.",
    "title": "How good are Fable 5.2 and GPT-6.2 Astra at real work?",
    "url": "https://epoch.ai/publications/how-good-are-fable-5-2-and-gpt-6-2-astra-at-real-work"
+  },
+  {
+   "feed": "https://anneapplebaum.substack.com/feed",
+   "first_seen": "2026-11-24",
+   "kind": "post",
+   "person": "anne-applebaum",
+   "published": "2026-11-17",
+   "summary": "Also: the NVIDIA story is a corruption scandal, not a sex scandal",
+   "title": "How Does Congress Stop the War",
+   "url": "https://anneapplebaum.substack.com/p/how-does-congress-stop-the-war"
   },
   {
    "feed": "https://www.noahpinion.blog/feed",
@@ -853,16 +1030,6 @@
    "summary": "1. Peru cancels the Moche sculptures for obscenity? 2. Claude translates from The Kalevela. 3. David Chalmers on AI speed-ups. 4. Cass Sunstein picks Bob Dylan’s best songs. 5. “Hobby dogging”? 6. Argentina worries and updates. 7. Jon Hartley podcast with James Heckman. 8. The world without Jensen? Good piece.",
    "title": "Friday assorted links",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/friday-assorted-links-599.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-14",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-13",
-   "summary": "From Luis Garicano and Alex Imas: Hence AI capabilities improved 1.91 times faster after October 2025, but R&D spending grew 6.19 times and the technical workforce 3.10 times. So measured capability gains per dollar fell by approximately 69%, and measured gains per technical employee-year decreased by 38%. These figures are accounting; nothing causal can be…",
-   "title": "Are we witnessing an intelligence explosion?",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/are-we-witnessing-an-intelligence-explosion.html"
   },
   {
    "feed": "https://epoch.ai/atom.xml",
@@ -2405,16 +2572,6 @@
    "url": "https://thezvi.wordpress.com/2026/10/20/anthropic-does-not-understand-why-its-draft-bill-was-unacceptable-and-troubling/"
   },
   {
-   "feed": "https://terrytao.wordpress.com/feed/",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "terence-tao",
-   "published": "2026-10-20",
-   "summary": "In the spirit of my recent “Math 2.0” talk on new ways to use AI assistance to enhance the human understanding of mathematics, rather than substitute for it, I am using this post to propose an experimental challenge, inspired by the recent activity around excluding Landau–Siegel zeroes, as discussed in this previous post. There is…",
-   "title": "An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes",
-   "url": "https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/"
-  },
-  {
    "feed": "https://snyder.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2615,16 +2772,6 @@
    "url": "https://thezvi.wordpress.com/2026/10/15/ai-190-scion-of-the-times/"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-10-15",
-   "summary": "A recording from Timothy Snyder and Sharon McMahon's",
-   "title": "Modern Fascism, the Collapse of Truth, and Why Americans Need “Small Courage”",
-   "url": "https://snyder.substack.com/p/modern-fascism-the-collapse-of-truth"
-  },
-  {
    "feed": "https://phillipspobrien.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2775,16 +2922,6 @@
    "url": "https://thezvi.wordpress.com/2026/10/13/arguments-about-ai-consciousness-remain-highly-motivated-and-at-best-overconfident/"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-10-13",
-   "summary": "With Nicole Fleetwood about her new book",
-   "title": "Between the River and the Railroad Tracks",
-   "url": "https://snyder.substack.com/p/between-the-river-and-the-railroad"
-  },
-  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2855,16 +2992,6 @@
    "url": "https://www.noahpinion.blog/p/why-donald-trump-won-in-2024"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "timothy-snyder",
-   "published": "2026-10-11",
-   "summary": "Trump’s Superpower Suicide in Iran and Russia",
-   "title": "War Through Weakness",
-   "url": "https://snyder.substack.com/p/war-through-weakness"
-  },
-  {
    "feed": "https://phillipspobrien.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -2883,16 +3010,6 @@
    "summary": "A Landmark Study of Immune Cell Aging",
    "title": "Connecting Our Immune System and Healthspan",
    "url": "https://erictopol.substack.com/p/a-tale-of-two-t-cells"
-  },
-  {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-10-10",
-   "summary": "Psychological, Historical, Political, and Ethical (Video and Text)",
-   "title": "Four Wrongs of a Public Execution",
-   "url": "https://snyder.substack.com/p/four-wrongs-of-a-public-execution"
   },
   {
    "feed": "https://phillipspobrien.substack.com/feed",
@@ -2955,16 +3072,6 @@
    "url": "https://www.cbo.gov/publication/61985"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-10-08",
-   "summary": "A recording from Timothy Snyder's live video with Rep. Jake Auchincloss",
-   "title": "Where Do Democrats Go From Here? With Rep. Jake Auchincloss",
-   "url": "https://snyder.substack.com/p/where-do-democrats-go-from-here-with"
-  },
-  {
    "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3003,16 +3110,6 @@
    "summary": "More Updates (Oct. 12): Jeffrey Ketchersid has used Claude Code agents to show that BusyBeaver(10) exceeds Graham’s number, beating the previous best result that BB(13) does so. In response to my request, a couple days later Jeffrey also used Claude agents to show that the value of BB(335) is independent of ZFC, improving the best…",
    "title": "The Mathocalypse",
    "url": "https://scottaaronson.blog/?p=10169"
-  },
-  {
-   "feed": "https://phillipspobrien.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "phillips-obrien",
-   "published": "2026-10-07",
-   "summary": "The US Pulls Back Its Bombers: More Winning, Obviously; Hegseth’s Frightening Speech",
-   "title": "Midweek Update #30: Trump Has Lost His Political Touch",
-   "url": "https://phillipspobrien.substack.com/p/midweek-update-30-trump-has-lost"
   },
   {
    "feed": "https://epoch.ai/atom.xml",
@@ -3125,26 +3222,6 @@
    "url": "https://www.alexnowrasteh.com/p/immigrants-are-not-coming-to-murder"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-10-05",
-   "summary": "Kharkiv Meditations, 10/10",
-   "title": "Basic Political Wisdom (Kharkiv Meditations, 10/10)",
-   "url": "https://snyder.substack.com/p/basic-political-wisdom-kharkiv-meditations"
-  },
-  {
-   "feed": "https://phillipspobrien.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "phillips-obrien",
-   "published": "2026-10-05",
-   "summary": "The Russian escalation talk proves one key thing",
-   "title": "The Key Point Being Overlooked",
-   "url": "https://phillipspobrien.substack.com/p/the-key-point-being-overlooked"
-  },
-  {
    "feed": "https://jack-clark.net/feed/",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3165,16 +3242,6 @@
    "url": "https://epoch.ai/data-insights/openai-coding-agent-spending"
   },
   {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-10-04",
-   "summary": "Kharkiv Meditations, 9/10",
-   "title": "Hydrocarbons (Kharkiv Meditations, 9/10)",
-   "url": "https://snyder.substack.com/p/hydrocarbons-kharkiv-meditations"
-  },
-  {
    "feed": "https://scottaaronson.blog/?feed=rss2",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -3183,16 +3250,6 @@
    "summary": "This semester, I’ve been teaching a brand-new course, entitled CS395T AI Alignment Theory. Here’s the course description: The astounding progress of AI over the past decade has been accompanied by a rising fear: do we really understand how to align and control powerful AI systems—how to get them reliably to do what we wanted, or…",
    "title": "My new course at UT Austin: AI Alignment Theory",
    "url": "https://scottaaronson.blog/?p=10125"
-  },
-  {
-   "feed": "https://phillipspobrien.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "phillips-obrien",
-   "published": "2026-10-04",
-   "summary": "Operation Vivaldi, Even More Robots; The Trump-Putin Quid Pro Quo",
-   "title": "Weekend Update #205: Russia’s Strategy In Two Words: “War Crimes”",
-   "url": "https://phillipspobrien.substack.com/p/weekend-update-205-russias-strategy"
   },
   {
    "feed": "https://anneapplebaum.substack.com/feed",
@@ -3213,26 +3270,6 @@
    "summary": "How did Trump fumble so badly?",
    "title": "The second Trump presidency is a world-historic failure",
    "url": "https://www.noahpinion.blog/p/the-second-trump-presidency-is-a"
-  },
-  {
-   "feed": "https://snyder.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "timothy-snyder",
-   "published": "2026-10-03",
-   "summary": "Kharkiv Meditations 8/10",
-   "title": "The Richness of Language (Kharkiv Meditations, 8/10)",
-   "url": "https://snyder.substack.com/p/the-richness-of-language-kharkiv"
-  },
-  {
-   "feed": "https://phillipspobrien.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "phillips-obrien",
-   "published": "2026-10-02",
-   "summary": "And Why It Could Work",
-   "title": "Divide And Rule: The US Strategy Towards Europe",
-   "url": "https://phillipspobrien.substack.com/p/divide-and-rule-the-us-strategy-towards"
   },
   {
    "feed": "https://epoch.ai/atom.xml",
@@ -3393,16 +3430,6 @@
    "summary": "After a long hiatus, the problem, which was likely inspired by juggling, has finally been resolved by a group of young mathematicians.",
    "title": "Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture",
    "url": "https://www.quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928/"
-  },
-  {
-   "feed": "https://www.noahpinion.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "noah-smith",
-   "published": "2026-09-28",
-   "summary": "We’ve spent decades raising teacher quantity when we should have been raising quality.",
-   "title": "Stop spending money on smaller classes",
-   "url": "https://www.noahpinion.blog/p/stop-spending-money-on-smaller-classes"
   },
   {
    "feed": "https://www.alexnowrasteh.com/feed",
@@ -4203,16 +4230,6 @@
    "summary": "Why we watch them together",
    "title": "One-Eyed Monsters",
    "url": "https://anneapplebaum.substack.com/p/one-eyed-monsters"
-  },
-  {
-   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "matt-kaeberlein",
-   "published": "2026-07-26",
-   "summary": "A new era in cholesterol lowering may have just begun.In this episode of Longevity Science, I take a deep dive into enlicitide, the first FDA-approved oral PCSK9 inhibitor. If you've been following my recent videos, you know I started taking Repatha (evolocumab) after a coronary CT angiography (CCTA) with contrast revealed early soft plaque in my coronary arteries. Repatha has reduced my LDL…",
-   "title": "The Pill That Could Prevent Heart Disease",
-   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/The-Pill-That-Could-Prevent-Heart-Disease-e3mhngs"
   }
  ]
 }
