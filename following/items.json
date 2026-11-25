@@ -1,6 +1,59 @@
 {
- "failing": {},
+ "failing": {
+  "https://anneapplebaum.substack.com/feed": {
+   "since": "2026-11-25"
+  },
+  "https://erictopol.substack.com/feed": {
+   "since": "2026-11-25"
+  },
+  "https://phillipspobrien.substack.com/feed": {
+   "since": "2026-11-25"
+  },
+  "https://snyder.substack.com/feed": {
+   "since": "2026-11-25"
+  }
+ },
  "items": [
+  {
+   "feed": "https://terrytao.wordpress.com/feed/",
+   "first_seen": "2026-11-25",
+   "kind": "post",
+   "person": "terence-tao",
+   "published": "2026-11-25",
+   "summary": "[This is a guest post by Anurag Sahay, Will Sawin, and Lior Silberman – T.] Last Friday Levent Alpöge announced a Lean certicate containing a proof of the Generalized Riemann hypothesis. Since then there has been a flurry of activity in validating the certificate, and toward extracting a human-understnable proof and simplifying the Lean certificate…",
+   "title": "G.R.H. Polymath",
+   "url": "https://terrytao.wordpress.com/2026/11/24/g-r-h-polymath/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-25",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-25",
+   "summary": "Between 1970 and 1990 the U.S. legal services industry underwent a dramatic demand shift. Its employment share more than doubled and the relative wages of lawyers rose by 60%, in contrast to stability before and after. We attribute this shift to three related changes in the legal environment: a wave of new legislation and regulation…",
+   "title": "How did the United States become a lawyerly society?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/how-did-the-united-states-become-a-lawyerly-society.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-25",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-25",
+   "summary": "Recently many people are debating whether AI will lead to our disempowerment. One simple example is that we might use AI to pursue or solve various intellectual tasks for us, rather than doing it ourselves. So say there are twenty important math problems, and we let the AIs (with some human guidance) take a crack…",
+   "title": "Avoiding disempowerment through protectionism?",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/avoiding-disempowerment-through-protectionism.html"
+  },
+  {
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "first_seen": "2026-11-25",
+   "kind": "post",
+   "person": "derek-lowe",
+   "published": "2026-11-24",
+   "summary": "George Whitesides, whose name will be familiar to generations of chemists, biochemists, chemical biologists and many others, has recently passed away at the age of 87. He was an extremely accomplished scientist who worked in an extraordinarily diverse number of fields over his long career, and he was also a very prolific author, mentor, and speaker. I had occasion to interact with him several…",
+   "title": "George Whitesides, 1939-2026",
+   "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026"
+  },
   {
    "feed": "https://www.noahpinion.blog/feed",
    "first_seen": "2026-11-24",
@@ -10,6 +63,46 @@
    "summary": "To be clear, I’m glad it’s failing.",
    "title": "Why the New Right is failing",
    "url": "https://www.noahpinion.blog/p/why-the-new-right-is-failing"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-11-25",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-11-24",
+   "summary": "What the skeptics get right about superintelligence",
+   "title": "Responding to objections to recursive self-improvement",
+   "url": "https://www.dwarkesh.com/p/rsiobjections"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-25",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-24",
+   "summary": "In the evening of November 22, Donald Trump said he ‘hoped’ the Nvidia board would rehire Jensen Huang, as the ‘best thing for the Company.’ Shortly after that Donald Trump called the Nvidia board. On the morning of November 23, …",
+   "title": "Jensen Huang Reinstated As Nvidia CEO at Behest of President Trump",
+   "url": "https://thezvi.wordpress.com/2026/11/24/jensen-huang-reinstated-as-nvidia-ceo-at-behest-of-president-trump/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-11-25",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-11-24",
+   "summary": "See I don’t even like alcohol much. Like, I’ll have a half-glass of wine at a fancy dinner if everyone else is having some, or one beer at a reception, but that’s it. These days, though, can you blame me? Yesterday, as you all probably saw, hot on the heels of its proof of the…",
+   "title": "I’ve been drinking wine in my kitchen",
+   "url": "https://scottaaronson.blog/?p=10362"
+  },
+  {
+   "feed": "https://metr.org/feed.xml",
+   "first_seen": "2026-11-25",
+   "kind": "report",
+   "person": "metr",
+   "published": "2026-11-24",
+   "summary": "OpenAI recently published the base-model log-perplexity of 13 models it has trained since GPT-3.5, measured on a fixed held-out dataset sourced from its own codebase. It shows a very striking acceleration in pretraining loss: since early 2026, it has been falling about seven times faster than it was from 2022 through 2025. If the current pace holds, OpenAI would cover the drop in log-perplexity…",
+   "title": "Interpreting a recent acceleration in pretraining loss",
+   "url": "https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/"
   },
   {
    "feed": "https://www.cbo.gov/publications/all/rss.xml",
@@ -387,7 +480,7 @@
    "kind": "post",
    "person": "zvi-mowshowitz",
    "published": "2026-11-19",
-   "summary": "Happy Zvi finally takes a real vacation day. As you read this, I am probably on a flight to Vegas, baby, Vegas until Sunday. Not to a conference to talk about AI, but to an Airbnb rental to do things …",
+   "summary": "Happy Zvi finally takes a real vacation day. I was gone until Monday. I have posts queued up for the weekend and I will see you all on Tuesday. Oh, also I hear there is some sort of IPO today? …",
    "title": "AI #195: Opening Bell",
    "url": "https://thezvi.wordpress.com/2026/11/19/ai-195-opening-bell/"
   },
@@ -1012,26 +1105,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-u-s-federal-ai-observatory.html"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-13",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-13",
-   "summary": "I appear on Ryan Bourne’s excellent new podcast, The Economics of It. We discuss The Economics of Rent Controls drawing on my essay, Rent Control: The Ceiling Trap. It’s a very good discussion. Here’s one bit (edited slightly to remove some ums for reading and to fix a date I got wrong from memory): RB:…",
-   "title": "The Economics of Rent Controls",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-economics-of-rent-controls.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-14",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-13",
-   "summary": "1. Peru cancels the Moche sculptures for obscenity? 2. Claude translates from The Kalevela. 3. David Chalmers on AI speed-ups. 4. Cass Sunstein picks Bob Dylan’s best songs. 5. “Hobby dogging”? 6. Argentina worries and updates. 7. Jon Hartley podcast with James Heckman. 8. The world without Jensen? Good piece.",
-   "title": "Friday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/friday-assorted-links-599.html"
-  },
-  {
    "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-11-14",
    "kind": "post",
@@ -1577,7 +1650,7 @@
    "kind": "report",
    "person": "metr",
    "published": "2026-11-05",
-   "summary": "Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. While we were able to freely share our highest-level conclusions about risk, Anthropic…",
+   "summary": "Download PDF Redaction summary: As part of this assessment, Anthropic had rights to redact any non-public information in this post. Per our approach to transparency , we had the right to disclose if Anthropic exercised redaction rights, and whether or not any of our findings depended significantly on redacted information. While we were able to freely share our highest-level conclusions about…",
    "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
    "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
   },
@@ -2530,16 +2603,6 @@
    "summary": "A lot of AIs were misaligned this week. A fun little survey. This is not coverage of The Hackening, which appears to have arrived early, including a core vulnerability in PHP. That is a developing story. I will cover it …",
    "title": "Misaligned!",
    "url": "https://thezvi.wordpress.com/2026/10/21/misaligned/"
-  },
-  {
-   "feed": "https://terrytao.wordpress.com/feed/",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "terence-tao",
-   "published": "2026-10-21",
-   "summary": "[This is a guest post by Tristan Buckmaster. This blog post was initially written in a different file format and converted using AI. — T.] This blog post expands on a theme mentioned at the end of my recent talk at the Institute for Advanced Study on October 19. I would like to thank Matei…",
-   "title": "Mathematics is a subject for the young",
-   "url": "https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/"
   },
   {
    "feed": "https://scottaaronson.blog/?feed=rss2",
@@ -3550,16 +3613,6 @@
    "summary": "Epoch AI measures how fast the cost of a given level of AI performance is falling across five benchmarks covering math, science and games of skill: about 47% per quarter, or 13x per year, since 2023, faster than electricity, compute, batteries or DNA sequencing ever fell.",
    "title": "The plunging price of thought",
    "url": "https://epoch.ai/publications/the-plunging-price-of-thought"
-  },
-  {
-   "feed": "https://www.science.org/blogs/pipeline/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "derek-lowe",
-   "published": "2026-09-21",
-   "summary": "I wrote not so long ago about the Trump administration’s plans to take over all aspects of federal scientific funding. That attempt seems to have been consigned to bureaucratic limbo after a torrent of negative comments poured in and Congress blocked it in the latest funding resolution, but the overall goal is not something that these people are going to forget about. As I said at the time, “The…",
-   "title": "Yet Another Attempt to Strangle Scientific Funding",
-   "url": "https://www.science.org/content/blog-post/yet-another-attempt-strangle-scientific-funding"
   },
   {
    "feed": "https://jack-clark.net/feed/",
