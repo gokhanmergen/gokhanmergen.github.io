@@ -23,7 +23,7 @@ The Substack copy is built from that live page.
 ## Conventions the author has approved
 
 - **Title and subtitle:** the post's `title`, with the `deck` as the
-  subtitle. Substack curls straight apostrophes on its own. A subtitle longer
+  subtitle. A post without a `deck` gets no subtitle on Substack either. Substack curls straight apostrophes on its own. A subtitle longer
   than about 256 characters fails to save, so shorten it by dropping the
   final sentence.
 - **Dateline:** the body starts with an italic dateline: *Originally published on

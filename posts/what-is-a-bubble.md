@@ -5,7 +5,6 @@ category: Markets / AI
 read_time: 9 min read
 title: What Is a Bubble? (And Why Panic Often Wears Its Mask)
 archive_title: What Is a Bubble?
-deck: A violent crash does not prove a bubble existed. Measured against their long-term trends, housing and tech tell a more nuanced story—and so does AI today.
 archive_deck: A violent crash does not prove a bubble existed. Measured against their long-term trends, housing and tech tell a more nuanced story—and so does AI today.
 ---
 

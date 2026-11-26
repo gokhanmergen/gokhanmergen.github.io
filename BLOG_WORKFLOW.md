@@ -71,7 +71,11 @@ The article body goes here.
 ```
 
 `archive_title` is optional; if omitted, the full `title` is used in the
-index. `time` is also optional: a 24-hour `HH:MM` such as `time: 20:20`. It
+index. `deck`, the subtitle under the article's title, is optional too:
+leave it out and the article shows no subtitle, while the feed and the
+page description use `archive_deck` instead.
+
+`time` is also optional: a 24-hour `HH:MM` such as `time: 20:20`. It
 is not shown anywhere and only orders posts that share a date, with the later
 time first. Posts without one count as `00:00`, and ties keep file-name order.
 

@@ -208,7 +208,6 @@ def parse_post(path: Path) -> Post:
         "category",
         "read_time",
         "title",
-        "deck",
         "archive_deck",
     )
     missing = [key for key in required if not fields.get(key)]
@@ -223,7 +222,7 @@ def parse_post(path: Path) -> Post:
         category=fields["category"],
         read_time=fields["read_time"],
         title=plain_title(fields["title"]),
-        deck=fields["deck"],
+        deck=fields.get("deck", ""),
         archive_deck=fields["archive_deck"],
         archive_title=plain_title(fields.get("archive_title", fields["title"])),
         body=body,
@@ -624,7 +623,7 @@ def render_feed(posts: List[Post]) -> str:
       <guid isPermaLink="true">{escape(post.url)}</guid>
       <pubDate>{format_datetime(datetime(post.published.year, post.published.month, post.published.day, tzinfo=timezone.utc))}</pubDate>
       <category>{escape(post.category)}</category>
-      <description>{escape(post.deck)}</description>
+      <description>{escape(post.deck or post.archive_deck)}</description>
       <blog:readTime>{escape(post.read_time)}</blog:readTime>{email_flag if post.email else ""}
       <content:encoded>{escape(render_excerpt(post))}</content:encoded>
     </item>'''
@@ -740,13 +739,13 @@ def render_post(post: Post, number: int, next_post: Optional[Post], versions: Li
     if has_embed(post.body):
         head_extra += EMBED_HEAD
 
+    dek = f'        <p class="blog-article-dek">{escape(post.deck)}</p>\n' if post.deck else ""
     main = f'''    <main>
       <header class="blog-article-intro" aria-labelledby="page-title">
         <a class="blog-article-back" href="blog.html">{escape(text["back"])}</a>
         <p class="eyebrow">{escape(BRAND)} · {escape(text["post"])} {number:02d}</p>
         <h1 id="page-title">{render_title(post)}</h1>
-        <p class="blog-article-dek">{escape(post.deck)}</p>
-
+{dek}
         <div class="blog-author-row">
           <div class="blog-author">
             <img src="gokhan2.jpg" alt="{escape(text["portrait"])}">
@@ -788,7 +787,7 @@ def render_post(post: Post, number: int, next_post: Optional[Post], versions: Li
 
     return page_shell(
         f"{post.title} | {BRAND}",
-        f"{post.title} — {post.deck}",
+        f"{post.title} — {post.deck or post.archive_deck}",
         main,
         footer_link=text["footer"],
         footer_href="blog.html",
