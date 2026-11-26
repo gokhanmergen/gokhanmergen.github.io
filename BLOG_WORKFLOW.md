@@ -73,7 +73,9 @@ The article body goes here.
 `archive_title` is optional; if omitted, the full `title` is used in the
 index. `deck`, the subtitle under the article's title, is optional too:
 leave it out and the article shows no subtitle, while the feed and the
-page description use `archive_deck` instead.
+page description use `archive_deck` instead. `archive_deck`, the summary
+under the title in the index, can be left out as well; with neither, the
+index shows only the title and the feed item has no description.
 
 `time` is also optional: a 24-hour `HH:MM` such as `time: 20:20`. It
 is not shown anywhere and only orders posts that share a date, with the later

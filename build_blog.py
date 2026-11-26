@@ -208,7 +208,6 @@ def parse_post(path: Path) -> Post:
         "category",
         "read_time",
         "title",
-        "archive_deck",
     )
     missing = [key for key in required if not fields.get(key)]
     if missing:
@@ -223,7 +222,7 @@ def parse_post(path: Path) -> Post:
         read_time=fields["read_time"],
         title=plain_title(fields["title"]),
         deck=fields.get("deck", ""),
-        archive_deck=fields["archive_deck"],
+        archive_deck=fields.get("archive_deck", ""),
         archive_title=plain_title(fields.get("archive_title", fields["title"])),
         body=body,
         lang=fields.get("lang", "en"),
@@ -651,6 +650,7 @@ def render_index(posts: List[Post], translations: Dict[str, List[Post]]) -> str:
             f'\n              <a class="blog-list-read blog-list-translation" href="{escape(t.filename)}" hreflang="{t.lang}" lang="{t.lang}">{escape(UI_TEXT[t.lang]["read_in"])} <span aria-hidden="true">→</span></a>'
             for t in translations.get(post.slug, [])
         )
+        summary = f'              <p>{escape(post.archive_deck)}</p>\n' if post.archive_deck else ""
         items.append(
             f'''          <article class="blog-list-post" id="{escape(post.slug)}">
             <div class="blog-list-meta">
@@ -660,8 +660,7 @@ def render_index(posts: List[Post], translations: Dict[str, List[Post]]) -> str:
             </div>
             <div class="blog-list-body">
               <h3><a href="{escape(post.filename)}">{title_html(post.archive_title_markup)}</a></h3>
-              <p>{escape(post.archive_deck)}</p>
-              <a class="blog-list-read" href="{escape(post.filename)}">Read article <span aria-hidden="true">→</span></a>{translation_links}
+{summary}              <a class="blog-list-read" href="{escape(post.filename)}">Read article <span aria-hidden="true">→</span></a>{translation_links}
             </div>
           </article>'''
         )
@@ -787,7 +786,7 @@ def render_post(post: Post, number: int, next_post: Optional[Post], versions: Li
 
     return page_shell(
         f"{post.title} | {BRAND}",
-        f"{post.title} — {post.deck or post.archive_deck}",
+        " — ".join(part for part in (post.title, post.deck or post.archive_deck) if part),
         main,
         footer_link=text["footer"],
         footer_href="blog.html",
