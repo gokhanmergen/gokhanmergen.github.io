@@ -27,7 +27,7 @@ Think about what creates the visual impression of a bubble bursting: the vertica
 
 ## A Practical Framework for Defining a Bubble
 
-If "bubble" has become a catch-all buzzword for anything that drops sharply, how *should* we measure it? A disciplined approach starts with fitting a long-term log-linear trendline to an asset’s history and measuring how far prices deviate from it:
+If "bubble" has become a catch-all buzzword for anything that drops sharply, how *should* we measure it? A disciplined approach starts with fitting a long-term trendline to an asset’s history and measuring how far prices deviate from it:
 
 1. **Anchor to the Long-Term Trendline:** Look at an asset’s multi-decade trajectory—ideally accounting for where fundamentals are heading in the future. If prices run roughly +25% above their long-term trend, it is fair to call the asset **overvalued**. Once they stretch +50% or more above trend, **bubble** territory begins.
 2. **Distinguish Degree and Duration:** Not all bubbles are created equal. Briefly crossing +50% above trend is a very different animal from detaching +250% into outer space. And if the long-term trend catches up to justify prior highs within a reasonable timeframe, the underlying asset wasn't broken—it was merely ahead of itself.
