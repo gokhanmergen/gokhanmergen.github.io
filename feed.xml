@@ -14,6 +14,23 @@ Manual changes will be overwritten.
     <description>Essays by Gökhan Mergen on artificial intelligence, work, creativity, and the systems built around them.</description>
     <language>en</language>
     <item>
+      <title>Is AI Eating Jobs? Testing the Missing Millions</title>
+      <link>https://www.gokhanmergen.com/blog-is-ai-eating-jobs.html</link>
+      <guid isPermaLink="true">https://www.gokhanmergen.com/blog-is-ai-eating-jobs.html</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>Work / AI</category>
+      <description>A replication of the “GDP-to-payroll decoupling,” and what it says about post-labor versus less-labor economics.</description>
+      <blog:readTime>16 min read</blog:readTime>
+      <content:encoded>&lt;p&gt;David Shapiro, who popularized the term &lt;a href=&quot;https://daveshap.substack.com/p/post-labor-economics-pt-i-the-rise&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;post-labor economics&lt;/a&gt;, recently &lt;a href=&quot;https://x.com/DaveShapi/status/2125302295688511515&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;made his case&lt;/a&gt; with five charts and a blunt verdict: &amp;quot;Yeah AI is eating jobs. The economy should have 3M–6M &lt;em&gt;more&lt;/em&gt; jobs than it does.&amp;quot;&lt;/p&gt;
+&lt;p&gt;The logic is straightforward. For decades, US job growth tracked GDP growth at a reliable clip. Fit that historical link over 1990–2019, feed it actual GDP growth since ChatGPT launched in late 2022, and the model predicts millions more jobs than the economy has. The shortfall is sharpest in white-collar industries—professional and business services, information, and finance—where payrolls have &lt;em&gt;shrunk&lt;/em&gt; while real GDP grew more than 10%. Shapiro calls it the worst white-collar decoupling in 40 years outside a recession, and concludes: &amp;quot;Post-labor is happening ready or not.&amp;quot;&lt;/p&gt;
+&lt;p&gt;That claim deserves a direct test. In &lt;a href=&quot;https://www.gokhanmergen.com/blog-post-labor-or-less-labor.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Post-Labor Economics or Less-Labor Economics?&lt;/a&gt;, I argued from 150 years of data that work fades slowly rather than stopping—and that a genuine break would show up first in hiring and labor&amp;#x27;s share of income, not in the workweek. In &lt;a href=&quot;https://www.gokhanmergen.com/blog-ai-watch.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;AI Watch&lt;/a&gt;, I found US tech output up 35% since 2022 while tech payrolls fell 10%. Shapiro&amp;#x27;s counterfactual pushes the question further by asking what employment &lt;em&gt;should&lt;/em&gt; be, given output. I rebuilt his model from public BLS and BEA data and put it through five stress tests.&lt;/p&gt;
+&lt;h2&gt;The short version&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Data through 2026 Q3 for GDP, payrolls, and productivity; October 2026 for unemployment and pay; September 2026 for hiring and layoffs; November 13, 2026 for job postings.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;1. The replication: the decoupling is real&lt;/h2&gt;
+&lt;p&gt;How do you estimate jobs that never materialized? Shapiro&amp;#x27;s model links quarterly payroll growth to real GDP growth over 1990–2019—including GDP in the current quarter and the two quarters before it, because hiring lags output—and then projects that relationship forward from 2022 Q4 using actual GDP.&lt;/p&gt;
+&lt;p&gt;Rebuilding the model on BLS payrolls and BEA real GDP reproduces both his fit and his headline gaps. The two lags do real work: with them, GDP explains two-thirds of the quarterly variation in payroll growth (\(R^2 = 0.66\) for all private payrolls, matching Shapiro&amp;#x27;s chart, and \(0.68\) for white-collar jobs); without them, \(R^2\) falls by half. Historically, each 1% of GDP growth has gone with about 1.2% more white-collar jobs, offset by a slow downward drift of 1.3% a year when GDP is flat. With GDP expanding at 2.7% a year since late 2022—slightly faster than the 2.5% pace of 1990–2019—the model expects white-collar payrolls to grow 1.9% a year. Instead, they fell 0.5% a year.&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
       <title>Is AI a Bubble?</title>
       <link>https://www.gokhanmergen.com/blog-is-ai-a-bubble.html</link>
       <guid isPermaLink="true">https://www.gokhanmergen.com/blog-is-ai-a-bubble.html</guid>

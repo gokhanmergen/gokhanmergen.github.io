@@ -1,0 +1,226 @@
+<!--
+GENERATED FILE — DO NOT EDIT DIRECTLY.
+Source: posts/is-ai-eating-jobs.md
+Generator: build_blog.py
+Regenerate from the repository root with: python3 build_blog.py
+Manual changes will be overwritten.
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Is AI Eating Jobs? Testing the Missing Millions — A replication of the “GDP-to-payroll decoupling,” and what it says about post-labor versus less-labor economics.">
+  <title>Is AI Eating Jobs? Testing the Missing Millions | My Blog: Post AGI</title>
+  <link rel="alternate" type="application/rss+xml" title="My Blog: Post AGI" href="feed.xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous" onload="renderMathInElement(document.querySelector('.blog-article-content'), {delimiters: [{left: '\\[', right: '\\]', display: true}, {left: '\\(', right: '\\)', display: false}], throwOnError: false})"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="blog-page blog-post-page">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Gökhan Mergen home">Gökhan <span>Mergen</span></a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html#about">About</a>
+        <a class="nav-link" href="blog.html" aria-current="page">My Blog</a>
+        <a class="nav-link" href="pubs.html">Publications</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/gokhanmergen/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="nav-link" href="quantBibliography.html">Quant finance</a>
+        <a class="nav-link" href="https://github.com/gokhanmergen/" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="nav-link" href="photography.html">Photography</a>
+      </nav>
+    </header>
+
+    <main>
+      <header class="blog-article-intro" aria-labelledby="page-title">
+        <a class="blog-article-back" href="blog.html">← Back to My Blog: Post AGI</a>
+        <p class="eyebrow">My Blog: Post AGI · Post 01</p>
+        <h1 id="page-title">Is AI Eating Jobs? Testing the Missing Millions</h1>
+        <p class="blog-article-dek">A replication of the “GDP-to-payroll decoupling,” and what it says about post-labor versus less-labor economics.</p>
+
+        <div class="blog-author-row">
+          <div class="blog-author">
+            <img src="gokhan2.jpg" alt="Portrait of Gökhan Mergen">
+            <div>
+              <strong>Gökhan Mergen</strong>
+              <span>My Blog: Post AGI</span>
+            </div>
+          </div>
+          <div class="blog-article-meta" aria-label="Post details">
+            <span>Nov 26, 2026 · 16 min read</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="blog-article-layout">
+        <article class="blog-article-content" data-slug="is-ai-eating-jobs">
+<p>David Shapiro, who popularized the term <a href="https://daveshap.substack.com/p/post-labor-economics-pt-i-the-rise" target="_blank" rel="noopener noreferrer">post-labor economics</a>, recently <a href="https://x.com/DaveShapi/status/2125302295688511515" target="_blank" rel="noopener noreferrer">made his case</a> with five charts and a blunt verdict: &quot;Yeah AI is eating jobs. The economy should have 3M–6M <em>more</em> jobs than it does.&quot;</p>
+
+<p>The logic is straightforward. For decades, US job growth tracked GDP growth at a reliable clip. Fit that historical link over 1990–2019, feed it actual GDP growth since ChatGPT launched in late 2022, and the model predicts millions more jobs than the economy has. The shortfall is sharpest in white-collar industries—professional and business services, information, and finance—where payrolls have <em>shrunk</em> while real GDP grew more than 10%. Shapiro calls it the worst white-collar decoupling in 40 years outside a recession, and concludes: &quot;Post-labor is happening ready or not.&quot;</p>
+
+<p>That claim deserves a direct test. In <a href="https://www.gokhanmergen.com/blog-post-labor-or-less-labor.html" target="_blank" rel="noopener noreferrer">Post-Labor Economics or Less-Labor Economics?</a>, I argued from 150 years of data that work fades slowly rather than stopping—and that a genuine break would show up first in hiring and labor&#x27;s share of income, not in the workweek. In <a href="https://www.gokhanmergen.com/blog-ai-watch.html" target="_blank" rel="noopener noreferrer">AI Watch</a>, I found US tech output up 35% since 2022 while tech payrolls fell 10%. Shapiro&#x27;s counterfactual pushes the question further by asking what employment <em>should</em> be, given output. I rebuilt his model from public BLS and BEA data and put it through five stress tests.</p>
+
+<h2>The short version</h2>
+
+<ul><li><strong>The decoupling is real—and the core replication holds.</strong> White-collar payrolls are <strong>3.3 million (8.7%)</strong> below what 1990–2019 GDP growth predicts, having fallen by 663,000 since late 2022 while real GDP grew 10.7%.</li><li><strong>It is the worst in hindsight, not in real time.</strong> On Shapiro&#x27;s 1990–2019 fit, today&#x27;s 15-quarter white-collar shortfall is indeed slightly deeper than the post-dot-com slump. But a model trained on 1990–2019 grades past crises against an answer key they helped write. Using only data available <em>before</em> each episode, both the dot-com bust and the 2008 financial crisis produced larger white-collar shortfalls than today.</li><li><strong>The &quot;3–6 million missing jobs&quot; across the economy would have needed workers who did not exist.</strong> Filling the private-sector jobs predicted by the GDP model would have driven unemployment down to <strong>2.4%</strong>—below the all-time low of 2.5% set in 1953. Adjusting for labor supply via Okun&#x27;s law puts genuine slack at roughly <strong>1.9 million people</strong> from <em>all</em> causes combined: high interest rates, tariffs, tax rules, the staffing slump, and AI.</li><li><strong>A third of the white-collar gap is staffing agencies, yet what remains still matters.</strong> Temp-help payrolls peaked in March 2022—eight months before ChatGPT—and nearly 40% of temp workers hold factory, warehouse, or transport jobs. Strip out staffing and support services altogether, however, and core office industries (information, finance and insurance, professional services, and management) have been flat for four years: <strong>1.65 million (6.7%)</strong> below trend. That residual is the strongest part of Shapiro&#x27;s case—and the number to watch.</li><li><strong>The timing argues against an accelerating AI wave, but the warning lights are real.</strong> The white-collar gap opened fastest in 2023, when fewer than 5% of US firms used AI in production, and has slowed each year since. Even so, Shapiro&#x27;s sharpest observations stand: hiring is at its lowest rate outside 2008–13, output is growing with almost no extra hours, and labor&#x27;s share of business income hit another record low in 2026 Q3.</li></ul>
+
+<p><em>Data through 2026 Q3 for GDP, payrolls, and productivity; October 2026 for unemployment and pay; September 2026 for hiring and layoffs; November 13, 2026 for job postings.</em></p>
+
+<h2>1. The replication: the decoupling is real</h2>
+
+<p>How do you estimate jobs that never materialized? Shapiro&#x27;s model links quarterly payroll growth to real GDP growth over 1990–2019—including GDP in the current quarter and the two quarters before it, because hiring lags output—and then projects that relationship forward from 2022 Q4 using actual GDP.</p>
+
+<p>Rebuilding the model on BLS payrolls and BEA real GDP reproduces both his fit and his headline gaps. The two lags do real work: with them, GDP explains two-thirds of the quarterly variation in payroll growth (\(R^2 = 0.66\) for all private payrolls, matching Shapiro&#x27;s chart, and \(0.68\) for white-collar jobs); without them, \(R^2\) falls by half. Historically, each 1% of GDP growth has gone with about 1.2% more white-collar jobs, offset by a slow downward drift of 1.3% a year when GDP is flat. With GDP expanding at 2.7% a year since late 2022—slightly faster than the 2.5% pace of 1990–2019—the model expects white-collar payrolls to grow 1.9% a year. Instead, they fell 0.5% a year.</p>
+
+<figure class="blog-article-figure"><img src="eating-jobs-replication.png" alt="Two panels, payroll jobs in millions, 2015 to 2026 Q3, with the model&#x27;s predicted path from 2022 Q4 and a shaded 95% range. White-collar core: predicted 37.6 million, actual 34.4 million, gap −3.29 million or −8.7%, outside the shaded range. All private payrolls: predicted 138.7 million, actual 135.7 million, gap −2.96 million or −2.1%, inside the shaded range." loading="lazy"></figure>
+
+<p><em>Fig. 1 — Source: BLS and BEA via <a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer">FRED</a>; computed for this page.</em></p>
+
+<p>The headline numbers match Shapiro almost to the decimal: a white-collar shortfall of <strong>3.29 million, or 8.7%</strong> (his BLS figure is 3.25 million, 8.6%), and a total private-sector gap of <strong>2.96 million, or 2.1%</strong> (his 30-year model on ADP&#x27;s slightly smaller universe gives 2.52 million). Notice the shaded 95% error bands in Fig. 1: total private payrolls sit comfortably inside the model&#x27;s historical margin of error, whereas white-collar payrolls break cleanly below it.</p>
+
+<p>What about Shapiro&#x27;s upper headline of <strong>6.3 million</strong> missing jobs? That number comes from fitting the model on 2010–19 alone—a decade-long recovery in which hiring outran output because the economy was pulling millions of idle workers back from 10% unemployment down to 3.5%. Over that decade, jobs grew 0.76% for every 1% of GDP, yet quarter by quarter GDP growth explained almost none of the variation in hiring (\(R^2 = 0.09\), against \(0.66\) over 1990–2019). Employers simply added workers at a steady clip while slack remained. Projecting that recovery pace onto an economy that started at 3.6% unemployment is comparing apples with an empty room.</p>
+
+<p>Two quick checks before the deeper stress tests:</p>
+
+<ul><li><strong>Pandemic overhiring explains only a modest slice of the broad gap.</strong> Starting the model in pre-pandemic 2019 Q4 shows broad white-collar payrolls were just 1.9% above their GDP path in late 2022, leaving them 7.2% below it today. (Inside specific industries—especially IT services—overhiring played a much larger role, as we will see.)</li><li><strong>AI capital spending boosted GDP with few ongoing workers.</strong> Real investment jumped 34% in equipment and 28% in software and intellectual property since 2022 Q4. By BEA&#x27;s official contributions, those two lines added 0.8 percentage points a year to GDP growth—about <strong>29%</strong> of total growth—while rising from 10.6% to 12.1% of nominal GDP. Removing equipment and IP investment from GDP shrinks the white-collar gap by roughly 13% (from 3.6 million to 3.1 million on a 2008–19 fit). That is AI&#x27;s footprint, but as capital deepening lifting GDP rather than chatbots replacing staff.</li></ul>
+
+<h2>2. History: the worst in hindsight, not in real time</h2>
+
+<p>Shapiro tests his model on 2015–19 (where it tracks cleanly) and then compares 2022 Q4–2026 Q3 against every 15-quarter window since 1985. Measuring cumulative shortfalls in log percentage terms—where today&#x27;s 8.7% level gap reads as <strong>−9.1%</strong>—he finds today&#x27;s episode is the worst on record, edging past the post-dot-com trough of −8.1%.</p>
+
+<p>My replication confirms that exact ranking: <strong>−9.1%</strong> today versus <strong>−8.1%</strong> in 2001 Q1–2004 Q4. One catch, however, changes the verdict. Those earlier windows lie <em>inside</em> the 1990–2019 training period. Comparing today against 2001 or 2008 with a model trained on 1990–2019 is grading past slumps against an answer key they helped write—making earlier shortfalls look smaller than they appeared at the time.</p>
+
+<figure class="blog-article-figure"><img src="eating-jobs-history.png" alt="The white-collar model&#x27;s cumulative error over every 15-quarter window since 1985, by the window&#x27;s last quarter, 1989 to 2026, with recessions shaded. Fitted on 1990–2019: troughs at −8.1% for 2001 Q1–2004 Q4 and −9.1% for 2022 Q4–2026 Q3. Fitted only on data before each window: troughs at −12.4% after the dot-com bust, −11.7% around 2008, and −10.3% now." loading="lazy"></figure>
+
+<p><em>Fig. 2 — Source: BLS and BEA via <a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer">FRED</a>; computed for this page.</em></p>
+
+<p>Even on the hindsight line, the closest precedent—2001 Q1 to 2004 Q4—is just one percentage point smaller, and the economic backdrop is strikingly familiar. Real GDP grew 10.5% across that window and 10.7% across this one. In both cases, a tech investment boom had just cooled and white-collar firms cut staff while output climbed. That was the famous &quot;jobless recovery&quot;: a hangover from over-expansion, not the permanent end of white-collar work. Shapiro notes that today&#x27;s gap occurred without a recession, yet the 2001 downturn was among the mildest on record—and Information-sector payrolls peaked in March 2001 and never regained that high.</p>
+
+<p>The dashed <strong>real-time</strong> line in Fig. 2 removes hindsight bias by fitting the model using only data available <em>before</em> each 15-quarter window began. Because white-collar jobs per dollar of GDP have drifted downward for decades, a real-time analyst would have seen white-collar payrolls undershoot GDP predictions by 2.7% on average—and by <strong>12.4%</strong> after the dot-com bust and <strong>11.7%</strong> around the 2008 crisis. Today&#x27;s real-time shortfall (<strong>10.3%</strong>) is worse than 88% of past windows, but well short of a record. It is a large, unusual episode, not an unprecedented break with history.</p>
+
+<h2>3. Inside the white-collar gap</h2>
+
+<p>&quot;White-collar core&quot; is a blunt container. The BLS supersector <em>Professional and Business Services</em> lumps lawyers, engineers, and programmers together with temp agencies, call centers, security guards, and janitorial crews. Fitting the same GDP model to each of its 15 component industries separately—whose actual job changes sum identically to the −663,000 aggregate loss—reveals where the shortfall actually sits.</p>
+
+<figure class="blog-article-figure"><img src="eating-jobs-inside-the-gap.png" alt="Horizontal bars: each white-collar industry&#x27;s payrolls minus its GDP-only prediction, 2026 Q3, millions, with the actual change since 2022 Q4. Staffing agencies −1.20 (actual −602,000, −15.8%); computer systems design −0.75 (−125,000, −5.0%); other administrative and support −0.38 (+111,000); other professional, scientific and technical −0.37 (+311,000, +3.8%); credit intermediation −0.18 (−142,000); motion pictures and sound recording −0.16 (−120,000, −26.9%); insurance −0.15; real estate −0.12; management of companies −0.11; publishing including software −0.08; telecommunications −0.08; data processing and hosting −0.06; web search −0.05; broadcasting and other information −0.04 (−25,000); other finance −0.01 (+94,000). The actual changes sum to the white-collar total of −663,000." loading="lazy"></figure>
+
+<p><em>Fig. 3 — Source: BLS via <a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer">FRED</a>; computed for this page. Industries are fitted separately, so their gaps sum to 3.7 million rather than the aggregate&#x27;s 3.3 million.</em></p>
+
+<ul><li><strong>Staffing agencies (32% of the gap).</strong> Employment services shed 602,000 jobs since late 2022. Temp help alone peaked at 3.16 million in <strong>March 2022</strong>—eight months before ChatGPT launched—and has fallen 20% to 2.53 million. Firms routinely trim temps first when rates rise and orders cool, and temp work is far from purely office-based: nearly four in ten temp-agency workers (<a href="https://www.bls.gov/spotlight/2018/workers-in-alternative-employment-arrangements/home.htm" target="_blank" rel="noopener noreferrer">39% in BLS&#x27;s contingent-worker survey</a>) hold factory, warehouse, or transport jobs. Over the same stretch, manufacturing lost 245,000 jobs. That is the goods economy cooling, not chatbots.</li><li><strong>Tech and IT services (25%).</strong> Here is the most plausible place for AI to bite, and a real shortfall does appear. Computer systems design sits 130,000 jobs (5%) below its March 2023 peak and 750,000 below its GDP path. Yet it grew 12% during the 2019–22 cheap-money hiring binge before colliding with higher interest rates and a 2022 tax rule that forced firms to amortize software development over five years (<a href="https://www.congress.gov/bill/115th-congress/house-bill/1" target="_blank" rel="noopener noreferrer">TCJA</a>, reversed for domestic work by the <a href="https://www.congress.gov/bill/119th-congress/house-bill/1" target="_blank" rel="noopener noreferrer">2025 One Big Beautiful Bill Act</a>). Software publishers themselves employ just 2% fewer people than in November 2022 (through August, the latest figure on file). And as I showed in <a href="https://www.gokhanmergen.com/blog-ai-watch.html" target="_blank" rel="noopener noreferrer">AI Watch</a>, US software postings have surged <strong>26%</strong> since the July 2025 tax reversal (through November 13), while software postings in five other rich countries barely budged or fell.</li><li><strong>Rate-sensitive finance (8%).</strong> Banks and lenders cut 142,000 jobs (5.3%) as mortgage refinancing dried up after 2022; real estate is flat.</li><li><strong>Media and telecom (7%).</strong> Motion pictures and sound recording lost 27% of their jobs through the 2023 Hollywood strikes and the end of the streaming spending war. Broadcasting lost 25,000 jobs, and telecom has been shrinking since 2001.</li><li><strong>Core professional services and everything else (27%).</strong> Legal, accounting, consulting, engineering, R&amp;D, and other professional services <em>added</em> <strong>311,000 jobs (+3.8%)</strong>. They trail the GDP model, but they are still growing. Insurance and corporate management are nearly flat; securities and investment funds added 94,000 jobs (+8.6%).</li></ul>
+
+<p>Nearly the entire absolute drop in white-collar payrolls comes from four places—staffing agencies, media and telecom, rate-hit lenders, and IT consulting—each hit by a well-documented 2022 shock before generative AI entered production.</p>
+
+<h3>What remains when you strip out staffing and support</h3>
+
+<p>Setting aside staffing does not make the puzzle vanish. Strip out <em>Administrative and Support Services</em> (NAICS 56) completely, along with real estate, and focus strictly on core office industries: <strong>information, finance and insurance, professional/scientific/technical services, and corporate management</strong>.</p>
+
+<p>Across these 22.9 million core knowledge jobs, employment has been essentially flat for four years (<strong>−0.8%</strong>) while GDP expanded 10.7%—leaving a shortfall of <strong>1.65 million jobs (6.7%)</strong>. Measured in hindsight, only the post-dot-com years were worse; fitted in real time (which the industry series allow from 2005 onward), <strong>no period was worse</strong>, including the 2008 financial crisis. Even though professional, scientific, and technical services hit an all-time record of 10.88 million jobs in October, the sector still sits about 8% below its GDP path.</p>
+
+<p>Anchoring at pre-pandemic 2019 instead of 2022 cuts this core shortfall in half—to <strong>0.8 million (3.3%)</strong>—because these industries hired so aggressively in 2021–22. Even so, this residual is where Shapiro&#x27;s case is strongest and where an AI effect is most plausible. Crucially, it is a <strong>hiring slowdown</strong>, not a collapse in headcount.</p>
+
+<h2>4. Jobs for whom? The labor-supply problem</h2>
+
+<p>The headline claim—&quot;3M–6M more jobs&quot;—runs into an even simpler reality check: <strong>who would have filled them?</strong></p>
+
+<p>A GDP-to-jobs elasticity fitted over 1990–2019 bakes in that era&#x27;s labor supply, when the workforce grew 0.9% a year. Since late 2022, labor-force growth has slowed to 0.8% a year—and to roughly <strong>0.45% a year</strong> since late 2024 as immigration dropped sharply. (Annual January population adjustments make these figures approximate.) Private payrolls have grown 0.77% a year, matching the labor force almost step for step, while the GDP model demanded 1.35%.</p>
+
+<figure class="blog-article-figure"><img src="eating-jobs-jobs-for-whom.png" alt="Unemployment rate, quarterly, 2017 to 2026 Q3. Actual 4.1%, up from 3.6% at the end of 2022. Okun&#x27;s-law prediction from GDP growth: 3.0%. The rate needed to fill the private jobs the GDP model predicts: 2.4%, below the 2.5% record low of 1953." loading="lazy"></figure>
+
+<p><em>Fig. 4 — Source: BLS and BEA via <a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer">FRED</a>; computed for this page.</em></p>
+
+<p>Do the arithmetic. Had the economy added the 2.96 million extra private jobs predicted by the 30-year GDP model—and filled them from the pool of unemployed workers—the unemployment rate would have plunged to <strong>2.4%</strong>, below the all-time monthly record of 2.5% set during the Korean War in 1953. Meanwhile, <strong>80.7%</strong> of prime-age adults (25 to 54) hold jobs, just shy of the 2023–24 peaks (80.9%) that were the highest since early 2001. There is no vast army of idle prime-age workers waiting on the sidelines. Most of the &quot;missing&quot; aggregate jobs are jobs for workers who do not exist.</p>
+
+<p>That does not mean genuine slack is zero. The textbook version of <strong>Okun&#x27;s law</strong> links GDP growth directly to the <em>unemployment rate</em>, automatically adjusting for labor-force growth. Fitted on 1990–2019, it says 2.7% annual GDP growth should have pushed unemployment down to <strong>3.0%</strong>. Instead, unemployment rose to <strong>4.1%</strong>—an excess of roughly one percentage point, or <strong>1.9 million people</strong>. A second cross-check lands in the same neighborhood: adding labor-force growth and the prior quarter&#x27;s unemployment rate to the payroll model cuts the private-sector gap from 3.0 million to <strong>1.75 million</strong>. Roughly 1.8–1.9 million people is a real amount of lost work—and the honest upper bound for <em>every</em> drag combined: interest rates, tariffs, the staffing slump, and AI.</p>
+
+<h3>Who is actually in that slack—and what are they paid?</h3>
+
+<p>If AI were displacing office workers at scale, the strain should show up clearly in college-graduate unemployment and white-collar pay. The picture is mixed, not catastrophic:</p>
+
+<ul><li><strong>College-graduate unemployment rose faster than average, but remains low.</strong> Among adults 25 and older with a bachelor&#x27;s degree, unemployment climbed from 1.9% in late 2022 to <strong>2.6%</strong> in October—a jump of about a third, consistent with tighter white-collar hiring. Among 20- to 24-year-olds, it rose from 7.0% to <strong>7.5%</strong>. Yet both sit comfortably inside late-2010s norms (college-graduate unemployment was 2.8% in early 2015).</li><li><strong>White-collar pay does not look like a collapsing market.</strong> Since 2022 Q4, inflation-adjusted hourly pay rose <strong>5.6%</strong> in finance, <strong>5.2%</strong> in information, and <strong>4.5%</strong> in professional and business services—versus just <strong>0.8%</strong> in private education and health. Part of that gap is compositional (trimming junior and temp roles raises the average), yet it is the opposite of a market where displaced professionals are slashing their asking wages.</li></ul>
+
+<h3>Is health care really a &quot;mask&quot;?</h3>
+
+<p>Since late 2022, private education and health added 3.3 million jobs and government 1.0 million, out of 4.9 million net nonfarm gains. Shapiro calls health care &quot;the mask&quot; hiding white-collar losses.</p>
+
+<p>Two facts complicate that story. First, an aging population needs nurses regardless of chatbots—and when the labor force grows under 1% a year, every worker drawn into a hospital is one fewer worker available to an office. Second, the starting date flips the entire picture. Private education and health barely grew between 2019 and 2022 (just <strong>1.4%</strong> over three years) as pandemic burnout emptied hospitals; since then it has grown 3.3% a year, versus 2.1% in the 2010s. Run the exact same GDP model from <strong>2019</strong> instead of 2022, and health and education sit <strong>1.3 million jobs *below</strong>* their predicted path, not above it. Health-care hiring barely tracks GDP, so the model is a rough yardstick—but the direction is unmistakable: much of the boom is catching up, not covering up.</p>
+
+<h2>5. Timing, hiring, and productivity: what fits the AI story</h2>
+
+<p>If AI were the primary engine behind the white-collar gap, the shortfall should widen <em>faster</em> as corporate adoption spreads. Instead, it has steadily slowed: the gap widened by <strong>3.0 points in 2023</strong>, <strong>2.9 in 2024</strong>, <strong>2.0 in 2025</strong>, and <strong>1.6 annualized</strong> so far in 2026. In late 2023—when the gap opened fastest—fewer than <a href="https://www.nber.org/papers/w32319" target="_blank" rel="noopener noreferrer">5% of US firms</a> reported using AI to produce goods or services. That arc fits a 2022 interest-rate and tax shock fading out, with an AI effect possibly building underneath rather than dominating the trend.</p>
+
+<p>Still, four facts—three from Shapiro&#x27;s charts and one from fresher job-posting data—do hold up, and they are the ones that matter most.</p>
+
+<figure class="blog-article-figure"><img src="eating-jobs-hires-and-hours.png" alt="Two panels. Left: private-sector hires, quits and layoffs as a percentage of jobs per month, 2015 to 2026, with 2019 averages dotted. Hires 3.6% against 4.25% in 2019; quits 2.0% against 2.3%; layoffs 1.2% against 1.3%. Right: nonfarm business sector, 2022 Q4 = 100: output 111.7, output per hour 110.6, hours 100.9." loading="lazy"></figure>
+
+<p><em>Fig. 5 — Source: BLS (JOLTS, productivity and costs) via <a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer">FRED</a>; computed for this page.</em></p>
+
+<ul><li><strong>Hiring has frozen, while layoffs stayed low.</strong> Monthly private hiring is down to <strong>3.6%</strong> of jobs, versus 4.25% in 2019. Outside 2008–13, it has been this low in just 17 months on record—16 of them since 2024. Layoffs, meanwhile, sit <em>below</em> their 2019 norm (1.2% vs. 1.3%). Firms stop hiring before they start firing, so a freeze lands hardest on newcomers: the <a href="https://digitaleconomy.stanford.edu/news/canariesaug26/" target="_blank" rel="noopener noreferrer">Stanford &quot;canaries&quot; study</a> (updated August 2026 with ADP data through June) finds 22- to 25-year-olds in the most AI-exposed occupations roughly 19% behind peers in less-exposed roles—a descriptive gap, not yet proven causal, that also overlaps with a cautious, high-rate economy.</li><li><strong>Output is growing without extra hours—partly off a 2022 dip.</strong> Since late 2022, nonfarm business output rose 11.7% while total hours nudged up just 0.9%, leaving productivity to do 92% of the work at <strong>2.7% a year</strong>. That is brisk (faster than 72% of 15-quarter stretches since 1947), though well short of the late 1990s&#x27; 3.8%—and flattered by a 1.4% productivity <em>drop</em> during 2022 as firms hoarded staff. Measured from 2019, productivity grew a solid, normal <strong>2.2% a year</strong>. Productivity-led growth is both what a full-employment economy <em>must</em> generate and what AI would generate.</li><li><strong>Routine office postings are still flat, even as hiring rebounds elsewhere.</strong> Indeed job postings through November 13 are up <strong>5.1%</strong> over the past year, with <strong>35 of 47</strong> categories rising. Mechanical, industrial, and electrical engineering surged 37–46% on the physical build-out of data centers, power grids, and factories; software development climbed 23% (+26% since the July 2025 tax law). Routine office work missed the rebound: administrative assistance is down 2%, accounting down 3%, marketing flat, and customer service up 3%. Meanwhile, <strong>7.8%</strong> of all US postings now mention AI, up from 4.1% a year ago and 2.2% when ChatGPT launched.</li><li><strong>Labor&#x27;s share of income keeps sliding.</strong> In 2026 Q3, labor&#x27;s share of nonfarm business output fell to another <strong>record low since 1947</strong>—6% below its 2019 average and 3% below late 2022. Growing output from flat hours while paying labor a shrinking slice is far more troubling than any aggregate jobs counterfactual.</li></ul>
+
+<h2>6. Scorecard</h2>
+
+<div class="blog-table"><table><thead><tr><th>Claim</th><th>Does it replicate?</th><th>What the stress tests show</th></tr></thead><tbody><tr><td>White-collar payrolls decoupled from GDP</td><td>Yes: −3.3M (−8.7%)</td><td>Real and large</td></tr><tr><td>Worst decoupling in 40 years</td><td>In hindsight, yes (−9.1% log vs. −8.1% in 2001–04)</td><td>Not in real time: 2001–04 (−12.4%) and 2007–10 (−11.7%) were deeper</td></tr><tr><td>Economy is missing 3–6 million jobs</td><td>30-yr model gap is −3.0M (inside 95% band)</td><td>Would require 2.4% unemployment (below 1953&#x27;s 2.5% record). Okun&#x27;s law implies ~1.9M slack from all causes</td></tr><tr><td>The white-collar gap is AI</td><td>Partly at most</td><td>A third is staffing (peaked Mar 2022); pace has slowed since 2023. Yet core office work ex-admin is still −1.65M (−6.7%), worst in real time since 2005</td></tr><tr><td>Health care and government mask losses</td><td>They supplied 87% of net job gains</td><td>From 2019, health &amp; ed are −1.3M <em>below</em> trend—catching up from pandemic losses while drawing scarce workers</td></tr><tr><td>Growth is productivity, not hours</td><td>Yes: 92% from productivity since 2022 Q4</td><td>2.7%/yr from a 2022 dip (2.2%/yr since 2019); normal for a full-employment economy with high CapEx</td></tr><tr><td>Hiring froze while layoffs stayed low</td><td>Yes (hires 3.6%, layoffs 1.2%)</td><td>Clearest early-warning sign, though shared with high interest rates</td></tr></tbody></table></div>
+
+<p><em>Table 1 — Shapiro&#x27;s claims against the stress tests in this essay.</em></p>
+
+<h2>7. Post-labor or less-labor?</h2>
+
+<p>Shapiro&#x27;s verdict—&quot;post-labor is happening ready or not&quot;—outruns the evidence. Prime-age employment sits near a 25-year high, total hours are still rising, and a comparable white-collar shortfall after the dot-com bust eventually closed. In the terms of my earlier essay, neither the workweek nor mid-career employment has broken.</p>
+
+<p>Yet his charts sharpen the exact early-warning signs my historical analysis flagged. <strong>Firms are expanding output without expanding office headcount, doors have narrowed for newcomers, and labor&#x27;s share of business income keeps carving out new lows.</strong> Whether that reflects a fading rate-and-tax shock plus data-center CapEx, or the leading edge of AI substitution, today&#x27;s data cannot yet separate. Six signposts—the four from <a href="https://www.gokhanmergen.com/blog-post-labor-or-less-labor.html" target="_blank" rel="noopener noreferrer">Post-Labor or Less-Labor?</a> plus two sharpened by this exercise—will settle the debate:</p>
+
+<div class="blog-table"><table><thead><tr><th>Signpost</th><th>What a post-labor break looks like</th><th>Latest reading</th><th>Status</th></tr></thead><tbody><tr><td>Hours per working-age adult</td><td>Sustained drop outside recessions</td><td>Nonfarm hours per 25–54 adult: −0.4%/yr since 2022 Q4, flat since 2019</td><td>Normal</td></tr><tr><td>Mid-career &amp; entry employment</td><td>Prime-age falls; young adults locked out first</td><td>Ages 25–54: <strong>80.7%</strong>. Ages 20–24: <strong>66.5%</strong> in Oct (65.8% YTD vs. 67.3% in 2019); unemp <strong>7.5%</strong></td><td>Holding; entry softer</td></tr><tr><td>Labor&#x27;s share &amp; typical pay</td><td>Productivity rises while labor&#x27;s share and real pay stall</td><td>Labor share at a <strong>record low</strong> in 2026 Q3; production workers&#x27; real pay <strong>−0.5% YoY</strong> in Oct (inflation 3.8%)</td><td>Warning</td></tr><tr><td>Income outside work</td><td>Real income falls (displacement) or non-wage income surges (leisure)</td><td>Real disposable income per person <strong>+1.4% YoY</strong> (+1.8%/yr since 2019)</td><td>Normal</td></tr><tr><td><em>New:</em> core white-collar gap</td><td>Shortfall spreads into growing fields (legal, accounting, consulting, finance) and accelerates</td><td>Concentrated in staffing &amp; IT; core office ex-admin <strong>−1.65M</strong>, widening more slowly than in 2023</td><td>Watch</td></tr><tr><td><em>New:</em> Okun&#x27;s-law unemployment</td><td>Displacement creates jobless workers, not unfilled models</td><td><strong>~1.1 points (1.9M people)</strong> above GDP predictions, from all causes</td><td>Watch</td></tr></tbody></table></div>
+
+<p><em>Table 2 — Sources: BLS and BEA via FRED; computed for this page.</em></p>
+
+<p>If the white-collar shortfall spreads into growing professional fields, excess unemployment widens, and labor&#x27;s share keeps sliding, I will update toward Shapiro. The fact that production and nonsupervisory workers&#x27; real hourly pay is now falling over the past year already makes the record-low labor share much harder to wave away as statistical noise.</p>
+
+<p>For now, though, the data describe <strong>less-labor economics under strain</strong>: more output from the same hours, narrower entryways for newcomers, and a smaller slice of the pie for the people doing the work. The tractor is here. The question, more than ever, is who owns it.</p>
+
+<details class="blog-article-fold"><summary><h2>Methods and data</h2></summary>
+
+<ul><li><strong>Data sources:</strong> BEA real and nominal GDP and investment (plus official BEA growth contributions), and BLS payrolls (CES), unemployment and labor force (CPS), JOLTS, and nonfarm business productivity and labor share via FRED, retrieved November 26, 2026. Job postings come from <a href="https://github.com/hiring-lab/job_postings_tracker" target="_blank" rel="noopener noreferrer">Indeed Hiring Lab</a> and its <a href="https://github.com/hiring-lab/ai-tracker" target="_blank" rel="noopener noreferrer">AI tracker</a> (CC BY 4.0, seasonally adjusted, February 2020 = 100).</li><li><strong>Okun-GDP models:</strong> OLS of quarterly log payroll growth (quarterly averages of monthly series, dropping any trailing incomplete quarter) on quarterly log real GDP growth in the same quarter and two prior quarters over 1990 Q1–2019 Q4 (\(R^2 = 0.66\) private, \(0.68\) white-collar), rolled forward from 2022 Q4 with actual GDP. The 95% bands use the 2.5th–97.5th percentiles of overlapping multi-quarter cumulative errors over 1990–2019, preserving serial correlation. Okun&#x27;s law regresses quarterly unemployment-rate changes on GDP growth in the same and two prior quarters over the same period.</li><li><strong>Industry definitions &amp; cross-checks:</strong> <em>White-collar core</em> combines professional and business services, information, and financial activities; industry gaps fit the same model to each subsector separately. <em>Core knowledge work</em> comprises information (NAICS 51), finance and insurance (52), professional, scientific, and technical services (54), and management of companies (55). The labor-supply cross-check adds labor-force growth and lagged unemployment to the private-payroll model.</li><li><strong>Investment adjustment:</strong> Investment shares and growth contributions use BEA&#x27;s official nominal shares and real contributions; the ex-capex GDP counterfactual subtracts chained-dollar equipment and IP investment from real GDP (an approximation because chained dollars are not additive).</li></ul>
+
+</details>
+        </article>
+      </div>
+
+      <section class="blog-subscribe" aria-labelledby="subscribe-title">
+        <div>
+          <p class="section-kicker">Subscribe</p>
+          <h2 id="subscribe-title">Get new posts by email.</h2>
+          <p>New posts arrive by email through my Substack. Unsubscribe anytime. Or follow the <a href="feed.xml">RSS feed</a>.</p>
+        </div>
+        <a class="button button-primary blog-subscribe-button" href="https://gokhanmergen.substack.com/subscribe" target="_blank" rel="noopener">Subscribe on Substack</a>
+      </section>
+
+      <section class="blog-comments" aria-labelledby="comments-title">
+        <h2 id="comments-title">Comments</h2>
+        <script src="https://giscus.app/client.js" data-repo="gokhanmergen/gokhanmergen.github.io" data-repo-id="R_kgDOUQjsYw" data-category="Announcements" data-category-id="DIC_kwDOUQjsY84DHS59" data-mapping="specific" data-term="is-ai-eating-jobs" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" data-loading="lazy" crossorigin="anonymous" async></script>
+      </section>
+
+      <section class="blog-article-footer" aria-labelledby="next-reading-title">
+        <div>
+          <p class="section-kicker">More from My Blog: Post AGI</p>
+          <h2 id="next-reading-title">Read another article.</h2>
+        </div>
+        <div class="blog-closing-copy">
+          <p>Browse the archive or continue with the next older post.</p>
+          <div class="page-actions">
+            <a class="button button-primary" href="blog.html">All blog posts <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="blog-is-ai-a-bubble.html">Next older post <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Gökhan Mergen (c) 2026 · Opinions expressed are solely my own and do not express the views or opinions of my employer.</span>
+      <a href="blog.html">Back to the blog ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
