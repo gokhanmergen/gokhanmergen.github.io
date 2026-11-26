@@ -93,7 +93,7 @@ At an index level of 23,734, the Nasdaq sits +30.5% **above its 55-year log-line
 That single number cuts through both extremes of the debate:
 
 1. **It is not 2000.** Comparing +30.5% today to +267.2% in February 2000 is analytically absurd. Looking at the investments being made by Nvidia and the major hyperscalers, this isn't empty dot-com vaporware—it is backed by fortress balance sheets, massive real cash flows, and genuine technological transformation.
-2. **It *is* overvalued—leaving little room for error.** Crossing above +25% puts the market squarely in the *Overvalued* regime. Normally, a 10.4% annualized secular trend can absorb a +30% premium through a few years of choppy, sideways consolidation.
+2. **It *is* overvalued.** Crossing above +25% puts the market squarely in the *Overvalued* regime.
 
 **And yet, a violent crash is still entirely possible.**
 
