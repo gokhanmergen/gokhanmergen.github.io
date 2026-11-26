@@ -4,7 +4,7 @@ date: 2026-11-25
 time: 21:00
 category: Markets / AI
 read_time: 10 min read
-title: Is AI a Bubble? It Depends on Which Bubble You Mean
+title: Is AI a Bubble?
 deck: The technology is real and the demand is real. Whether today's trillion-dollar build-out turns out to be a bubble depends on future revenue we cannot yet see—and on who gets hurt if it falls short.
 archive_deck: The technology is real and the demand is real. Whether today's trillion-dollar build-out turns out to be a bubble depends on future revenue we cannot yet see—and on who gets hurt if it falls short.
 ---
@@ -13,7 +13,7 @@ archive_deck: The technology is real and the demand is real. Whether today's tri
 
 It also helps to remember that a technology can be real and still hurt its investors. Britain's railways in the 1840s and America's fiber-optic networks in the late 1990s changed their economies for good, yet much of the capital that built them was lost when demand arrived more slowly than debt came due. So the useful question is not whether AI works—it clearly does. The question is whether the trillions being spent on it will earn their keep, and where fragility is building if growth slows or macro conditions tighten.
 
-In my previous post, I looked at prices: the Nasdaq sits about 30% above its 55-year trend—overvalued and vulnerable to a macro shock, but nowhere near the mania of 2000. Here I look under the hood, at the money going in and the money coming out. The capex and revenue pool figures below come from a longer analysis I finished at the end of October 2026, built mostly from company filings, updated for major November developments including Nvidia's third-quarter earnings and Anthropic's stock-market debut.
+In my previous post, I looked at prices: the Nasdaq sits about 30% above its 55-year trend—overvalued and vulnerable to a macro shock, but nowhere near the mania of 2000. Here I look under the hood, at the money going in and the money coming out. The capex and revenue pool figures below come from a longer analysis I finished at the end of October 2026, built mostly from company filings, updated for major November developments including Nvidia's third-quarter earnings and Anthropic's stock-market debut. Every number, formula and source is documented in the companion [Methods, Data, and Sources PDF](/pubs/is-ai-a-bubble/methods-and-data.pdf).
 
 ## Spending has outrun current revenue
 
@@ -102,3 +102,5 @@ Because the verdict depends on future revenue rather than today's headlines, thr
 3. **Anthropic's public-market endurance and OpenAI's path to an IPO.** Anthropic's November debut proved public markets will fund an AI lab at historic scale, but its quick return to the $83 IPO price shows investors are scrutinizing its ~$900 billion in compute commitments. How ANT trades over the next few quarters—and whether OpenAI can smoothly tap public markets in 2027—will determine whether capital keeps flowing through the center of the loop.
 
 If a sharp sell-off does arrive—whether triggered by disappointing AI revenue or by a macro shock hitting an overvalued market—it will most likely break first at the leveraged edges, not in the underlying technology. And if it happens, plenty of commentators will declare that AI was a bubble all along. The more honest answer today is simpler: heavy spending is not a bubble by itself. It is a high-stakes bet on future revenue, and only the next few years of cash flows will tell us whether it paid off.
+
+*Definitions, calculations, sources and limits: [Methods, Data, and Sources (PDF)](/pubs/is-ai-a-bubble/methods-and-data.pdf).*
