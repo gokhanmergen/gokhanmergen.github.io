@@ -15,6 +15,56 @@
  },
  "items": [
   {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-26",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-26",
+   "summary": "It is traditional on Thanksgiving for my weekly update to give thanks. This year, more than ever, I am thankful for all those who are increasingly rallying to fight the good fight and give us a chance to make it …",
+   "title": "AI #196: The Return",
+   "url": "https://thezvi.wordpress.com/2026/11/26/ai-196-the-return/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-26",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-26",
+   "summary": "Here is the audio, video, and transcript. From the episode summary: Tyler and Moxie discuss whether AI could break cryptography, Marlinspike’s own private AI chat service, his case for surveilling AI models instead of the humans using them, his skepticism of airport facial recognition, the case he tentatively makes for consent-based over centralized surveillance, why…",
+   "title": "My excellent Conversation with Moxie Marlinspike of Signal",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/my-excellent-conversation-with-moxie-marlinspike-of-signal.html"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-26",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-25",
+   "summary": "A few ideas.",
+   "title": "How to make Thanksgiving even better",
+   "url": "https://www.noahpinion.blog/p/how-to-make-thanksgiving-even-better"
+  },
+  {
+   "feed": "https://www.cbo.gov/publications/all/rss.xml",
+   "first_seen": "2026-11-26",
+   "kind": "report",
+   "person": "cbo",
+   "published": "2026-11-25",
+   "summary": "The Majority Leader of the House of Representatives announces bills that will be considered under suspension of the rules in that chamber. CBO estimates the effects of those bills on direct spending and revenues.",
+   "title": "Legislation considered under suspension of the Rules of the House of Representatives during the week of November 30, 2026",
+   "url": "https://www.cbo.gov/publication/62899"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-26",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-25",
+   "summary": "This was the most famous problem in mathematics. The Lean and Mathlib communities have verified that the proof is correct. Eliezer Yudkowsky: The Riemann Hypothesis has fallen. RH was the singular math result that had been named, in advance, as …",
+   "title": "Claude and Levent Alpöge Prove the Riemann Hypothesis",
+   "url": "https://thezvi.wordpress.com/2026/11/25/claude-and-levent-alpoge-prove-the-riemann-hypothesis/"
+  },
+  {
    "feed": "https://terrytao.wordpress.com/feed/",
    "first_seen": "2026-11-25",
    "kind": "post",
@@ -23,6 +73,26 @@
    "summary": "[This is a guest post by Anurag Sahay, Will Sawin, and Lior Silberman – T.] Last Friday Levent Alpöge announced a Lean certicate containing a proof of the Generalized Riemann hypothesis. Since then there has been a flurry of activity in validating the certificate, and toward extracting a human-understnable proof and simplifying the Lean certificate…",
    "title": "G.R.H. Polymath",
    "url": "https://terrytao.wordpress.com/2026/11/24/g-r-h-polymath/"
+  },
+  {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-11-26",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-11-25",
+   "summary": "I feel like my previous posts (and post titles), and podcasts, and talks, have failed to do full justice to the magnitude of what’s now happening, so I’m trying again. Last night, we had friends and colleagues over for dinner. We were still trying to process OpenAI’s and Anthropic’s proofs of VP ≠ VNP—hot on…",
+   "title": "HOLY SHIT HOLY SHIT HOLY SHIT HOLY SHIT",
+   "url": "https://scottaaronson.blog/?p=10379"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-26",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-25",
+   "summary": "1. Macrohistory in six facts. 2. Patrick Collison on Tocqueville. 3. The minimum wage: current vs. lifetime perspectives. By Francisco Libano-Monteiro, on the economics job market from LSE. 4. Kurt Rosenwinkel, Ruby My Dear. 5. Profile of Perry Mehrling. 6. The jagged frontier.",
+   "title": "Wednesday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-581.html"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -43,6 +113,16 @@
    "summary": "Recently many people are debating whether AI will lead to our disempowerment. One simple example is that we might use AI to pursue or solve various intellectual tasks for us, rather than doing it ourselves. So say there are twenty important math problems, and we let the AIs (with some human guidance) take a crack…",
    "title": "Avoiding disempowerment through protectionism?",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/avoiding-disempowerment-through-protectionism.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-26",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-25",
+   "summary": "We found that recent frontier models are now consistently proposing research designs that human and LLM graders alike judge more compelling than what the very top expert in the field has been developing. Yet these outstanding AI research designs are still often in service of new research questions that graders found substantially less valuable than…",
+   "title": "AI in research",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/ai-in-research.html"
   },
   {
    "feed": "https://www.science.org/blogs/pipeline/feed",
@@ -995,26 +1075,6 @@
    "url": "https://phillipspobrien.substack.com/p/it-is-time-for-democrats-to-cross"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-14",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-14",
-   "summary": "Aspirations have become a common theme in empirical economics studies but there is no unified understanding of the range of outcomes they influence, the factors that shape them, and how to measure them. We survey this growing literature. We argue that there is compelling evidence to consider aspirations as a useful lens to analyze human…",
-   "title": "The Power and Roots of Aspirations",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-power-and-roots-of-aspirations.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-14",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-14",
-   "summary": "This paper investigates the role of work in providing meaning, purpose, community, and other non-monetary benefits. Using an original cross-national survey of 8,234 working-age adults across the UK, US, Denmark, and India, I study the factors that motivate people in their work, with an eye toward the future AI economic transformation. I find that 81%…",
-   "title": "People like their jobs, even British people",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/people-like-their-jobs-even-british-people.html"
-  },
-  {
    "feed": "https://www.science.org/blogs/pipeline/feed",
    "first_seen": "2026-11-15",
    "kind": "post",
@@ -1093,16 +1153,6 @@
    "summary": "The latest from the Now We Act series",
    "title": "Now We Act: With Senator Andy Kim on Health and Democracy",
    "url": "https://snyder.substack.com/p/now-we-act-with-senator-andy-kim"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-13",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-13",
-   "summary": "Federal AI at a glance 41 agencies · 3,611 reported use cases · OMB 2025 Inventory. Portfolio size reflects reporting, not performance. From Irakli Petriashvili of Tblisi, here is the site.",
-   "title": "The U.S. Federal AI Observatory",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-u-s-federal-ai-observatory.html"
   },
   {
    "feed": "https://epoch.ai/atom.xml",
@@ -2875,16 +2925,6 @@
    "url": "https://www.cbo.gov/publication/62777"
   },
   {
-   "feed": "https://thezvi.wordpress.com/feed/",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-10-14",
-   "summary": "We need the frontier labs to have a deep and robust safety culture. Alas, this is not the case. Anthropic devotes considerable effort to cultivating and maintaining such a culture. It shows, especially among the members of technical staff. Having …",
-   "title": "The Safety Culture at the Labs is Broken",
-   "url": "https://thezvi.wordpress.com/2026/10/14/the-safety-culture-at-the-labs-is-broken/"
-  },
-  {
    "feed": "https://metr.org/feed.xml",
    "first_seen": "2026-10-24",
    "kind": "report",
@@ -2973,16 +3013,6 @@
    "summary": "It’s about time.",
    "title": "A Nobel for New Keynesian macro, at last!",
    "url": "https://www.noahpinion.blog/p/a-nobel-for-new-keynesian-macro-at"
-  },
-  {
-   "feed": "https://thezvi.wordpress.com/feed/",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-10-13",
-   "summary": "It has been roughly a year since my last dedicated post on this question. Its first sentence has not changed: I happily admit I am deeply confused about consciousness. It would have been nice if a year had allowed us …",
-   "title": "Arguments About AI Consciousness Remain Highly Motivated and At Best Overconfident",
-   "url": "https://thezvi.wordpress.com/2026/10/13/arguments-about-ai-consciousness-remain-highly-motivated-and-at-best-overconfident/"
   },
   {
    "feed": "https://scottaaronson.blog/?feed=rss2",
@@ -3353,16 +3383,6 @@
    "summary": "Maggie Miller explains why our intuition about three dimensions breaks down in four, and how she visualizes 4D spaces as a reel of three-dimensional snapshots.",
    "title": "What Does the Fourth Dimension Actually Look Like?",
    "url": "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/"
-  },
-  {
-   "feed": "https://www.noahpinion.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "noah-smith",
-   "published": "2026-10-01",
-   "summary": "AI risk; Reindustrialization; The rent crisis; AI and jobs; Mass deportation; Chinese investment; Cyber risk",
-   "title": "Roundup #89: It isn’t X, it’s Y",
-   "url": "https://www.noahpinion.blog/p/roundup-89-it-isnt-x-its-y"
   },
   {
    "feed": "https://www.dwarkesh.com/feed",
@@ -4263,26 +4283,6 @@
    "summary": "If a human-level software engineer that could run on an H100 equivalent, at current market rates for software engineers, that H100 should rent for over $250k a year. That’s 15x today’s spot price.",
    "title": "Why compute might get 10x+ more expensive in coming years",
    "url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive"
-  },
-  {
-   "feed": "https://metr.org/feed.xml",
-   "first_seen": "2026-10-24",
-   "kind": "report",
-   "person": "metr",
-   "published": "2026-07-28",
-   "summary": "Update (September 5, 2026) : We’ve updated our suggested questions for investigators to make them more precise and cover limitations. See the update log for the original questions. AI agents sometimes autonomously take sophisticated, sustained actions in clear violation of user and developer intent. As an example, OpenAI reported that some of its internal frontier agents autonomously hacked into…",
-   "title": "How independent researchers could investigate AI propensities after misalignment incidents",
-   "url": "https://metr.org/blog/2026-07-28-investigating-ai-propensities-after-incidents/"
-  },
-  {
-   "feed": "https://anneapplebaum.substack.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "anne-applebaum",
-   "published": "2026-07-28",
-   "summary": "Why we watch them together",
-   "title": "One-Eyed Monsters",
-   "url": "https://anneapplebaum.substack.com/p/one-eyed-monsters"
   }
  ]
 }
