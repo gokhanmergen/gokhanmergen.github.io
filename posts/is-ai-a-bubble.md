@@ -5,8 +5,8 @@ time: 21:00
 category: Markets / AI
 read_time: 10 min read
 title: Is AI a Bubble?
-deck: The technology is real and the demand is real. Whether today's trillion-dollar build-out turns out to be a bubble depends on future revenue we cannot yet see—and on who gets hurt if it falls short.
-archive_deck: The technology is real and the demand is real. Whether today's trillion-dollar build-out turns out to be a bubble depends on future revenue we cannot yet see—and on who gets hurt if it falls short.
+deck: The technology is real and the demand is real. Whether today's trillion-dollar build-out turns out to be a bubble depends on future revenue we cannot yet see.
+archive_deck: The technology is real and the demand is real. Whether today's trillion-dollar build-out turns out to be a bubble depends on future revenue we cannot yet see.
 ---
 
 "Is AI a bubble?" may be the most asked question in finance this year. It rarely gets a straight answer, for two reasons. First, "bubble" means different things to different people: high stock prices, building more capacity than anyone will use, or funding it with too much debt. Second, as I argued in [my previous post](https://www.gokhanmergen.com/blog-what-is-a-bubble.html), you can never *prove* a bubble in real time—a massive capital build-out is only a bubble in hindsight if the future revenue fails to materialize.
