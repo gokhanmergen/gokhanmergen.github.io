@@ -16,6 +16,26 @@
  "items": [
   {
    "feed": "https://thezvi.wordpress.com/feed/",
+   "first_seen": "2026-11-27",
+   "kind": "post",
+   "person": "zvi-mowshowitz",
+   "published": "2026-11-27",
+   "summary": "Astra 6.2 has very high intelligence. Astra 6.2 has very low wisdom. Astra will solve extremely hard problems, and also find the problem of ‘what did the user want me to do’ extremely hard. We thought those days were behind …",
+   "title": "Astra 6.2’s Brain Gets Smart But Its Head Gets Dumb",
+   "url": "https://thezvi.wordpress.com/2026/11/27/astra-6-2s-brain-gets-smart-but-its-head-gets-dumb/"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-27",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-27",
+   "summary": "When people talk about India’s economy, they almost always compare it negatively with China’s, it has not industrialized as fast, its bureaucracy is still maddening, its cities are still choked with traffic and smog. All true. But if you step back one of the greatest stories of the twenty-first century is unfolding: India, like China…",
+   "title": "India is on the Move",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/india-is-on-the-move.html"
+  },
+  {
+   "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-11-26",
    "kind": "post",
    "person": "zvi-mowshowitz",
@@ -23,6 +43,26 @@
    "summary": "It is traditional on Thanksgiving for my weekly update to give thanks. This year, more than ever, I am thankful for all those who are increasingly rallying to fight the good fight and give us a chance to make it …",
    "title": "AI #196: The Return",
    "url": "https://thezvi.wordpress.com/2026/11/26/ai-196-the-return/"
+  },
+  {
+   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
+   "first_seen": "2026-11-27",
+   "kind": "podcast",
+   "person": "matt-kaeberlein",
+   "published": "2026-11-26",
+   "summary": "A new study compared survival in more than 11,000 kidney transplant recipients on immunosuppressive regimens with or without rapamycin. The researchers found no statistically significant difference in survival. So what does that tell us about whether rapamycin can slow aging in otherwise healthy adults?In this short episode of Longevity Science, I walk through what the researchers did, what they…",
+   "title": "Rapamycin and Longevity: What the New Study Actually Found",
+   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Rapamycin-and-Longevity-What-the-New-Study-Actually-Found-e3ssiu4"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-27",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-26",
+   "summary": "1. What is Rockabilly? (short video) 2. What is the plan to grow Chicago? 3. On Chinese clinical trials. 4. The economy is booming. 5. Seb Krier, on Pinker. 6. At least one attempt at asteroid deflection succeeded. 7. Progress in green cement production?",
+   "title": "Thanksgiving assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/thanksgiving-assorted-links-6.html"
   },
   {
    "feed": "https://marginalrevolution.com/feed",
@@ -70,7 +110,7 @@
    "kind": "post",
    "person": "terence-tao",
    "published": "2026-11-25",
-   "summary": "[This is a guest post by Anurag Sahay, Will Sawin, and Lior Silberman – T.] Last Friday Levent Alpöge announced a Lean certicate containing a proof of the Generalized Riemann hypothesis. Since then there has been a flurry of activity in validating the certificate, and toward extracting a human-understnable proof and simplifying the Lean certificate…",
+   "summary": "[This is a guest post by Anurag Sahay, Will Sawin, and Lior Silberman – T.] Last Friday Levent Alpöge announced a Lean certicate containing a proof of the Generalized Riemann hypothesis. Since then there has been a flurry of activity in validating the certificate, and toward extracting a human-understandable proof and simplifying the Lean certificate…",
    "title": "G.R.H. Polymath",
    "url": "https://terrytao.wordpress.com/2026/11/24/g-r-h-polymath/"
   },
@@ -993,26 +1033,6 @@
    "summary": "Russian Losses Are Being Revised Upwards; Starlink/Starshield Is Limited Again",
    "title": "Weekend Update #211: The Week In Which Stupidity Battled Evil",
    "url": "https://phillipspobrien.substack.com/p/weekend-update-211-the-week-in-which"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-16",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-15",
-   "summary": "1. His office. 2. The South African bi-oceanic railway. 3. Ethnic politics and class politics. 4. AI-generated preview is going viral, what is the chance they make the movie now? I will pay to see it. Is this a new method of movie evaluation and greenlighting? 5. Ezra Klein on the permitting bill (NYT). 6.…",
-   "title": "Sunday assorted links",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/sunday-assorted-links-590.html"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-15",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-15",
-   "summary": "In a “weak links” model of production, where tasks are complements, the gains from automation tend to arrive slowly because output is constrained by the least productive tasks. But the same complementarity makes attacks more harmful and easier to execute. For example, with an elasticity of substitution across tasks of 0.2, automating tasks worth 1…",
-   "title": "AI and complements",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/ai-and-complements.html"
   },
   {
    "feed": "https://erictopol.substack.com/feed",
@@ -2875,16 +2895,6 @@
    "url": "https://www.noahpinion.blog/p/ai-vs-the-railroads"
   },
   {
-   "feed": "https://thezvi.wordpress.com/feed/",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "zvi-mowshowitz",
-   "published": "2026-10-15",
-   "summary": "The amount of code being written at Anthropic continues to rise exponentially. It is being managed by Scion, their internal replacement for GitHub that is better suited to the scale and style of the operation, which they created with a …",
-   "title": "AI #190: Scion of the Times",
-   "url": "https://thezvi.wordpress.com/2026/10/15/ai-190-scion-of-the-times/"
-  },
-  {
    "feed": "https://phillipspobrien.substack.com/feed",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -4273,16 +4283,6 @@
    "summary": "For years, Irina Conboy has been one of the most influential scientists studying how aging is regulated by factors circulating in the blood. Her pioneering work on heterochronic parabiosis helped reshape the way researchers think about aging, rejuvenation, and the biology of systemic signaling.In this episode of Longevity Science, I sit down with Irina and Alina Rui Su, co-founders of Generation…",
    "title": "Irina Conboy Says We've Been Measuring Aging All Wrong",
    "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Irina-Conboy-Says-Weve-Been-Measuring-Aging-All-Wrong-e3mo8sp"
-  },
-  {
-   "feed": "https://www.dwarkesh.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "dwarkesh-patel",
-   "published": "2026-07-29",
-   "summary": "If a human-level software engineer that could run on an H100 equivalent, at current market rates for software engineers, that H100 should rent for over $250k a year. That’s 15x today’s spot price.",
-   "title": "Why compute might get 10x+ more expensive in coming years",
-   "url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive"
   }
  ]
 }
