@@ -15,6 +15,36 @@
  },
  "items": [
   {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-28",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-28",
+   "summary": "Here was my prompt: There are many discussions of “disempowerment” as a result of strong AI, and of whether humans “lose control” or agency. Do any of these discussions offer specific, detailed comparisons of how strong AI also may empower humans? Do they have any specific consideration, working through some examples and details, of the…",
+   "title": "Disempowerment vs. net disempowerment",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/disempowerment-vs-net-disempowerment.html"
+  },
+  {
+   "feed": "https://www.noahpinion.blog/feed",
+   "first_seen": "2026-11-28",
+   "kind": "post",
+   "person": "noah-smith",
+   "published": "2026-11-27",
+   "summary": "A guest post by Alex Shoer",
+   "title": "The coming age of sodium-ion batteries",
+   "url": "https://www.noahpinion.blog/p/the-coming-age-of-sodium-ion-batteries"
+  },
+  {
+   "feed": "https://www.dwarkesh.com/feed",
+   "first_seen": "2026-11-28",
+   "kind": "podcast",
+   "person": "dwarkesh-patel",
+   "published": "2026-11-27",
+   "summary": "\"If we pause now, people still won't understand what's at stake.\"",
+   "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+   "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil"
+  },
+  {
    "feed": "https://thezvi.wordpress.com/feed/",
    "first_seen": "2026-11-27",
    "kind": "post",
@@ -25,6 +55,16 @@
    "url": "https://thezvi.wordpress.com/2026/11/27/astra-6-2s-brain-gets-smart-but-its-head-gets-dumb/"
   },
   {
+   "feed": "https://scottaaronson.blog/?feed=rss2",
+   "first_seen": "2026-11-28",
+   "kind": "post",
+   "person": "scott-aaronson",
+   "published": "2026-11-27",
+   "summary": "Caller: Hello, am I speaking with Dr. Aaron … [reading from notes] … I mean, uhh … Scott … Aaronson? Me: Yes. Caller: Oh, hi Dr. Aaronson! I hope you were having a nice Thanksgiving dinner before I interrupted it. This is Rich Midwit calling from Snake-in-the-Grass Financial Newsletter. On behalf of my readers at…",
+   "title": "Every call",
+   "url": "https://scottaaronson.blog/?p=10387"
+  },
+  {
    "feed": "https://marginalrevolution.com/feed",
    "first_seen": "2026-11-27",
    "kind": "post",
@@ -33,6 +73,16 @@
    "summary": "When people talk about India’s economy, they almost always compare it negatively with China’s, it has not industrialized as fast, its bureaucracy is still maddening, its cities are still choked with traffic and smog. All true. But if you step back one of the greatest stories of the twenty-first century is unfolding: India, like China…",
    "title": "India is on the Move",
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/india-is-on-the-move.html"
+  },
+  {
+   "feed": "https://marginalrevolution.com/feed",
+   "first_seen": "2026-11-28",
+   "kind": "post",
+   "person": "tyler-cowen",
+   "published": "2026-11-27",
+   "summary": "1. Handbook of Blockchain and Society (open access). 2. Interview with Lars Peter Hansen. 3. A behavioral cost of living index, by Hubert Wu, on the job market from Oxford. 4. Cracking the Indus civilization script? 5. Luis Garicano on messy jobs (NYT). 6. Public platform with open math problems.",
+   "title": "Friday assorted links",
+   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/friday-assorted-links-601.html"
   },
   {
    "feed": "https://thezvi.wordpress.com/feed/",
@@ -885,16 +935,6 @@
    "url": "https://marginalrevolution.com/marginalrevolution/2026/11/alex-imas-and-i-podcast-on-the-economics-of-ai.html"
   },
   {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-17",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-17",
-   "summary": "In both German and English. Built with AI agents, we are going to see much more of this kind of effort. English-language explainer is here.",
-   "title": "Adlerlicht, reporting on crime in Germany",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/adlerlicht-reporting-on-crime-in-germany.html"
-  },
-  {
    "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-11-18",
    "kind": "post",
@@ -983,16 +1023,6 @@
    "summary": "Summary Models sometimes can tell that an eval is an alignment eval, not a capabilities eval (Needham & Edkins, 2025) . To figure out what features of an eval tell a model what kind of eval it’s in, we run investigator agents on a set of evals for both capabilities and alignment. We instruct these agents to explore the environment and probe what it’s evaluating. We find that investigator agents…",
    "title": "Measuring alignment eval tells",
    "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/"
-  },
-  {
-   "feed": "https://marginalrevolution.com/feed",
-   "first_seen": "2026-11-16",
-   "kind": "post",
-   "person": "tyler-cowen",
-   "published": "2026-11-16",
-   "summary": "From Adam Kaufman: I think it’s pretty likely that in 6 months there will be rogue AIs running around on the internet, appropriating whatever compute they can hack into or pay for (with stolen money or by renting out their own labor to assist with illegal activities) in order to run more copies. I also…",
-   "title": "A scenario for rogue AIs?",
-   "url": "https://marginalrevolution.com/marginalrevolution/2026/11/a-scenario-for-rogue-ais.html"
   },
   {
    "feed": "https://jack-clark.net/feed/",
@@ -3365,16 +3395,6 @@
    "url": "https://anneapplebaum.substack.com/p/who-is-american-foreign-policy-for"
   },
   {
-   "feed": "https://www.noahpinion.blog/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "noah-smith",
-   "published": "2026-10-03",
-   "summary": "How did Trump fumble so badly?",
-   "title": "The second Trump presidency is a world-historic failure",
-   "url": "https://www.noahpinion.blog/p/the-second-trump-presidency-is-a"
-  },
-  {
    "feed": "https://epoch.ai/atom.xml",
    "first_seen": "2026-10-24",
    "kind": "post",
@@ -4263,26 +4283,6 @@
    "summary": "A recording from Anne Applebaum and Ruth Ben-Ghiat's live video",
    "title": "Live with Ruth Ben-Ghiat",
    "url": "https://anneapplebaum.substack.com/p/live-with-ruth-ben-ghiat-a37"
-  },
-  {
-   "feed": "https://www.alexnowrasteh.com/feed",
-   "first_seen": "2026-10-24",
-   "kind": "post",
-   "person": "alex-nowrasteh",
-   "published": "2026-07-30",
-   "summary": "Praise for Melting Pot or Civil War? has ranged from the respectful to the worshipful.",
-   "title": "Review of MELTING POT OR CIVIL WAR? A SON OF IMMIGRANTS MAKES THE CASE AGAINST OPEN BORDERS by Reihan Salam",
-   "url": "https://www.alexnowrasteh.com/p/review-of-melting-pot-or-civil-war"
-  },
-  {
-   "feed": "https://anchor.fm/s/1119ecd40/podcast/rss",
-   "first_seen": "2026-10-24",
-   "kind": "podcast",
-   "person": "matt-kaeberlein",
-   "published": "2026-07-30",
-   "summary": "For years, Irina Conboy has been one of the most influential scientists studying how aging is regulated by factors circulating in the blood. Her pioneering work on heterochronic parabiosis helped reshape the way researchers think about aging, rejuvenation, and the biology of systemic signaling.In this episode of Longevity Science, I sit down with Irina and Alina Rui Su, co-founders of Generation…",
-   "title": "Irina Conboy Says We've Been Measuring Aging All Wrong",
-   "url": "https://podcasters.spotify.com/pod/show/matt-kaeberlein/episodes/Irina-Conboy-Says-Weve-Been-Measuring-Aging-All-Wrong-e3mo8sp"
   }
  ]
 }
